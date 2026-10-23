@@ -385,7 +385,8 @@
      "length_in": 72.8,
      "width_in": 22.0,
      "thickness_in": 0.7
-    }
+    },
+    "notes": "Store variant weight 230 g conflicts with product text (approx. 420 g); unresolved."
    }
   },
   {
@@ -1341,7 +1342,10 @@
    "set": {
     "specs": {
      "hood": false
-    }
+    },
+    "price_usd": 185,
+    "confidence": "medium",
+    "notes": "Custom-built; $185 base price (WooCommerce store API, checked 2026-10-23); fill selectable 2.5-8.5 oz of 850FP down, so weight varies."
    }
   },
   {
@@ -1349,7 +1353,10 @@
    "set": {
     "specs": {
      "hood": false
-    }
+    },
+    "price_usd": 75,
+    "confidence": "medium",
+    "notes": "Custom-built; $75 base price (WooCommerce store API, checked 2026-10-23); weight varies with size/fabric."
    }
   },
   {
@@ -1414,8 +1421,209 @@
      "fill_weight_g": 397
     }
    }
+  },
+  {
+   "id": "katabatic-gear-tarn-down-jacket-mens",
+   "set": {
+    "specs": {
+     "fill_power": 850,
+     "fill_weight_g": 102
+    }
+   }
+  },
+  {
+   "id": "katabatic-gear-tincup-down-jacket-mens",
+   "set": {
+    "specs": {
+     "fill_power": 850,
+     "fill_weight_g": 159
+    }
+   }
+  },
+  {
+   "id": "mountain-hardwear-stretchdown-hoody-womens",
+   "set": {
+    "specs": {
+     "fill_power": 700
+    }
+   }
+  },
+  {
+   "id": "mountain-hardwear-stretchdown-hoody-mens",
+   "set": {
+    "specs": {
+     "fill_power": 700
+    }
+   }
+  },
+  {
+   "id": "decathlon-simond-mt500-down-puffer-vest-mens",
+   "set": {
+    "specs": {
+     "fill_power": 660
+    },
+    "notes": "Decathlon lists fill power as 660 cuin, 85/15 down/feather."
+   }
+  },
+  {
+   "id": "decathlon-forclaz-mt100-down-puffer-jacket-womens",
+   "set": {
+    "url": "https://www.decathlon.com/products/forclaz-mountain-backpacking-down-jacket-mt100-335256",
+    "price_usd": 99.99,
+    "specs": {
+     "fill_power": 800
+    },
+    "notes": "Decathlon lists 800 cuin down; 9.2 oz (260 g)."
+   }
+  },
+  {
+   "id": "decathlon-simond-mt500-hooded-down-puffer-jacket-mens",
+   "set": {
+    "notes": "Price and 800 cuin 90/10 down verified on decathlon.com 2026-10-23; weight not listed on page (estimate)."
+   }
+  },
+  {
+   "id": "marmot-hydrogen-30f",
+   "set": {
+    "url": "https://www.marmot.com/p/hydrogen-down-30--sleeping-bag/SP_2284611/AFS_195115133726.html",
+    "weight_g": 720,
+    "weight_basis": "manufacturer",
+    "weight_note": "Regular (fits to 6 ft); Marmot-listed 1 lb 9.4 oz",
+    "price_usd": 429,
+    "confidence": "high",
+    "notes": "Current Hydrogen Down 30° (style M14402), ExpeDRY 800FP goose; tested comfort 36°F / limit 27°F. Long $449."
+   }
+  },
+  {
+   "id": "marmot-phase-20",
+   "set": {
+    "discontinued": true,
+    "notes": "Phase not listed in marmot.com ultralight or backpacking sleeping-bag catalogs (checked 2026-10-23); weight approximate."
+   }
+  },
+  {
+   "id": "marmot-phase-30",
+   "set": {
+    "discontinued": true,
+    "notes": "Phase not listed in marmot.com ultralight or backpacking sleeping-bag catalogs (checked 2026-10-23); weight approximate."
+   }
+  },
+  {
+   "id": "marmot-helium-15f",
+   "set": {
+    "notes": "Only the Helium Down 15° Long ($539) is listed on marmot.com at check time (2026-10-23); Regular price not shown. Weight approximate."
+   }
+  },
+  {
+   "id": "big-agnes-fly-creek-ul-quilt",
+   "set": {
+    "specs": {
+     "fill_power": 850
+    }
+   }
+  },
+  {
+   "id": "naturehike-tuye-r3-5-ultralight-inflatable-pad-168x58-mummy",
+   "set": {
+    "weight_g": 450,
+    "weight_note": "Small Single Mummy 168x58x7 cm; spec table ~450 g (intro text says as little as 415 g)",
+    "confidence": "high"
+   }
   }
  ],
- "additions": [],
+ "additions": [
+  {
+   "id": "cumulus-the-quilt-300",
+   "category": "sleep-insulation",
+   "subcategory": "quilt",
+   "brand": "Cumulus",
+   "model": "The Quilt 300",
+   "variant": null,
+   "weight_g": 496,
+   "weight_basis": "manufacturer",
+   "weight_note": "Cumulus-listed 17.5 oz (standard size)",
+   "price_usd": 385,
+   "specs": {
+    "temp_rating_f": 28,
+    "fill": "down",
+    "fill_power": 900,
+    "fill_weight_g": 301,
+    "style": "quilt (open construction)"
+   },
+   "url": "https://cumulus.equipment/en/ga/p/quilts-and-comforters-the-quilt-300",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "USD price from Cumulus global store (import taxes extra), checked 2026-10-23. Temp = limit 28°F; comfort 37°F."
+  },
+  {
+   "id": "cumulus-the-quilt-150",
+   "category": "sleep-insulation",
+   "subcategory": "quilt",
+   "brand": "Cumulus",
+   "model": "The Quilt 150",
+   "variant": null,
+   "weight_g": 301,
+   "weight_basis": "manufacturer",
+   "weight_note": "Cumulus-listed 10.6 oz (standard size)",
+   "price_usd": 289,
+   "specs": {
+    "temp_rating_f": 39,
+    "fill": "down",
+    "fill_power": 900,
+    "fill_weight_g": 150,
+    "style": "quilt (open construction)"
+   },
+   "url": "https://cumulus.equipment/en/ga/p/quilts-and-comforters-the-quilt-150",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "USD price from Cumulus global store (import taxes extra), checked 2026-10-23. Temp = limit 39°F; comfort 48°F."
+  },
+  {
+   "id": "cumulus-neo-quilt-300",
+   "category": "sleep-insulation",
+   "subcategory": "quilt",
+   "brand": "Cumulus",
+   "model": "Neo Quilt 300",
+   "variant": null,
+   "weight_g": 454,
+   "weight_basis": "manufacturer",
+   "weight_note": "Cumulus-listed 16 oz (standard size)",
+   "price_usd": 385,
+   "specs": {
+    "temp_rating_f": 27,
+    "fill": "down",
+    "fill_power": 900,
+    "fill_weight_g": 301,
+    "style": "quilt (closed footbox)"
+   },
+   "url": "https://cumulus.equipment/en/ga/p/quilts-and-comforters-neo-quilt-300",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "USD price from Cumulus global store (import taxes extra), checked 2026-10-23. Temp = limit 27°F; comfort 37°F."
+  },
+  {
+   "id": "cumulus-neo-quilt-450",
+   "category": "sleep-insulation",
+   "subcategory": "quilt",
+   "brand": "Cumulus",
+   "model": "Neo Quilt 450",
+   "variant": null,
+   "weight_g": 610,
+   "weight_basis": "manufacturer",
+   "weight_note": "Cumulus-listed 21.5 oz (standard size)",
+   "price_usd": 445,
+   "specs": {
+    "temp_rating_f": 18,
+    "fill": "down",
+    "fill_power": 900,
+    "fill_weight_g": 451,
+    "style": "quilt (closed footbox)"
+   },
+   "url": "https://cumulus.equipment/en/ga/p/quilts-and-comforters-neo-quilt-450",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "USD price from Cumulus global store (import taxes extra), checked 2026-10-23. Temp = limit 18°F; comfort 28°F."
+  }
+ ],
  "removals": []
 }
