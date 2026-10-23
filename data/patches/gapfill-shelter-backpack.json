@@ -1,0 +1,1400 @@
+{
+  "updates": [
+    {
+      "id": "hilleberg-enan",
+      "set": {
+        "price_usd": 845,
+        "url": "https://hilleberg.com/eng/products/tent/Enan",
+        "weight_note": "minimum weight 960 g (fly, inner, poles); packed 1200 g",
+        "specs": {
+          "packed_size": "43 x 13 cm"
+        }
+      }
+    },
+    {
+      "id": "hilleberg-akto",
+      "set": {
+        "price_usd": 750,
+        "url": "https://hilleberg.com/eng/products/tent/Akto",
+        "weight_note": "minimum weight 1300 g; packed 1700 g",
+        "specs": {
+          "packed_size": "43 x 13 cm",
+          "seasons": 4
+        }
+      }
+    },
+    {
+      "id": "hilleberg-niak",
+      "set": {
+        "price_usd": 995,
+        "url": "https://hilleberg.com/eng/products/tent/Niak",
+        "weight_note": "minimum weight 1500 g; packed 1700 g",
+        "specs": {
+          "packed_size": "46 x 14 cm"
+        }
+      }
+    },
+    {
+      "id": "hilleberg-anjan-2",
+      "set": {
+        "price_usd": 895,
+        "url": "https://hilleberg.com/eng/products/tent/Anjan",
+        "weight_note": "Anjan 2: minimum weight 1500 g; packed 1800 g",
+        "specs": {
+          "packed_size": "46 x 13 cm"
+        }
+      }
+    },
+    {
+      "id": "hilleberg-rogen",
+      "set": {
+        "price_usd": 1295,
+        "url": "https://hilleberg.com/eng/products/tent/Rogen",
+        "specs": {
+          "material": "Kerlon 1000",
+          "packed_size": "46 x 15 cm"
+        }
+      }
+    },
+    {
+      "id": "hilleberg-unna",
+      "set": {
+        "price_usd": 930,
+        "url": "https://hilleberg.com/eng/products/tent/Unna",
+        "weight_note": "minimum weight 2000 g; packed 2300 g",
+        "specs": {
+          "packed_size": "46 x 14 cm"
+        }
+      }
+    },
+    {
+      "id": "mld-burn",
+      "set": {
+        "discontinued": true,
+        "notes": "Not currently sold: MLD product page /product/burn/ resolves to an unpublished post (404) and product-category/packs shows 'No products' (checked 2026-10-23). Specs/price recalled."
+      }
+    },
+    {
+      "id": "mld-prophet",
+      "set": {
+        "discontinued": true,
+        "notes": "Not currently sold: MLD product page /product/prophet/ resolves to an unpublished post (404) and product-category/packs shows 'No products' (checked 2026-10-23). Specs/price recalled."
+      }
+    },
+    {
+      "id": "mld-exodus",
+      "set": {
+        "discontinued": true,
+        "notes": "Not currently sold: /product/exodus/ 404 and MLD product-category/packs shows 'No products' (checked 2026-10-23). Specs/price recalled."
+      }
+    },
+    {
+      "id": "liteway-pyraomm-solo-tarp",
+      "set": {
+        "price_usd": 255,
+        "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-solo-tarp), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY PYRAOMM SOLO TARP 1P\"), checked 2026-10-23."
+      }
+    },
+    {
+      "id": "liteway-pyraomm-duo-tarp",
+      "set": {
+        "price_usd": 326,
+        "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-duo-tarp), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY PYRAOMM DUO TARP 2P\"), checked 2026-10-23."
+      }
+    },
+    {
+      "id": "liteway-pyraomm-poncho",
+      "set": {
+        "price_usd": 255,
+        "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-poncho-pyraomm-ultralight-hiking-tarp-poncho), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY PONCHO PYRAOMM\"), checked 2026-10-23."
+      }
+    },
+    {
+      "id": "liteway-simplex-xl-tarp",
+      "set": {
+        "price_usd": 138,
+        "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-xl-tarp-ultralight-hiking-tarp), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY Simplex XL Tarp\"), checked 2026-10-23.",
+        "specs": {
+          "doors": 0,
+          "freestanding": false,
+          "walls": "single"
+        }
+      }
+    },
+    {
+      "id": "liteway-simplex-mini-tarp",
+      "set": {
+        "price_usd": 127,
+        "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-mini-tarp), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY Simplex Mini Tarp\"), checked 2026-10-23.",
+        "specs": {
+          "doors": 0,
+          "freestanding": false,
+          "walls": "single"
+        }
+      }
+    },
+    {
+      "id": "liteway-simplex-max-tarp",
+      "set": {
+        "price_usd": 173,
+        "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-max-tarp), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY Simplex MAX Tarp\"), checked 2026-10-23.",
+        "specs": {
+          "doors": 0,
+          "freestanding": false,
+          "walls": "single"
+        }
+      }
+    },
+    {
+      "id": "liteway-simplex-poncho-tarp",
+      "set": {
+        "price_usd": 150,
+        "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-poncho-tarp), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY PONCHO SIMPLEX\"), checked 2026-10-23."
+      }
+    },
+    {
+      "id": "liteway-biggie-tarp",
+      "set": {
+        "price_usd": 185,
+        "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-biggie-tarp), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY BIGGIE TARP\"), checked 2026-10-23.",
+        "specs": {
+          "doors": 0,
+          "freestanding": false,
+          "walls": "single"
+        }
+      }
+    },
+    {
+      "id": "liteway-gramless-35l-ultragrid",
+      "set": {
+        "price_usd": 255,
+        "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-gramless-ultra-35l-pack), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY GRAMLESS PACK 35L (non-Ultra; UltraGrid is the lower AU price tier)\"), checked 2026-10-23."
+      }
+    },
+    {
+      "id": "liteway-hkr-pack-ultra-35l",
+      "set": {
+        "price_usd": 349,
+        "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-hkr-pack-ultra-35l), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"HKR PACK ULTRA 35L\"), checked 2026-10-23.",
+        "specs": {
+          "max_load_lb": 26
+        }
+      }
+    },
+    {
+      "id": "3f-ul-gear-lanshan-1",
+      "set": {
+        "price_usd": 137,
+        "url": "https://3fulgear.com/product/ultralight-tent/lanshan-1/",
+        "weight_g": 770,
+        "weight_basis": "manufacturer",
+        "weight_note": "tent body (fly 419 g + 3-season inner 355 g); trail weight with stakes/guylines/sack ~920 g",
+        "confidence": "high",
+        "specs": {
+          "packed_size": "34 x 15 cm"
+        },
+        "notes": "USD price (3-season, 2026 version) and weights from 3F UL Gear store (WooCommerce), checked 2026-10-23."
+      }
+    },
+    {
+      "id": "3f-ul-gear-lanshan-2",
+      "set": {
+        "price_usd": 156,
+        "url": "https://3fulgear.com/product/ultralight-tent/lanshan2-classic/",
+        "weight_g": 1023,
+        "weight_basis": "manufacturer",
+        "weight_note": "tent body, 3-season inner (fly 546 g + inner 477 g); trail weight 1152 g",
+        "confidence": "high",
+        "notes": "USD price (3-season, 2026 version) and weights from 3F UL Gear store (WooCommerce), checked 2026-10-23."
+      }
+    },
+    {
+      "id": "3f-ul-gear-lanshan-2-pro",
+      "set": {
+        "price_usd": 190,
+        "url": "https://3fulgear.com/product/ultralight-tent/lanshan-2-pro/",
+        "weight_g": 900,
+        "weight_basis": "manufacturer",
+        "weight_note": "tent body, SilNylon (877 g SilPoly); min trail weight 1034 g",
+        "confidence": "high",
+        "specs": {
+          "material": "20D silnylon or silpoly",
+          "packed_size": "34 x 15 cm"
+        },
+        "notes": "USD price (3-season mesh inner) and weights from 3F UL Gear store (WooCommerce), checked 2026-10-23."
+      }
+    },
+    {
+      "id": "3f-ul-gear-lanshan-1-pro",
+      "set": {
+        "price_usd": 169,
+        "url": "https://3fulgear.com/product/ultralight-tent/lanshan-1-pro/",
+        "weight_g": 688,
+        "weight_basis": "manufacturer",
+        "weight_note": "tent body, 3-season; trail weight 826 g with stakes, guylines, sack",
+        "confidence": "high",
+        "specs": {
+          "material": "20D silnylon or silpoly"
+        },
+        "notes": "USD price (3-season) and weights from 3F UL Gear store (WooCommerce), checked 2026-10-23."
+      }
+    },
+    {
+      "id": "3f-ul-gear-qidian-pro",
+      "set": {
+        "price_usd": 92,
+        "url": "https://3fulgear.com/product/packs/qidian-pro-backpack/",
+        "weight_g": 880,
+        "weight_basis": "manufacturer",
+        "confidence": "high",
+        "specs": {
+          "max_load_lb": 30,
+          "material": "UHMWPE/nylon blend",
+          "volume_l": 56
+        },
+        "notes": "USD price, weight, 14 kg/30 lb load, 56 L from 3F UL Gear store (WooCommerce), checked 2026-10-23."
+      }
+    },
+    {
+      "id": "borah-gear-bug-bivy",
+      "set": {
+        "price_usd": 84,
+        "notes": "USD price from Borah Gear PayPal cart button (UL Bug Bivy chest zip $84; side zip $89; XUL $104-109), checked 2026-10-23."
+      }
+    },
+    {
+      "id": "borah-gear-cuben-bivy",
+      "set": {
+        "price_usd": 190,
+        "notes": "USD price from Borah Gear PayPal cart button (chest zip $190; side zip $195), checked 2026-10-23."
+      }
+    },
+    {
+      "id": "borah-gear-cuben-bug-bivy",
+      "set": {
+        "price_usd": 175,
+        "notes": "USD price from Borah Gear PayPal cart button (chest zip $175; side zip $180), checked 2026-10-23."
+      }
+    },
+    {
+      "id": "borah-gear-side-zip-bivy",
+      "set": {
+        "price_usd": 121,
+        "url": "https://borahgear.com/ultralightbivy.html",
+        "weight_g": 150,
+        "weight_basis": "manufacturer",
+        "weight_note": "Ultralight Bivy, Argon67 top, side zip, Reg/Reg (5.3 oz); chest zip 5.0 oz; Argon90 heavier",
+        "confidence": "high",
+        "specs": {
+          "material": "Argon67 (or Argon90) nylon top, 1.3 oz 20D silpoly floor, no-see-um netting"
+        },
+        "notes": "This is Borah's Ultralight Bivy with the side-zip option. Weight and price (Argon67 side zip $121; Argon90 side zip $111) from borahgear.com and its PayPal cart button, checked 2026-10-23."
+      }
+    },
+    {
+      "id": "northern-ultralight-sundown-48",
+      "set": {
+        "specs": {
+          "max_load_lb": 32,
+          "material": "EPX200 (recycled 210D polyester grid)"
+        },
+        "notes": "Specs from northernultralight.com product data (load rating ~30-32 lb). Store prices only in CAD (base C$506) - no USD list price, left null. Checked 2026-10-23."
+      }
+    },
+    {
+      "id": "northern-ultralight-dreamline",
+      "set": {
+        "specs": {
+          "max_load_lb": 50,
+          "volume_l": 50,
+          "material": "ECOPAK / UltraGrid recycled fabrics"
+        },
+        "notes": "Specs from northernultralight.com product data (44 L main + 6 L pockets; load under 50 lb). Store prices only in CAD (base C$722) - no USD list price, left null. Checked 2026-10-23."
+      }
+    },
+    {
+      "id": "sea-to-summit-telos-evo-tr2",
+      "set": {
+        "weight_g": 1577,
+        "weight_basis": "manufacturer",
+        "weight_note": "minimum trail weight; packed weight 1625 g",
+        "confidence": "high",
+        "specs": {
+          "packed_size": "50 x 14 x 14 cm",
+          "material": "Sil/PeU nylon/polyester fly, polyester mesh inner"
+        }
+      }
+    },
+    {
+      "id": "sea-to-summit-telos-evo-tr3",
+      "set": {
+        "weight_g": 2018,
+        "weight_basis": "manufacturer",
+        "weight_note": "minimum trail weight; packed weight 2069 g",
+        "confidence": "high",
+        "specs": {
+          "packed_size": "50 x 16 x 16 cm",
+          "material": "Sil/PeU nylon/polyester fly, polyester mesh inner"
+        }
+      }
+    },
+    {
+      "id": "sea-to-summit-ikos-evo-tr2",
+      "set": {
+        "weight_g": 2446,
+        "weight_basis": "manufacturer",
+        "weight_note": "minimum trail weight; packed weight 2514 g",
+        "confidence": "high",
+        "specs": {
+          "packed_size": "50 x 18 x 18 cm",
+          "material": "68D polyester"
+        }
+      }
+    },
+    {
+      "id": "sea-to-summit-escapist-evo-tarp-m",
+      "set": {
+        "weight_g": 348,
+        "weight_basis": "manufacturer",
+        "weight_note": "listed weight; minimum trail weight 260 g; packed 360 g",
+        "confidence": "high",
+        "specs": {
+          "packed_size": "18 x 8 x 8 cm",
+          "material": "15D Ultra-Sil LS nylon",
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "sea-to-summit-escapist-evo-tarp-l",
+      "set": {
+        "weight_g": 499,
+        "weight_basis": "manufacturer",
+        "weight_note": "listed weight; minimum trail weight 418 g; packed 519 g",
+        "confidence": "high",
+        "specs": {
+          "packed_size": "20 x 9 x 9 cm",
+          "material": "15D Ultra-Sil LS nylon",
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "sea-to-summit-minimalist-tarp",
+      "set": {
+        "weight_g": 384,
+        "weight_basis": "manufacturer",
+        "weight_note": "listed weight; minimum trail weight 303 g; packed 403 g",
+        "confidence": "high",
+        "specs": {
+          "packed_size": "18 x 9 x 9 cm",
+          "material": "Ultra-Sil LS 15D nylon/30D polyester ripstop"
+        }
+      }
+    },
+    {
+      "id": "sea-to-summit-ultra-sil-nano-tarp-poncho",
+      "set": {
+        "weight_g": 185,
+        "weight_basis": "manufacturer",
+        "weight_note": "listed weight; packed 230 g",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "sea-to-summit-hammock-ultralight-single",
+      "set": {
+        "discontinued": true,
+        "notes": "No hammocks listed on seatosummit.com (US store search for 'hammock' returns none; guessed product handles 404), checked 2026-10-23."
+      }
+    },
+    {
+      "id": "sol-escape-bivy",
+      "set": {
+        "price_usd": 86.49,
+        "url": "https://www.surviveoutdoorslonger.com/products/escape-bivvy",
+        "confidence": "high",
+        "weight_note": "Regular, 8.5 oz (XL 9.5 oz, $103.49)",
+        "specs": {
+          "material": "Escape ThermaShell spunbonded olefin, metalized"
+        }
+      }
+    },
+    {
+      "id": "sol-escape-lite-bivy",
+      "set": {
+        "price_usd": 54.99,
+        "url": "https://www.surviveoutdoorslonger.com/products/escape-lite-bivvy",
+        "confidence": "high",
+        "weight_note": "listed 5.5 oz"
+      }
+    },
+    {
+      "id": "outdoor-research-helium-bivy",
+      "set": {
+        "discontinued": true,
+        "notes": "Superseded by the Helium UL Bivy (separate record); old Helium Bivy no longer on outdoorresearch.com (store search for 'bivy' lists only Helium UL and Alpine XT), checked 2026-10-23."
+      }
+    },
+    {
+      "id": "outdoor-research-alpine-ascentshell-bivy",
+      "set": {
+        "discontinued": true,
+        "notes": "Replaced by the Alpine XT Bivy; AscentShell bivy no longer on outdoorresearch.com (store search for 'bivy' lists only Helium UL and Alpine XT), checked 2026-10-23."
+      }
+    },
+    {
+      "id": "kelty-noahs-tarp-9",
+      "set": {
+        "weight_g": 907,
+        "weight_basis": "manufacturer",
+        "weight_note": "Kelty-listed packaged weight 2 lb / 0.9 kg (no trail weight published); previous 1270 g was Shopify shipping weight",
+        "confidence": "high",
+        "specs": {
+          "material": "68D polyester, 800 mm",
+          "packed_size": "25.4 x 22.8 x 7.6 cm",
+          "doors": 0
+        },
+        "notes": "Heavy, low-cost 9x9 ft (274 cm) car-camping tarp; low $/g is genuine. Checked kelty.com 2026-10-23."
+      }
+    },
+    {
+      "id": "katabatic-gear-pinon-bivy",
+      "set": {
+        "confidence": "high",
+        "weight_note": "6' regular, 7.8 oz (Katabatic lists 7.5-8.7 oz across sizes)"
+      }
+    },
+    {
+      "id": "katabatic-gear-wren-bivy",
+      "set": {
+        "confidence": "high",
+        "weight_note": "6' regular, 9.3 oz (Katabatic lists 9.0-10.2 oz across sizes)"
+      }
+    },
+    {
+      "id": "paria-sanctuary-siltarp-10x8",
+      "set": {
+        "weight_g": 439,
+        "confidence": "high",
+        "weight_note": "tarp only 15.5 oz; whole kit (guylines, stakes, sacks) 20.5 oz",
+        "specs": {
+          "packed_size": "9 x 5 x 4 in",
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "nordisk-telemark-2-2-lw",
+      "set": {
+        "price_usd": null,
+        "weight_g": 1060,
+        "weight_basis": "manufacturer",
+        "weight_note": "trim weight 1.06 kg; official 1.12 kg; total 1.2 kg",
+        "confidence": "high",
+        "specs": {
+          "doors": 2,
+          "material": "20D silicone/PU ripstop nylon fly, 10D/15D inner",
+          "packed_size": "15 x 35 cm"
+        },
+        "notes": "Specs from nordisk.eu (entrance on each side). Previous price 749.95 was the EUR price on nordisk.eu (Shopify currency EUR), not USD; no US list price found. Checked 2026-10-23."
+      }
+    },
+    {
+      "id": "naturehike-daban-1",
+      "set": {
+        "discontinued": true,
+        "notes": "Product page 404 and only the DABAN 2-person appears in naturehike.com store search, checked 2026-10-23."
+      }
+    },
+    {
+      "id": "swd-sl40-ultra",
+      "set": {
+        "specs": {
+          "max_load_lb": 40
+        }
+      }
+    },
+    {
+      "id": "swd-sl40-ultragrid",
+      "set": {
+        "specs": {
+          "max_load_lb": 40
+        }
+      }
+    },
+    {
+      "id": "swd-movement-40-ultragrid",
+      "set": {
+        "specs": {
+          "max_load_lb": 40
+        }
+      }
+    },
+    {
+      "id": "swd-long-haul-50-ultragrid",
+      "set": {
+        "specs": {
+          "max_load_lb": 50
+        }
+      }
+    },
+    {
+      "id": "swd-long-haul-50-ultra",
+      "set": {
+        "specs": {
+          "max_load_lb": 50
+        }
+      }
+    },
+    {
+      "id": "swd-long-haul-50-rugged",
+      "set": {
+        "specs": {
+          "max_load_lb": 50
+        }
+      }
+    },
+    {
+      "id": "swd-wolverine-70",
+      "set": {
+        "specs": {
+          "max_load_lb": 65
+        }
+      }
+    },
+    {
+      "id": "swd-wolverine-95",
+      "set": {
+        "specs": {
+          "max_load_lb": 65
+        }
+      }
+    },
+    {
+      "id": "swd-big-wild-70",
+      "set": {
+        "specs": {
+          "max_load_lb": 65
+        }
+      }
+    },
+    {
+      "id": "swd-big-wild-95",
+      "set": {
+        "specs": {
+          "max_load_lb": 65
+        }
+      }
+    },
+    {
+      "id": "gossamer-gear-mirage-40",
+      "set": {
+        "specs": {
+          "max_load_lb": 25,
+          "material": "ALUULA Graflyte V52 (UHMWPE fused)"
+        }
+      }
+    },
+    {
+      "id": "gossamer-gear-skala-38",
+      "set": {
+        "specs": {
+          "max_load_lb": 25,
+          "material": "Riptide 100D recycled Robic nylon"
+        }
+      }
+    },
+    {
+      "id": "gossamer-gear-grit-28",
+      "set": {
+        "specs": {
+          "max_load_lb": 25,
+          "material": "Riptide 100D recycled Robic nylon"
+        }
+      }
+    },
+    {
+      "id": "gossamer-gear-elixir-20",
+      "set": {
+        "specs": {
+          "max_load_lb": 20,
+          "material": "ALUULA Graflyte V52 (UHMWPE fused)"
+        }
+      }
+    },
+    {
+      "id": "gossamer-gear-vetta-20",
+      "set": {
+        "specs": {
+          "material": "Riptide 100D recycled Robic nylon, 210D Robic bottom"
+        }
+      }
+    },
+    {
+      "id": "gossamer-gear-cima-15",
+      "set": {
+        "specs": {
+          "material": "Riptide 100D recycled Robic nylon"
+        }
+      }
+    },
+    {
+      "id": "gossamer-gear-minimalist-19",
+      "set": {
+        "specs": {
+          "max_load_lb": 20,
+          "material": "70D recycled Robic nylon"
+        }
+      }
+    },
+    {
+      "id": "gossamer-gear-riksak",
+      "set": {
+        "specs": {
+          "material": "70D recycled Robic nylon"
+        }
+      }
+    },
+    {
+      "id": "gossamer-gear-loris-25",
+      "set": {
+        "specs": {
+          "material": "70D recycled Robic nylon"
+        }
+      }
+    },
+    {
+      "id": "zpacks-arc-pro-60l",
+      "set": {
+        "specs": {
+          "max_load_lb": 40,
+          "material": "Ultra 100X / Ultra TenX"
+        }
+      }
+    },
+    {
+      "id": "zpacks-arc-pro-50l",
+      "set": {
+        "specs": {
+          "max_load_lb": 40,
+          "material": "Ultra 100X / Ultra TenX"
+        }
+      }
+    },
+    {
+      "id": "zpacks-arc-pro-70l",
+      "set": {
+        "specs": {
+          "max_load_lb": 40,
+          "material": "Ultra 100X / Ultra TenX"
+        }
+      }
+    },
+    {
+      "id": "zpacks-bagger-ultra-25l",
+      "set": {
+        "specs": {
+          "max_load_lb": 20
+        }
+      }
+    },
+    {
+      "id": "zpacks-bagger-30l-travel",
+      "set": {
+        "specs": {
+          "max_load_lb": 20
+        }
+      }
+    },
+    {
+      "id": "six-moon-designs-flight-30-robic",
+      "set": {
+        "specs": {
+          "max_load_lb": 20,
+          "material": "100D Robic nylon"
+        }
+      }
+    },
+    {
+      "id": "six-moon-designs-wyeast",
+      "set": {
+        "specs": {
+          "max_load_lb": 20,
+          "material": "210D Robic nylon"
+        }
+      }
+    },
+    {
+      "id": "six-moon-designs-flex-pr",
+      "set": {
+        "specs": {
+          "max_load_lb": 45,
+          "material": "420D Robic nylon (or X-Pac VX21)",
+          "volume_l": 50
+        }
+      }
+    },
+    {
+      "id": "bonfus-framus-58l",
+      "set": {
+        "specs": {
+          "max_load_lb": 40
+        }
+      }
+    },
+    {
+      "id": "bonfus-framus-48l",
+      "set": {
+        "specs": {
+          "max_load_lb": 40
+        }
+      }
+    },
+    {
+      "id": "bonfus-aerus-55l",
+      "set": {
+        "specs": {
+          "max_load_lb": 33
+        }
+      }
+    },
+    {
+      "id": "bonfus-maxus-80l",
+      "set": {
+        "specs": {
+          "max_load_lb": 55,
+          "material": "Ultra 200X"
+        }
+      }
+    },
+    {
+      "id": "bonfus-saccus-48l",
+      "set": {
+        "specs": {
+          "max_load_lb": 24
+        }
+      }
+    },
+    {
+      "id": "bonfus-iterus-38l",
+      "set": {
+        "specs": {
+          "max_load_lb": 22
+        }
+      }
+    },
+    {
+      "id": "bonfus-fastus-23l",
+      "set": {
+        "specs": {
+          "material": "Ultra 200X"
+        }
+      }
+    },
+    {
+      "id": "montane-trailblazer-44",
+      "set": {
+        "specs": {
+          "material": "Raptor Cross Lite 70D nylon, 210D ripstop base"
+        },
+        "url": "https://us.montane.com/products/montane-trailblazer-44l-backpack"
+      }
+    },
+    {
+      "id": "montane-trailblazer-32",
+      "set": {
+        "specs": {
+          "material": "Raptor Cross Lite 70D nylon, 210D ripstop base"
+        },
+        "url": "https://us.montane.com/products/montane-trailblazer-r-32l-backpack"
+      }
+    },
+    {
+      "id": "montane-trailblazer-xt-35",
+      "set": {
+        "specs": {
+          "material": "Raptor Cross 210D triple ripstop nylon"
+        },
+        "url": "https://us.montane.com/products/montane-trailblazer-r-xt-35l-backpack"
+      }
+    },
+    {
+      "id": "montane-trailblazer-lt-28",
+      "set": {
+        "specs": {
+          "material": "nylon"
+        },
+        "url": "https://us.montane.com/products/montane-trailblazer-lt-28l-backpack"
+      }
+    },
+    {
+      "id": "montane-valen-40",
+      "set": {
+        "specs": {
+          "material": "recycled nylon/polyethylene blend (88/12)"
+        },
+        "url": "https://us.montane.com/products/montane-valen-40-5l-backpack"
+      }
+    },
+    {
+      "id": "black-diamond-beta-light-45",
+      "set": {
+        "specs": {
+          "material": "Challenge Ultra 200"
+        }
+      }
+    },
+    {
+      "id": "black-diamond-beta-light-30",
+      "set": {
+        "specs": {
+          "material": "Challenge Ultra 200"
+        }
+      }
+    },
+    {
+      "id": "black-diamond-speed-40",
+      "set": {
+        "specs": {
+          "material": "BD X-rip 210D nylon, UTS coating"
+        }
+      }
+    },
+    {
+      "id": "black-diamond-pursuit-30",
+      "set": {
+        "specs": {
+          "material": "recycled nylon"
+        },
+        "price_usd": 199.95
+      }
+    },
+    {
+      "id": "liteway-illusion-duo-tent",
+      "set": {
+        "specs": {
+          "doors": 2
+        }
+      }
+    },
+    {
+      "id": "liteway-illusion-duo-tent-dcf",
+      "set": {
+        "specs": {
+          "doors": 2
+        }
+      }
+    },
+    {
+      "id": "hammock-gear-wanderlust",
+      "set": {
+        "confidence": "high",
+        "weight_note": "manufacturer total kit weight ~44 oz (2.75 lb): Circadian bug-net hammock, suspension, Quest/Journey tarp, 4 stakes, stuff sack; quilts not included"
+      }
+    },
+    {
+      "id": "yama-mountain-gear-cirriform-2p-tarp-dcf",
+      "set": {
+        "weight_g": 360,
+        "weight_basis": "manufacturer",
+        "weight_note": "tarp only; 434 g packaged (tarp 360 + rigging 65 + stuff sack 9)",
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "six-moon-designs-haven",
+      "set": {
+        "weight_g": 963,
+        "weight_basis": "manufacturer",
+        "weight_note": "manufacturer total: tarp 453 g + NetTent 510 g (34 oz); stakes/poles not included",
+        "confidence": "high",
+        "specs": {
+          "material": "20D silicone-coated polyester"
+        }
+      }
+    },
+    {
+      "id": "six-moon-designs-skyscape-scout",
+      "set": {
+        "weight_note": "manufacturer 40 oz; excludes stakes and poles",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "kammok-kuhli-ul",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "kammok-kuhli",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "kammok-kuhli-xl",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "eno-profly-rain-tarp",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "eno-profly-sil-rain-tarp",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "yama-mountain-gear-cirriform-1p-tarp",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "yama-mountain-gear-cirriform-1p-tarp-dcf",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "yama-mountain-gear-cirriform-1p-tarp-bug-skirt",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "yama-mountain-gear-cirriform-2p-tarp",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "yama-mountain-gear-flat-tarp-7x9",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "yama-mountain-gear-flat-tarp-8-5x10",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "yama-mountain-gear-flat-tarp-6x9",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "yama-mountain-gear-tapered-tarp-9-7-silpoly",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "yama-mountain-gear-tapered-tarp-8-6-silpoly",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "yama-mountain-gear-tapered-tarp-7-5-silpoly",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "yama-mountain-gear-tapered-tarp-9-7-dcf",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "yama-mountain-gear-tapered-tarp-8-6-dcf",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "yama-mountain-gear-tapered-tarp-7-5-dcf",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "locus-gear-tarp-x-solo-sil",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "locus-gear-tarp-x-duo-sil",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "warbonnet-minifly-silpoly",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "warbonnet-bushcrafter",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "warbonnet-puptarp",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "hammock-gear-quest-tarp",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "hammock-gear-trek-tarp",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "hammock-gear-hex-tarp-dcf",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "hammock-gear-tapered-ground-tarp-dcf",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "hammock-gear-nomad-tarp-dcf",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "hennessy-hammock-hex-rainfly-silnylon",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "bonfus-dcf-square-flat-tarp",
+      "set": {
+        "specs": {
+          "doors": 0
+        }
+      }
+    },
+    {
+      "id": "liteway-biggie-tarp-dcf",
+      "set": {
+        "specs": {
+          "doors": 0,
+          "freestanding": false,
+          "walls": "single"
+        }
+      }
+    },
+    {
+      "id": "marmot-tungsten-ul-2p",
+      "set": {
+        "price_usd": 399,
+        "url": "https://www.campmor.com/products/marmot-tungsten-ul-2p-tent",
+        "weight_g": 1355,
+        "weight_basis": "manufacturer",
+        "weight_note": "minimum weight 2 lb 15.8 oz",
+        "confidence": "high",
+        "specs": {
+          "material": "polyester ripstop fly, nylon ripstop canopy/floor"
+        },
+        "notes": "Specs and $399 list (compare-at) price from Campmor (US retailer, Shopify), checked 2026-10-23; marmot.com not reachable to curl."
+      }
+    },
+    {
+      "id": "slingfin-2lite",
+      "set": {
+        "price_usd": 505,
+        "notes": "List price $505 seam-sealed ($475 unsealed); store showed 25% sale ($378.75) on 2026-10-23."
+      }
+    },
+    {
+      "id": "kammok-roo-single",
+      "set": {
+        "price_usd": 74.95
+      }
+    },
+    {
+      "id": "naturehike-cloud-up-ext-2",
+      "set": {
+        "price_usd": 199
+      }
+    },
+    {
+      "id": "naturehike-mongar-2",
+      "set": {
+        "price_usd": 169
+      }
+    },
+    {
+      "id": "montane-gecko-vp-20",
+      "set": {
+        "url": "https://us.montane.com/products/montane-gecko-vp-20"
+      }
+    },
+    {
+      "id": "nashville-packs-cutaway",
+      "set": {
+        "subcategory": "frameless",
+        "model": "Cutaway 30",
+        "weight_g": 394,
+        "weight_basis": "manufacturer",
+        "weight_note": "18\" torso",
+        "price_usd": 237,
+        "url": "https://www.garagegrowngear.com/products/cutaway-pack-by-nashville-packs",
+        "confidence": "high",
+        "specs": {
+          "volume_l": 43,
+          "frame": "frameless",
+          "hipbelt": false,
+          "max_load_lb": 25,
+          "material": "210D Venom Gridstop ECO (or X-Pac EPX70RS)",
+          "torso_sizes": [
+            "16in",
+            "18in",
+            "20in"
+          ]
+        },
+        "notes": "Specs/price from Garage Grown Gear (US retailer) listing: 43 L total (33 L internal) for 18\" torso, frameless, hipbelt attachment points only. nashvillepacks.com unreachable (proxy 502). Checked 2026-10-23."
+      }
+    },
+    {
+      "id": "zimmerbuilt-quickstep",
+      "set": {
+        "discontinued": true,
+        "notes": "Not listed on zimmerbuilt.com: the store now lists only in-stock fishing/tenkara packs and accessories (checked 2026-10-23). Specs recalled."
+      }
+    },
+    {
+      "id": "granite-gear-crown3-60-womens",
+      "set": {
+        "url": "https://www.granitegear.com/outdoor/backpacks/multi-day-backpacks/crown3-60-series-packs/crown3-60-pack-3840.html",
+        "confidence": "high",
+        "weight_note": "short torso, without lid (lid 0.18 lb); regular 1.08 kg",
+        "specs": {
+          "material": "Robic high-tenacity nylon (100D/210D)",
+          "max_load_lb": 35
+        },
+        "notes": "Load rating 25 lb w/o framesheet, 35 lb with framesheet, 43 lb with aluminum stay add-on. List $259.95 (on sale $129.98 at check, 2026-10-23)."
+      }
+    },
+    {
+      "id": "granite-gear-blaze-60-womens",
+      "set": {
+        "confidence": "high",
+        "weight_note": "short torso, without lid (lid 0.18 lb); regular 1.36 kg",
+        "specs": {
+          "material": "100D Robic nylon body, 210D Robic UHMWPE triple ripstop"
+        },
+        "notes": "List $299.94 (on sale $149.98 at check, 2026-10-23); load rating 50 lb."
+      }
+    },
+    {
+      "id": "granite-gear-perimeter-50",
+      "set": {
+        "specs": {
+          "material": "Robic high-tenacity nylon (100D/210D)",
+          "max_load_lb": 40
+        }
+      }
+    },
+    {
+      "id": "granite-gear-perimeter-35",
+      "set": {
+        "specs": {
+          "material": "Robic high-tenacity nylon (100D/210D)",
+          "max_load_lb": 40
+        }
+      }
+    },
+    {
+      "id": "liteaf-curve-35l-frameless-ultra",
+      "set": {
+        "confidence": "high",
+        "weight_note": "15 oz / 425 g base (up to 19 oz / 538 g depending on torso size and options)"
+      }
+    },
+    {
+      "id": "msr-access-2",
+      "set": {
+        "confidence": "high",
+        "weight_note": "minimum weight 3 lb 10 oz; packaged 1.86 kg"
+      }
+    },
+    {
+      "id": "msr-elixir-2",
+      "set": {
+        "confidence": "high",
+        "weight_g": 2330,
+        "weight_basis": "manufacturer",
+        "weight_note": "minimum weight 5 lb 2 oz; packaged 2.82 kg (includes footprint)",
+        "specs": {
+          "packed_size": "51 x 17 cm"
+        }
+      }
+    },
+    {
+      "id": "durston-x-dome-1-plus",
+      "set": {
+        "subcategory": "freestanding tent",
+        "weight_g": 1085,
+        "weight_basis": "manufacturer",
+        "weight_note": "aluminum pole version (fly 405 g + regular inner 315 g + aluminum poles 365 g); carbon-pole version 985 g ($419)",
+        "confidence": "high",
+        "specs": {
+          "freestanding": true,
+          "walls": "double",
+          "material": "15D Sil/PE polyester fly, 15D Sil/PE nylon floor",
+          "packed_size": "46 x 12 cm"
+        },
+        "notes": "Listed on durstongear.com (X-Dome 1+, 2nd gen): $359 aluminum / $419 carbon / $444 carbon short; checked 2026-10-23."
+      }
+    },
+    {
+      "id": "durston-x-mid-pro-1-woven-floor",
+      "set": {
+        "weight_g": 485,
+        "weight_basis": "manufacturer",
+        "weight_note": "tent only (silnylon floor); typical setup with sack + 5 stakes 550 g",
+        "confidence": "high"
+      }
+    }
+  ],
+  "additions": [
+    {
+      "id": "outdoor-research-alpine-xt-bivy",
+      "category": "shelter",
+      "subcategory": "bivy",
+      "brand": "Outdoor Research",
+      "model": "Alpine XT Bivy",
+      "variant": null,
+      "weight_g": 594,
+      "weight_basis": "manufacturer",
+      "weight_note": "OR listed 20.95 oz / 594 g",
+      "price_usd": 375,
+      "specs": {
+        "capacity": 1,
+        "walls": "single",
+        "material": "3L Pertex Shield Air (electrospun) nylon ripstop, 40D PU-coated nylon floor",
+        "poles": "dedicated"
+      },
+      "url": "https://www.outdoorresearch.com/products/alpine-xt-bivy-322698",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "2026 replacement for the Alpine AscentShell Bivy. Price/weight from outdoorresearch.com, checked 2026-10-23."
+    },
+    {
+      "id": "bonfus-solus-1p",
+      "category": "shelter",
+      "subcategory": "trekking-pole tent",
+      "brand": "Bonfus",
+      "model": "Solus 1P",
+      "variant": null,
+      "weight_g": 495,
+      "weight_basis": "manufacturer",
+      "weight_note": "tent with premounted guylines; stuff sack +14 g",
+      "price_usd": 559,
+      "specs": {
+        "capacity": 1,
+        "doors": 1,
+        "walls": "single",
+        "material": "0.75/0.8 DCF body, 20D silpoly floor, integrated mesh",
+        "freestanding": false,
+        "poles": "trekking",
+        "packed_size": "12 x 32 cm"
+      },
+      "url": "https://bonfus.com/product/solus-1p/",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Price (USD store) and specs from bonfus.com, checked 2026-10-23."
+    }
+  ],
+  "removals": []
+}
