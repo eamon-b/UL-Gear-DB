@@ -11,6 +11,7 @@ import { ListsPage } from './components/ListsPage';
 import { SharedView } from './components/SharedView';
 import { AboutPage } from './components/AboutPage';
 import { ItemDrawer } from './components/ItemDrawer';
+import { ErrorBoundary } from './components/ErrorBoundary';
 
 export default function App() {
   const [db, setDb] = useState<DB | null>(null);
@@ -45,7 +46,8 @@ function Shell() {
   return (
     <>
       <Header section={section} />
-      <main>{page}</main>
+      {/* keyed on the route so navigating away recovers from a page that threw */}
+      <main><ErrorBoundary key={route.raw}>{page}</ErrorBoundary></main>
       <ItemDrawer />
       {section !== 'compare' && <CompareTray />}
     </>

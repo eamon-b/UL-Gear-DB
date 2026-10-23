@@ -2,7 +2,7 @@ import Papa from 'papaparse';
 import type { DB, Item, ListItem, PackList } from './types';
 import { resolve } from './lists';
 import { fromUnit, toUnit, type Unit } from './units';
-import { uid } from './util';
+import { safeUrl, uid } from './util';
 
 export const LP_COLUMNS = ['Item Name', 'Category', 'desc', 'qty', 'weight', 'unit', 'url', 'price', 'worn', 'consumable'];
 
@@ -56,7 +56,7 @@ export function parseLighterPackCSV(text: string): { rows: LPRow[]; errors: stri
       desc: pick(r, 'desc', 'description'),
       qty: qty == null ? 1 : Math.max(0, qty),
       weight_g: Math.round(w * (UNIT_G[unit] ?? 28.3495) * 10) / 10,
-      url: pick(r, 'url'),
+      url: safeUrl(pick(r, 'url')) ?? '',
       price: num(pick(r, 'price')),
       worn: truthy(pick(r, 'worn')),
       consumable: truthy(pick(r, 'consumable')),

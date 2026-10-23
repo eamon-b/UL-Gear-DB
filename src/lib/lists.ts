@@ -1,6 +1,6 @@
 import LZString from 'lz-string';
 import type { DB, Item, ListItem, PackList, CustomItem } from './types';
-import { uid } from './util';
+import { safeUrl, uid } from './util';
 import { gPerDollar } from './filters';
 
 export interface Resolved {
@@ -22,14 +22,14 @@ export function resolve(li: ListItem, db: DB): Resolved {
       cat: li.cat || db.catById.get(item.category)?.name || item.category,
       weight_g: li.weight_g ?? item.weight_g,
       price_usd: li.price_usd !== undefined ? li.price_usd : item.price_usd,
-      url: item.url, missing: false,
+      url: safeUrl(item.url), missing: false,
     };
   }
   const c: CustomItem = li.custom ?? { name: li.dbId ? `Unknown item (${li.dbId})` : 'Item', category: 'Misc', weight_g: 0, price_usd: null };
   return {
     li, item: null, name: c.name, cat: li.cat || c.category || 'Uncategorized',
     weight_g: li.weight_g ?? c.weight_g, price_usd: li.price_usd !== undefined ? li.price_usd : c.price_usd,
-    url: c.url ?? null, missing: !!li.dbId && !li.custom,
+    url: safeUrl(c.url), missing: !!li.dbId && !li.custom,
   };
 }
 
@@ -99,22 +99,34 @@ export function encodeList(l: PackList): string {
   return LZString.compressToEncodedURIComponent(JSON.stringify(payload));
 }
 
+const finiteOr = <T,>(v: unknown, fallback: T): number | T => (typeof v === 'number' && Number.isFinite(v) ? v : fallback);
+const str = (v: unknown) => (typeof v === 'string' ? v : v == null ? '' : String(v));
+
+/** Share payloads are untrusted input: every field is type-checked so a crafted link can't crash rendering. */
 export function decodeList(s: string): PackList | null {
   try {
     const json = LZString.decompressFromEncodedURIComponent(s);
     if (!json) return null;
     const p = JSON.parse(json) as SharedPayload;
-    if (!p || !Array.isArray(p.i)) return null;
-    const items: ListItem[] = p.i.map(([head, qty, flags, cat, w, price]) => {
-      const li: ListItem = { uid: uid(), qty: Number(qty) || 1, worn: !!(flags & 1), consumable: !!(flags & 2) };
+    if (!p || typeof p !== 'object' || !Array.isArray(p.i)) return null;
+    const items: ListItem[] = [];
+    for (const row of p.i as unknown[]) {
+      if (!Array.isArray(row)) continue;
+      const [head, qty, flags, cat, w, price] = row as unknown[];
+      const f = finiteOr(flags, 0);
+      const li: ListItem = { uid: uid(), qty: Math.max(0, finiteOr(qty, 1)), worn: !!(f & 1), consumable: !!(f & 2) };
       if (typeof head === 'string') li.dbId = head;
-      else li.custom = { name: String(head.n), category: String(head.c ?? ''), weight_g: Number(head.w) || 0, price_usd: head.p ?? null, ...(head.u ? { url: head.u } : {}) };
-      if (cat) li.cat = cat;
-      if (w != null && w >= 0) li.weight_g = w;
-      if (price !== undefined) li.price_usd = price;
-      return li;
-    });
-    return { id: 'shared', name: String(p.n || 'Shared list'), items, created: Date.now(), updated: Date.now() };
+      else if (head && typeof head === 'object') {
+        const h = head as Record<string, unknown>;
+        const url = safeUrl(h.u);
+        li.custom = { name: str(h.n) || 'Item', category: str(h.c), weight_g: Math.max(0, finiteOr(h.w, 0)), price_usd: finiteOr(h.p, null), ...(url ? { url } : {}) };
+      } else continue;
+      if (typeof cat === 'string' && cat) li.cat = cat;
+      if (typeof w === 'number' && Number.isFinite(w) && w >= 0) li.weight_g = w;
+      if (price === null || (typeof price === 'number' && Number.isFinite(price))) li.price_usd = price;
+      items.push(li);
+    }
+    return { id: 'shared', name: str(p.n) || 'Shared list', items, created: Date.now(), updated: Date.now() };
   } catch {
     return null;
   }

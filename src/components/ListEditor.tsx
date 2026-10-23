@@ -134,14 +134,16 @@ function Row({ r, unit, readOnly, patch, remove, move, onAlt }: {
   const li = r.li;
   const wDisp = round(toUnit(r.weight_g, unit), unit);
   const overridden = !!r.item && (li.weight_g != null || li.price_usd !== undefined);
+  // A "missing" row (dbId no longer in the DB) has no `custom` yet: start from what is displayed.
+  const customBase = () => li.custom ?? { name: r.name, category: r.cat, weight_g: r.weight_g, price_usd: r.price_usd };
   const setWeight = (v: number | null) => {
     const g = v == null ? 0 : Math.round(fromUnit(v, unit) * 10) / 10;
     if (r.item) patch(li.uid, { weight_g: v == null ? undefined : g });
-    else patch(li.uid, { custom: { ...li.custom!, weight_g: g } });
+    else patch(li.uid, { custom: { ...customBase(), weight_g: g } });
   };
   const setPrice = (v: number | null) => {
     if (r.item) patch(li.uid, { price_usd: v });
-    else patch(li.uid, { custom: { ...li.custom!, price_usd: v } });
+    else patch(li.uid, { custom: { ...customBase(), price_usd: v } });
   };
   return (
     <tr className={`${li.worn ? 'worn' : ''} ${li.consumable ? 'cons' : ''}`} data-uid={li.uid}>
@@ -153,7 +155,7 @@ function Row({ r, unit, readOnly, patch, remove, move, onAlt }: {
             ) : readOnly ? (
               <span>{r.name}</span>
             ) : (
-              <EditText value={r.name} ariaLabel="Item name" onCommit={(v) => patch(li.uid, { custom: { ...(li.custom ?? { category: r.cat, weight_g: r.weight_g, price_usd: r.price_usd }), name: v } })} />
+              <EditText value={r.name} ariaLabel="Item name" onCommit={(v) => patch(li.uid, { custom: { ...customBase(), name: v } })} />
             )}
           </span>
           <span className="name-tags">

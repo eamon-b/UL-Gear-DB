@@ -16,6 +16,17 @@ export function saveLS(key: string, value: unknown) {
   }
 }
 
+/** Only http(s) links are rendered: list data can come from share links and CSVs, so `javascript:` etc. must not reach an href. */
+export function safeUrl(u: unknown): string | null {
+  if (typeof u !== 'string' || !u.trim()) return null;
+  try {
+    const p = new URL(u.trim());
+    return p.protocol === 'http:' || p.protocol === 'https:' ? p.href : null;
+  } catch {
+    return null;
+  }
+}
+
 export const fmtPrice = (p: number | null | undefined, digits = 0) =>
   p == null ? '–' : '$' + p.toLocaleString('en-US', { minimumFractionDigits: digits, maximumFractionDigits: digits });
 
