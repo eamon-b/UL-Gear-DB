@@ -973,6 +973,447 @@
      "fill_weight_g": 611
     }
    }
+  },
+  {
+   "id": "outdoor-vitals-stormloft-down-topquilt-40f",
+   "set": {
+    "url": "https://www.outdoorvitals.com/products/update-stormloft-0-30-f-down-topquilt-sleeping-bag",
+    "weight_g": 493,
+    "weight_basis": "manufacturer",
+    "weight_note": "Regular; maker-stated 1 lb 1.4 oz (excl. pad straps/sacks)",
+    "specs": {
+     "fill_weight_g": 280
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "outdoor-vitals-stormloft-down-topquilt-30f",
+   "set": {
+    "url": "https://www.outdoorvitals.com/products/update-stormloft-0-30-f-down-topquilt-sleeping-bag",
+    "weight_g": 556,
+    "weight_note": "Regular; maker-stated 1 lb 3.6 oz (excl. pad straps/sacks)",
+    "specs": {
+     "fill_weight_g": 350
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "outdoor-vitals-stormloft-down-topquilt-15f",
+   "set": {
+    "url": "https://www.outdoorvitals.com/products/update-stormloft-0-30-f-down-topquilt-sleeping-bag",
+    "weight_g": 689,
+    "weight_note": "Regular; maker-stated 1 lb 8.3 oz (excl. pad straps/sacks)",
+    "specs": {
+     "fill_weight_g": 485
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "outdoor-vitals-stormloft-down-topquilt-0f",
+   "set": {
+    "url": "https://www.outdoorvitals.com/products/update-stormloft-0-30-f-down-topquilt-sleeping-bag",
+    "weight_g": 791,
+    "weight_note": "Regular; maker-stated 1 lb 11.9 oz (excl. pad straps/sacks)",
+    "specs": {
+     "fill_weight_g": 610
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "naturehike-lw180",
+   "set": {
+    "variant": "Standard",
+    "url": "https://www.naturehike.com/products/lw180-synthetic-sleeping-bag",
+    "weight_g": 680,
+    "weight_basis": "manufacturer",
+    "weight_note": "Standard size (190 x 75 cm), maker-stated ~680 g",
+    "price_usd": 32.99,
+    "specs": {
+     "temp_rating_f": 59
+    },
+    "confidence": "high",
+    "notes": "80 g/m² synthetic fill; Large is ~760 g. Often discounted to $29."
+   }
+  },
+  {
+   "id": "zenbivy-light-bed-25f",
+   "set": {
+    "model": "Light Quilt",
+    "url": "https://zenbivy.com/products/light-quilt",
+    "weight_g": 623,
+    "weight_basis": "manufacturer",
+    "weight_note": "Regular quilt only (Zenbivy-stated 1 lb 6 oz); Light Sheet sold separately",
+    "price_usd": 289,
+    "specs": {
+     "fill_weight_g": 321
+    },
+    "confidence": "high",
+    "notes": "Light Bed is now sold as Light Quilt + Light Sheet (39) or bundles. 25°F limit / 35°F comfort. Old 907 g figure (exactly 2 lb) was a rounded system weight."
+   }
+  },
+  {
+   "id": "zenbivy-light-bed-10f",
+   "set": {
+    "model": "Light Quilt",
+    "url": "https://zenbivy.com/products/light-quilt",
+    "weight_g": 907,
+    "weight_basis": "manufacturer",
+    "weight_note": "Regular quilt only (Zenbivy-stated 2 lb); Light Sheet sold separately",
+    "price_usd": 359,
+    "specs": {
+     "fill_weight_g": 579
+    },
+    "confidence": "high",
+    "notes": "Light Bed is now sold as Light Quilt + Light Sheet (39) or bundles. 10°F limit / 20°F comfort."
+   }
+  },
+  {
+   "id": "hyke-byke-eolus-0",
+   "set": {
+    "url": "https://www.campsaver.com/hyke-byke-eolus-ultralight-goose-down-sleeping-bag.html",
+    "weight_g": 1406,
+    "weight_basis": "manufacturer",
+    "weight_note": "Regular; maker copy states 3.10 lb (Short 2.90, Long 3.36)",
+    "specs": {
+     "fill_power": 800
+    },
+    "discontinued": true,
+    "notes": "Brand site hykeandbyke.com is a parked domain and CampSaver lists the H&B line as Unavailable & Discontinued (checked 2026-10-23). 0°F is the survival limit; comfort 30°F, limit 15°F."
+   }
+  },
+  {
+   "id": "hyke-byke-snowmass-0",
+   "set": {
+    "url": "https://www.campsaver.com/hyke-byke-snowmass-ultralight-down-sleeping-bag.html",
+    "discontinued": true,
+    "notes": "Brand site hykeandbyke.com is a parked domain and CampSaver lists the H&B line as Unavailable & Discontinued (checked 2026-10-23). Weight approximate."
+   }
+  },
+  {
+   "id": "hyke-byke-quandary-15",
+   "set": {
+    "url": "https://www.campsaver.com/hyke-byke-snowmass-ultralight-down-sleeping-bag.html",
+    "discontinued": true,
+    "notes": "Brand site hykeandbyke.com is a parked domain and CampSaver lists the H&B line as Unavailable & Discontinued (checked 2026-10-23). Weight approximate."
+   }
+  },
+  {
+   "id": "hyke-byke-shavano-32",
+   "set": {
+    "url": "https://www.campsaver.com/hyke-byke-snowmass-ultralight-down-sleeping-bag.html",
+    "discontinued": true,
+    "notes": "Brand site hykeandbyke.com is a parked domain and CampSaver lists the H&B line as Unavailable & Discontinued (checked 2026-10-23). Weight approximate."
+   }
+  },
+  {
+   "id": "montbell-down-hugger-800-3",
+   "set": {
+    "specs": {
+     "fill_weight_g": 280
+    },
+    "notes": "Specs and price from Miyar Adventures (US Montbell retailer) listing, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-down-hugger-800-1",
+   "set": {
+    "specs": {
+     "fill_weight_g": 570
+    },
+    "notes": "Specs and price from Miyar Adventures (US Montbell retailer) listing, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "rab-mythic-alpine-light-jacket-mens",
+   "set": {
+    "url": "https://rab.equipment/us/mythic-alpine-light-jacket",
+    "weight_note": "Rab-listed 8.8 oz / 252 g (size M)",
+    "specs": {
+     "fill_weight_g": 80
+    }
+   }
+  },
+  {
+   "id": "rab-microlight-alpine-down-jacket-mens",
+   "set": {
+    "url": "https://rab.equipment/us/mens-microlight-alpine-down-jacket",
+    "weight_note": "Rab-listed 15.09 oz / 428 g (size M)",
+    "specs": {
+     "fill_weight_g": 152
+    }
+   }
+  },
+  {
+   "id": "rab-microlight-alpine-down-jacket-womens",
+   "set": {
+    "url": "https://rab.equipment/us/womens-microlight-alpine-down-jacket",
+    "weight_note": "Rab-listed 13.22 oz / 375 g (size 10)",
+    "specs": {
+     "fill_weight_g": 137
+    }
+   }
+  },
+  {
+   "id": "rab-electron-pro-down-jacket-mens",
+   "set": {
+    "url": "https://rab.equipment/us/mens-electron-pro-down-jacket",
+    "weight_note": "Rab-listed 16.8 oz / 477 g (size M)"
+   }
+  },
+  {
+   "id": "rab-mythic-shorts-mens",
+   "set": {
+    "url": "https://rab.equipment/us/mens-mythic-down-shorts",
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "rab-microlight-down-jacket-womens",
+   "set": {
+    "specs": {
+     "fill_power": 700,
+     "fill_weight_g": 121
+    }
+   }
+  },
+  {
+   "id": "rab-electron-pro-down-jacket-womens",
+   "set": {
+    "specs": {
+     "fill_power": 800,
+     "fill_weight_g": 170
+    }
+   }
+  },
+  {
+   "id": "rab-mythic-g-down-jacket-womens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 115
+    },
+    "notes": "Fill weight 115 g quoted by Rab for UK size 12; jacket weight for size 10."
+   }
+  },
+  {
+   "id": "rab-mythic-ultra-32f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 187
+    }
+   }
+  },
+  {
+   "id": "rab-mythic-ultra-20f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 355
+    }
+   }
+  },
+  {
+   "id": "rab-mythic-ultra-10f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 590
+    }
+   }
+  },
+  {
+   "id": "rab-neutrino-20f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 400
+    }
+   }
+  },
+  {
+   "id": "rab-photon-pants",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "feathered-friends-helios-down-pants",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "feathered-friends-down-booties",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "montbell-superior-down-pants-mens",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "montbell-u-l-thermawrap-pants",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "patagonia-nano-air-light-bottoms-mens",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "patagonia-nano-air-light-bottoms-womens",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "senchi-designs-mori-80-legging",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "farpointe-outdoor-gear-alpha-camp-pants-60gsm",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "farpointe-outdoor-gear-alpha-camp-pants-90gsm",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "farpointe-outdoor-gear-tecnowool-camp-pants-90gsm",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-torrid-booties",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "western-mountaineering-flash-down-booties",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "goosefeet-gear-down-pants",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "goosefeet-gear-down-socks",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-torrid-pants-mens",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "outdoor-research-coldfront-down-hoodie-mens",
+   "set": {
+    "discontinued": true,
+    "notes": "Not found in outdoorresearch.com store search (checked 2026-10-23); weight/price recalled."
+   }
+  },
+  {
+   "id": "mountain-hardwear-phantom-15f",
+   "set": {
+    "price_usd": 680,
+    "notes": "Price and weight (924 g) from CampSaver listing (US retailer; mountainhardwear.com blocks automated access), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "nemo-disco-15f-mens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 642
+    }
+   }
+  },
+  {
+   "id": "nemo-disco-30f-mens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 320
+    }
+   }
+  },
+  {
+   "id": "nemo-riff-15f-mens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 540
+    }
+   }
+  },
+  {
+   "id": "nemo-riff-30f-mens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 295
+    }
+   }
+  },
+  {
+   "id": "paria-outdoor-products-thermodown-30-quilt",
+   "set": {
+    "specs": {
+     "fill_power": 800,
+     "fill_weight_g": 397
+    }
+   }
   }
  ],
  "additions": [],
