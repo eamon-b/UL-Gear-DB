@@ -31,7 +31,7 @@
     "weight_g": 38,
     "weight_basis": "manufacturer",
     "weight_note": "incl. built-in battery, bracket and headband",
-    "price_usd": 29.95,
+    "price_usd": 24.95,
     "specs": {
       "lumens": 360,
       "battery": "500 mAh built-in Li-ion",
@@ -53,7 +53,7 @@
     "weight_g": 96,
     "weight_basis": "manufacturer",
     "weight_note": "incl. built-in battery, bracket and headband",
-    "price_usd": 39.95,
+    "price_usd": 49.95,
     "specs": {
       "lumens": 700,
       "battery": "2000 mAh built-in Li-ion",
@@ -118,18 +118,18 @@
     "variant": null,
     "weight_g": 11,
     "weight_basis": "manufacturer",
-    "weight_note": "light only",
+    "weight_note": "light only (11.1 g)",
     "price_usd": 19.95,
     "specs": {
       "lumens": 40,
-      "battery": "built-in Li-ion",
-      "runtime_hr": null,
+      "battery": "120 mAh built-in Li-ion",
+      "runtime_hr": 47,
       "rechargeable": true
     },
     "url": "https://www.nitecore.com/product/nu05v2",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Clip-on marker/backup light; headband sold separately."
+    "notes": "Clip-on safety/signal light, not a full headlamp (explains low weight)."
   },
   {
     "id": "nitecore-ha23-uhe",
@@ -141,7 +141,7 @@
     "weight_g": 56,
     "weight_basis": "manufacturer",
     "weight_note": "headband included",
-    "price_usd": 39.95,
+    "price_usd": 29.95,
     "specs": {
       "lumens": 600,
       "battery": "3x AAA or HLB1500 Li-ion pack",
@@ -185,17 +185,17 @@
     "weight_g": 74,
     "weight_basis": "manufacturer",
     "weight_note": "incl. battery and headband",
-    "price_usd": 43.95,
+    "price_usd": 59.95,
     "specs": {
       "lumens": 800,
       "battery": "HLB1300 Li-ion pack or 3x AAA",
       "runtime_hr": null,
       "rechargeable": true
     },
-    "url": "https://www.nitecore.com/product/ut27pro",
+    "url": "https://nitecorestore.com/products/nitecore-ut27pro-rechargeable-running-headlamp",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "US price $59.95 includes an extra HLB1500 battery (Nitecore Store, Oct 2026). 2.61 oz incl. battery and headband."
   },
   {
     "id": "nitecore-nu21",
@@ -204,19 +204,19 @@
     "brand": "Nitecore",
     "model": "NU21",
     "variant": null,
-    "weight_g": 41,
+    "weight_g": 44,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "with bracket and headband",
     "price_usd": 29.95,
     "specs": {
       "lumens": 360,
       "battery": "built-in Li-ion",
-      "runtime_hr": null,
+      "runtime_hr": 37,
       "rechargeable": true
     },
     "url": "https://www.nitecore.com/product/nu21",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": "Specs recalled, not verified."
   },
   {
@@ -226,20 +226,20 @@
     "brand": "Nitecore",
     "model": "NU50",
     "variant": null,
-    "weight_g": 120,
+    "weight_g": 146,
     "weight_basis": "manufacturer",
-    "weight_note": null,
-    "price_usd": 59.95,
+    "weight_note": "with bracket and headband",
+    "price_usd": 64.95,
     "specs": {
       "lumens": 1400,
-      "battery": "4000 mAh built-in Li-ion",
-      "runtime_hr": null,
+      "battery": "5000 mAh built-in 21700 Li-ion",
+      "runtime_hr": 200,
       "rechargeable": true
     },
     "url": "https://www.nitecore.com/product/nu50",
     "discontinued": false,
-    "confidence": "low",
-    "notes": null
+    "confidence": "high",
+    "notes": "Nitecore spec: max runtime 200 h (US store copy says 180 h on ultralow)."
   },
   {
     "id": "nitecore-tip-se",
@@ -273,11 +273,11 @@
     "weight_g": 12,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 24.95,
+    "price_usd": 19.95,
     "specs": {
       "lumens": 300,
-      "battery": "built-in Li-ion",
-      "runtime_hr": null,
+      "battery": "130 mAh built-in Li-ion",
+      "runtime_hr": 40,
       "rechargeable": true
     },
     "url": "https://www.nitecore.com/product/tiki",
@@ -295,11 +295,11 @@
     "weight_g": 11,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 26.95,
+    "price_usd": 19.95,
     "specs": {
       "lumens": 300,
-      "battery": "built-in Li-ion",
-      "runtime_hr": null,
+      "battery": "130 mAh built-in Li-ion",
+      "runtime_hr": 40,
       "rechargeable": true
     },
     "url": "https://www.nitecore.com/product/tikile",
@@ -317,17 +317,17 @@
     "weight_g": 16,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 29.95,
+    "price_usd": 39.95,
     "specs": {
       "lumens": 500,
       "battery": "built-in Li-ion",
       "runtime_hr": null,
       "rechargeable": true
     },
-    "url": "https://www.nitecore.com/product/tini2",
+    "url": "https://nitecorestore.com/products/nitecore-tini-2-rechargeable-keychain-flashlight",
     "discontinued": false,
-    "confidence": "low",
-    "notes": null
+    "confidence": "high",
+    "notes": "Nitecore Store: 'weighing less than 1 oz'; $39.95 aluminum, $44.95 Ti/steel."
   },
   {
     "id": "petzl-bindi",
@@ -361,14 +361,14 @@
     "weight_g": 43,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 59.95,
+    "price_usd": 54.95,
     "specs": {
       "lumens": 380,
       "battery": "880 mAh built-in Li-ion",
       "runtime_hr": 60,
       "rechargeable": true
     },
-    "url": "https://www.petzl.com/US/en/Sport/Headlamps/SWIFT-LT",
+    "url": "https://www.petzl.com/us/en/sport/products/multisport-headlamps/swift-lt/SWIFT-LT_SPO_a2mTx0000033s5NIAQ.html",
     "discontinued": false,
     "confidence": "high",
     "notes": "Price not verified."
@@ -405,14 +405,14 @@
     "weight_g": 98,
     "weight_basis": "manufacturer",
     "weight_note": "with batteries",
-    "price_usd": 49.95,
+    "price_usd": 64.95,
     "specs": {
       "lumens": 450,
       "battery": "3x AAA (or CORE)",
-      "runtime_hr": null,
+      "runtime_hr": 100,
       "rechargeable": false
     },
-    "url": "https://www.petzl.com/US/en/Sport/Headlamps/ACTIK",
+    "url": "https://www.petzl.com/us/en/sport/products/multisport-headlamps/actik/ACTIK_SPO_a2mTx000000o0MbIAI.html",
     "discontinued": false,
     "confidence": "high",
     "notes": "625 lm with optional CORE battery."
@@ -424,19 +424,19 @@
     "brand": "Petzl",
     "model": "Actik Core",
     "variant": null,
-    "weight_g": 75,
+    "weight_g": 88,
     "weight_basis": "manufacturer",
-    "weight_note": null,
-    "price_usd": 79.95,
+    "weight_note": "with CORE battery",
+    "price_usd": 87.95,
     "specs": {
       "lumens": 625,
       "battery": "CORE 1250 mAh Li-ion (or 3x AAA)",
-      "runtime_hr": null,
+      "runtime_hr": 100,
       "rechargeable": true
     },
-    "url": "https://www.petzl.com/US/en/Sport/Headlamps/ACTIK-CORE",
+    "url": "https://www.petzl.com/us/en/sport/products/multisport-headlamps/actik-core/ACTIK-CORE_SPO_a2mTx000000o12YIAQ.html",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "REI lists 3.1 oz (88 g); Petzl lists 75 g."
   },
   {
@@ -446,17 +446,17 @@
     "brand": "Petzl",
     "model": "Swift RL",
     "variant": null,
-    "weight_g": 100,
+    "weight_g": 92,
     "weight_basis": "manufacturer",
     "weight_note": null,
     "price_usd": 134.95,
     "specs": {
-      "lumens": 1100,
-      "battery": "2350 mAh built-in Li-ion",
-      "runtime_hr": null,
+      "lumens": 1200,
+      "battery": "2250 mAh built-in Li-ion",
+      "runtime_hr": 100,
       "rechargeable": true
     },
-    "url": "https://www.petzl.com/US/en/Sport/Headlamps/SWIFT-RL",
+    "url": "https://www.petzl.com/us/en/sport/products/multisport-headlamps/swift-rl/SWIFT-RL_SPO_a2mTx0000033ql7IAA.html",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -479,9 +479,9 @@
       "rechargeable": true
     },
     "url": "https://www.petzl.com/US/en/Sport/Headlamps/IKO-CORE",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": "Price recalled."
+    "notes": "petzl.com/US IKO CORE page now redirects to the CORE battery page (Oct 2026); appears dropped from the US lineup."
   },
   {
     "id": "petzl-iko",
@@ -501,9 +501,9 @@
       "rechargeable": false
     },
     "url": "https://www.petzl.com/US/en/Sport/Headlamps/IKO",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "petzl.com/US IKO page now redirects to the headlamp category (Oct 2026); no longer in the US lineup."
   },
   {
     "id": "petzl-tikka",
@@ -519,10 +519,10 @@
     "specs": {
       "lumens": 350,
       "battery": "3x AAA (or CORE)",
-      "runtime_hr": null,
+      "runtime_hr": 110,
       "rechargeable": false
     },
-    "url": "https://www.petzl.com/US/en/Sport/Headlamps/TIKKA",
+    "url": "https://www.petzl.com/us/en/sport/products/hiking-camping-headlamps/tikka/E061AB00_SPO_a2rTx00000003IrIAI.html",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -534,19 +534,19 @@
     "brand": "Petzl",
     "model": "Tikka Core",
     "variant": null,
-    "weight_g": 81,
+    "weight_g": 84,
     "weight_basis": "manufacturer",
-    "weight_note": null,
-    "price_usd": 59.95,
+    "weight_note": "with CORE battery",
+    "price_usd": 62.95,
     "specs": {
       "lumens": 450,
       "battery": "CORE Li-ion (or 3x AAA)",
       "runtime_hr": 110,
       "rechargeable": true
     },
-    "url": "https://www.petzl.com/US/en/Sport/Headlamps/TIKKA-CORE",
+    "url": "https://www.petzl.com/us/en/sport/products/hiking-camping-headlamps/tikka-core/TIKKA-CORE_SPO_a2mTx000000oV0bIAE.html",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Sources list 81-84 g."
   },
   {
@@ -559,16 +559,16 @@
     "weight_g": 92,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 24.95,
+    "price_usd": 19.95,
     "specs": {
       "lumens": 300,
       "battery": "3x AAA",
-      "runtime_hr": null,
+      "runtime_hr": 100,
       "rechargeable": false
     },
-    "url": "https://www.petzl.com/US/en/Sport/Headlamps/TIKKINA",
+    "url": "https://www.petzl.com/us/en/sport/products/hiking-camping-headlamps/tikkina/TIKKINA_SPO_a2mTx000000oAXGIA2.html",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -585,12 +585,12 @@
     "specs": {
       "lumens": 1500,
       "battery": "3200 mAh Li-ion",
-      "runtime_hr": null,
+      "runtime_hr": 80,
       "rechargeable": true
     },
-    "url": "https://www.petzl.com/US/en/Sport/Headlamps/NAO-RL",
+    "url": "https://www.petzl.com/us/en/sport/products/running-headlamps/nao-rl/NAO-RL_SPO_a2m1r000002bkifAAA.html",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -600,17 +600,17 @@
     "brand": "Black Diamond",
     "model": "Spot 400",
     "variant": null,
-    "weight_g": 77,
+    "weight_g": 86,
     "weight_basis": "manufacturer",
-    "weight_note": "with batteries",
+    "weight_note": "with 3x AAA (72 g with BD 1500)",
     "price_usd": 59.95,
     "specs": {
       "lumens": 400,
       "battery": "3x AAA",
-      "runtime_hr": null,
+      "runtime_hr": 200,
       "rechargeable": false
     },
-    "url": "https://www.blackdiamondequipment.com/en_US/headlamps/",
+    "url": "https://www.blackdiamondequipment.com/products/spot-400-headlamp",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -622,20 +622,20 @@
     "brand": "Black Diamond",
     "model": "Spot 400-R",
     "variant": null,
-    "weight_g": 74,
+    "weight_g": 86,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 64.95,
+    "price_usd": 79.95,
     "specs": {
       "lumens": 400,
-      "battery": "built-in Li-ion",
-      "runtime_hr": null,
+      "battery": "1500 mAh Li-ion (BD 1500)",
+      "runtime_hr": 225,
       "rechargeable": true
     },
-    "url": "https://www.blackdiamondequipment.com/en_US/headlamps/",
+    "url": "https://www.blackdiamondequipment.com/products/spot-400-r-rechargeable-headlamp",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "List 9.95 (on sale 7.97 Oct 2026); micro-USB charging."
   },
   {
     "id": "black-diamond-spot-2025",
@@ -698,10 +698,10 @@
       "runtime_hr": null,
       "rechargeable": true
     },
-    "url": "https://www.blackdiamondequipment.com/en_US/headlamps/",
-    "discontinued": false,
+    "url": "https://www.blackdiamondequipment.com/products/storm-headlamp",
+    "discontinued": true,
     "confidence": "high",
-    "notes": null
+    "notes": "Storm 500-R no longer in BD's US store (Oct 2026); replaced by the rechargeable Storm (550 lm, 102 g, 1800 mAh, $79.95)."
   },
   {
     "id": "black-diamond-storm-plus",
@@ -716,11 +716,11 @@
     "price_usd": 99.95,
     "specs": {
       "lumens": 750,
-      "battery": "built-in Li-ion",
-      "runtime_hr": null,
+      "battery": "2200 mAh serviceable Li-ion",
+      "runtime_hr": 80,
       "rechargeable": true
     },
-    "url": "https://www.blackdiamondequipment.com/en_US/headlamps/",
+    "url": "https://www.blackdiamondequipment.com/products/storm-plus-headlamp",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -732,17 +732,17 @@
     "brand": "Black Diamond",
     "model": "Astro 300",
     "variant": null,
-    "weight_g": 75,
+    "weight_g": 100,
     "weight_basis": "manufacturer",
     "weight_note": "with batteries",
     "price_usd": 24.95,
     "specs": {
       "lumens": 300,
       "battery": "3x AAA",
-      "runtime_hr": null,
+      "runtime_hr": 140,
       "rechargeable": false
     },
-    "url": "https://www.blackdiamondequipment.com/en_US/headlamps/",
+    "url": "https://www.blackdiamondequipment.com/products/astro-300-headlamp",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -754,17 +754,17 @@
     "brand": "Black Diamond",
     "model": "Astro 300-R",
     "variant": null,
-    "weight_g": 75,
+    "weight_g": 100,
     "weight_basis": "manufacturer",
     "weight_note": null,
     "price_usd": 44.95,
     "specs": {
       "lumens": 300,
-      "battery": "built-in Li-ion",
-      "runtime_hr": null,
+      "battery": "1500 mAh Li-ion",
+      "runtime_hr": 140,
       "rechargeable": true
     },
-    "url": "https://www.blackdiamondequipment.com/en_US/headlamps/",
+    "url": "https://www.blackdiamondequipment.com/products/astro-300-r-rechargeable-headlamp",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -779,14 +779,14 @@
     "weight_g": 79,
     "weight_basis": "manufacturer",
     "weight_note": "with batteries",
-    "price_usd": 44.95,
+    "price_usd": 39.95,
     "specs": {
       "lumens": 350,
       "battery": "3x AAA",
-      "runtime_hr": null,
+      "runtime_hr": 200,
       "rechargeable": false
     },
-    "url": "https://www.blackdiamondequipment.com/en_US/headlamps/",
+    "url": "https://www.blackdiamondequipment.com/products/cosmo-350-headlamp",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -798,17 +798,17 @@
     "brand": "Black Diamond",
     "model": "Deploy 325",
     "variant": null,
-    "weight_g": 38,
+    "weight_g": 48,
     "weight_basis": "manufacturer",
     "weight_note": null,
     "price_usd": 69.95,
     "specs": {
       "lumens": 325,
-      "battery": "built-in Li-ion",
+      "battery": "680 mAh built-in Li-ion",
       "runtime_hr": 30,
       "rechargeable": true
     },
-    "url": "https://www.blackdiamondequipment.com/en_US/headlamps/",
+    "url": "https://www.blackdiamondequipment.com/products/deploy-325-headlamp",
     "discontinued": false,
     "confidence": "high",
     "notes": "Sold as \"Deploy Run Light\" on BD site."
@@ -827,7 +827,7 @@
     "specs": {
       "lumens": 1100,
       "battery": "built-in Li-ion",
-      "runtime_hr": null,
+      "runtime_hr": 120,
       "rechargeable": true
     },
     "url": "https://www.blackdiamondequipment.com/products/distance-lt-1100-headlamp",
@@ -842,17 +842,17 @@
     "brand": "Black Diamond",
     "model": "Moji",
     "variant": null,
-    "weight_g": 122,
+    "weight_g": 120,
     "weight_basis": "manufacturer",
     "weight_note": "with batteries",
     "price_usd": 29.95,
     "specs": {
       "lumens": 100,
       "battery": "3x AAA",
-      "runtime_hr": null,
+      "runtime_hr": 120,
       "rechargeable": false
     },
-    "url": "https://www.blackdiamondequipment.com/",
+    "url": "https://www.blackdiamondequipment.com/products/moji-lantern",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -864,17 +864,17 @@
     "brand": "Black Diamond",
     "model": "Moji+",
     "variant": null,
-    "weight_g": 107,
+    "weight_g": 140,
     "weight_basis": "manufacturer",
     "weight_note": "with AAA batteries",
     "price_usd": 34.95,
     "specs": {
       "lumens": 200,
       "battery": "3x AAA or BD 1500",
-      "runtime_hr": null,
+      "runtime_hr": 100,
       "rechargeable": false
     },
-    "url": "https://www.blackdiamondequipment.com/",
+    "url": "https://www.blackdiamondequipment.com/products/moji-plus-lantern",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -886,17 +886,17 @@
     "brand": "Black Diamond",
     "model": "Moji R+",
     "variant": null,
-    "weight_g": 79,
+    "weight_g": 170,
     "weight_basis": "manufacturer",
     "weight_note": null,
     "price_usd": 49.95,
     "specs": {
       "lumens": 200,
       "battery": "1500 mAh built-in Li-ion",
-      "runtime_hr": null,
+      "runtime_hr": 16,
       "rechargeable": true
     },
-    "url": "https://www.blackdiamondequipment.com/",
+    "url": "https://www.blackdiamondequipment.com/products/moji-r-rechargeable-lantern",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -915,7 +915,7 @@
     "specs": {
       "lumens": 700,
       "battery": "16340 Li-ion (or CR123A)",
-      "runtime_hr": null,
+      "runtime_hr": 42,
       "rechargeable": true
     },
     "url": "https://www.fenixlighting.com/products/fenix-hm50r-v2-headlamp",
@@ -937,7 +937,7 @@
     "specs": {
       "lumens": 1600,
       "battery": "18650 Li-ion",
-      "runtime_hr": null,
+      "runtime_hr": 300,
       "rechargeable": true
     },
     "url": "https://www.fenixlighting.com/products/fenix-hm65r-t-v2-headlamp",
@@ -955,7 +955,7 @@
     "weight_g": 103,
     "weight_basis": "manufacturer",
     "weight_note": "incl. battery and headband",
-    "price_usd": 64.95,
+    "price_usd": 54.95,
     "specs": {
       "lumens": 800,
       "battery": "1900 mAh Li-ion pack or 3x AAA",
@@ -974,42 +974,42 @@
     "brand": "Fenix",
     "model": "HM61R V2.0",
     "variant": null,
-    "weight_g": 162,
+    "weight_g": 152,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "including battery and headband",
     "price_usd": 89.95,
     "specs": {
       "lumens": 1600,
       "battery": "18650 Li-ion",
-      "runtime_hr": null,
+      "runtime_hr": 300,
       "rechargeable": true
     },
-    "url": "https://www.fenixlighting.com/",
+    "url": "https://www.fenixlighting.com/products/fenix-hm61r-v2-rechargeable-headlamp",
     "discontinued": false,
-    "confidence": "medium",
-    "notes": null
+    "confidence": "high",
+    "notes": "Superseded by HM61R V3.0 (1800 lm, 168 g, $89.95); V2.0 still listed at $89.95 list."
   },
   {
     "id": "fenix-hm23",
     "category": "lighting",
     "subcategory": "headlamp",
     "brand": "Fenix",
-    "model": "HM23",
+    "model": "HM23 V2.0",
     "variant": null,
-    "weight_g": 74,
+    "weight_g": 86,
     "weight_basis": "manufacturer",
-    "weight_note": "with battery",
-    "price_usd": 39.95,
+    "weight_note": "including AA battery",
+    "price_usd": 36.95,
     "specs": {
-      "lumens": 240,
+      "lumens": 300,
       "battery": "1x AA",
-      "runtime_hr": null,
+      "runtime_hr": 100,
       "rechargeable": false
     },
-    "url": "https://www.fenixlighting.com/",
+    "url": "https://www.fenixlighting.com/products/fenix-hm23-v2-aa-powered-headlamp",
     "discontinued": false,
-    "confidence": "low",
-    "notes": null
+    "confidence": "high",
+    "notes": "Current version is HM23 V2.0 (300 lm, 86 g incl. battery)."
   },
   {
     "id": "fenix-e03r-v2-0",
@@ -1018,19 +1018,19 @@
     "brand": "Fenix",
     "model": "E03R V2.0",
     "variant": null,
-    "weight_g": 41,
+    "weight_g": 30,
     "weight_basis": "manufacturer",
-    "weight_note": null,
-    "price_usd": 39.95,
+    "weight_note": "including battery",
+    "price_usd": 29.95,
     "specs": {
       "lumens": 500,
       "battery": "built-in Li-ion",
-      "runtime_hr": null,
+      "runtime_hr": 30,
       "rechargeable": true
     },
-    "url": "https://www.fenixlighting.com/",
+    "url": "https://www.fenixlighting.com/products/fenix-e03r-v2-keychain-flashlight",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Keychain light."
   },
   {
@@ -1050,10 +1050,10 @@
       "runtime_hr": null,
       "rechargeable": false
     },
-    "url": "https://www.fenixlighting.com/",
-    "discontinued": false,
+    "url": "https://www.fenixlighting.com/products/fenix-e12-v3-aa-powered-edc-flashlight",
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "Replaced by E12 V3.0 (200 lm, 54 g incl. AA, 100 h, $29.95) on fenixlighting.com (Oct 2026)."
   },
   {
     "id": "biolite-headlamp-325",
@@ -1094,10 +1094,10 @@
       "runtime_hr": 40,
       "rechargeable": true
     },
-    "url": "https://www.bioliteenergy.com/",
-    "discontinued": false,
+    "url": "https://www.bioliteenergy.com/products/headlamp-800-pro",
+    "discontinued": true,
     "confidence": "high",
-    "notes": null
+    "notes": "HeadLamp 330 no longer on bioliteenergy.com (product 404, absent from store catalog, Oct 2026); BioLite's current headlamps are HeadLamp 800 Pro and Dash 450."
   },
   {
     "id": "biolite-headlamp-425",
@@ -1116,10 +1116,10 @@
       "runtime_hr": null,
       "rechargeable": true
     },
-    "url": "https://www.bioliteenergy.com/",
-    "discontinued": false,
+    "url": "https://www.bioliteenergy.com/products/headlamp-800-pro",
+    "discontinued": true,
     "confidence": "medium",
-    "notes": "Retailer listings conflict (78 vs 85 g)."
+    "notes": "HeadLamp 425 no longer on bioliteenergy.com (product 404, absent from store catalog, Oct 2026)."
   },
   {
     "id": "biolite-headlamp-800-pro",
@@ -1131,14 +1131,14 @@
     "weight_g": 150,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 99.95,
+    "price_usd": 149.95,
     "specs": {
       "lumens": 800,
-      "battery": "built-in Li-ion",
-      "runtime_hr": null,
+      "battery": "3000 mAh built-in Li-ion",
+      "runtime_hr": 150,
       "rechargeable": true
     },
-    "url": "https://www.bioliteenergy.com/",
+    "url": "https://www.bioliteenergy.com/products/headlamp-800-pro",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -1172,19 +1172,19 @@
     "brand": "BioLite",
     "model": "AlpenGlow 250",
     "variant": null,
-    "weight_g": 230,
+    "weight_g": 210,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 49.95,
+    "price_usd": 59.95,
     "specs": {
       "lumens": 250,
-      "battery": "built-in Li-ion",
-      "runtime_hr": null,
+      "battery": "3200 mAh built-in Li-ion",
+      "runtime_hr": 200,
       "rechargeable": true
     },
-    "url": "https://www.bioliteenergy.com/",
+    "url": "https://www.bioliteenergy.com/products/alpenglow-250",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1205,9 +1205,9 @@
       "rechargeable": true
     },
     "url": "https://www.ledlenser.com/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": "USD price recalled."
+    "notes": "MH5 not listed on ledlenserusa.com (Oct 2026); MH7/H5R Core are the current equivalents."
   },
   {
     "id": "ledlenser-mh3",
@@ -1227,9 +1227,9 @@
       "rechargeable": false
     },
     "url": "https://www.ledlenser.com/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "MH3 not listed on ledlenserusa.com (Oct 2026)."
   },
   {
     "id": "ledlenser-mh7",
@@ -1238,19 +1238,19 @@
     "brand": "Ledlenser",
     "model": "MH7",
     "variant": null,
-    "weight_g": 147,
+    "weight_g": 139,
     "weight_basis": "manufacturer",
     "weight_note": null,
     "price_usd": 74.95,
     "specs": {
       "lumens": 600,
-      "battery": "18650 Li-ion or 3x AA",
-      "runtime_hr": null,
+      "battery": "1550 mAh Li-ion (AA compatible)",
+      "runtime_hr": 40,
       "rechargeable": true
     },
-    "url": "https://www.ledlenser.com/",
+    "url": "https://www.ledlenserusa.com/products/mh7-2",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1260,19 +1260,19 @@
     "brand": "Ledlenser",
     "model": "HF4R Core",
     "variant": null,
-    "weight_g": 89,
+    "weight_g": 72,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 69.95,
+    "price_usd": 49.95,
     "specs": {
       "lumens": 500,
-      "battery": "built-in Li-ion",
+      "battery": "1000 mAh built-in Li-ion",
       "runtime_hr": null,
       "rechargeable": true
     },
-    "url": "https://www.ledlenser.com/",
+    "url": "https://www.ledlenserusa.com/products/hf4rcore",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1483,14 +1483,14 @@
     "weight_g": 18,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 31.95,
+    "price_usd": 36.95,
     "specs": {
       "lumens": 650,
-      "battery": "built-in Li-ion",
+      "battery": "330 mAh built-in Li-po",
       "runtime_hr": null,
       "rechargeable": true
     },
-    "url": "https://www.rovyvon.com/",
+    "url": "https://www.rovyvon.com/products/aurora-a5-usb-c-gitd-keychain-flashlight-4th-generation",
     "discontinued": false,
     "confidence": "high",
     "notes": "Keychain light; earlier gens 15-17 g."
@@ -1615,14 +1615,14 @@
     "weight_g": 91,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 19.95,
+    "price_usd": 29.95,
     "specs": {
       "lumens": 60,
-      "battery": "built-in Li-ion + solar",
+      "battery": "500 mAh built-in Li-po + solar",
       "runtime_hr": 35,
       "rechargeable": true
     },
-    "url": "https://www.goalzero.com/",
+    "url": "https://www.goalzero.com/products/crush-light",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -1644,9 +1644,9 @@
       "runtime_hr": 35,
       "rechargeable": true
     },
-    "url": "https://www.goalzero.com/",
+    "url": "https://www.goalzero.com/products/crush-light-chroma",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Weight assumed same as Crush Light."
   },
   {
@@ -1659,16 +1659,16 @@
     "weight_g": 68,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 24.95,
+    "price_usd": 39.95,
     "specs": {
       "lumens": 150,
-      "battery": "built-in Li-ion",
+      "battery": "2600 mAh built-in Li-ion",
       "runtime_hr": 170,
       "rechargeable": true
     },
-    "url": "https://www.goalzero.com/",
+    "url": "https://www.goalzero.com/products/lighthouse-micro-flash-usb-rechargeable-lantern",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {

@@ -9,7 +9,7 @@
     "weight_g": 85,
     "weight_basis": "manufacturer",
     "weight_note": "men's M",
-    "price_usd": 149,
+    "price_usd": 159,
     "specs": {
       "material": "Vertice 3L 7D nylon"
     },
@@ -25,14 +25,14 @@
     "brand": "Zpacks",
     "model": "Vertice Rain Pants",
     "variant": "Women's",
-    "weight_g": 70,
+    "weight_g": 72,
     "weight_basis": "manufacturer",
-    "weight_note": "women's M",
-    "price_usd": 149,
+    "weight_note": "Zpacks-listed weight",
+    "price_usd": 159,
     "specs": {
       "material": "Vertice 3L 7D nylon"
     },
-    "url": "https://zpacks.com/collections/rain-gear",
+    "url": "https://zpacks.com/products/womens-vertice-rain-pants",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -52,9 +52,9 @@
       "material": "Pertex Shield 2.5L"
     },
     "url": "https://www.gearx.com/products/outdoor-research-helium-rain-pants-m-h4yqz",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": null
+    "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
   },
   {
     "id": "outdoor-research-helium-rain-pants-womens",
@@ -71,9 +71,9 @@
       "material": "Pertex Shield 2.5L"
     },
     "url": null,
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "medium",
-    "notes": null
+    "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
   },
   {
     "id": "outdoor-research-foray-3l-pants-mens",
@@ -84,13 +84,13 @@
     "variant": "Men's",
     "weight_g": 385,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
-    "price_usd": 199,
+    "weight_note": "OR-listed product weight",
+    "price_usd": 210,
     "specs": {
       "material": "AscentShell Dry 3L",
       "side_zips": "full"
     },
-    "url": "https://www.campsaver.com/v/3220890014242-outdoor-research-foray-3l-pants.html",
+    "url": "https://www.outdoorresearch.com/products/mens-foray-3l-pants-322089",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -111,9 +111,9 @@
       "waterproof_rating_mm": 30000
     },
     "url": "https://www.montbell.co.uk/products/mens-versalite-pants-black",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": "UK £140; US price not confirmed."
+    "notes": "UK product page 404s and Versalite Pants are absent from Montbell UK/US stores (Oct 2026); succeeded by DRY-TEC U.L. Rain Pants (#2328331/#2328332)."
   },
   {
     "id": "montbell-versalite-pants-womens",
@@ -130,28 +130,9 @@
       "material": "GORE-TEX Windstopper 2L 10D"
     },
     "url": null,
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": null
-  },
-  {
-    "id": "montbell-storm-cruiser-pants-mens",
-    "category": "rain-pants",
-    "subcategory": "rain pants",
-    "brand": "Montbell",
-    "model": "Storm Cruiser Pants",
-    "variant": "Men's",
-    "weight_g": 207,
-    "weight_basis": "manufacturer",
-    "weight_note": "men's M (218 g with stuff sack)",
-    "price_usd": null,
-    "specs": {
-      "material": "DRY-TEC / GORE-TEX C-KNIT 3L"
-    },
-    "url": "https://www.montbell.co.uk/products/mens-dry-tec-rain-pants-black",
-    "discontinued": false,
-    "confidence": "high",
-    "notes": "Listed in UK as DRY-TEC Rain Pants, £145."
+    "notes": "UK product page 404s and Versalite Pants are absent from Montbell UK/US stores (Oct 2026); succeeded by DRY-TEC U.L. Rain Pants (#2328331/#2328332)."
   },
   {
     "id": "montbell-thunder-pass-pants-mens",
@@ -162,12 +143,13 @@
     "variant": "Men's",
     "weight_g": 229,
     "weight_basis": "manufacturer",
-    "weight_note": "Montbell UK listed weight",
+    "weight_note": "Montbell US listed average weight",
     "price_usd": 109,
     "specs": {
-      "material": "DRY-TEC 2.5L"
+      "material": "DRY-TEC 3L 50D nylon ripstop",
+      "waterproof_rating_mm": 20000
     },
-    "url": "https://www.montbell.co.uk/products/mens-thunder-pass-pants-black",
+    "url": "https://www.montbell.com/us/en/products/detail/2328335",
     "discontinued": false,
     "confidence": "high",
     "notes": "USD list price from Montbell America (montbell.com/us/en/products/detail/2328335, non-outlet), checked 2026-10-23."
@@ -265,9 +247,9 @@
       "breathability": "MVTR 75,000 g/m²/24h"
     },
     "url": "https://enlightenedequipment.com/visp-rain-jacket",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": "Price not confirmed."
+    "notes": "visp-rain-pants URL 404s and store search for \"visp\" returns only the Visp Rain Jacket and Visp Rain Mitts (Oct 2026)."
   },
   {
     "id": "marmot-precip-eco-full-zip-pants-mens",
@@ -296,16 +278,16 @@
     "brand": "Marmot",
     "model": "PreCip Eco Pants",
     "variant": "Men's",
-    "weight_g": 255,
+    "weight_g": 230,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
-    "price_usd": 80,
+    "weight_note": "Marmot-listed weight, 32 in inseam",
+    "price_usd": 120,
     "specs": {
-      "material": "NanoPro 2.5L"
+      "material": "nylon, 78 g/m²"
     },
-    "url": null,
+    "url": "https://www.marmot.com/p/mens-precip-eco-rain-pants/SP_216590.html",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -373,16 +355,16 @@
     "brand": "REI Co-op",
     "model": "Rainier Rain Pants",
     "variant": "Women's",
-    "weight_g": 272,
+    "weight_g": 301,
     "weight_basis": "manufacturer",
-    "weight_note": "women's M",
+    "weight_note": "REI-listed weight 10.6 oz",
     "price_usd": 99.95,
     "specs": {
       "material": "HydroWall 2.5L"
     },
-    "url": null,
+    "url": "https://www.rei.com/product/227615/rei-co-op-rainier-rain-pants-womens",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -403,9 +385,9 @@
       "side_zips": "full"
     },
     "url": "https://www.blackdiamondequipment.com/en_US/product/stormline-stretch-full-zip-rain-pants/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": null
+    "notes": "StormLine Stretch is a distinct, older BD.dry model (predecessor of FineLine); its BD product URLs now 404/redirect to the homepage and BD store search returns no StormLine products (Oct 2026)."
   },
   {
     "id": "black-diamond-stormline-stretch-full-zip-rain-pants-womens",
@@ -424,9 +406,9 @@
       "side_zips": "full"
     },
     "url": null,
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "medium",
-    "notes": null
+    "notes": "StormLine Stretch is a distinct, older BD.dry model (predecessor of FineLine); its BD product URLs now 404/redirect to the homepage and BD store search returns no StormLine products (Oct 2026)."
   },
   {
     "id": "black-diamond-fineline-stretch-full-zip-pants-mens",
@@ -436,12 +418,14 @@
     "model": "FineLine Stretch Full Zip Pants",
     "variant": "Men's",
     "weight_g": 217,
-    "weight_basis": "estimate",
-    "weight_note": "BD spec, lightest listed (217/227/277 g across sizes)",
+    "weight_basis": "manufacturer",
+    "weight_note": "BD-listed spec weight (smallest of 217/227/277 g listed)",
     "price_usd": 179,
     "specs": {
       "material": "BD.dry 2L stretch",
-      "side_zips": "full"
+      "side_zips": "full",
+      "waterproof_rating_mm": 10000,
+      "breathability": "10,000 g/m²/24h"
     },
     "url": "https://www.blackdiamondequipment.com/products/mens-fineline-stretch-full-zip-pants",
     "discontinued": false,
@@ -495,16 +479,16 @@
     "brand": "Arc'teryx",
     "model": "Zeta SL Pant",
     "variant": "Men's",
-    "weight_g": 230,
+    "weight_g": 245,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
-    "price_usd": 199,
+    "weight_note": "Arc'teryx-listed weight",
+    "price_usd": 249,
     "specs": {
       "material": "GORE-TEX Paclite Plus 2L"
     },
-    "url": null,
+    "url": "https://arcteryx.com/us/en/shop/mens/zeta-sl-pant",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -514,17 +498,19 @@
     "brand": "Rab",
     "model": "Downpour Eco Pants",
     "variant": "Men's",
-    "weight_g": 225,
+    "weight_g": 262,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
-    "price_usd": 105,
+    "weight_note": "Rab US listed weight (Size M)",
+    "price_usd": 110,
     "specs": {
-      "material": "Pertex Shield 2.5L recycled"
+      "material": "Pertex Shield 2.5L recycled",
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000g/m²/24h"
     },
-    "url": "https://skiisandbiikes.com/products/rab-downpour-eco-mens-pant-2023",
+    "url": "https://rab.equipment/us/mens-downpour-waterproof-pants",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Rab now sells this as the Downpour Waterproof Pants (current version)."
   },
   {
     "id": "rab-downpour-eco-pants-womens",
@@ -534,11 +520,13 @@
     "model": "Downpour Eco Pants",
     "variant": "Women's",
     "weight_g": 240,
-    "weight_basis": "estimate",
-    "weight_note": "Rab spec 8.4 oz / 239.5 g",
+    "weight_basis": "manufacturer",
+    "weight_note": "Rab US listed weight (Size 10)",
     "price_usd": 110,
     "specs": {
-      "material": "Pertex Shield 2.5L recycled"
+      "material": "Pertex Shield 2.5L recycled",
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000g/m²/24h"
     },
     "url": "https://rab.equipment/us/womens-downpour-waterproof-pants",
     "discontinued": false,
@@ -554,10 +542,12 @@
     "variant": "Men's",
     "weight_g": 270,
     "weight_basis": "manufacturer",
-    "weight_note": "Rab listed 10 oz / 270 g",
+    "weight_note": "Rab US listed weight",
     "price_usd": 240,
     "specs": {
-      "material": "Proflex 3L stretch"
+      "material": "Proflex 3L stretch",
+      "waterproof_rating_mm": 10000,
+      "breathability": "35,000g/m²/24h"
     },
     "url": "https://rab.equipment/us/kinetic-2-0-pants",
     "discontinued": false,
@@ -636,9 +626,9 @@
       "material": "Pertex Shield 2.5L"
     },
     "url": null,
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "Absent from Montane US and UK stores (products.json catalog and store search), Oct 2026."
   },
   {
     "id": "marmot-minimalist-gtx-pant-mens",
@@ -706,11 +696,12 @@
     "variant": "Women's",
     "weight_g": 214,
     "weight_basis": "manufacturer",
-    "weight_note": "Montbell UK listed weight",
-    "price_usd": null,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 99,
     "specs": {
-      "material": "3-layer DRY-TEC",
-      "pit_zips": false
+      "material": "DRY-TEC 3L 50D nylon ripstop",
+      "pit_zips": false,
+      "waterproof_rating_mm": 20000
     },
     "url": "https://www.montbell.com/us/en/products/detail/2328336",
     "discontinued": false,
@@ -726,10 +717,11 @@
     "variant": "Men's",
     "weight_g": 207,
     "weight_basis": "manufacturer",
-    "weight_note": "Montbell UK listed weight",
-    "price_usd": null,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 159,
     "specs": {
-      "material": "DRY-TEC 3-layer"
+      "material": "SUPER DRY-TEC 3L 30D nylon ripstop",
+      "waterproof_rating_mm": 20000
     },
     "url": "https://www.montbell.com/us/en/products/detail/2328323",
     "discontinued": false,
@@ -745,10 +737,11 @@
     "variant": "Women's",
     "weight_g": 191,
     "weight_basis": "manufacturer",
-    "weight_note": "Montbell UK listed weight",
-    "price_usd": null,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 149,
     "specs": {
-      "material": "DRY-TEC 3-layer"
+      "material": "SUPER DRY-TEC 3L 30D Ballistic nylon ripstop",
+      "waterproof_rating_mm": 20000
     },
     "url": "https://www.montbell.com/us/en/products/detail/2328324",
     "discontinued": false,
@@ -764,10 +757,12 @@
     "variant": "Men's",
     "weight_g": 129,
     "weight_basis": "manufacturer",
-    "weight_note": "Montbell UK listed weight",
-    "price_usd": null,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 189,
     "specs": {
-      "material": "DRY-TEC 3-layer ultralight"
+      "material": "SUPER DRY-TEC 3L 7D Ballistic Airlight nylon ripstop",
+      "waterproof_rating_mm": 20000,
+      "breathability": "52,000 g/m²/24h (JIS L-1099 B-1)"
     },
     "url": "https://www.montbell.com/us/en/products/detail/2328331",
     "discontinued": false,
@@ -783,10 +778,12 @@
     "variant": "Women's",
     "weight_g": 118,
     "weight_basis": "manufacturer",
-    "weight_note": "Montbell UK listed weight",
-    "price_usd": null,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 175,
     "specs": {
-      "material": "DRY-TEC 3-layer ultralight"
+      "material": "SUPER DRY-TEC 3L 7D Ballistic Airlight nylon ripstop",
+      "waterproof_rating_mm": 20000,
+      "breathability": "52,000 g/m²/24h (JIS L-1099 B-1)"
     },
     "url": "https://www.montbell.com/us/en/products/detail/2328332",
     "discontinued": false,
@@ -802,10 +799,11 @@
     "variant": "Men's",
     "weight_g": 191,
     "weight_basis": "manufacturer",
-    "weight_note": "Montbell UK listed weight",
-    "price_usd": null,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 245,
     "specs": {
-      "material": "GORE-TEX 3-layer"
+      "material": "GORE-TEX 3L (ePE) 20D nylon ripstop",
+      "waterproof_rating_mm": 20000
     },
     "url": "https://www.montbell.com/us/en/products/detail/2328315",
     "discontinued": false,
@@ -821,10 +819,11 @@
     "variant": "Women's",
     "weight_g": 174,
     "weight_basis": "manufacturer",
-    "weight_note": "Montbell UK listed weight",
-    "price_usd": null,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 230,
     "specs": {
-      "material": "GORE-TEX 3-layer"
+      "material": "GORE-TEX 3L (ePE) 20D nylon ripstop",
+      "waterproof_rating_mm": 20000
     },
     "url": "https://www.montbell.com/us/en/products/detail/2328316",
     "discontinued": false,
@@ -844,7 +843,9 @@
     "price_usd": 399,
     "specs": {
       "material": "BD.dry 3-layer stretch",
-      "pit_zips": false
+      "pit_zips": false,
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000 g/m²/24h"
     },
     "url": "https://www.blackdiamondequipment.com/products/mens-highline-stretch-rain-pants",
     "discontinued": false,
@@ -863,7 +864,9 @@
     "weight_note": "BD spec weight (size not stated)",
     "price_usd": 399,
     "specs": {
-      "material": "BD.dry 3-layer stretch"
+      "material": "BD.dry 3-layer stretch",
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000 g/m²/24h"
     },
     "url": "https://www.blackdiamondequipment.com/products/womens-highline-stretch-rain-pants",
     "discontinued": false,
@@ -898,10 +901,12 @@
     "variant": null,
     "weight_g": 84,
     "weight_basis": "manufacturer",
-    "weight_note": "Rab listed 3 oz / 84 g",
+    "weight_note": "Rab US listed weight (Size M)",
     "price_usd": 170,
     "specs": {
-      "material": "Pertex Shield 2.5L"
+      "material": "Pertex Shield 2.5L",
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000g/m²/24h"
     },
     "url": "https://rab.equipment/us/phantom-waterproof-pants",
     "discontinued": false,
@@ -917,10 +922,12 @@
     "variant": "Men's",
     "weight_g": 326,
     "weight_basis": "manufacturer",
-    "weight_note": "Rab listed 11.5 oz / 325.5 g",
+    "weight_note": "Rab US listed weight (Size M)",
     "price_usd": 180,
     "specs": {
-      "material": "Pertex Shield 3L"
+      "material": "Pertex Shield 3L",
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000g/m²/24h"
     },
     "url": "https://rab.equipment/us/mens-firewall-waterproof-pants",
     "discontinued": false,
@@ -936,10 +943,12 @@
     "variant": "Women's",
     "weight_g": 306,
     "weight_basis": "manufacturer",
-    "weight_note": "Rab listed 10.8 oz / 305.5 g",
+    "weight_note": "Rab US listed weight (Size 10)",
     "price_usd": 180,
     "specs": {
-      "material": "Pertex Shield 3L"
+      "material": "Pertex Shield 3L",
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000g/m²/24h"
     },
     "url": "https://rab.equipment/us/womens-firewall-waterproof-pants",
     "discontinued": false,
@@ -955,10 +964,11 @@
     "variant": "Men's",
     "weight_g": 296,
     "weight_basis": "manufacturer",
-    "weight_note": "Rab listed 10.4 oz / 296 g",
+    "weight_note": "Rab US listed weight (Size M)",
     "price_usd": 275,
     "specs": {
-      "material": "GORE-TEX"
+      "material": "GORE-TEX",
+      "waterproof_rating_mm": 28000
     },
     "url": "https://rab.equipment/us/mens-namche-hike-gore-tex-pants",
     "discontinued": false,
@@ -974,10 +984,11 @@
     "variant": "Women's",
     "weight_g": 290,
     "weight_basis": "manufacturer",
-    "weight_note": "Rab listed 10.2 oz / 290 g",
+    "weight_note": "Rab US listed weight (Size 10)",
     "price_usd": 275,
     "specs": {
-      "material": "GORE-TEX"
+      "material": "GORE-TEX",
+      "waterproof_rating_mm": 28000
     },
     "url": "https://rab.equipment/us/womens-namche-hike-gore-tex-pants",
     "discontinued": false,
@@ -993,10 +1004,12 @@
     "variant": "Women's",
     "weight_g": 237,
     "weight_basis": "manufacturer",
-    "weight_note": "Rab listed 8 oz / 237 g",
+    "weight_note": "Rab US listed weight",
     "price_usd": 240,
     "specs": {
-      "material": "Proflex stretch waterproof"
+      "material": "Proflex stretch waterproof",
+      "waterproof_rating_mm": 10000,
+      "breathability": "35,000g/m²/24h"
     },
     "url": "https://rab.equipment/us/women-s-kinetic-2-0-pants",
     "discontinued": false,
@@ -1150,7 +1163,9 @@
     "weight_note": "size M, Showers Pass-listed 11.2 oz",
     "price_usd": 189,
     "specs": {
-      "material": "3-layer Artex"
+      "material": "3-layer Artex",
+      "waterproof_rating_mm": 15000,
+      "breathability": "30,000 g/m²/24h"
     },
     "url": "https://www.showerspass.com/products/mens-timberline-pant",
     "discontinued": false,
@@ -1166,14 +1181,16 @@
     "variant": "Women's",
     "weight_g": 318,
     "weight_basis": "manufacturer",
-    "weight_note": "Showers Pass page lists 11.2 oz (size M; possibly shared with men's spec)",
+    "weight_note": "Showers Pass-listed 11.2 oz",
     "price_usd": 189,
     "specs": {
-      "material": "3-layer Artex"
+      "material": "3-layer Artex",
+      "waterproof_rating_mm": 15000,
+      "breathability": "30,000 g/m²/24h"
     },
     "url": "https://www.showerspass.com/products/womens-timberline-pant",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1186,11 +1203,11 @@
     "weight_g": 100,
     "weight_basis": "manufacturer",
     "weight_note": "Montane-listed 100 g",
-    "price_usd": null,
+    "price_usd": 125,
     "specs": {
       "material": "Pertex Shield nano-weight 2.5L"
     },
-    "url": "https://montane.com/products/montane-unisex-minimus-nano-pull-over-waterproof-pants",
+    "url": "https://montane.com/en-us/products/montane-unisex-minimus-nano-pull-over-waterproof-pants",
     "discontinued": false,
     "confidence": "high",
     "notes": "Unisex emergency rain pant; Montane store lists 100.00 (currency unverified)"
@@ -1205,13 +1222,55 @@
     "weight_g": 244,
     "weight_basis": "manufacturer",
     "weight_note": "Patagonia-listed 244 g (8.6 oz)",
-    "price_usd": null,
+    "price_usd": 239,
     "specs": {
       "material": "H2No 3-layer"
     },
-    "url": "https://www.patagonia.com.au/products/womens-granite-crest-rain-pants-85435-blk",
+    "url": "https://eu.patagonia.com/fi/en/product/womens-granite-crest-waterproof-rain-pants/85435.html",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "US price $239 from patagonia.com category listing; weight 244 g from Patagonia EU product page (US page blocked)."
+  },
+  {
+    "id": "montbell-rain-hiker-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Montbell",
+    "model": "Rain Hiker Pants",
+    "variant": "Men's",
+    "weight_g": 193,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 89,
+    "specs": {
+      "material": "DRY-TEC 2L 70D nylon taffeta",
+      "waterproof_rating_mm": 20000,
+      "breathability": "10,000 g/m²/24h (JIS L-1099 B-1)"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2328339",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2328339"
+  },
+  {
+    "id": "montbell-dry-tec-stretch-rain-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Montbell",
+    "model": "DRY-TEC Stretch Rain Pants",
+    "variant": "Men's",
+    "weight_g": 175,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 180,
+    "specs": {
+      "material": "SUPER DRY-TEC 3L 15D Ballistic Airlight nylon ripstop, stretch",
+      "waterproof_rating_mm": 20000,
+      "breathability": "50,000 g/m²/24h (JIS L-1099 B-1)"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2328345",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2328345"
   }
 ]

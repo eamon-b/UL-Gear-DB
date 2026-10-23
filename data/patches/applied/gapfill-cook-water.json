@@ -1,0 +1,1456 @@
+{
+  "updates": [
+    {
+      "id": "lifestraw-peak-straw",
+      "set": {
+        "confidence": "high",
+        "weight_basis": "manufacturer",
+        "specs": {
+          "pore_size_micron": 0.2,
+          "lifespan_l": 4000
+        }
+      }
+    },
+    {
+      "id": "lifestraw-peak-squeeze-650ml",
+      "set": {
+        "weight_g": 102,
+        "weight_basis": "manufacturer",
+        "weight_note": "manufacturer spec (lifestraw.com lists 3.2 oz / 102 g, same as the 1L version)",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "lifestraw-peak-gravity-3l",
+      "set": {
+        "weight_g": 228,
+        "weight_basis": "manufacturer",
+        "weight_note": "manufacturer spec 8.1 oz",
+        "confidence": "high",
+        "specs": {
+          "flow_rate_lpm": 1.7
+        }
+      }
+    },
+    {
+      "id": "lifestraw-peak-gravity-8l",
+      "set": {
+        "weight_g": 536,
+        "weight_basis": "manufacturer",
+        "weight_note": "manufacturer spec 19 oz",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "lifestraw-peak-3-in-1-kit",
+      "set": {
+        "weight_g": 378,
+        "weight_basis": "manufacturer",
+        "weight_note": "sum of manufacturer component weights: Solo filter 48 g + 3L gravity bag w/ hose 228 g + 650 ml squeeze bottle 102 g",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "lifestraw-personal",
+      "set": {
+        "confidence": "high",
+        "weight_basis": "manufacturer"
+      }
+    },
+    {
+      "id": "lifestraw-go-22oz",
+      "set": {
+        "weight_g": 247,
+        "weight_basis": "manufacturer",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "lifestraw-go-1l",
+      "set": {
+        "weight_g": 268,
+        "weight_basis": "manufacturer",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "sawyer-squeeze",
+      "set": {
+        "url": "https://www.sawyer.com/product/squeeze-water-filter-system",
+        "price_usd": 45.99,
+        "confidence": "high",
+        "specs": {
+          "pore_size_micron": 0.1
+        }
+      }
+    },
+    {
+      "id": "sawyer-micro-squeeze",
+      "set": {
+        "url": "https://www.sawyer.com/product/micro-squeeze-water-filtration-system",
+        "price_usd": 33.99,
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "sawyer-mini",
+      "set": {
+        "url": "https://www.sawyer.com/product/mini-water-filtration-system-blue",
+        "price_usd": 28.99,
+        "confidence": "high",
+        "weight_note": "filter only (Sawyer: total field weight 2 oz; 4.93 oz retail kit weight)"
+      }
+    },
+    {
+      "id": "sawyer-one-gallon-gravity",
+      "set": {
+        "url": "https://www.sawyer.com/product/one-gallon-gravity-water-filtration-system",
+        "price_usd": 46.99,
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "sawyer-squeeze-sp131",
+      "set": {
+        "discontinued": true,
+        "url": "https://www.sawyer.com/product/squeeze-water-filter-system",
+        "notes": "Older SP131 kit SKU (three pouches); no longer in Sawyer catalog/sitemap (Oct 2026) - current kit is SP129CL, same filter."
+      }
+    },
+    {
+      "id": "sawyer-squeeze-pouch-32oz",
+      "set": {
+        "url": "https://www.sawyer.com/product/32-oz-squeezable-pouches-set-of-3",
+        "price_usd": 10.49,
+        "notes": "Sold as SP113 set of 3 for $10.49 (price is for the set); Sawyer lists 4.9 oz for the set. Notorious for bursting at seams; many hikers swap to CNOC/Evernew."
+      }
+    },
+    {
+      "id": "sawyer-squeeze-pouch-64oz",
+      "set": {
+        "url": "https://www.sawyer.com/product/64-oz-squeezable-pouches-set-of-2",
+        "price_usd": 10.49,
+        "notes": "Sold as SP114 set of 2 for $10.49 (price is for the set); Sawyer lists 3.84 oz for the set."
+      }
+    },
+    {
+      "id": "msr-windburner-group",
+      "set": {
+        "weight_g": 591,
+        "weight_basis": "manufacturer",
+        "weight_note": "minimum weight; packaged 599 g",
+        "confidence": "high",
+        "specs": {
+          "boil_time_min": 6.2,
+          "boil_volume_l": 1
+        }
+      }
+    },
+    {
+      "id": "msr-reactor-2-5",
+      "set": {
+        "specs": {
+          "boil_time_min": 3,
+          "boil_volume_l": 1
+        }
+      }
+    },
+    {
+      "id": "msr-guardian",
+      "set": {
+        "url": "https://cascadedesigns.com/products/guardian-purifier",
+        "price_usd": 399.95,
+        "confidence": "high",
+        "weight_basis": "manufacturer"
+      }
+    },
+    {
+      "id": "msr-trailshot",
+      "set": {
+        "url": "https://cascadedesigns.com/products/trailshot-pocket-sized-water-filter",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "msr-miniworks-ex",
+      "set": {
+        "url": "https://cascadedesigns.com/products/miniworks-r-ex-microfilter",
+        "price_usd": 129.95,
+        "weight_g": 460,
+        "weight_basis": "manufacturer",
+        "weight_note": "MSR lists 1 lb / 0.46 kg",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "msr-autoflow-xl",
+      "set": {
+        "url": "https://cascadedesigns.com/products/autoflow-xl-gravity-filter-10-l",
+        "price_usd": 139.95,
+        "weight_g": 340,
+        "weight_basis": "manufacturer",
+        "weight_note": "total system weight 12 oz",
+        "confidence": "high",
+        "specs": {
+          "capacity_l": 10
+        }
+      }
+    },
+    {
+      "id": "msr-trail-base",
+      "set": {
+        "discontinued": true,
+        "notes": "Not found in cascadedesigns.com store search (Oct 2026); only the TrailShot/Trail Base replacement cartridge kit is still sold."
+      }
+    },
+    {
+      "id": "platypus-gravityworks-4l",
+      "set": {
+        "url": "https://cascadedesigns.com/products/gravityworks-water-filter-system",
+        "price_usd": 134.95,
+        "weight_g": 326,
+        "weight_basis": "manufacturer",
+        "weight_note": "complete 4.0 L system, 11.5 oz",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "platypus-gravityworks-2l",
+      "set": {
+        "discontinued": true,
+        "url": "https://cascadedesigns.com/products/gravityworks-water-filter-system",
+        "notes": "Platypus now sells only 4.0 L and 6.0 L GravityWorks systems (Oct 2026)."
+      }
+    },
+    {
+      "id": "platypus-big-zip-evo-2l",
+      "set": {
+        "url": "https://cascadedesigns.com/products/big-zip-evo",
+        "price_usd": 54.95,
+        "weight_g": 171,
+        "weight_basis": "manufacturer",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "platypus-big-zip-evo-3l",
+      "set": {
+        "url": "https://cascadedesigns.com/products/big-zip-evo",
+        "price_usd": 59.95,
+        "weight_g": 184,
+        "weight_basis": "manufacturer",
+        "weight_note": "reservoir + drink tube",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "platypus-softbottle-1l",
+      "set": {
+        "url": "https://cascadedesigns.com/products/softbottle",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "platypus-platy-2l",
+      "set": {
+        "url": "https://cascadedesigns.com/products/platy-2l-bottle",
+        "weight_g": 36,
+        "weight_basis": "manufacturer",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "platypus-hoser-3l",
+      "set": {
+        "url": "https://cascadedesigns.com/products/hoser-reservoir",
+        "price_usd": 39.95,
+        "weight_g": 108,
+        "weight_basis": "manufacturer",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "platypus-softbottle-0-5l",
+      "set": {
+        "discontinued": true,
+        "notes": "Only the 1.0 L SoftBottle is listed on cascadedesigns.com (store search, Oct 2026)."
+      }
+    },
+    {
+      "id": "nalgene-wide-mouth-32oz-sustain",
+      "set": {
+        "url": "https://nalgene.com/product/32oz-wide-mouth-bottle/",
+        "price_usd": 16.99,
+        "weight_g": 177,
+        "weight_basis": "manufacturer",
+        "weight_note": "empty with cap, 6.25 oz",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "nalgene-narrow-mouth-32oz-sustain",
+      "set": {
+        "url": "https://nalgene.com/product/32oz-narrow-mouth-bottle/",
+        "price_usd": 16.99,
+        "weight_g": 177,
+        "weight_basis": "manufacturer",
+        "weight_note": "empty with cap, 6.25 oz",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "nalgene-wide-mouth-32oz-hdpe",
+      "set": {
+        "url": "https://nalgene.com/product/32oz-wide-mouth-ultralite-bottle/",
+        "price_usd": 11.99,
+        "weight_g": 106,
+        "weight_basis": "manufacturer",
+        "weight_note": "empty with cap, 3.75 oz",
+        "confidence": "high",
+        "notes": "Sold by Nalgene as the 32oz Wide Mouth Ultralite (HDPE). Translucent, softer and noticeably lighter than Tritan; UL-favorite Nalgene."
+      }
+    },
+    {
+      "id": "nalgene-wide-mouth-16oz-sustain",
+      "set": {
+        "url": "https://nalgene.com/product/16oz-wide-mouth-bottle/",
+        "price_usd": 14.99,
+        "weight_g": 89,
+        "weight_basis": "manufacturer",
+        "weight_note": "empty with cap, 3.125 oz",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "nalgene-wide-mouth-48oz-silo",
+      "set": {
+        "url": "https://nalgene.com/product/48oz-wide-mouth-silo-bottle/",
+        "price_usd": 19.99,
+        "weight_g": 209,
+        "weight_basis": "manufacturer",
+        "weight_note": "empty with cap, 7.375 oz",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "nalgene-flexible-cantene-48oz",
+      "set": {
+        "url": "https://nalgene.com/product/48oz-nalgene-cantene/",
+        "price_usd": 19.32,
+        "weight_g": 64,
+        "weight_basis": "manufacturer",
+        "weight_note": "empty with cap, 2.25 oz",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "evernew-ti-mug-pot-500",
+      "set": {
+        "url": "https://www.evernewamerica.com/ultralight-series/",
+        "weight_g": 74,
+        "weight_basis": "manufacturer",
+        "weight_note": "Ti Ultralight Mug Pot 500ml (ECA266), 2.6 oz",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "evernew-ti-ultralight-pot-900",
+      "set": {
+        "url": "https://www.evernewamerica.com/ultralight-series/",
+        "weight_g": 115,
+        "weight_basis": "manufacturer",
+        "weight_note": "Ti Ultralight Pot 900ml (ECA252), 4.1 oz",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "evernew-ti-ultralight-pot-1300",
+      "set": {
+        "url": "https://www.evernewamerica.com/ultralight-series/",
+        "weight_g": 130,
+        "weight_basis": "manufacturer",
+        "weight_note": "Ti Ultralight Pot 1300ml (ECA253), 4.6 oz",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "evernew-titanium-alcohol-stove",
+      "set": {
+        "url": "https://www.evernewamerica.com/ti-stove/",
+        "weight_basis": "manufacturer",
+        "confidence": "medium",
+        "specs": {
+          "fuel_capacity_ml": 70
+        }
+      }
+    },
+    {
+      "id": "evernew-water-carry-1500ml",
+      "set": {
+        "url": "https://www.evernewamerica.com/hydration/",
+        "weight_basis": "manufacturer",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "evernew-water-carry-900ml",
+      "set": {
+        "url": "https://www.evernewamerica.com/hydration/",
+        "weight_g": 29,
+        "weight_basis": "manufacturer",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "katadyn-befree-0-6l",
+      "set": {
+        "url": "https://www.katadyngroup.com/us/en/8019639-katadyn-befree-0.6-us~p10915",
+        "weight_basis": "manufacturer"
+      }
+    },
+    {
+      "id": "katadyn-befree-1-0l",
+      "set": {
+        "url": "https://www.katadyngroup.com/us/en/8018006-katadyn-befree-1.0l-us~p6730",
+        "weight_g": 63,
+        "weight_basis": "manufacturer",
+        "weight_note": "filter + 1.0L flask (Katadyn US spec 63 g)"
+      }
+    },
+    {
+      "id": "katadyn-befree-3-0l-gravity",
+      "set": {
+        "url": "https://www.katadyngroup.com/us/en/8020470-katadyn-gravity-befree-3.0l-us~p6733",
+        "price_usd": 79.95,
+        "weight_basis": "manufacturer",
+        "weight_note": "complete system (Katadyn spec)",
+        "confidence": "high",
+        "notes": "Price per GearX listing (Oct 2026)."
+      }
+    },
+    {
+      "id": "katadyn-befree-ac-1-0l",
+      "set": {
+        "price_usd": 59.95,
+        "notes": "Activated-carbon version of BeFree (taste/odor). List $59.95 (GearX/Neptune); GGG sells at $52.95."
+      }
+    },
+    {
+      "id": "katadyn-hiker-pro",
+      "set": {
+        "url": "https://www.katadyngroup.com/us/en/8019857-katadyn-hiker-pro-us-transparent~p6724",
+        "weight_g": 233,
+        "weight_basis": "manufacturer",
+        "weight_note": "Katadyn spec 233 g",
+        "price_usd": 99.95,
+        "confidence": "high",
+        "specs": {
+          "lifespan_l": 1150,
+          "flow_rate_lpm": 1
+        }
+      }
+    },
+    {
+      "id": "katadyn-pocket",
+      "set": {
+        "url": "https://www.katadyngroup.com/us/en/2010000-katadyn-pocket-water-filter~p6695",
+        "weight_g": 550,
+        "weight_basis": "manufacturer",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "katadyn-vario",
+      "set": {
+        "url": "https://www.katadyngroup.com/us/en/8014931-katadyn-vario-microfilter-usa~p6699",
+        "price_usd": 124.95,
+        "weight_basis": "manufacturer",
+        "confidence": "high",
+        "notes": "Dual-mode ceramic/glass-fiber pump: ~1 L/min (ceramic) or 2 L/min (faster flow). Price per Neptune Mountaineering."
+      }
+    },
+    {
+      "id": "katadyn-gravity-camp-6l",
+      "set": {
+        "discontinued": true,
+        "notes": "Absent from Katadyn US outdoor listing and katadyn.com catalog (Oct 2026)."
+      }
+    },
+    {
+      "id": "katadyn-micropur-mp1-30",
+      "set": {
+        "url": "https://www.katadyngroup.com/us/en/8013692-micropur-purification-mp-1t-3x10-tab.-~p10779",
+        "price_usd": 17.95,
+        "confidence": "high",
+        "notes": "Each tablet treats 1 L; 4 h exposure time. Price per GearX listing."
+      }
+    },
+    {
+      "id": "katadyn-micropur-mp1-20",
+      "set": {
+        "url": "https://www.katadyngroup.com/us/en/8014996-micropur-purification-mp-1t-2x10-tab.-~p6627",
+        "specs": {
+          "contact_time_hr": 4
+        }
+      }
+    },
+    {
+      "id": "steripen-ultralight",
+      "set": {
+        "url": "https://www.katadyngroup.com/us/en/ull-mp-efg-steripen-ultralight-uv-water-purifier~p6690",
+        "weight_g": 76,
+        "weight_basis": "manufacturer",
+        "specs": {
+          "lifespan_l": 8000
+        }
+      }
+    },
+    {
+      "id": "steripen-adventurer-opti",
+      "set": {
+        "url": "https://www.katadyngroup.com/us/en/ado-mp-efg-steripen-adventure-opti-uv-water-purifier~p6693",
+        "weight_g": 103,
+        "weight_basis": "manufacturer",
+        "weight_note": "with 2x CR123 batteries",
+        "price_usd": 124.95,
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "steripen-ultra",
+      "set": {
+        "url": "https://www.katadyngroup.com/us/en/ult-mp-efg-steripen-ultra-uv-water-purifier~p6691",
+        "weight_basis": "manufacturer",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "steripen-classic-3",
+      "set": {
+        "url": "https://www.katadyngroup.com/us/en/sp-efg-steripen-classic-3-uv-water-purifier~p30342",
+        "weight_g": 178,
+        "weight_basis": "manufacturer",
+        "weight_note": "without batteries (4x AA not included)",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "potable-aqua-iodine-50",
+      "set": {
+        "url": "https://pharmacalway.com/potableaqua/",
+        "price_usd": 11.99,
+        "notes": "Price per Neptune Mountaineering listing (Oct 2026); weight still an estimate."
+      }
+    },
+    {
+      "id": "potable-aqua-pa-plus",
+      "set": {
+        "url": "https://pharmacalway.com/potableaqua/",
+        "price_usd": 15.99,
+        "notes": "Price per Neptune Mountaineering listing (Oct 2026); weight still an estimate."
+      }
+    },
+    {
+      "id": "potable-aqua-chlorine-dioxide-20",
+      "set": {
+        "url": "https://pharmacalway.com/potableaqua/"
+      }
+    },
+    {
+      "id": "bearvault-bv450",
+      "set": {
+        "notes": "IGBC cert no. per IGBC Certified Products List (31 Jul 2026).",
+        "specs": {
+          "approved": "IGBC #5339; WMI"
+        }
+      }
+    },
+    {
+      "id": "bearvault-bv500",
+      "set": {
+        "notes": "IGBC cert no. per IGBC Certified Products List (31 Jul 2026).",
+        "specs": {
+          "approved": "IGBC #5340; WMI"
+        }
+      }
+    },
+    {
+      "id": "counter-assault-bear-keg",
+      "set": {
+        "specs": {
+          "approved": "IGBC #5341 (on IGBC unconfirmed-products list, Jun 2026)"
+        }
+      }
+    },
+    {
+      "id": "garcia-backpackers-cache",
+      "set": {
+        "specs": {
+          "approved": "IGBC #5298 (on IGBC unconfirmed-products list, Jun 2026); SIBBG"
+        }
+      }
+    },
+    {
+      "id": "lighter1-big-daddy",
+      "set": {
+        "price_usd": 139.99,
+        "weight_basis": "manufacturer",
+        "weight_note": "canister 2 lb 4 oz + aluminum pan lid 6 oz + handle 1 oz (2 oz pan cover not included)",
+        "notes": "Lid doubles as a frying pan/plate. Listed sold out on lighter1.com (Oct 2026).",
+        "specs": {
+          "approved": "IGBC #3350 (on IGBC unconfirmed-products list, Jun 2026)"
+        }
+      }
+    },
+    {
+      "id": "lighter1-lil-sami",
+      "set": {
+        "price_usd": 129.99,
+        "weight_basis": "manufacturer",
+        "weight_note": "canister 1 lb 5 oz + aluminum pan lid 6 oz + handle 1 oz (2 oz pan cover not included)",
+        "notes": "Listed sold out on lighter1.com (Oct 2026).",
+        "specs": {
+          "approved": "IGBC #3351 (on IGBC unconfirmed-products list, Jun 2026)",
+          "volume_l": 5
+        }
+      }
+    },
+    {
+      "id": "udap-no-fed-bear",
+      "set": {
+        "price_usd": 79.99,
+        "specs": {
+          "approved": "IGBC #5345"
+        },
+        "url": "https://www.udap.com/mm5/product/BRC",
+        "weight_g": 1089,
+        "weight_basis": "manufacturer",
+        "weight_note": "UDAP spec 2.4 lb; 8 in dia x 10 in",
+        "confidence": "high",
+        "notes": "The name is No-Fed-Bear (not No-Fly-Zone). Volume not stated by UDAP; 7.5 L is unverified."
+      }
+    },
+    {
+      "id": "bare-boxer-contender",
+      "set": {
+        "specs": {
+          "approved": "IGBC #5438 (on IGBC unconfirmed-products list, Jun 2026); SIBBG"
+        }
+      }
+    },
+    {
+      "id": "ursack-major",
+      "set": {
+        "specs": {
+          "approved": "IGBC #3738"
+        }
+      }
+    },
+    {
+      "id": "ursack-allmitey",
+      "set": {
+        "specs": {
+          "approved": "IGBC #5135"
+        }
+      }
+    },
+    {
+      "id": "wild-ideas-bearikade-scout",
+      "set": {
+        "notes": "Carbon-fiber composite. Not on the IGBC certified or unconfirmed product lists (Jul 2026); Wild Ideas cites 2000 captive grizzly testing. SIBBG status not re-checked.",
+        "specs": {
+          "approved": "SIBBG"
+        }
+      }
+    },
+    {
+      "id": "wild-ideas-bearikade-weekender",
+      "set": {
+        "notes": "Not on the IGBC certified or unconfirmed product lists (Jul 2026).",
+        "specs": {
+          "approved": "SIBBG"
+        }
+      }
+    },
+    {
+      "id": "wild-ideas-bearikade-blazer",
+      "set": {
+        "notes": "Not on the IGBC certified or unconfirmed product lists (Jul 2026).",
+        "specs": {
+          "approved": "SIBBG"
+        }
+      }
+    },
+    {
+      "id": "wild-ideas-bearikade-expedition",
+      "set": {
+        "notes": "Not on the IGBC certified or unconfirmed product lists (Jul 2026).",
+        "specs": {
+          "approved": "SIBBG"
+        }
+      }
+    },
+    {
+      "id": "udap-bear-spray-12-7-9oz",
+      "set": {
+        "url": "https://www.udap.com/mm5/product/12",
+        "specs": {
+          "range_ft": 40
+        }
+      }
+    },
+    {
+      "id": "udap-bear-spray-15-magnum-9-2oz",
+      "set": {
+        "url": "https://www.udap.com/mm5/product/15"
+      }
+    },
+    {
+      "id": "udap-bear-spray-18-super-magnum-13-4oz",
+      "set": {
+        "url": "https://www.udap.com/mm5/product/18",
+        "specs": {
+          "range_ft": 40
+        }
+      }
+    },
+    {
+      "id": "hyperlite-roll-top-food-bag-kit-10l",
+      "set": {
+        "weight_g": 113,
+        "weight_basis": "manufacturer",
+        "weight_note": "kit weight 4.0 oz as listed by HMG (10L bag 32 g + rock bag 4 g + line + carabiner)",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "hyperlite-roll-top-food-bag-kit-15l",
+      "set": {
+        "weight_g": 120,
+        "weight_basis": "estimate",
+        "weight_note": "HMG 10L kit 4.0 oz (113 g) with the 15L bag (39 g) swapped for the 10L bag (32 g)",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "frontiersman-bear-spray-7-9oz",
+      "set": {
+        "price_usd": 47.99
+      }
+    },
+    {
+      "id": "jetboil-minimo",
+      "set": {
+        "url": "https://jetboil.johnsonoutdoors.com/us/en-us/stoves/cooking-systems/minimo",
+        "price_usd": 179.99,
+        "notes": "List $179.99 per GearX (compare-at) / $179.95 Neptune Mountaineering; weight and BTU per GearX spec sheet.",
+        "specs": {
+          "output_btu": 6000
+        }
+      }
+    },
+    {
+      "id": "jetboil-flash",
+      "set": {
+        "price_usd": 144.99,
+        "notes": "Price and 5,300 BTU/h per GearX listing (Oct 2026).",
+        "specs": {
+          "output_btu": 5300
+        }
+      }
+    },
+    {
+      "id": "jetboil-zip",
+      "set": {
+        "url": "https://www.gearx.com/products/jetboil-zip-0-8l-stove-kit-bh2wv-carbon",
+        "price_usd": 109.99,
+        "specs": {
+          "output_btu": 5300
+        }
+      }
+    },
+    {
+      "id": "jetboil-flash-companion-cup",
+      "set": {
+        "url": "https://www.gearx.com/products/jetboil-1l-fluxring-tall-companion-cup-276zz-carbon",
+        "price_usd": 64.99,
+        "notes": "Sold as the 1L FluxRing Tall Companion Cup; weight not stated by retailer."
+      }
+    },
+    {
+      "id": "jetboil-stash",
+      "set": {
+        "url": "https://www.evo.com/products/202055-jetboil-stashr-cooking-system",
+        "notes": "Weight 7.1 oz and boil 2:30 per 0.5 L confirmed at evo (Oct 2026); evo regular price $144.95, other US retailers $134.95-$164.99."
+      }
+    },
+    {
+      "id": "fire-maple-polaris-quad",
+      "set": {
+        "specs": {
+          "output_btu": 11330
+        }
+      }
+    },
+    {
+      "id": "fire-maple-torch",
+      "set": {
+        "specs": {
+          "output_btu": 7165
+        }
+      }
+    },
+    {
+      "id": "fire-maple-greenpeak-pro",
+      "set": {
+        "specs": {
+          "output_btu": 7164
+        },
+        "notes": "Brand store price $32.95 (Oct 2026); store also shows a compare-at price of $35.95."
+      }
+    },
+    {
+      "id": "fire-maple-petrel-summit",
+      "set": {
+        "notes": "2.8 kW (9,554 BTU/h) upright; 3.3 kW (11,260 BTU/h) inverted after preheating.",
+        "specs": {
+          "output_btu": 9554
+        }
+      }
+    },
+    {
+      "id": "fire-maple-fms-118a",
+      "set": {
+        "specs": {
+          "output_btu": 9500
+        },
+        "notes": "Brand store price $39.95 (Oct 2026); store also shows a compare-at price of $41.94."
+      }
+    },
+    {
+      "id": "fire-maple-fms-125",
+      "set": {
+        "specs": {
+          "output_btu": 13649
+        },
+        "notes": "Brand store price $35.95 (Oct 2026); store also shows a compare-at price of $41.16."
+      }
+    },
+    {
+      "id": "fire-maple-star-x1-pro",
+      "set": {
+        "specs": {
+          "output_btu": 7507
+        }
+      }
+    },
+    {
+      "id": "fire-maple-star-x2-pro",
+      "set": {
+        "specs": {
+          "output_btu": 7507
+        },
+        "notes": "Brand store price $72.95 (Oct 2026); store also shows a compare-at price of $79.95."
+      }
+    },
+    {
+      "id": "fire-maple-petrel-quickboil-pro",
+      "set": {
+        "specs": {
+          "output_btu": 8531
+        }
+      }
+    },
+    {
+      "id": "fire-maple-mars-radiant",
+      "set": {
+        "specs": {
+          "output_btu": 7165
+        },
+        "notes": "Brand store price $98.95 (Oct 2026); store also shows a compare-at price of $134.95."
+      }
+    },
+    {
+      "id": "primus-essential-trail",
+      "set": {
+        "specs": {
+          "output_btu": 8530
+        }
+      }
+    },
+    {
+      "id": "primus-express-piezo",
+      "set": {
+        "specs": {
+          "output_btu": 8870,
+          "boil_time_min": 3.5,
+          "boil_volume_l": 1
+        }
+      }
+    },
+    {
+      "id": "primus-classic-trail",
+      "set": {
+        "specs": {
+          "output_btu": 9550
+        }
+      }
+    },
+    {
+      "id": "primus-express-spider",
+      "set": {
+        "specs": {
+          "output_btu": 6820,
+          "boil_time_min": 5,
+          "boil_volume_l": 1
+        }
+      }
+    },
+    {
+      "id": "primus-lite",
+      "set": {
+        "specs": {
+          "output_btu": 4500
+        },
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "primus-lite-plus",
+      "set": {
+        "specs": {
+          "output_btu": 4500
+        }
+      }
+    },
+    {
+      "id": "primus-lite-xl",
+      "set": {
+        "confidence": "high",
+        "specs": {
+          "output_btu": 5800,
+          "boil_time_min": 2.5,
+          "boil_volume_l": 0.5
+        },
+        "weight_g": 460,
+        "weight_basis": "manufacturer",
+        "notes": "Primus spec table: 1700 W (~5,800 BTU/h), 460 g; product copy still says 4500 BTU (1500 W)."
+      }
+    },
+    {
+      "id": "primus-lite-xl-pot-1-0",
+      "set": {
+        "weight_g": 325,
+        "weight_basis": "manufacturer",
+        "weight_note": "Primus spec table",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "primus-litech-kettle-0-9",
+      "set": {
+        "weight_g": 178,
+        "weight_basis": "manufacturer",
+        "weight_note": "Primus spec table",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "primus-essential-pot-set-1-3",
+      "set": {
+        "weight_g": 503,
+        "weight_basis": "manufacturer",
+        "weight_note": "Primus spec table (pot set)",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "snow-peak-litemax",
+      "set": {
+        "weight_basis": "manufacturer",
+        "weight_note": "stove only; storage sack 5.7 g",
+        "confidence": "high",
+        "notes": "Price per snowpeak.com store; specs per Garage Grown Gear listing (GGG sells at $44.95).",
+        "specs": {
+          "boil_time_min": 5,
+          "boil_volume_l": 1
+        }
+      }
+    },
+    {
+      "id": "snow-peak-gigapower-2-auto",
+      "set": {
+        "confidence": "high",
+        "notes": "Price and 10,000 BTU per snowpeak.com product data (Oct 2026)."
+      }
+    },
+    {
+      "id": "snow-peak-trek-900",
+      "set": {
+        "weight_g": 175,
+        "weight_basis": "manufacturer",
+        "weight_note": "pot + lid/pan (spec 6.2 oz)",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "snow-peak-trek-700",
+      "set": {
+        "weight_basis": "manufacturer",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "snow-peak-ti-double-450",
+      "set": {
+        "weight_g": 104,
+        "weight_basis": "manufacturer",
+        "weight_note": "spec 4.6 oz",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "snow-peak-titanium-spork",
+      "set": {
+        "weight_g": 16,
+        "weight_basis": "manufacturer",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "soto-titanium-pot-750",
+      "set": {
+        "weight_g": 90,
+        "weight_basis": "manufacturer",
+        "weight_note": "pot 58 g + lid 13 g + pot lifter 19 g"
+      }
+    },
+    {
+      "id": "soto-titanium-pot-1100",
+      "set": {
+        "weight_g": 110,
+        "weight_basis": "manufacturer",
+        "weight_note": "pot 62 g + lid 29 g + pot lifter 19 g"
+      }
+    },
+    {
+      "id": "brs-3000t",
+      "set": {
+        "url": "https://garagegrowngear.com/products/brs-3000-t-stove-by-brs-outdoor",
+        "weight_g": 26,
+        "weight_basis": "manufacturer",
+        "weight_note": "stove only; pouch 2 g",
+        "price_usd": 19.99,
+        "confidence": "high",
+        "notes": "Output 2700 W per spec (~9,210 BTU/h). Price per Garage Grown Gear (Oct 2026).",
+        "specs": {
+          "output_btu": 9210
+        }
+      }
+    },
+    {
+      "id": "humangear-gobites-uno",
+      "set": {
+        "url": "https://garagegrowngear.com/products/gobite-uno-spoon-fork-by-humangear",
+        "weight_g": 15,
+        "weight_basis": "manufacturer",
+        "weight_note": "regular length (15 g); long version 18 g / $8.95",
+        "price_usd": 4.99,
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "bic-mini-lighter",
+      "set": {
+        "url": "https://garagegrowngear.com/products/bic-lighter-mini",
+        "weight_g": 12,
+        "weight_basis": "manufacturer",
+        "weight_note": "spec 11.5 g",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "soto-windmaster-triflex",
+      "set": {
+        "weight_g": 65,
+        "weight_basis": "manufacturer",
+        "weight_note": "WindMaster + TriFlex 2.3 oz per SOTO",
+        "url": "https://sotooutdoors.com/product/triflex-for-windmaster-stove/",
+        "discontinued": true,
+        "notes": "SOTO US now sells the WindMaster only with 4Flex ($69.95); the TriFlex pot support is sold separately ($10.45, 7 g)."
+      }
+    },
+    {
+      "id": "soto-amicus-new-river-pot-combo",
+      "set": {
+        "weight_basis": "manufacturer",
+        "weight_note": "New River pot 118 g + lid 23 g + Amicus with igniter 81 g",
+        "specs": {
+          "output_btu": 10210
+        }
+      }
+    },
+    {
+      "id": "soto-fusion-trek",
+      "set": {
+        "weight_note": "6.4 oz per SOTO"
+      }
+    },
+    {
+      "id": "optimus-crux",
+      "set": {
+        "url": "https://katadyn.com/products/8019260-optimus-crux",
+        "notes": "Katadyn spec: 3000 W burner, boils 1 L in about 3 min (Katadyn also prints 12,000 BTU/h, inconsistent with 3 kW).",
+        "specs": {
+          "boil_time_min": 3,
+          "boil_volume_l": 1
+        }
+      }
+    },
+    {
+      "id": "optimus-vega",
+      "set": {
+        "url": "https://katadyn.com/products/8018505-optimus-vega",
+        "notes": "Katadyn spec: 2.6 kW (prints 6,000 BTU/h; 2.6 kW = ~8,870 BTU/h), average boil time 4-5 min. Previous 12,000 BTU value not supported.",
+        "specs": {
+          "output_btu": 8870
+        }
+      }
+    },
+    {
+      "id": "olicamp-ion-micro-titanium",
+      "set": {
+        "url": "https://olicamp.com/ion-micro-titanium-stove.html",
+        "weight_g": 45,
+        "weight_basis": "manufacturer",
+        "price_usd": 49.95,
+        "confidence": "high",
+        "specs": {
+          "output_btu": 8900,
+          "boil_time_min": 4.33,
+          "boil_volume_l": 0.95
+        }
+      }
+    },
+    {
+      "id": "fire-maple-fms-103",
+      "set": {
+        "notes": "Brand store price $18.50 (Oct 2026); store also shows a compare-at price of $22.20."
+      }
+    },
+    {
+      "id": "fire-maple-fms-102",
+      "set": {
+        "notes": "Brand store price $21.99 (Oct 2026); store also shows a compare-at price of $26.39."
+      }
+    },
+    {
+      "id": "fire-maple-petrel-ti-remote",
+      "set": {
+        "notes": "Brand store price $54.95 (Oct 2026); store also shows a compare-at price of $59.45."
+      }
+    },
+    {
+      "id": "fire-maple-volcano",
+      "set": {
+        "notes": "Brand store price $59.95 (Oct 2026); store also shows a compare-at price of $71.94."
+      }
+    },
+    {
+      "id": "fire-maple-maverick-triangle",
+      "set": {
+        "notes": "Flat-pack stainless wood stove; heavy for UL. Brand store price $32.95 (Oct 2026); store also shows a compare-at price of $41.94."
+      }
+    },
+    {
+      "id": "toaks-siphon-alcohol-stove",
+      "set": {
+        "price_usd": 39.95,
+        "notes": "Regular price $39.95; brand store selling at $34.95 (Oct 2026)."
+      }
+    },
+    {
+      "id": "toaks-wood-stove",
+      "set": {
+        "price_usd": 64.95,
+        "notes": "Regular price $64.95; brand store selling at $59.95 (Oct 2026)."
+      }
+    },
+    {
+      "id": "emberlit-original-stainless",
+      "set": {
+        "notes": "Brand store price $19.99 (Oct 2026); store also shows a compare-at price of $35.00."
+      }
+    },
+    {
+      "id": "emberlit-original-titanium",
+      "set": {
+        "notes": "Brand store price $34.99 (Oct 2026); store also shows a compare-at price of $55.00."
+      }
+    },
+    {
+      "id": "emberlit-mini-titanium",
+      "set": {
+        "notes": "Limited remaining stock (Gen1 leftovers). Brand store price $29.99 (Oct 2026); store also shows a compare-at price of $59.95."
+      }
+    },
+    {
+      "id": "toaks-light-450-cup",
+      "set": {
+        "price_usd": 22.95,
+        "notes": "Regular price $22.95; brand store selling at $19.95 (Oct 2026)."
+      }
+    },
+    {
+      "id": "toaks-light-450-cup-lid",
+      "set": {
+        "price_usd": 26.95,
+        "notes": "Regular price $26.95; brand store selling at $23.95 (Oct 2026)."
+      }
+    },
+    {
+      "id": "fire-maple-alti-900",
+      "set": {
+        "notes": "Brand store price $79.95 (Oct 2026); store also shows a compare-at price of $89.95."
+      }
+    },
+    {
+      "id": "fire-maple-frost-900",
+      "set": {
+        "notes": "Brand store price $23.95 (Oct 2026); store also shows a compare-at price of $32.10."
+      }
+    },
+    {
+      "id": "fire-maple-frost-kettle-0-8",
+      "set": {
+        "notes": "Brand store price $20.36 (Oct 2026); store also shows a compare-at price of $23.95."
+      }
+    },
+    {
+      "id": "fire-maple-fmt-t61-folding-spork",
+      "set": {
+        "notes": "Brand store price $9.99 (Oct 2026); store also shows a compare-at price of $11.41."
+      }
+    },
+    {
+      "id": "fire-maple-fmw-503-windscreen",
+      "set": {
+        "notes": "For remote-canister and alcohol stoves. Brand store price $10.85 (Oct 2026); store also shows a compare-at price of $12.96."
+      }
+    },
+    {
+      "id": "light-my-fire-spork-original",
+      "set": {
+        "url": "https://www.lightmyfire.com/products/swedish-spork-original-bulk"
+      }
+    },
+    {
+      "id": "light-my-fire-firesteel-scout",
+      "set": {
+        "url": "https://www.lightmyfire.com/products/swedish-firesteel-scout-2in1",
+        "notes": "Current model is the Swedish FireSteel scout 2in1 (brand store prices in SEK)."
+      }
+    },
+    {
+      "id": "light-my-fire-firesteel-army",
+      "set": {
+        "url": "https://www.lightmyfire.com/products/swedish-firesteel-army-2in1",
+        "notes": "Current model is the Swedish FireSteel army 2in1 (brand store prices in SEK)."
+      }
+    },
+    {
+      "id": "hydro-flask-32oz-wide-mouth",
+      "set": {
+        "url": "https://www.gearx.com/products/hydro-flask-32-oz-wide-mouth-bottle-1-hcuaz-agave2",
+        "weight_basis": "manufacturer",
+        "weight_note": "15.2 oz per spec listing",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "osprey-hydraulics-lt-2-5l",
+      "set": {
+        "url": "https://www.neptunemountaineering.com/products/hydraulics-light-2-5l-reservoir",
+        "price_usd": 44,
+        "notes": "Price per Neptune Mountaineering (Oct 2026); retailer lists approx. 6.5 oz."
+      }
+    },
+    {
+      "id": "osprey-hydraulics-3l",
+      "set": {
+        "url": "https://www.neptunemountaineering.com/products/hydraulics-3l-reservoir",
+        "price_usd": 52,
+        "notes": "Price per Neptune Mountaineering (Oct 2026)."
+      }
+    },
+    {
+      "id": "salomon-soft-flask-500ml",
+      "set": {
+        "url": "https://www.neptunemountaineering.com/products/soft-flack-500ml",
+        "price_usd": 22,
+        "notes": "Price per Neptune Mountaineering (Oct 2026)."
+      }
+    },
+    {
+      "id": "salomon-soft-flask-250ml",
+      "set": {
+        "url": "https://www.neptunemountaineering.com/products/soft-flask-250ml",
+        "price_usd": 20,
+        "notes": "Retailer lists it as SOFT FLASK 250ml/8oz 28 (28 mm cap). Price per Neptune Mountaineering (Oct 2026).",
+        "specs": {
+          "thread": "28mm"
+        }
+      }
+    },
+    {
+      "id": "camelbak-crux-3l",
+      "set": {
+        "notes": "GearX lists the Crux 1.5L reservoir at $36 / 7 oz; 3L not re-checked."
+      }
+    },
+    {
+      "id": "hydro-flask-21oz-standard-mouth",
+      "set": {
+        "url": "https://www.gearx.com/products/hydro-flask-21-oz-standard-mouth-1-1-a56jz-agave",
+        "notes": "List price $34.95 confirmed at GearX (Oct 2026); weight not stated there."
+      }
+    },
+    {
+      "id": "sea-to-summit-camp-cutlery-spoon",
+      "set": {
+        "price_usd": 1,
+        "weight_g": 12,
+        "weight_basis": "manufacturer",
+        "confidence": "high",
+        "notes": "Sea to Summit lists it at $1.00 (Oct 2026), likely clearance."
+      }
+    },
+    {
+      "id": "nylopro-odor-barrier-bag-big",
+      "set": {
+        "weight_g": 12,
+        "weight_basis": "manufacturer",
+        "weight_note": "per bag, Zpacks listing 0.42 oz",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "nylopro-odor-barrier-bag-large",
+      "set": {
+        "weight_g": 19,
+        "weight_basis": "manufacturer",
+        "weight_note": "per bag, Zpacks listing 0.67 oz",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "vargo-jet-ti-2",
+      "set": {
+        "specs": {
+          "output_btu": 9000
+        }
+      }
+    },
+    {
+      "id": "toaks-titanium-gas-stove",
+      "set": {
+        "specs": {
+          "boil_time_min": 2.33,
+          "boil_volume_l": 0.5
+        }
+      }
+    }
+  ],
+  "additions": [
+    {
+      "id": "soto-tritrail",
+      "category": "stove",
+      "subcategory": "canister",
+      "brand": "SOTO",
+      "model": "TriTrail",
+      "variant": null,
+      "weight_g": 135,
+      "weight_basis": "manufacturer",
+      "weight_note": "body only (SOTO spec)",
+      "price_usd": 69.95,
+      "specs": {
+        "fuel": "isobutane canister",
+        "output_btu": 8870,
+        "piezo": true,
+        "regulated": true
+      },
+      "url": "https://sotooutdoors.com/product/dealer-resources-6/",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "SOTO regulator stove with titanium pot supports and Stealth Igniter; 2.6 kW (2,200 kcal/h, ~8,870 BTU/h)."
+    },
+    {
+      "id": "platypus-quickdraw-3l-gravity",
+      "category": "water-treatment",
+      "subcategory": "gravity filter",
+      "brand": "Platypus",
+      "model": "QuickDraw",
+      "variant": "3L Gravity System",
+      "weight_g": 233,
+      "weight_basis": "manufacturer",
+      "weight_note": "total system weight; minimum weight 136 g",
+      "price_usd": 99.95,
+      "specs": {
+        "flow_rate_lpm": 3,
+        "pore_size_micron": 0.2,
+        "removes_viruses": false,
+        "lifespan_l": 1000,
+        "capacity_l": 3
+      },
+      "url": "https://cascadedesigns.com/products/quickdraw-3l-gravity-filter-system",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "QuickDraw filter with 3L dirty reservoir; converts between gravity and squeeze use."
+    },
+    {
+      "id": "msr-guardian-gravity",
+      "category": "water-treatment",
+      "subcategory": "gravity filter",
+      "brand": "MSR",
+      "model": "Guardian Gravity Purifier",
+      "variant": null,
+      "weight_g": 530,
+      "weight_basis": "manufacturer",
+      "weight_note": "MSR spec 1 lb 2 oz",
+      "price_usd": 309.95,
+      "specs": {
+        "flow_rate_lpm": 0.5,
+        "pore_size_micron": 0.02,
+        "removes_viruses": true,
+        "lifespan_l": 3000,
+        "capacity_l": 10
+      },
+      "url": "https://cascadedesigns.com/products/guardian-gravity-purifier",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Hollow-fiber purifier with 10 L reservoir; meets NSF P248."
+    },
+    {
+      "id": "msr-thru-link",
+      "category": "water-treatment",
+      "subcategory": "straw filter",
+      "brand": "MSR",
+      "model": "Thru-Link Inline Filter",
+      "variant": null,
+      "weight_g": 71,
+      "weight_basis": "manufacturer",
+      "weight_note": "MSR spec 2.5 oz",
+      "price_usd": 54.95,
+      "specs": {
+        "flow_rate_lpm": 1.5,
+        "pore_size_micron": 0.2,
+        "removes_viruses": false
+      },
+      "url": "https://cascadedesigns.com/products/thru-link-inline-water-filter",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Inline hollow-fiber + activated-carbon filter for hydration reservoirs; also usable as a gravity filter."
+    }
+  ],
+  "removals": []
+}

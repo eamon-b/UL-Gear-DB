@@ -352,7 +352,9 @@
     "weight_basis": "manufacturer",
     "weight_note": "Regular; site states '3 ounces'",
     "price_usd": 59.95,
-    "specs": {},
+    "specs": {
+      "inflated_size": "15 x 11 x 3.0 in (39 x 27 x 8 cm)"
+    },
     "url": "https://www.nemoequipment.com/products/fillo-elite-backpacking-pillow",
     "discontinued": false,
     "confidence": "high",
@@ -369,7 +371,9 @@
     "weight_basis": "manufacturer",
     "weight_note": "minimum weight 9.2 oz; packed 9.3 oz",
     "price_usd": 49.95,
-    "specs": {},
+    "specs": {
+      "inflated_size": "17 x 11 x 4.0 in (43 x 27 x 10 cm)"
+    },
     "url": "https://www.nemoequipment.com/products/fillo-backpacking-pillow",
     "discontinued": false,
     "confidence": "high",
@@ -386,7 +390,9 @@
     "weight_basis": "manufacturer",
     "weight_note": "minimum weight 4.0 oz; packed 4.2 oz",
     "price_usd": 69.95,
-    "specs": {},
+    "specs": {
+      "inflated_size": "21 x 11 x 3.0 in (53 x 29 x 8 cm)"
+    },
     "url": "https://www.nemoequipment.com/products/fillo-elite-wide-backpacking-pillow",
     "discontinued": false,
     "confidence": "high",
@@ -399,16 +405,16 @@
     "brand": "Exped",
     "model": "Ultra Pillow",
     "variant": "M",
-    "weight_g": 45,
+    "weight_g": 50,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "exped.com variant weight",
     "price_usd": null,
     "specs": {
       "inflated_size": "approx. 15 x 10 x 3.5 in"
     },
     "url": "https://www.exped.com/en/products/pillows/ultra-pillow",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Recalled spec; Exped page does not show weight in fetchable text."
   },
   {
@@ -425,7 +431,7 @@
     "specs": {},
     "url": "https://www.exped.com/en/products/pillows/ultra-pillow",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Recalled spec."
   },
   {
@@ -435,14 +441,16 @@
     "brand": "Exped",
     "model": "Down Pillow",
     "variant": "M",
-    "weight_g": 125,
-    "weight_basis": "estimate",
-    "weight_note": null,
+    "weight_g": 140,
+    "weight_basis": "manufacturer",
+    "weight_note": "exped.com variant weight (M)",
     "price_usd": null,
-    "specs": {},
+    "specs": {
+      "inflated_size": "15 x 11 x 5.1 in"
+    },
     "url": "https://www.exped.com/en/products/pillows/down-pillow",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": "Approximate."
   },
   {
@@ -452,14 +460,14 @@
     "brand": "Exped",
     "model": "Versaluxe Pillow",
     "variant": null,
-    "weight_g": 160,
-    "weight_basis": "estimate",
-    "weight_note": null,
+    "weight_g": 130,
+    "weight_basis": "manufacturer",
+    "weight_note": "exped.com variant weight",
     "price_usd": null,
     "specs": {},
     "url": "https://www.exped.com/en/products/pillows/versaluxe-pillow",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": "Approximate."
   },
   {
@@ -469,11 +477,13 @@
     "brand": "Klymit",
     "model": "Pillow X Base",
     "variant": "Regular",
-    "weight_g": 91,
+    "weight_g": 71,
     "weight_basis": "manufacturer",
-    "weight_note": "from site variant data",
+    "weight_note": "Klymit-stated 2.5 oz / 71 g",
     "price_usd": 19.95,
-    "specs": {},
+    "specs": {
+      "inflated_size": "15 x 11 x 3.5 in (38 x 28 x 9 cm)"
+    },
     "url": "https://klymit.com/products/pillow-x-base",
     "discontinued": false,
     "confidence": "high",
@@ -486,11 +496,13 @@
     "brand": "Klymit",
     "model": "Pillow X Base",
     "variant": "Extra Large",
-    "weight_g": 136,
+    "weight_g": 91,
     "weight_basis": "manufacturer",
-    "weight_note": "from site variant data",
+    "weight_note": "Klymit-stated 3.2 oz (XL)",
     "price_usd": 24.95,
-    "specs": {},
+    "specs": {
+      "inflated_size": "18 x 13 x 2.5 in (46 x 33 x 6.5 cm)"
+    },
     "url": "https://klymit.com/products/pillow-x-base",
     "discontinued": false,
     "confidence": "high",
@@ -507,7 +519,9 @@
     "weight_basis": "estimate",
     "weight_note": null,
     "price_usd": 44,
-    "specs": {},
+    "specs": {
+      "inflated_size": "14 x 9.5 x 6.5 in max (Regular; 36 x 24 x 17 cm)"
+    },
     "url": "https://zenbivy.com/products/softtop-pillows",
     "discontinued": false,
     "confidence": "low",
@@ -548,38 +562,23 @@
     "notes": "From-price verified; weight approximate."
   },
   {
-    "id": "trekology-ul80",
-    "category": "pillow",
-    "subcategory": "inflatable",
-    "brand": "Trekology",
-    "model": "UL80",
-    "variant": null,
-    "weight_g": 79,
-    "weight_basis": "estimate",
-    "weight_note": null,
-    "price_usd": null,
-    "specs": {},
-    "url": "https://trekology.com/",
-    "discontinued": false,
-    "confidence": "low",
-    "notes": "Budget pillow; approximate."
-  },
-  {
     "id": "trekology-aluft-2-0",
     "category": "pillow",
     "subcategory": "inflatable",
     "brand": "Trekology",
     "model": "Aluft 2.0",
     "variant": null,
-    "weight_g": 102,
-    "weight_basis": "estimate",
-    "weight_note": null,
-    "price_usd": null,
-    "specs": {},
-    "url": "https://trekology.com/",
+    "weight_g": 110,
+    "weight_basis": "manufacturer",
+    "weight_note": "Trekology-stated 3.9 oz",
+    "price_usd": 27.99,
+    "specs": {
+      "inflated_size": "16 x 12 x 4 in (40.6 x 30.5 x 10 cm)"
+    },
+    "url": "https://trekology.com/products/trekology-aluft-2-0-inflatable-pillow-for-camping-copy-2",
     "discontinued": false,
-    "confidence": "low",
-    "notes": "Budget pillow; approximate."
+    "confidence": "high",
+    "notes": "List price $27.99 (frequently on sale at $23.99)."
   },
   {
     "id": "paria-outdoor-products-inflatable-pillow",
@@ -588,11 +587,13 @@
     "brand": "Paria Outdoor Products",
     "model": "Inflatable Pillow",
     "variant": null,
-    "weight_g": 113,
+    "weight_g": 99,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "3.5 oz pillow; stuff sack +0.2 oz",
     "price_usd": 19.99,
-    "specs": {},
+    "specs": {
+      "inflated_size": "16 x 12 x 4 in"
+    },
     "url": "https://pariaoutdoorproducts.com/products/inflatable-pillow",
     "discontinued": false,
     "confidence": "high",
@@ -607,9 +608,11 @@
     "variant": null,
     "weight_g": 283,
     "weight_basis": "manufacturer",
-    "weight_note": "9 oz",
+    "weight_note": "9 oz pillow; stuff sack +0.4 oz",
     "price_usd": 39.99,
-    "specs": {},
+    "specs": {
+      "inflated_size": "16 x 11.5 x 3.5 in"
+    },
     "url": "https://pariaoutdoorproducts.com/products/deluxe-inflatable-pillow",
     "discontinued": false,
     "confidence": "high",
@@ -620,16 +623,18 @@
     "category": "pillow",
     "subcategory": "foam/hybrid",
     "brand": "Hyperlite Mountain Gear",
-    "model": "Pillow Stuff Sack",
+    "model": "Stuff Sack Pillow",
     "variant": null,
-    "weight_g": 45,
-    "weight_basis": "estimate",
-    "weight_note": null,
-    "price_usd": null,
-    "specs": {},
-    "url": "https://www.hyperlitemountaingear.com/",
+    "weight_g": 48,
+    "weight_basis": "manufacturer",
+    "weight_note": "HMG-stated 1.7 oz / 48 g",
+    "price_usd": 63,
+    "specs": {
+      "inflated_size": "12 x 17 in (30.5 x 43.2 cm) sack, filled with clothing"
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/stuff-sack-pillows",
     "discontinued": false,
-    "confidence": "low",
-    "notes": "Fleece-lined stuff sack filled with clothing; approximate."
+    "confidence": "high",
+    "notes": "Fleece-lined stuff sack filled with clothing; weight is low because it is not a standalone pillow."
   }
 ]

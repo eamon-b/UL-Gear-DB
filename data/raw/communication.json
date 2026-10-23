@@ -14,12 +14,12 @@
       "network": "Iridium",
       "two_way": true,
       "subscription": true,
-      "battery_life": null
+      "battery_life": "up to 350 hr at 10-min tracking"
     },
-    "url": "https://www.garmin.com/",
+    "url": "https://www.garmin.com/en-US/p/1756401",
     "discontinued": false,
     "confidence": "high",
-    "notes": "2025 successor to Mini 2."
+    "notes": "Active inReach satellite subscription required for messaging, SOS and tracking. Mini 3 Plus (voice/photo) is $499.99."
   },
   {
     "id": "garmin-inreach-mini-2",
@@ -149,7 +149,7 @@
       "subscription": true,
       "battery_life": "up to 180 hr GPS"
     },
-    "url": "https://www.garmin.com/",
+    "url": "https://www.garmin.com/en-US/p/890109",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -413,7 +413,7 @@
       "subscription": false,
       "battery_life": "up to 29 days smartwatch"
     },
-    "url": "https://www.garmin.com/",
+    "url": "https://www.garmin.com/en-US/p/1228171",
     "discontinued": false,
     "confidence": "low",
     "notes": null
@@ -450,14 +450,14 @@
     "weight_g": 53,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 449.99,
+    "price_usd": 349.99,
     "specs": {
       "network": "multi-band GNSS",
       "two_way": false,
       "subscription": false,
       "battery_life": "up to 18 days smartwatch"
     },
-    "url": "https://www.garmin.com/",
+    "url": "https://www.garmin.com/en-US/p/1316397",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -501,7 +501,7 @@
       "subscription": false,
       "battery_life": "up to 15 days smartwatch"
     },
-    "url": "https://www.garmin.com/",
+    "url": "https://www.garmin.com/en-US/p/1462801",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -523,7 +523,7 @@
       "subscription": false,
       "battery_life": "up to 23 days smartwatch"
     },
-    "url": "https://www.garmin.com/",
+    "url": "https://www.garmin.com/en-US/p/886725",
     "discontinued": false,
     "confidence": "medium",
     "notes": null

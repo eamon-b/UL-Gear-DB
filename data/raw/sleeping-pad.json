@@ -1438,8 +1438,8 @@
     "price_usd": 179,
     "specs": {
       "r_value": 3.5,
-      "length_in": null,
-      "width_in": null,
+      "length_in": 66.1,
+      "width_in": 21.7,
       "thickness_in": 2,
       "shape": "mummy"
     },
@@ -1690,10 +1690,10 @@
     "weight_note": "variant weight from manufacturer store data (likely packed weight)",
     "price_usd": 129.95,
     "specs": {
-      "r_value": null,
+      "r_value": 4,
       "length_in": 72,
       "width_in": 20,
-      "thickness_in": null,
+      "thickness_in": 3.25,
       "shape": null
     },
     "url": "https://www.bigagnes.com/products/divide-insulated",
@@ -1759,10 +1759,10 @@
     "weight_note": "variant weight from manufacturer store data (likely packed weight)",
     "price_usd": 69.95,
     "specs": {
-      "r_value": null,
-      "length_in": null,
-      "width_in": null,
-      "thickness_in": null,
+      "r_value": 1.7,
+      "length_in": 72,
+      "width_in": 20,
+      "thickness_in": 0.5,
       "shape": "rectangular"
     },
     "url": "https://www.bigagnes.com/products/twistercane-bio-foam-pad",
@@ -1785,7 +1785,7 @@
       "r_value": 1.8,
       "length_in": 72,
       "width_in": 20.5,
-      "thickness_in": null,
+      "thickness_in": 2.8,
       "shape": "rectangular"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/ultra-1r",
@@ -1808,7 +1808,7 @@
       "r_value": 1.8,
       "length_in": 77.6,
       "width_in": 25.6,
-      "thickness_in": null,
+      "thickness_in": 2.8,
       "shape": "rectangular"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/ultra-1r",
@@ -1831,7 +1831,7 @@
       "r_value": 3.2,
       "length_in": 64.2,
       "width_in": 20.5,
-      "thickness_in": null,
+      "thickness_in": 2.8,
       "shape": "rectangular"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/ultra-3r",
@@ -1854,7 +1854,7 @@
       "r_value": 3.2,
       "length_in": 72,
       "width_in": 20.5,
-      "thickness_in": null,
+      "thickness_in": 2.8,
       "shape": "rectangular"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/ultra-3r",
@@ -1877,7 +1877,7 @@
       "r_value": 3.2,
       "length_in": 77.6,
       "width_in": 25.6,
-      "thickness_in": null,
+      "thickness_in": 2.8,
       "shape": "rectangular"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/ultra-3r",
@@ -1900,7 +1900,7 @@
       "r_value": 3.2,
       "length_in": 72,
       "width_in": 20.5,
-      "thickness_in": null,
+      "thickness_in": 2.8,
       "shape": "mummy"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/ultra-3r-mummy",
@@ -1923,7 +1923,7 @@
       "r_value": 3.2,
       "length_in": 77.6,
       "width_in": 25.6,
-      "thickness_in": null,
+      "thickness_in": 2.8,
       "shape": "mummy"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/ultra-3r-mummy",
@@ -1941,18 +1941,18 @@
     "weight_g": 440,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 199.95,
     "specs": {
       "r_value": 6.9,
       "length_in": 72,
       "width_in": 20.5,
-      "thickness_in": null,
+      "thickness_in": 3.5,
       "shape": "rectangular"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/ultra-65r",
     "discontinued": false,
     "confidence": "high",
-    "notes": "USD list price not shown on manufacturer (EU) site"
+    "notes": "USD price from GearX (US retailer); exped.com lists only CHF/EUR."
   },
   {
     "id": "exped-ultra-6-5r-lw",
@@ -1969,7 +1969,7 @@
       "r_value": 6.9,
       "length_in": 77.6,
       "width_in": 25.6,
-      "thickness_in": null,
+      "thickness_in": 3.5,
       "shape": "rectangular"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/ultra-65r",
@@ -1987,18 +1987,18 @@
     "weight_g": 360,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 199.95,
     "specs": {
       "r_value": 6.9,
       "length_in": 72,
       "width_in": 20.5,
-      "thickness_in": null,
+      "thickness_in": 3.5,
       "shape": "mummy"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/ultra-65r-mummy",
     "discontinued": false,
     "confidence": "high",
-    "notes": "USD list price not shown on manufacturer (EU) site"
+    "notes": "USD price from GearX (US retailer); exped.com lists only CHF/EUR."
   },
   {
     "id": "exped-ultra-6-5r-mummy-lw",
@@ -2015,7 +2015,7 @@
       "r_value": 6.9,
       "length_in": 77.6,
       "width_in": 25.6,
-      "thickness_in": null,
+      "thickness_in": 3.5,
       "shape": "mummy"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/ultra-65r-mummy",
@@ -2038,7 +2038,7 @@
       "r_value": 8.8,
       "length_in": 72,
       "width_in": 20.5,
-      "thickness_in": null,
+      "thickness_in": 3.5,
       "shape": "rectangular"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/ultra-8r",
@@ -2061,7 +2061,7 @@
       "r_value": 8.8,
       "length_in": 72,
       "width_in": 20.5,
-      "thickness_in": null,
+      "thickness_in": 3.5,
       "shape": "mummy"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/ultra-8r-mummy",
@@ -2084,7 +2084,7 @@
       "r_value": 10.2,
       "length_in": 72,
       "width_in": 20.5,
-      "thickness_in": null,
+      "thickness_in": 3.5,
       "shape": "rectangular"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/ultra-10r",
@@ -2107,7 +2107,7 @@
       "r_value": 3.2,
       "length_in": 72,
       "width_in": 20.5,
-      "thickness_in": null,
+      "thickness_in": 2.8,
       "shape": "rectangular"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/dura-3r",
@@ -2130,7 +2130,7 @@
       "r_value": 6.9,
       "length_in": 72,
       "width_in": 20.5,
-      "thickness_in": null,
+      "thickness_in": 3.5,
       "shape": "rectangular"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/dura-65r",
@@ -2153,7 +2153,7 @@
       "r_value": 2.8,
       "length_in": 72.8,
       "width_in": 20.5,
-      "thickness_in": null,
+      "thickness_in": 1.2,
       "shape": "rectangular"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/flex-3r",
@@ -2176,7 +2176,7 @@
       "r_value": 1.7,
       "length_in": 51.2,
       "width_in": 20.5,
-      "thickness_in": null,
+      "thickness_in": 0.7,
       "shape": "rectangular"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/flex-15r",
@@ -2194,18 +2194,18 @@
     "weight_g": 340,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 44.95,
     "specs": {
       "r_value": 1.7,
       "length_in": 71.3,
       "width_in": 20.5,
-      "thickness_in": null,
+      "thickness_in": 0.7,
       "shape": "rectangular"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/flex-15r",
     "discontinued": false,
     "confidence": "high",
-    "notes": "USD list price not shown on manufacturer (EU) site"
+    "notes": "USD price from GearX (US retailer); exped.com lists only CHF/EUR."
   },
   {
     "id": "exped-versa-1r-m",
@@ -2222,7 +2222,7 @@
       "r_value": 1.4,
       "length_in": 72,
       "width_in": 20.5,
-      "thickness_in": null,
+      "thickness_in": 2,
       "shape": "rectangular"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/versa-1r",
@@ -2245,7 +2245,7 @@
       "r_value": 4.4,
       "length_in": 72,
       "width_in": 20.5,
-      "thickness_in": null,
+      "thickness_in": 3,
       "shape": "rectangular"
     },
     "url": "https://www.exped.com/en/products/sleeping-mats/versa-45r",
@@ -2427,8 +2427,8 @@
     "price_usd": 22,
     "specs": {
       "r_value": null,
-      "length_in": null,
-      "width_in": null,
+      "length_in": 58.7,
+      "width_in": 19,
       "thickness_in": 0.125,
       "shape": "rectangular"
     },
@@ -2450,8 +2450,8 @@
     "price_usd": 32,
     "specs": {
       "r_value": null,
-      "length_in": null,
-      "width_in": null,
+      "length_in": 73.5,
+      "width_in": 19,
       "thickness_in": 0.125,
       "shape": "rectangular"
     },
@@ -2473,8 +2473,8 @@
     "price_usd": 24,
     "specs": {
       "r_value": null,
-      "length_in": null,
-      "width_in": null,
+      "length_in": 58.7,
+      "width_in": 25,
       "thickness_in": 0.125,
       "shape": "rectangular"
     },
@@ -2613,7 +2613,7 @@
       "r_value": 4.8,
       "length_in": 72,
       "width_in": 20,
-      "thickness_in": null,
+      "thickness_in": 3,
       "shape": "tapered"
     },
     "url": "https://www.zenbivy.com/products/ultralight-mattress",
@@ -2636,7 +2636,7 @@
       "r_value": 4.8,
       "length_in": 72,
       "width_in": 25,
-      "thickness_in": null,
+      "thickness_in": 3,
       "shape": "tapered"
     },
     "url": "https://www.zenbivy.com/products/ultralight-mattress",
@@ -2659,7 +2659,7 @@
       "r_value": 4.8,
       "length_in": 72,
       "width_in": 25,
-      "thickness_in": null,
+      "thickness_in": 3,
       "shape": "rectangular"
     },
     "url": "https://www.zenbivy.com/products/ultralight-mattress",
@@ -2682,7 +2682,7 @@
       "r_value": 4.8,
       "length_in": 72,
       "width_in": 20,
-      "thickness_in": null,
+      "thickness_in": 3,
       "shape": "tapered"
     },
     "url": "https://www.zenbivy.com/products/flex-air-mattress",
@@ -2705,7 +2705,7 @@
       "r_value": 4.8,
       "length_in": 72,
       "width_in": 25,
-      "thickness_in": null,
+      "thickness_in": 3,
       "shape": "tapered"
     },
     "url": "https://www.zenbivy.com/products/flex-air-mattress",
@@ -2728,7 +2728,7 @@
       "r_value": 5.2,
       "length_in": 72,
       "width_in": 20,
-      "thickness_in": null,
+      "thickness_in": 3,
       "shape": "rectangular"
     },
     "url": "https://www.zenbivy.com/products/light-mattress",
@@ -2864,9 +2864,9 @@
     "price_usd": 59.99,
     "specs": {
       "r_value": 3.5,
-      "length_in": null,
-      "width_in": null,
-      "thickness_in": null,
+      "length_in": 72.8,
+      "width_in": 22,
+      "thickness_in": 1,
       "shape": "rectangular"
     },
     "url": "https://www.naturehike.com/products/troues-r3-5-folding-foam-sleeping-pad",
@@ -2887,15 +2887,15 @@
     "price_usd": 34.99,
     "specs": {
       "r_value": 2,
-      "length_in": null,
-      "width_in": null,
-      "thickness_in": null,
+      "length_in": 72.8,
+      "width_in": 22,
+      "thickness_in": 0.7,
       "shape": "rectangular"
     },
     "url": "https://www.naturehike.com/products/troues-r2-0-folding-foam-sleeping-pad",
     "discontinued": false,
     "confidence": "medium",
-    "notes": null
+    "notes": "Store variant weight 230 g conflicts with product text (approx. 420 g); unresolved."
   },
   {
     "id": "naturehike-tuye-r3-5-ultralight-inflatable-pad-168x58-mummy",
@@ -2904,9 +2904,9 @@
     "brand": "Naturehike",
     "model": "TuYe R3.5 Ultralight Inflatable Pad",
     "variant": "168x58 Mummy",
-    "weight_g": 415,
+    "weight_g": 450,
     "weight_basis": "manufacturer",
-    "weight_note": "manufacturer quotes \"as little as 415 g (small size)\"",
+    "weight_note": "Small Single Mummy 168x58x7 cm; spec table ~450 g (intro text says as little as 415 g)",
     "price_usd": 84.99,
     "specs": {
       "r_value": 3.5,
@@ -2917,7 +2917,7 @@
     },
     "url": "https://www.naturehike.com/products/tuye-r3-5-ultralight-inflatable-pad",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
