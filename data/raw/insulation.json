@@ -3829,5 +3829,193 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Model #2301438"
+  },
+  {
+    "id": "skygoat-camp-hoodie-mens",
+    "category": "insulation",
+    "subcategory": "fleece",
+    "brand": "SkyGOAT",
+    "model": "CAMP Hoodie",
+    "variant": "Men's",
+    "weight_g": 287,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 10.1 oz / 287 g",
+    "price_usd": 119,
+    "specs": {
+      "fill": "fleece",
+      "hood": true,
+      "material": "GOATgrid recycled polyester fleece, 170 gsm"
+    },
+    "url": "https://www.garagegrowngear.com/products/mens-camp-hoodie-by-skygoat",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Full-zip-less pullover hoodie with kangaroo pocket; more of a camp/town layer"
+  },
+  {
+    "id": "skygoat-camp-hoodie-womens",
+    "category": "insulation",
+    "subcategory": "fleece",
+    "brand": "SkyGOAT",
+    "model": "CAMP Hoodie",
+    "variant": "Women's",
+    "weight_g": 245,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 8.6 oz / 245 g",
+    "price_usd": 119,
+    "specs": {
+      "fill": "fleece",
+      "hood": true,
+      "material": "GOATgrid recycled polyester fleece, 170 gsm"
+    },
+    "url": "https://www.garagegrowngear.com/products/womens-camp-hoodie-by-skygoat",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "skygoat-air-70-half-zip-pullover-mens",
+    "category": "insulation",
+    "subcategory": "fleece",
+    "brand": "SkyGOAT",
+    "model": "AIR 70 Half Zip Pullover",
+    "variant": "Men's",
+    "weight_g": 148,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 5.2 oz / 148 g",
+    "price_usd": 129,
+    "specs": {
+      "fill": "fleece",
+      "hood": true,
+      "material": "GOATgrid recycled polyester fleece, 70 gsm"
+    },
+    "url": "https://www.garagegrowngear.com/products/mens-half-zip-air-70-pullover-by-skygoat",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Alpha Direct alternative; hooded"
+  },
+  {
+    "id": "skygoat-air-70-half-zip-pullover-womens",
+    "category": "insulation",
+    "subcategory": "fleece",
+    "brand": "SkyGOAT",
+    "model": "AIR 70 Half Zip Pullover",
+    "variant": "Women's",
+    "weight_g": 130,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 4.6 oz / 130 g",
+    "price_usd": 129,
+    "specs": {
+      "fill": "fleece",
+      "hood": true,
+      "material": "GOATgrid recycled polyester fleece, 70 gsm"
+    },
+    "url": "https://www.garagegrowngear.com/products/womens-half-zip-air-70-pullover-by-skygoat",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Alpha Direct alternative; hooded"
+  },
+  {
+    "id": "skygoat-half-zip-fleece-ultralight-pullover-mens",
+    "category": "insulation",
+    "subcategory": "fleece",
+    "brand": "SkyGOAT",
+    "model": "Half Zip Fleece Ultralight Pullover",
+    "variant": "Men's",
+    "weight_g": 222,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 7.8 oz / 222 g",
+    "price_usd": 129,
+    "specs": {
+      "fill": "fleece",
+      "hood": true,
+      "material": "GOATgrid recycled polyester fleece, 115 gsm"
+    },
+    "url": "https://www.garagegrowngear.com/products/mens-half-zip-fleece-ultralight-pullover-by-skygoat",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Lighter 115 gsm version of the Half Zip; hooded, kangaroo pocket"
+  },
+  {
+    "id": "skygoat-half-zip-fleece-ultralight-pullover-womens",
+    "category": "insulation",
+    "subcategory": "fleece",
+    "brand": "SkyGOAT",
+    "model": "Half Zip Fleece Ultralight Pullover",
+    "variant": "Women's",
+    "weight_g": 200,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 7.1 oz / 200 g",
+    "price_usd": 129,
+    "specs": {
+      "fill": "fleece",
+      "hood": true,
+      "material": "GOATgrid recycled polyester fleece, 115 gsm"
+    },
+    "url": "https://www.garagegrowngear.com/products/womens-half-zip-fleece-ultralight-pullover-by-skygoat",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "skygoat-half-zip-fleece-pullover-mens",
+    "category": "insulation",
+    "subcategory": "fleece",
+    "brand": "SkyGOAT",
+    "model": "Half Zip Fleece Pullover",
+    "variant": "Men's",
+    "weight_g": 275,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 9.7 oz / 275 g",
+    "price_usd": 129,
+    "specs": {
+      "fill": "fleece",
+      "hood": true,
+      "material": "GOATgrid polyester fleece"
+    },
+    "url": "https://www.garagegrowngear.com/products/mens-half-zip-fleece-pullover-by-skygoat",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Original Half Zip; hooded, no pockets. Very limited stock at GGG"
+  },
+  {
+    "id": "sambob-alpha-joggers-60",
+    "category": "insulation",
+    "subcategory": "insulated pants",
+    "brand": "Sambob",
+    "model": "Alpha Joggers",
+    "variant": "60 gsm",
+    "weight_g": 114,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 4 oz / 114 g (60 gsm version)",
+    "price_usd": 90,
+    "specs": {
+      "fill": "fleece",
+      "material": "Polartec Alpha Direct 60 gsm"
+    },
+    "url": "https://www.garagegrowngear.com/products/alpha-joggers-by-sambob",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Also offered in 90 gsm (weight not listed); runs large. Good sleep/camp pant"
+  },
+  {
+    "id": "leve-outdoor-alpha-90-hoody",
+    "category": "insulation",
+    "subcategory": "fleece",
+    "brand": "LEVE Outdoor",
+    "model": "Alpha 90 Hoody",
+    "variant": null,
+    "weight_g": 113,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, LEVE-listed 4 oz / 113 g",
+    "price_usd": 105,
+    "specs": {
+      "fill": "fleece",
+      "material": "Polartec Alpha Direct 90 gsm",
+      "hood": true
+    },
+    "url": "https://leveoutdoorco.com/products/alpha-direct-hoody",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Handmade in USA"
   }
 ]

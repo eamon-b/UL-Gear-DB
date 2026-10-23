@@ -1887,5 +1887,70 @@
     "discontinued": false,
     "confidence": "high",
     "notes": null
+  },
+  {
+    "id": "7mesh-guardian-air-jacket-mens",
+    "category": "rain-jacket",
+    "subcategory": "rain jacket",
+    "brand": "7mesh",
+    "model": "Guardian Air Jacket",
+    "variant": "Men's",
+    "weight_g": 200,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 7 oz / 200 g",
+    "price_usd": 500,
+    "specs": {
+      "material": "GORE-TEX ePE, 15D nylon ripstop",
+      "waterproof_rating_mm": 28000,
+      "pit_zips": false,
+      "hood": true
+    },
+    "url": "https://7mesh.com/products/mens-guardian-air-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "USD price from Garage Grown Gear; 7mesh.com shows CAD 600. Packs into its own pocket"
+  },
+  {
+    "id": "7mesh-guardian-air-jacket-womens",
+    "category": "rain-jacket",
+    "subcategory": "rain jacket",
+    "brand": "7mesh",
+    "model": "Guardian Air Jacket",
+    "variant": "Women's",
+    "weight_g": 180,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 6.3 oz / 180 g",
+    "price_usd": 500,
+    "specs": {
+      "material": "GORE-TEX ePE, 15D nylon ripstop",
+      "waterproof_rating_mm": 28000,
+      "pit_zips": false,
+      "hood": true
+    },
+    "url": "https://7mesh.com/products/womens-guardian-air-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "USD price from Garage Grown Gear; 7mesh.com shows CAD 600"
+  },
+  {
+    "id": "leve-outdoor-ultralight-jacket",
+    "category": "rain-jacket",
+    "subcategory": "rain jacket",
+    "brand": "LEVE Outdoor",
+    "model": "Ultralight Jacket",
+    "variant": null,
+    "weight_g": 91,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, LEVE-listed 3.2 oz / 91 g",
+    "price_usd": 195,
+    "specs": {
+      "material": "15D silpoly (sil/sil)",
+      "pit_zips": true,
+      "hood": true
+    },
+    "url": "https://leveoutdoorco.com/products/ul-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Sold as Ultralight Rain Jacket at GGG ($175). Not seam sealed from the factory; handmade in USA"
   }
 ]

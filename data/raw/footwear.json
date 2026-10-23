@@ -5323,5 +5323,337 @@
     "discontinued": false,
     "confidence": "high",
     "notes": null
+  },
+  {
+    "id": "xoskin-xotoes-toe-sock-anklet",
+    "category": "footwear",
+    "subcategory": "sock",
+    "brand": "XOSKIN",
+    "model": "XOTOES Toe Sock",
+    "variant": "Anklet",
+    "weight_g": 37,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair, size 2, Garage Grown Gear-listed 1.3 oz / 37 g",
+    "price_usd": 23.99,
+    "specs": {
+      "material": "65% RAPIDriCOPPER, 20% nylon, 15% elastane",
+      "gender": "unisex"
+    },
+    "url": "https://www.garagegrowngear.com/products/5-0-xotoes-toe-sock-anklet-by-xoskin",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Toe sock"
+  },
+  {
+    "id": "xoskin-xotoes-toe-sock-quarter-crew",
+    "category": "footwear",
+    "subcategory": "sock",
+    "brand": "XOSKIN",
+    "model": "XOTOES Toe Sock",
+    "variant": "Quarter Crew",
+    "weight_g": 43,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair, size 2, Garage Grown Gear-listed 1.5 oz / 43 g",
+    "price_usd": 25.99,
+    "specs": {
+      "material": "65% RAPIDriCOPPER, 20% nylon, 15% elastane",
+      "gender": "unisex"
+    },
+    "url": "https://www.garagegrowngear.com/products/5-0-xotoes-toe-sock-qrt-crew-by-xoskin",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Toe sock"
+  },
+  {
+    "id": "xoskin-xotoes-toe-sock-crew",
+    "category": "footwear",
+    "subcategory": "sock",
+    "brand": "XOSKIN",
+    "model": "XOTOES Toe Sock",
+    "variant": "Crew",
+    "weight_g": 57,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair, size 2, Garage Grown Gear-listed 2 oz / 57 g",
+    "price_usd": 29.5,
+    "specs": {
+      "material": "65% RAPIDriCOPPER, 20% nylon, 15% elastane",
+      "gender": "unisex"
+    },
+    "url": "https://www.garagegrowngear.com/products/5-0-xotoes-toe-sock-crew-by-xoskin-1",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Toe sock"
+  },
+  {
+    "id": "xoskin-xowool-toe-sock-quarter-crew",
+    "category": "footwear",
+    "subcategory": "sock",
+    "brand": "XOSKIN",
+    "model": "XOWOOL Toe Sock",
+    "variant": "Quarter Crew",
+    "weight_g": 56,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair, size 2, Garage Grown Gear-listed 1.9 oz / 56 g",
+    "price_usd": 27.5,
+    "specs": {
+      "material": "46% RAPIDriCOPPER, 40% wool, 11% nylon, 3% elastane",
+      "gender": "unisex"
+    },
+    "url": "https://www.garagegrowngear.com/products/xowool-toe-sock-quarter-crew-by-xoskin",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Wool-blend toe sock"
+  },
+  {
+    "id": "xoskin-xowool-toe-sock-mid-crew",
+    "category": "footwear",
+    "subcategory": "sock",
+    "brand": "XOSKIN",
+    "model": "XOWOOL Toe Sock",
+    "variant": "Mid Crew",
+    "weight_g": 66,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair, size 2, Garage Grown Gear-listed 2.3 oz / 66 g",
+    "price_usd": 28.5,
+    "specs": {
+      "material": "46% RAPIDriCOPPER, 40% wool, 11% nylon, 3% elastane",
+      "gender": "unisex"
+    },
+    "url": "https://www.garagegrowngear.com/products/xowool-toe-sock-mid-crew-by-xoskin",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Wool-blend toe sock"
+  },
+  {
+    "id": "xoskin-xowool-toe-sock-crew",
+    "category": "footwear",
+    "subcategory": "sock",
+    "brand": "XOSKIN",
+    "model": "XOWOOL Toe Sock",
+    "variant": "Crew",
+    "weight_g": 73,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair, size 2, Garage Grown Gear-listed 2.6 oz / 73 g",
+    "price_usd": 29.5,
+    "specs": {
+      "material": "46% RAPIDriCOPPER, 40% wool, 11% nylon, 3% elastane",
+      "gender": "unisex"
+    },
+    "url": "https://www.garagegrowngear.com/products/xowool-toe-sock-crew-by-xoskin",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Wool-blend toe sock"
+  },
+  {
+    "id": "mayfly-ultralight-equipment-imago",
+    "category": "footwear",
+    "subcategory": "camp shoe/sandal",
+    "brand": "Mayfly Ultralight Equipment",
+    "model": "Imago",
+    "variant": null,
+    "weight_g": 51,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair, men's 9, Garage Grown Gear-listed 1.8 oz / 51 g",
+    "price_usd": 38.99,
+    "specs": {
+      "drop_mm": 0,
+      "waterproof": false,
+      "gender": "unisex",
+      "material": "Coroplast, nylon cord"
+    },
+    "url": "https://www.garagegrowngear.com/products/imago-by-mayfly-ultralight-equipment",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Coroplast camp sandal, strap around the toes"
+  },
+  {
+    "id": "mayfly-ultralight-equipment-nymph",
+    "category": "footwear",
+    "subcategory": "camp shoe/sandal",
+    "brand": "Mayfly Ultralight Equipment",
+    "model": "Nymph",
+    "variant": null,
+    "weight_g": 48,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair, men's 9, Garage Grown Gear-listed 1.7 oz / 48 g",
+    "price_usd": 38.99,
+    "specs": {
+      "drop_mm": 0,
+      "waterproof": false,
+      "gender": "unisex",
+      "material": "Coroplast, nylon cord"
+    },
+    "url": "https://www.garagegrowngear.com/products/nymph-by-mayfly-ultralight-equipment",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Thong-style (between the toes) version of the Imago"
+  },
+  {
+    "id": "shamma-sandals-elite-warriors",
+    "category": "footwear",
+    "subcategory": "camp shoe/sandal",
+    "brand": "Shamma Sandals",
+    "model": "Elite Warriors",
+    "variant": null,
+    "weight_g": 198,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair, size 9, Garage Grown Gear-listed 7 oz / 198 g",
+    "price_usd": 94.95,
+    "specs": {
+      "drop_mm": 0,
+      "waterproof": false,
+      "gender": "unisex",
+      "material": "5mm Vibram Newflex sole"
+    },
+    "url": "https://www.garagegrowngear.com/products/warriors-by-shamma-sandals",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Minimal running sandal"
+  },
+  {
+    "id": "shamma-sandals-cruzers",
+    "category": "footwear",
+    "subcategory": "camp shoe/sandal",
+    "brand": "Shamma Sandals",
+    "model": "Cruzers",
+    "variant": null,
+    "weight_g": 182,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair, size 9, Garage Grown Gear-listed 6.4 oz / 182 g",
+    "price_usd": 29.98,
+    "specs": {
+      "drop_mm": 0,
+      "waterproof": false,
+      "gender": "unisex",
+      "material": "6mm Vibram Morflex sole, nylon webbing"
+    },
+    "url": "https://www.garagegrowngear.com/products/cruzers-by-shamma-sandals",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Price may be a clearance price: Shamma only lists Cruzers under its Yard Sale section"
+  },
+  {
+    "id": "astral-tr1-mesh-2",
+    "category": "footwear",
+    "subcategory": "trail runner",
+    "brand": "Astral",
+    "model": "TR1 Mesh 2.0",
+    "variant": null,
+    "weight_g": 608,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; Garage Grown Gear-listed 10.7 oz / 304 g (men's 9 / women's 10), assumed single shoe, x2",
+    "price_usd": 160,
+    "specs": {
+      "drop_mm": 0,
+      "stack_mm": 20,
+      "waterproof": false,
+      "gender": "unisex"
+    },
+    "url": "https://www.garagegrowngear.com/products/tr1-mesh-2-0-hiking-shoe-by-astral-designs",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Draining 3D mesh upper; wide toe box. Retailer does not say whether weight is per shoe or per pair"
+  },
+  {
+    "id": "astral-nosobo",
+    "category": "footwear",
+    "subcategory": "trail runner",
+    "brand": "Astral",
+    "model": "Nosobo",
+    "variant": null,
+    "weight_g": 624,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; Garage Grown Gear-listed 11 oz / 312 g (men's 9 / women's 10), assumed single shoe, x2",
+    "price_usd": 160,
+    "specs": {
+      "drop_mm": 0,
+      "stack_mm": 20,
+      "waterproof": false,
+      "gender": "unisex"
+    },
+    "url": "https://www.garagegrowngear.com/products/nosobo-trail-shoe-by-astral-designs",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Replaceable drop-in Rechargeable midsole ($29). Retailer does not say whether weight is per shoe or per pair"
+  },
+  {
+    "id": "wide-open-socks-single-stripe-cushioned-quarter-womens",
+    "category": "footwear",
+    "subcategory": "sock",
+    "brand": "WIDE OPEN Socks",
+    "model": "Single Stripe Cushioned Quarter",
+    "variant": "Women's",
+    "weight_g": 56,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair, size M, Garage Grown Gear-listed 2 oz / 56 g",
+    "price_usd": 22,
+    "specs": {
+      "material": "65% merino, 33% nylon, 2% spandex",
+      "gender": "women's"
+    },
+    "url": "https://wideopensocks.com/products/womens-single-stripe-cushioned-quarter-midweight-socks",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Wide-fit (to 4E) sock made with Darn Tough"
+  },
+  {
+    "id": "wide-open-socks-multi-stripe-cushioned-micro-crew-womens",
+    "category": "footwear",
+    "subcategory": "sock",
+    "brand": "WIDE OPEN Socks",
+    "model": "Multi Stripe Cushioned Micro Crew",
+    "variant": "Women's",
+    "weight_g": 52,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair, size M, Garage Grown Gear-listed 1.8 oz / 52 g",
+    "price_usd": 25,
+    "specs": {
+      "material": "65% merino, 33% nylon, 2% spandex",
+      "gender": "women's"
+    },
+    "url": "https://wideopensocks.com/products/womens-multi-stripe-cushioned-micro-crew-midweight-socks",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Wide-fit (to 4E) sock made with Darn Tough"
+  },
+  {
+    "id": "wide-open-socks-multi-stripe-cushioned-micro-crew-mens",
+    "category": "footwear",
+    "subcategory": "sock",
+    "brand": "WIDE OPEN Socks",
+    "model": "Multi Stripe Cushioned Micro Crew",
+    "variant": "Men's",
+    "weight_g": 60,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair, size L, Garage Grown Gear-listed 2.1 oz / 60 g",
+    "price_usd": 25,
+    "specs": {
+      "material": "56% merino, 41% nylon, 3% spandex",
+      "gender": "men's"
+    },
+    "url": "https://wideopensocks.com/products/mens-multi-stripe-cushioned-micro-crew-midweight-socks",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Wide-fit (to 4E) sock made with Darn Tough"
+  },
+  {
+    "id": "wide-open-socks-solid-cushioned-quarter-mens",
+    "category": "footwear",
+    "subcategory": "sock",
+    "brand": "WIDE OPEN Socks",
+    "model": "Solid Cushioned Quarter",
+    "variant": "Men's",
+    "weight_g": 56,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair, size L, Garage Grown Gear-listed 2 oz / 56 g",
+    "price_usd": 22,
+    "specs": {
+      "material": "65% merino, 33% nylon, 2% spandex",
+      "gender": "men's"
+    },
+    "url": "https://wideopensocks.com/products/mens-solid-cushioned-quarter-midweight-socks",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Wide-fit (to 4E) sock made with Darn Tough"
   }
 ]

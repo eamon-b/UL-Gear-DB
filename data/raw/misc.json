@@ -1153,5 +1153,85 @@
     "discontinued": false,
     "confidence": "low",
     "notes": null
+  },
+  {
+    "id": "packtowl-personal-towel-face",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "PackTowl",
+    "model": "Personal Towel",
+    "variant": "Face",
+    "weight_g": 20,
+    "weight_basis": "manufacturer",
+    "weight_note": "14 x 10 in, Garage Grown Gear-listed 0.7 oz / 20 g",
+    "price_usd": 16.95,
+    "specs": {
+      "type": "towel",
+      "material": "microfiber, 80% polyester / 20% nylon"
+    },
+    "url": "https://www.garagegrowngear.com/products/personal-towel-by-packtowl",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "packtowl-personal-towel-hand",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "PackTowl",
+    "model": "Personal Towel",
+    "variant": "Hand",
+    "weight_g": 82,
+    "weight_basis": "manufacturer",
+    "weight_note": "36 x 16.5 in, Garage Grown Gear-listed 2.9 oz / 82 g",
+    "price_usd": null,
+    "specs": {
+      "type": "towel",
+      "material": "microfiber, 80% polyester / 20% nylon"
+    },
+    "url": "https://www.garagegrowngear.com/products/personal-towel-by-packtowl",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "GGG only stocks the Face size, so no price found"
+  },
+  {
+    "id": "packtowl-luxe-towel-face",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "PackTowl",
+    "model": "Luxe Towel",
+    "variant": "Face",
+    "weight_g": 31,
+    "weight_basis": "manufacturer",
+    "weight_note": "14 x 10 in, Garage Grown Gear-listed 1.1 oz / 31 g",
+    "price_usd": 19.95,
+    "specs": {
+      "type": "towel",
+      "material": "terry-knit microfiber, 85% polyester / 15% nylon"
+    },
+    "url": "https://www.garagegrowngear.com/products/luxe-towel-by-packtowl",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "packtowl-luxe-towel-hand",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "PackTowl",
+    "model": "Luxe Towel",
+    "variant": "Hand",
+    "weight_g": 130,
+    "weight_basis": "manufacturer",
+    "weight_note": "36 x 16.5 in, Garage Grown Gear-listed 4.6 oz / 130 g",
+    "price_usd": 32.95,
+    "specs": {
+      "type": "towel",
+      "material": "terry-knit microfiber, 85% polyester / 15% nylon"
+    },
+    "url": "https://www.garagegrowngear.com/products/luxe-towel-by-packtowl",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
   }
 ]

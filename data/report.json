@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T23:08:52.552Z",
+  "generated_at": "2026-10-23T23:14:06.485Z",
   "files": [
     {
       "file": "backpack.json",
@@ -10,8 +10,8 @@
     },
     {
       "file": "base-layer.json",
-      "read": 179,
-      "kept": 179,
+      "read": 193,
+      "kept": 193,
       "dropped": 0,
       "error": null
     },
@@ -52,22 +52,22 @@
     },
     {
       "file": "footwear.json",
-      "read": 254,
-      "kept": 254,
+      "read": 270,
+      "kept": 270,
       "dropped": 0,
       "error": null
     },
     {
       "file": "headwear-handwear.json",
-      "read": 119,
-      "kept": 119,
+      "read": 129,
+      "kept": 129,
       "dropped": 0,
       "error": null
     },
     {
       "file": "insulation.json",
-      "read": 185,
-      "kept": 185,
+      "read": 194,
+      "kept": 194,
       "dropped": 0,
       "error": null
     },
@@ -80,8 +80,8 @@
     },
     {
       "file": "misc.json",
-      "read": 60,
-      "kept": 60,
+      "read": 64,
+      "kept": 64,
       "dropped": 0,
       "error": null
     },
@@ -108,8 +108,8 @@
     },
     {
       "file": "rain-jacket.json",
-      "read": 90,
-      "kept": 90,
+      "read": 93,
+      "kept": 93,
       "dropped": 0,
       "error": null
     },
@@ -188,13 +188,13 @@
     "cook-accessory": 70,
     "water-treatment": 58,
     "water-storage": 63,
-    "rain-jacket": 90,
+    "rain-jacket": 93,
     "rain-pants": 63,
     "wind-layer": 52,
-    "insulation": 185,
-    "base-layer": 179,
-    "headwear-handwear": 119,
-    "footwear": 254,
+    "insulation": 194,
+    "base-layer": 193,
+    "headwear-handwear": 129,
+    "footwear": 270,
     "lighting": 78,
     "power": 55,
     "communication": 32,
@@ -202,9 +202,9 @@
     "food-storage": 44,
     "pack-organization": 129,
     "first-aid-hygiene": 80,
-    "misc": 60
+    "misc": 64
   },
-  "total": 2840,
+  "total": 2896,
   "dropped": [],
   "fixed": [],
   "duplicate_ids": [],
