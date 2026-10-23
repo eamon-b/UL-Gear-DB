@@ -1345,6 +1345,82 @@
         "weight_note": "tent only (silnylon floor); typical setup with sack + 5 stakes 550 g",
         "confidence": "high"
       }
+    },
+    {
+      "id": "tarptent-notch",
+      "set": {
+        "price_usd": 329,
+        "notes": "List $329 (mesh interior); on sale $229 at check 2026-10-23 (tarptent.com WooCommerce Store API)."
+      }
+    },
+    {
+      "id": "tarptent-aeon-li",
+      "set": {
+        "price_usd": 649,
+        "notes": "List $649; on sale $549 at check 2026-10-23 (tarptent.com Store API)."
+      }
+    },
+    {
+      "id": "tarptent-rainbow-dw",
+      "set": {
+        "price_usd": 349
+      }
+    },
+    {
+      "id": "tarptent-scarp-1-plus",
+      "set": {
+        "price_usd": 349
+      }
+    },
+    {
+      "id": "tarptent-arcdome-1-plus",
+      "set": {
+        "price_usd": 449,
+        "notes": "List $449 (partial solid interior, aluminum or 7.8 mm carbon poles); 10% sale ($404.10) at check 2026-10-23."
+      }
+    },
+    {
+      "id": "tarptent-arcdome-2",
+      "set": {
+        "price_usd": 479,
+        "notes": "List $479 (mesh interior, aluminum poles); on sale $429 at check 2026-10-23."
+      }
+    },
+    {
+      "id": "ula-ohm-2025",
+      "set": {
+        "price_usd": 279.99,
+        "notes": "Previous version, on closeout: regular $279.99, closeout $199.99 at check 2026-10-23 (ula-equipment.com Store API)."
+      }
+    },
+    {
+      "id": "ula-nexus-2025",
+      "set": {
+        "price_usd": 229.99,
+        "notes": "Previous version, on closeout: regular $229.99, closeout $149.99 at check 2026-10-23 (ula-equipment.com Store API)."
+      }
+    },
+    {
+      "id": "warbonnet-superfly-silnylon",
+      "set": {
+        "discontinued": true,
+        "notes": "Superfly now offered only in 20D and 30D silpoly (warbonnetoutdoors.com Store API variations, checked 2026-10-23); silnylon version no longer sold."
+      }
+    },
+    {
+      "id": "osprey-eja-38",
+      "set": {
+        "price_usd": 245,
+        "weight_g": 1178,
+        "weight_basis": "manufacturer",
+        "weight_note": "WXS/S 2.597 lb; WM/L 2.686 lb (1218 g)",
+        "confidence": "high",
+        "specs": {
+          "max_load_lb": 25,
+          "material": "recycled 100D high-tenacity nylon ripstop"
+        },
+        "notes": "Price/weight/load range (20-25 lb) from Osprey spec text on Campmor (US retailer, Shopify JSON), checked 2026-10-23; osprey.com blocks automated access."
+      }
     }
   ],
   "additions": [

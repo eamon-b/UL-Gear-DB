@@ -1342,6 +1342,41 @@
     "confidence": "high",
     "notes": "Sea to Summit lists it at $1.00 (Oct 2026), likely clearance."
    }
+  },
+  {
+   "id": "nylopro-odor-barrier-bag-big",
+   "set": {
+    "weight_g": 12,
+    "weight_basis": "manufacturer",
+    "weight_note": "per bag, Zpacks listing 0.42 oz",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "nylopro-odor-barrier-bag-large",
+   "set": {
+    "weight_g": 19,
+    "weight_basis": "manufacturer",
+    "weight_note": "per bag, Zpacks listing 0.67 oz",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "vargo-jet-ti-2",
+   "set": {
+    "specs": {
+     "output_btu": 9000
+    }
+   }
+  },
+  {
+   "id": "toaks-titanium-gas-stove",
+   "set": {
+    "specs": {
+     "boil_time_min": 2.33,
+     "boil_volume_l": 0.5
+    }
+   }
   }
  ],
  "additions": [
