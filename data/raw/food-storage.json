@@ -951,5 +951,145 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "For hanging; not bear-proof or odor-proof. 3-6 days of food."
+  },
+  {
+    "id": "hilltop-packs-roll-top-food-bag-d50t-small",
+    "category": "food-storage",
+    "subcategory": "bear bag",
+    "brand": "Hilltop Packs",
+    "model": "Ultralight Roll Top Food Bag (D50T)",
+    "variant": "Small",
+    "weight_g": 36,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 35,
+    "specs": {
+      "volume_l": 7.5,
+      "approved": null
+    },
+    "url": "https://www.hilltoppacks.com/products/food-bags-white-d50t-fabric-roll-top",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Hang bag, not bear- or odor-proof. 7-8 L. Printed/colored versions cost more."
+  },
+  {
+    "id": "hilltop-packs-roll-top-food-bag-d50t-large",
+    "category": "food-storage",
+    "subcategory": "bear bag",
+    "brand": "Hilltop Packs",
+    "model": "Ultralight Roll Top Food Bag (D50T)",
+    "variant": "Large",
+    "weight_g": 45,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 42,
+    "specs": {
+      "volume_l": 12.5,
+      "approved": null
+    },
+    "url": "https://www.hilltoppacks.com/products/food-bags-white-d50t-fabric-roll-top",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Hang bag, not bear- or odor-proof. 12-13 L. Printed/colored versions cost more."
+  },
+  {
+    "id": "hilltop-packs-20l-food-bag-ecopak",
+    "category": "food-storage",
+    "subcategory": "bear bag",
+    "brand": "Hilltop Packs",
+    "model": "20 Liter Food Bag (ECOPAK)",
+    "variant": null,
+    "weight_g": 105,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 54,
+    "specs": {
+      "volume_l": 20,
+      "approved": null
+    },
+    "url": "https://www.hilltoppacks.com/products/20-liter-food-bag-bear-bag-our-biggest-ecopak",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Hang bag for up to ~7 days of food; not bear- or odor-proof."
+  },
+  {
+    "id": "hilltop-packs-food-bag-dyneema-small",
+    "category": "food-storage",
+    "subcategory": "bear bag",
+    "brand": "Hilltop Packs",
+    "model": "Food Bag (Dyneema)",
+    "variant": "Small",
+    "weight_g": 34,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 52.95,
+    "specs": {
+      "volume_l": 7.5,
+      "approved": null
+    },
+    "url": "https://www.hilltoppacks.com/products/food-bag-bear-bag-without-hanging-kit-dyneema-3",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "1.43 oz DCF; Large is 37 g. Not bear- or odor-proof."
+  },
+  {
+    "id": "grubcan-spirit-wave-bear-canister-7-2l",
+    "category": "food-storage",
+    "subcategory": "bear canister",
+    "brand": "Grubcan",
+    "model": "Spirit Wave Bear Canister",
+    "variant": "7.2L",
+    "weight_g": 1049,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 107,
+    "specs": {
+      "volume_l": 7.2,
+      "approved": "IGBC; WMI"
+    },
+    "url": "https://www.garagegrowngear.com/products/wave-6-6l-bear-canister-by-grubcan",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Polycarbonate; tool-free rotating-ring latch. Up to ~6 days of food."
+  },
+  {
+    "id": "grubcan-carbon-kevlar-bear-canister-4-5l",
+    "category": "food-storage",
+    "subcategory": "bear canister",
+    "brand": "Grubcan",
+    "model": "Carbon/Kevlar Bear Canister",
+    "variant": "4.5L",
+    "weight_g": 595,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 595-652 g (handmade variation); minimum shown",
+    "price_usd": 450,
+    "specs": {
+      "volume_l": 4.5,
+      "approved": "IGBC; WMI"
+    },
+    "url": "https://www.garagegrowngear.com/products/carbon-kevlar-bear-canister-by-grubcan",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Up to ~4 days of food."
+  },
+  {
+    "id": "grubcan-carbon-kevlar-bear-canister-6-6l",
+    "category": "food-storage",
+    "subcategory": "bear canister",
+    "brand": "Grubcan",
+    "model": "Carbon/Kevlar Bear Canister",
+    "variant": "6.6L",
+    "weight_g": 680,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 680-737 g (handmade variation); minimum shown",
+    "price_usd": 500,
+    "specs": {
+      "volume_l": 6.6,
+      "approved": "IGBC; WMI"
+    },
+    "url": "https://www.garagegrowngear.com/products/carbon-kevlar-bear-canister-by-grubcan",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Up to ~6 days of food."
   }
 ]

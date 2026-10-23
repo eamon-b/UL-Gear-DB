@@ -1173,5 +1173,26 @@
     "discontinued": false,
     "confidence": "low",
     "notes": null
+  },
+  {
+    "id": "alpenglow-gear-stable-cable-30-cm",
+    "category": "power",
+    "subcategory": "charger/cable",
+    "brand": "Alpenglow Gear",
+    "model": "Stable Cable",
+    "variant": "30 cm",
+    "weight_g": 10,
+    "weight_basis": "manufacturer",
+    "weight_note": "9.9 g; 15 cm 7.5 g, 100 cm 20.5 g",
+    "price_usd": 8.95,
+    "specs": {
+      "capacity_mah": null,
+      "output_w": 60,
+      "ports": "USB-C to USB-C"
+    },
+    "url": "https://www.alpenglowgear.co/products/stable-cable-durable-usb-c",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Angled, reinforced connectors."
   }
 ]

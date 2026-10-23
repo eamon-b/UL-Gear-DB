@@ -6328,5 +6328,27 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Removable 1\" hip belt."
+  },
+  {
+    "id": "chicken-tramper-ctug-15-fast-pack",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Chicken Tramper Gear",
+    "model": "CTUG-15 Fast Pack",
+    "variant": null,
+    "weight_g": 454,
+    "weight_basis": "estimate",
+    "weight_note": "approx. 16 oz listed",
+    "price_usd": 270,
+    "specs": {
+      "volume_l": 15,
+      "frame": "frameless",
+      "material": "X-Pac VX21",
+      "hipbelt": false
+    },
+    "url": "https://www.chickentrampergear.com/products/ctug-15-fast-pack-day-pack",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "12 L internal + ~3 L external. Running-vest strap version $290. Made to order (3-4 month lead time)."
   }
 ]

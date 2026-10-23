@@ -2072,5 +2072,25 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Replacement/extra cup for Flash/Zip systems."
+  },
+  {
+    "id": "silverant-titanium-3-piece-cookset",
+    "category": "cookware",
+    "subcategory": "pot set",
+    "brand": "SilverAnt",
+    "model": "Titanium 3 Piece Cookset",
+    "variant": null,
+    "weight_g": 312,
+    "weight_basis": "manufacturer",
+    "weight_note": "total incl. stuff sack; 1.05 L pot 122 g, 750 ml pot 94 g, 500 ml pan 71 g",
+    "price_usd": 99.99,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1050
+    },
+    "url": "https://www.garagegrowngear.com/products/titanium-3-piece-cookset-by-silverant",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
   }
 ]

@@ -2288,5 +2288,25 @@
     "discontinued": false,
     "confidence": "high",
     "notes": null
+  },
+  {
+    "id": "etowah-ultralight-overmitts",
+    "category": "headwear-handwear",
+    "subcategory": "rain mitt",
+    "brand": "Etowah Outfitters",
+    "model": "Ultralight Overmitts",
+    "variant": null,
+    "weight_g": 34,
+    "weight_basis": "manufacturer",
+    "weight_note": "size Medium",
+    "price_usd": 37,
+    "specs": {
+      "waterproof": false,
+      "material": "10D WPB laminate upper, PU-coated nylon palm"
+    },
+    "url": "https://www.garagegrowngear.com/products/ultralight-overmitts-by-etowah-outfitters",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Water-resistant, not seam-sealed."
   }
 ]

@@ -3014,5 +3014,362 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Holds up to 12 MSR Groundhog stakes."
+  },
+  {
+    "id": "hilltop-packs-ultralight-stuff-sack-d50t-medium",
+    "category": "pack-organization",
+    "subcategory": "stuff sack",
+    "brand": "Hilltop Packs",
+    "model": "Ultralight Stuff Sack (D50T)",
+    "variant": "Medium",
+    "weight_g": 16,
+    "weight_basis": "manufacturer",
+    "weight_note": "15.5 g listed",
+    "price_usd": 14.3,
+    "specs": {
+      "volume_l": 2.5,
+      "material": "Challenge D50T",
+      "waterproof": false
+    },
+    "url": "https://www.hilltoppacks.com/products/stuff-sacks-ultralight-challenge-d50t-fabric-8",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Drawstring sack with taped seams."
+  },
+  {
+    "id": "hilltop-packs-ultralight-stuff-sack-d50t-jumbo",
+    "category": "pack-organization",
+    "subcategory": "stuff sack",
+    "brand": "Hilltop Packs",
+    "model": "Ultralight Stuff Sack (D50T)",
+    "variant": "Jumbo",
+    "weight_g": 30,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 26.4,
+    "specs": {
+      "volume_l": 9.5,
+      "material": "Challenge D50T",
+      "waterproof": false
+    },
+    "url": "https://www.hilltoppacks.com/products/stuff-sacks-ultralight-challenge-d50t-fabric-8",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Drawstring sack with taped seams."
+  },
+  {
+    "id": "hilltop-packs-roll-top-dry-bag-d50t-medium",
+    "category": "pack-organization",
+    "subcategory": "dry bag",
+    "brand": "Hilltop Packs",
+    "model": "Ultralight Roll Top Dry Bag (D50T)",
+    "variant": "Medium",
+    "weight_g": 20,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 15.9,
+    "specs": {
+      "volume_l": 2.5,
+      "material": "Challenge D50T",
+      "waterproof": true
+    },
+    "url": "https://www.hilltoppacks.com/products/dry-bags-roll-top-ultralight-challenge-d50t-fabric",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hilltop-packs-roll-top-dry-bag-d50t-large",
+    "category": "pack-organization",
+    "subcategory": "dry bag",
+    "brand": "Hilltop Packs",
+    "model": "Ultralight Roll Top Dry Bag (D50T)",
+    "variant": "Large",
+    "weight_g": 35,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 24.2,
+    "specs": {
+      "volume_l": 7.5,
+      "material": "Challenge D50T",
+      "waterproof": true
+    },
+    "url": "https://www.hilltoppacks.com/products/dry-bags-roll-top-ultralight-challenge-d50t-fabric",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hilltop-packs-ultralight-zipper-pouch-medium",
+    "category": "pack-organization",
+    "subcategory": "pouch/fanny pack",
+    "brand": "Hilltop Packs",
+    "model": "Ultralight Zipper Pouch",
+    "variant": "Medium",
+    "weight_g": 10,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 15.9,
+    "specs": {
+      "volume_l": null,
+      "material": "Challenge D50T / ECOPAK",
+      "waterproof": false
+    },
+    "url": "https://www.hilltoppacks.com/products/zipper-pouches",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "4.5 x 7.5 in; YKK water-resistant zipper, taped seams. Printed versions cost more."
+  },
+  {
+    "id": "hilltop-packs-pack-liner-d50t-small",
+    "category": "pack-organization",
+    "subcategory": "pack liner",
+    "brand": "Hilltop Packs",
+    "model": "Ultralight Pack Liner (D50T)",
+    "variant": "Small",
+    "weight_g": 79,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 38,
+    "specs": {
+      "volume_l": null,
+      "material": "Challenge D50T",
+      "waterproof": true
+    },
+    "url": "https://www.hilltoppacks.com/products/pack-liners-d50t-fabric",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "For 20-33 L packs; taped seams."
+  },
+  {
+    "id": "hilltop-packs-pack-liner-d50t-medium",
+    "category": "pack-organization",
+    "subcategory": "pack liner",
+    "brand": "Hilltop Packs",
+    "model": "Ultralight Pack Liner (D50T)",
+    "variant": "Medium",
+    "weight_g": 92,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 42,
+    "specs": {
+      "volume_l": null,
+      "material": "Challenge D50T",
+      "waterproof": true
+    },
+    "url": "https://www.hilltoppacks.com/products/pack-liners-d50t-fabric",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "For 35-50 L packs; Large (50-70 L) is 109 g / $46."
+  },
+  {
+    "id": "hilltop-packs-cell-phone-shoulder-strap-pouch",
+    "category": "pack-organization",
+    "subcategory": "shoulder pouch",
+    "brand": "Hilltop Packs",
+    "model": "Cell Phone Shoulder Strap Pouch",
+    "variant": null,
+    "weight_g": 37,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 37,
+    "specs": {
+      "volume_l": null,
+      "material": "ECOPAK",
+      "waterproof": false
+    },
+    "url": "https://www.hilltoppacks.com/products/cell-phone-shoulder-pouch-shoulder-strap-mount",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Zippered; 4.5 x 8.5 in."
+  },
+  {
+    "id": "chicken-tramper-shoulder-strap-phone-pocket-standard",
+    "category": "pack-organization",
+    "subcategory": "shoulder pouch",
+    "brand": "Chicken Tramper Gear",
+    "model": "Shoulder Strap Phone Pocket",
+    "variant": "Standard",
+    "weight_g": 37,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 41,
+    "specs": {
+      "volume_l": null,
+      "material": "X-Pac VX21 / Lycra",
+      "waterproof": false
+    },
+    "url": "https://www.chickentrampergear.com/products/shoulder-strap-phone-pocket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Large is 43 g. Black (Vietnam-made) $30. Brand site showed a sale price (about 20% off) this session; list price used."
+  },
+  {
+    "id": "chicken-tramper-shoulder-strap-zipper-pocket",
+    "category": "pack-organization",
+    "subcategory": "shoulder pouch",
+    "brand": "Chicken Tramper Gear",
+    "model": "Shoulder Strap Zipper Pocket",
+    "variant": null,
+    "weight_g": 48,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 40,
+    "specs": {
+      "volume_l": null,
+      "material": "X-Pac VX21 / Lycra",
+      "waterproof": false
+    },
+    "url": "https://www.chickentrampergear.com/products/shoulder-strap-zipper-pocket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Black (Vietnam-made) $30. Brand site showed a sale price (about 20% off) this session; list price used."
+  },
+  {
+    "id": "chicken-tramper-water-bottle-sleeve-short",
+    "category": "pack-organization",
+    "subcategory": "shoulder pouch",
+    "brand": "Chicken Tramper Gear",
+    "model": "Water Bottle Sleeve",
+    "variant": "Short",
+    "weight_g": 40,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 30,
+    "specs": {
+      "volume_l": 0.75,
+      "material": "nylon mesh / X-Pac VX07",
+      "waterproof": false
+    },
+    "url": "https://www.chickentrampergear.com/products/water-bottle-sleeve-made-in-vietnam",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Shoulder-strap bottle holder for 700 ml-1 L Smartwater. Tall 45 g; USA-made versions $40. Brand site showed a sale price (about 20% off) this session; list price used."
+  },
+  {
+    "id": "chicken-tramper-switchpack-1l",
+    "category": "pack-organization",
+    "subcategory": "pouch/fanny pack",
+    "brand": "Chicken Tramper Gear",
+    "model": "SwitchPack",
+    "variant": "1L",
+    "weight_g": 133,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 65,
+    "specs": {
+      "volume_l": 1,
+      "material": "X-Pac",
+      "waterproof": false
+    },
+    "url": "https://www.chickentrampergear.com/products/1l-switchpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Fanny pack. Brand site showed a sale price (about 20% off) this session; list price used."
+  },
+  {
+    "id": "chicken-tramper-switchpack-2-5l",
+    "category": "pack-organization",
+    "subcategory": "pouch/fanny pack",
+    "brand": "Chicken Tramper Gear",
+    "model": "SwitchPack",
+    "variant": "2.5L",
+    "weight_g": 147,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 70,
+    "specs": {
+      "volume_l": 2.5,
+      "material": "X-Pac",
+      "waterproof": false
+    },
+    "url": "https://www.chickentrampergear.com/products/2-5l-switchpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Fanny pack. Brand site showed a sale price (about 20% off) this session; list price used."
+  },
+  {
+    "id": "etowah-silnylon-pack-cover-small",
+    "category": "pack-organization",
+    "subcategory": "pack cover",
+    "brand": "Etowah Outfitters",
+    "model": "Silnylon Pack Cover",
+    "variant": "Small (40-55L)",
+    "weight_g": 62,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 30,
+    "specs": {
+      "volume_l": null,
+      "material": "silnylon 1.1 oz",
+      "waterproof": true
+    },
+    "url": "https://www.garagegrowngear.com/products/silnylon-pack-cover-by-etowah-outfitters",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Seamless body. X-Small (30-40 L) 48 g / $25."
+  },
+  {
+    "id": "etowah-dyneema-pack-cover-small",
+    "category": "pack-organization",
+    "subcategory": "pack cover",
+    "brand": "Etowah Outfitters",
+    "model": "Dyneema Pack Cover",
+    "variant": "Small (40-50L)",
+    "weight_g": 28,
+    "weight_basis": "manufacturer",
+    "weight_note": "minimum weight; 34 g packed",
+    "price_usd": 89,
+    "specs": {
+      "volume_l": null,
+      "material": "DCF 0.51 oz",
+      "waterproof": true
+    },
+    "url": "https://www.garagegrowngear.com/products/dyneema-packcover-by-etowah-outfitters",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Seamless body. X-Small (20-35 L) 17 g / $79."
+  },
+  {
+    "id": "litesmith-zipza-pouch-small",
+    "category": "pack-organization",
+    "subcategory": "pouch/fanny pack",
+    "brand": "Litesmith",
+    "model": "Zipza Pouch",
+    "variant": "Small",
+    "weight_g": 8,
+    "weight_basis": "manufacturer",
+    "weight_note": "8.2 g",
+    "price_usd": 19.95,
+    "specs": {
+      "volume_l": null,
+      "material": "DCF 1.43 oz",
+      "waterproof": false
+    },
+    "url": "https://www.litesmith.com/zipza-pouches/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "7 x 5 in; Medium (8 x 6 in) 9.4 g. Price range $19.95-22.95 across sizes; per-size price inferred."
+  },
+  {
+    "id": "litesmith-zipza-pouch-large",
+    "category": "pack-organization",
+    "subcategory": "pouch/fanny pack",
+    "brand": "Litesmith",
+    "model": "Zipza Pouch",
+    "variant": "Large",
+    "weight_g": 12,
+    "weight_basis": "manufacturer",
+    "weight_note": "12.1 g",
+    "price_usd": 22.95,
+    "specs": {
+      "volume_l": null,
+      "material": "DCF 1.43 oz",
+      "waterproof": false
+    },
+    "url": "https://www.litesmith.com/zipza-pouches/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "10 x 7 in. Price range $19.95-22.95 across sizes; per-size price inferred."
   }
 ]

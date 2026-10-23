@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-23T23:16:19.480Z",
+  "generated_at": "2026-10-23T23:22:23.780Z",
   "files": [
     {
       "file": "backpack.json",
-      "read": 252,
-      "kept": 252,
+      "read": 253,
+      "kept": 253,
       "dropped": 0,
       "error": null
     },
@@ -24,29 +24,29 @@
     },
     {
       "file": "cook-accessory.json",
-      "read": 70,
-      "kept": 70,
+      "read": 93,
+      "kept": 93,
       "dropped": 0,
       "error": null
     },
     {
       "file": "cookware.json",
-      "read": 104,
-      "kept": 104,
+      "read": 105,
+      "kept": 105,
       "dropped": 0,
       "error": null
     },
     {
       "file": "first-aid-hygiene.json",
-      "read": 80,
-      "kept": 80,
+      "read": 85,
+      "kept": 85,
       "dropped": 0,
       "error": null
     },
     {
       "file": "food-storage.json",
-      "read": 46,
-      "kept": 46,
+      "read": 53,
+      "kept": 53,
       "dropped": 0,
       "error": null
     },
@@ -59,8 +59,8 @@
     },
     {
       "file": "headwear-handwear.json",
-      "read": 131,
-      "kept": 131,
+      "read": 132,
+      "kept": 132,
       "dropped": 0,
       "error": null
     },
@@ -80,29 +80,29 @@
     },
     {
       "file": "misc.json",
-      "read": 65,
-      "kept": 65,
+      "read": 77,
+      "kept": 77,
       "dropped": 0,
       "error": null
     },
     {
       "file": "pack-organization.json",
-      "read": 144,
-      "kept": 144,
+      "read": 161,
+      "kept": 161,
       "dropped": 0,
       "error": null
     },
     {
       "file": "pillow.json",
-      "read": 35,
-      "kept": 35,
+      "read": 37,
+      "kept": 37,
       "dropped": 0,
       "error": null
     },
     {
       "file": "power.json",
-      "read": 55,
-      "kept": 55,
+      "read": 56,
+      "kept": 56,
       "dropped": 0,
       "error": null
     },
@@ -122,8 +122,8 @@
     },
     {
       "file": "shelter.json",
-      "read": 373,
-      "kept": 373,
+      "read": 378,
+      "kept": 378,
       "dropped": 0,
       "error": null
     },
@@ -143,22 +143,22 @@
     },
     {
       "file": "stove.json",
-      "read": 89,
-      "kept": 89,
+      "read": 102,
+      "kept": 102,
       "dropped": 0,
       "error": null
     },
     {
       "file": "trekking-poles.json",
-      "read": 81,
-      "kept": 81,
+      "read": 84,
+      "kept": 84,
       "dropped": 0,
       "error": null
     },
     {
       "file": "water-storage.json",
-      "read": 63,
-      "kept": 63,
+      "read": 64,
+      "kept": 64,
       "dropped": 0,
       "error": null
     },
@@ -178,33 +178,33 @@
     }
   ],
   "counts": {
-    "shelter": 373,
-    "backpack": 252,
+    "shelter": 378,
+    "backpack": 253,
     "sleep-insulation": 234,
     "sleeping-pad": 128,
-    "pillow": 35,
-    "stove": 89,
-    "cookware": 104,
-    "cook-accessory": 70,
+    "pillow": 37,
+    "stove": 102,
+    "cookware": 105,
+    "cook-accessory": 93,
     "water-treatment": 58,
-    "water-storage": 63,
+    "water-storage": 64,
     "rain-jacket": 100,
     "rain-pants": 66,
     "wind-layer": 54,
     "insulation": 201,
     "base-layer": 193,
-    "headwear-handwear": 131,
+    "headwear-handwear": 132,
     "footwear": 270,
     "lighting": 78,
-    "power": 55,
+    "power": 56,
     "communication": 32,
-    "trekking-poles": 81,
-    "food-storage": 46,
-    "pack-organization": 144,
-    "first-aid-hygiene": 80,
-    "misc": 65
+    "trekking-poles": 84,
+    "food-storage": 53,
+    "pack-organization": 161,
+    "first-aid-hygiene": 85,
+    "misc": 77
   },
-  "total": 3002,
+  "total": 3094,
   "dropped": [],
   "fixed": [],
   "duplicate_ids": [],

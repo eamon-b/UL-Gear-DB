@@ -1454,5 +1454,101 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Loose wool for hot spots"
+  },
+  {
+    "id": "qiwiz-titanium-trowel-original",
+    "category": "first-aid-hygiene",
+    "subcategory": "trowel",
+    "brand": "QiWiz UL Gear",
+    "model": "Titanium Trowel",
+    "variant": "Original",
+    "weight_g": 11,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 29,
+    "specs": {
+      "material": "titanium",
+      "length_in": 6
+    },
+    "url": "https://www.garagegrowngear.com/products/ultralight-titanium-backpacking-cathole-trowels-by-qiwiz-ul-gear",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Weight/price from Garage Grown Gear review and listing snippets; product page no longer live and QiWiz site unreachable this session."
+  },
+  {
+    "id": "qiwiz-titanium-trowel-big-dig",
+    "category": "first-aid-hygiene",
+    "subcategory": "trowel",
+    "brand": "QiWiz UL Gear",
+    "model": "Titanium Trowel",
+    "variant": "Big Dig",
+    "weight_g": 17,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 35.99,
+    "specs": {
+      "material": "titanium",
+      "length_in": 7.25
+    },
+    "url": "https://www.garagegrowngear.com/products/ultralight-titanium-backpacking-cathole-trowels-by-qiwiz-ul-gear",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Weight/price from Garage Grown Gear review and listing snippets; product page no longer live and QiWiz site unreachable this session."
+  },
+  {
+    "id": "qiwiz-titanium-trowel-mega-dig",
+    "category": "first-aid-hygiene",
+    "subcategory": "trowel",
+    "brand": "QiWiz UL Gear",
+    "model": "Titanium Trowel",
+    "variant": "Mega Dig",
+    "weight_g": 23,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 39,
+    "specs": {
+      "material": "titanium",
+      "length_in": 8
+    },
+    "url": "https://www.garagegrowngear.com/products/ultralight-titanium-backpacking-cathole-trowels-by-qiwiz-ul-gear",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Weight/price from Garage Grown Gear review and listing snippets; product page no longer live and QiWiz site unreachable this session."
+  },
+  {
+    "id": "brautigam-tiny-titanium-tweezers",
+    "category": "first-aid-hygiene",
+    "subcategory": "first aid supply",
+    "brand": "Brautigam Expedition Works",
+    "model": "Tiny Titanium Tweezers",
+    "variant": null,
+    "weight_g": 3,
+    "weight_basis": "manufacturer",
+    "weight_note": "2.8 g with case",
+    "price_usd": 15,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://brautigamexpeditionworks.com/products/tiny-titanium-tweezers",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "chicken-tramper-stitch-all",
+    "category": "first-aid-hygiene",
+    "subcategory": "repair",
+    "brand": "Chicken Tramper Gear",
+    "model": "Stitch-All",
+    "variant": null,
+    "weight_g": 10,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 20,
+    "specs": {},
+    "url": "https://www.chickentrampergear.com/products/ctug-awl",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Ultralight sewing awl with thread and 2 needles. Brand site showed a sale price (about 20% off) this session; list price used."
   }
 ]

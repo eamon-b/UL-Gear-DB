@@ -1756,5 +1756,74 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Fixed length, packs small for travel"
+  },
+  {
+    "id": "pacerpole-carbon-dual-lock",
+    "category": "trekking-poles",
+    "subcategory": "adjustable",
+    "brand": "Pacerpole",
+    "model": "Carbon Dual Lock",
+    "variant": null,
+    "weight_g": 590,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair, 295 g per pole (ex rubber foot); info page lists 570 g per pair.",
+    "price_usd": 169,
+    "specs": {
+      "material": "carbon",
+      "adjustable": true,
+      "collapsed_length_in": 25.6,
+      "locking": "Dual Lock",
+      "grip": "contoured Pacerpole handle"
+    },
+    "url": "https://shop.pacerpole.com/product/pacerpole-dual-lock-system/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Price converted from GBP £127 at ~1.33 USD/GBP (no USD list price). Unique anatomical handle, no straps."
+  },
+  {
+    "id": "pacerpole-carbon-3-section",
+    "category": "trekking-poles",
+    "subcategory": "adjustable",
+    "brand": "Pacerpole",
+    "model": "Carbon 3-Section",
+    "variant": null,
+    "weight_g": 530,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair, 265 g per pole (ex rubber foot).",
+    "price_usd": 162,
+    "specs": {
+      "material": "carbon",
+      "adjustable": true,
+      "collapsed_length_in": 26,
+      "locking": "lever lock",
+      "grip": "contoured Pacerpole handle"
+    },
+    "url": "https://shop.pacerpole.com/product/available-late-june-3-section-carbon-pacerpoles-with-lever-lock-shafts-16mm-diameter-top-shaft/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Price converted from GBP £122 at ~1.33 USD/GBP (no USD list price). Unique anatomical handle, no straps."
+  },
+  {
+    "id": "pacerpole-alloy-3-section",
+    "category": "trekking-poles",
+    "subcategory": "adjustable",
+    "brand": "Pacerpole",
+    "model": "Alloy 3-Section",
+    "variant": null,
+    "weight_g": 698,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair, 349 g per pole (ex baskets and rubber foot).",
+    "price_usd": 153,
+    "specs": {
+      "material": "7075 aluminum",
+      "adjustable": true,
+      "collapsed_length_in": 27.6,
+      "locking": "lever lock",
+      "grip": "contoured Pacerpole handle"
+    },
+    "url": "https://shop.pacerpole.com/product/alloy-3-section-pacerpole-pair-mesh-bag/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Price converted from GBP £115 at ~1.33 USD/GBP (no USD list price). Unique anatomical handle, no straps."
   }
 ]
