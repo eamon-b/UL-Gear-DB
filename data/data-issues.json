@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T12:01:57.163Z",
+  "generated_at": "2026-10-23T23:09:00.041Z",
   "records": 2840,
   "records_flagged": 169,
   "counts": {
@@ -1258,7 +1258,7 @@
       "id": "warbonnet-puptarp",
       "file": "shelter.json",
       "index": 253,
-      "name": "Warbonnet Puptarp",
+      "name": "Warbonnet Outdoors Puptarp",
       "category": "shelter",
       "subcategory": "tarp",
       "weight_g": 567,
