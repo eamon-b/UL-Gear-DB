@@ -90,7 +90,8 @@ export function ExamplesPage() {
         <h1>Example pack lists</h1>
         <p className="muted">
           Real gear lists that hikers have published on LighterPack, with the article or thread each one came from.
-          Weights are recomputed from a snapshot of each list. Import one to see how it matches the database, then use Alternatives or Lighten my pack on it.
+          Weights are recomputed from a snapshot of each list, so they can differ from the figures quoted in the source: lists get edited after they are posted,
+          and some authors don't mark worn items, which then count toward base weight. Import one to see how it matches the database, then use Alternatives or Lighten my pack on it.
         </p>
       </div>
       {err && <p className="warn">Could not load example lists: {err}. Run <code>npm run data</code>.</p>}
