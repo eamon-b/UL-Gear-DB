@@ -1,0 +1,1711 @@
+{
+ "updates": [
+  {
+   "id": "black-diamond-distance-carbon-z-100-cm",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/distance-carbon-z-poles",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "black-diamond-distance-carbon-z-110-cm",
+   "set": {
+    "specs": {
+     "collapsed_length_in": 14.6
+    }
+   }
+  },
+  {
+   "id": "black-diamond-distance-carbon-z-120-cm",
+   "set": {
+    "specs": {
+     "collapsed_length_in": 15.7
+    }
+   }
+  },
+  {
+   "id": "black-diamond-distance-carbon-z-130-cm",
+   "set": {
+    "specs": {
+     "collapsed_length_in": 17.3
+    }
+   }
+  },
+  {
+   "id": "black-diamond-distance-carbon-flz-95-110-cm",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/distance-carbon-flz-poles",
+    "price_usd": 239.95,
+    "weight_g": 308,
+    "specs": {
+     "collapsed_length_in": 13.4
+    }
+   }
+  },
+  {
+   "id": "black-diamond-distance-carbon-flz-110-125-cm",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/distance-carbon-flz-poles",
+    "price_usd": 239.95,
+    "weight_g": 336,
+    "specs": {
+     "collapsed_length_in": 14.6
+    }
+   }
+  },
+  {
+   "id": "black-diamond-distance-carbon-flz-125-140-cm",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/distance-carbon-flz-poles",
+    "price_usd": 239.95,
+    "weight_g": 364,
+    "specs": {
+     "collapsed_length_in": 15.7
+    }
+   }
+  },
+  {
+   "id": "black-diamond-distance-z-120-cm",
+   "set": {
+    "specs": {
+     "collapsed_length_in": 15.7
+    }
+   }
+  },
+  {
+   "id": "black-diamond-alpine-carbon-cork",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/alpine-carbon-cork-trekking-poles"
+   }
+  },
+  {
+   "id": "black-diamond-trail",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/trail-trekking-poles",
+    "weight_g": 480,
+    "specs": {
+     "collapsed_length_in": 25.4
+    },
+    "notes": null
+   }
+  },
+  {
+   "id": "black-diamond-trail-back",
+   "set": {
+    "specs": {
+     "collapsed_length_in": 24.2
+    }
+   }
+  },
+  {
+   "id": "black-diamond-trail-cork",
+   "set": {
+    "specs": {
+     "collapsed_length_in": 25.5
+    }
+   }
+  },
+  {
+   "id": "black-diamond-pursuit-s-m",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/pursuit-trekking-poles",
+    "price_usd": 169.95,
+    "weight_g": 495,
+    "weight_note": "per pair (S/M, 100-125 cm)",
+    "notes": "BD spec: 495 g/pair (S/M)."
+   }
+  },
+  {
+   "id": "black-diamond-pursuit-m-l",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/pursuit-trekking-poles",
+    "price_usd": 169.95,
+    "weight_g": 535,
+    "weight_note": "per pair (M/L, 125-140 cm)",
+    "notes": "BD spec: 535 g/pair (M/L); OutdoorGearLab measured 540 g."
+   }
+  },
+  {
+   "id": "black-diamond-pursuit-flz-m-l",
+   "set": {
+    "discontinued": true,
+    "url": "https://www.blackdiamondequipment.com/products/pursuit-carbon-flz-trekking-poles",
+    "notes": "Aluminum Pursuit FLZ absent from BD's US store catalog (Oct 2026); only the Pursuit Carbon FLZ is listed."
+   }
+  },
+  {
+   "id": "black-diamond-pursuit-carbon-z-120-cm",
+   "set": {
+    "specs": {
+     "locking": "Z-pole push-button"
+    }
+   }
+  },
+  {
+   "id": "black-diamond-distance-carbon-z-fkt-120-cm",
+   "set": {
+    "specs": {
+     "locking": "Z-pole push-button"
+    }
+   }
+  },
+  {
+   "id": "black-diamond-distance-carbon-fkt-120-cm",
+   "set": {
+    "specs": {
+     "locking": "none (fixed length, one-piece)"
+    }
+   }
+  },
+  {
+   "id": "black-diamond-trail-vista-shock",
+   "set": {
+    "specs": {
+     "collapsed_length_in": 27.6
+    }
+   }
+  },
+  {
+   "id": "black-diamond-trail-vista-flz-110-125-cm",
+   "set": {
+    "specs": {
+     "collapsed_length_in": 14.6
+    }
+   }
+  },
+  {
+   "id": "leki-makalu-fx-carbon",
+   "set": {
+    "url": "https://lekiusa.com/products/makalu-fx-carbon",
+    "price_usd": 229.95,
+    "weight_g": 504,
+    "weight_note": "per pair, standard 110-130 cm (252 g/pole); compact 100-120 cm is 241 g/pole",
+    "specs": {
+     "collapsed_length_in": 16.1,
+     "locking": "Speed Lock 2 Plus + ELD folding"
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "leki-micro-vario-carbon",
+   "set": {
+    "discontinued": true,
+    "url": "https://lekiusa.com/products/makalu-fx-carbon",
+    "notes": "Micro Vario Carbon no longer on lekiusa.com (product page 404, absent from store search, Oct 2026); Makalu FX Carbon is the current folding-adjustable carbon pole."
+   }
+  },
+  {
+   "id": "leki-black-series-fx-carbon",
+   "set": {
+    "url": "https://lekiusa.com/products/black-series-fx-carbon_leki-usa_trekking-poles_all-season",
+    "weight_g": 456,
+    "weight_note": "per pair (228 g/pole)",
+    "specs": {
+     "collapsed_length_in": 15.7,
+     "locking": "Speed Lock 2 Plus + CLD folding"
+    },
+    "confidence": "high",
+    "notes": "Leki US list $249.95 (on sale $199.95 Oct 2026); succeeded by Makalu Pro FX Carbon."
+   }
+  },
+  {
+   "id": "leki-cressida-fx-carbon",
+   "set": {
+    "discontinued": true,
+    "url": "https://lekiusa.com/products/makalu-fx-carbon",
+    "confidence": "high",
+    "notes": "Leki: the compact Makalu FX Carbon (100-120 cm, 241 g/pole, $229.95) 'was previously known as Cressida FX Carbon'. Cressida FX Carbon AS still sold ($239.95 list, 258 g/pole)."
+   }
+  },
+  {
+   "id": "leki-makalu-lite",
+   "set": {
+    "discontinued": true,
+    "url": "https://lekiusa.com/products/makalu-lite-as",
+    "notes": "Non-antishock Makalu Lite no longer on lekiusa.com (404, Oct 2026); Makalu Lite AS ($169.95, 253 g/pole) and Makalu Cork Lite ($159.95) are current."
+   }
+  },
+  {
+   "id": "leki-khumbu-lite",
+   "set": {
+    "url": "https://lekiusa.com/products/khumbu-lite",
+    "price_usd": 129.95,
+    "weight_g": 498,
+    "weight_note": "per pair, 100-135 cm (249 g/pole); 90-125 cm compact 240 g/pole",
+    "specs": {
+     "collapsed_length_in": 26.4,
+     "locking": "Speed Lock Plus"
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "leki-sherpa-fx-carbon-strong",
+   "set": {
+    "model": "Sherpa FX Carbon",
+    "url": "https://lekiusa.com/products/sherpa-fx-carbon_leki-usa_mountaineering-four-season_poles_all-season",
+    "price_usd": 279.95,
+    "weight_g": 544,
+    "weight_note": "per pair (272 g/pole), 110-130 cm",
+    "specs": {
+     "material": "carbon upper, aluminum lower",
+     "collapsed_length_in": 16.1,
+     "locking": "Speed Lock 2 Plus + ELD folding"
+    },
+    "confidence": "high",
+    "notes": "Current US name is Sherpa FX Carbon (formerly Sherpa FX Carbon Strong)."
+   }
+  },
+  {
+   "id": "leki-skytera-fx-one-sl",
+   "set": {
+    "weight_g": 316,
+    "weight_note": "per pair, 120 cm (158 g/pole); 105 cm 144 g/pole to 130 cm 167 g/pole",
+    "specs": {
+     "collapsed_length_in": 14.2,
+     "locking": "push-button (fixed length, folding)"
+    }
+   }
+  },
+  {
+   "id": "leki-skytera-lite",
+   "set": {
+    "specs": {
+     "collapsed_length_in": 26.4,
+     "locking": "Speed Lock Plus"
+    }
+   }
+  },
+  {
+   "id": "leki-journey-lite",
+   "set": {
+    "specs": {
+     "locking": "Speed Lock Plus"
+    }
+   }
+  },
+  {
+   "id": "leki-legend-black-carbon",
+   "set": {
+    "weight_note": "234 g per pole x2; sold as a SINGLE pole (price is per pole)",
+    "specs": {
+     "locking": "Speed Lock 2 Plus"
+    }
+   }
+  },
+  {
+   "id": "leki-neotrail-pro-fx-one-superlite",
+   "set": {
+    "weight_g": 240,
+    "weight_note": "per pair, 120 cm (120 g/pole)",
+    "specs": {
+     "collapsed_length_in": 15,
+     "locking": "push-button (fixed length, folding)"
+    },
+    "notes": "Pack size 33-38 cm depending on length."
+   }
+  },
+  {
+   "id": "leki-makalu-pro-fx-carbon",
+   "set": {
+    "specs": {
+     "locking": "Speed Lock 2 Plus AL + ELD folding"
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "leki-ultratrail-fx-one-superlite-120-cm",
+   "set": {
+    "price_usd": 249.95,
+    "weight_g": 278,
+    "weight_note": "per pair, 120 cm (139 g/pole)"
+   }
+  },
+  {
+   "id": "leki-cross-trail-fx-superlite",
+   "set": {
+    "weight_g": 372,
+    "weight_note": "per pair, 110-130 cm (186 g/pole)"
+   }
+  },
+  {
+   "id": "leki-legacy-lite",
+   "set": {
+    "price_usd": 109.95
+   }
+  },
+  {
+   "id": "gossamer-gear-ft3-folding-trekking-poles",
+   "set": {
+    "url": "https://www.gossamergear.com/products/ft3-folding-trekking-poles",
+    "weight_g": 356,
+    "weight_note": "per pair (178 g/pole without rubber boot); 369 g was the store shipping weight",
+    "specs": {
+     "collapsed_length_in": 15
+    },
+    "notes": "Adjusts 115-130 cm; folds to 38 cm."
+   }
+  },
+  {
+   "id": "helinox-passport-tl115",
+   "set": {
+    "weight_g": 320,
+    "weight_note": "per pair (160 g/pole)",
+    "specs": {
+     "collapsed_length_in": 14,
+     "locking": "tension cord + single push-button (fixed length, folding)"
+    }
+   }
+  },
+  {
+   "id": "helinox-passport-fl120",
+   "set": {
+    "discontinued": true,
+    "url": "https://helinox.com/products/passport-tl115-pair",
+    "notes": "Not on helinox.com US store (product 404, absent from store search, Oct 2026); only Passport TL115 listed."
+   }
+  },
+  {
+   "id": "helinox-passport-tl120",
+   "set": {
+    "discontinued": true,
+    "url": "https://helinox.com/products/passport-tl115-pair",
+    "notes": "Not on helinox.com US store (product 404, absent from store search, Oct 2026); only Passport TL115 listed."
+   }
+  },
+  {
+   "id": "cascade-mountain-tech-carbon-fiber-quick-lock",
+   "set": {
+    "url": "https://cascademountaintech.com/products/carbon-fiber-hiking-trekking-pole-cork-grip",
+    "price_usd": 64.99,
+    "weight_g": 459,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair (8.1 oz/pole without rubber tips)",
+    "specs": {
+     "locking": "Quick Lock lever"
+    },
+    "notes": null
+   }
+  },
+  {
+   "id": "cascade-mountain-tech-3k-carbon-fiber-quick-lock",
+   "set": {
+    "url": "https://cascademountaintech.com/products/3k-carbon-fiber-hiking-trekking-poles-cork-grip",
+    "price_usd": 74.99,
+    "weight_g": 454,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair (8 oz/pole without rubber tips)",
+    "specs": {
+     "locking": "Quick Lock lever"
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "cascade-mountain-tech-aircraft-aluminum-quick-lock",
+   "set": {
+    "url": "https://cascademountaintech.com/products/aluminum-hiking-trekking-poles-cork-grip",
+    "price_usd": 29.99,
+    "weight_g": 590,
+    "weight_note": "per pair (10.4 oz/pole), cork grip",
+    "specs": {
+     "locking": "Quick Lock lever",
+     "material": "6061 aluminum"
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "montem-ultra-light-100-carbon-fiber",
+   "set": {
+    "specs": {
+     "collapsed_length_in": 24
+    }
+   }
+  },
+  {
+   "id": "montem-ultra-strong-eva-grip",
+   "set": {
+    "url": "https://montemlife.com/products/ultra-strong-trekking-poles-pair",
+    "price_usd": 74.95,
+    "notes": "Montem spec: 19.2 oz/pair, 24-53 in."
+   }
+  },
+  {
+   "id": "montem-ultra-strong-cork-grip",
+   "set": {
+    "url": "https://montemlife.com/products/ultra-strong-cork-anti-shock-trekking-poles-pair",
+    "price_usd": 74.95,
+    "notes": "Current cork version is sold as Ultra Strong Cork Anti-Shock ($74.95). Reviewers measured 500-539 g."
+   }
+  },
+  {
+   "id": "foxelli-carbon-fiber",
+   "set": {
+    "url": "https://www.foxelli.com/products/carbon-fiber-trekking-poles-hog1",
+    "price_usd": 139.97,
+    "weight_g": 397,
+    "weight_note": "per pair (7 oz/pole)",
+    "specs": {
+     "collapsed_length_in": 24
+    },
+    "confidence": "high",
+    "notes": "Foxelli lists $139.97 regular price; commonly on sale at $69.97 (Oct 2026). Adjusts 24-55 in."
+   }
+  },
+  {
+   "id": "nitecore-nu20-classic",
+   "set": {
+    "price_usd": 24.95
+   }
+  },
+  {
+   "id": "nitecore-nu33",
+   "set": {
+    "price_usd": 49.95
+   }
+  },
+  {
+   "id": "nitecore-nu05-v2",
+   "set": {
+    "weight_note": "light only (11.1 g)",
+    "specs": {
+     "battery": "120 mAh built-in Li-ion",
+     "runtime_hr": 47
+    },
+    "notes": "Clip-on safety/signal light, not a full headlamp (explains low weight)."
+   }
+  },
+  {
+   "id": "nitecore-ha23-uhe",
+   "set": {
+    "price_usd": 29.95
+   }
+  },
+  {
+   "id": "nitecore-ut27-pro",
+   "set": {
+    "url": "https://nitecorestore.com/products/nitecore-ut27pro-rechargeable-running-headlamp",
+    "price_usd": 59.95,
+    "notes": "US price $59.95 includes an extra HLB1500 battery (Nitecore Store, Oct 2026). 2.61 oz incl. battery and headband."
+   }
+  },
+  {
+   "id": "nitecore-nu21",
+   "set": {
+    "weight_g": 44,
+    "weight_note": "with bracket and headband",
+    "specs": {
+     "runtime_hr": 37
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "nitecore-nu50",
+   "set": {
+    "price_usd": 64.95,
+    "weight_g": 146,
+    "weight_note": "with bracket and headband",
+    "specs": {
+     "battery": "5000 mAh built-in 21700 Li-ion",
+     "runtime_hr": 200
+    },
+    "confidence": "high",
+    "notes": "Nitecore spec: max runtime 200 h (US store copy says 180 h on ultralow)."
+   }
+  },
+  {
+   "id": "nitecore-tiki",
+   "set": {
+    "price_usd": 19.95,
+    "specs": {
+     "battery": "130 mAh built-in Li-ion",
+     "runtime_hr": 40
+    }
+   }
+  },
+  {
+   "id": "nitecore-tiki-le",
+   "set": {
+    "price_usd": 19.95,
+    "specs": {
+     "battery": "130 mAh built-in Li-ion",
+     "runtime_hr": 40
+    }
+   }
+  },
+  {
+   "id": "nitecore-tini-2",
+   "set": {
+    "url": "https://nitecorestore.com/products/nitecore-tini-2-rechargeable-keychain-flashlight",
+    "price_usd": 39.95,
+    "confidence": "high",
+    "notes": "Nitecore Store: 'weighing less than 1 oz'; $39.95 aluminum, $44.95 Ti/steel."
+   }
+  },
+  {
+   "id": "nitecore-nb10000-gen-3",
+   "set": {
+    "specs": {
+     "output_w": 22.5
+    }
+   }
+  },
+  {
+   "id": "nitecore-nb20000-gen-3",
+   "set": {
+    "url": "https://www.nitecore.com/product/nb20000gen3",
+    "price_usd": 99.95
+   }
+  },
+  {
+   "id": "nitecore-carbo-10000",
+   "set": {
+    "url": "https://nitecorestore.com/products/nitecore-carbo-10000-lightweight-qc-10000mah-power-bank",
+    "price_usd": 89.95
+   }
+  },
+  {
+   "id": "nitecore-carbo-20000",
+   "set": {
+    "url": "https://www.nitecore.com/product/carbo20000",
+    "price_usd": 119.95,
+    "weight_g": 296,
+    "weight_note": "295.5 g +/-5 g, accessories not included"
+   }
+  },
+  {
+   "id": "nitecore-nb-air",
+   "set": {
+    "url": "https://www.nitecore.com/product/nbair"
+   }
+  },
+  {
+   "id": "nitecore-summit-10000",
+   "set": {
+    "url": "https://www.nitecore.com/product/summit10000",
+    "price_usd": 119.95,
+    "weight_g": 175,
+    "weight_note": "175 g +/-5 g",
+    "specs": {
+     "output_w": 20
+    },
+    "confidence": "high",
+    "notes": "Cold-weather (-40C) power bank. US price per Nitecore Store, Oct 2026."
+   }
+  },
+  {
+   "id": "nitecore-ums2",
+   "set": {
+    "url": "https://www.nitecore.com/product/ums2",
+    "price_usd": 28.95
+   }
+  },
+  {
+   "id": "nitecore-ui2",
+   "set": {
+    "url": "https://www.nitecore.com/product/ui2",
+    "price_usd": 12.99,
+    "weight_g": 80,
+    "weight_note": "79.5 g",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "nitecore-nb10000-gen-2",
+   "set": {
+    "url": "https://nitecorestore.com/products/nitecore-nb10000-gen-2-qc-dual-port-10000mah-power-bank"
+   }
+  },
+  {
+   "id": "petzl-swift-lt",
+   "set": {
+    "url": "https://www.petzl.com/us/en/sport/products/multisport-headlamps/swift-lt/SWIFT-LT_SPO_a2mTx0000033s5NIAQ.html",
+    "price_usd": 54.95
+   }
+  },
+  {
+   "id": "petzl-actik",
+   "set": {
+    "url": "https://www.petzl.com/us/en/sport/products/multisport-headlamps/actik/ACTIK_SPO_a2mTx000000o0MbIAI.html",
+    "price_usd": 64.95,
+    "specs": {
+     "runtime_hr": 100
+    }
+   }
+  },
+  {
+   "id": "petzl-actik-core",
+   "set": {
+    "url": "https://www.petzl.com/us/en/sport/products/multisport-headlamps/actik-core/ACTIK-CORE_SPO_a2mTx000000o12YIAQ.html",
+    "price_usd": 87.95,
+    "weight_g": 88,
+    "weight_note": "with CORE battery",
+    "specs": {
+     "runtime_hr": 100
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "petzl-swift-rl",
+   "set": {
+    "url": "https://www.petzl.com/us/en/sport/products/multisport-headlamps/swift-rl/SWIFT-RL_SPO_a2mTx0000033ql7IAA.html",
+    "weight_g": 92,
+    "specs": {
+     "lumens": 1200,
+     "battery": "2250 mAh built-in Li-ion",
+     "runtime_hr": 100
+    }
+   }
+  },
+  {
+   "id": "petzl-tikka",
+   "set": {
+    "url": "https://www.petzl.com/us/en/sport/products/hiking-camping-headlamps/tikka/E061AB00_SPO_a2rTx00000003IrIAI.html",
+    "specs": {
+     "runtime_hr": 110
+    }
+   }
+  },
+  {
+   "id": "petzl-tikka-core",
+   "set": {
+    "url": "https://www.petzl.com/us/en/sport/products/hiking-camping-headlamps/tikka-core/TIKKA-CORE_SPO_a2mTx000000oV0bIAE.html",
+    "price_usd": 62.95,
+    "weight_g": 84,
+    "weight_note": "with CORE battery",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "petzl-tikkina",
+   "set": {
+    "url": "https://www.petzl.com/us/en/sport/products/hiking-camping-headlamps/tikkina/TIKKINA_SPO_a2mTx000000oAXGIA2.html",
+    "price_usd": 19.95,
+    "specs": {
+     "runtime_hr": 100
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "petzl-nao-rl",
+   "set": {
+    "url": "https://www.petzl.com/us/en/sport/products/running-headlamps/nao-rl/NAO-RL_SPO_a2m1r000002bkifAAA.html",
+    "specs": {
+     "runtime_hr": 80
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "petzl-iko",
+   "set": {
+    "discontinued": true,
+    "notes": "petzl.com/US IKO page now redirects to the headlamp category (Oct 2026); no longer in the US lineup."
+   }
+  },
+  {
+   "id": "petzl-iko-core",
+   "set": {
+    "discontinued": true,
+    "notes": "petzl.com/US IKO CORE page now redirects to the CORE battery page (Oct 2026); appears dropped from the US lineup."
+   }
+  },
+  {
+   "id": "black-diamond-spot-400",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/spot-400-headlamp",
+    "weight_g": 86,
+    "weight_note": "with 3x AAA (72 g with BD 1500)",
+    "specs": {
+     "runtime_hr": 200
+    }
+   }
+  },
+  {
+   "id": "black-diamond-spot-400-r",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/spot-400-r-rechargeable-headlamp",
+    "price_usd": 79.95,
+    "weight_g": 86,
+    "specs": {
+     "battery": "1500 mAh Li-ion (BD 1500)",
+     "runtime_hr": 225
+    },
+    "notes": "List 9.95 (on sale 7.97 Oct 2026); micro-USB charging."
+   }
+  },
+  {
+   "id": "black-diamond-storm-500-r",
+   "set": {
+    "discontinued": true,
+    "url": "https://www.blackdiamondequipment.com/products/storm-headlamp",
+    "notes": "Storm 500-R no longer in BD's US store (Oct 2026); replaced by the rechargeable Storm (550 lm, 102 g, 1800 mAh, $79.95)."
+   }
+  },
+  {
+   "id": "black-diamond-storm-plus",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/storm-plus-headlamp",
+    "specs": {
+     "battery": "2200 mAh serviceable Li-ion",
+     "runtime_hr": 80
+    }
+   }
+  },
+  {
+   "id": "black-diamond-astro-300",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/astro-300-headlamp",
+    "weight_g": 100,
+    "specs": {
+     "runtime_hr": 140
+    }
+   }
+  },
+  {
+   "id": "black-diamond-astro-300-r",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/astro-300-r-rechargeable-headlamp",
+    "weight_g": 100,
+    "specs": {
+     "battery": "1500 mAh Li-ion",
+     "runtime_hr": 140
+    }
+   }
+  },
+  {
+   "id": "black-diamond-cosmo-350",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/cosmo-350-headlamp",
+    "price_usd": 39.95,
+    "specs": {
+     "runtime_hr": 200
+    }
+   }
+  },
+  {
+   "id": "black-diamond-deploy-325",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/deploy-325-headlamp",
+    "weight_g": 48,
+    "specs": {
+     "battery": "680 mAh built-in Li-ion"
+    }
+   }
+  },
+  {
+   "id": "black-diamond-distance-lt-1100",
+   "set": {
+    "specs": {
+     "runtime_hr": 120
+    }
+   }
+  },
+  {
+   "id": "black-diamond-moji",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/moji-lantern",
+    "weight_g": 120,
+    "specs": {
+     "runtime_hr": 120
+    }
+   }
+  },
+  {
+   "id": "black-diamond-moji-plus",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/moji-plus-lantern",
+    "weight_g": 140,
+    "specs": {
+     "runtime_hr": 100
+    }
+   }
+  },
+  {
+   "id": "black-diamond-moji-r-plus",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/moji-r-rechargeable-lantern",
+    "weight_g": 170,
+    "specs": {
+     "runtime_hr": 16
+    }
+   }
+  },
+  {
+   "id": "fenix-hm50r-v2-0",
+   "set": {
+    "specs": {
+     "runtime_hr": 42
+    }
+   }
+  },
+  {
+   "id": "fenix-hm65r-t-v2-0",
+   "set": {
+    "specs": {
+     "runtime_hr": 300
+    }
+   }
+  },
+  {
+   "id": "fenix-hl18r-t-v2-0",
+   "set": {
+    "price_usd": 54.95
+   }
+  },
+  {
+   "id": "fenix-hm61r-v2-0",
+   "set": {
+    "url": "https://www.fenixlighting.com/products/fenix-hm61r-v2-rechargeable-headlamp",
+    "weight_g": 152,
+    "weight_note": "including battery and headband",
+    "specs": {
+     "runtime_hr": 300
+    },
+    "confidence": "high",
+    "notes": "Superseded by HM61R V3.0 (1800 lm, 168 g, $89.95); V2.0 still listed at $89.95 list."
+   }
+  },
+  {
+   "id": "fenix-hm23",
+   "set": {
+    "model": "HM23 V2.0",
+    "url": "https://www.fenixlighting.com/products/fenix-hm23-v2-aa-powered-headlamp",
+    "price_usd": 36.95,
+    "weight_g": 86,
+    "weight_note": "including AA battery",
+    "specs": {
+     "lumens": 300,
+     "runtime_hr": 100
+    },
+    "confidence": "high",
+    "notes": "Current version is HM23 V2.0 (300 lm, 86 g incl. battery)."
+   }
+  },
+  {
+   "id": "fenix-e03r-v2-0",
+   "set": {
+    "url": "https://www.fenixlighting.com/products/fenix-e03r-v2-keychain-flashlight",
+    "price_usd": 29.95,
+    "weight_g": 30,
+    "weight_note": "including battery",
+    "specs": {
+     "runtime_hr": 30
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "fenix-e12-v2-0",
+   "set": {
+    "discontinued": true,
+    "url": "https://www.fenixlighting.com/products/fenix-e12-v3-aa-powered-edc-flashlight",
+    "notes": "Replaced by E12 V3.0 (200 lm, 54 g incl. AA, 100 h, $29.95) on fenixlighting.com (Oct 2026)."
+   }
+  },
+  {
+   "id": "biolite-headlamp-800-pro",
+   "set": {
+    "url": "https://www.bioliteenergy.com/products/headlamp-800-pro",
+    "price_usd": 149.95,
+    "specs": {
+     "battery": "3000 mAh built-in Li-ion",
+     "runtime_hr": 150
+    }
+   }
+  },
+  {
+   "id": "biolite-headlamp-330",
+   "set": {
+    "discontinued": true,
+    "url": "https://www.bioliteenergy.com/products/headlamp-800-pro",
+    "notes": "HeadLamp 330 no longer on bioliteenergy.com (product 404, absent from store catalog, Oct 2026); BioLite's current headlamps are HeadLamp 800 Pro and Dash 450."
+   }
+  },
+  {
+   "id": "biolite-headlamp-425",
+   "set": {
+    "discontinued": true,
+    "url": "https://www.bioliteenergy.com/products/headlamp-800-pro",
+    "notes": "HeadLamp 425 no longer on bioliteenergy.com (product 404, absent from store catalog, Oct 2026)."
+   }
+  },
+  {
+   "id": "biolite-alpenglow-250",
+   "set": {
+    "url": "https://www.bioliteenergy.com/products/alpenglow-250",
+    "price_usd": 59.95,
+    "weight_g": 210,
+    "specs": {
+     "battery": "3200 mAh built-in Li-ion",
+     "runtime_hr": 200
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "biolite-charge-40-pd",
+   "set": {
+    "url": "https://www.bioliteenergy.com/products/charge-40-pd",
+    "price_usd": 69.95
+   }
+  },
+  {
+   "id": "biolite-charge-80-pd",
+   "set": {
+    "url": "https://www.bioliteenergy.com/products/charge-80-pd",
+    "price_usd": 99.95,
+    "weight_g": 465,
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "biolite-solarpanel-5-plus",
+   "set": {
+    "url": "https://www.bioliteenergy.com/products/solarpanel-5-plus",
+    "price_usd": 99.95
+   }
+  },
+  {
+   "id": "biolite-solarpanel-10-plus",
+   "set": {
+    "url": "https://www.bioliteenergy.com/products/solarpanel-10-plus",
+    "price_usd": 149.95,
+    "weight_g": 550,
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "goal-zero-crush-light",
+   "set": {
+    "url": "https://www.goalzero.com/products/crush-light",
+    "price_usd": 29.95,
+    "specs": {
+     "battery": "500 mAh built-in Li-po + solar"
+    }
+   }
+  },
+  {
+   "id": "goal-zero-crush-light-chroma",
+   "set": {
+    "url": "https://www.goalzero.com/products/crush-light-chroma",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "goal-zero-lighthouse-micro-flash",
+   "set": {
+    "url": "https://www.goalzero.com/products/lighthouse-micro-flash-usb-rechargeable-lantern",
+    "price_usd": 39.95,
+    "specs": {
+     "battery": "2600 mAh built-in Li-ion"
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "goal-zero-flip-12",
+   "set": {
+    "url": "https://www.goalzero.com/products/flip-12-power-bank",
+    "price_usd": 19.95,
+    "weight_g": 70,
+    "specs": {
+     "output_w": 5
+    }
+   }
+  },
+  {
+   "id": "goal-zero-flip-24",
+   "set": {
+    "url": "https://www.goalzero.com/products/flip-24-power-bank",
+    "price_usd": 29.95,
+    "weight_g": 130,
+    "specs": {
+     "output_w": 10.5
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "goal-zero-venture-35",
+   "set": {
+    "url": "https://www.goalzero.com/products/venture-35-power-bank",
+    "price_usd": 69.95,
+    "weight_g": 287,
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "goal-zero-nomad-5",
+   "set": {
+    "url": "https://www.goalzero.com/products/nomad-5-solar-panel"
+   }
+  },
+  {
+   "id": "goal-zero-nomad-10",
+   "set": {
+    "url": "https://www.goalzero.com/products/nomad-10-solar-panel",
+    "weight_g": 510,
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "rovyvon-aurora-a5-g4",
+   "set": {
+    "url": "https://www.rovyvon.com/products/aurora-a5-usb-c-gitd-keychain-flashlight-4th-generation",
+    "price_usd": 36.95,
+    "specs": {
+     "battery": "330 mAh built-in Li-po"
+    }
+   }
+  },
+  {
+   "id": "garmin-inreach-mini-3",
+   "set": {
+    "url": "https://www.garmin.com/en-US/p/1756401",
+    "specs": {
+     "battery_life": "up to 350 hr at 10-min tracking"
+    },
+    "notes": "Active inReach satellite subscription required for messaging, SOS and tracking. Mini 3 Plus (voice/photo) is $499.99."
+   }
+  },
+  {
+   "id": "garmin-gpsmap-67i",
+   "set": {
+    "url": "https://www.garmin.com/en-US/p/890109"
+   }
+  },
+  {
+   "id": "garmin-fenix-8-51mm-amoled-titanium",
+   "set": {
+    "url": "https://www.garmin.com/en-US/p/1228171"
+   }
+  },
+  {
+   "id": "garmin-forerunner-970",
+   "set": {
+    "url": "https://www.garmin.com/en-US/p/1462801"
+   }
+  },
+  {
+   "id": "garmin-forerunner-965",
+   "set": {
+    "url": "https://www.garmin.com/en-US/p/886725"
+   }
+  },
+  {
+   "id": "garmin-instinct-3-45mm-amoled",
+   "set": {
+    "url": "https://www.garmin.com/en-US/p/1316397",
+    "price_usd": 349.99
+   }
+  },
+  {
+   "id": "anker-nano-power-bank-10k-30w",
+   "set": {
+    "url": "https://www.anker.com/products/a1259-built-in-cable-power-bank-10000mah"
+   }
+  },
+  {
+   "id": "anker-313-powercore-slim-10k",
+   "set": {
+    "price_usd": 25.99
+   }
+  },
+  {
+   "id": "anker-zolo-10k",
+   "set": {
+    "url": "https://www.anker.com/products/a1688",
+    "price_usd": 29.99
+   }
+  },
+  {
+   "id": "anker-737-powercore-24k",
+   "set": {
+    "price_usd": 109.99,
+    "notes": "anker.com price Oct 2026 (previously $149.99)."
+   }
+  },
+  {
+   "id": "anker-622-maggo",
+   "set": {
+    "url": "https://www.anker.com/products/a1614",
+    "price_usd": 47.99
+   }
+  },
+  {
+   "id": "anker-nano-power-bank-5k",
+   "set": {
+    "url": "https://www.anker.com/products/a1653-usb-c-portable-charger-5000mah",
+    "price_usd": 29.99,
+    "weight_g": 100,
+    "specs": {
+     "output_w": 18
+    },
+    "confidence": "high",
+    "notes": "Anker lists it as 'Nano Power Bank (22.5W, Built-In USB-C Connector)' but spec table gives 18W max total output."
+   }
+  },
+  {
+   "id": "anker-511-nano-3-30w",
+   "set": {
+    "price_usd": 15.99
+   }
+  },
+  {
+   "id": "anker-511-nano-20w",
+   "set": {
+    "url": "https://www.anker.com/products/a2637-nano-20w-charger",
+    "price_usd": 11.99,
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "anker-735-nano-ii-65w",
+   "set": {
+    "url": "https://www.anker.com/products/a2667",
+    "price_usd": 29.99
+   }
+  },
+  {
+   "id": "ugreen-nexode-power-bank-20000-130w",
+   "set": {
+    "url": "https://us.ugreen.com/products/ugreen-nexode-power-bank-20000mah-130w",
+    "price_usd": 89.99
+   }
+  },
+  {
+   "id": "ugreen-nexode-65w-gan-charger",
+   "set": {
+    "url": "https://us.ugreen.com/products/65w-3-ports-gan-fast-charger",
+    "weight_g": 130,
+    "weight_note": "4.58 oz",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "zpacks-pack-liner-medium",
+   "set": {
+    "price_usd": 64.95,
+    "weight_g": 36,
+    "weight_note": "Zpacks store variant weight",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "zpacks-pack-liner-large",
+   "set": {
+    "price_usd": 69.95,
+    "weight_g": 38,
+    "weight_note": "Zpacks store variant weight",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "zpacks-shoulder-pouch",
+   "set": {
+    "specs": {
+     "volume_l": 1
+    }
+   }
+  },
+  {
+   "id": "zpacks-shoulder-pouch-w-zipper",
+   "set": {
+    "specs": {
+     "volume_l": 0.75
+    }
+   }
+  },
+  {
+   "id": "zpacks-belt-pouch",
+   "set": {
+    "specs": {
+     "volume_l": 1
+    }
+   }
+  },
+  {
+   "id": "zpacks-front-utility-pack",
+   "set": {
+    "specs": {
+     "volume_l": 1.7
+    }
+   }
+  },
+  {
+   "id": "six-moon-designs-packing-pod-7l",
+   "set": {
+    "price_usd": 15,
+    "weight_note": "per pod; sold as a 3-pack for $45"
+   }
+  },
+  {
+   "id": "adventure-medical-kits-ultralight-watertight-0-3",
+   "set": {
+    "url": "https://www.adventuremedicalkits.com/products/ultralight-watertight-medical-kit-3",
+    "weight_g": 74,
+    "weight_note": "2.6 oz per AMK"
+   }
+  },
+  {
+   "id": "adventure-medical-kits-ultralight-watertight-0-5",
+   "set": {
+    "url": "https://www.adventuremedicalkits.com/products/ultralight-watertight-medical-kit-5",
+    "weight_g": 102,
+    "weight_note": "3.6 oz per AMK"
+   }
+  },
+  {
+   "id": "adventure-medical-kits-ultralight-watertight-0-7",
+   "set": {
+    "url": "https://www.adventuremedicalkits.com/products/ultralight-watertight-medical-kit-7",
+    "weight_note": "5.8 oz per AMK"
+   }
+  },
+  {
+   "id": "adventure-medical-kits-ultralight-watertight-0-9",
+   "set": {
+    "url": "https://www.adventuremedicalkits.com/products/ultralight-watertight-medical-kit-9",
+    "weight_note": "AMK store listing weight; no stated weight in product copy"
+   }
+  },
+  {
+   "id": "adventure-medical-kits-ultralight-watertight-pro",
+   "set": {
+    "url": "https://www.adventuremedicalkits.com/products/ultralight-watertight-medical-kit-pro",
+    "weight_note": "AMK store listing weight (794 g, may include packaging); product copy gives no weight"
+   }
+  },
+  {
+   "id": "zpacks-1g-tick-remover",
+   "set": {
+    "weight_note": "Zpacks lists 0.04 oz / 1 g (genuinely ~1 g card-style tick remover)",
+    "url": "https://zpacks.com/products/zpacks-1g-tick-remover"
+   }
+  },
+  {
+   "id": "zpacks-trailbrush-with-5g-colgate-toothpaste",
+   "set": {
+    "weight_note": "Zpacks lists 0.07 oz / 2 g (brush; tiny 5 g toothpaste sample not reflected)",
+    "url": "https://zpacks.com/products/trailbrush-w-5g-colgate-toothpaste"
+   }
+  },
+  {
+   "id": "vargo-dig-dig-tool",
+   "set": {
+    "url": "https://vargooutdoors.com/products/dig-dig-tooltm",
+    "weight_g": 36,
+    "weight_note": "1.25 oz",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "sea-to-summit-mosquito-head-net",
+   "set": {
+    "url": "https://seatosummit.com/products/mosquito-head-net",
+    "price_usd": 16.95,
+    "weight_g": 24,
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "sea-to-summit-nano-mosquito-head-net",
+   "set": {
+    "discontinued": true,
+    "url": "https://seatosummit.com/products/ultra-fine-mesh-mosquito-head-net",
+    "notes": "Nano head net no longer in Sea to Summit's US store (Oct 2026); closest current model is the Ultra-Fine Mesh Mosquito Head Net (23 g, $17.95)."
+   }
+  },
+  {
+   "id": "sea-to-summit-pocket-trowel-aluminum",
+   "set": {
+    "discontinued": true,
+    "url": "https://seatosummit.com/products/pocket-trowel-nylon-66",
+    "notes": "Aluminum Pocket Trowel absent from Sea to Summit US store (Oct 2026); current Pocket Trowel is glass-filled nylon, 68 g, $16.95."
+   }
+  },
+  {
+   "id": "leatherman-micra",
+   "set": {
+    "url": "https://www.leatherman.com/products/micra",
+    "price_usd": 49.95,
+    "weight_note": "1.8 oz",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "leatherman-squirt-ps4",
+   "set": {
+    "discontinued": true,
+    "notes": "Not found on leatherman.com store/search (Oct 2026)."
+   }
+  },
+  {
+   "id": "leatherman-style-ps",
+   "set": {
+    "discontinued": true,
+    "notes": "Not found on leatherman.com store/search (Oct 2026); only spare tweezers for Style PS listed."
+   }
+  },
+  {
+   "id": "gerber-dime",
+   "set": {
+    "url": "https://www.gerbergear.com/products/dime-black-30-000469n",
+    "price_usd": 34.99,
+    "weight_g": 62,
+    "weight_note": "2.2 oz",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "gerber-paraframe-mini",
+   "set": {
+    "discontinued": true,
+    "notes": "Not on gerbergear.com (Oct 2026); only Paraframe I listed."
+   }
+  },
+  {
+   "id": "spyderco-ladybug-3",
+   "set": {
+    "url": "https://www.spyderco.com/products/ladybug®-3",
+    "price_usd": 70
+   }
+  },
+  {
+   "id": "opinel-no-06-stainless",
+   "set": {
+    "url": "https://www.opinel-usa.com/products/opinel-no-6-stainless-steel-folding-knife",
+    "price_usd": 19,
+    "weight_g": 34,
+    "weight_note": "1.2 oz",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "opinel-no-08-stainless",
+   "set": {
+    "url": "https://www.opinel-usa.com/products/no-8-opinel-stainless-steel-blade",
+    "price_usd": 23,
+    "weight_note": "1.6 oz",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "dr-bronner-s-pure-castile-liquid-soap-2-oz",
+   "set": {
+    "discontinued": true,
+    "url": "https://www.drbronner.com/products/peppermint-pure-castile-liquid-soap",
+    "notes": "2 oz size no longer sold on drbronner.com (Oct 2026); smallest is 3.4 oz ($4.69). 66 g = 2 fl oz soap + bottle, plausible."
+   }
+  },
+  {
+   "id": "kula-kula-cloth",
+   "set": {
+    "url": "https://www.kulacloth.com/products/tranquil-topo-kula-cloth-®-copy"
+   }
+  },
+  {
+   "id": "durston-dcf-repair-kit",
+   "set": {
+    "url": "https://durstongear.com/products/dcf-repair-kit"
+   }
+  },
+  {
+   "id": "gossamer-gear-lightrek-hiking-umbrella",
+   "set": {
+    "url": "https://www.gossamergear.com/products/liteflex-hiking-chrome-umbrella"
+   }
+  },
+  {
+   "id": "gossamer-gear-travel-umbrella",
+   "set": {
+    "url": "https://www.gossamergear.com/products/travel-umbrella"
+   }
+  },
+  {
+   "id": "zpacks-lotus-ul-umbrella",
+   "set": {
+    "url": "https://zpacks.com/products/lotus-umbrella"
+   }
+  },
+  {
+   "id": "gossamer-gear-sitlight",
+   "set": {
+    "url": "https://www.gossamergear.com/products/sitlight-camp-seat"
+   }
+  },
+  {
+   "id": "gossamer-gear-air-flow-sitlight",
+   "set": {
+    "url": "https://www.gossamergear.com/products/air-flow-sitlight-camp-seat"
+   }
+  },
+  {
+   "id": "gossamer-gear-little-sit-pads",
+   "set": {
+    "url": "https://www.gossamergear.com/products/little-sit-pads"
+   }
+  },
+  {
+   "id": "zpacks-foam-sit-pad",
+   "set": {
+    "url": "https://zpacks.com/products/foam-sit-pad"
+   }
+  },
+  {
+   "id": "therm-a-rest-z-seat",
+   "set": {
+    "url": "https://www.thermarest.com/products/z-seat",
+    "price_usd": 34.95,
+    "weight_g": 57,
+    "weight_note": "2 oz (standard)",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "big-agnes-twentymile-ul-hiking-seat",
+   "set": {
+    "url": "https://www.bigagnes.com/products/twentymile-ul-hiking-seat"
+   }
+  },
+  {
+   "id": "helinox-chair-one",
+   "set": {
+    "url": "https://helinox.com/products/chair-one",
+    "price_usd": 109.95,
+    "weight_g": 893,
+    "weight_note": "assembled 893 g; packed 965 g",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "gossamer-gear-polycryo-tent-footprint",
+   "set": {
+    "url": "https://www.gossamergear.com/products/polycryo-tent-footprint-ground-cloths",
+    "weight_g": 168,
+    "weight_note": "5.9 oz each, 72 x 96 in; material now PolyEarthylene biobased polyolefin",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "zpacks-bathtub-groundsheet",
+   "set": {
+    "url": "https://zpacks.com/products/bathtub-groundsheets"
+   }
+  },
+  {
+   "id": "zpacks-flat-groundsheet",
+   "set": {
+    "url": "https://zpacks.com/products/flat-groundsheet"
+   }
+  },
+  {
+   "id": "zpacks-nylo-pro-groundsheet-5-x-8",
+   "set": {
+    "url": "https://zpacks.com/products/nylo-pro-groundsheet"
+   }
+  },
+  {
+   "id": "zpacks-tyvek-groundsheet-5-x-9",
+   "set": {
+    "url": "https://zpacks.com/products/tyvek-groundsheet"
+   }
+  },
+  {
+   "id": "big-agnes-fly-creek-hv-ul1-bikepack-footprint",
+   "set": {
+    "url": "https://www.bigagnes.com/products/fly-creek-hv-ul1-bikepack-solution-dye-footprint",
+    "price_usd": 65,
+    "notes": "List $65 (on sale $55.25 Oct 2026)."
+   }
+  },
+  {
+   "id": "msr-groundhog-7-5-in",
+   "set": {
+    "url": "https://www.msrgear.com/products/groundhog-tent-stakes",
+    "weight_g": 14,
+    "weight_note": "13.95 g per stake (MSR)"
+   }
+  },
+  {
+   "id": "msr-mini-groundhog-6-in",
+   "set": {
+    "url": "https://www.msrgear.com/products/mini-groundhog-stakes"
+   }
+  },
+  {
+   "id": "msr-carbon-core",
+   "set": {
+    "url": "https://www.msrgear.com/products/carbon-core-tent-stakes"
+   }
+  },
+  {
+   "id": "zpacks-ultralight-titanium-tent-stake-6-in",
+   "set": {
+    "url": "https://zpacks.com/products/6-titanium-hook-stake-w-orange-head"
+   }
+  },
+  {
+   "id": "zpacks-red-tough-titanium-tent-stake-6-5-in",
+   "set": {
+    "url": "https://zpacks.com/products/6-5-titanium-hook-stake-w-red-head"
+   }
+  },
+  {
+   "id": "zpacks-sonic-stake-6-in",
+   "set": {
+    "url": "https://zpacks.com/products/6-blue-sonic-stake"
+   }
+  },
+  {
+   "id": "zpacks-super-sonic-stake-7-in",
+   "set": {
+    "url": "https://zpacks.com/products/7-blue-super-sonic-stake"
+   }
+  },
+  {
+   "id": "zpacks-carbon-fiber-tent-stake-6-4-in",
+   "set": {
+    "url": "https://zpacks.com/products/carbon-fiber-stake"
+   }
+  },
+  {
+   "id": "zpacks-aluminum-platform-anchor-stake",
+   "set": {
+    "url": "https://zpacks.com/products/aluminum-tent-platform-anchor"
+   }
+  },
+  {
+   "id": "pachallama-2g-carbon-pin-tent-stake-6-in",
+   "set": {
+    "url": "https://zpacks.com/products/pachallama-2g-carbon-pin-tent-stake"
+   }
+  },
+  {
+   "id": "dac-mini-j-stake",
+   "set": {
+    "url": "https://www.gossamergear.com/products/dac-stakes"
+   }
+  },
+  {
+   "id": "zpacks-ultralight-titanium-whistle",
+   "set": {
+    "url": "https://zpacks.com/products/ultralight-titanium-whistle"
+   }
+  },
+  {
+   "id": "silva-pocket-compass-thermometer",
+   "set": {
+    "url": "https://zpacks.com/products/silva-pocket-compass"
+   }
+  },
+  {
+   "id": "zpacks-tri-fold-minimalist-wallet",
+   "set": {
+    "url": "https://zpacks.com/products/tri-fold-minimalist-wallet"
+   }
+  },
+  {
+   "id": "zpacks-ultralight-electronics-case",
+   "set": {
+    "url": "https://zpacks.com/products/ultralight-electronics-case-tech-organizer"
+   }
+  },
+  {
+   "id": "toaks-titanium-v-shaped-peg-6-3-in",
+   "set": {
+    "url": "https://www.gossamergear.com/products/tite-lite-ul-tent-stakes"
+   }
+  },
+  {
+   "id": "durston-x-mid-1-groundsheet",
+   "set": {
+    "url": "https://durstongear.com/products/x-mid-x-dome-tent-groundsheets",
+    "weight_g": 105,
+    "weight_note": "3.7 oz",
+    "confidence": "high",
+    "notes": null
+   }
+  },
+  {
+   "id": "durston-x-mid-2-groundsheet",
+   "set": {
+    "url": "https://durstongear.com/products/x-mid-x-dome-tent-groundsheets",
+    "weight_g": 146,
+    "weight_note": "5.1 oz",
+    "confidence": "high",
+    "notes": null
+   }
+  },
+  {
+   "id": "vargo-titanium-nail-peg",
+   "set": {
+    "url": "https://vargooutdoors.com/products/titanium-nail-peg-ultralight",
+    "price_usd": 3.75,
+    "weight_note": "Ultralight nail peg, 0.3 oz / 8 g, 6 in",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "lawson-equipment-glowire-reflective-guyline-50-ft",
+   "set": {
+    "url": "https://lawsonequipment.com/products/reflective-glowire",
+    "price_usd": 20
+   }
+  },
+  {
+   "id": "lawson-equipment-ironwire-guyline-50-ft",
+   "set": {
+    "url": "https://lawsonequipment.com/products/ironwire-high-strength-accessory-cord",
+    "price_usd": 20
+   }
+  },
+  {
+   "id": "ledlenser-hf4r-core",
+   "set": {
+    "url": "https://www.ledlenserusa.com/products/hf4rcore",
+    "price_usd": 49.95,
+    "weight_g": 72,
+    "specs": {
+     "battery": "1000 mAh built-in Li-ion"
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "ledlenser-mh7",
+   "set": {
+    "url": "https://www.ledlenserusa.com/products/mh7-2",
+    "weight_g": 139,
+    "specs": {
+     "battery": "1550 mAh Li-ion (AA compatible)",
+     "runtime_hr": 40
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "ledlenser-mh5",
+   "set": {
+    "discontinued": true,
+    "notes": "MH5 not listed on ledlenserusa.com (Oct 2026); MH7/H5R Core are the current equivalents."
+   }
+  },
+  {
+   "id": "ledlenser-mh3",
+   "set": {
+    "discontinued": true,
+    "notes": "MH3 not listed on ledlenserusa.com (Oct 2026)."
+   }
+  }
+ ],
+ "additions": [],
+ "removals": []
+}
