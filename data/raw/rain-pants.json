@@ -1,0 +1,1217 @@
+[
+  {
+    "id": "zpacks-vertice-rain-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Zpacks",
+    "model": "Vertice Rain Pants",
+    "variant": "Men's",
+    "weight_g": 85,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 149,
+    "specs": {
+      "material": "Vertice 3L 7D nylon"
+    },
+    "url": "https://zpacks.com/products/vertice-rain-pants",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-vertice-rain-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Zpacks",
+    "model": "Vertice Rain Pants",
+    "variant": "Women's",
+    "weight_g": 70,
+    "weight_basis": "manufacturer",
+    "weight_note": "women's M",
+    "price_usd": 149,
+    "specs": {
+      "material": "Vertice 3L 7D nylon"
+    },
+    "url": "https://zpacks.com/collections/rain-gear",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "outdoor-research-helium-rain-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Outdoor Research",
+    "model": "Helium Rain Pants",
+    "variant": "Men's",
+    "weight_g": 150,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M (REI lists 11.3 oz, likely different spec)",
+    "price_usd": 130,
+    "specs": {
+      "material": "Pertex Shield 2.5L"
+    },
+    "url": "https://www.gearx.com/products/outdoor-research-helium-rain-pants-m-h4yqz",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "outdoor-research-helium-rain-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Outdoor Research",
+    "model": "Helium Rain Pants",
+    "variant": "Women's",
+    "weight_g": 133,
+    "weight_basis": "manufacturer",
+    "weight_note": "women's M",
+    "price_usd": 130,
+    "specs": {
+      "material": "Pertex Shield 2.5L"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "outdoor-research-foray-3l-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Outdoor Research",
+    "model": "Foray 3L Pants",
+    "variant": "Men's",
+    "weight_g": 385,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 199,
+    "specs": {
+      "material": "AscentShell Dry 3L",
+      "side_zips": "full"
+    },
+    "url": "https://www.campsaver.com/v/3220890014242-outdoor-research-foray-3l-pants.html",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "montbell-versalite-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Montbell",
+    "model": "Versalite Pants",
+    "variant": "Men's",
+    "weight_g": 98,
+    "weight_basis": "measured",
+    "weight_note": "retailer-measured, size not stated (3.7 oz in XL)",
+    "price_usd": null,
+    "specs": {
+      "material": "GORE-TEX Windstopper 2L 10D",
+      "waterproof_rating_mm": 30000
+    },
+    "url": "https://www.montbell.co.uk/products/mens-versalite-pants-black",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UK £140; US price not confirmed."
+  },
+  {
+    "id": "montbell-versalite-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Montbell",
+    "model": "Versalite Pants",
+    "variant": "Women's",
+    "weight_g": 82,
+    "weight_basis": "estimate",
+    "weight_note": "2.9 oz (women's) per Switchback Travel (men's 3.2 oz)",
+    "price_usd": 145,
+    "specs": {
+      "material": "GORE-TEX Windstopper 2L 10D"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "montbell-storm-cruiser-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Montbell",
+    "model": "Storm Cruiser Pants",
+    "variant": "Men's",
+    "weight_g": 207,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M (218 g with stuff sack)",
+    "price_usd": null,
+    "specs": {
+      "material": "DRY-TEC / GORE-TEX C-KNIT 3L"
+    },
+    "url": "https://www.montbell.co.uk/products/mens-dry-tec-rain-pants-black",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Listed in UK as DRY-TEC Rain Pants, £145."
+  },
+  {
+    "id": "montbell-thunder-pass-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Montbell",
+    "model": "Thunder Pass Pants",
+    "variant": "Men's",
+    "weight_g": 229,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell UK listed weight",
+    "price_usd": 109,
+    "specs": {
+      "material": "DRY-TEC 2.5L"
+    },
+    "url": "https://www.montbell.co.uk/products/mens-thunder-pass-pants-black",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "USD list price from Montbell America (montbell.com/us/en/products/detail/2328335, non-outlet), checked 2026-10-23."
+  },
+  {
+    "id": "patagonia-torrentshell-3l-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Patagonia",
+    "model": "Torrentshell 3L Pants",
+    "variant": "Men's",
+    "weight_g": 320,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M regular",
+    "price_usd": 129,
+    "specs": {
+      "material": "H2No 3L recycled nylon"
+    },
+    "url": "https://goodsports.com/products/patagonia-torrentshell-3l-pant-men",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "patagonia-torrentshell-3l-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Patagonia",
+    "model": "Torrentshell 3L Pants",
+    "variant": "Women's",
+    "weight_g": 309,
+    "weight_basis": "manufacturer",
+    "weight_note": "Patagonia spec 309 g (10.9 oz)",
+    "price_usd": 129,
+    "specs": {
+      "material": "H2No 3L recycled nylon"
+    },
+    "url": "https://www.campmor.com/products/patagonia-womens-torrentshell-3l-pants-regular",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+  },
+  {
+    "id": "patagonia-granite-crest-rain-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Patagonia",
+    "model": "Granite Crest Rain Pants",
+    "variant": "Men's",
+    "weight_g": 264,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 229,
+    "specs": {
+      "material": "H2No Performance Standard 3L"
+    },
+    "url": "https://goodsports.com/products/patagonia-granite-crest-rain-pants-mens",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "patagonia-alpine-houdini-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Patagonia",
+    "model": "Alpine Houdini Pants",
+    "variant": "Men's",
+    "weight_g": 153,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 129,
+    "specs": {
+      "material": "H2No 3L"
+    },
+    "url": "https://www.trailspace.com/gear/patagonia/alpine-houdini-pants/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "enlightened-equipment-visp-rain-pants",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Enlightened Equipment",
+    "model": "Visp Rain Pants",
+    "variant": "Unisex",
+    "weight_g": 108,
+    "weight_basis": "manufacturer",
+    "weight_note": "base configuration",
+    "price_usd": null,
+    "specs": {
+      "material": "3L nylon",
+      "waterproof_rating_mm": 20000,
+      "breathability": "MVTR 75,000 g/m²/24h"
+    },
+    "url": "https://enlightenedequipment.com/visp-rain-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Price not confirmed."
+  },
+  {
+    "id": "marmot-precip-eco-full-zip-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Marmot",
+    "model": "PreCip Eco Full-Zip Pants",
+    "variant": "Men's",
+    "weight_g": 320,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 120,
+    "specs": {
+      "material": "NanoPro 2.5L",
+      "side_zips": "full"
+    },
+    "url": "https://www.campmor.com/products/marmot-mens-precip-eco-full-zip-pant",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "marmot-precip-eco-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Marmot",
+    "model": "PreCip Eco Pants",
+    "variant": "Men's",
+    "weight_g": 255,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 80,
+    "specs": {
+      "material": "NanoPro 2.5L"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "marmot-precip-eco-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Marmot",
+    "model": "PreCip Eco Pants",
+    "variant": "Women's",
+    "weight_g": 225,
+    "weight_basis": "manufacturer",
+    "weight_note": "women's M",
+    "price_usd": 80,
+    "specs": {
+      "material": "NanoPro 2.5L"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "rei-co-op-rainier-full-zip-rain-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "REI Co-op",
+    "model": "Rainier Full-Zip Rain Pants",
+    "variant": "Men's",
+    "weight_g": 357,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's (Tall sizes listing)",
+    "price_usd": 99.95,
+    "specs": {
+      "material": "HydroWall 2.5L",
+      "side_zips": "full"
+    },
+    "url": "https://rei.com/product/127340",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "Full-zip tall version discontinued."
+  },
+  {
+    "id": "rei-co-op-rainier-rain-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "REI Co-op",
+    "model": "Rainier Rain Pants",
+    "variant": "Men's",
+    "weight_g": 301,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 99.95,
+    "specs": {
+      "material": "HydroWall 2.5L"
+    },
+    "url": "https://www.rei.com/product/227731",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "rei-co-op-rainier-rain-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "REI Co-op",
+    "model": "Rainier Rain Pants",
+    "variant": "Women's",
+    "weight_g": 272,
+    "weight_basis": "manufacturer",
+    "weight_note": "women's M",
+    "price_usd": 99.95,
+    "specs": {
+      "material": "HydroWall 2.5L"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "black-diamond-stormline-stretch-full-zip-rain-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Black Diamond",
+    "model": "StormLine Stretch Full Zip Rain Pants",
+    "variant": "Men's",
+    "weight_g": 277,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 155,
+    "specs": {
+      "material": "BD.dry 2.5L stretch",
+      "waterproof_rating_mm": 10000,
+      "breathability": "10,000 g/m²/24h",
+      "side_zips": "full"
+    },
+    "url": "https://www.blackdiamondequipment.com/en_US/product/stormline-stretch-full-zip-rain-pants/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "black-diamond-stormline-stretch-full-zip-rain-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Black Diamond",
+    "model": "StormLine Stretch Full Zip Rain Pants",
+    "variant": "Women's",
+    "weight_g": 240,
+    "weight_basis": "manufacturer",
+    "weight_note": "women's M, approximate",
+    "price_usd": 155,
+    "specs": {
+      "material": "BD.dry 2.5L stretch",
+      "waterproof_rating_mm": 10000,
+      "side_zips": "full"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "black-diamond-fineline-stretch-full-zip-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Black Diamond",
+    "model": "FineLine Stretch Full Zip Pants",
+    "variant": "Men's",
+    "weight_g": 217,
+    "weight_basis": "estimate",
+    "weight_note": "BD spec, lightest listed (217/227/277 g across sizes)",
+    "price_usd": 179,
+    "specs": {
+      "material": "BD.dry 2L stretch",
+      "side_zips": "full"
+    },
+    "url": "https://www.blackdiamondequipment.com/products/mens-fineline-stretch-full-zip-pants",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "arcteryx-beta-pant-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Arc'teryx",
+    "model": "Beta Pant",
+    "variant": "Men's",
+    "weight_g": 330,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M regular",
+    "price_usd": 300,
+    "specs": {
+      "material": "GORE-TEX ePE 3L 80D C-KNIT",
+      "side_zips": "full"
+    },
+    "url": "https://www.rei.com/product/243258",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "arcteryx-beta-ar-pant-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Arc'teryx",
+    "model": "Beta AR Pant",
+    "variant": "Men's",
+    "weight_g": 515,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 500,
+    "specs": {
+      "material": "GORE-TEX Pro ePE 3L",
+      "side_zips": "full"
+    },
+    "url": "https://whittakermountaineering.com/products/mens-beta-ar-pant",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "arcteryx-zeta-sl-pant-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Arc'teryx",
+    "model": "Zeta SL Pant",
+    "variant": "Men's",
+    "weight_g": 230,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 199,
+    "specs": {
+      "material": "GORE-TEX Paclite Plus 2L"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "rab-downpour-eco-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Rab",
+    "model": "Downpour Eco Pants",
+    "variant": "Men's",
+    "weight_g": 225,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 105,
+    "specs": {
+      "material": "Pertex Shield 2.5L recycled"
+    },
+    "url": "https://skiisandbiikes.com/products/rab-downpour-eco-mens-pant-2023",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "rab-downpour-eco-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Rab",
+    "model": "Downpour Eco Pants",
+    "variant": "Women's",
+    "weight_g": 240,
+    "weight_basis": "estimate",
+    "weight_note": "Rab spec 8.4 oz / 239.5 g",
+    "price_usd": 110,
+    "specs": {
+      "material": "Pertex Shield 2.5L recycled"
+    },
+    "url": "https://rab.equipment/us/womens-downpour-waterproof-pants",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Now sold as 'Downpour Waterproof Pants'."
+  },
+  {
+    "id": "rab-kinetic-2-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Rab",
+    "model": "Kinetic 2.0 Pants",
+    "variant": "Men's",
+    "weight_g": 270,
+    "weight_basis": "manufacturer",
+    "weight_note": "Rab listed 10 oz / 270 g",
+    "price_usd": 240,
+    "specs": {
+      "material": "Proflex 3L stretch"
+    },
+    "url": "https://rab.equipment/us/kinetic-2-0-pants",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "frogg-toggs-ultra-lite2-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Frogg Toggs",
+    "model": "Ultra-Lite2 Pants",
+    "variant": "Men's",
+    "weight_g": 193,
+    "weight_basis": "estimate",
+    "weight_note": "men's M; suit 12.8 oz (363 g) minus jacket estimate",
+    "price_usd": 15,
+    "specs": {
+      "material": "polypropylene non-woven"
+    },
+    "url": "https://www.froggtoggs.com/the-frogg-toggsr-ultra-lite2tm-4749",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Usually sold as a jacket+pants suit (~$30)."
+  },
+  {
+    "id": "mountain-hardwear-threshold-pant-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Mountain Hardwear",
+    "model": "Threshold Pant",
+    "variant": "Men's",
+    "weight_g": 312,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 150,
+    "specs": {
+      "material": "3L 75D recycled nylon"
+    },
+    "url": "https://www.backcountry.com/mountain-hardwear-threshold-pant-mens",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "mountain-hardwear-exposure-2-gtx-paclite-pant-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Mountain Hardwear",
+    "model": "Exposure/2 GORE-TEX Paclite Pant",
+    "variant": "Men's",
+    "weight_g": 269,
+    "weight_basis": "estimate",
+    "weight_note": "men's M, approximate",
+    "price_usd": 250,
+    "specs": {
+      "material": "GORE-TEX Paclite 2L"
+    },
+    "url": "https://v12outdoor.com/products/mens-exposure-2-gtx-paclite-pant",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "montane-minimus-lite-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Montane",
+    "model": "Minimus Lite Waterproof Pants",
+    "variant": "Men's",
+    "weight_g": 155,
+    "weight_basis": "estimate",
+    "weight_note": "men's M, approximate",
+    "price_usd": null,
+    "specs": {
+      "material": "Pertex Shield 2.5L"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "marmot-minimalist-gtx-pant-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Marmot",
+    "model": "Minimalist GORE-TEX Pant",
+    "variant": "Men's",
+    "weight_g": 369,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 200,
+    "specs": {
+      "material": "GORE-TEX Paclite"
+    },
+    "url": null,
+    "discontinued": true,
+    "confidence": "low",
+    "notes": "Retail now carries 'Minimalist Pertex' pants; GORE-TEX version appears discontinued."
+  },
+  {
+    "id": "columbia-rebel-roamer-rain-pant-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Columbia",
+    "model": "Rebel Roamer Rain Pant",
+    "variant": "Men's",
+    "weight_g": 312,
+    "weight_basis": "estimate",
+    "weight_note": "men's M, approximate",
+    "price_usd": 70,
+    "specs": {
+      "material": "Omni-Tech 2L"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "rei-co-op-trailmade-rain-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "REI Co-op",
+    "model": "Trailmade Rain Pants",
+    "variant": "Men's",
+    "weight_g": 221,
+    "weight_basis": "manufacturer",
+    "weight_note": "7.8 oz per Switchback Travel (women's 8.9 oz)",
+    "price_usd": 70,
+    "specs": {
+      "material": "polyester 2.5L"
+    },
+    "url": "https://www.rei.com/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "montbell-thunder-pass-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Montbell",
+    "model": "Thunder Pass Pants",
+    "variant": "Women's",
+    "weight_g": 214,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell UK listed weight",
+    "price_usd": null,
+    "specs": {
+      "material": "3-layer DRY-TEC",
+      "pit_zips": false
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2328336",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2328336; knee-height cuff zips"
+  },
+  {
+    "id": "montbell-dry-tec-rain-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Montbell",
+    "model": "DRY-TEC Rain Pants",
+    "variant": "Men's",
+    "weight_g": 207,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell UK listed weight",
+    "price_usd": null,
+    "specs": {
+      "material": "DRY-TEC 3-layer"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2328323",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2328323"
+  },
+  {
+    "id": "montbell-dry-tec-rain-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Montbell",
+    "model": "DRY-TEC Rain Pants",
+    "variant": "Women's",
+    "weight_g": 191,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell UK listed weight",
+    "price_usd": null,
+    "specs": {
+      "material": "DRY-TEC 3-layer"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2328324",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2328324"
+  },
+  {
+    "id": "montbell-dry-tec-ul-rain-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Montbell",
+    "model": "DRY-TEC U.L. Rain Pants",
+    "variant": "Men's",
+    "weight_g": 129,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell UK listed weight",
+    "price_usd": null,
+    "specs": {
+      "material": "DRY-TEC 3-layer ultralight"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2328331",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2328331"
+  },
+  {
+    "id": "montbell-dry-tec-ul-rain-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Montbell",
+    "model": "DRY-TEC U.L. Rain Pants",
+    "variant": "Women's",
+    "weight_g": 118,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell UK listed weight",
+    "price_usd": null,
+    "specs": {
+      "material": "DRY-TEC 3-layer ultralight"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2328332",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2328332"
+  },
+  {
+    "id": "montbell-gore-tex-rain-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Montbell",
+    "model": "GORE-TEX Rain Pants",
+    "variant": "Men's",
+    "weight_g": 191,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell UK listed weight",
+    "price_usd": null,
+    "specs": {
+      "material": "GORE-TEX 3-layer"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2328315",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2328315; may be the current-generation successor to Storm Cruiser Pants"
+  },
+  {
+    "id": "montbell-gore-tex-rain-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Montbell",
+    "model": "GORE-TEX Rain Pants",
+    "variant": "Women's",
+    "weight_g": 174,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell UK listed weight",
+    "price_usd": null,
+    "specs": {
+      "material": "GORE-TEX 3-layer"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2328316",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2328316"
+  },
+  {
+    "id": "black-diamond-highline-stretch-rain-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Black Diamond",
+    "model": "Highline Stretch Rain Pants",
+    "variant": "Men's",
+    "weight_g": 530,
+    "weight_basis": "manufacturer",
+    "weight_note": "BD spec weight (size not stated)",
+    "price_usd": 399,
+    "specs": {
+      "material": "BD.dry 3-layer stretch",
+      "pit_zips": false
+    },
+    "url": "https://www.blackdiamondequipment.com/products/mens-highline-stretch-rain-pants",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "3/4-length side zips"
+  },
+  {
+    "id": "black-diamond-highline-stretch-rain-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Black Diamond",
+    "model": "Highline Stretch Rain Pants",
+    "variant": "Women's",
+    "weight_g": 442,
+    "weight_basis": "manufacturer",
+    "weight_note": "BD spec weight (size not stated)",
+    "price_usd": 399,
+    "specs": {
+      "material": "BD.dry 3-layer stretch"
+    },
+    "url": "https://www.blackdiamondequipment.com/products/womens-highline-stretch-rain-pants",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "3/4-length side zips"
+  },
+  {
+    "id": "black-diamond-fineline-stretch-full-zip-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Black Diamond",
+    "model": "Fineline Stretch Full Zip Pants",
+    "variant": "Women's",
+    "weight_g": 215,
+    "weight_basis": "manufacturer",
+    "weight_note": "BD spec weight (listed 210-220 g across sizes)",
+    "price_usd": 179,
+    "specs": {
+      "material": "BD.dry 2.5-layer stretch"
+    },
+    "url": "https://www.blackdiamondequipment.com/products/womens-fineline-stretch-full-zip-pants",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Full-length side zips"
+  },
+  {
+    "id": "rab-phantom-waterproof-pants",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Rab",
+    "model": "Phantom Waterproof Pants",
+    "variant": null,
+    "weight_g": 84,
+    "weight_basis": "manufacturer",
+    "weight_note": "Rab listed 3 oz / 84 g",
+    "price_usd": 170,
+    "specs": {
+      "material": "Pertex Shield 2.5L"
+    },
+    "url": "https://rab.equipment/us/phantom-waterproof-pants",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Ultralight emergency rain pant"
+  },
+  {
+    "id": "rab-firewall-waterproof-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Rab",
+    "model": "Firewall Waterproof Pants",
+    "variant": "Men's",
+    "weight_g": 326,
+    "weight_basis": "manufacturer",
+    "weight_note": "Rab listed 11.5 oz / 325.5 g",
+    "price_usd": 180,
+    "specs": {
+      "material": "Pertex Shield 3L"
+    },
+    "url": "https://rab.equipment/us/mens-firewall-waterproof-pants",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "rab-firewall-waterproof-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Rab",
+    "model": "Firewall Waterproof Pants",
+    "variant": "Women's",
+    "weight_g": 306,
+    "weight_basis": "manufacturer",
+    "weight_note": "Rab listed 10.8 oz / 305.5 g",
+    "price_usd": 180,
+    "specs": {
+      "material": "Pertex Shield 3L"
+    },
+    "url": "https://rab.equipment/us/womens-firewall-waterproof-pants",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "rab-namche-hike-gore-tex-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Rab",
+    "model": "Namche Hike GORE-TEX Pants",
+    "variant": "Men's",
+    "weight_g": 296,
+    "weight_basis": "manufacturer",
+    "weight_note": "Rab listed 10.4 oz / 296 g",
+    "price_usd": 275,
+    "specs": {
+      "material": "GORE-TEX"
+    },
+    "url": "https://rab.equipment/us/mens-namche-hike-gore-tex-pants",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "rab-namche-hike-gore-tex-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Rab",
+    "model": "Namche Hike GORE-TEX Pants",
+    "variant": "Women's",
+    "weight_g": 290,
+    "weight_basis": "manufacturer",
+    "weight_note": "Rab listed 10.2 oz / 290 g",
+    "price_usd": 275,
+    "specs": {
+      "material": "GORE-TEX"
+    },
+    "url": "https://rab.equipment/us/womens-namche-hike-gore-tex-pants",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "rab-kinetic-2-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Rab",
+    "model": "Kinetic 2.0 Waterproof Pants",
+    "variant": "Women's",
+    "weight_g": 237,
+    "weight_basis": "manufacturer",
+    "weight_note": "Rab listed 8 oz / 237 g",
+    "price_usd": 240,
+    "specs": {
+      "material": "Proflex stretch waterproof"
+    },
+    "url": "https://rab.equipment/us/women-s-kinetic-2-0-pants",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "outdoor-research-helium-ul-pant-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Outdoor Research",
+    "model": "Helium UL Pant",
+    "variant": "Men's",
+    "weight_g": 163,
+    "weight_basis": "manufacturer",
+    "weight_note": "OR listed 5.75 oz / 163 g",
+    "price_usd": 170,
+    "specs": {
+      "material": "Toray Dermizax 2.75L 15D nylon ripstop"
+    },
+    "url": "https://www.outdoorresearch.com/products/mens-helium-ul-pant-322685",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "outdoor-research-helium-ul-pant-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Outdoor Research",
+    "model": "Helium UL Pant",
+    "variant": "Women's",
+    "weight_g": 164,
+    "weight_basis": "manufacturer",
+    "weight_note": "OR listed 5.8 oz / 164 g",
+    "price_usd": 170,
+    "specs": {
+      "material": "Toray Dermizax 2.75L 15D nylon ripstop"
+    },
+    "url": "https://www.outdoorresearch.com/products/womens-helium-ul-pant-322687",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "outdoor-research-stratoburst-stretch-rain-pant-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Outdoor Research",
+    "model": "Stratoburst Stretch Rain Pant",
+    "variant": "Men's",
+    "weight_g": 269,
+    "weight_basis": "manufacturer",
+    "weight_note": "OR listed 9.5 oz / 269 g",
+    "price_usd": 140,
+    "specs": {
+      "material": "2.5-layer recycled stretch"
+    },
+    "url": "https://www.outdoorresearch.com/products/mens-stratoburst-stretch-rain-pants-300895",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "outdoor-research-stratoburst-stretch-rain-pant-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Outdoor Research",
+    "model": "Stratoburst Stretch Rain Pant",
+    "variant": "Women's",
+    "weight_g": 264,
+    "weight_basis": "manufacturer",
+    "weight_note": "OR listed 9.3 oz / 264 g",
+    "price_usd": 140,
+    "specs": {
+      "material": "2.5-layer recycled stretch"
+    },
+    "url": "https://www.outdoorresearch.com/products/womens-stratoburst-stretch-rain-pants-300896",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "outdoor-research-aspire-3l-rain-pant-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Outdoor Research",
+    "model": "Aspire 3L Rain Pant",
+    "variant": "Women's",
+    "weight_g": 375,
+    "weight_basis": "manufacturer",
+    "weight_note": "OR listed 13.23 oz / 375 g",
+    "price_usd": 210,
+    "specs": {
+      "material": "3-layer AscentShell-type waterproof"
+    },
+    "url": "https://www.outdoorresearch.com/products/womens-aspire-3l-pants-322109",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Women's counterpart to Foray 3L Pant"
+  },
+  {
+    "id": "decathlon-quechua-nh500-waterproof-over-pants-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Decathlon",
+    "model": "Quechua NH500 Waterproof Over Pants",
+    "variant": "Men's",
+    "weight_g": 200,
+    "weight_basis": "manufacturer",
+    "weight_note": "size L, Decathlon-listed 7 oz / 200 g",
+    "price_usd": 34.99,
+    "specs": {
+      "material": "coated, 5000 mm",
+      "waterproof_rating_mm": 5000
+    },
+    "url": "https://www.decathlon.com/products/mens-waterproof-hiking-over-pants-nh500-imper-345947",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Ankle zips; taped main seams"
+  },
+  {
+    "id": "decathlon-quechua-raincut-waterproof-over-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Decathlon",
+    "model": "Quechua Raincut Waterproof Over-Pants",
+    "variant": "Women's",
+    "weight_g": 165,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Decathlon-listed 5.8 oz / 165 g",
+    "price_usd": 34.99,
+    "specs": {
+      "material": "coated, 5000 mm",
+      "waterproof_rating_mm": 5000
+    },
+    "url": "https://www.decathlon.com/products/quechua-womens-raincut-waterproof-over-pants-193191",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Packs into own pocket"
+  },
+  {
+    "id": "showers-pass-timberline-pant-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Showers Pass",
+    "model": "Timberline Pant",
+    "variant": "Men's",
+    "weight_g": 318,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Showers Pass-listed 11.2 oz",
+    "price_usd": 189,
+    "specs": {
+      "material": "3-layer Artex"
+    },
+    "url": "https://www.showerspass.com/products/mens-timberline-pant",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Cycling/hiking rain pant"
+  },
+  {
+    "id": "showers-pass-timberline-pant-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Showers Pass",
+    "model": "Timberline Pant",
+    "variant": "Women's",
+    "weight_g": 318,
+    "weight_basis": "manufacturer",
+    "weight_note": "Showers Pass page lists 11.2 oz (size M; possibly shared with men's spec)",
+    "price_usd": 189,
+    "specs": {
+      "material": "3-layer Artex"
+    },
+    "url": "https://www.showerspass.com/products/womens-timberline-pant",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "montane-minimus-nano-pull-on-waterproof-pants",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Montane",
+    "model": "Minimus Nano Pull-On Waterproof Pants",
+    "variant": null,
+    "weight_g": 100,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montane-listed 100 g",
+    "price_usd": null,
+    "specs": {
+      "material": "Pertex Shield nano-weight 2.5L"
+    },
+    "url": "https://montane.com/products/montane-unisex-minimus-nano-pull-over-waterproof-pants",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Unisex emergency rain pant; Montane store lists 100.00 (currency unverified)"
+  },
+  {
+    "id": "patagonia-granite-crest-rain-pants-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Patagonia",
+    "model": "Granite Crest Rain Pants",
+    "variant": "Women's",
+    "weight_g": 244,
+    "weight_basis": "manufacturer",
+    "weight_note": "Patagonia-listed 244 g (8.6 oz)",
+    "price_usd": null,
+    "specs": {
+      "material": "H2No 3-layer"
+    },
+    "url": "https://www.patagonia.com.au/products/womens-granite-crest-rain-pants-85435-blk",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  }
+]

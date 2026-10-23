@@ -1,0 +1,1157 @@
+[
+  {
+    "id": "euroschirm-swing-liteflex",
+    "category": "misc",
+    "subcategory": "umbrella",
+    "brand": "Euroschirm",
+    "model": "Swing Liteflex",
+    "variant": null,
+    "weight_g": 176,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 49.95,
+    "specs": {
+      "open_width_in": 37
+    },
+    "url": "https://www.euroschirm.com/en/trekking-umbrellas/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Same umbrella as GG Lightrek (176 g listed); EU price €44.90, USD price recalled."
+  },
+  {
+    "id": "euroschirm-light-trek-ultra",
+    "category": "misc",
+    "subcategory": "umbrella",
+    "brand": "Euroschirm",
+    "model": "Light Trek Ultra",
+    "variant": null,
+    "weight_g": 175,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "type": "telescoping pocket"
+    },
+    "url": "https://www.euroschirm.com/en/trekking-umbrellas/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "EU price €49.90."
+  },
+  {
+    "id": "euroschirm-swing-handsfree",
+    "category": "misc",
+    "subcategory": "umbrella",
+    "brand": "Euroschirm",
+    "model": "Swing Handsfree",
+    "variant": null,
+    "weight_g": 250,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 79.95,
+    "specs": {
+      "handsfree": true
+    },
+    "url": "https://www.euroschirm.com/en/trekking-umbrellas/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "EU price €79.90."
+  },
+  {
+    "id": "gossamer-gear-lightrek-hiking-umbrella",
+    "category": "misc",
+    "subcategory": "umbrella",
+    "brand": "Gossamer Gear",
+    "model": "Lightrek Hiking Umbrella",
+    "variant": null,
+    "weight_g": 176,
+    "weight_basis": "manufacturer",
+    "weight_note": "store listing weight",
+    "price_usd": 43,
+    "specs": {
+      "uv": true
+    },
+    "url": "https://www.gossamergear.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Formerly sold as the Liteflex."
+  },
+  {
+    "id": "gossamer-gear-travel-umbrella",
+    "category": "misc",
+    "subcategory": "umbrella",
+    "brand": "Gossamer Gear",
+    "model": "Travel Umbrella",
+    "variant": null,
+    "weight_g": 167,
+    "weight_basis": "manufacturer",
+    "weight_note": "store listing weight",
+    "price_usd": 45,
+    "specs": {
+      "type": "telescoping"
+    },
+    "url": "https://www.gossamergear.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-lotus-ul-umbrella",
+    "category": "misc",
+    "subcategory": "umbrella",
+    "brand": "Zpacks",
+    "model": "Lotus UL Umbrella",
+    "variant": null,
+    "weight_g": 181,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 49.95,
+    "specs": {},
+    "url": "https://zpacks.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "six-moon-designs-silver-shadow-carbon-trekking-umbrella",
+    "category": "misc",
+    "subcategory": "umbrella",
+    "brand": "Six Moon Designs",
+    "model": "Silver Shadow Carbon Trekking Umbrella",
+    "variant": null,
+    "weight_g": 193,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 55,
+    "specs": {
+      "open_width_in": 37,
+      "shaft": "carbon"
+    },
+    "url": "https://www.sixmoondesigns.com/products/silver-shadow-carbon-umbrella",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "six-moon-designs-silver-shadow-ultralight-umbrella",
+    "category": "misc",
+    "subcategory": "umbrella",
+    "brand": "Six Moon Designs",
+    "model": "Silver Shadow Ultralight Umbrella",
+    "variant": null,
+    "weight_g": 252,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 45,
+    "specs": {
+      "open_width_in": 37
+    },
+    "url": "https://www.sixmoondesigns.com/products/silver-shadow-original-umbrella",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "six-moon-designs-silver-shadow-mini-hiking-umbrella",
+    "category": "misc",
+    "subcategory": "umbrella",
+    "brand": "Six Moon Designs",
+    "model": "Silver Shadow Mini Hiking Umbrella",
+    "variant": null,
+    "weight_g": 193,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 50,
+    "specs": {
+      "open_width_in": 38,
+      "type": "telescoping"
+    },
+    "url": "https://www.sixmoondesigns.com/products/silver-shadow-mini-umbrella",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "six-moon-designs-rain-walker-sul-umbrella",
+    "category": "misc",
+    "subcategory": "umbrella",
+    "brand": "Six Moon Designs",
+    "model": "Rain Walker SUL Umbrella",
+    "variant": null,
+    "weight_g": 170,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 65,
+    "specs": {
+      "open_width_in": 37
+    },
+    "url": "https://www.sixmoondesigns.com/products/rain-walker-umbrella",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Page lists 5.5-6 oz."
+  },
+  {
+    "id": "gossamer-gear-sitlight",
+    "category": "misc",
+    "subcategory": "sit pad",
+    "brand": "Gossamer Gear",
+    "model": "SitLight",
+    "variant": null,
+    "weight_g": 50,
+    "weight_basis": "manufacturer",
+    "weight_note": "store listing weight",
+    "price_usd": 13,
+    "specs": {
+      "material": "closed-cell foam"
+    },
+    "url": "https://www.gossamergear.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-air-flow-sitlight",
+    "category": "misc",
+    "subcategory": "sit pad",
+    "brand": "Gossamer Gear",
+    "model": "Air Flow SitLight",
+    "variant": null,
+    "weight_g": 117,
+    "weight_basis": "manufacturer",
+    "weight_note": "store listing weight",
+    "price_usd": 24,
+    "specs": {
+      "material": "closed-cell foam"
+    },
+    "url": "https://www.gossamergear.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-little-sit-pads",
+    "category": "misc",
+    "subcategory": "sit pad",
+    "brand": "Gossamer Gear",
+    "model": "Little Sit Pads",
+    "variant": null,
+    "weight_g": 60,
+    "weight_basis": "manufacturer",
+    "weight_note": "store listing weight",
+    "price_usd": 8,
+    "specs": {
+      "material": "folding foam"
+    },
+    "url": "https://www.gossamergear.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-foam-sit-pad",
+    "category": "misc",
+    "subcategory": "sit pad",
+    "brand": "Zpacks",
+    "model": "Foam Sit Pad",
+    "variant": null,
+    "weight_g": 27,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 9.95,
+    "specs": {
+      "material": "closed-cell foam"
+    },
+    "url": "https://zpacks.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "therm-a-rest-z-seat",
+    "category": "misc",
+    "subcategory": "sit pad",
+    "brand": "Therm-a-Rest",
+    "model": "Z Seat",
+    "variant": null,
+    "weight_g": 56,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 24.95,
+    "specs": {
+      "material": "closed-cell foam"
+    },
+    "url": "https://www.thermarest.com/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "nemo-chipper",
+    "category": "misc",
+    "subcategory": "sit pad",
+    "brand": "NEMO",
+    "model": "Chipper",
+    "variant": null,
+    "weight_g": 215,
+    "weight_basis": "manufacturer",
+    "weight_note": "7.6 oz packed weight",
+    "price_usd": 24.95,
+    "specs": {
+      "material": "closed-cell foam"
+    },
+    "url": "https://www.nemoequipment.com/products/chipper",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "big-agnes-twentymile-ul-hiking-seat",
+    "category": "misc",
+    "subcategory": "sit pad",
+    "brand": "Big Agnes",
+    "model": "Twentymile UL Hiking Seat",
+    "variant": null,
+    "weight_g": 45,
+    "weight_basis": "manufacturer",
+    "weight_note": "store listing weight",
+    "price_usd": 24.95,
+    "specs": {},
+    "url": "https://www.bigagnes.com/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "helinox-chair-zero",
+    "category": "misc",
+    "subcategory": "chair",
+    "brand": "Helinox",
+    "model": "Chair Zero",
+    "variant": null,
+    "weight_g": 509,
+    "weight_basis": "manufacturer",
+    "weight_note": "assembled; 531 g packed",
+    "price_usd": 139.95,
+    "specs": {
+      "capacity_lb": 265
+    },
+    "url": "https://helinox.com/products/chair-zero",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "helinox-chair-one",
+    "category": "misc",
+    "subcategory": "chair",
+    "brand": "Helinox",
+    "model": "Chair One",
+    "variant": null,
+    "weight_g": 890,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 119.95,
+    "specs": {
+      "capacity_lb": 320
+    },
+    "url": "https://helinox.com/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "rei-co-op-flexlite-air-chair",
+    "category": "misc",
+    "subcategory": "chair",
+    "brand": "REI Co-op",
+    "model": "Flexlite Air Chair",
+    "variant": null,
+    "weight_g": 454,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 109.95,
+    "specs": {
+      "capacity_lb": 250
+    },
+    "url": "https://www.rei.com/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "big-agnes-skyline-ul-chair",
+    "category": "misc",
+    "subcategory": "chair",
+    "brand": "Big Agnes",
+    "model": "Skyline UL Chair",
+    "variant": null,
+    "weight_g": 794,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 199.95,
+    "specs": {},
+    "url": "https://www.bigagnes.com/products/skyline-ul-chair",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-polycryo-tent-footprint",
+    "category": "misc",
+    "subcategory": "ground sheet",
+    "brand": "Gossamer Gear",
+    "model": "Polycryo Tent Footprint",
+    "variant": null,
+    "weight_g": 170,
+    "weight_basis": "manufacturer",
+    "weight_note": "store listing weight (may include packaging)",
+    "price_usd": 13,
+    "specs": {
+      "material": "polycryo"
+    },
+    "url": "https://www.gossamergear.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "zpacks-bathtub-groundsheet",
+    "category": "misc",
+    "subcategory": "ground sheet",
+    "brand": "Zpacks",
+    "model": "Bathtub Groundsheet",
+    "variant": null,
+    "weight_g": 91,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 129,
+    "specs": {
+      "material": "DCF"
+    },
+    "url": "https://zpacks.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-flat-groundsheet",
+    "category": "misc",
+    "subcategory": "ground sheet",
+    "brand": "Zpacks",
+    "model": "Flat Groundsheet",
+    "variant": null,
+    "weight_g": 60,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 119,
+    "specs": {
+      "material": "DCF"
+    },
+    "url": "https://zpacks.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-nylo-pro-groundsheet-5-x-8",
+    "category": "misc",
+    "subcategory": "ground sheet",
+    "brand": "Zpacks",
+    "model": "Nylo Pro Groundsheet",
+    "variant": "5' x 8'",
+    "weight_g": 111,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 12.95,
+    "specs": {
+      "material": "Nylo Pro"
+    },
+    "url": "https://zpacks.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-tyvek-groundsheet-5-x-9",
+    "category": "misc",
+    "subcategory": "ground sheet",
+    "brand": "Zpacks",
+    "model": "Tyvek Groundsheet",
+    "variant": "5' x 9'",
+    "weight_g": 262,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 19.95,
+    "specs": {
+      "material": "Tyvek"
+    },
+    "url": "https://zpacks.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "durston-x-mid-1-groundsheet",
+    "category": "misc",
+    "subcategory": "ground sheet",
+    "brand": "Durston",
+    "model": "X-Mid 1 Groundsheet",
+    "variant": null,
+    "weight_g": 113,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 49,
+    "specs": {
+      "material": "polyester"
+    },
+    "url": "https://durstongear.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "Price verified; weight recalled."
+  },
+  {
+    "id": "durston-x-mid-2-groundsheet",
+    "category": "misc",
+    "subcategory": "ground sheet",
+    "brand": "Durston",
+    "model": "X-Mid 2 Groundsheet",
+    "variant": null,
+    "weight_g": 150,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 59,
+    "specs": {
+      "material": "polyester"
+    },
+    "url": "https://durstongear.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "Price verified; weight recalled."
+  },
+  {
+    "id": "big-agnes-fly-creek-hv-ul1-bikepack-footprint",
+    "category": "misc",
+    "subcategory": "ground sheet",
+    "brand": "Big Agnes",
+    "model": "Fly Creek HV UL1 Bikepack Footprint",
+    "variant": null,
+    "weight_g": 136,
+    "weight_basis": "manufacturer",
+    "weight_note": "store listing weight",
+    "price_usd": 55.25,
+    "specs": {},
+    "url": "https://www.bigagnes.com/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "msr-groundhog-7-5-in",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "MSR",
+    "model": "Groundhog",
+    "variant": "7.5 in",
+    "weight_g": 13,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 6.49,
+    "specs": {
+      "material": "aluminum",
+      "shape": "Y",
+      "length_in": 7.5
+    },
+    "url": "https://www.msrgear.com/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Sold in 6-packs ($38.95, verified); price shown per stake."
+  },
+  {
+    "id": "msr-mini-groundhog-6-in",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "MSR",
+    "model": "Mini Groundhog",
+    "variant": "6 in",
+    "weight_g": 10,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 5.83,
+    "specs": {
+      "material": "aluminum",
+      "shape": "Y",
+      "length_in": 6
+    },
+    "url": "https://www.msrgear.com/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Sold in 6-packs ($34.95, verified); price shown per stake."
+  },
+  {
+    "id": "msr-carbon-core",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "MSR",
+    "model": "Carbon Core",
+    "variant": null,
+    "weight_g": 6,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 12.49,
+    "specs": {
+      "material": "carbon/aluminum",
+      "length_in": 6
+    },
+    "url": "https://www.msrgear.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "Pack price $49.95 verified (4-pack assumed)."
+  },
+  {
+    "id": "zpacks-ultralight-titanium-tent-stake-6-in",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Zpacks",
+    "model": "Ultralight Titanium Tent Stake",
+    "variant": "6 in",
+    "weight_g": 5,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 2.75,
+    "specs": {
+      "material": "titanium",
+      "shape": "shepherd hook",
+      "length_in": 6
+    },
+    "url": "https://zpacks.com/collections/stakes",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-red-tough-titanium-tent-stake-6-5-in",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Zpacks",
+    "model": "Red Tough Titanium Tent Stake",
+    "variant": "6.5 in",
+    "weight_g": 8,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 2.95,
+    "specs": {
+      "material": "titanium",
+      "length_in": 6.5
+    },
+    "url": "https://zpacks.com/collections/stakes",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-sonic-stake-6-in",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Zpacks",
+    "model": "Sonic Stake",
+    "variant": "6 in",
+    "weight_g": 9,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 2.75,
+    "specs": {
+      "material": "aluminum",
+      "shape": "Y",
+      "length_in": 6
+    },
+    "url": "https://zpacks.com/collections/stakes",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-super-sonic-stake-7-in",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Zpacks",
+    "model": "Super Sonic Stake",
+    "variant": "7 in",
+    "weight_g": 16,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 2.95,
+    "specs": {
+      "material": "aluminum",
+      "shape": "Y",
+      "length_in": 7
+    },
+    "url": "https://zpacks.com/collections/stakes",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-carbon-fiber-tent-stake-6-4-in",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Zpacks",
+    "model": "Carbon Fiber Tent Stake",
+    "variant": "6.4 in",
+    "weight_g": 6,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 4.95,
+    "specs": {
+      "material": "carbon",
+      "length_in": 6.4
+    },
+    "url": "https://zpacks.com/collections/stakes",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-aluminum-platform-anchor-stake",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Zpacks",
+    "model": "Aluminum Platform Anchor Stake",
+    "variant": null,
+    "weight_g": 9,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 2.95,
+    "specs": {
+      "material": "aluminum"
+    },
+    "url": "https://zpacks.com/collections/stakes",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "pachallama-2g-carbon-pin-tent-stake-6-in",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Pachallama",
+    "model": "2g Carbon-Pin Tent Stake",
+    "variant": "6 in",
+    "weight_g": 2,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 3.95,
+    "specs": {
+      "material": "carbon",
+      "length_in": 6
+    },
+    "url": "https://zpacks.com/collections/stakes",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "dac-mini-j-stake",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "DAC",
+    "model": "Mini J-Stake",
+    "variant": null,
+    "weight_g": 7,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 20,
+    "specs": {
+      "material": "aluminum",
+      "shape": "J"
+    },
+    "url": "https://www.gossamergear.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Description says 6.8 g each; variant lists 9 g. $20 likely per set."
+  },
+  {
+    "id": "vargo-titanium-nail-peg",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Vargo",
+    "model": "Titanium Nail Peg",
+    "variant": null,
+    "weight_g": 8,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 3.95,
+    "specs": {
+      "material": "titanium",
+      "shape": "nail"
+    },
+    "url": "https://vargooutdoors.com/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "toaks-titanium-v-shaped-peg-6-3-in",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "TOAKS",
+    "model": "Titanium V-shaped Peg",
+    "variant": "6.3 in",
+    "weight_g": 13,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 4.95,
+    "specs": {
+      "material": "titanium",
+      "shape": "V",
+      "length_in": 6.3
+    },
+    "url": "https://www.toaksoutdoor.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "Gossamer Gear store lists 28 g (possibly packaging)."
+  },
+  {
+    "id": "toaks-titanium-shepherd-hook-peg-6-3-in",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "TOAKS",
+    "model": "Titanium Shepherd Hook Peg",
+    "variant": "6.3 in",
+    "weight_g": 6,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 2.5,
+    "specs": {
+      "material": "titanium",
+      "shape": "shepherd hook",
+      "length_in": 6.3
+    },
+    "url": "https://www.toaksoutdoor.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "easton-nano-nail-6-in",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Easton",
+    "model": "Nano Nail",
+    "variant": "6 in",
+    "weight_g": 6,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 3.5,
+    "specs": {
+      "material": "aluminum",
+      "shape": "nail",
+      "length_in": 6
+    },
+    "url": "https://eastontents.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "easton-gold-stake-8-in",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Easton",
+    "model": "Gold Stake",
+    "variant": "8 in",
+    "weight_g": 13,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 4.5,
+    "specs": {
+      "material": "aluminum",
+      "length_in": 8
+    },
+    "url": "https://eastontents.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "ruta-locura-titanium-shepherd-hook-stake-6-5-in",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Ruta Locura",
+    "model": "Titanium Shepherd Hook Stake",
+    "variant": "6.5 in",
+    "weight_g": 6,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 3,
+    "specs": {
+      "material": "titanium",
+      "shape": "shepherd hook"
+    },
+    "url": "https://www.rutalocura.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "lawson-equipment-glowire-reflective-guyline-50-ft",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Lawson Equipment",
+    "model": "Glowire Reflective Guyline",
+    "variant": "50 ft",
+    "weight_g": 34,
+    "weight_basis": "estimate",
+    "weight_note": null,
+    "price_usd": 15,
+    "specs": {
+      "diameter_mm": 2.4
+    },
+    "url": "https://lawsonequipment.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "lawson-equipment-ironwire-guyline-50-ft",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Lawson Equipment",
+    "model": "Ironwire Guyline",
+    "variant": "50 ft",
+    "weight_g": 25,
+    "weight_basis": "estimate",
+    "weight_note": null,
+    "price_usd": 14,
+    "specs": {
+      "diameter_mm": 1.6
+    },
+    "url": "https://lawsonequipment.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "zing-it-1-8mm-25ft",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Zing-It",
+    "model": "Dyneema Line",
+    "variant": "1.8 mm, 25 ft",
+    "weight_g": 10,
+    "weight_basis": "estimate",
+    "weight_note": null,
+    "price_usd": 10,
+    "specs": {
+      "diameter_mm": 1.8
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "zpacks-ultralight-titanium-whistle",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Zpacks",
+    "model": "Ultralight Titanium Whistle",
+    "variant": null,
+    "weight_g": 5,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 12.95,
+    "specs": {},
+    "url": "https://zpacks.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "silva-pocket-compass-thermometer",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Silva",
+    "model": "Pocket Compass Thermometer",
+    "variant": null,
+    "weight_g": 11,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 19.95,
+    "specs": {},
+    "url": "https://zpacks.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-tri-fold-minimalist-wallet",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Zpacks",
+    "model": "Tri-Fold Minimalist Wallet",
+    "variant": null,
+    "weight_g": 12,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 44.95,
+    "specs": {
+      "material": "DCF"
+    },
+    "url": "https://zpacks.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-ultralight-electronics-case",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Zpacks",
+    "model": "Ultralight Electronics Case",
+    "variant": null,
+    "weight_g": 56,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 49.95,
+    "specs": {
+      "type": "phone/electronics case"
+    },
+    "url": "https://zpacks.com/collections/accessories",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "loksak-aloksak-waterproof-bag-6-x-9-in",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Loksak",
+    "model": "aLOKSAK Waterproof Bag",
+    "variant": "6 x 9 in",
+    "weight_g": 4,
+    "weight_basis": "estimate",
+    "weight_note": null,
+    "price_usd": 4,
+    "specs": {
+      "type": "phone case/bag",
+      "waterproof": true
+    },
+    "url": "https://www.loksak.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "otterbox-defender-series-iphone-15",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "OtterBox",
+    "model": "Defender Series",
+    "variant": "iPhone 15",
+    "weight_g": 90,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 64.95,
+    "specs": {
+      "type": "phone case"
+    },
+    "url": "https://www.otterbox.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "zeiss-terra-ed-pocket-8x25",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Zeiss",
+    "model": "Terra ED Pocket",
+    "variant": "8x25",
+    "weight_g": 310,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 399.99,
+    "specs": {
+      "type": "binoculars"
+    },
+    "url": "https://www.zeiss.com/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "swarovski-cl-pocket-8x25",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Swarovski",
+    "model": "CL Pocket",
+    "variant": "8x25",
+    "weight_g": 345,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 1199,
+    "specs": {
+      "type": "binoculars"
+    },
+    "url": "https://www.swarovskioptik.com/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "pentax-papilio-ii-6-5x21",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Pentax",
+    "model": "Papilio II",
+    "variant": "6.5x21",
+    "weight_g": 290,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 159.95,
+    "specs": {
+      "type": "binoculars"
+    },
+    "url": "https://www.ricoh-imaging.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "nikon-prostaff-p3-8x30",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Nikon",
+    "model": "ProStaff P3",
+    "variant": "8x30",
+    "weight_g": 405,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 149.95,
+    "specs": {
+      "type": "binoculars"
+    },
+    "url": "https://www.nikonusa.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "vortex-diamondback-hd-8x28",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Vortex",
+    "model": "Diamondback HD",
+    "variant": "8x28",
+    "weight_g": 383,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 179.99,
+    "specs": {
+      "type": "binoculars"
+    },
+    "url": "https://vortexoptics.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  }
+]

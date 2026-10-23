@@ -1,0 +1,152 @@
+[
+  {
+    "id": "shelter",
+    "name": "Shelters",
+    "group": "Big 3",
+    "subcategories": ["trekking-pole tent", "freestanding tent", "semi-freestanding tent", "tarp", "bivy", "hammock", "pyramid"]
+  },
+  {
+    "id": "backpack",
+    "name": "Backpacks",
+    "group": "Big 3",
+    "subcategories": ["frameless", "internal frame", "framesheet", "daypack/fastpack"]
+  },
+  {
+    "id": "sleep-insulation",
+    "name": "Quilts & Sleeping Bags",
+    "group": "Big 3",
+    "subcategories": ["quilt", "sleeping bag", "hoodless bag", "top quilt (hammock)", "underquilt"]
+  },
+  {
+    "id": "sleeping-pad",
+    "name": "Sleeping Pads",
+    "group": "Sleep",
+    "subcategories": ["inflatable", "closed-cell foam", "self-inflating"]
+  },
+  {
+    "id": "pillow",
+    "name": "Pillows",
+    "group": "Sleep",
+    "subcategories": ["inflatable", "foam/hybrid"]
+  },
+  {
+    "id": "stove",
+    "name": "Stoves",
+    "group": "Cook",
+    "subcategories": ["canister", "integrated canister", "alcohol", "solid fuel", "wood", "remote canister"]
+  },
+  {
+    "id": "cookware",
+    "name": "Cookware",
+    "group": "Cook",
+    "subcategories": ["pot", "mug", "pan", "kettle", "pot set"]
+  },
+  {
+    "id": "cook-accessory",
+    "name": "Cook Accessories",
+    "group": "Cook",
+    "subcategories": ["utensil", "windscreen", "cozy", "lighter", "cold-soak jar", "other"]
+  },
+  {
+    "id": "water-treatment",
+    "name": "Water Treatment",
+    "group": "Water",
+    "subcategories": ["squeeze filter", "gravity filter", "pump filter", "bottle filter", "straw filter", "UV", "chemical"]
+  },
+  {
+    "id": "water-storage",
+    "name": "Water Storage",
+    "group": "Water",
+    "subcategories": ["bottle", "soft bottle", "reservoir/bladder", "dirty water bag"]
+  },
+  {
+    "id": "rain-jacket",
+    "name": "Rain Jackets",
+    "group": "Clothing",
+    "subcategories": ["rain jacket", "poncho", "rain kilt/skirt"]
+  },
+  {
+    "id": "rain-pants",
+    "name": "Rain Pants",
+    "group": "Clothing",
+    "subcategories": ["rain pants"]
+  },
+  {
+    "id": "wind-layer",
+    "name": "Wind Layers",
+    "group": "Clothing",
+    "subcategories": ["wind jacket", "wind pants", "wind vest"]
+  },
+  {
+    "id": "insulation",
+    "name": "Insulated Layers",
+    "group": "Clothing",
+    "subcategories": ["down jacket", "synthetic jacket", "fleece", "active insulation", "vest", "insulated pants", "booties/socks"]
+  },
+  {
+    "id": "base-layer",
+    "name": "Base Layers & Hiking Clothing",
+    "group": "Clothing",
+    "subcategories": ["sun hoody", "base top", "base bottom", "hiking shirt", "hiking shorts", "hiking pants", "underwear", "sleep clothes"]
+  },
+  {
+    "id": "headwear-handwear",
+    "name": "Hats & Gloves",
+    "group": "Clothing",
+    "subcategories": ["sun hat", "beanie", "balaclava", "neck gaiter", "liner glove", "insulated glove/mitt", "rain mitt"]
+  },
+  {
+    "id": "footwear",
+    "name": "Footwear",
+    "group": "Clothing",
+    "subcategories": ["trail runner", "hiking shoe", "hiking boot", "camp shoe/sandal", "gaiter", "sock", "traction"]
+  },
+  {
+    "id": "lighting",
+    "name": "Headlamps & Lights",
+    "group": "Electronics",
+    "subcategories": ["headlamp", "lantern", "flashlight"]
+  },
+  {
+    "id": "power",
+    "name": "Power Banks & Charging",
+    "group": "Electronics",
+    "subcategories": ["power bank", "solar panel", "charger/cable"]
+  },
+  {
+    "id": "communication",
+    "name": "Satellite & Navigation",
+    "group": "Electronics",
+    "subcategories": ["satellite messenger", "PLB", "GPS", "watch"]
+  },
+  {
+    "id": "trekking-poles",
+    "name": "Trekking Poles",
+    "group": "Accessories",
+    "subcategories": ["fixed length", "adjustable", "folding"]
+  },
+  {
+    "id": "food-storage",
+    "name": "Food Storage & Bear Protection",
+    "group": "Accessories",
+    "subcategories": ["bear canister", "bear bag", "odor-proof bag", "bear spray"]
+  },
+  {
+    "id": "pack-organization",
+    "name": "Stuff Sacks & Pack Liners",
+    "group": "Accessories",
+    "subcategories": ["stuff sack", "pack liner", "dry bag", "pack cover", "pouch/fanny pack", "shoulder pouch"]
+  },
+  {
+    "id": "first-aid-hygiene",
+    "name": "First Aid, Hygiene & Tools",
+    "group": "Accessories",
+    "subcategories": ["first aid kit", "first aid supply", "trowel", "toiletry", "knife/multitool", "repair", "sun/bug protection"]
+  },
+  {
+    "id": "misc",
+    "name": "Camp Comfort & Misc",
+    "group": "Accessories",
+    "subcategories": ["umbrella", "chair", "sit pad", "ground sheet", "stakes", "other"]
+  }
+]

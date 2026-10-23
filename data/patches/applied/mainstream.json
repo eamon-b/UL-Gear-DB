@@ -1,0 +1,1439 @@
+{
+ "updates": [
+  {
+   "id": "big-agnes-rapide-sl-pillow",
+   "set": {
+    "weight_g": 45,
+    "confidence": "high",
+    "url": "https://www.bigagnes.com/products/rapide-sl-pillow",
+    "weight_note": "1.6 oz per Big Agnes"
+   }
+  },
+  {
+   "id": "big-agnes-campmeister-deluxe-pillow",
+   "set": {
+    "weight_g": 86,
+    "confidence": "high",
+    "url": "https://www.bigagnes.com/products/campmeister-deluxe-pillow",
+    "weight_note": "Shopify-listed product weight"
+   }
+  },
+  {
+   "id": "big-agnes-divide-insulated-20x72-regular",
+   "set": {
+    "price_usd": 129.95,
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "big-agnes-twentymile-ul-20x72",
+   "set": {
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "big-agnes-twentymile-ul-25x78",
+   "set": {
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "big-agnes-twistercane-biofoam",
+   "set": {
+    "price_usd": 69.95,
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "big-agnes-fly-creek-ul-quilt",
+   "set": {
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "big-agnes-fly-creek-ul-25",
+   "set": {
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "nemo-dragonfly-osmo-3p",
+   "set": {
+    "price_usd": 619.95,
+    "confidence": "high",
+    "weight_note": "minimum weight 3 lb 6 oz; packed 3 lb 15 oz"
+   }
+  },
+  {
+   "id": "nemo-dagger-osmo-3p",
+   "set": {
+    "confidence": "high",
+    "weight_note": "minimum weight 3 lb 13 oz; packed 4 lb 7 oz"
+   }
+  },
+  {
+   "id": "nemo-disco-15f-mens",
+   "set": {
+    "confidence": "high",
+    "weight_note": "minimum weight, Regular (2 lb 11 oz)"
+   }
+  },
+  {
+   "id": "nemo-disco-30f-mens",
+   "set": {
+    "confidence": "high",
+    "weight_note": "minimum weight, Regular (1 lb 15 oz)"
+   }
+  },
+  {
+   "id": "nemo-riff-15f-mens",
+   "set": {
+    "confidence": "high",
+    "weight_note": "minimum weight, Regular (2 lb 7 oz)"
+   }
+  },
+  {
+   "id": "nemo-riff-30f-mens",
+   "set": {
+    "weight_g": 850,
+    "confidence": "high",
+    "weight_note": "minimum weight, Regular (1 lb 14 oz / 845 g)"
+   }
+  },
+  {
+   "id": "nemo-tempo-20f-mens",
+   "set": {
+    "weight_g": 1644,
+    "confidence": "high",
+    "weight_note": "minimum weight, Regular (3 lb 10 oz); packed 3 lb 14 oz"
+   }
+  },
+  {
+   "id": "nemo-tempo-35f-mens",
+   "set": {
+    "weight_g": 1304,
+    "confidence": "high",
+    "weight_note": "minimum weight, Regular (2 lb 14 oz); packed 3 lb 1 oz"
+   }
+  },
+  {
+   "id": "nemo-chipper",
+   "set": {
+    "weight_g": 215,
+    "confidence": "high",
+    "url": "https://www.nemoequipment.com/products/chipper",
+    "weight_note": "7.6 oz packed weight"
+   }
+  },
+  {
+   "id": "nemo-fillo",
+   "set": {
+    "weight_g": 261,
+    "confidence": "high",
+    "weight_note": "minimum weight 9.2 oz; packed 9.3 oz"
+   }
+  },
+  {
+   "id": "nemo-fillo-elite-wide",
+   "set": {
+    "weight_g": 113,
+    "confidence": "high",
+    "weight_note": "minimum weight 4.0 oz; packed 4.2 oz"
+   }
+  },
+  {
+   "id": "kelty-late-start-2p",
+   "set": {
+    "weight_g": 1956,
+    "weight_note": "minimum weight 4 lb 5 oz; packaged 4 lb 12 oz",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "kelty-grand-mesa-2p",
+   "set": {
+    "weight_g": 1843,
+    "weight_note": "minimum weight 4 lb 1 oz; packaged 4 lb 12 oz",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "kelty-cosmic-down-20",
+   "set": {
+    "weight_g": 1106,
+    "weight_basis": "manufacturer",
+    "weight_note": "Regular, 2 lb 7 oz; fill 464 g",
+    "price_usd": 189.95,
+    "specs": {
+     "temp_rating_f": 20,
+     "fill": "down",
+     "fill_power": 550,
+     "fill_weight_g": 464,
+     "style": "semi-rectangular mummy"
+    },
+    "confidence": "high",
+    "url": "https://www.kelty.com/products/cosmic-down-20"
+   }
+  },
+  {
+   "id": "kelty-cosmic-down-40",
+   "set": {
+    "weight_g": 740,
+    "weight_basis": "manufacturer",
+    "weight_note": "Regular, 1.63 lb / 0.74 kg; fill 259 g",
+    "price_usd": 139.95,
+    "specs": {
+     "temp_rating_f": 40,
+     "fill": "down",
+     "fill_power": 550,
+     "fill_weight_g": 259,
+     "style": "semi-rectangular mummy"
+    },
+    "confidence": "high",
+    "url": "https://www.kelty.com/products/cosmic-down-40"
+   }
+  },
+  {
+   "id": "kelty-range-2-0",
+   "set": {
+    "price_usd": 59.95,
+    "url": "https://www.kelty.com/products/range-2-0-trekking-poles"
+   }
+  },
+  {
+   "id": "black-diamond-ul-distance-gaiter",
+   "set": {
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "black-diamond-ul-overmitts",
+   "set": {
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "black-diamond-spot-2025",
+   "set": {
+    "confidence": "high",
+    "url": "https://www.blackdiamondequipment.com/products/spot-headlamp",
+    "weight_note": "BD spec 86 g with 3x AAA",
+    "notes": null,
+    "specs": {
+     "lumens": 450,
+     "battery": "3x AAA or BD 1500 Li-ion",
+     "runtime_hr": 200,
+     "rechargeable": false
+    }
+   }
+  },
+  {
+   "id": "black-diamond-storm-450",
+   "set": {
+    "weight_g": 140,
+    "confidence": "high",
+    "url": "https://www.blackdiamondequipment.com/products/storm-450-headlamp",
+    "weight_note": "BD spec, with 3x AAA",
+    "specs": {
+     "lumens": 450,
+     "battery": "3x AAA or BD 1500 Li-ion",
+     "runtime_hr": 175,
+     "rechargeable": false
+    }
+   }
+  },
+  {
+   "id": "black-diamond-distance-lt-1100",
+   "set": {
+    "weight_g": 108,
+    "confidence": "high",
+    "url": "https://www.blackdiamondequipment.com/products/distance-lt-1100-headlamp",
+    "weight_note": "BD spec",
+    "notes": null
+   }
+  },
+  {
+   "id": "black-diamond-fineline-stretch-rain-shell-womens",
+   "set": {
+    "weight_g": 270,
+    "price_usd": 189,
+    "confidence": "high",
+    "url": "https://www.blackdiamondequipment.com/products/womens-fineline-stretch-shell",
+    "weight_note": "BD spec (BD.dry 2.5L)"
+   }
+  },
+  {
+   "id": "black-diamond-highline-stretch-shell-mens",
+   "set": {
+    "weight_g": 360,
+    "price_usd": 529,
+    "confidence": "high",
+    "url": "https://www.blackdiamondequipment.com/products/mens-highline-stretch-shell",
+    "weight_note": "BD spec"
+   }
+  },
+  {
+   "id": "black-diamond-fineline-stretch-full-zip-pants-mens",
+   "set": {
+    "weight_g": 217,
+    "price_usd": 179,
+    "confidence": "high",
+    "url": "https://www.blackdiamondequipment.com/products/mens-fineline-stretch-full-zip-pants",
+    "weight_note": "BD spec, lightest listed (217/227/277 g across sizes)"
+   }
+  },
+  {
+   "id": "black-diamond-firstlight-2p",
+   "set": {
+    "weight_g": 1160,
+    "price_usd": 549.95,
+    "confidence": "high",
+    "url": "https://www.blackdiamondequipment.com/products/firstlight-2-person-tent",
+    "weight_note": "BD spec 1.16 kg"
+   }
+  },
+  {
+   "id": "black-diamond-eldorado",
+   "set": {
+    "weight_g": 2300,
+    "price_usd": 949.95,
+    "confidence": "high",
+    "url": "https://www.blackdiamondequipment.com/products/eldorado-tent",
+    "weight_note": "BD spec 2.3 kg"
+   }
+  },
+  {
+   "id": "black-diamond-distance-carbon-z-110-cm",
+   "set": {
+    "weight_g": 264,
+    "price_usd": 219.95,
+    "confidence": "high",
+    "url": "https://www.blackdiamondequipment.com/products/distance-carbon-z-poles",
+    "weight_note": "per pair, BD spec",
+    "notes": "Current version offered 105-130 cm."
+   }
+  },
+  {
+   "id": "black-diamond-distance-carbon-z-120-cm",
+   "set": {
+    "price_usd": 219.95,
+    "url": "https://www.blackdiamondequipment.com/products/distance-carbon-z-poles"
+   }
+  },
+  {
+   "id": "black-diamond-distance-carbon-z-130-cm",
+   "set": {
+    "price_usd": 219.95,
+    "url": "https://www.blackdiamondequipment.com/products/distance-carbon-z-poles"
+   }
+  },
+  {
+   "id": "black-diamond-distance-carbon-z-100-cm",
+   "set": {
+    "discontinued": true,
+    "notes": "100 cm length no longer offered; current Distance Carbon Z comes in 105-130 cm (105 cm = 256 g/pair)."
+   }
+  },
+  {
+   "id": "black-diamond-distance-z-120-cm",
+   "set": {
+    "weight_g": 367,
+    "price_usd": 179.95,
+    "confidence": "high",
+    "url": "https://www.blackdiamondequipment.com/products/distance-z-trekking-running-poles",
+    "weight_note": "per pair, BD spec"
+   }
+  },
+  {
+   "id": "black-diamond-trail-back",
+   "set": {
+    "weight_g": 560,
+    "confidence": "high",
+    "url": "https://www.blackdiamondequipment.com/products/trail-back-trekking-poles",
+    "weight_note": "per pair, BD spec (page also lists 534 g)"
+   }
+  },
+  {
+   "id": "black-diamond-trail-cork",
+   "set": {
+    "weight_g": 494,
+    "price_usd": 129.95,
+    "confidence": "high",
+    "url": "https://www.blackdiamondequipment.com/products/trail-cork-trekking-poles",
+    "weight_note": "per pair, BD spec"
+   }
+  },
+  {
+   "id": "black-diamond-distance-flz-110-125-cm",
+   "set": {
+    "discontinued": true,
+    "notes": "Not in BD's current catalog (Oct 2026); aluminum Distance FLZ appears dropped."
+   }
+  },
+  {
+   "id": "black-diamond-alpine-flz",
+   "set": {
+    "discontinued": true,
+    "notes": "Not in BD's current catalog (Oct 2026)."
+   }
+  },
+  {
+   "id": "black-diamond-trail-sport",
+   "set": {
+    "discontinued": true,
+    "notes": "Not in BD's current catalog (Oct 2026)."
+   }
+  },
+  {
+   "id": "black-diamond-pursuit-shock",
+   "set": {
+    "discontinued": true,
+    "notes": "Not in BD's current catalog (Oct 2026); Trail Vista Shock (548 g, $179.95) is the current shock-absorbing model."
+   }
+  },
+  {
+   "id": "black-diamond-alpine-start-hoody-womens",
+   "set": {
+    "weight_g": 181,
+    "confidence": "high",
+    "url": "https://www.blackdiamondequipment.com/products/womens-alpine-start-hoody",
+    "weight_note": "BD spec"
+   }
+  },
+  {
+   "id": "black-diamond-distance-wind-shell-womens",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/w-distance-wind-shell",
+    "weight_g": 99,
+    "confidence": "high",
+    "weight_note": "3.5 oz per Switchback Travel spec table (Oct 2026)"
+   }
+  },
+  {
+   "id": "osprey-exos-38",
+   "set": {
+    "weight_g": 1222,
+    "weight_note": "S/M 2.695 lb (L/XL 2.827 lb), Osprey spec via retailer listing",
+    "confidence": "high",
+    "notes": "Weight verified via The Outfitters (Osprey spec copy); USD price not re-verified this session."
+   }
+  },
+  {
+   "id": "osprey-exos-48",
+   "set": {
+    "weight_g": 1255,
+    "price_usd": 265,
+    "weight_note": "S/M 2.767 lb (L/XL 2.853 lb), Osprey spec via retailer listing",
+    "confidence": "high",
+    "notes": "Weight from Osprey spec copy (The Outfitters); price from GearX (US)."
+   }
+  },
+  {
+   "id": "osprey-exos-58",
+   "set": {
+    "weight_g": 1288,
+    "price_usd": 285,
+    "weight_note": "S/M 2.84 lb (L/XL 2.941 lb), Osprey spec via retailer listing",
+    "confidence": "high",
+    "notes": "Weight from Osprey spec copy (The Outfitters); price per Switchback Travel."
+   }
+  },
+  {
+   "id": "osprey-eja-48",
+   "set": {
+    "weight_g": 1209,
+    "price_usd": 265,
+    "weight_note": "WXS/S 2.666 lb (WM/L 2.758 lb), Osprey spec via retailer listing",
+    "confidence": "high",
+    "notes": "Weight from Osprey spec copy (The Outfitters); price from GearX (US)."
+   }
+  },
+  {
+   "id": "osprey-eja-58",
+   "set": {
+    "weight_g": 1232,
+    "price_usd": 285,
+    "weight_note": "WXS/S 2.717 lb (WM/L 2.822 lb), Osprey spec via retailer listing",
+    "confidence": "high",
+    "notes": "Weight from Osprey spec copy (The Outfitters); price per Switchback Travel."
+   }
+  },
+  {
+   "id": "osprey-exos-pro-55",
+   "set": {
+    "weight_g": 942,
+    "weight_note": "S/M 2.077 lb (L/XL 2.165 lb); lid removable (-80 g)",
+    "confidence": "high",
+    "notes": "Weight from Osprey spec copy (The Outfitters); USD price not re-verified."
+   }
+  },
+  {
+   "id": "osprey-talon-22",
+   "set": {
+    "weight_g": 1080,
+    "price_usd": 175,
+    "weight_note": "2.38 lb, Osprey spec (current AirScape framesheet version)",
+    "confidence": "high",
+    "notes": "Current Talon 22 is much heavier than older versions; weight via The Outfitters (Osprey spec), price via GearX."
+   }
+  },
+  {
+   "id": "osprey-talon-33",
+   "set": {
+    "weight_g": 1261,
+    "weight_note": "2.78 lb / 1.26 kg, Osprey spec",
+    "confidence": "high",
+    "notes": "Weight via The Outfitters (Osprey spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "osprey-talon-44",
+   "set": {
+    "weight_g": 1569,
+    "weight_note": "S/M 3.46 lb (L/XL 3.57 lb), Osprey spec; LightWire frame",
+    "confidence": "high",
+    "subcategory": "internal frame",
+    "notes": "Weight via The Outfitters (Osprey spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "osprey-ultralight-raincover-medium",
+   "set": {
+    "weight_g": 112,
+    "weight_note": "0.247 lb, Osprey spec",
+    "confidence": "high",
+    "notes": "Fits ~30-50L packs; weight recalled, not verified Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "rab-kinetic-2-jacket-womens",
+   "set": {
+    "price_usd": 280,
+    "confidence": "high",
+    "url": "https://rab.equipment/us/women-s-kinetic-2-0-jacket",
+    "weight_note": "Rab spec 10.2 oz / 289.5 g"
+   }
+  },
+  {
+   "id": "rab-kinetic-2-pants-mens",
+   "set": {
+    "price_usd": 240,
+    "confidence": "high",
+    "url": "https://rab.equipment/us/kinetic-2-0-pants",
+    "weight_note": "Rab spec 10 oz / 270 g"
+   }
+  },
+  {
+   "id": "rab-downpour-eco-jacket-womens",
+   "set": {
+    "weight_g": 342,
+    "price_usd": 140,
+    "confidence": "high",
+    "url": "https://rab.equipment/us/womens-downpour-waterproof-jacket",
+    "weight_note": "Rab spec 12 oz / 341.5 g",
+    "notes": "Now sold as 'Downpour Waterproof Jacket' (Eco name dropped)."
+   }
+  },
+  {
+   "id": "rab-downpour-eco-pants-womens",
+   "set": {
+    "weight_g": 240,
+    "price_usd": 110,
+    "confidence": "high",
+    "url": "https://rab.equipment/us/womens-downpour-waterproof-pants",
+    "weight_note": "Rab spec 8.4 oz / 239.5 g",
+    "notes": "Now sold as 'Downpour Waterproof Pants'."
+   }
+  },
+  {
+   "id": "rab-vital-hoody-womens",
+   "set": {
+    "weight_g": 114,
+    "confidence": "high",
+    "url": "https://rab.equipment/us/women-s-vital-hoody",
+    "weight_note": "Rab spec 4 oz / 114 g"
+   }
+  },
+  {
+   "id": "rab-xenair-alpine-light-jacket-mens",
+   "set": {
+    "weight_g": 310,
+    "price_usd": 240,
+    "confidence": "high",
+    "url": "https://rab.equipment/us/mens-xenair-alpine-light-insulated-jacket",
+    "weight_note": "Rab spec 10.9 oz / 310 g"
+   }
+  },
+  {
+   "id": "rab-kinetic-ultra-jacket-mens",
+   "set": {
+    "discontinued": true,
+    "notes": "Not in Rab US catalog (Oct 2026)."
+   }
+  },
+  {
+   "id": "rab-alpine-bivi",
+   "set": {
+    "discontinued": true,
+    "notes": "Not in Rab US catalog (Oct 2026); current bivies are Storm Bivy (547 g, $180) and Trailhead Bivy (406 g, $140)."
+   }
+  },
+  {
+   "id": "rab-mythic-ultra-180",
+   "set": {
+    "discontinued": true,
+    "notes": "Replaced by temperature-named Mythic Ultra bags (32/20/10°F)."
+   }
+  },
+  {
+   "id": "rab-mythic-ultra-360",
+   "set": {
+    "discontinued": true,
+    "notes": "Replaced by temperature-named Mythic Ultra bags (32/20/10°F)."
+   }
+  },
+  {
+   "id": "rab-neutrino-400",
+   "set": {
+    "discontinued": true,
+    "notes": "Replaced by temperature-named Neutrino bags (32/20/10°F)."
+   }
+  },
+  {
+   "id": "patagonia-airshed-pro-pullover-mens",
+   "set": {
+    "weight_g": 105,
+    "price_usd": 139,
+    "confidence": "high",
+    "weight_note": "Patagonia spec 105 g (via The Outfitters)",
+    "notes": "Price per Switchback Travel."
+   }
+  },
+  {
+   "id": "patagonia-houdini-jacket-womens",
+   "set": {
+    "weight_g": 96,
+    "confidence": "high",
+    "weight_note": "Patagonia spec 96 g (3.4 oz)",
+    "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "patagonia-nano-puff-hoody-mens",
+   "set": {
+    "weight_g": 400,
+    "confidence": "high",
+    "weight_note": "Patagonia spec 400 g (14.1 oz)",
+    "notes": "Price matches verified women's version Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "patagonia-nano-puff-jacket-mens",
+   "set": {
+    "weight_g": 369,
+    "confidence": "high",
+    "weight_note": "Patagonia spec 369 g (13 oz)",
+    "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "patagonia-down-sweater-mens",
+   "set": {
+    "weight_g": 369,
+    "price_usd": 289,
+    "confidence": "high",
+    "weight_note": "Patagonia spec 369 g (13 oz)",
+    "notes": "Price per Switchback Travel."
+   }
+  },
+  {
+   "id": "patagonia-down-sweater-hoody-mens",
+   "set": {
+    "weight_g": 420,
+    "confidence": "high",
+    "weight_note": "Patagonia spec 420 g (14.8 oz)",
+    "notes": "Weight and price recalled, not verified Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "patagonia-torrentshell-3l-jacket-womens",
+   "set": {
+    "weight_g": 352,
+    "confidence": "high",
+    "weight_note": "Patagonia spec 352 g (12.4 oz)",
+    "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "patagonia-torrentshell-3l-pants-womens",
+   "set": {
+    "weight_g": 309,
+    "confidence": "high",
+    "weight_note": "Patagonia spec 309 g (10.9 oz)",
+    "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "patagonia-quandary-pants-mens",
+   "set": {
+    "weight_g": 318,
+    "confidence": "high",
+    "weight_note": "Patagonia spec 318 g (11.2 oz)",
+    "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "patagonia-quandary-shorts-10-mens",
+   "set": {
+    "weight_g": 221,
+    "confidence": "high",
+    "weight_note": "Patagonia spec 221 g (7.8 oz)",
+    "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "patagonia-baggies-shorts-5-mens",
+   "set": {
+    "weight_g": 204,
+    "confidence": "high",
+    "weight_note": "Patagonia spec 204 g (7.2 oz)",
+    "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "patagonia-fishermans-rolled-beanie",
+   "set": {
+    "weight_g": 102,
+    "confidence": "high",
+    "weight_note": "Patagonia spec 102 g (3.6 oz)",
+    "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "salomon-speedcross-6",
+   "set": {
+    "weight_g": 596,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; Salomon spec 298 g single shoe x2",
+    "specs": {
+     "drop_mm": 10,
+     "stack_mm": 32,
+     "waterproof": false,
+     "gender": "men's"
+    },
+    "confidence": "high",
+    "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "salomon-speedcross-6-gtx",
+   "set": {
+    "weight_g": 656,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; Salomon spec 328 g single shoe x2",
+    "confidence": "high",
+    "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "salomon-xa-pro-3d-v9",
+   "set": {
+    "weight_g": 646,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; Salomon spec 323 g single shoe x2",
+    "confidence": "high",
+    "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "salomon-x-ultra-4-gtx",
+   "set": {
+    "discontinued": true,
+    "notes": "Replaced by X Ultra 5 GTX."
+   }
+  },
+  {
+   "id": "salomon-x-ultra-4-mid-gtx",
+   "set": {
+    "discontinued": true,
+    "notes": "Replaced by X Ultra 5 Mid GTX."
+   }
+  },
+  {
+   "id": "salomon-soft-flask-500ml",
+   "set": {
+    "weight_g": 33,
+    "confidence": "high",
+    "weight_note": "Salomon spec 33 g (42 mm)",
+    "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "arcteryx-beta-jacket-womens",
+   "set": {
+    "weight_g": 300,
+    "confidence": "high",
+    "weight_note": "Arc'teryx spec 300 g",
+    "url": "https://store.miyaradventures.com/products/arcteryx-womens-beta-jacket"
+   }
+  },
+  {
+   "id": "arcteryx-bird-head-toque",
+   "set": {
+    "weight_g": 57,
+    "confidence": "high",
+    "weight_note": "Arc'teryx spec 57 g",
+    "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+   }
+  },
+  {
+   "id": "arcteryx-norvan-ld-3",
+   "set": {
+    "discontinued": true,
+    "notes": "Replaced by Norvan LD 4 (270 g per shoe)."
+   }
+  },
+  {
+   "id": "on-cloudultra-2",
+   "set": {
+    "discontinued": true,
+    "notes": "Replaced by Cloudultra 3."
+   }
+  },
+  {
+   "id": "the-north-face-stormbreak-2",
+   "set": {
+    "weight_g": 2410,
+    "confidence": "high",
+    "weight_note": "trail weight 5 lb 5 oz (2.41 kg); total 2.67 kg; fastpack 3 lb 14 oz",
+    "price_usd": 220,
+    "url": "https://store.miyaradventures.com/products/the-north-face-stormbreak-tent-2"
+   }
+  },
+  {
+   "id": "hilleberg-enan",
+   "set": {
+    "weight_g": 960,
+    "weight_note": "minimum weight 0.96 kg; packed 1.2 kg",
+    "confidence": "high",
+    "url": "https://hilleberg.com/eng/tent/yellow-label-tents/enan/"
+   }
+  },
+  {
+   "id": "hilleberg-akto",
+   "set": {
+    "weight_g": 1300,
+    "weight_note": "minimum weight 1.3 kg; packed 1.7 kg",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "hilleberg-niak",
+   "set": {
+    "weight_g": 1500,
+    "weight_note": "minimum weight 1.5 kg; packed 1.7 kg",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "hilleberg-anjan-2",
+   "set": {
+    "weight_g": 1500,
+    "weight_note": "minimum weight 1.5 kg; packed 1.8 kg",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "hilleberg-rogen",
+   "set": {
+    "weight_g": 1900,
+    "weight_note": "Rogen 2: minimum weight 1.9 kg; packed 2.2 kg",
+    "confidence": "high",
+    "notes": "Hilleberg now lists Rogen 2 (1.9 kg) and Rogen 3 (2.2 kg)."
+   }
+  },
+  {
+   "id": "hilleberg-unna",
+   "set": {
+    "weight_g": 2000,
+    "weight_note": "minimum weight 2.0 kg; packed 2.3 kg",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "jetboil-stash",
+   "set": {
+    "confidence": "high",
+    "weight_note": "Jetboil spec 7.1 oz / 200 g, excludes fuel stabilizer"
+   }
+  },
+  {
+   "id": "jetboil-minimo",
+   "set": {
+    "confidence": "high",
+    "weight_note": "Jetboil spec 415 g, excludes fuel stabilizer"
+   }
+  },
+  {
+   "id": "jetboil-zip",
+   "set": {
+    "weight_g": 340,
+    "confidence": "high",
+    "weight_note": "Jetboil spec 12 oz / 340 g, excludes fuel stabilizer"
+   }
+  },
+  {
+   "id": "jetboil-mightymo",
+   "set": {
+    "confidence": "high",
+    "weight_note": "Jetboil spec 3.3 oz / 95 g, excludes fuel stabilizer"
+   }
+  },
+  {
+   "id": "jetboil-micromo",
+   "set": {
+    "discontinued": false,
+    "confidence": "high",
+    "weight_note": "Jetboil spec 12 oz / 340 g, excludes fuel stabilizer",
+    "notes": "Still sold (Carbon and Tamale colorways listed at retail Oct 2026)."
+   }
+  },
+  {
+   "id": "jetboil-sumo",
+   "set": {
+    "weight_g": 453,
+    "confidence": "high",
+    "weight_note": "Jetboil spec 16 oz / 453 g, excludes fuel stabilizer"
+   }
+  },
+  {
+   "id": "jetboil-flash-companion-cup",
+   "set": {
+    "weight_g": 275,
+    "confidence": "high",
+    "weight_note": "1.0 L Tall FluxRing spare cup, Jetboil spec 9.7 oz / 275 g (with lid and cozy)"
+   }
+  },
+  {
+   "id": "rei-co-op-flash-55-mens",
+   "set": {
+    "weight_g": 1276,
+    "price_usd": 229,
+    "confidence": "high",
+    "weight_note": "2 lb 13 oz per Switchback Travel spec table (Oct 2026)"
+   }
+  },
+  {
+   "id": "rei-co-op-flash-55-womens",
+   "set": {
+    "weight_g": 1247,
+    "price_usd": 229,
+    "confidence": "high",
+    "weight_note": "2 lb 12 oz per Switchback Travel spec table (Oct 2026)"
+   }
+  },
+  {
+   "id": "rei-co-op-magma-15",
+   "set": {
+    "price_usd": 420,
+    "confidence": "high",
+    "weight_note": "2 lb 3.6 oz per Switchback Travel spec table (Oct 2026); ISO lower limit 21°F"
+   }
+  },
+  {
+   "id": "mountain-hardwear-phantom-0f",
+   "set": {
+    "weight_g": 1202,
+    "price_usd": 780,
+    "weight_basis": "manufacturer",
+    "confidence": "high",
+    "weight_note": "2 lb 10.4 oz per Switchback Travel spec table (Oct 2026); 30.5 oz 800-fill"
+   }
+  },
+  {
+   "id": "rei-co-op-rainier-rain-jacket-womens",
+   "set": {
+    "weight_g": 281,
+    "price_usd": 100,
+    "confidence": "high",
+    "weight_note": "9.9 oz per Switchback Travel spec table (Oct 2026)"
+   }
+  },
+  {
+   "id": "montbell-versalite-pants-womens",
+   "set": {
+    "weight_g": 82,
+    "price_usd": 145,
+    "confidence": "high",
+    "weight_note": "2.9 oz (women's) per Switchback Travel (men's 3.2 oz)"
+   }
+  },
+  {
+   "id": "montbell-tachyon-parka-womens",
+   "set": {
+    "weight_g": 65,
+    "price_usd": 130,
+    "confidence": "high",
+    "weight_note": "2.3 oz per Switchback Travel spec table (Oct 2026)"
+   }
+  },
+  {
+   "id": "marmot-precip-eco-jacket-womens",
+   "set": {
+    "price_usd": 130,
+    "confidence": "high",
+    "url": "https://www.campsaver.com/marmot-marmot-precip-eco-jacket-women-s.html",
+    "weight_note": "9 oz / 255 g (CampSaver-listed spec)"
+   }
+  },
+  {
+   "id": "marmot-minimalist-gtx-jacket-mens",
+   "set": {
+    "discontinued": true,
+    "notes": "Retail now carries 'Minimalist Pertex' jacket; GORE-TEX Minimalist appears discontinued."
+   }
+  },
+  {
+   "id": "marmot-minimalist-gtx-pant-mens",
+   "set": {
+    "discontinued": true,
+    "notes": "Retail now carries 'Minimalist Pertex' pants; GORE-TEX version appears discontinued."
+   }
+  },
+  {
+   "id": "mountain-hardwear-ghost-whisperer-2-jacket-mens",
+   "set": {
+    "weight_g": 227,
+    "price_usd": 390,
+    "confidence": "high",
+    "url": "https://www.campsaver.com/mountain-hardwear-ghost-whisperer-jacket-men-s.html",
+    "weight_note": "8 oz (CampSaver-listed MH spec)",
+    "notes": "Current version sold as 'Ghost Whisperer Jacket' (the /2 suffix dropped)."
+   }
+  },
+  {
+   "id": "mountain-hardwear-ghost-whisperer-2-hoody-womens",
+   "set": {
+    "weight_g": 190,
+    "price_usd": 360,
+    "confidence": "high",
+    "url": "https://www.campsaver.com/mountain-hardwear-ghost-whisperer-hoody-women-s.html",
+    "weight_note": "6.7 oz (CampSaver-listed MH spec)",
+    "notes": "Current version sold as 'Ghost Whisperer Hoody'."
+   }
+  },
+  {
+   "id": "mountain-hardwear-ghost-whisperer-ul-jacket-mens",
+   "set": {
+    "weight_g": 190,
+    "confidence": "high",
+    "url": "https://www.campsaver.com/mountain-hardwear-ghost-whisperer-ul-jacket-men-s.html",
+    "weight_note": "6.7 oz (CampSaver-listed MH spec)"
+   }
+  },
+  {
+   "id": "mountain-hardwear-phantom-15f",
+   "set": {
+    "weight_g": 924,
+    "weight_basis": "manufacturer",
+    "confidence": "high",
+    "url": "https://www.campsaver.com/mountain-hardwear-phantom-15f-9c-sleeping-bag.html",
+    "weight_note": "924 g (CampSaver-listed spec)"
+   }
+  },
+  {
+   "id": "patagonia-micro-puff-hoody-mens",
+   "set": {
+    "weight_g": 298,
+    "price_usd": 345,
+    "confidence": "high",
+    "weight_note": "10.5 oz per Switchback Travel"
+   }
+  },
+  {
+   "id": "brooks-catamount-3",
+   "set": {
+    "discontinued": true,
+    "notes": "Replaced by Catamount 4."
+   }
+  },
+  {
+   "id": "rei-co-op-half-dome-sl-2-plus",
+   "set": {
+    "weight_g": 1786,
+    "price_usd": 349,
+    "confidence": "high",
+    "weight_note": "minimum trail weight 3 lb 15 oz; packaged 4 lb 11.5 oz (REI listing, via search)",
+    "url": "https://www.rei.com/product/185632/rei-co-op-half-dome-sl-2-tent-with-footprint"
+   }
+  },
+  {
+   "id": "montbell-down-hugger-800-1",
+   "set": {
+    "weight_g": 918,
+    "weight_basis": "manufacturer",
+    "price_usd": 469,
+    "confidence": "high",
+    "url": "https://store.miyaradventures.com/products/montbell-down-hugger-800-1-sleeping-bag",
+    "weight_note": "Regular, 2 lb 0.4 oz (918 g); ISO comfort 27°F, lower limit 15°F"
+   }
+  },
+  {
+   "id": "montbell-down-hugger-800-3",
+   "set": {
+    "weight_g": 573,
+    "weight_basis": "manufacturer",
+    "price_usd": 309,
+    "confidence": "high",
+    "url": "https://store.miyaradventures.com/products/montbell-down-hugger-800-3-sleeping-bag",
+    "weight_note": "Regular, 1 lb 4.2 oz (573 g); ISO comfort 40°F, lower limit 31°F"
+   }
+  },
+  {
+   "id": "arcteryx-squamish-hoody-womens",
+   "set": {
+    "price_usd": 200,
+    "url": "https://store.miyaradventures.com/products/arcteryx-womens-squamish-hoody"
+   }
+  },
+  {
+   "id": "osprey-eja-pro-55",
+   "set": {
+    "price_usd": 325,
+    "url": "https://store.miyaradventures.com/products/osprey-eja-pro-55-backpack-womens"
+   }
+  },
+  {
+   "id": "columbia-bora-bora-booney",
+   "set": {
+    "price_usd": 32,
+    "url": "https://store.miyaradventures.com/products/columbia-bora-bora-ii-booney-hat",
+    "notes": "Current version is Bora Bora II Booney."
+   }
+  }
+ ],
+ "additions": [
+  {
+   "id": "black-diamond-trail-vista-shock",
+   "category": "trekking-poles",
+   "subcategory": "adjustable",
+   "brand": "Black Diamond",
+   "model": "Trail Vista Shock",
+   "variant": null,
+   "weight_g": 548,
+   "weight_basis": "manufacturer",
+   "weight_note": "per pair, BD spec",
+   "price_usd": 179.95,
+   "specs": {
+    "material": "aluminum",
+    "adjustable": true,
+    "collapsed_length_in": 28,
+    "locking": "FlickLock"
+   },
+   "url": "https://www.blackdiamondequipment.com/products/trail-vista-shock-trekking-poles",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Shock-absorbing; 100-140 cm, collapsed 70 cm."
+  },
+  {
+   "id": "black-diamond-trail-vista-flz-110-125-cm",
+   "category": "trekking-poles",
+   "subcategory": "folding",
+   "brand": "Black Diamond",
+   "model": "Trail Vista FLZ",
+   "variant": "110-125 cm",
+   "weight_g": 508,
+   "weight_basis": "manufacturer",
+   "weight_note": "per pair, BD spec (500/508/534 g across sizes)",
+   "price_usd": 169.95,
+   "specs": {
+    "material": "aluminum",
+    "adjustable": true,
+    "collapsed_length_in": 16,
+    "locking": "FlickLock + Z-pole"
+   },
+   "url": "https://www.blackdiamondequipment.com/products/trail-vista-flz-trekking-poles",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": null
+  },
+  {
+   "id": "salomon-x-ultra-5-gtx",
+   "category": "footwear",
+   "subcategory": "hiking shoe",
+   "brand": "Salomon",
+   "model": "X Ultra 5 GTX",
+   "variant": null,
+   "weight_g": 760,
+   "weight_basis": "manufacturer",
+   "weight_note": "pair; Salomon spec 380 g single shoe x2",
+   "price_usd": 175,
+   "specs": {
+    "waterproof": true,
+    "gender": "men's"
+   },
+   "url": "https://www.salomon.com/en-us/",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Replaces X Ultra 4 GTX. Weight via The Outfitters (Salomon spec copy); price per Switchback Travel."
+  },
+  {
+   "id": "salomon-x-ultra-5-mid-gtx",
+   "category": "footwear",
+   "subcategory": "hiking boot",
+   "brand": "Salomon",
+   "model": "X Ultra 5 Mid GTX",
+   "variant": null,
+   "weight_g": 880,
+   "weight_basis": "manufacturer",
+   "weight_note": "pair; Salomon spec 440 g single shoe x2",
+   "price_usd": 190,
+   "specs": {
+    "waterproof": true,
+    "gender": "men's"
+   },
+   "url": "https://www.salomon.com/en-us/",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Replaces X Ultra 4 Mid GTX. Weight via The Outfitters (Salomon spec copy); price per Switchback Travel."
+  },
+  {
+   "id": "arcteryx-norvan-ld-4",
+   "category": "footwear",
+   "subcategory": "trail runner",
+   "brand": "Arc'teryx",
+   "model": "Norvan LD 4",
+   "variant": null,
+   "weight_g": 540,
+   "weight_basis": "manufacturer",
+   "weight_note": "pair; Arc'teryx spec 270 g per half pair x2",
+   "price_usd": 170,
+   "specs": {
+    "waterproof": false,
+    "gender": "men's"
+   },
+   "url": "https://store.miyaradventures.com/products/arcteryx-mens-norvan-ld-4-shoe",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Replaces Norvan LD 3; GTX version $200. Weight via The Outfitters (Arc'teryx spec), price via Miyar Adventures (US)."
+  },
+  {
+   "id": "brooks-cascadia-elite",
+   "category": "footwear",
+   "subcategory": "trail runner",
+   "brand": "Brooks",
+   "model": "Cascadia Elite",
+   "variant": null,
+   "weight_g": 538,
+   "weight_basis": "manufacturer",
+   "weight_note": "pair; Running Warehouse-listed 9.5 oz / 269 g single shoe x2",
+   "price_usd": 275,
+   "specs": {
+    "drop_mm": 6,
+    "stack_mm": 41,
+    "forefoot_stack_mm": 35,
+    "waterproof": false,
+    "gender": "unisex"
+   },
+   "url": "https://www.runningwarehouse.com/Brooks_Cascadia_Elite/descpage-BRCAEU1.html",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Plated race trail shoe."
+  },
+  {
+   "id": "rab-mythic-ultra-32f",
+   "category": "sleep-insulation",
+   "subcategory": "sleeping bag",
+   "brand": "Rab",
+   "model": "Mythic Ultra Down Sleeping Bag",
+   "variant": "32°F",
+   "weight_g": 500,
+   "weight_basis": "manufacturer",
+   "weight_note": "Regular, Rab spec 1 lb 1.64 oz / 500 g",
+   "price_usd": 525,
+   "specs": {
+    "temp_rating_f": 32,
+    "fill": "down",
+    "fill_power": 900,
+    "style": "hooded mummy (TILT heat-reflective)"
+   },
+   "url": "https://rab.equipment/us/mythic-ultra-down-sleeping-bag-0c",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Replaces Mythic Ultra 180."
+  },
+  {
+   "id": "rab-mythic-ultra-20f",
+   "category": "sleep-insulation",
+   "subcategory": "sleeping bag",
+   "brand": "Rab",
+   "model": "Mythic Ultra Down Sleeping Bag",
+   "variant": "20°F",
+   "weight_g": 700,
+   "weight_basis": "manufacturer",
+   "weight_note": "Regular, Rab spec 1 lb 8.69 oz / 700 g",
+   "price_usd": 625,
+   "specs": {
+    "temp_rating_f": 20,
+    "fill": "down",
+    "fill_power": 900,
+    "style": "hooded mummy (TILT heat-reflective)"
+   },
+   "url": "https://rab.equipment/us/mythic-ultra-down-sleeping-bag-6c",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Replaces Mythic Ultra 360."
+  },
+  {
+   "id": "rab-mythic-ultra-10f",
+   "category": "sleep-insulation",
+   "subcategory": "sleeping bag",
+   "brand": "Rab",
+   "model": "Mythic Ultra Down Sleeping Bag",
+   "variant": "10°F",
+   "weight_g": 920,
+   "weight_basis": "manufacturer",
+   "weight_note": "Regular, Rab spec 2 lb 0.45 oz / 920 g",
+   "price_usd": 775,
+   "specs": {
+    "temp_rating_f": 10,
+    "fill": "down",
+    "fill_power": 900,
+    "style": "hooded mummy (TILT heat-reflective)"
+   },
+   "url": "https://rab.equipment/us/mythic-ultra-down-sleeping-bag-12c",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": null
+  },
+  {
+   "id": "rab-neutrino-20f",
+   "category": "sleep-insulation",
+   "subcategory": "sleeping bag",
+   "brand": "Rab",
+   "model": "Neutrino Down Sleeping Bag",
+   "variant": "20°F",
+   "weight_g": 870,
+   "weight_basis": "manufacturer",
+   "weight_note": "Regular, Rab spec 1 lb 14.69 oz / 870 g",
+   "price_usd": 500,
+   "specs": {
+    "temp_rating_f": 20,
+    "fill": "down",
+    "fill_power": 800,
+    "style": "hooded mummy"
+   },
+   "url": "https://rab.equipment/us/neutrino-down-sleeping-bag-6c",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Replaces Neutrino 400. Also offered in 32°F (700 g, $420) and 10°F (1070 g, $580)."
+  },
+  {
+   "id": "rab-trailhead-bivy",
+   "category": "shelter",
+   "subcategory": "bivy",
+   "brand": "Rab",
+   "model": "Trailhead Bivy",
+   "variant": null,
+   "weight_g": 406,
+   "weight_basis": "manufacturer",
+   "weight_note": "Rab spec 14.3 oz",
+   "price_usd": 140,
+   "specs": {
+    "capacity": 1,
+    "material": "waterproof-breathable"
+   },
+   "url": "https://rab.equipment/us/trailhead-bivi",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": null
+  },
+  {
+   "id": "rei-co-op-flash-air-50",
+   "category": "backpack",
+   "subcategory": "internal frame",
+   "brand": "REI Co-op",
+   "model": "Flash Air 50",
+   "variant": null,
+   "weight_g": 850,
+   "weight_basis": "manufacturer",
+   "weight_note": "1 lb 14 oz (men's & women's) per Switchback Travel",
+   "price_usd": 299,
+   "specs": {
+    "volume_l": 50,
+    "frame": "internal",
+    "max_load_lb": 25,
+    "material": "nylon",
+    "hipbelt": true
+   },
+   "url": "https://www.rei.com/",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "REI's lightest backpacking pack; men's and women's versions."
+  },
+  {
+   "id": "rei-co-op-trailmade-60-mens",
+   "category": "backpack",
+   "subcategory": "internal frame",
+   "brand": "REI Co-op",
+   "model": "Trailmade 60",
+   "variant": "Men's",
+   "weight_g": 1503,
+   "weight_basis": "manufacturer",
+   "weight_note": "3 lb 5 oz per Switchback Travel (women's 3 lb 3 oz)",
+   "price_usd": 189,
+   "specs": {
+    "volume_l": 60,
+    "frame": "internal",
+    "material": "100D nylon",
+    "hipbelt": true
+   },
+   "url": "https://www.rei.com/",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Budget pack."
+  },
+  {
+   "id": "rei-co-op-trailmade-rain-pants-mens",
+   "category": "rain-pants",
+   "subcategory": "rain pants",
+   "brand": "REI Co-op",
+   "model": "Trailmade Rain Pants",
+   "variant": "Men's",
+   "weight_g": 221,
+   "weight_basis": "manufacturer",
+   "weight_note": "7.8 oz per Switchback Travel (women's 8.9 oz)",
+   "price_usd": 70,
+   "specs": {
+    "material": "polyester 2.5L"
+   },
+   "url": "https://www.rei.com/",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": null
+  },
+  {
+   "id": "brooks-catamount-4",
+   "category": "footwear",
+   "subcategory": "trail runner",
+   "brand": "Brooks",
+   "model": "Catamount 4",
+   "variant": null,
+   "weight_g": 538,
+   "weight_basis": "manufacturer",
+   "weight_note": "pair; ~269 g men's single shoe x2 (UK retailer guide; other listings 262 g)",
+   "price_usd": null,
+   "specs": {
+    "drop_mm": 6,
+    "stack_mm": 34,
+    "forefoot_stack_mm": 28,
+    "waterproof": false,
+    "gender": "men's"
+   },
+   "url": "https://www.brooksrunning.com/",
+   "discontinued": false,
+   "confidence": "medium",
+   "notes": "Replaces Catamount 3; RRP £160 / €170; USD price not verified."
+  }
+ ]
+}

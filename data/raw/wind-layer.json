@@ -1,0 +1,1035 @@
+[
+  {
+    "id": "patagonia-houdini-jacket-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Patagonia",
+    "model": "Houdini Jacket",
+    "variant": "Men's",
+    "weight_g": 105,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 119,
+    "specs": {
+      "material": "15D recycled nylon ripstop",
+      "hood": true
+    },
+    "url": "https://www.patagonia.com/product/mens-houdini-windproof-jacket/24142.html",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "patagonia-houdini-jacket-womens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Patagonia",
+    "model": "Houdini Jacket",
+    "variant": "Women's",
+    "weight_g": 96,
+    "weight_basis": "manufacturer",
+    "weight_note": "Patagonia-listed 96 g (3.4 oz)",
+    "price_usd": 119,
+    "specs": {
+      "material": "15D recycled nylon ripstop",
+      "hood": true
+    },
+    "url": "https://www.patagonia.com.au/products/womens-houdini-jacket-24147-bob",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+  },
+  {
+    "id": "patagonia-houdini-air-jacket-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Patagonia",
+    "model": "Houdini Air Jacket",
+    "variant": "Men's",
+    "weight_g": 116,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 199,
+    "specs": {
+      "material": "air-permeable nylon",
+      "hood": true
+    },
+    "url": "https://rushfaster.com.au/collections/vendors/products/patagonia-mens-houdini-air-jacket",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Weight checked (AU retailer); US price not verified."
+  },
+  {
+    "id": "patagonia-houdini-vest-mens",
+    "category": "wind-layer",
+    "subcategory": "wind vest",
+    "brand": "Patagonia",
+    "model": "Houdini Vest",
+    "variant": "Men's",
+    "weight_g": 74,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M (67 g measured)",
+    "price_usd": 79,
+    "specs": {
+      "material": "15D nylon ripstop",
+      "hood": false
+    },
+    "url": "https://blisterreview.com/gear-reviews/patagonia-houdini-vest",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "REI lists as not available; may be discontinued."
+  },
+  {
+    "id": "patagonia-houdini-pants-mens",
+    "category": "wind-layer",
+    "subcategory": "wind pants",
+    "brand": "Patagonia",
+    "model": "Houdini Pants",
+    "variant": "Men's",
+    "weight_g": 88,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 99,
+    "specs": {
+      "material": "15D nylon ripstop"
+    },
+    "url": "https://www.backcountry.com/patagonia-houdini-pant-mens-pat3491",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Weight from retailer; price not verified."
+  },
+  {
+    "id": "patagonia-airshed-pro-pullover-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Patagonia",
+    "model": "Airshed Pro Pullover",
+    "variant": "Men's",
+    "weight_g": 105,
+    "weight_basis": "manufacturer",
+    "weight_note": "Patagonia spec 105 g (via The Outfitters)",
+    "price_usd": 139,
+    "specs": {
+      "material": "air-permeable nylon/elastane",
+      "hood": false
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Price per Switchback Travel."
+  },
+  {
+    "id": "arcteryx-squamish-hoody-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Arc'teryx",
+    "model": "Squamish Hoody",
+    "variant": "Men's",
+    "weight_g": 136,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 180,
+    "specs": {
+      "material": "Tyono 20 nylon ripstop",
+      "hood": true
+    },
+    "url": "https://featheredfriends.com/products/arcteryx-squamish-hoody-mens",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "arcteryx-squamish-hoody-womens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Arc'teryx",
+    "model": "Squamish Hoody",
+    "variant": "Women's",
+    "weight_g": 125,
+    "weight_basis": "manufacturer",
+    "weight_note": "women's M, approximate",
+    "price_usd": 200,
+    "specs": {
+      "material": "Tyono 20 nylon ripstop",
+      "hood": true
+    },
+    "url": "https://store.miyaradventures.com/products/arcteryx-womens-squamish-hoody",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "arcteryx-incendo-airshell-hoody-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Arc'teryx",
+    "model": "Incendo Airshell Hoody",
+    "variant": "Men's",
+    "weight_g": 105,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 240,
+    "specs": {
+      "material": "Airshell nylon",
+      "hood": true
+    },
+    "url": "https://www.rei.com/product/218810",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "REI marks as discontinued."
+  },
+  {
+    "id": "arcteryx-norvan-windshell-hoody-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Arc'teryx",
+    "model": "Norvan Windshell Hoody",
+    "variant": "Men's",
+    "weight_g": 107,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 220,
+    "specs": {
+      "material": "Canim nylon ripstop + Permair 20 panels",
+      "hood": true
+    },
+    "url": "https://featheredfriends.com/products/arcteryx-norvan-windshell-hoody-mens",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "black-diamond-alpine-start-hoody-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Black Diamond",
+    "model": "Alpine Start Hoody",
+    "variant": "Men's",
+    "weight_g": 207,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 229,
+    "specs": {
+      "material": "80 gsm nylon/elastane stretch woven, Schoeller",
+      "hood": true
+    },
+    "url": "https://www.blackdiamondequipment.com/products/mens-alpine-start-hoody",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "black-diamond-alpine-start-hoody-womens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Black Diamond",
+    "model": "Alpine Start Hoody",
+    "variant": "Women's",
+    "weight_g": 181,
+    "weight_basis": "manufacturer",
+    "weight_note": "BD spec weight",
+    "price_usd": 229,
+    "specs": {
+      "material": "nylon/elastane stretch woven",
+      "hood": true
+    },
+    "url": "https://www.blackdiamondequipment.com/products/womens-alpine-start-hoody",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "black-diamond-distance-wind-shell-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Black Diamond",
+    "model": "Distance Wind Shell",
+    "variant": "Men's",
+    "weight_g": 98,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's",
+    "price_usd": 199,
+    "specs": {
+      "material": "15D nylon ripstop 30 gsm",
+      "hood": true
+    },
+    "url": "https://blackdiamondequipment.com/products/m-distance-wind-shell",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "black-diamond-distance-wind-shell-womens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Black Diamond",
+    "model": "Distance Wind Shell",
+    "variant": "Women's",
+    "weight_g": 80,
+    "weight_basis": "manufacturer",
+    "weight_note": "BD spec weight",
+    "price_usd": 199,
+    "specs": {
+      "material": "15D nylon ripstop",
+      "hood": true
+    },
+    "url": "https://www.blackdiamondequipment.com/products/w-distance-wind-shell",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "montbell-tachyon-parka-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Montbell",
+    "model": "Tachyon Parka",
+    "variant": "Men's",
+    "weight_g": 72,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 119,
+    "specs": {
+      "material": "7D Ballistic Airlight nylon",
+      "hood": true
+    },
+    "url": "https://www.pod7kilo.cz/en/p/vetrovka-montbell-tachyon-parka-panska/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Price not verified; also sold as Tachyon Hooded Jacket."
+  },
+  {
+    "id": "montbell-tachyon-parka-womens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Montbell",
+    "model": "Tachyon Parka",
+    "variant": "Women's",
+    "weight_g": 65,
+    "weight_basis": "manufacturer",
+    "weight_note": "2.3 oz per Switchback Travel spec table (Oct 2026)",
+    "price_usd": 130,
+    "specs": {
+      "material": "7D Ballistic Airlight nylon",
+      "hood": true
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "montbell-tachyon-anorak",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Montbell",
+    "model": "Tachyon Anorak",
+    "variant": "Men's",
+    "weight_g": 55,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 99,
+    "specs": {
+      "material": "7D Ballistic Airlight nylon",
+      "hood": true
+    },
+    "url": "https://www.trailspace.com/gear/montbell/tachyon-anorak/",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "montbell-ex-light-wind-parka-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Montbell",
+    "model": "EX Light Wind Parka",
+    "variant": "Men's",
+    "weight_g": 61,
+    "weight_basis": "measured",
+    "weight_note": "men's, reviewer-measured",
+    "price_usd": null,
+    "specs": {
+      "material": "ultralight nylon",
+      "hood": true
+    },
+    "url": "https://outdoorgearzine.com/en/best-lightweight-windshells/amp",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Japan ¥11,000; US price not verified."
+  },
+  {
+    "id": "montbell-ex-light-wind-vest",
+    "category": "wind-layer",
+    "subcategory": "wind vest",
+    "brand": "Montbell",
+    "model": "EX Light Wind Vest",
+    "variant": "Men's",
+    "weight_g": 37,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 83,
+    "specs": {
+      "material": "ultralight nylon",
+      "hood": false
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2303138",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "USD list price from Montbell America (montbell.com/us/en/products/detail/2303138, non-outlet), checked 2026-10-23."
+  },
+  {
+    "id": "montbell-tachyon-pants-mens",
+    "category": "wind-layer",
+    "subcategory": "wind pants",
+    "brand": "Montbell",
+    "model": "Tachyon Pants",
+    "variant": "Men's",
+    "weight_g": 53,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 109,
+    "specs": {
+      "material": "7D Ballistic Airlight nylon"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2305132",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2305132, non-outlet), checked 2026-10-23."
+  },
+  {
+    "id": "montbell-wind-blast-parka-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Montbell",
+    "model": "Wind Blast Parka",
+    "variant": "Men's",
+    "weight_g": 130,
+    "weight_basis": "estimate",
+    "weight_note": "men's M, approximate",
+    "price_usd": 99,
+    "specs": {
+      "material": "nylon",
+      "hood": true
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "enlightened-equipment-copperfield-wind-shirt-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Enlightened Equipment",
+    "model": "Copperfield Wind Shirt",
+    "variant": "Men's",
+    "weight_g": 58,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M, 10D (7D/20D options)",
+    "price_usd": 120,
+    "specs": {
+      "material": "10D nylon",
+      "hood": true
+    },
+    "url": "https://enlightenedequipment.com/mens-cop-wind-shirt",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "enlightened-equipment-copperfield-wind-shirt-womens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Enlightened Equipment",
+    "model": "Copperfield Wind Shirt",
+    "variant": "Women's",
+    "weight_g": 52,
+    "weight_basis": "manufacturer",
+    "weight_note": "women's M, 10D, approximate",
+    "price_usd": 120,
+    "specs": {
+      "material": "10D nylon",
+      "hood": true
+    },
+    "url": "https://enlightenedequipment.com/womens-copperfield-wind-shirt-cus/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "enlightened-equipment-copperfield-wind-pants-mens",
+    "category": "wind-layer",
+    "subcategory": "wind pants",
+    "brand": "Enlightened Equipment",
+    "model": "Copperfield Wind Pants",
+    "variant": "Men's",
+    "weight_g": 29,
+    "weight_basis": "manufacturer",
+    "weight_note": "starting weight (lightest fabric/size)",
+    "price_usd": 80,
+    "specs": {
+      "material": "7D/10D/20D nylon"
+    },
+    "url": "https://enlightenedequipment.com/mens-copperfield-wind-pants-cus/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "enlightened-equipment-copperfield-wind-pants-womens",
+    "category": "wind-layer",
+    "subcategory": "wind pants",
+    "brand": "Enlightened Equipment",
+    "model": "Copperfield Wind Pants",
+    "variant": "Women's",
+    "weight_g": 38,
+    "weight_basis": "manufacturer",
+    "weight_note": "women's, 10D",
+    "price_usd": 80,
+    "specs": {
+      "material": "10D nylon"
+    },
+    "url": "https://enlightenedequipment.com/womens-cop-wind-pants",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "outdoor-research-helium-wind-hoodie-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Outdoor Research",
+    "model": "Helium Wind Hoodie",
+    "variant": "Men's",
+    "weight_g": 150,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 130,
+    "specs": {
+      "material": "Pertex Quantum nylon",
+      "hood": true
+    },
+    "url": "https://www.opticsplanet.com/outdoor-research-helium-wind-hoodie-men-s.html",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Some variants discontinued."
+  },
+  {
+    "id": "rab-vital-hoody-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Rab",
+    "model": "Vital Hoody",
+    "variant": "Men's",
+    "weight_g": 130,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 100,
+    "specs": {
+      "material": "20D Atmos nylon",
+      "hood": true
+    },
+    "url": "https://www.rei.com/product/C10989/rab-vital-hooded-jacket-mens",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "rab-vital-hoody-womens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Rab",
+    "model": "Vital Hoody",
+    "variant": "Women's",
+    "weight_g": 114,
+    "weight_basis": "manufacturer",
+    "weight_note": "Rab spec 4 oz / 114 g",
+    "price_usd": 100,
+    "specs": {
+      "material": "20D Atmos nylon",
+      "hood": true
+    },
+    "url": "https://rab.equipment/us/women-s-vital-hoody",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "rab-borealis-jacket-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Rab",
+    "model": "Borealis Jacket",
+    "variant": "Men's",
+    "weight_g": 300,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M (newer version ~250 g)",
+    "price_usd": 120,
+    "specs": {
+      "material": "Matrix stretch softshell",
+      "hood": true
+    },
+    "url": "https://evo.com/en-ca/softshell-jackets/rab-borealis-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Light softshell used as a wind layer."
+  },
+  {
+    "id": "mountain-hardwear-kor-airshell-hoody-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Mountain Hardwear",
+    "model": "Kor AirShell Hoody",
+    "variant": "Men's",
+    "weight_g": 179,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 165,
+    "specs": {
+      "material": "Pertex Quantum Air stretch nylon",
+      "hood": true
+    },
+    "url": "https://www.als.com/mountain-hardwear-kor-airshell-hoodie-mens-10613180/p",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "mountain-hardwear-kor-airshell-hoody-womens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Mountain Hardwear",
+    "model": "Kor AirShell Hoody",
+    "variant": "Women's",
+    "weight_g": 156,
+    "weight_basis": "manufacturer",
+    "weight_note": "women's M, approximate",
+    "price_usd": 165,
+    "specs": {
+      "material": "Pertex Quantum Air",
+      "hood": true
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "mountain-hardwear-kor-airshell-vest-mens",
+    "category": "wind-layer",
+    "subcategory": "wind vest",
+    "brand": "Mountain Hardwear",
+    "model": "Kor AirShell Vest",
+    "variant": "Men's",
+    "weight_g": 100,
+    "weight_basis": "estimate",
+    "weight_note": "men's M, approximate",
+    "price_usd": 110,
+    "specs": {
+      "material": "Pertex Quantum Air",
+      "hood": false
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "zpacks-ventum-wind-shell",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Zpacks",
+    "model": "Ventum Wind Shell",
+    "variant": "Men's",
+    "weight_g": 53,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 99.95,
+    "specs": {
+      "material": "ultralight nylon",
+      "hood": true
+    },
+    "url": "https://www.zpacks.com/products/wind-shell-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "montane-featherlite-nano-jacket-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Montane",
+    "model": "Featherlite Nano Windproof Jacket",
+    "variant": "Men's",
+    "weight_g": 52,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": 130,
+    "specs": {
+      "material": "ultralight nylon",
+      "hood": true
+    },
+    "url": "https://no.montane.com/products/montane-mens-featherlite-nano-windproof-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "montane-featherlite-trail-jacket-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Montane",
+    "model": "Featherlite Trail Jacket",
+    "variant": "Men's",
+    "weight_g": 100,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": null,
+    "specs": {
+      "material": "Pertex Quantum nylon",
+      "hood": true
+    },
+    "url": "https://backpackinglight.com.au/products/montane-featherlite-trail-jacket-mens-1",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "AU$179."
+  },
+  {
+    "id": "janji-zephyrunner-wind-shell-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Janji",
+    "model": "Zephyrunner Wind Shell",
+    "variant": "Men's",
+    "weight_g": 133,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's",
+    "price_usd": 148,
+    "specs": {
+      "material": "nylon, water-resistant",
+      "hood": true
+    },
+    "url": "https://www.rei.com/product/230745",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "salomon-bonatti-cross-wind-jacket-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Salomon",
+    "model": "Bonatti Cross Wind Jacket",
+    "variant": "Men's",
+    "weight_g": 134,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": null,
+    "specs": {
+      "material": "polyamide",
+      "hood": true
+    },
+    "url": "https://www.lepape.com/en/salomon-bonatti-cross-wind-men-red",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "brooks-canopy-jacket-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Brooks",
+    "model": "Canopy Jacket",
+    "variant": "Men's",
+    "weight_g": 181,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's",
+    "price_usd": 100,
+    "specs": {
+      "material": "wind/water-resistant polyester",
+      "hood": true
+    },
+    "url": "https://shop4runners.eu/canopy-jacket-357988",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "brooks-canopy-jacket-womens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Brooks",
+    "model": "Canopy Jacket",
+    "variant": "Women's",
+    "weight_g": 137,
+    "weight_basis": "manufacturer",
+    "weight_note": "women's S",
+    "price_usd": 100,
+    "specs": {
+      "material": "wind/water-resistant polyester",
+      "hood": true
+    },
+    "url": "https://stores.brooksrunning.com/product/2400674/brooks-running-womens-canopy-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "ultimate-direction-ventro-windshell-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Ultimate Direction",
+    "model": "Ventro Windshell",
+    "variant": "Men's",
+    "weight_g": 70,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's",
+    "price_usd": 89.95,
+    "specs": {
+      "material": "ultralight nylon",
+      "hood": true
+    },
+    "url": "https://blog.outdoorprolink.com/proview-ultimate-direction-womens-ventro-windshell/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "ultimate-direction-breeze-jacket-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Ultimate Direction",
+    "model": "Breeze Jacket",
+    "variant": "Men's",
+    "weight_g": 102,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M",
+    "price_usd": null,
+    "specs": {
+      "material": "20D ripstop nylon",
+      "hood": true
+    },
+    "url": "https://outdoorgearlab.com/reviews/clothing-mens/running-jacket/ultimate-direction-breeze",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Older model; availability uncertain."
+  },
+  {
+    "id": "decathlon-kiprun-run-100-windproof-jacket-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Decathlon",
+    "model": "Kiprun Run 100 Windproof Jacket",
+    "variant": "Men's",
+    "weight_g": 192,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's L",
+    "price_usd": 34.99,
+    "specs": {
+      "material": "polyester",
+      "hood": true
+    },
+    "url": "https://www.decathlon.com/products/kalenji-mens-kiprun-run-100-windproof-running-trail-running-jacket-black-350661",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "katabatic-gear-crest-windshell",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Katabatic Gear",
+    "model": "Crest Windshell",
+    "variant": null,
+    "weight_g": 51,
+    "weight_basis": "manufacturer",
+    "weight_note": "M",
+    "price_usd": 129,
+    "specs": {
+      "material": "ultralight nylon",
+      "hood": true
+    },
+    "url": "https://sectionhiker.com/10-best-wind-shirts-of-2026/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "From SectionHiker roundup."
+  },
+  {
+    "id": "timmermade-argon-90-wind-pullover",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "model": "Argon 90 Wind Pullover",
+    "variant": null,
+    "weight_g": 51,
+    "weight_basis": "manufacturer",
+    "weight_note": "medium, basic pullover (1.8 oz); full-featured zip jacket ~3.5 oz",
+    "price_usd": 95,
+    "specs": {
+      "material": "Argon 90 15D nylon (40 CFM)",
+      "hood": true
+    },
+    "url": "https://timmermade.com/product/argon-wind-pullover-jacket/",
+    "notes": "Made to order; crossover hood on pullover; hood with cinches +$45. Weight and price from product page, checked 2026-10-23.",
+    "discontinued": false,
+    "confidence": "high",
+    "brand": "Timmermade"
+  },
+  {
+    "id": "timmermade-hyper-d-wind-pullover",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "model": "Hyper D Wind Pullover",
+    "variant": null,
+    "weight_g": 51,
+    "weight_basis": "manufacturer",
+    "weight_note": "medium Hyper D pullover (1.8 oz); full zip + hood + cinches 3.3 oz",
+    "price_usd": 95,
+    "specs": {
+      "material": "Hyper D 1.0 oz uncalendered 20D (Airwave option +$20)",
+      "hood": true
+    },
+    "url": "https://timmermade.com/product/hyper-d-wind-pullover-jacket/",
+    "notes": "Made to order. Weight and price from product page, checked 2026-10-23.",
+    "discontinued": false,
+    "confidence": "high",
+    "brand": "Timmermade"
+  },
+  {
+    "id": "montbell-wind-blast-vest-mens",
+    "category": "wind-layer",
+    "subcategory": "wind vest",
+    "brand": "Montbell",
+    "model": "Wind Blast Vest",
+    "variant": "Men's",
+    "weight_g": 119,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell UK listed weight",
+    "price_usd": null,
+    "specs": {
+      "material": "40D nylon taffeta, water-repellent",
+      "hood": false
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/1103326",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #1103326. UK price GBP 75; USD price not captured"
+  },
+  {
+    "id": "rab-borealis-vest-mens",
+    "category": "wind-layer",
+    "subcategory": "wind vest",
+    "brand": "Rab",
+    "model": "Borealis Vest",
+    "variant": "Men's",
+    "weight_g": 165,
+    "weight_basis": "manufacturer",
+    "weight_note": "Rab listed 5.8 oz / 165 g",
+    "price_usd": 100,
+    "specs": {
+      "material": "Matrix Light stretch softshell, wind resistant",
+      "hood": false
+    },
+    "url": "https://rab.equipment/us/mens-borealis-vest",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Lightweight stretch softshell vest; more air-permeable than a nylon wind vest"
+  },
+  {
+    "id": "rab-borealis-vest-womens",
+    "category": "wind-layer",
+    "subcategory": "wind vest",
+    "brand": "Rab",
+    "model": "Borealis Vest",
+    "variant": "Women's",
+    "weight_g": 141,
+    "weight_basis": "manufacturer",
+    "weight_note": "Rab listed 4.9 oz / 141 g",
+    "price_usd": 100,
+    "specs": {
+      "material": "Matrix Light stretch softshell, wind resistant",
+      "hood": false
+    },
+    "url": "https://rab.equipment/us/womens-borealis-vest",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "decathlon-van-rysel-ultralight-cycling-wind-vest-mens",
+    "category": "wind-layer",
+    "subcategory": "wind vest",
+    "brand": "Decathlon",
+    "model": "Van Rysel Ultralight Cycling Wind Vest",
+    "variant": "Men's",
+    "weight_g": 91,
+    "weight_basis": "manufacturer",
+    "weight_note": "size L, Decathlon-listed 3.2 oz",
+    "price_usd": 59.99,
+    "specs": {
+      "material": "windproof polyester",
+      "hood": false
+    },
+    "url": "https://www.decathlon.com/products/van-rysel-mens-road-cycling-ultra-light-sleeveless-windproof-gilet-black-304048",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Cycling-cut wind gilet; packs into own pocket"
+  },
+  {
+    "id": "montbell-cross-runner-light-pants-mens",
+    "category": "wind-layer",
+    "subcategory": "wind pants",
+    "brand": "Montbell",
+    "model": "Cross Runner Light Pants",
+    "variant": "Men's",
+    "weight_g": 161,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell UK listed weight",
+    "price_usd": null,
+    "specs": {
+      "material": "water-repellent polyester"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2305249",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Light water-repellent running/hiking shell pant; not a dedicated windproof fabric. Model #2305249"
+  },
+  {
+    "id": "montbell-light-cross-runner-pants-womens",
+    "category": "wind-layer",
+    "subcategory": "wind pants",
+    "brand": "Montbell",
+    "model": "Light Cross Runner Pants",
+    "variant": "Women's",
+    "weight_g": 136,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell UK listed weight",
+    "price_usd": null,
+    "specs": {
+      "material": "water-repellent polyester"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/1105715",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Light water-repellent running pant. Model #1105715"
+  },
+  {
+    "id": "janji-zephyrunner-wind-shell-womens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Janji",
+    "model": "Zephyrunner Wind Shell",
+    "variant": "Women's",
+    "weight_g": 123,
+    "weight_basis": "manufacturer",
+    "weight_note": "women's S, Janji-listed 123 g / 4.3 oz",
+    "price_usd": 156,
+    "specs": {
+      "hood": true
+    },
+    "url": "https://janji.com/products/ws-zephyrunner-wind-shell",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  }
+]

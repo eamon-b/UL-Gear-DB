@@ -1,0 +1,7 @@
+node_modules
+dist
+public/data/gear.json
+screenshots/*.tmp
+*.log
+.DS_Store
+*.tsbuildinfo

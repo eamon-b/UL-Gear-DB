@@ -1,0 +1,32 @@
+{
+  "name": "ul-gear-db",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "data": "node scripts/build-data.mjs",
+    "predev": "node scripts/build-data.mjs",
+    "dev": "vite",
+    "prebuild": "node scripts/build-data.mjs",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "check-data": "node scripts/check-data.mjs",
+    "apply-patches": "node scripts/apply-patches.mjs"
+  },
+  "dependencies": {
+    "lz-string": "^1.5.0",
+    "papaparse": "^5.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.5.2",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "playwright-core": "^1.64.1",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  }
+}

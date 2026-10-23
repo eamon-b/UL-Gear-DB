@@ -1,0 +1,2033 @@
+{
+ "updates": [
+  {
+   "id": "enlightened-equipment-revelation-0f-850fp",
+   "set": {
+    "weight_g": 831,
+    "weight_basis": "manufacturer",
+    "price_usd": 425,
+    "confidence": "high",
+    "weight_note": "Regular length (78\") / Regular width; 850FP; total weight from EE chart (29.32 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-0f-950fp",
+   "set": {
+    "weight_g": 764,
+    "weight_basis": "manufacturer",
+    "price_usd": 590,
+    "confidence": "high",
+    "weight_note": "Regular length (78\") / Regular width; 950FP; total weight from EE chart (26.96 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-10f-850fp",
+   "set": {
+    "weight_g": 736,
+    "weight_basis": "manufacturer",
+    "price_usd": 400,
+    "confidence": "high",
+    "weight_note": "Regular length (78\") / Regular width; 850FP; total weight from EE chart (25.95 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-10f-950fp",
+   "set": {
+    "weight_g": 678,
+    "weight_basis": "manufacturer",
+    "price_usd": 540,
+    "confidence": "high",
+    "weight_note": "Regular length (78\") / Regular width; 950FP; total weight from EE chart (23.92 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-20f-850fp",
+   "set": {
+    "weight_g": 639,
+    "weight_basis": "manufacturer",
+    "price_usd": 375,
+    "confidence": "high",
+    "weight_note": "Regular length (78\") / Regular width; 850FP; total weight from EE chart (22.54 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-20f-950fp",
+   "set": {
+    "weight_g": 592,
+    "price_usd": 490,
+    "confidence": "high",
+    "weight_note": "Regular length (78\") / Regular width; 950FP; total weight from EE chart (20.88 oz)",
+    "notes": "Site lists 19.18 oz as the default-configuration weight (configuration not stated). Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-30f-850fp",
+   "set": {
+    "weight_g": 544,
+    "weight_basis": "manufacturer",
+    "price_usd": 345,
+    "confidence": "high",
+    "weight_note": "Regular length (78\") / Regular width; 850FP; total weight from EE chart (19.18 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-30f-950fp",
+   "set": {
+    "weight_g": 505,
+    "weight_basis": "manufacturer",
+    "price_usd": 445,
+    "confidence": "high",
+    "weight_note": "Regular length (78\") / Regular width; 950FP; total weight from EE chart (17.82 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-40f-850fp",
+   "set": {
+    "weight_g": 448,
+    "weight_basis": "manufacturer",
+    "price_usd": 320,
+    "confidence": "high",
+    "weight_note": "Regular length (78\") / Regular width; 850FP; total weight from EE chart (15.81 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-40f-950fp",
+   "set": {
+    "weight_basis": "manufacturer",
+    "price_usd": 390,
+    "confidence": "high",
+    "weight_note": "Regular length (78\") / Regular width; 950FP; total weight from EE chart (14.83 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-50f-850fp",
+   "set": {
+    "weight_g": 353,
+    "weight_basis": "manufacturer",
+    "price_usd": 285,
+    "confidence": "high",
+    "weight_note": "Regular length (78\") / Regular width; 850FP; total weight from EE chart (12.44 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-0f-850fp",
+   "set": {
+    "weight_g": 784,
+    "weight_basis": "manufacturer",
+    "price_usd": 435,
+    "confidence": "high",
+    "weight_note": "Regular length (72\") / Regular width; 850FP; total weight from EE chart (27.67 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-10f-850fp",
+   "set": {
+    "weight_g": 692,
+    "weight_basis": "manufacturer",
+    "price_usd": 410,
+    "confidence": "high",
+    "weight_note": "Regular length (72\") / Regular width; 850FP; total weight from EE chart (24.42 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-10f-950fp",
+   "set": {
+    "weight_g": 628,
+    "weight_basis": "manufacturer",
+    "price_usd": 545,
+    "confidence": "high",
+    "weight_note": "Regular length (72\") / Regular width; 950FP; total weight from EE chart (22.15 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-20f-850fp",
+   "set": {
+    "price_usd": 385,
+    "weight_note": "Regular length (72\") / Regular width; 850FP; total weight from EE chart (21.19 oz)",
+    "notes": "Site-listed weight 21.19 oz (600 g); retailers confirm this is 20°F 850 Reg/Reg. Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-20f-950fp",
+   "set": {
+    "weight_g": 546,
+    "weight_basis": "manufacturer",
+    "price_usd": 500,
+    "confidence": "high",
+    "weight_note": "Regular length (72\") / Regular width; 950FP; total weight from EE chart (19.25 oz)",
+    "notes": "Reviewers report ~1 lb 3.3 oz for 20°F 950 Regular. Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-30f-850fp",
+   "set": {
+    "weight_g": 509,
+    "weight_basis": "manufacturer",
+    "price_usd": 355,
+    "confidence": "high",
+    "weight_note": "Regular length (72\") / Regular width; 850FP; total weight from EE chart (17.94 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-30f-950fp",
+   "set": {
+    "weight_g": 463,
+    "weight_basis": "manufacturer",
+    "price_usd": 450,
+    "confidence": "high",
+    "weight_note": "Regular length (72\") / Regular width; 950FP; total weight from EE chart (16.33 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-40f-850fp",
+   "set": {
+    "weight_g": 416,
+    "weight_basis": "manufacturer",
+    "price_usd": 330,
+    "confidence": "high",
+    "weight_note": "Regular length (72\") / Regular width; 850FP; total weight from EE chart (14.69 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-40f-950fp",
+   "set": {
+    "weight_g": 380,
+    "weight_basis": "manufacturer",
+    "price_usd": 400,
+    "confidence": "high",
+    "weight_note": "Regular length (72\") / Regular width; 950FP; total weight from EE chart (13.39 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-50f-850fp",
+   "set": {
+    "weight_g": 325,
+    "weight_basis": "manufacturer",
+    "price_usd": 300,
+    "confidence": "high",
+    "weight_note": "Regular length (72\") / Regular width; 850FP; total weight from EE chart (11.48 oz)",
+    "notes": "Price is stock-fabric, no draft collar, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-apex-20f",
+   "set": {
+    "weight_g": 854,
+    "weight_basis": "manufacturer",
+    "confidence": "high",
+    "weight_note": "Regular (78\") / Regular width; total weight from EE chart (30.14 oz)",
+    "notes": "Stock fabric, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-apex-30f",
+   "set": {
+    "weight_g": 675,
+    "weight_basis": "manufacturer",
+    "price_usd": 230,
+    "confidence": "high",
+    "weight_note": "Regular (78\") / Regular width; total weight from EE chart (23.81 oz)",
+    "notes": "Stock fabric, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-apex-40f",
+   "set": {
+    "price_usd": 220,
+    "confidence": "high",
+    "weight_note": "Regular (78\") / Regular width; total weight from EE chart (17.8 oz)",
+    "notes": "Stock fabric, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-apex-50f",
+   "set": {
+    "weight_g": 334,
+    "weight_basis": "manufacturer",
+    "confidence": "high",
+    "weight_note": "Regular (78\") / Regular width; total weight from EE chart (11.79 oz)",
+    "notes": "Stock fabric, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-apex-30f",
+   "set": {
+    "weight_g": 638,
+    "weight_basis": "manufacturer",
+    "price_usd": 240,
+    "confidence": "high",
+    "weight_note": "Regular (72\") / Regular width; total weight from EE chart (22.49 oz)",
+    "notes": "Stock fabric, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-apex-40f",
+   "set": {
+    "weight_g": 473,
+    "weight_basis": "manufacturer",
+    "price_usd": 230,
+    "confidence": "high",
+    "weight_note": "Regular (72\") / Regular width; total weight from EE chart (16.7 oz)",
+    "notes": "Stock fabric, Regular/Regular. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-convert-10f-850fp",
+   "set": {
+    "weight_g": 861,
+    "weight_basis": "manufacturer",
+    "price_usd": 495,
+    "confidence": "high",
+    "weight_note": "Regular length (78\") / Regular width; 850FP; total weight from EE chart (30.38 oz)",
+    "notes": "Price is stock fabric, Regular/Regular (40°F stock price not offered in configurator at check time). EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-convert-20f-850fp",
+   "set": {
+    "weight_g": 750,
+    "price_usd": 465,
+    "confidence": "high",
+    "weight_note": "Regular length (78\") / Regular width; 850FP; total weight from EE chart (26.45 oz)",
+    "notes": "Site lists 22.81 oz as default-configuration weight (config not stated). Price is stock fabric, Regular/Regular (40°F stock price not offered in configurator at check time). EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-convert-40f-850fp",
+   "set": {
+    "weight_g": 536,
+    "weight_basis": "manufacturer",
+    "confidence": "high",
+    "weight_note": "Regular length (78\") / Regular width; 850FP; total weight from EE chart (18.89 oz)",
+    "notes": "Price is stock fabric, Regular/Regular (40°F stock price not offered in configurator at check time). EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-accomplice-2p",
+   "set": {
+    "price_usd": 555,
+    "confidence": "high",
+    "weight_note": "30°F, 850FP, Regular (72\") two-person size; total weight from EE chart (30.98 oz)",
+    "variant": "2-Person 30°F 850FP",
+    "specs": {
+     "temp_rating_f": 30,
+     "fill": "down",
+     "fill_power": 850,
+     "fill_weight_g": 631,
+     "style": "two-person quilt"
+    },
+    "notes": "Two-person quilt; 50°F to 0°F options. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "enlightened-equipment-conundrum",
+   "set": {
+    "weight_g": 722,
+    "price_usd": 485,
+    "confidence": "high",
+    "weight_note": "20°F, 850FP, Regular (72\") / Regular width; total weight from EE chart (25.47 oz)",
+    "variant": "20°F 850FP",
+    "specs": {
+     "temp_rating_f": 20,
+     "fill": "down",
+     "fill_power": 850,
+     "fill_weight_g": 475,
+     "style": "quilt (sewn footbox, 3/4 zip)"
+    },
+    "notes": "Cold-weather quilt, 30°F to -10°F options. Cold-weather quilt, 30°F to -10°F options; 20°F 850 Regular/Regular shown. EE size chart image (Regular/Regular, 10D fabric) and BigCommerce variant price, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "hammock-gear-burrow-0f",
+   "set": {
+    "weight_g": 796,
+    "weight_basis": "manufacturer",
+    "weight_note": "Standard length (74\") / Standard width (55\"), sewn footbox, 10D shell, 850FP; HG final-weight sheet 28.07 oz",
+    "confidence": "high",
+    "notes": "Weight from Hammock Gear \"850 Fill and Final weights\" spec sheet (hammockgear.com/product-specs, B850finalweights.pdf), checked 2026-10-23. Price: $239.95 base (WooCommerce store API, checked 2026-10-23) + $15 standard length."
+   }
+  },
+  {
+   "id": "hammock-gear-burrow-10f",
+   "set": {
+    "weight_g": 704,
+    "weight_basis": "manufacturer",
+    "weight_note": "Standard length (74\") / Standard width (55\"), sewn footbox, 10D shell, 850FP; HG final-weight sheet 24.83 oz",
+    "confidence": "high",
+    "notes": "Weight from Hammock Gear \"850 Fill and Final weights\" spec sheet (hammockgear.com/product-specs, B850finalweights.pdf), checked 2026-10-23. Price: $239.95 base (WooCommerce store API, checked 2026-10-23) + $15 standard length."
+   }
+  },
+  {
+   "id": "hammock-gear-burrow-20f",
+   "set": {
+    "weight_g": 616,
+    "weight_basis": "manufacturer",
+    "weight_note": "Standard length (74\") / Standard width (55\"), sewn footbox, 10D shell, 850FP; HG final-weight sheet 21.72 oz",
+    "confidence": "high",
+    "notes": "Weight from Hammock Gear \"850 Fill and Final weights\" spec sheet (hammockgear.com/product-specs, B850finalweights.pdf), checked 2026-10-23. Price: $239.95 base (WooCommerce store API, checked 2026-10-23) + $15 standard length."
+   }
+  },
+  {
+   "id": "hammock-gear-burrow-30f",
+   "set": {
+    "weight_g": 521,
+    "weight_basis": "manufacturer",
+    "weight_note": "Standard length (74\") / Standard width (55\"), sewn footbox, 10D shell, 850FP; HG final-weight sheet 18.37 oz",
+    "confidence": "high",
+    "notes": "Weight from Hammock Gear \"850 Fill and Final weights\" spec sheet (hammockgear.com/product-specs, B850finalweights.pdf), checked 2026-10-23. Price: $239.95 base (WooCommerce store API, checked 2026-10-23) + $15 standard length."
+   }
+  },
+  {
+   "id": "hammock-gear-burrow-40f",
+   "set": {
+    "weight_g": 426,
+    "weight_basis": "manufacturer",
+    "weight_note": "Standard length (74\") / Standard width (55\"), sewn footbox, 10D shell, 850FP; HG final-weight sheet 15.03 oz",
+    "confidence": "high",
+    "notes": "Weight from Hammock Gear \"850 Fill and Final weights\" spec sheet (hammockgear.com/product-specs, B850finalweights.pdf), checked 2026-10-23. Price: $239.95 base (WooCommerce store API, checked 2026-10-23) + $15 standard length."
+   }
+  },
+  {
+   "id": "hammock-gear-incubator-0f",
+   "set": {
+    "weight_g": 747,
+    "weight_basis": "manufacturer",
+    "weight_note": "Standard (78\" x 44\"), 900FP; HG Premium Incubator spec sheet total weight 26.34 oz",
+    "confidence": "medium",
+    "notes": "HG spec sheet (PIncubator.pdf, linked from hammockgear.com/product-specs, checked 2026-10-23) lists 900/950FP builds only; product page describes 850FP, so the 850FP weight may be slightly higher. Base price $219.95 verified via store API 2026-10-23."
+   }
+  },
+  {
+   "id": "hammock-gear-incubator-20f",
+   "set": {
+    "weight_g": 598,
+    "weight_basis": "manufacturer",
+    "weight_note": "Standard (78\" x 44\"), 900FP; HG Premium Incubator spec sheet total weight 21.08 oz",
+    "confidence": "medium",
+    "notes": "HG spec sheet (PIncubator.pdf, linked from hammockgear.com/product-specs, checked 2026-10-23) lists 900/950FP builds only; product page describes 850FP, so the 850FP weight may be slightly higher. Base price $219.95 verified via store API 2026-10-23."
+   }
+  },
+  {
+   "id": "hammock-gear-incubator-40f",
+   "set": {
+    "weight_g": 447,
+    "weight_basis": "manufacturer",
+    "weight_note": "Standard (78\" x 44\"), 900FP; HG Premium Incubator spec sheet total weight 15.76 oz",
+    "confidence": "medium",
+    "notes": "HG spec sheet (PIncubator.pdf, linked from hammockgear.com/product-specs, checked 2026-10-23) lists 900/950FP builds only; product page describes 850FP, so the 850FP weight may be slightly higher. Base price $219.95 verified via store API 2026-10-23."
+   }
+  },
+  {
+   "id": "hammock-gear-phoenix-20f",
+   "set": {
+    "weight_g": 439,
+    "weight_basis": "manufacturer",
+    "weight_note": "3/4 length, 10D shell, 850FP; HG Phoenix final-weight sheet 15.48 oz",
+    "confidence": "high",
+    "notes": "Weight from HG \"Phoenix Final Weights\" spec sheet (PPhoenix.pdf via hammockgear.com/product-specs), checked 2026-10-23. Base price $189.95 verified via store API."
+   }
+  },
+  {
+   "id": "ugq-outdoor-bandit-0f-850fp",
+   "set": {
+    "weight_g": 804,
+    "weight_basis": "manufacturer",
+    "weight_note": "Reg width (55\") / Reg length (72\"), 850FP, M10T fabric, boxed flat sewn footbox (lightest config)",
+    "price_usd": 379.95,
+    "confidence": "high",
+    "notes": "Weight from UGQ BANDIT-0F-2023 spec PDF; price is Reg/Reg 850FP variation from UGQ store API; checked 2026-10-23. Site range $204.95-$594.95."
+   }
+  },
+  {
+   "id": "ugq-outdoor-bandit-10f-850fp",
+   "set": {
+    "weight_g": 718,
+    "weight_basis": "manufacturer",
+    "weight_note": "Reg width (55\") / Reg length (72\"), 850FP, M10T fabric, boxed flat sewn footbox (lightest config)",
+    "price_usd": 354.95,
+    "confidence": "high",
+    "notes": "Weight from UGQ BANDIT-10F-2023 spec PDF; price is Reg/Reg 850FP variation from UGQ store API; checked 2026-10-23. Site range $204.95-$594.95."
+   }
+  },
+  {
+   "id": "ugq-outdoor-bandit-20f-850fp",
+   "set": {
+    "weight_g": 631,
+    "weight_basis": "manufacturer",
+    "weight_note": "Reg width (55\") / Reg length (72\"), 850FP, M10T fabric, boxed flat sewn footbox (lightest config)",
+    "price_usd": 334.95,
+    "confidence": "high",
+    "notes": "Weight from UGQ BANDIT-20F-2023 spec PDF; price is Reg/Reg 850FP variation from UGQ store API; checked 2026-10-23. Site range $204.95-$594.95."
+   }
+  },
+  {
+   "id": "ugq-outdoor-bandit-30f-850fp",
+   "set": {
+    "weight_g": 537,
+    "weight_basis": "manufacturer",
+    "weight_note": "Reg width (55\") / Reg length (72\"), 850FP, M10T fabric, boxed flat sewn footbox (lightest config)",
+    "price_usd": 314.95,
+    "confidence": "high",
+    "notes": "Weight from UGQ BANDIT-30F-2023 spec PDF; price is Reg/Reg 850FP variation from UGQ store API; checked 2026-10-23. Site range $204.95-$594.95."
+   }
+  },
+  {
+   "id": "ugq-outdoor-bandit-40f-850fp",
+   "set": {
+    "weight_g": 450,
+    "weight_basis": "manufacturer",
+    "weight_note": "Reg width (55\") / Reg length (72\"), 850FP, M10T fabric, boxed flat sewn footbox (lightest config)",
+    "price_usd": 294.95,
+    "confidence": "high",
+    "notes": "Weight from UGQ BANDIT-40F-2023 spec PDF; price is Reg/Reg 850FP variation from UGQ store API; checked 2026-10-23. Site range $204.95-$594.95."
+   }
+  },
+  {
+   "id": "ugq-outdoor-bandit-20f-950fp",
+   "set": {
+    "weight_g": 593,
+    "weight_basis": "manufacturer",
+    "weight_note": "Reg width (55\") / Reg length (72\"), 950FP, M10T fabric, boxed flat sewn footbox",
+    "price_usd": 414.95,
+    "confidence": "high",
+    "notes": "Weight from UGQ BANDIT-20F-2023 spec PDF; price from UGQ store API Reg/Reg 950FP variation; checked 2026-10-23."
+   }
+  },
+  {
+   "id": "ugq-outdoor-zeppelin-20f",
+   "set": {
+    "weight_g": 648,
+    "weight_basis": "manufacturer",
+    "weight_note": "77\" full length x ~44\" wide, 850FP",
+    "price_usd": 354.95,
+    "confidence": "high",
+    "notes": "Weight from UGQ ZEPPELIN-STD-850-950 spec PDF (22.85 oz); price is 77\" 850FP variation from UGQ store API; checked 2026-10-23. Range $274.95-$489.95."
+   }
+  },
+  {
+   "id": "ugq-outdoor-zeppelin-0f",
+   "set": {
+    "weight_g": 812,
+    "weight_basis": "manufacturer",
+    "weight_note": "77\" full length x ~44\" wide, 850FP",
+    "price_usd": 379.95,
+    "confidence": "high",
+    "notes": "Weight from UGQ ZEPPELIN-STD-850-950 spec PDF (28.65 oz); price is 77\" 850FP variation from UGQ store API; checked 2026-10-23."
+   }
+  },
+  {
+   "id": "ugq-outdoor-outlaw-20f",
+   "set": {
+    "weight_g": 826,
+    "weight_basis": "manufacturer",
+    "weight_note": "Reg width / Reg length (72\"), 850FP, lightest config",
+    "price_usd": 444.95,
+    "confidence": "high",
+    "notes": "Weight from UGQ OUTLAW-20F-2023 spec PDF (29.15 oz); price from UGQ store API Reg/Reg 850FP variation; checked 2026-10-23."
+   }
+  },
+  {
+   "id": "warbonnet-outdoors-diamondback-topquilt-0f",
+   "set": {
+    "weight_g": 740,
+    "weight_basis": "manufacturer",
+    "weight_note": "55\" width / Regular (73\") length, sewn footbox, 10D shell, 850FP; Warbonnet spec chart 26.09 oz (chart notes weights are estimated by maker)",
+    "confidence": "high",
+    "notes": "Weight from Warbonnet Diamondback Sewn Footbox Spec Chart PDF; checked 2026-10-23. Stock version price $385 (Reg/55\") from store API; at check time stock version only offered at 20°F; custom versions of this rating cost more."
+   }
+  },
+  {
+   "id": "warbonnet-outdoors-diamondback-topquilt-20f",
+   "set": {
+    "weight_g": 572,
+    "weight_basis": "manufacturer",
+    "weight_note": "55\" width / Regular (73\") length, sewn footbox, 10D shell, 850FP; Warbonnet spec chart 20.17 oz (chart notes weights are estimated by maker)",
+    "confidence": "high",
+    "notes": "Weight from Warbonnet Diamondback Sewn Footbox Spec Chart PDF; checked 2026-10-23. Stock version price $385 (Reg/55\") from store API; at check time stock version only offered at 20°F."
+   }
+  },
+  {
+   "id": "warbonnet-outdoors-diamondback-topquilt-40f",
+   "set": {
+    "weight_g": 432,
+    "weight_basis": "manufacturer",
+    "weight_note": "55\" width / Regular (73\") length, sewn footbox, 10D shell, 850FP; Warbonnet spec chart 15.23 oz (chart notes weights are estimated by maker)",
+    "confidence": "high",
+    "notes": "Weight from Warbonnet Diamondback Sewn Footbox Spec Chart PDF; checked 2026-10-23. Stock version price $385 (Reg/55\") from store API; at check time stock version only offered at 20°F; custom versions of this rating cost more."
+   }
+  },
+  {
+   "id": "warbonnet-outdoors-wooki-20f",
+   "set": {
+    "weight_g": 607,
+    "weight_basis": "manufacturer",
+    "weight_note": "Wooki 10 (for 10 ft Blackbird XLC), 15D shell, 850FP, without stuff sack (+0.60 oz)",
+    "price_usd": 280,
+    "confidence": "high",
+    "notes": "Weight from Warbonnet 2026 Underquilt Spec Sheet (21.40 oz); price for 10ft 20°F from store API; checked 2026-10-23. Range $240-$320."
+   }
+  },
+  {
+   "id": "warbonnet-outdoors-yeti-20f",
+   "set": {
+    "weight_g": 319,
+    "weight_basis": "manufacturer",
+    "weight_note": "3/4 length, 15D shell, 850FP, without stuff sack (+0.51 oz)",
+    "price_usd": 210,
+    "confidence": "high",
+    "notes": "Weight from Warbonnet 2026 Underquilt Spec Sheet (11.27 oz); price from store API; checked 2026-10-23."
+   }
+  },
+  {
+   "id": "warbonnet-outdoors-lynx-20f",
+   "set": {
+    "weight_g": 455,
+    "weight_basis": "manufacturer",
+    "weight_note": "Full Length Lynx, 15D shell, 850FP, without stuff sack (+0.60 oz)",
+    "price_usd": 270,
+    "confidence": "high",
+    "notes": "Weight from Warbonnet 2026 Underquilt Spec Sheet (16.05 oz); price from store API; checked 2026-10-23."
+   }
+  },
+  {
+   "id": "warbonnet-blackbird-xlc-double",
+   "set": {
+    "price_usd": 250
+   }
+  },
+  {
+   "id": "jacks-r-better-big-meadows-20f",
+   "set": {
+    "weight_basis": "manufacturer",
+    "weight_note": "Regular (78\"), 850FP, 25% overstuff included",
+    "confidence": "high",
+    "notes": "Weight 24 oz from checked on jacksrbetter.com product page Specs table 2026-10-23."
+   }
+  },
+  {
+   "id": "jacks-r-better-big-meadows-0f",
+   "set": {
+    "weight_g": 794,
+    "weight_basis": "manufacturer",
+    "weight_note": "Regular (78\"), 850FP, 25% overstuff included",
+    "confidence": "high",
+    "notes": "Weight 28 oz from checked on jacksrbetter.com product page Specs table 2026-10-23."
+   }
+  },
+  {
+   "id": "jacks-r-better-mt-washington-3-20f",
+   "set": {
+    "weight_g": 553,
+    "weight_basis": "manufacturer",
+    "weight_note": "standard size (77\" x 42\"), 850FP",
+    "confidence": "high",
+    "notes": "Weight 19.5 oz from checked on jacksrbetter.com product page Specs table 2026-10-23."
+   }
+  },
+  {
+   "id": "jacks-r-better-mt-washington-4-0f",
+   "set": {
+    "weight_g": 697,
+    "weight_basis": "manufacturer",
+    "weight_note": "standard size (77\" x 42\"), 850FP",
+    "confidence": "high",
+    "notes": "Weight 24.59 oz from checked on jacksrbetter.com product page Specs table 2026-10-23."
+   }
+  },
+  {
+   "id": "jacks-r-better-the-nest-20f",
+   "set": {
+    "weight_g": 567,
+    "weight_basis": "manufacturer",
+    "weight_note": "standard size (77\" x 48\"), 850FP",
+    "confidence": "high",
+    "notes": "Weight 20 oz from checked on jacksrbetter.com product page Specs table 2026-10-23."
+   }
+  },
+  {
+   "id": "timmermade-down-quilt-30f",
+   "set": {
+    "model": "Coati Skirt Quilt",
+    "weight_g": 486,
+    "weight_basis": "manufacturer",
+    "weight_note": "30°F, 72\" length, 50/52/38/38\" width, 900FP (store variation weight)",
+    "price_usd": 427,
+    "url": "https://timmermade.com/product/coati-quilt/",
+    "confidence": "medium",
+    "specs": {
+     "temp_rating_f": 30,
+     "fill": "down",
+     "fill_power": 900,
+     "style": "skirt quilt (draft skirt, snaps + shock cord top)"
+    },
+    "notes": "Timmermade's current down quilt is the Coati Skirt Quilt. Price and weight (0.4858 kg) from the 30°F/72\"/50\" variation in Timmermade's WooCommerce store API, checked 2026-10-23; the product page itself lists no weight. 800FP version also sold from $309."
+   }
+  },
+  {
+   "id": "timmermade-overquilt",
+   "set": {
+    "model": "Merganser Overquilt",
+    "variant": "2.5 oz/yd Apex (adds ~20°F)",
+    "weight_g": 482,
+    "weight_basis": "manufacturer",
+    "weight_note": "standard 58\" x 81\"; maker states approx. 16-18 oz (midpoint used)",
+    "price_usd": 250,
+    "url": "https://timmermade.com/product/merganser-overbag/",
+    "confidence": "medium",
+    "specs": {
+     "fill": "synthetic",
+     "style": "over-quilt (layering), Climashield APEX"
+    },
+    "notes": "Weight range and price ($250 for 2.5 oz/yd Apex; $260 for 3.6 oz/yd) from Timmermade product page, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "loco-libre-down-quilt-20f",
+   "set": {
+    "model": "Ghost Pepper Topquilt",
+    "weight_g": 610,
+    "weight_basis": "manufacturer",
+    "weight_note": "Regular (75\" x 52\"), straight taper, non-insulated footbox, 850FP goose, no overfill (21.5 oz; fill 14.6 oz)",
+    "url": "https://www.locolibregear.com/product/ghost-pepper-topquilt/",
+    "confidence": "high",
+    "specs": {
+     "temp_rating_f": 20,
+     "fill": "down",
+     "fill_power": 850,
+     "fill_weight_g": 414,
+     "style": "top quilt (custom)"
+    },
+    "notes": "Weight from Loco Libre Ghost Pepper spec table on product page, checked 2026-10-23. Composite custom product (from $380); per-configuration USD price not determinable from page, left null."
+   }
+  },
+  {
+   "id": "gossamer-gear-lt5-three-piece-carbon",
+   "set": {
+    "weight_note": "per pair (139 g / 4.9 oz per pole, no baskets or boots); Shopify variant weight of 340 g is the shipping weight",
+    "notes": "Retailers list 294 g pair with boots and baskets. Weight from Gossamer Gear product page Specs (4.9 oz / 139 g each), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "grayl-geopress",
+   "set": {
+    "confidence": "high",
+    "weight_note": "complete bottle with cartridge (15.9 oz / 450 g); Shopify variant weight of 726 g is the shipping weight",
+    "notes": "Weight from GRAYL product page Specs, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "soto-titanium-pot-750",
+   "set": {
+    "confidence": "high",
+    "weight_g": 95,
+    "weight_note": "pot 60 g + titanium lid 15 g + aluminum lifter 20 g (pot body alone 60 g)",
+    "notes": "Manufacturer page lists 60 g, which looks low for a 750 ml Ti pot; may exclude lid. SOTO Japan SOD-530 spec table lists pot 60 g / lid 15 g / lifter 20 g / total 95 g; SOTO US page lists only the 60 g pot body. checked 2026-10-23."
+   }
+  },
+  {
+   "id": "soto-titanium-pot-1100",
+   "set": {
+    "confidence": "high",
+    "weight_g": 112,
+    "weight_note": "pot 62 g + titanium lid 30 g + aluminum lifter 20 g (pot body alone 62 g)",
+    "notes": "Manufacturer page lists 62 g, which looks implausibly low; treat as unverified. SOTO Japan SOD-531 spec table lists pot 62 g / lid 30 g / lifter 20 g / total 112 g; SOTO US page ($44.95) lists only the 62 g pot body. checked 2026-10-23."
+   }
+  },
+  {
+   "id": "kammok-roo-single-ul",
+   "set": {
+    "confidence": "high",
+    "weight_g": 167,
+    "weight_note": "total packed weight 5.9 oz (hammock with toggles, stuff sack)",
+    "notes": "Kammok Tech Specs, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "kammok-roo-single",
+   "set": {
+    "confidence": "high",
+    "weight_g": 322,
+    "weight_note": "total packed weight 11.4 oz",
+    "notes": "Kammok Tech Specs, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "kammok-mantis-ul",
+   "set": {
+    "confidence": "high",
+    "weight_g": 907,
+    "weight_note": "trail weight with rainfly (hammock, mesh canopy, ridgeline, Kanga Claws, rainfly, Python UL straps); 544 g without rainfly; 1021 g total packed",
+    "notes": "Kammok Tech Specs, checked 2026-10-23. Previous 1043 g was store/shipping data."
+   }
+  },
+  {
+   "id": "kammok-mantis",
+   "set": {
+    "confidence": "high",
+    "weight_g": 1233,
+    "weight_note": "trail weight with rainfly; 922 g without rainfly; 1395 g total packed",
+    "notes": "Kammok Tech Specs, checked 2026-10-23. Previous 1361 g was store/shipping data."
+   }
+  },
+  {
+   "id": "kammok-kuhli-ul",
+   "set": {
+    "weight_note": "tarp only (10 oz); 394 g total packed with cord, stakes, hooks, stuff sack",
+    "notes": "Kammok Tech Specs component weights, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "kammok-kuhli",
+   "set": {
+    "confidence": "high",
+    "weight_g": 468,
+    "weight_note": "tarp only (16.5 oz); 581 g total packed with cord, stakes, stuff sack",
+    "notes": "Kammok Tech Specs component weights, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "kammok-kuhli-pro",
+   "set": {
+    "confidence": "high",
+    "weight_g": 618,
+    "weight_note": "tarp only (21.8 oz); 737 g total packed",
+    "notes": "Kammok Tech Specs component weights, checked 2026-10-23. Previous 816 g was store/shipping data."
+   }
+  },
+  {
+   "id": "kammok-kuhli-xl",
+   "set": {
+    "weight_g": 833,
+    "weight_note": "tarp only (1 lb 13.4 oz); total packed 2 lb / 907 g",
+    "notes": "Kammok Tech Specs component weights, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "eno-singlenest",
+   "set": {
+    "confidence": "high",
+    "weight_note": "hammock only (16 oz)",
+    "notes": "ENO Technical Specs, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "eno-doublenest",
+   "set": {
+    "confidence": "high",
+    "weight_g": 538,
+    "weight_note": "hammock only (19 oz)",
+    "notes": "ENO Technical Specs, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "eno-sub6",
+   "set": {
+    "confidence": "high",
+    "weight_g": 164,
+    "weight_note": "hammock with integrated toggles (5.8 oz); store lists 227 g shipping",
+    "notes": "ENO Technical Specs, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "eno-supersub",
+   "set": {
+    "confidence": "high",
+    "weight_g": 278,
+    "weight_note": "hammock with toggles (9.8 oz)",
+    "notes": "ENO product FAQ (SuperSub weighs 9.8 oz), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "eno-junglenest",
+   "set": {
+    "confidence": "high",
+    "weight_g": 567,
+    "weight_note": "hammock with integrated bug net and ridgeline (20 oz)",
+    "notes": "ENO Technical Specs, checked 2026-10-23. Previous 907 g was the store shipping weight."
+   }
+  },
+  {
+   "id": "eno-sublink-system",
+   "set": {
+    "confidence": "high",
+    "weight_g": 1106,
+    "weight_note": "complete system: Sub6 hammock, bug net, Sil tarp, Helios straps, ridgeline (2 lb 7 oz)",
+    "notes": "ENO Technical Specs, checked 2026-10-23. Previous 1814 g was the store shipping weight."
+   }
+  },
+  {
+   "id": "eno-profly-rain-tarp",
+   "set": {
+    "confidence": "high",
+    "weight_g": 640,
+    "weight_note": "tarp with stuff sack (22 oz / 640 g as listed)",
+    "notes": "ENO Technical Specs, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "eno-profly-sil-rain-tarp",
+   "set": {
+    "confidence": "high",
+    "weight_g": 510,
+    "weight_note": "tarp with stuff sack (18 oz / 510 g as listed)",
+    "notes": "ENO Technical Specs, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "hennessy-hammock-ultralite-backpacker-zip",
+   "set": {
+    "confidence": "high",
+    "weight_g": 896,
+    "weight_note": "packed weight, complete with rainfly and bug net, excluding free 56 g webbing straps",
+    "notes": "Hennessy product page specs, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "hennessy-hammock-explorer-ultralite-zip-xl",
+   "set": {
+    "confidence": "high",
+    "weight_g": 1008,
+    "weight_note": "packed weight, complete, excluding free 84 g webbing straps",
+    "notes": "Hennessy product page specs, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "hennessy-hammock-expedition-zip",
+   "set": {
+    "confidence": "high",
+    "weight_g": 1232,
+    "weight_note": "packed weight, complete, excluding 84 g webbing straps",
+    "notes": "Hennessy product page specs, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "hennessy-hammock-deep-jungle-zip",
+   "set": {
+    "confidence": "high",
+    "weight_g": 1176,
+    "weight_note": "packed weight, complete, excluding free 84 g webbing straps",
+    "notes": "Hennessy product page specs, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "naturehike-cloud-up-1",
+   "set": {
+    "confidence": "high",
+    "weight_g": 1200,
+    "weight_note": "20D version minimum weight (210T version 1.46 kg)",
+    "notes": "Naturehike product page Weight spec, checked 2026-10-23. Previous 1580 g was store/packaged data."
+   }
+  },
+  {
+   "id": "naturehike-cloud-up-2",
+   "set": {
+    "confidence": "high",
+    "weight_g": 1380,
+    "weight_note": "minimum weight; packed weight approx. 1.8 kg",
+    "notes": "Naturehike product page Weight spec, checked 2026-10-23. Previous 2100 g was store/packaged data."
+   }
+  },
+  {
+   "id": "naturehike-cloud-up-ul-1",
+   "set": {
+    "confidence": "high",
+    "weight_g": 1060,
+    "weight_note": "minimum weight; packaged approx. 1.22 kg",
+    "notes": "Naturehike product page Weight spec, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "naturehike-cloud-up-ul-2",
+   "set": {
+    "confidence": "high",
+    "weight_g": 1220,
+    "weight_note": "minimum weight; packaged approx. 1.38 kg",
+    "notes": "Naturehike product page Weight spec, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "naturehike-cloud-up-ext-2",
+   "set": {
+    "weight_g": 980,
+    "weight_note": "tent and rainfly; pegs and guylines 140 g, footprint 220 g (total 1.34 kg)",
+    "notes": "Naturehike product page Weight spec, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "naturehike-mongar-2",
+   "set": {
+    "confidence": "high",
+    "weight_g": 1820,
+    "weight_note": "20D version minimum weight (210T version 2.2 kg)",
+    "notes": "Naturehike product page Weight spec, checked 2026-10-23. Previous 2600 g was store/packaged data."
+   }
+  },
+  {
+   "id": "naturehike-star-river-ul-2",
+   "set": {
+    "confidence": "high",
+    "weight_g": 1440,
+    "weight_note": "minimum weight; minimum package weight approx. 1.62 kg",
+    "notes": "Naturehike product page Weight spec, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "naturehike-star-trail-ext-1",
+   "set": {
+    "confidence": "high",
+    "weight_g": 780,
+    "weight_note": "minimum weight; packaged approx. 0.87 kg",
+    "notes": "Naturehike product page Weight spec, checked 2026-10-23. Previous 1230 g was store data."
+   }
+  },
+  {
+   "id": "naturehike-star-trail-ext-2",
+   "set": {
+    "confidence": "high",
+    "weight_g": 960,
+    "weight_note": "minimum weight; packaged approx. 1.05 kg",
+    "notes": "Naturehike product page Weight spec, checked 2026-10-23. Previous 1600 g was store data."
+   }
+  },
+  {
+   "id": "naturehike-tagar-2",
+   "set": {
+    "weight_note": "listed weight 1.55 kg",
+    "notes": "Naturehike product page Weight spec, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-zeo-line-light-weight-round-neck-shirt-mens",
+   "set": {
+    "price_usd": 42,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2307125, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-zeo-line-middle-weight-round-neck-shirt-mens",
+   "set": {
+    "price_usd": 54,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2307112, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-super-merino-wool-light-weight-round-neck-shirt-mens",
+   "set": {
+    "price_usd": 89,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2307107, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-climaair-light-long-sleeve-t-mens",
+   "set": {
+    "price_usd": 48,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2306224, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-climaair-light-tights-mens",
+   "set": {
+    "price_usd": 53,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2306228, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-cool-pants-mens",
+   "set": {
+    "price_usd": 94,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2305157, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-light-o-d-pants-mens",
+   "set": {
+    "price_usd": 99,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2305159, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-canyon-shorts-mens",
+   "set": {
+    "price_usd": 85,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2305226, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-cross-runner-light-shorts-mens",
+   "set": {
+    "price_usd": 75,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2305252, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-plasma-1000-down-jacket-mens",
+   "set": {
+    "price_usd": 299,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2301381, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-plasma-1000-down-jacket-womens",
+   "set": {
+    "price_usd": 295,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2301382, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-plasma-1000-alpine-down-parka",
+   "set": {
+    "price_usd": 469,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2301257, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-plasma-1000-down-vest-mens",
+   "set": {
+    "price_usd": 235,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2301417, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-superior-down-jacket-mens",
+   "set": {
+    "price_usd": 219,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2301377, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-superior-down-jacket-womens",
+   "set": {
+    "price_usd": 205,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2301378, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-superior-down-parka-mens",
+   "set": {
+    "price_usd": 250,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2301375, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-superior-down-vest-mens",
+   "set": {
+    "price_usd": 180,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2301379, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-superior-down-pants-mens",
+   "set": {
+    "price_usd": 199,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2301441, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-u-l-thermawrap-pants",
+   "set": {
+    "price_usd": 140,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2301302, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-ex-light-down-anorak",
+   "set": {
+    "price_usd": 370,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2301351, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-ex-light-thermawrap-parka-mens",
+   "set": {
+    "price_usd": 189,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2301435, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-ex-light-thermawrap-jacket-mens",
+   "set": {
+    "price_usd": 169,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2301437, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-ex-light-thermawrap-vest-mens",
+   "set": {
+    "price_usd": 135,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2301439, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-climaplus-100-jacket-mens",
+   "set": {
+    "price_usd": 95,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2306155, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-chameece-jacket-mens",
+   "set": {
+    "price_usd": 76,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2304664, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-trail-action-hooded-jacket-mens",
+   "set": {
+    "price_usd": 119,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2306200, non-outlet), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-tachyon-pants-mens",
+   "set": {
+    "price_usd": 109,
+    "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2305132, non-outlet), checked 2026-10-23.",
+    "url": "https://www.montbell.com/us/en/products/detail/2305132"
+   }
+  },
+  {
+   "id": "montbell-thunder-pass-pants-mens",
+   "set": {
+    "price_usd": 109,
+    "notes": "USD list price from Montbell America (montbell.com/us/en/products/detail/2328335, non-outlet), checked 2026-10-23.",
+    "weight_g": 229,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed weight (243 g total incl. stuff sack)",
+    "url": "https://www.montbell.com/us/en/products/detail/2328335",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "montbell-ex-light-wind-vest",
+   "set": {
+    "price_usd": 83,
+    "notes": "USD list price from Montbell America (montbell.com/us/en/products/detail/2303138, non-outlet), checked 2026-10-23.",
+    "weight_g": 37,
+    "url": "https://www.montbell.com/us/en/products/detail/2303138"
+   }
+  },
+  {
+   "id": "montane-trailblazer-44",
+   "set": {
+    "price_usd": 175,
+    "notes": "USD price from Montane's US store (us.montane.com/products/montane-trailblazer-44l-backpack), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montane-trailblazer-32",
+   "set": {
+    "price_usd": 165,
+    "notes": "USD price from Montane's US store (us.montane.com/products/montane-trailblazer-r-32l-backpack), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montane-trailblazer-xt-35",
+   "set": {
+    "price_usd": 175,
+    "notes": "USD price from Montane's US store (us.montane.com/products/montane-trailblazer-r-xt-35l-backpack), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montane-trailblazer-lt-28",
+   "set": {
+    "price_usd": 135,
+    "notes": "USD price from Montane's US store (us.montane.com/products/montane-trailblazer-lt-28l-backpack), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montane-gecko-vp-20",
+   "set": {
+    "price_usd": 195,
+    "notes": "USD price from Montane's US store (us.montane.com/products/montane-gecko-vp-20), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montane-valen-40",
+   "set": {
+    "price_usd": 190,
+    "notes": "USD price from Montane's US store (us.montane.com/products/montane-valen-40-5l-backpack), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montane-minimus-lite-jacket-mens",
+   "set": {
+    "price_usd": 160,
+    "notes": "USD price from Montane's US store (us.montane.com/products/montane-mens-minimus-lite-waterproof-jacket), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "exped-ultra-3r-m",
+   "set": {
+    "price_usd": 139.95,
+    "notes": "USD price $139.95 from REI listing (seen via web search 2026-10-23; REI page itself blocked to direct fetch). Backcountry/Campmor show $169.95 list for some sizes."
+   }
+  },
+  {
+   "id": "exped-ultra-3r-mummy-m",
+   "set": {
+    "price_usd": 139.95,
+    "notes": "USD price $139.95 from REI listing (seen via web search 2026-10-23; REI page blocked to direct fetch)."
+   }
+  },
+  {
+   "id": "sea-to-summit-aeros-premium-pillow-large",
+   "set": {
+    "price_usd": 59.95,
+    "notes": "USD price from seatosummit.com (US) Large size, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "sea-to-summit-aeros-down-pillow-large",
+   "set": {
+    "price_usd": 74.95,
+    "notes": "USD price from seatosummit.com (US) Large size, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "sea-to-summit-foam-core-pillow-large",
+   "set": {
+    "price_usd": 34.95,
+    "notes": "USD price from seatosummit.com (US) Large size, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "sea-to-summit-ultralight-insulated-womens-regular",
+   "set": {
+    "price_usd": 179,
+    "notes": "USD price from seatosummit.com (US) list (compare-at) price for Regular; on sale for $107.40 at check, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "sea-to-summit-ultra-sil-nano-poncho",
+   "set": {
+    "price_usd": 111.95,
+    "notes": "USD price from seatosummit.com (US) product ultra-sil-nano-poncho, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "sea-to-summit-ultra-sil-tarp-poncho",
+   "set": {
+    "price_usd": 134.95,
+    "notes": "AU$189.99; doubles as a tarp. USD price from seatosummit.com (US) product ultra-sil-nano-tarp-poncho, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "outdoor-research-echo-long-sleeve-tee-mens",
+   "set": {
+    "price_usd": 65,
+    "notes": "USD price from outdoorresearch.com list (compare-at) price; on sale at check, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "outdoor-research-ferrosi-joggers-mens",
+   "set": {
+    "price_usd": 105,
+    "notes": "USD price from outdoorresearch.com, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "outdoor-research-transcendent-down-jacket-mens",
+   "set": {
+    "price_usd": 275,
+    "notes": "USD price from outdoorresearch.com, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "outdoor-research-superstrand-lt-jacket-mens",
+   "set": {
+    "price_usd": 235,
+    "notes": "USD price from outdoorresearch.com list (compare-at) price; on sale at check, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "outdoor-research-vesper-insulated-hoodie-mens",
+   "set": {
+    "price_usd": 275,
+    "notes": "USD price from outdoorresearch.com, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "hyperlite-mountain-gear-versa",
+   "set": {
+    "price_usd": 85,
+    "notes": "Fanny pack / pack accessory USD price from hyperlitemountaingear.com, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "hyperlite-mountain-gear-vice-versa",
+   "set": {
+    "price_usd": 65,
+    "notes": "USD price from hyperlitemountaingear.com, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "path-projects-graves-px-short",
+   "set": {
+    "price_usd": 78,
+    "notes": "Successor to the popular Graves short USD price from pathprojects.com, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "nemo-dragonfly-osmo-3p",
+   "set": {
+    "price_usd": 619.95,
+    "notes": "USD price from nemoequipment.com 3-Person variant, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "big-agnes-zoom-ul-insulated-20x72-regular",
+   "set": {
+    "price_usd": 199.95,
+    "notes": "Previous R4.3 version on closeout; R6 successor listed as coming 2027 USD price from bigagnes.com list (compare-at) price; closeout $159.96 at check, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "big-agnes-zoom-ul-insulated-25x72-wide-regular",
+   "set": {
+    "price_usd": 249.95,
+    "notes": "USD price from bigagnes.com list (compare-at) price; closeout $199.96 at check, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "big-agnes-divide-insulated-20x72-regular",
+   "set": {
+    "price_usd": 129.95,
+    "notes": "Discounted on manufacturer site USD price from bigagnes.com list (compare-at) price; on sale $103.96 at check, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "big-agnes-twistercane-biofoam",
+   "set": {
+    "price_usd": 69.95,
+    "notes": "USD price from bigagnes.com list (compare-at) price; on sale $55.96 at check, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "outdoor-vitals-stormloft-down-topquilt-0f",
+   "set": {
+    "price_usd": 429.97,
+    "notes": "USD price from outdoorvitals.com StormLoft Down TopQuilt Regular variant, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "outdoor-vitals-stormloft-down-topquilt-15f",
+   "set": {
+    "price_usd": 389.97,
+    "notes": "USD price from outdoorvitals.com StormLoft Down TopQuilt Regular variant, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "outdoor-vitals-stormloft-down-topquilt-30f",
+   "set": {
+    "price_usd": 339.97,
+    "notes": "USD price from outdoorvitals.com StormLoft Down TopQuilt Regular variant, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "outdoor-vitals-stormloft-down-topquilt-40f",
+   "set": {
+    "price_usd": 319.97,
+    "notes": "USD price from outdoorvitals.com StormLoft Down TopQuilt Regular variant, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "durston-x-dome-1-plus",
+   "set": {
+    "price_usd": 359,
+    "notes": "Not currently listed on Durston store; availability seasonal USD price $359 from durstongear.com product x-dome-1-plus-ultralight-backpacking-tent, checked 2026-10-23.",
+    "url": "https://durstongear.com/products/x-dome-1-plus-ultralight-backpacking-tent"
+   }
+  },
+  {
+   "id": "keen-seek",
+   "set": {
+    "price_usd": 185,
+    "notes": "USD price from keenfootwear.com Men's Seek, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "mountain-laurel-designs-cricket-dcf",
+   "set": {
+    "price_usd": 415,
+    "notes": "USD price from MLD store (Cricket Standard, DCF variation), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "mountain-laurel-designs-cricket-xl-dcf",
+   "set": {
+    "price_usd": 595,
+    "notes": "USD price from MLD store (Cricket XL, DCF variation), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "mountain-laurel-designs-monk-tarp-dcf",
+   "set": {
+    "price_usd": 175,
+    "notes": "USD price from MLD store (Monk, 0.5 DCF variation), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "mountain-laurel-designs-super-monk-tarp-dcf",
+   "set": {
+    "price_usd": 235,
+    "notes": "USD price from MLD store (Super Monk, 0.5 DCF variation), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "mountain-laurel-designs-solomid-pro-silpoly",
+   "set": {
+    "price_usd": 285,
+    "notes": "USD price from MLD store (SoloMid Pro, 20D SilPoly variation), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "mountain-laurel-designs-ultra-x-100-packing-cube-large",
+   "set": {
+    "price_usd": 31,
+    "notes": "USD price from MLD store (packing cubes, Large), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "black-diamond-firstlight-2p",
+   "set": {
+    "price_usd": 549.95,
+    "notes": "USD price from blackdiamondequipment.com (Firstlight 2 Person Tent), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "black-diamond-eldorado",
+   "set": {
+    "price_usd": 949.95,
+    "notes": "USD list (compare-at) price from blackdiamondequipment.com; on sale for $569.97 at check, 2026-10-23."
+   }
+  },
+  {
+   "id": "kelty-cosmic-down-40",
+   "set": {
+    "price_usd": 139.95,
+    "notes": "USD price from kelty.com (Cosmic Down 40), checked 2026-10-23; weight still approximate."
+   }
+  }
+ ],
+ "additions": [
+  {
+   "id": "timmermade-argon-90-wind-pullover",
+   "category": "wind-layer",
+   "subcategory": "wind jacket",
+   "model": "Argon 90 Wind Pullover",
+   "variant": null,
+   "weight_g": 51,
+   "weight_basis": "manufacturer",
+   "weight_note": "medium, basic pullover (1.8 oz); full-featured zip jacket ~3.5 oz",
+   "price_usd": 95,
+   "specs": {
+    "material": "Argon 90 15D nylon (40 CFM)",
+    "hood": true
+   },
+   "url": "https://timmermade.com/product/argon-wind-pullover-jacket/",
+   "notes": "Made to order; crossover hood on pullover; hood with cinches +$45. Weight and price from product page, checked 2026-10-23.",
+   "discontinued": false,
+   "confidence": "high",
+   "brand": "Timmermade"
+  },
+  {
+   "id": "timmermade-hyper-d-wind-pullover",
+   "category": "wind-layer",
+   "subcategory": "wind jacket",
+   "model": "Hyper D Wind Pullover",
+   "variant": null,
+   "weight_g": 51,
+   "weight_basis": "manufacturer",
+   "weight_note": "medium Hyper D pullover (1.8 oz); full zip + hood + cinches 3.3 oz",
+   "price_usd": 95,
+   "specs": {
+    "material": "Hyper D 1.0 oz uncalendered 20D (Airwave option +$20)",
+    "hood": true
+   },
+   "url": "https://timmermade.com/product/hyper-d-wind-pullover-jacket/",
+   "notes": "Made to order. Weight and price from product page, checked 2026-10-23.",
+   "discontinued": false,
+   "confidence": "high",
+   "brand": "Timmermade"
+  },
+  {
+   "id": "timmermade-alpha-direct-hat-4004",
+   "category": "headwear-handwear",
+   "subcategory": "beanie",
+   "model": "Alpha Direct Hat",
+   "variant": "4004",
+   "weight_g": 14,
+   "weight_basis": "manufacturer",
+   "weight_note": "approx. 0.5 oz per maker",
+   "price_usd": 30,
+   "specs": {
+    "material": "Polartec Alpha Direct 4004"
+   },
+   "url": "https://timmermade.com/product/alpha-direct-hat/",
+   "notes": "Stock item. Weight and price from product page, checked 2026-10-23.",
+   "discontinued": false,
+   "confidence": "high",
+   "brand": "Timmermade"
+  },
+  {
+   "id": "timmermade-alpha-direct-hat-4008",
+   "category": "headwear-handwear",
+   "subcategory": "beanie",
+   "model": "Alpha Direct Hat",
+   "variant": "4008",
+   "weight_g": 20,
+   "weight_basis": "manufacturer",
+   "weight_note": "approx. 0.7 oz per maker",
+   "price_usd": 30,
+   "specs": {
+    "material": "Polartec Alpha Direct 4008"
+   },
+   "url": "https://timmermade.com/product/alpha-direct-hat/",
+   "notes": "Stock item. Weight and price from product page, checked 2026-10-23.",
+   "discontinued": false,
+   "confidence": "high",
+   "brand": "Timmermade"
+  },
+  {
+   "id": "liteway-pyraomm-solo-tarp",
+   "category": "shelter",
+   "subcategory": "pyramid",
+   "brand": "Liteway",
+   "model": "PyraOmm Solo Tarp",
+   "variant": "Silpoly",
+   "weight_g": 360,
+   "weight_basis": "manufacturer",
+   "weight_note": "tarp only; 410 g with guylines and stuff sack",
+   "price_usd": null,
+   "specs": {
+    "capacity": 1,
+    "doors": 1,
+    "walls": "single",
+    "material": "1.1 oz Silpoly 20D ripstop",
+    "freestanding": false,
+    "poles": "trekking"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-pyraomm-solo-tarp",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-solo-tarp), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-pyraomm-solo-tarp-dcf",
+   "category": "shelter",
+   "subcategory": "pyramid",
+   "brand": "Liteway",
+   "model": "PyraOmm Solo Tarp",
+   "variant": "DCF",
+   "weight_g": 340,
+   "weight_basis": "manufacturer",
+   "weight_note": "tarp only; 400 g with guylines and stuff sack",
+   "price_usd": null,
+   "specs": {
+    "capacity": 1,
+    "doors": 1,
+    "walls": "single",
+    "material": "Dyneema Composite Fabric",
+    "freestanding": false,
+    "poles": "trekking"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-pyraomm-solo-tarp-dcf",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-solo-tarp-dcf), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-pyraomm-solo-mesh",
+   "category": "shelter",
+   "subcategory": "bivy",
+   "brand": "Liteway",
+   "model": "PyraOmm Solo Mesh",
+   "variant": "Inner",
+   "weight_g": 270,
+   "weight_basis": "manufacturer",
+   "weight_note": "mesh inner only; 300 g with guylines and stuff sack",
+   "price_usd": null,
+   "specs": {
+    "capacity": 1,
+    "doors": 1,
+    "material": "1.1 oz Silpoly 20D ripstop floor, nylon no-see-um mesh",
+    "freestanding": false,
+    "poles": "trekking"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-pyraomm-solo-mesh",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-solo-mesh), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-pyraomm-duo-tarp",
+   "category": "shelter",
+   "subcategory": "pyramid",
+   "brand": "Liteway",
+   "model": "PyraOmm Duo Tarp",
+   "variant": "Silpoly",
+   "weight_g": 440,
+   "weight_basis": "manufacturer",
+   "weight_note": "tarp only; 495 g with guylines and stuff sack",
+   "price_usd": null,
+   "specs": {
+    "capacity": 2,
+    "doors": 1,
+    "walls": "single",
+    "material": "1.1 oz Silpoly 20D ripstop",
+    "freestanding": false,
+    "poles": "trekking"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-pyraomm-duo-tarp",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-duo-tarp), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-pyraomm-duo-tarp-dcf",
+   "category": "shelter",
+   "subcategory": "pyramid",
+   "brand": "Liteway",
+   "model": "PyraOmm Duo Tarp",
+   "variant": "DCF",
+   "weight_g": 395,
+   "weight_basis": "manufacturer",
+   "weight_note": "tarp only, 1.0 oz DCF; 460 g with guylines and stuff sack",
+   "price_usd": null,
+   "specs": {
+    "capacity": 2,
+    "doors": 1,
+    "walls": "single",
+    "material": "Dyneema Composite Fabric 1.0 oz",
+    "freestanding": false,
+    "poles": "trekking"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-pyraomm-duo-tarp-dcf",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-duo-tarp-dcf), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-illusion-duo-tent",
+   "category": "shelter",
+   "subcategory": "trekking-pole tent",
+   "brand": "Liteway",
+   "model": "Illusion Duo Tent",
+   "variant": "Silpoly",
+   "weight_g": 790,
+   "weight_basis": "manufacturer",
+   "weight_note": "tent only; 870 g with guylines and stuff sack",
+   "price_usd": null,
+   "specs": {
+    "capacity": 2,
+    "walls": "single",
+    "material": "1.1 oz Silpoly 20D ripstop",
+    "freestanding": false,
+    "poles": "trekking"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-illusion-duo-tent",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-illusion-duo-tent), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-illusion-duo-tent-dcf",
+   "category": "shelter",
+   "subcategory": "trekking-pole tent",
+   "brand": "Liteway",
+   "model": "Illusion Duo Tent",
+   "variant": "DCF",
+   "weight_g": 790,
+   "weight_basis": "manufacturer",
+   "weight_note": "tent only, 1.0 oz DCF; 870 g with guylines and stuff sack",
+   "price_usd": null,
+   "specs": {
+    "capacity": 2,
+    "walls": "single",
+    "material": "Dyneema Composite Fabric 1.0 oz",
+    "freestanding": false,
+    "poles": "trekking"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-illusion-duo-tent-dyneema",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-illusion-duo-tent-dyneema), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-simplex-mini-tarp",
+   "category": "shelter",
+   "subcategory": "tarp",
+   "brand": "Liteway",
+   "model": "Simplex Mini Tarp",
+   "variant": null,
+   "weight_g": 195,
+   "weight_basis": "manufacturer",
+   "weight_note": "tarp only; 245 g with lines and stuff sack (272 x 144 cm)",
+   "price_usd": null,
+   "specs": {
+    "capacity": 1,
+    "material": "1.1 oz Silpoly 20D ripstop",
+    "poles": "trekking"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-simplex-mini-tarp",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-mini-tarp), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-simplex-max-tarp",
+   "category": "shelter",
+   "subcategory": "tarp",
+   "brand": "Liteway",
+   "model": "Simplex MAX Tarp",
+   "variant": null,
+   "weight_g": 265,
+   "weight_basis": "manufacturer",
+   "weight_note": "tarp only; 315 g with guylines and stuff sack (5.0 m2)",
+   "price_usd": null,
+   "specs": {
+    "capacity": 2,
+    "material": "1.1 oz Silpoly 20D ripstop",
+    "poles": "trekking"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-simplex-max-tarp",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-max-tarp), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-simplex-xl-tarp",
+   "category": "shelter",
+   "subcategory": "tarp",
+   "brand": "Liteway",
+   "model": "Simplex XL Tarp",
+   "variant": null,
+   "weight_g": 235,
+   "weight_basis": "manufacturer",
+   "weight_note": "tarp only; 280 g with guylines and stuff sack",
+   "price_usd": null,
+   "specs": {
+    "capacity": 1,
+    "material": "1.1 oz Silpoly 20D ripstop",
+    "poles": "trekking"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-simplex-xl-tarp-ultralight-hiking-tarp",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-xl-tarp-ultralight-hiking-tarp), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-simplex-1p-mesh-inner",
+   "category": "shelter",
+   "subcategory": "bivy",
+   "brand": "Liteway",
+   "model": "Simplex 1P Mesh Inner",
+   "variant": null,
+   "weight_g": 275,
+   "weight_basis": "manufacturer",
+   "weight_note": "bug shelter only; 320 g with guylines and stuff sack",
+   "price_usd": null,
+   "specs": {
+    "capacity": 1,
+    "material": "1.1 oz Silpoly 20D ripstop floor, nylon no-see-um mesh",
+    "poles": "trekking"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-simplex-1p-mesh-inner-shelter",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-1p-mesh-inner-shelter), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-biggie-tarp",
+   "category": "shelter",
+   "subcategory": "tarp",
+   "brand": "Liteway",
+   "model": "Biggie Tarp",
+   "variant": "Silpoly",
+   "weight_g": 400,
+   "weight_basis": "manufacturer",
+   "weight_note": "tarp only; 450 g with guylines and stuff sack (294 x 294 cm)",
+   "price_usd": null,
+   "specs": {
+    "capacity": 2,
+    "material": "1.1 oz Silpoly 20D ripstop",
+    "poles": "trekking"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-biggie-tarp",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-biggie-tarp), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-biggie-tarp-dcf",
+   "category": "shelter",
+   "subcategory": "tarp",
+   "brand": "Liteway",
+   "model": "Biggie Tarp",
+   "variant": "DCF",
+   "weight_g": 350,
+   "weight_basis": "manufacturer",
+   "weight_note": "with guylines and stuff sack, 1.0 oz DCF (294 x 274 cm)",
+   "price_usd": null,
+   "specs": {
+    "capacity": 2,
+    "material": "Dyneema Composite Fabric 1.0 oz",
+    "poles": "trekking"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-biggie-tarp-dcf",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-biggie-tarp-dcf), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-simplex-poncho-tarp",
+   "category": "shelter",
+   "subcategory": "tarp",
+   "brand": "Liteway",
+   "model": "Simplex Poncho Tarp",
+   "variant": null,
+   "weight_g": 225,
+   "weight_basis": "manufacturer",
+   "weight_note": "poncho-tarp only; 290 g with guylines and stuff sack",
+   "price_usd": null,
+   "specs": {
+    "capacity": 1,
+    "material": "1.1 oz Levitex Silpoly 20D",
+    "poles": "trekking"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-simplex-poncho-tarp",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-poncho-tarp), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-pyraomm-poncho",
+   "category": "shelter",
+   "subcategory": "pyramid",
+   "brand": "Liteway",
+   "model": "PyraOmm Poncho",
+   "variant": null,
+   "weight_g": 350,
+   "weight_basis": "manufacturer",
+   "weight_note": "poncho-tarp only; 400 g with guylines and stuff sack",
+   "price_usd": null,
+   "specs": {
+    "capacity": 1,
+    "doors": 1,
+    "walls": "single",
+    "material": "1.1 oz Silpoly 20D ripstop",
+    "poles": "trekking"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-poncho-pyraomm-ultralight-hiking-tarp-poncho",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-poncho-pyraomm-ultralight-hiking-tarp-poncho), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-gramless-35l-ultragrid",
+   "category": "backpack",
+   "subcategory": "frameless",
+   "brand": "Liteway",
+   "model": "Gramless 35L Pack",
+   "variant": "UltraGrid",
+   "weight_g": 410,
+   "weight_basis": "manufacturer",
+   "weight_note": "UltraGrid version; Ecopak EPX200 version 490 g",
+   "price_usd": null,
+   "specs": {
+    "volume_l": 35,
+    "frame": "frameless",
+    "max_load_lb": 26,
+    "material": "UltraGrid 210D recycled nylon grid",
+    "torso_sizes": "XS 40 cm, S/M 45 cm, M/L 50 cm"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-gramless-ultra-35l-pack",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-gramless-ultra-35l-pack), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-hkr-pack-ultra-35l",
+   "category": "backpack",
+   "subcategory": "frameless",
+   "brand": "Liteway",
+   "model": "HKR Pack Ultra 35L",
+   "variant": null,
+   "weight_g": 390,
+   "weight_basis": "manufacturer",
+   "weight_note": "complete; 314 g without straps and shock cords",
+   "price_usd": null,
+   "specs": {
+    "volume_l": 35,
+    "frame": "frameless",
+    "material": "Ultra 100",
+    "torso_sizes": "XS/S, M/L"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-hkr-pack-ultra-35l",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-hkr-pack-ultra-35l), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-urban-pro-pack-18l-ultragrid",
+   "category": "backpack",
+   "subcategory": "daypack/fastpack",
+   "brand": "Liteway",
+   "model": "Urban Pro Pack 18L",
+   "variant": "UltraGrid",
+   "weight_g": 280,
+   "weight_basis": "manufacturer",
+   "weight_note": "UltraGrid version; Ecopak EPX200 version 340 g",
+   "price_usd": null,
+   "specs": {
+    "volume_l": 18,
+    "frame": "frameless",
+    "material": "UltraGrid recycled nylon grid"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-urban-pro-pack-18l",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-urban-pro-pack-18l), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+   "id": "liteway-urban-pro-pack-30l-ultragrid",
+   "category": "backpack",
+   "subcategory": "daypack/fastpack",
+   "brand": "Liteway",
+   "model": "Urban Pro Pack 30L",
+   "variant": "UltraGrid",
+   "weight_g": 400,
+   "weight_basis": "manufacturer",
+   "weight_note": "UltraGrid version; Ecopak EPX200 version 455 g",
+   "price_usd": null,
+   "specs": {
+    "volume_l": 30,
+    "frame": "frameless",
+    "max_load_lb": 18,
+    "material": "UltraGrid 210D recycled nylon grid"
+   },
+   "url": "https://www.backpackinglight.com.au/products/liteway-urban-pro-pack-18l-copy",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-urban-pro-pack-18l-copy), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  }
+ ]
+}

@@ -1,0 +1,2076 @@
+[
+  {
+    "id": "toaks-light-550-pot",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Ultralight Titanium 550ml Pot",
+    "variant": null,
+    "weight_g": 72,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 60 g without",
+    "price_usd": 29.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 550,
+      "wall_mm": 0.3
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-550-l",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-light-550-pot-no-handle",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Light Titanium 550ml Pot without Handle",
+    "variant": null,
+    "weight_g": 62,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 43 g without",
+    "price_usd": 31.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 550
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-550-nh",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-light-650-pot",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Ultralight Titanium 650ml Pot",
+    "variant": null,
+    "weight_g": 80,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 70 g without",
+    "price_usd": 36.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 650
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-650-l",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-light-700-pot",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Ultralight Titanium 700ml Pot",
+    "variant": "D115",
+    "weight_g": 90,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 65 g pot only",
+    "price_usd": 39.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 700
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-700-d115-l",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-750-pot",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Titanium 750ml Pot",
+    "variant": null,
+    "weight_g": 103,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 86 g pot only",
+    "price_usd": 26,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 750
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-750",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-750-pot-bail",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Titanium 750ml Pot with Bail Handle",
+    "variant": null,
+    "weight_g": 110,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 93 g pot only",
+    "price_usd": 30,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 750
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-750-bh",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-750-pot-no-handle",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Titanium 750ml Pot without Handle",
+    "variant": null,
+    "weight_g": 79,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 60 g pot only",
+    "price_usd": 32.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 750
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-750-nh",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-900-pot-d115",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Titanium 900ml Pot",
+    "variant": "D115",
+    "weight_g": 116,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 92 g pot only",
+    "price_usd": 45,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 900
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-900-d115",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-900-pot-d130",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Titanium 900ml Pot",
+    "variant": "D130",
+    "weight_g": 104,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 77 g pot only",
+    "price_usd": 45,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 900
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-900-d130",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-1100-pot",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Titanium 1100ml Pot",
+    "variant": null,
+    "weight_g": 125,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 3.5 oz pot only",
+    "price_usd": 46.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1100
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-1100",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-1100-pot-bail",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Titanium 1100ml Pot with Bail Handle",
+    "variant": null,
+    "weight_g": 145,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 125 g pot only",
+    "price_usd": 48.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1100
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-1100-bh",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-1100-pot-with-pan",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Titanium 1100ml Pot with Pan",
+    "variant": null,
+    "weight_g": 159,
+    "weight_basis": "manufacturer",
+    "weight_note": "pot + pan-lid; 113 g pot only",
+    "price_usd": 48.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1100
+    },
+    "url": "https://www.toaksoutdoor.com/products/ckw-1100",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-1300-pot",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Titanium 1300ml Pot",
+    "variant": null,
+    "weight_g": 136,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 105 g pot only",
+    "price_usd": 50.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1300
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-1300",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-1300-pot-bail",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Titanium 1300ml Pot with Bail Handle",
+    "variant": null,
+    "weight_g": 141,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 52.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1300
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-1300-bh",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-1300-pot-with-pan",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Titanium 1300ml Pot with Pan",
+    "variant": null,
+    "weight_g": 170,
+    "weight_basis": "manufacturer",
+    "weight_note": "pot + pan-lid; 111 g pot only",
+    "price_usd": 52.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1300
+    },
+    "url": "https://www.toaksoutdoor.com/products/ckw-1300",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-1350-pot",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Titanium 1350ml Pot",
+    "variant": null,
+    "weight_g": 148,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 115 g pot only",
+    "price_usd": 52.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1350
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-1350",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-1600-pot",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Titanium 1600ml Pot",
+    "variant": null,
+    "weight_g": 194,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 158 g pot only",
+    "price_usd": 52.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1600
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-1600",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-1600-pot-bail",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Titanium 1600ml Pot with Bail Handle",
+    "variant": null,
+    "weight_g": 210,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 170 g pot only",
+    "price_usd": 56.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1600
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-1600-bh",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-1600-pot-with-pan",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Titanium 1600ml Pot with Pan",
+    "variant": null,
+    "weight_g": 231,
+    "weight_basis": "manufacturer",
+    "weight_note": "pot + pan-lid; 158 g pot only",
+    "price_usd": 54.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1600
+    },
+    "url": "https://www.toaksoutdoor.com/products/ckw-1600",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-2000-pot-bail",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "TOAKS",
+    "model": "Titanium 2000ml Pot with Bail Handle",
+    "variant": null,
+    "weight_g": 258,
+    "weight_basis": "manufacturer",
+    "weight_note": "with bail and lid; 180 g pot only",
+    "price_usd": 74.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 2000
+    },
+    "url": "https://www.toaksoutdoor.com/products/pot-2000-bh",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-375-cup",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "TOAKS",
+    "model": "Titanium 375ml Cup",
+    "variant": null,
+    "weight_g": 48,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 18.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 375
+    },
+    "url": "https://www.toaksoutdoor.com/products/cup-375",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-375-cup-lid",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "TOAKS",
+    "model": "Titanium 375ml Cup with Lid",
+    "variant": null,
+    "weight_g": 76,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid",
+    "price_usd": 23.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 375
+    },
+    "url": "https://www.toaksoutdoor.com/products/cup-375-c",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-light-450-cup",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "TOAKS",
+    "model": "Ultralight Titanium 450ml Cup",
+    "variant": null,
+    "weight_g": 48,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 19.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 450,
+      "wall_mm": 0.3
+    },
+    "url": "https://www.toaksoutdoor.com/products/cup-450-l",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-light-450-cup-lid",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "TOAKS",
+    "model": "Ultralight Titanium 450ml Cup with Lid",
+    "variant": null,
+    "weight_g": 62,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 48 g without",
+    "price_usd": 23.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 450
+    },
+    "url": "https://www.toaksoutdoor.com/products/cup-450-l-c",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-450-cup",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "TOAKS",
+    "model": "Titanium 450ml Cup",
+    "variant": "0.5 mm",
+    "weight_g": 76,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 14.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 450
+    },
+    "url": "https://www.toaksoutdoor.com/products/cup-450",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-450-cup-lid",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "TOAKS",
+    "model": "Titanium 450ml Cup with Lid",
+    "variant": "0.5 mm",
+    "weight_g": 91,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid; 76 g without",
+    "price_usd": 18.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 450
+    },
+    "url": "https://www.toaksoutdoor.com/products/cup-450-c",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-370-double-wall-cup",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "TOAKS",
+    "model": "Titanium 370ml Double Wall Cup",
+    "variant": null,
+    "weight_g": 88,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 38.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 370
+    },
+    "url": "https://www.toaksoutdoor.com/products/cup-370-dw",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-450-double-wall-cup",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "TOAKS",
+    "model": "Titanium 450ml Double Wall Cup",
+    "variant": null,
+    "weight_g": 120,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 39.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 450
+    },
+    "url": "https://www.toaksoutdoor.com/products/cup-450-dw",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-frying-pan-d115",
+    "category": "cookware",
+    "subcategory": "pan",
+    "brand": "TOAKS",
+    "model": "Titanium Frying Pan",
+    "variant": "D115",
+    "weight_g": 45,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 15,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://www.toaksoutdoor.com/products/pan-115",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-frying-pan-d130",
+    "category": "cookware",
+    "subcategory": "pan",
+    "brand": "TOAKS",
+    "model": "Titanium Frying Pan",
+    "variant": "D130",
+    "weight_g": 60,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 2.1 oz",
+    "price_usd": 17.5,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://www.toaksoutdoor.com/products/pan-130",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-frying-pan-d145",
+    "category": "cookware",
+    "subcategory": "pan",
+    "brand": "TOAKS",
+    "model": "Titanium Frying Pan",
+    "variant": "D145",
+    "weight_g": 71,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 20,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://www.toaksoutdoor.com/products/pan-145",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-deep-frying-pan-d165",
+    "category": "cookware",
+    "subcategory": "pan",
+    "brand": "TOAKS",
+    "model": "Titanium Deep Frying Pan",
+    "variant": "D165",
+    "weight_g": 104,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 24.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 710
+    },
+    "url": "https://www.toaksoutdoor.com/products/pan-165",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-compact-cookset",
+    "category": "cookware",
+    "subcategory": "pot set",
+    "brand": "TOAKS",
+    "model": "Titanium Compact Cookset",
+    "variant": null,
+    "weight_g": 200,
+    "weight_basis": "manufacturer",
+    "weight_note": "800 ml pot + 400 ml bowl",
+    "price_usd": 34.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 800
+    },
+    "url": "https://www.toaksoutdoor.com/products/cs-12",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-1300-900-pot-combo",
+    "category": "cookware",
+    "subcategory": "pot set",
+    "brand": "TOAKS",
+    "model": "Titanium 1300ml Pot / 900ml Pot Combo Set",
+    "variant": null,
+    "weight_g": 257,
+    "weight_basis": "manufacturer",
+    "weight_note": "nesting 1300 ml + 900 ml (D115) pots",
+    "price_usd": 95.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1300
+    },
+    "url": "https://www.toaksoutdoor.com/products/cmb-pot1300-pot900d115",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-9-piece-short-combo",
+    "category": "cookware",
+    "subcategory": "pot set",
+    "brand": "TOAKS",
+    "model": "Titanium 9-Piece Short Combo Set",
+    "variant": null,
+    "weight_g": 596,
+    "weight_basis": "manufacturer",
+    "weight_note": "total",
+    "price_usd": 200.75,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://www.toaksoutdoor.com/products/cmb-9piece_shortset",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "vargo-ti-lite-750-mug",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Vargo",
+    "model": "Titanium Ti-Lite Mug",
+    "variant": "750 ml",
+    "weight_g": 117,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 54.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 750
+    },
+    "url": "https://vargooutdoors.com/products/titanium-ti-lite-750-mug",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "vargo-ti-lite-900-mug",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Vargo",
+    "model": "Titanium Ti-Lite Mug",
+    "variant": "900 ml",
+    "weight_g": 130,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 64.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 900
+    },
+    "url": "https://vargooutdoors.com/products/titanium-ti-lite-900-mug",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "vargo-bot",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Vargo",
+    "model": "Titanium BOT (Bottle Pot)",
+    "variant": null,
+    "weight_g": 147,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 99.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1000
+    },
+    "url": "https://vargooutdoors.com/products/titanium-bot-bottle-pot",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Screw-top bottle/pot; doubles as cold-soak jar."
+  },
+  {
+    "id": "vargo-bot-700",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Vargo",
+    "model": "BOT-700",
+    "variant": null,
+    "weight_g": 138,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 99.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 700
+    },
+    "url": "https://vargooutdoors.com/products/bot-700",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "vargo-bot-hd",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Vargo",
+    "model": "BOT HD",
+    "variant": null,
+    "weight_g": 153,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 109.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1000
+    },
+    "url": "https://vargooutdoors.com/products/bot-hd",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "vargo-bot-xl",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Vargo",
+    "model": "BOT XL",
+    "variant": null,
+    "weight_g": 156,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 109.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1100
+    },
+    "url": "https://vargooutdoors.com/products/bot-xl",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "vargo-ti-boiler",
+    "category": "cookware",
+    "subcategory": "pot set",
+    "brand": "Vargo",
+    "model": "Titanium Ti-Boiler",
+    "variant": null,
+    "weight_g": 187,
+    "weight_basis": "manufacturer",
+    "weight_note": "900 ml mug + 400 ml lid-pan",
+    "price_usd": 69.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 900
+    },
+    "url": "https://vargooutdoors.com/products/titanium-ti-boiler",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "vargo-sierra-cup-300",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "Vargo",
+    "model": "Titanium Sierra Cup",
+    "variant": "300",
+    "weight_g": 43,
+    "weight_basis": "manufacturer",
+    "weight_note": "60 g with bag",
+    "price_usd": 24.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 300
+    },
+    "url": "https://vargooutdoors.com/products/titanium-sierra-cup-300",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "vargo-sierra-cup-450",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "Vargo",
+    "model": "Titanium Sierra Cup",
+    "variant": "450",
+    "weight_g": 55,
+    "weight_basis": "manufacturer",
+    "weight_note": "75 g with bag",
+    "price_usd": 26.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 450
+    },
+    "url": "https://vargooutdoors.com/products/titanium-sierra-cup-450",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "vargo-450-travel-mug",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "Vargo",
+    "model": "Titanium 450 Travel Mug",
+    "variant": null,
+    "weight_g": 63,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 29.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 450
+    },
+    "url": "https://vargooutdoors.com/products/titanium-450-travel-mug",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "msr-titan-kettle-900",
+    "category": "cookware",
+    "subcategory": "kettle",
+    "brand": "MSR",
+    "model": "Titan Kettle",
+    "variant": "900 mL",
+    "weight_g": 125,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 4.4 oz",
+    "price_usd": 64.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 900
+    },
+    "url": "https://cascadedesigns.com/products/titan-kettle-900ml",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "msr-titan-kettle-1400",
+    "category": "cookware",
+    "subcategory": "kettle",
+    "brand": "MSR",
+    "model": "Titan Kettle",
+    "variant": "1400 mL",
+    "weight_g": 153,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 5.4 oz",
+    "price_usd": 74.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1400
+    },
+    "url": "https://cascadedesigns.com/products/titan-kettle-1400ml",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "msr-titan-cup-450",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "MSR",
+    "model": "Titan Cup",
+    "variant": "450 mL",
+    "weight_g": 68,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 2.4 oz",
+    "price_usd": 39.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 450
+    },
+    "url": "https://cascadedesigns.com/products/titan-cup-450ml",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "msr-titan-double-wall-mug",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "MSR",
+    "model": "Titan Double Wall Mug",
+    "variant": null,
+    "weight_g": 116,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 4.1 oz",
+    "price_usd": 54.95,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://cascadedesigns.com/products/titan-double-wall-mug",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "msr-trail-lite-1-3-pot",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "MSR",
+    "model": "Trail Lite Pot",
+    "variant": "1.3 L",
+    "weight_g": 201,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 7.1 oz",
+    "price_usd": 44.95,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 1300
+    },
+    "url": "https://cascadedesigns.com/products/trail-lite-1-3-l-pot",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "msr-ceramic-solo-pot",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "MSR",
+    "model": "Ceramic Solo Pot",
+    "variant": null,
+    "weight_g": 213,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 7.5 oz",
+    "price_usd": 61.95,
+    "specs": {
+      "material": "aluminum, ceramic nonstick"
+    },
+    "url": "https://cascadedesigns.com/products/ceramic-solo-pot",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "msr-alpine-stowaway-475",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "MSR",
+    "model": "Alpine StowAway Pot",
+    "variant": "475 mL",
+    "weight_g": 270,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 23.95,
+    "specs": {
+      "material": "stainless steel",
+      "capacity_ml": 475
+    },
+    "url": "https://cascadedesigns.com/products/alpine-stowaway-pots",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "msr-alpine-stowaway-775",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "MSR",
+    "model": "Alpine StowAway Pot",
+    "variant": "775 mL",
+    "weight_g": 365,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 25.95,
+    "specs": {
+      "material": "stainless steel",
+      "capacity_ml": 775
+    },
+    "url": "https://cascadedesigns.com/products/alpine-stowaway-pots",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "msr-alpine-stowaway-1100",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "MSR",
+    "model": "Alpine StowAway Pot",
+    "variant": "1.1 L",
+    "weight_g": 440,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 28.95,
+    "specs": {
+      "material": "stainless steel",
+      "capacity_ml": 1100
+    },
+    "url": "https://cascadedesigns.com/products/alpine-stowaway-pots",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "fire-maple-petrel-g3-600",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Fire-Maple",
+    "model": "Petrel G3 HX Pot",
+    "variant": "600 ml",
+    "weight_g": 162,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 25.95,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 600
+    },
+    "url": "https://www.firemaplegear.com/products/petrel-ultralight-pot-600ml",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Heat-exchanger base."
+  },
+  {
+    "id": "fire-maple-petrel-g2-750",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Fire-Maple",
+    "model": "Petrel G2 HX Pot",
+    "variant": "750 ml",
+    "weight_g": 184,
+    "weight_basis": "manufacturer",
+    "weight_note": "optional sleeve adds 19 g",
+    "price_usd": 29.95,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 750
+    },
+    "url": "https://www.firemaplegear.com/products/petrel-g2-750ml-hx-pot",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "fire-maple-petrel-ramen-800",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Fire-Maple",
+    "model": "Petrel Ramen Pot",
+    "variant": "800 ml",
+    "weight_g": 188,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 29.95,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 800
+    },
+    "url": "https://www.firemaplegear.com/products/petrel-ramen-pot-800ml",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "fire-maple-alti-900",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Fire-Maple",
+    "model": "Alti Titanium Pot",
+    "variant": "900 ml",
+    "weight_g": 189,
+    "weight_basis": "manufacturer",
+    "weight_note": "with lid",
+    "price_usd": 79.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 900
+    },
+    "url": "https://www.firemaplegear.com/products/alti-titanium-pot-900ml",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "fire-maple-frost-900",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Fire-Maple",
+    "model": "Frost Aluminium Pot",
+    "variant": "900 ml",
+    "weight_g": 154,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 23.95,
+    "specs": {
+      "material": "aluminum",
+      "capacity_ml": 900
+    },
+    "url": "https://www.firemaplegear.com/products/frost-0-9l-aluminium-pot",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "fire-maple-frost-kettle-0-8",
+    "category": "cookware",
+    "subcategory": "kettle",
+    "brand": "Fire-Maple",
+    "model": "Frost Aluminium Kettle",
+    "variant": "0.8 L",
+    "weight_g": 156,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 20.36,
+    "specs": {
+      "material": "aluminum",
+      "capacity_ml": 800
+    },
+    "url": "https://www.firemaplegear.com/products/frost-aluminium-kettle-0-8l",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "soto-new-river-pot",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "SOTO",
+    "model": "New River Pot",
+    "variant": null,
+    "weight_g": 141,
+    "weight_basis": "manufacturer",
+    "weight_note": "pot 118 g + lid/holder 23 g",
+    "price_usd": 34.95,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 1000
+    },
+    "url": "https://sotooutdoors.com/product/new-river-pot-2/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "soto-titanium-mug-450",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "SOTO",
+    "model": "Titanium Mug 450",
+    "variant": null,
+    "weight_g": 53,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 24.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 450
+    },
+    "url": "https://sotooutdoors.com/product/titanium-mug450/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "soto-titanium-mug-600",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "SOTO",
+    "model": "Titanium Mug 600",
+    "variant": null,
+    "weight_g": 64,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 29.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 600
+    },
+    "url": "https://sotooutdoors.com/product/dealer-resources-8/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "soto-aero-mug-450",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "SOTO",
+    "model": "Aero Mug 450",
+    "variant": null,
+    "weight_g": 116,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 44.95,
+    "specs": {
+      "material": "aluminum (insulated)",
+      "capacity_ml": 450
+    },
+    "url": "https://sotooutdoors.com/product/aero-mug-450-ml-2/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "soto-titanium-pot-750",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "SOTO",
+    "model": "Titanium Pot 750ml",
+    "variant": null,
+    "weight_g": 95,
+    "weight_basis": "manufacturer",
+    "weight_note": "pot 60 g + titanium lid 15 g + aluminum lifter 20 g (pot body alone 60 g)",
+    "price_usd": 41.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 750
+    },
+    "url": "https://sotooutdoors.com/product/sod-530-titanium-pot-750-2/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Manufacturer page lists 60 g, which looks low for a 750 ml Ti pot; may exclude lid. SOTO Japan SOD-530 spec table lists pot 60 g / lid 15 g / lifter 20 g / total 95 g; SOTO US page lists only the 60 g pot body. checked 2026-10-23."
+  },
+  {
+    "id": "soto-titanium-pot-1100",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "SOTO",
+    "model": "Titanium Pot 1100ml",
+    "variant": null,
+    "weight_g": 112,
+    "weight_basis": "manufacturer",
+    "weight_note": "pot 62 g + titanium lid 30 g + aluminum lifter 20 g (pot body alone 62 g)",
+    "price_usd": 44.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1100
+    },
+    "url": "https://sotooutdoors.com/product/titanium-pot-1100/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Manufacturer page lists 62 g, which looks implausibly low; treat as unverified. SOTO Japan SOD-531 spec table lists pot 62 g / lid 30 g / lifter 20 g / total 112 g; SOTO US page ($44.95) lists only the 62 g pot body. checked 2026-10-23."
+  },
+  {
+    "id": "soto-thermostack-original",
+    "category": "cookware",
+    "subcategory": "pot set",
+    "brand": "SOTO",
+    "model": "Thermostack Cook Set",
+    "variant": "Original",
+    "weight_g": 182,
+    "weight_basis": "manufacturer",
+    "weight_note": "total set weight",
+    "price_usd": 54.95,
+    "specs": {
+      "material": "stainless steel / titanium"
+    },
+    "url": "https://sotooutdoors.com/product/thermostack-cook-set-original/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "sea-to-summit-frontier-pot-1-3",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Sea to Summit",
+    "model": "Frontier Ultralight Pot",
+    "variant": "1.3 L",
+    "weight_g": 208,
+    "weight_basis": "manufacturer",
+    "weight_note": "packed weight",
+    "price_usd": 64.95,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 1300
+    },
+    "url": "https://seatosummit.com/products/frontier-ultralight-pot",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "sea-to-summit-frontier-pot-2",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Sea to Summit",
+    "model": "Frontier Ultralight Pot",
+    "variant": "2 L",
+    "weight_g": 255,
+    "weight_basis": "manufacturer",
+    "weight_note": "packed weight",
+    "price_usd": 72.95,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 2000
+    },
+    "url": "https://seatosummit.com/products/frontier-ultralight-pot",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "sea-to-summit-frontier-pot-3",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Sea to Summit",
+    "model": "Frontier Ultralight Pot",
+    "variant": "3 L",
+    "weight_g": 304,
+    "weight_basis": "manufacturer",
+    "weight_note": "packed weight",
+    "price_usd": 77.95,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 3000
+    },
+    "url": "https://seatosummit.com/products/frontier-ultralight-pot",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "sea-to-summit-frontier-collapsible-pot-1",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Sea to Summit",
+    "model": "Frontier Ultralight Collapsible Pot",
+    "variant": "1 L",
+    "weight_g": 198,
+    "weight_basis": "manufacturer",
+    "weight_note": "packed weight",
+    "price_usd": 77.95,
+    "specs": {
+      "material": "aluminum base, silicone walls",
+      "capacity_ml": 1000
+    },
+    "url": "https://seatosummit.com/products/frontier-ultralight-collapsible-pot",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "sea-to-summit-frontier-collapsible-kettle",
+    "category": "cookware",
+    "subcategory": "kettle",
+    "brand": "Sea to Summit",
+    "model": "Frontier Ultralight Collapsible Kettle",
+    "variant": "1.1 L",
+    "weight_g": 201,
+    "weight_basis": "manufacturer",
+    "weight_note": "packed weight",
+    "price_usd": 72.95,
+    "specs": {
+      "material": "aluminum base, silicone walls",
+      "capacity_ml": 1100
+    },
+    "url": "https://seatosummit.com/products/frontier-collapsible-kettle",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "sea-to-summit-frontier-pan-8",
+    "category": "cookware",
+    "subcategory": "pan",
+    "brand": "Sea to Summit",
+    "model": "Frontier Ultralight Pan",
+    "variant": "8 in",
+    "weight_g": 366,
+    "weight_basis": "manufacturer",
+    "weight_note": "packed weight",
+    "price_usd": 72.95,
+    "specs": {
+      "material": "aluminum, ceramic nonstick",
+      "capacity_ml": 1500
+    },
+    "url": "https://seatosummit.com/products/frontier-ultralight-pan",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "esbit-titanium-pot-750",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Esbit",
+    "model": "Titanium Pot 750 ml",
+    "variant": null,
+    "weight_g": 106,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 0.1065 kg",
+    "price_usd": null,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 750
+    },
+    "url": "https://www.esbit.de/products/titan-topf-ultraleicht-750-ml-esbit",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "snow-peak-trek-700",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Snow Peak",
+    "model": "Trek 700 Titanium",
+    "variant": null,
+    "weight_g": 136,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled; price verified",
+    "price_usd": 44.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 700
+    },
+    "url": "https://snowpeak.com/products/trek-700-titanium",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "snow-peak-trek-900",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Snow Peak",
+    "model": "Trek 900 Titanium",
+    "variant": null,
+    "weight_g": 193,
+    "weight_basis": "manufacturer",
+    "weight_note": "pot + lid/pan; weight recalled",
+    "price_usd": 54.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 900
+    },
+    "url": "https://snowpeak.com/products/trek-900-titanium-cookset",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "snow-peak-trek-1400",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Snow Peak",
+    "model": "Trek 1400 Titanium",
+    "variant": null,
+    "weight_g": 255,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled",
+    "price_usd": 64.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1400
+    },
+    "url": "https://snowpeak.com/products/trek-1400-titanium-cookset",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "snow-peak-ti-mini-solo-combo-2",
+    "category": "cookware",
+    "subcategory": "pot set",
+    "brand": "Snow Peak",
+    "model": "Ti-Mini Solo Combo 2.0",
+    "variant": null,
+    "weight_g": 220,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled",
+    "price_usd": 74.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 880
+    },
+    "url": "https://snowpeak.com/products/ti-mini-solo-combo-scs-004t",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "snow-peak-ti-single-300",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "Snow Peak",
+    "model": "Ti-Single 300 Cup",
+    "variant": null,
+    "weight_g": 45,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled; price verified",
+    "price_usd": 24.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 300
+    },
+    "url": "https://snowpeak.com/products/ti-single-300-cup-fh-mg-042fh",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "snow-peak-ti-single-450",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "Snow Peak",
+    "model": "Ti-Single 450 Cup",
+    "variant": null,
+    "weight_g": 68,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled; price verified",
+    "price_usd": 29.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 450
+    },
+    "url": "https://snowpeak.com/products/titanium-single-450-cup-mg-043",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "snow-peak-ti-single-600",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "Snow Peak",
+    "model": "Ti-Single 600 Cup",
+    "variant": null,
+    "weight_g": 82,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled; price verified",
+    "price_usd": 37.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 600
+    },
+    "url": "https://snowpeak.com/products/titanium-single-600-wall-cup-mg-044",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "snow-peak-ti-double-300",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "Snow Peak",
+    "model": "Ti-Double 300 Mug",
+    "variant": null,
+    "weight_g": 85,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled; price verified",
+    "price_usd": 44.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 300
+    },
+    "url": "https://snowpeak.com/products/titanium-double-300-mug",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "snow-peak-ti-double-450",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "Snow Peak",
+    "model": "Ti-Double 450 Mug",
+    "variant": null,
+    "weight_g": 110,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled; price verified",
+    "price_usd": 49.95,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 450
+    },
+    "url": "https://snowpeak.com/products/titanium-double-450-mug",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "snow-peak-personal-cooker-3",
+    "category": "cookware",
+    "subcategory": "pot set",
+    "brand": "Snow Peak",
+    "model": "Personal Cooker 3",
+    "variant": null,
+    "weight_g": 400,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight estimated",
+    "price_usd": 42.95,
+    "specs": {
+      "material": "aluminum"
+    },
+    "url": "https://snowpeak.com/products/personal-cooker-3-cs-073us",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "snow-peak-kettle-no-1",
+    "category": "cookware",
+    "subcategory": "kettle",
+    "brand": "Snow Peak",
+    "model": "Kettle No. 1",
+    "variant": null,
+    "weight_g": 190,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled",
+    "price_usd": 26.95,
+    "specs": {
+      "material": "aluminum",
+      "capacity_ml": 900
+    },
+    "url": "https://snowpeak.com/products/kettle-no-1-cs-068",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "gsi-halulite-minimalist",
+    "category": "cookware",
+    "subcategory": "pot set",
+    "brand": "GSI Outdoors",
+    "model": "Halulite Minimalist",
+    "variant": null,
+    "weight_g": 153,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled; price verified",
+    "price_usd": 44.95,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 600
+    },
+    "url": "https://gsioutdoors.com/products/halulite-minimalist-1",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "gsi-halulite-soloist",
+    "category": "cookware",
+    "subcategory": "pot set",
+    "brand": "GSI Outdoors",
+    "model": "Halulite Soloist",
+    "variant": null,
+    "weight_g": 300,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled",
+    "price_usd": 69.95,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 1100
+    },
+    "url": "https://gsioutdoors.com/products/halulite-soloist-new",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "gsi-halulite-microdualist",
+    "category": "cookware",
+    "subcategory": "pot set",
+    "brand": "GSI Outdoors",
+    "model": "Halulite Microdualist",
+    "variant": null,
+    "weight_g": 340,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled",
+    "price_usd": 69.95,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 1400
+    },
+    "url": "https://gsioutdoors.com/products/halulite-microdualist-1",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "gsi-halulite-ketalist",
+    "category": "cookware",
+    "subcategory": "kettle",
+    "brand": "GSI Outdoors",
+    "model": "Halulite Ketalist",
+    "variant": null,
+    "weight_g": 250,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled",
+    "price_usd": 45.95,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 1000
+    },
+    "url": "https://gsioutdoors.com/products/halulite-ketalist-1",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "gsi-glacier-minimalist",
+    "category": "cookware",
+    "subcategory": "pot set",
+    "brand": "GSI Outdoors",
+    "model": "Glacier Minimalist",
+    "variant": null,
+    "weight_g": 220,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled",
+    "price_usd": 39.95,
+    "specs": {
+      "material": "stainless steel",
+      "capacity_ml": 600
+    },
+    "url": "https://gsioutdoors.com/products/glacier-minimalist",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "primus-lite-xl-pot-1-0",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Primus",
+    "model": "Lite XL Pot",
+    "variant": null,
+    "weight_g": 200,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled",
+    "price_usd": 79.99,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 1000
+    },
+    "url": "https://www.primus.us/products/lite-xl-pot-1-0-l-34-oz",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "primus-litech-kettle-0-9",
+    "category": "cookware",
+    "subcategory": "kettle",
+    "brand": "Primus",
+    "model": "LiTech Coffee/Tea Kettle",
+    "variant": "0.9 L",
+    "weight_g": 180,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled",
+    "price_usd": 29.99,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 900
+    },
+    "url": "https://www.primus.us/products/litech-coffee-tea-kettle-0-9l",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "primus-essential-pot-set-1-3",
+    "category": "cookware",
+    "subcategory": "pot set",
+    "brand": "Primus",
+    "model": "Essential Pot Set",
+    "variant": "1.3 L",
+    "weight_g": 330,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled",
+    "price_usd": 39.95,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 1300
+    },
+    "url": "https://www.primus.us/products/essential-pot-set-1-3l",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "evernew-ti-mug-pot-500",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Evernew",
+    "model": "Titanium Mug Pot 500",
+    "variant": null,
+    "weight_g": 77,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 500
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "evernew-ti-ultralight-pot-900",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Evernew",
+    "model": "Titanium Ultralight Pot 900",
+    "variant": null,
+    "weight_g": 121,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 900
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "evernew-ti-ultralight-pot-1300",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Evernew",
+    "model": "Titanium Ultralight Pot 1.3L",
+    "variant": null,
+    "weight_g": 151,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 1300
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "keith-titanium-pot-900",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Keith",
+    "model": "Titanium Pot 900ml",
+    "variant": null,
+    "weight_g": 128,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 900
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "keith-titanium-mug-450",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "Keith",
+    "model": "Titanium Mug 450ml",
+    "variant": null,
+    "weight_g": 70,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 450
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "stanley-adventure-camp-cook-set-24oz",
+    "category": "cookware",
+    "subcategory": "pot set",
+    "brand": "Stanley",
+    "model": "Adventure Camp Cook Set",
+    "variant": "24 oz",
+    "weight_g": 380,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "material": "stainless steel",
+      "capacity_ml": 710
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "Budget stainless pot with two cups."
+  },
+  {
+    "id": "olicamp-xts-pot",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Olicamp",
+    "model": "XTS Pot",
+    "variant": null,
+    "weight_g": 187,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 1000
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "Heat-exchanger pot."
+  },
+  {
+    "id": "olicamp-space-saver-mug",
+    "category": "cookware",
+    "subcategory": "mug",
+    "brand": "Olicamp",
+    "model": "Space Saver Mug",
+    "variant": null,
+    "weight_g": 99,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "material": "stainless steel",
+      "capacity_ml": 600
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "lixada-titanium-750-pot",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Lixada",
+    "model": "Titanium 750ml Pot",
+    "variant": null,
+    "weight_g": 106,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 750
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "boundless-voyage-titanium-750-pot",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Boundless Voyage",
+    "model": "Titanium 750ml Pot",
+    "variant": null,
+    "weight_g": 108,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "material": "titanium",
+      "capacity_ml": 750
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "jetboil-flash-companion-cup",
+    "category": "cookware",
+    "subcategory": "pot",
+    "brand": "Jetboil",
+    "model": "FluxRing Companion Cup",
+    "variant": null,
+    "weight_g": 275,
+    "weight_basis": "manufacturer",
+    "weight_note": "1.0 L Tall FluxRing spare cup, Jetboil spec 9.7 oz / 275 g (with lid and cozy)",
+    "price_usd": null,
+    "specs": {
+      "material": "hard-anodized aluminum",
+      "capacity_ml": 1000
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Replacement/extra cup for Flash/Zip systems."
+  }
+]

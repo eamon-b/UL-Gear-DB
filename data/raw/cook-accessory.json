@@ -1,0 +1,1356 @@
+[
+  {
+    "id": "toaks-long-handle-spoon",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "TOAKS",
+    "model": "Titanium Long Handle Spoon",
+    "variant": null,
+    "weight_g": 19,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 9.95,
+    "specs": {
+      "material": "titanium",
+      "length_mm": 220
+    },
+    "url": "https://www.toaksoutdoor.com/products/slv-03",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-long-handle-spoon-polished",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "TOAKS",
+    "model": "Titanium Long Handle Spoon with Polished Bowl",
+    "variant": null,
+    "weight_g": 19,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 10.95,
+    "specs": {
+      "material": "titanium",
+      "length_mm": 220
+    },
+    "url": "https://www.toaksoutdoor.com/products/slv-11",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-long-handle-spork-polished",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "TOAKS",
+    "model": "Titanium Long Handle Spork with Polished Bowl",
+    "variant": null,
+    "weight_g": 19,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 10.95,
+    "specs": {
+      "material": "titanium",
+      "length_mm": 220
+    },
+    "url": "https://www.toaksoutdoor.com/products/slv-14",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "TOAKS",
+    "model": "Titanium Spork",
+    "variant": null,
+    "weight_g": 18,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 8.95,
+    "specs": {
+      "material": "titanium",
+      "length_mm": 168
+    },
+    "url": "https://www.toaksoutdoor.com/products/slv-1",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-spoon",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "TOAKS",
+    "model": "Titanium Spoon",
+    "variant": null,
+    "weight_g": 18,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 8.95,
+    "specs": {
+      "material": "titanium",
+      "length_mm": 165
+    },
+    "url": "https://www.toaksoutdoor.com/products/slv-13",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-ultralight-spoon",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "TOAKS",
+    "model": "Ultralight Titanium Spoon",
+    "variant": null,
+    "weight_g": 12,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 12.5 g",
+    "price_usd": 8.95,
+    "specs": {
+      "material": "titanium",
+      "length_mm": 165
+    },
+    "url": "https://www.toaksoutdoor.com/products/slv-05",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-ultralight-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "TOAKS",
+    "model": "Ultralight Titanium Spork",
+    "variant": null,
+    "weight_g": 12,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 12.5 g",
+    "price_usd": 8.95,
+    "specs": {
+      "material": "titanium",
+      "length_mm": 162
+    },
+    "url": "https://www.toaksoutdoor.com/products/slv-04",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-short-handle-spoon",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "TOAKS",
+    "model": "Titanium Short Handle Spoon",
+    "variant": null,
+    "weight_g": 10,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 10.4 g",
+    "price_usd": 8.95,
+    "specs": {
+      "material": "titanium",
+      "length_mm": 127
+    },
+    "url": "https://www.toaksoutdoor.com/products/slv-10",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-folding-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "TOAKS",
+    "model": "Titanium Folding Spork",
+    "variant": null,
+    "weight_g": 18,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 10.95,
+    "specs": {
+      "material": "titanium",
+      "length_mm": 165
+    },
+    "url": "https://www.toaksoutdoor.com/products/slv-06",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-petite-folding-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "TOAKS",
+    "model": "Petite Titanium Folding Spork",
+    "variant": null,
+    "weight_g": 18,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 8.95,
+    "specs": {
+      "material": "titanium",
+      "length_mm": 150
+    },
+    "url": "https://www.toaksoutdoor.com/products/slv-16",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-folding-spoon",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "TOAKS",
+    "model": "Titanium Folding Spoon",
+    "variant": null,
+    "weight_g": 18,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 10.95,
+    "specs": {
+      "material": "titanium",
+      "length_mm": 165
+    },
+    "url": "https://www.toaksoutdoor.com/products/slv-07",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-folding-fork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "TOAKS",
+    "model": "Titanium Folding Fork",
+    "variant": null,
+    "weight_g": 14,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 10.95,
+    "specs": {
+      "material": "titanium",
+      "length_mm": 160
+    },
+    "url": "https://www.toaksoutdoor.com/products/slv-09",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-titongs-set",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "TOAKS",
+    "model": "TiTongs Set",
+    "variant": null,
+    "weight_g": 34,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 19.95,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://www.toaksoutdoor.com/products/slv-15",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Spoon + fork + connector that forms tongs."
+  },
+  {
+    "id": "toaks-3-piece-cutlery-set",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "TOAKS",
+    "model": "Titanium 3-Pieces Cutlery Set",
+    "variant": null,
+    "weight_g": 49,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 19.95,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://www.toaksoutdoor.com/products/slv-02",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-collapsible-chopsticks",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "TOAKS",
+    "model": "Titanium Collapsible Chopsticks",
+    "variant": null,
+    "weight_g": 22,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 29.95,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://www.toaksoutdoor.com/products/fc-02",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-titanium-windscreen",
+    "category": "cook-accessory",
+    "subcategory": "windscreen",
+    "brand": "TOAKS",
+    "model": "Titanium Windscreen",
+    "variant": null,
+    "weight_g": 14,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 10.95,
+    "specs": {
+      "material": "titanium",
+      "dimensions_mm": "580 x 110"
+    },
+    "url": "https://www.toaksoutdoor.com/products/wsc",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-tistand",
+    "category": "cook-accessory",
+    "subcategory": "windscreen",
+    "brand": "TOAKS",
+    "model": "TiStand Alcohol Stove Dual Stand and Windscreen",
+    "variant": null,
+    "weight_g": 70,
+    "weight_basis": "manufacturer",
+    "weight_note": "4 pieces + 2 stakes",
+    "price_usd": 24.95,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://www.toaksoutdoor.com/products/frm-03",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-alcohol-stove-pot-stand",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "TOAKS",
+    "model": "Titanium Alcohol Stove Pot Stand",
+    "variant": null,
+    "weight_g": 34,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 19.95,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://www.toaksoutdoor.com/products/frm-02",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Pot stand that doubles as windscreen."
+  },
+  {
+    "id": "toaks-pot-cozy-medium",
+    "category": "cook-accessory",
+    "subcategory": "cozy",
+    "brand": "TOAKS",
+    "model": "Pot Cozy",
+    "variant": "Medium",
+    "weight_g": 20,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 9.95,
+    "specs": {
+      "fits": "550-750 ml pots"
+    },
+    "url": "https://www.toaksoutdoor.com/products/coz-m",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "toaks-pot-cozy-large",
+    "category": "cook-accessory",
+    "subcategory": "cozy",
+    "brand": "TOAKS",
+    "model": "Pot Cozy",
+    "variant": "Large",
+    "weight_g": 27,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 11.95,
+    "specs": {
+      "fits": "900-1100 ml pots"
+    },
+    "url": "https://www.toaksoutdoor.com/products/coz-m",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "vargo-titanium-long-handle-spoon",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Vargo",
+    "model": "Titanium Long-Handle Spoon",
+    "variant": null,
+    "weight_g": 14,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 14.95,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://vargooutdoors.com/products/titanium-long-handle-spoon",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "vargo-titanium-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Vargo",
+    "model": "Titanium Spork",
+    "variant": null,
+    "weight_g": 14,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 11.95,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://vargooutdoors.com/products/titanium-spork",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "vargo-titanium-spork-ulv",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Vargo",
+    "model": "Titanium Spork ULV",
+    "variant": null,
+    "weight_g": 11,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 11.95,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://vargooutdoors.com/products/titanium-spork-ulv",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "vargo-titanium-folding-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Vargo",
+    "model": "Titanium Folding Spork",
+    "variant": null,
+    "weight_g": 17,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 14.95,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://vargooutdoors.com/products/titanium-folding-spork",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "vargo-titanium-long-handle-fork-n-spoon",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Vargo",
+    "model": "Titanium Long Handle Fork-N-Spoon",
+    "variant": null,
+    "weight_g": 23,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 19.95,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://vargooutdoors.com/products/titanium-long-handle-fork-n-spoon",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "vargo-aluminum-windscreen",
+    "category": "cook-accessory",
+    "subcategory": "windscreen",
+    "brand": "Vargo",
+    "model": "Aluminum Windscreen",
+    "variant": null,
+    "weight_g": 38,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 14.95,
+    "specs": {
+      "material": "aluminum"
+    },
+    "url": "https://vargooutdoors.com/products/aluminum-windscreen",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "vargo-bot-cozy",
+    "category": "cook-accessory",
+    "subcategory": "cozy",
+    "brand": "Vargo",
+    "model": "BOT Cozy",
+    "variant": null,
+    "weight_g": 32,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 10.0,
+    "specs": {
+      "fits": "Vargo BOT"
+    },
+    "url": "https://vargooutdoors.com/products/bot-cozy",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "msr-titan-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "MSR",
+    "model": "Titan Spork",
+    "variant": null,
+    "weight_g": 14,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 0.5 oz",
+    "price_usd": 14.95,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://cascadedesigns.com/products/titan-spork",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "msr-titan-long-spoon",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "MSR",
+    "model": "Titan Long Spoon",
+    "variant": null,
+    "weight_g": 20,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 0.7 oz",
+    "price_usd": 17.95,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://cascadedesigns.com/products/titan-long-spoon",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "msr-isopro-110",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "MSR",
+    "model": "IsoPro Fuel",
+    "variant": "110 g",
+    "weight_g": 210,
+    "weight_basis": "manufacturer",
+    "weight_note": "gross weight (full canister)",
+    "price_usd": 5.95,
+    "specs": {
+      "fuel": "isobutane/propane 80/20",
+      "net_fuel_g": 110
+    },
+    "url": "https://cascadedesigns.com/products/msr-isopro-fuel",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "msr-isopro-227",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "MSR",
+    "model": "IsoPro Fuel",
+    "variant": "227 g",
+    "weight_g": 371,
+    "weight_basis": "manufacturer",
+    "weight_note": "gross weight (full canister)",
+    "price_usd": 6.95,
+    "specs": {
+      "fuel": "isobutane/propane 80/20",
+      "net_fuel_g": 227
+    },
+    "url": "https://cascadedesigns.com/products/msr-isopro-fuel",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "msr-isopro-450",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "MSR",
+    "model": "IsoPro Fuel",
+    "variant": "450 g",
+    "weight_g": 652,
+    "weight_basis": "manufacturer",
+    "weight_note": "gross weight (full canister)",
+    "price_usd": 10.95,
+    "specs": {
+      "fuel": "isobutane/propane 80/20",
+      "net_fuel_g": 450
+    },
+    "url": "https://cascadedesigns.com/products/msr-isopro-fuel",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "sea-to-summit-frontier-long-spoon",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Sea to Summit",
+    "model": "Frontier Ultralight Spoon - Long Handle",
+    "variant": null,
+    "weight_g": 12,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 10.95,
+    "specs": {
+      "material": "aluminum"
+    },
+    "url": "https://seatosummit.com/products/frontier-ultralight-long-spoon",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "sea-to-summit-frontier-long-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Sea to Summit",
+    "model": "Frontier Ultralight Spork - Long Handle",
+    "variant": null,
+    "weight_g": 11,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 10.95,
+    "specs": {
+      "material": "aluminum"
+    },
+    "url": "https://seatosummit.com/products/frontier-ultralight-long-spork",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "sea-to-summit-frontier-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Sea to Summit",
+    "model": "Frontier Ultralight Spork",
+    "variant": null,
+    "weight_g": 9,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 9.95,
+    "specs": {
+      "material": "aluminum"
+    },
+    "url": "https://seatosummit.com/products/frontier-ultralight-spork",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "sea-to-summit-frontier-short-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Sea to Summit",
+    "model": "Frontier Ultralight Spork - Short Handle",
+    "variant": null,
+    "weight_g": 8,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 7.7 g",
+    "price_usd": 8.95,
+    "specs": {
+      "material": "aluminum"
+    },
+    "url": "https://seatosummit.com/products/frontier-ultralight-short-handle-spork",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "sea-to-summit-xlite-collapsible-mug",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "Sea to Summit",
+    "model": "XLite Collapsible Mug",
+    "variant": null,
+    "weight_g": 60,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 16.95,
+    "specs": {
+      "capacity_ml": 480,
+      "material": "silicone / polypropylene"
+    },
+    "url": "https://seatosummit.com/products/xlite-collapsible-mug",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Drinking mug; not for stove use."
+  },
+  {
+    "id": "sea-to-summit-frontier-collapsible-cup",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "Sea to Summit",
+    "model": "Frontier Ultralight Collapsible Cup",
+    "variant": null,
+    "weight_g": 53,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 14.95,
+    "specs": {
+      "capacity_ml": 400,
+      "material": "silicone / polypropylene"
+    },
+    "url": "https://seatosummit.com/products/frontier-collapsible-cup",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Drinking cup; not for stove use."
+  },
+  {
+    "id": "fire-maple-fmt-t61-folding-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Fire-Maple",
+    "model": "FMT-T61 Folding Titanium Spork",
+    "variant": null,
+    "weight_g": 17,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 9.99,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://www.firemaplegear.com/products/fmt-t61-titanium-cutlery",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "fire-maple-fmw-503-windscreen",
+    "category": "cook-accessory",
+    "subcategory": "windscreen",
+    "brand": "Fire-Maple",
+    "model": "FMW-503 9-Panel Windscreen",
+    "variant": null,
+    "weight_g": 110,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 10.85,
+    "specs": {
+      "material": "aluminum"
+    },
+    "url": "https://www.firemaplegear.com/products/fmw-503-9pcs-foldable-windshield",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "For remote-canister and alcohol stoves."
+  },
+  {
+    "id": "soto-pocket-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "SOTO",
+    "model": "Pocket Spork",
+    "variant": null,
+    "weight_g": 21,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 12.95,
+    "specs": {},
+    "url": "https://sotooutdoors.com/product/pocket-spork/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "soto-micro-lifter",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "SOTO",
+    "model": "Micro Lifter",
+    "variant": null,
+    "weight_g": 13,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 16.45,
+    "specs": {
+      "material": "aluminum, stainless steel"
+    },
+    "url": "https://sotooutdoors.com/product/micro-lifter/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Pot gripper."
+  },
+  {
+    "id": "soto-cozy-750",
+    "category": "cook-accessory",
+    "subcategory": "cozy",
+    "brand": "SOTO",
+    "model": "Cozy 750",
+    "variant": null,
+    "weight_g": 40,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 13.95,
+    "specs": {
+      "fits": "750 ml pot"
+    },
+    "url": "https://sotooutdoors.com/product/dealer-resources-9/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "soto-cozy-1100",
+    "category": "cook-accessory",
+    "subcategory": "cozy",
+    "brand": "SOTO",
+    "model": "Cozy 1100",
+    "variant": null,
+    "weight_g": 46,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 9.85,
+    "specs": {
+      "fits": "1100 ml pot"
+    },
+    "url": "https://sotooutdoors.com/product/dealer-resources-10/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "soto-muglid-ultralight",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "SOTO",
+    "model": "MugLid Ultralight",
+    "variant": null,
+    "weight_g": 17,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 16.3,
+    "specs": {
+      "material": "resin"
+    },
+    "url": "https://sotooutdoors.com/product/dealer-resources-3/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Lid for SOTO mugs/pots."
+  },
+  {
+    "id": "soto-pocket-torch-xt",
+    "category": "cook-accessory",
+    "subcategory": "lighter",
+    "brand": "SOTO",
+    "model": "Pocket Torch XT Extended",
+    "variant": null,
+    "weight_g": 50,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 26.45,
+    "specs": {
+      "refillable": true
+    },
+    "url": "https://sotooutdoors.com/product/pocket-torch-xt-extended/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Converts a disposable lighter into a torch."
+  },
+  {
+    "id": "primus-power-gas-100",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "Primus",
+    "model": "Power Gas",
+    "variant": "100 g",
+    "weight_g": 198,
+    "weight_basis": "manufacturer",
+    "weight_note": "gross weight (full canister)",
+    "price_usd": null,
+    "specs": {
+      "fuel": "butane/propane/isobutane",
+      "net_fuel_g": 100
+    },
+    "url": "https://www.primus.us/products/power-gas-100-gram-case",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Sold by case on primus.us."
+  },
+  {
+    "id": "primus-power-gas-230",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "Primus",
+    "model": "Power Gas",
+    "variant": "230 g",
+    "weight_g": 390,
+    "weight_basis": "manufacturer",
+    "weight_note": "gross weight (full canister)",
+    "price_usd": null,
+    "specs": {
+      "fuel": "butane/propane/isobutane",
+      "net_fuel_g": 230
+    },
+    "url": "https://www.primus.us/products/power-gas-100-gram-case",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Sold by case on primus.us."
+  },
+  {
+    "id": "primus-sip-power-gas-230",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "Primus",
+    "model": "SIP Power Gas",
+    "variant": "230 g",
+    "weight_g": 388,
+    "weight_basis": "manufacturer",
+    "weight_note": "gross weight (full canister)",
+    "price_usd": 5.99,
+    "specs": {
+      "fuel": "butane/propane/isobutane",
+      "net_fuel_g": 230
+    },
+    "url": "https://www.primus.us/products/sip-power-gas-230-canister",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "snow-peak-titanium-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Snow Peak",
+    "model": "Titanium Spork",
+    "variant": null,
+    "weight_g": 17,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled; price verified",
+    "price_usd": 8.95,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://snowpeak.com/products/titanium-spork",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "snow-peak-long-titanium-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Snow Peak",
+    "model": "Long Titanium Spork",
+    "variant": null,
+    "weight_g": 19,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled; price verified",
+    "price_usd": 10.95,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://snowpeak.com/products/long-titanium-spork",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "jetboil-jetpower-100",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "Jetboil",
+    "model": "Jetpower Fuel",
+    "variant": "100 g",
+    "weight_g": 198,
+    "weight_basis": "manufacturer",
+    "weight_note": "gross weight (full canister), recalled",
+    "price_usd": 6.95,
+    "specs": {
+      "fuel": "isobutane/propane",
+      "net_fuel_g": 100
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "jetboil-jetpower-230",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "Jetboil",
+    "model": "Jetpower Fuel",
+    "variant": "230 g",
+    "weight_g": 368,
+    "weight_basis": "manufacturer",
+    "weight_note": "gross weight (full canister), recalled",
+    "price_usd": 7.95,
+    "specs": {
+      "fuel": "isobutane/propane",
+      "net_fuel_g": 230
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "humangear-gobites-uno",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Humangear",
+    "model": "GoBites Uno",
+    "variant": null,
+    "weight_g": 11,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 4.99,
+    "specs": {
+      "material": "nylon"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "humangear-gobites-duo",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Humangear",
+    "model": "GoBites Duo",
+    "variant": null,
+    "weight_g": 17,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 6.99,
+    "specs": {
+      "material": "nylon"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "light-my-fire-spork-original",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Light My Fire",
+    "model": "Spork Original",
+    "variant": null,
+    "weight_g": 9,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 4.95,
+    "specs": {
+      "material": "Tritan"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "sea-to-summit-camp-cutlery-spoon",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Sea to Summit",
+    "model": "Camp Cutlery Spoon",
+    "variant": null,
+    "weight_g": 8,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight estimated",
+    "price_usd": null,
+    "specs": {
+      "material": "glass-reinforced polypropylene"
+    },
+    "url": "https://seatosummit.com/products/camp-spoon",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "bic-mini-lighter",
+    "category": "cook-accessory",
+    "subcategory": "lighter",
+    "brand": "BIC",
+    "model": "Mini Lighter",
+    "variant": null,
+    "weight_g": 11,
+    "weight_basis": "measured",
+    "weight_note": "typical full weight",
+    "price_usd": 1.99,
+    "specs": {
+      "refillable": false
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "bic-classic-lighter",
+    "category": "cook-accessory",
+    "subcategory": "lighter",
+    "brand": "BIC",
+    "model": "Classic Lighter",
+    "variant": null,
+    "weight_g": 21,
+    "weight_basis": "measured",
+    "weight_note": "typical full weight",
+    "price_usd": 2.49,
+    "specs": {
+      "refillable": false
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "light-my-fire-firesteel-scout",
+    "category": "cook-accessory",
+    "subcategory": "lighter",
+    "brand": "Light My Fire",
+    "model": "Swedish FireSteel 2.0 Scout",
+    "variant": null,
+    "weight_g": 25,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 14.99,
+    "specs": {
+      "type": "ferro rod"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "light-my-fire-firesteel-army",
+    "category": "cook-accessory",
+    "subcategory": "lighter",
+    "brand": "Light My Fire",
+    "model": "Swedish FireSteel 2.0 Army",
+    "variant": null,
+    "weight_g": 50,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 19.99,
+    "specs": {
+      "type": "ferro rod"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "emberlit-flint-and-steel",
+    "category": "cook-accessory",
+    "subcategory": "lighter",
+    "brand": "Emberlit",
+    "model": "Flint and Steel (striker)",
+    "variant": null,
+    "weight_g": 30,
+    "weight_basis": "estimate",
+    "weight_note": "weight estimated; price verified",
+    "price_usd": 19.99,
+    "specs": {
+      "type": "flint and steel striker"
+    },
+    "url": "https://www.emberlit.com/products/emberlit-flint-and-steel-sea-turtle",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "talenti-gelato-jar",
+    "category": "cook-accessory",
+    "subcategory": "cold-soak jar",
+    "brand": "Talenti",
+    "model": "Gelato Jar (1 pint)",
+    "variant": null,
+    "weight_g": 48,
+    "weight_basis": "measured",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "capacity_ml": 473,
+      "material": "PET plastic, PP lid"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "Reused ice-cream jar; popular cold-soak container."
+  },
+  {
+    "id": "ziploc-twist-n-loc-16oz",
+    "category": "cook-accessory",
+    "subcategory": "cold-soak jar",
+    "brand": "Ziploc",
+    "model": "Twist n Loc Container",
+    "variant": "16 oz",
+    "weight_g": 37,
+    "weight_basis": "measured",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "capacity_ml": 473
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "ziploc-twist-n-loc-32oz",
+    "category": "cook-accessory",
+    "subcategory": "cold-soak jar",
+    "brand": "Ziploc",
+    "model": "Twist n Loc Container",
+    "variant": "32 oz",
+    "weight_g": 62,
+    "weight_basis": "measured",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "capacity_ml": 946
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "vargo-bot-cold-soak",
+    "category": "cook-accessory",
+    "subcategory": "cold-soak jar",
+    "brand": "Vargo",
+    "model": "Titanium BOT (as cold-soak jar)",
+    "variant": null,
+    "weight_g": 147,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 99.95,
+    "specs": {
+      "capacity_ml": 1000,
+      "material": "titanium"
+    },
+    "url": "https://vargooutdoors.com/products/titanium-bot-bottle-pot",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Same product as cookware vargo-bot; listed here for cold-soak use."
+  },
+  {
+    "id": "esbit-solid-fuel-tablets-14g",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "Esbit",
+    "model": "Solid Fuel Tablets",
+    "variant": "14 g tablet",
+    "weight_g": 14,
+    "weight_basis": "manufacturer",
+    "weight_note": "per tablet",
+    "price_usd": null,
+    "specs": {
+      "fuel": "hexamine",
+      "tablet_g": 14
+    },
+    "url": "https://www.esbit.de/products/trockenbrennstoff-tabletten",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "antigravitygear-pot-cozy",
+    "category": "cook-accessory",
+    "subcategory": "cozy",
+    "brand": "AntiGravityGear",
+    "model": "Pot Cozy",
+    "variant": null,
+    "weight_g": 28,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "material": "Reflectix-style insulation"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "diy-reflectix-pot-cozy",
+    "category": "cook-accessory",
+    "subcategory": "cozy",
+    "brand": "DIY",
+    "model": "Reflectix Pot Cozy",
+    "variant": null,
+    "weight_g": 15,
+    "weight_basis": "estimate",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "material": "Reflectix"
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Homemade cozy; weight typical for 750 ml pot."
+  },
+  {
+    "id": "gsi-tekk-folding-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "GSI Outdoors",
+    "model": "Tekk Folding Spork",
+    "variant": null,
+    "weight_g": 23,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight estimated; price verified",
+    "price_usd": 6.95,
+    "specs": {
+      "material": "stainless steel, POM"
+    },
+    "url": "https://gsioutdoors.com/products/tekk-folding-spork",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  }
+]

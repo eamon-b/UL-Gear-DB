@@ -1,0 +1,5710 @@
+[
+  {
+    "id": "zpacks-arc-pro-60l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Zpacks",
+    "model": "Arc Pro",
+    "variant": "60L",
+    "weight_g": 628,
+    "weight_basis": "manufacturer",
+    "weight_note": "base weight listed (smallest config); +10 g per belt size up",
+    "price_usd": 449,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "material": "Ultra 200X / UltraGrid",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "medium",
+        "tall"
+      ]
+    },
+    "url": "https://zpacks.com/products/arc-pro-60l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-arc-pro-50l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Zpacks",
+    "model": "Arc Pro",
+    "variant": "50L",
+    "weight_g": 611,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed base weight (smallest config)",
+    "price_usd": 449,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "material": "Ultra",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "medium",
+        "tall"
+      ]
+    },
+    "url": "https://zpacks.com/products/arc-pro-50l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-arc-pro-70l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Zpacks",
+    "model": "Arc Pro",
+    "variant": "70L",
+    "weight_g": 645,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed base weight (smallest config)",
+    "price_usd": 449,
+    "specs": {
+      "volume_l": 70,
+      "frame": "internal",
+      "material": "Ultra",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "medium",
+        "tall"
+      ]
+    },
+    "url": "https://zpacks.com/products/arc-pro-70l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-arc-haul-ultra-40l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Zpacks",
+    "model": "Arc Haul Ultra",
+    "variant": "40L",
+    "weight_g": 597,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed base weight; standard straps, small belt; arc carbon frame",
+    "price_usd": 399,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "medium",
+        "tall"
+      ]
+    },
+    "url": "https://zpacks.com/products/arc-haul-ultra-40l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-arc-haul-ultra-50l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Zpacks",
+    "model": "Arc Haul Ultra",
+    "variant": "50L",
+    "weight_g": 608,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed base weight; standard straps, small belt; arc carbon frame",
+    "price_usd": 399,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "medium",
+        "tall"
+      ]
+    },
+    "url": "https://zpacks.com/products/arc-haul-ultra-50l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-arc-haul-ultra-60l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Zpacks",
+    "model": "Arc Haul Ultra",
+    "variant": "60L",
+    "weight_g": 619,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed base weight; standard straps, small belt; arc carbon frame",
+    "price_usd": 399,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "medium",
+        "tall"
+      ]
+    },
+    "url": "https://zpacks.com/products/arc-haul-ultra-60l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-arc-haul-ultra-70l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Zpacks",
+    "model": "Arc Haul Ultra",
+    "variant": "70L",
+    "weight_g": 630,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed base weight; standard straps, small belt; arc carbon frame",
+    "price_usd": 399,
+    "specs": {
+      "volume_l": 70,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "medium",
+        "tall"
+      ]
+    },
+    "url": "https://zpacks.com/products/arc-haul-ultra-70l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-arc-haul-ultra-womens-40l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Zpacks",
+    "model": "Women's Arc Haul Ultra",
+    "variant": "40L",
+    "weight_g": 575,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed base weight, women's straps",
+    "price_usd": 399,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "medium"
+      ]
+    },
+    "url": "https://zpacks.com/products/womens-arc-haul-ultra-40l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-arc-haul-ultra-womens-50l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Zpacks",
+    "model": "Women's Arc Haul Ultra",
+    "variant": "50L",
+    "weight_g": 586,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed base weight, women's straps",
+    "price_usd": 399,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "medium"
+      ]
+    },
+    "url": "https://zpacks.com/products/womens-arc-haul-ultra-50l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-arc-haul-ultra-womens-60l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Zpacks",
+    "model": "Women's Arc Haul Ultra",
+    "variant": "60L",
+    "weight_g": 597,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed base weight, women's straps",
+    "price_usd": 399,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "medium"
+      ]
+    },
+    "url": "https://zpacks.com/products/womens-arc-haul-ultra-60l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-arc-haul-ultra-womens-70l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Zpacks",
+    "model": "Women's Arc Haul Ultra",
+    "variant": "70L",
+    "weight_g": 608,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed base weight, women's straps",
+    "price_usd": 399,
+    "specs": {
+      "volume_l": 70,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "medium"
+      ]
+    },
+    "url": "https://zpacks.com/products/womens-arc-haul-ultra-70l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-arc-zip-ultra-62l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Zpacks",
+    "model": "Arc Zip Ultra",
+    "variant": "62L",
+    "weight_g": 700,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed base weight; standard straps, small belt",
+    "price_usd": 449,
+    "specs": {
+      "volume_l": 62,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "medium",
+        "tall"
+      ]
+    },
+    "url": "https://zpacks.com/products/arc-zip-ultra-62l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "front panel zip access"
+  },
+  {
+    "id": "zpacks-nero-pro-30l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Zpacks",
+    "model": "Nero Pro",
+    "variant": "30L",
+    "weight_g": 315,
+    "weight_basis": "manufacturer",
+    "weight_note": "standard straps, no belt",
+    "price_usd": 279,
+    "specs": {
+      "volume_l": 30,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "Ultra",
+      "hipbelt": false
+    },
+    "url": "https://zpacks.com/products/nero-pro-ultra-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-nero-pro-40l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Zpacks",
+    "model": "Nero Pro",
+    "variant": "40L",
+    "weight_g": 353,
+    "weight_basis": "manufacturer",
+    "weight_note": "standard straps, no belt",
+    "price_usd": 299,
+    "specs": {
+      "volume_l": 40,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "Ultra",
+      "hipbelt": false
+    },
+    "url": "https://zpacks.com/products/nero-pro-ultra-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-nero-pro-50l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Zpacks",
+    "model": "Nero Pro",
+    "variant": "50L",
+    "weight_g": 390,
+    "weight_basis": "manufacturer",
+    "weight_note": "standard straps, no belt",
+    "price_usd": 319,
+    "specs": {
+      "volume_l": 50,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "Ultra",
+      "hipbelt": false
+    },
+    "url": "https://zpacks.com/products/nero-pro-ultra-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-nero-classic-30l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Zpacks",
+    "model": "Nero Classic",
+    "variant": "30L",
+    "weight_g": 281,
+    "weight_basis": "manufacturer",
+    "weight_note": "standard straps, no belt (small/women's straps ~22 g less)",
+    "price_usd": 239,
+    "specs": {
+      "volume_l": 30,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "Ultra",
+      "hipbelt": false
+    },
+    "url": "https://zpacks.com/products/nero-classic-ultra-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-nero-classic-40l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Zpacks",
+    "model": "Nero Classic",
+    "variant": "40L",
+    "weight_g": 308,
+    "weight_basis": "manufacturer",
+    "weight_note": "standard straps, no belt (small/women's straps ~22 g less)",
+    "price_usd": 259,
+    "specs": {
+      "volume_l": 40,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "Ultra",
+      "hipbelt": false
+    },
+    "url": "https://zpacks.com/products/nero-classic-ultra-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-nero-classic-50l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Zpacks",
+    "model": "Nero Classic",
+    "variant": "50L",
+    "weight_g": 330,
+    "weight_basis": "manufacturer",
+    "weight_note": "standard straps, no belt (small/women's straps ~22 g less)",
+    "price_usd": 279,
+    "specs": {
+      "volume_l": 50,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "Ultra",
+      "hipbelt": false
+    },
+    "url": "https://zpacks.com/products/nero-classic-ultra-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-bagger-ultra-25l",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Zpacks",
+    "model": "Bagger Ultra",
+    "variant": "25L",
+    "weight_g": 365,
+    "weight_basis": "manufacturer",
+    "weight_note": "standard straps, no belt",
+    "price_usd": 249,
+    "specs": {
+      "volume_l": 25,
+      "frame": "frameless",
+      "material": "Ultra",
+      "hipbelt": false
+    },
+    "url": "https://zpacks.com/products/bagger-ultra-25l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-bagger-30l-travel",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Zpacks",
+    "model": "Bagger",
+    "variant": "30L Travel",
+    "weight_g": 359,
+    "weight_basis": "manufacturer",
+    "weight_note": "standard straps, no belt",
+    "price_usd": 249,
+    "specs": {
+      "volume_l": 30,
+      "frame": "frameless",
+      "hipbelt": false
+    },
+    "url": "https://zpacks.com/products/bagger-30l-travel-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-midway-12l",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Zpacks",
+    "model": "Midway",
+    "variant": "12L",
+    "weight_g": 217,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 99.95,
+    "specs": {
+      "volume_l": 12,
+      "frame": "frameless",
+      "material": "DCF hybrid",
+      "hipbelt": false
+    },
+    "url": "https://zpacks.com/products/midway-pack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "zpacks-sub-nero-ultra-30l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Zpacks",
+    "model": "Sub-Nero Ultra",
+    "variant": "30L",
+    "weight_g": 241,
+    "weight_basis": "manufacturer",
+    "weight_note": "recalled ~8.5 oz",
+    "price_usd": 239,
+    "specs": {
+      "volume_l": 30,
+      "frame": "frameless",
+      "material": "Ultra",
+      "hipbelt": false
+    },
+    "url": "https://zpacks.com/products/sub-nero-ultra-30l-backpack",
+    "discontinued": true,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "zpacks-nero-ultra-38l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Zpacks",
+    "model": "Nero Ultra",
+    "variant": "38L",
+    "weight_g": 306,
+    "weight_basis": "manufacturer",
+    "weight_note": "recalled 10.8 oz, no belt",
+    "price_usd": 259,
+    "specs": {
+      "volume_l": 38,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "Ultra",
+      "hipbelt": false
+    },
+    "url": "https://zpacks.com/products/nero-ultra-38l-backpack",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "replaced by Nero Classic/Pro"
+  },
+  {
+    "id": "zpacks-arc-blast-55l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Zpacks",
+    "model": "Arc Blast",
+    "variant": "55L",
+    "weight_g": 590,
+    "weight_basis": "manufacturer",
+    "weight_note": "recalled ~20.8 oz",
+    "price_usd": 375,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "material": "DCF",
+      "hipbelt": true
+    },
+    "url": "https://zpacks.com/products/arc-blast-backpack",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "listed as discontinued on zpacks.com"
+  },
+  {
+    "id": "zpacks-arc-scout-50l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Zpacks",
+    "model": "Arc Scout",
+    "variant": "50L",
+    "weight_g": 680,
+    "weight_basis": "estimate",
+    "weight_note": "approx (recalled ~24 oz)",
+    "price_usd": 299,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "material": "Gridstop",
+      "hipbelt": true
+    },
+    "url": "https://zpacks.com/products/arc-scout-backpack-gridstop-fabric",
+    "discontinued": true,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "zpacks-arc-zip-ultra-womens-62l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Zpacks",
+    "model": "Women's Arc Zip Ultra",
+    "variant": "62L",
+    "weight_g": 678,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed base weight, women's straps",
+    "price_usd": 449,
+    "specs": {
+      "volume_l": 62,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "medium"
+      ]
+    },
+    "url": "https://zpacks.com/products/womens-arc-zip-ultra-62l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-unbound-40",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Unbound",
+    "variant": "40L",
+    "weight_g": 774,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M per spec table",
+    "price_usd": 395,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Dyneema Woven Composite 3.9",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/unbound",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-unbound-55",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Unbound",
+    "variant": "55L",
+    "weight_g": 819,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M per spec table",
+    "price_usd": 420,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Dyneema Woven Composite 3.9",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/unbound",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-windrider-40",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Windrider",
+    "variant": "40L",
+    "weight_g": 840,
+    "weight_basis": "manufacturer",
+    "weight_note": "white, size M (avg)",
+    "price_usd": 395,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Dyneema Woven Composite 3.9",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/windrider",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-windrider-55",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Windrider",
+    "variant": "55L",
+    "weight_g": 880,
+    "weight_basis": "manufacturer",
+    "weight_note": "white, size M (avg)",
+    "price_usd": 420,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Dyneema Woven Composite 3.9",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/windrider",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-windrider-70",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Windrider",
+    "variant": "70L",
+    "weight_g": 986,
+    "weight_basis": "manufacturer",
+    "weight_note": "white, size M (avg)",
+    "price_usd": 450,
+    "specs": {
+      "volume_l": 70,
+      "frame": "internal",
+      "max_load_lb": 60,
+      "material": "Dyneema Woven Composite 3.9",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/windrider",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-southwest-40",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Southwest",
+    "variant": "40L",
+    "weight_g": 842,
+    "weight_basis": "manufacturer",
+    "weight_note": "white, size M (avg)",
+    "price_usd": 395,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Dyneema Woven Composite 3.9",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/southwest",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-southwest-55",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Southwest",
+    "variant": "55L",
+    "weight_g": 874,
+    "weight_basis": "manufacturer",
+    "weight_note": "white, size M (avg)",
+    "price_usd": 420,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Dyneema Woven Composite 3.9",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/southwest",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-southwest-70",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Southwest",
+    "variant": "70L",
+    "weight_g": 1008,
+    "weight_basis": "manufacturer",
+    "weight_note": "white, size M (avg)",
+    "price_usd": 450,
+    "specs": {
+      "volume_l": 70,
+      "frame": "internal",
+      "max_load_lb": 60,
+      "material": "Dyneema Woven Composite 3.9",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/southwest",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-junction-40",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Junction",
+    "variant": "40L",
+    "weight_g": 833,
+    "weight_basis": "manufacturer",
+    "weight_note": "white, size M (avg)",
+    "price_usd": 395,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Dyneema Woven Composite 3.9",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/junction",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-junction-55",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Junction",
+    "variant": "55L",
+    "weight_g": 866,
+    "weight_basis": "manufacturer",
+    "weight_note": "white, size M (avg)",
+    "price_usd": 420,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Dyneema Woven Composite 3.9",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/junction",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-porter-40",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Porter",
+    "variant": "40L",
+    "weight_g": 842,
+    "weight_basis": "manufacturer",
+    "weight_note": "white, size M",
+    "price_usd": 380,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Dyneema Composite Hybrid",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/porter",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-porter-55",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Porter",
+    "variant": "55L",
+    "weight_g": 924,
+    "weight_basis": "manufacturer",
+    "weight_note": "white, size M",
+    "price_usd": 410,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Dyneema Composite Hybrid",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/porter",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-porter-70",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Porter",
+    "variant": "70L",
+    "weight_g": 1120,
+    "weight_basis": "manufacturer",
+    "weight_note": "white, size M",
+    "price_usd": 450,
+    "specs": {
+      "volume_l": 70,
+      "frame": "internal",
+      "max_load_lb": 60,
+      "material": "Dyneema Composite Hybrid",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/porter",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-porter-85",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Porter",
+    "variant": "85L",
+    "weight_g": 1191,
+    "weight_basis": "manufacturer",
+    "weight_note": "white, size M",
+    "price_usd": 500,
+    "specs": {
+      "volume_l": 85,
+      "frame": "internal",
+      "max_load_lb": 60,
+      "material": "Dyneema Composite Hybrid",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/porter",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-ice-pack-40",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Ice Pack",
+    "variant": "40L",
+    "weight_g": 964,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M",
+    "price_usd": 380,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Dyneema Composite Hybrid",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/ice-pack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-ice-pack-55",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Ice Pack",
+    "variant": "55L",
+    "weight_g": 1001,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M",
+    "price_usd": 410,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Dyneema Composite Hybrid",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/ice-pack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-ice-pack-70",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Ice Pack",
+    "variant": "70L",
+    "weight_g": 1177,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M",
+    "price_usd": 450,
+    "specs": {
+      "volume_l": 70,
+      "frame": "internal",
+      "max_load_lb": 60,
+      "material": "Dyneema Composite Hybrid",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/ice-pack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-northrim-55",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "NorthRim",
+    "variant": "55L",
+    "weight_g": 989,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M",
+    "price_usd": 480,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Dyneema Composite Hybrid + Woven Composite 5.0",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/northrim",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-northrim-70",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "NorthRim",
+    "variant": "70L",
+    "weight_g": 1094,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M",
+    "price_usd": 500,
+    "specs": {
+      "volume_l": 70,
+      "frame": "internal",
+      "max_load_lb": 60,
+      "material": "Dyneema Composite Hybrid + Woven Composite 5.0",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/northrim",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-waypoint-35",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Waypoint 35",
+    "variant": "35L",
+    "weight_g": 666,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, single stay",
+    "price_usd": 380,
+    "specs": {
+      "volume_l": 35,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Dyneema Composite Hybrid 3.8",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/waypoint-35",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-contour-35",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Contour 35",
+    "variant": "35L",
+    "weight_g": 459,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, with webbing belt",
+    "price_usd": 350,
+    "specs": {
+      "volume_l": 35,
+      "frame": "frameless",
+      "max_load_lb": 25,
+      "material": "Dyneema Composite Hybrid 3.8",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/contour-35",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-aero-28",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Aero 28",
+    "variant": "28L",
+    "weight_g": 506,
+    "weight_basis": "manufacturer",
+    "weight_note": "vest harness",
+    "price_usd": 350,
+    "specs": {
+      "volume_l": 28,
+      "frame": "frameless",
+      "max_load_lb": 25,
+      "material": "Dyneema Composite Hybrid",
+      "hipbelt": false,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/aero-28",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-elevate-22",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Elevate 22",
+    "variant": "22L",
+    "weight_g": 502,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 265,
+    "specs": {
+      "volume_l": 22,
+      "frame": "frameless",
+      "max_load_lb": 25,
+      "material": "Dyneema Composite Hybrid 3.8",
+      "hipbelt": true
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/elevate-22",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-daybreak-22",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Daybreak 22",
+    "variant": "22L",
+    "weight_g": 544,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 240,
+    "specs": {
+      "volume_l": 22,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "Dyneema Composite Hybrid",
+      "hipbelt": false
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/daybreak-22",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-pemi-15",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Pemi 15",
+    "variant": "15L",
+    "weight_g": 352,
+    "weight_basis": "manufacturer",
+    "weight_note": "running-vest style fastpack",
+    "price_usd": 250,
+    "specs": {
+      "volume_l": 15,
+      "frame": "frameless",
+      "material": "ALUULA 97",
+      "hipbelt": false,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/pemi-15",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-summit-30",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Summit 30",
+    "variant": "30L",
+    "weight_g": 383,
+    "weight_basis": "manufacturer",
+    "weight_note": "white",
+    "price_usd": 210,
+    "specs": {
+      "volume_l": 30,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "Dyneema Composite Hybrid 3.8",
+      "hipbelt": true
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/summit-30",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-stuff-pack-30",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Stuff Pack 30",
+    "variant": "30L",
+    "weight_g": 133,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 140,
+    "specs": {
+      "volume_l": 30,
+      "frame": "frameless",
+      "max_load_lb": 10,
+      "material": "DCF 1.3",
+      "hipbelt": false
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/stuff-pack-30",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "hmg-vertex-32",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Vertex 32",
+    "variant": "32L",
+    "weight_g": 636,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M",
+    "price_usd": 350,
+    "specs": {
+      "volume_l": 32,
+      "frame": "framesheet",
+      "max_load_lb": 25,
+      "material": "Dyneema Woven Composite 5.0",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/vertex-32",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "alpine climbing pack"
+  },
+  {
+    "id": "hmg-prism-40",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Prism 40",
+    "variant": "40L",
+    "weight_g": 981,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M",
+    "price_usd": 450,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "max_load_lb": 50,
+      "material": "Dyneema Composite Hybrid + Woven 5.0",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/prism-40",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "alpine/ice climbing"
+  },
+  {
+    "id": "hmg-halka-55",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Halka 55",
+    "variant": "55L",
+    "weight_g": 1234,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M",
+    "price_usd": 450,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 50,
+      "material": "Dyneema Composite Hybrid",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/halka-55",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "high-altitude mountaineering"
+  },
+  {
+    "id": "hmg-halka-70",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Hyperlite Mountain Gear",
+    "model": "Halka 70",
+    "variant": "70L",
+    "weight_g": 1426,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M",
+    "price_usd": 525,
+    "specs": {
+      "volume_l": 70,
+      "frame": "internal",
+      "max_load_lb": 60,
+      "material": "Dyneema Composite Hybrid",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L",
+        "Tall"
+      ]
+    },
+    "url": "https://www.hyperlitemountaingear.com/products/halka-70",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "high-altitude mountaineering"
+  },
+  {
+    "id": "gossamer-gear-mariposa-60",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Gossamer Gear",
+    "model": "Mariposa 60",
+    "variant": "60L",
+    "weight_g": 946,
+    "weight_basis": "manufacturer",
+    "weight_note": "total incl. frame, hipbelt, sit pad (size M avg)",
+    "price_usd": 315,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Robic nylon",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.gossamergear.com/products/mariposa-60-lightweight-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-gorilla-50",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Gossamer Gear",
+    "model": "Gorilla 50",
+    "variant": "50L",
+    "weight_g": 885,
+    "weight_basis": "manufacturer",
+    "weight_note": "total incl. frame, hipbelt, sit pad",
+    "price_usd": 275,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "material": "Robic nylon",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.gossamergear.com/products/gorilla-50",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-mirage-40",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Gossamer Gear",
+    "model": "Mirage 40",
+    "variant": "40L",
+    "weight_g": 527,
+    "weight_basis": "manufacturer",
+    "weight_note": "total (pack body 507 g)",
+    "price_usd": 450,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "material": "Ultra/UHMWPE fused fabric",
+      "hipbelt": true
+    },
+    "url": "https://www.gossamergear.com/products/mirage-40l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-murmur-36-hyperlight",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Gossamer Gear",
+    "model": "Murmur 36 Hyperlight",
+    "variant": "36L",
+    "weight_g": 225,
+    "weight_basis": "manufacturer",
+    "weight_note": "total incl. sternum & roll-top straps",
+    "price_usd": 350,
+    "specs": {
+      "volume_l": 36,
+      "frame": "frameless",
+      "max_load_lb": 15,
+      "material": "ALUULA",
+      "hipbelt": false
+    },
+    "url": "https://www.gossamergear.com/products/murmur-36-hyperlight-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-kumo-36-superlight",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Gossamer Gear",
+    "model": "Kumo 36 Superlight",
+    "variant": "36L",
+    "weight_g": 536,
+    "weight_basis": "manufacturer",
+    "weight_note": "total incl. hipbelt and sit pad",
+    "price_usd": 180,
+    "specs": {
+      "volume_l": 36,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "Robic nylon",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S/M",
+        "M/L"
+      ]
+    },
+    "url": "https://www.gossamergear.com/products/kumo-36-superlight-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-fast-kumo-36",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Gossamer Gear",
+    "model": "Fast Kumo 36",
+    "variant": "36L",
+    "weight_g": 586,
+    "weight_basis": "manufacturer",
+    "weight_note": "size S/M, incl. fast belt and sit pad",
+    "price_usd": 190,
+    "specs": {
+      "volume_l": 36,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "Robic nylon",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S/M",
+        "M/L"
+      ]
+    },
+    "url": "https://www.gossamergear.com/products/fast-kumo",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-g4-20-42",
+    "category": "backpack",
+    "subcategory": "framesheet",
+    "brand": "Gossamer Gear",
+    "model": "G4-20 Ultralight 42",
+    "variant": "42L",
+    "weight_g": 627,
+    "weight_basis": "manufacturer",
+    "weight_note": "total incl. hipbelt and sit pad",
+    "price_usd": 205,
+    "specs": {
+      "volume_l": 42,
+      "frame": "framesheet",
+      "max_load_lb": 30,
+      "material": "Robic nylon",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S/M",
+        "M/L"
+      ]
+    },
+    "url": "https://www.gossamergear.com/products/g4-20-42-ultralight-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-skala-38",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Gossamer Gear",
+    "model": "Skala 38",
+    "variant": "38L",
+    "weight_g": 578,
+    "weight_basis": "manufacturer",
+    "weight_note": "one size",
+    "price_usd": 225,
+    "specs": {
+      "volume_l": 38,
+      "frame": "frameless",
+      "material": "Robic nylon",
+      "hipbelt": true
+    },
+    "url": "https://www.gossamergear.com/products/skala-38-ultralight-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-grit-28",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Gossamer Gear",
+    "model": "Grit 28 Fastpack",
+    "variant": "28L",
+    "weight_g": 459,
+    "weight_basis": "manufacturer",
+    "weight_note": "incl. sit pad; vest harness",
+    "price_usd": 180,
+    "specs": {
+      "volume_l": 28,
+      "frame": "frameless",
+      "material": "Robic nylon",
+      "hipbelt": false
+    },
+    "url": "https://www.gossamergear.com/products/grit-28l-fastpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-elixir-20",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Gossamer Gear",
+    "model": "Elixir 20",
+    "variant": "20L",
+    "weight_g": 178,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 225,
+    "specs": {
+      "volume_l": 20,
+      "frame": "frameless",
+      "material": "V52 fused mono-polymer",
+      "hipbelt": false
+    },
+    "url": "https://www.gossamergear.com/products/elixir-20l-daypack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-loris-25",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Gossamer Gear",
+    "model": "Loris 25",
+    "variant": "25L",
+    "weight_g": 553,
+    "weight_basis": "manufacturer",
+    "weight_note": "incl. sit pad",
+    "price_usd": 135,
+    "specs": {
+      "volume_l": 25,
+      "frame": "frameless",
+      "material": "Robic nylon",
+      "hipbelt": true
+    },
+    "url": "https://www.gossamergear.com/products/loris",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-vetta-20",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Gossamer Gear",
+    "model": "Vetta 20",
+    "variant": "20L",
+    "weight_g": 411,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 140,
+    "specs": {
+      "volume_l": 20,
+      "frame": "frameless",
+      "hipbelt": false
+    },
+    "url": "https://www.gossamergear.com/products/vetta-20-daypack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-cima-15",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Gossamer Gear",
+    "model": "Cima 15",
+    "variant": "15L",
+    "weight_g": 505,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 120,
+    "specs": {
+      "volume_l": 15,
+      "frame": "frameless",
+      "hipbelt": false
+    },
+    "url": "https://www.gossamergear.com/products/cima-15-daypack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-minimalist-19",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Gossamer Gear",
+    "model": "Minimalist 19",
+    "variant": "19L",
+    "weight_g": 329,
+    "weight_basis": "manufacturer",
+    "weight_note": "incl. removable sit pad",
+    "price_usd": 69,
+    "specs": {
+      "volume_l": 19,
+      "frame": "frameless",
+      "hipbelt": false
+    },
+    "url": "https://www.gossamergear.com/products/minimalist-19-daypack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-riksak",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Gossamer Gear",
+    "model": "RikSak",
+    "variant": null,
+    "weight_g": 139,
+    "weight_basis": "manufacturer",
+    "weight_note": "summit/stuff sack style pack",
+    "price_usd": 45,
+    "specs": {
+      "frame": "frameless",
+      "hipbelt": false
+    },
+    "url": "https://www.gossamergear.com/products/riksak",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "gossamer-gear-silverback-55",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Gossamer Gear",
+    "model": "Silverback 55",
+    "variant": "55L",
+    "weight_g": 1100,
+    "weight_basis": "manufacturer",
+    "weight_note": "recalled ~38.8 oz incl. frame & hipbelt",
+    "price_usd": 295,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Robic nylon",
+      "hipbelt": true
+    },
+    "url": "https://www.gossamergear.com/products/silverback-55",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "no longer listed on gossamergear.com"
+  },
+  {
+    "id": "palante-v2",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Pa'lante",
+    "model": "V2",
+    "variant": null,
+    "weight_g": 513,
+    "weight_basis": "manufacturer",
+    "weight_note": "17\" torso; 19\" is 18.6 oz",
+    "price_usd": 240,
+    "specs": {
+      "volume_l": 32,
+      "frame": "frameless",
+      "material": "Gridstop",
+      "hipbelt": true,
+      "torso_sizes": [
+        "17in",
+        "19in"
+      ],
+      "volume_note": "32L (17\") / 37L (19\") internal"
+    },
+    "url": "https://palantepacks.com/products/v2",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "palante-desert-pack-gridstop",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Pa'lante",
+    "model": "Desert Pack",
+    "variant": "Gridstop",
+    "weight_g": 516,
+    "weight_basis": "manufacturer",
+    "weight_note": "17\" torso; 37L/43L internal by torso",
+    "price_usd": 240,
+    "specs": {
+      "volume_l": 37,
+      "frame": "frameless",
+      "material": "Gridstop",
+      "hipbelt": true,
+      "torso_sizes": [
+        "17in",
+        "19in"
+      ]
+    },
+    "url": "https://palantepacks.com/products/desert-pack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "palante-desert-pack-ultraweave",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Pa'lante",
+    "model": "Desert Pack",
+    "variant": "Ultraweave",
+    "weight_g": 575,
+    "weight_basis": "manufacturer",
+    "weight_note": "17\" torso",
+    "price_usd": 300,
+    "specs": {
+      "volume_l": 37,
+      "frame": "frameless",
+      "material": "Ultraweave 400X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "17in",
+        "19in"
+      ]
+    },
+    "url": "https://palantepacks.com/products/desert-pack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "palante-ultralight",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Pa'lante",
+    "model": "Ultralight",
+    "variant": null,
+    "weight_g": 371,
+    "weight_basis": "manufacturer",
+    "weight_note": "one size",
+    "price_usd": 300,
+    "specs": {
+      "volume_l": 26,
+      "frame": "frameless",
+      "material": "Ultraweave 100X",
+      "hipbelt": false,
+      "torso_sizes": [
+        "18in"
+      ]
+    },
+    "url": "https://palantepacks.com/products/ultralight",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "palante-joey",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Pa'lante",
+    "model": "Joey",
+    "variant": "Gridstop",
+    "weight_g": 400,
+    "weight_basis": "manufacturer",
+    "weight_note": "gridstop; Ultraweave version 14.7 oz/$300",
+    "price_usd": 240,
+    "specs": {
+      "volume_l": 24,
+      "frame": "frameless",
+      "material": "Gridstop",
+      "hipbelt": false
+    },
+    "url": "https://palantepacks.com/products/joey",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "palante-mini-joey",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Pa'lante",
+    "model": "Mini Joey",
+    "variant": null,
+    "weight_g": 363,
+    "weight_basis": "manufacturer",
+    "weight_note": "robic version",
+    "price_usd": 180,
+    "specs": {
+      "volume_l": 12,
+      "frame": "frameless",
+      "material": "Robic",
+      "hipbelt": false
+    },
+    "url": "https://palantepacks.com/products/mini-joey",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "durston-kakwa-55-ultra",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Durston",
+    "model": "Kakwa 55",
+    "variant": "Ultra 200X",
+    "weight_g": 895,
+    "weight_basis": "manufacturer",
+    "weight_note": "complete pack, size M",
+    "price_usd": 279,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 45,
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.durstongear.com/products/kakwa-55",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "durston-kakwa-55-ultragrid",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Durston",
+    "model": "Kakwa 55",
+    "variant": "UltraGrid",
+    "weight_g": 868,
+    "weight_basis": "manufacturer",
+    "weight_note": "complete pack, size M",
+    "price_usd": 199,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 45,
+      "material": "UltraGrid",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.durstongear.com/products/kakwa-55",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "durston-kakwa-40-ultra",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Durston",
+    "model": "Kakwa 40",
+    "variant": "Ultra 200X",
+    "weight_g": 795,
+    "weight_basis": "manufacturer",
+    "weight_note": "complete pack, size M; 33/36/39L internal by size",
+    "price_usd": 250,
+    "specs": {
+      "volume_l": 36,
+      "frame": "internal",
+      "max_load_lb": 45,
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.durstongear.com/products/kakwa-40-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "durston-wapta-30",
+    "category": "backpack",
+    "subcategory": "framesheet",
+    "brand": "Durston",
+    "model": "Wapta 30",
+    "variant": null,
+    "weight_g": 520,
+    "weight_basis": "manufacturer",
+    "weight_note": "complete, size M (min weight 385 g); $249 without hipbelt",
+    "price_usd": 299,
+    "specs": {
+      "volume_l": 30,
+      "frame": "framesheet",
+      "material": "ALUULA Graflyte",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.durstongear.com/products/wapta-30-ultralight-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "atom-packs-atom-re30",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Atom Packs",
+    "model": "The Atom",
+    "variant": "RE30",
+    "weight_g": 408,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, starting weight",
+    "price_usd": null,
+    "specs": {
+      "volume_l": 30,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "Robic 210D",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://atompacks.co.uk/products/the-atom-re30-black",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UK maker; sold in GBP (price_usd null). GBP 175"
+  },
+  {
+    "id": "atom-packs-atom-re40",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Atom Packs",
+    "model": "The Atom",
+    "variant": "RE40",
+    "weight_g": 438,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, starting weight",
+    "price_usd": null,
+    "specs": {
+      "volume_l": 40,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "Robic 210D",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://atompacks.co.uk/products/the-atom-re40-black",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UK maker; sold in GBP (price_usd null). GBP 185"
+  },
+  {
+    "id": "atom-packs-pulse-ep40",
+    "category": "backpack",
+    "subcategory": "framesheet",
+    "brand": "Atom Packs",
+    "model": "The Pulse",
+    "variant": "EP40",
+    "weight_g": 650,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, carbon hoop frame + hipbelt",
+    "price_usd": null,
+    "specs": {
+      "volume_l": 40,
+      "frame": "framesheet",
+      "max_load_lb": 30,
+      "material": "Ecopak EPX",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://atompacks.co.uk/products/the-pulse-ep40",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UK maker; sold in GBP (price_usd null). GBP 260"
+  },
+  {
+    "id": "atom-packs-notch-ep50",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Atom Packs",
+    "model": "The Notch",
+    "variant": "EP50",
+    "weight_g": 870,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, starting weight",
+    "price_usd": null,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "max_load_lb": 37,
+      "material": "Ecopak EPX",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://atompacks.co.uk/products/the-notch-ep50-mountain-green",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UK maker; sold in GBP (price_usd null). GBP 280"
+  },
+  {
+    "id": "atom-packs-prospector-ep50",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Atom Packs",
+    "model": "The Prospector",
+    "variant": "EP50",
+    "weight_g": 910,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, starting weight",
+    "price_usd": null,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "max_load_lb": 42,
+      "material": "Ecopak EPX",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://atompacks.co.uk/products/the-prospector-ep50-black",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UK maker; sold in GBP (price_usd null). GBP 290"
+  },
+  {
+    "id": "atom-packs-prospector-ep60",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Atom Packs",
+    "model": "The Prospector",
+    "variant": "EP60",
+    "weight_g": 965,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, starting weight",
+    "price_usd": null,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "max_load_lb": 42,
+      "material": "Ecopak EPX",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://atompacks.co.uk/products/the-prospector-ep60-us-navy-pre-order",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UK maker; sold in GBP (price_usd null). GBP 310"
+  },
+  {
+    "id": "atom-packs-transition-ul35",
+    "category": "backpack",
+    "subcategory": "framesheet",
+    "brand": "Atom Packs",
+    "model": "The Transition",
+    "variant": "UL35",
+    "weight_g": 545,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, starting weight",
+    "price_usd": null,
+    "specs": {
+      "volume_l": 35,
+      "frame": "framesheet",
+      "max_load_lb": 20,
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://atompacks.co.uk/products/the-transition-ul35-black",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UK maker; sold in GBP (price_usd null). GBP 265"
+  },
+  {
+    "id": "atom-packs-nanu-re25",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Atom Packs",
+    "model": "The Nanu",
+    "variant": "RE25",
+    "weight_g": 510,
+    "weight_basis": "manufacturer",
+    "weight_note": "total",
+    "price_usd": null,
+    "specs": {
+      "volume_l": 25,
+      "frame": "framesheet",
+      "max_load_lb": 20,
+      "material": "Robic",
+      "hipbelt": false
+    },
+    "url": "https://atompacks.co.uk/products/the-nanu-re25",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UK maker; sold in GBP (price_usd null). GBP 245"
+  },
+  {
+    "id": "ula-circuit",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "ULA Equipment",
+    "model": "Circuit",
+    "variant": null,
+    "weight_g": 1092,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 299.99,
+    "specs": {
+      "volume_l": 68,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Robic",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/circuit",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "ula-ultra-circuit",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "ULA Equipment",
+    "model": "Circuit",
+    "variant": "Ultra",
+    "weight_g": 1043,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 379.99,
+    "specs": {
+      "volume_l": 68,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Ultra 400X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/ultra-circuit",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "ula-circuit-sv",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "ULA Equipment",
+    "model": "Circuit SV",
+    "variant": null,
+    "weight_g": 1063,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 299.99,
+    "specs": {
+      "volume_l": 48,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Robic",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/circuit-sv",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "small-volume Circuit"
+  },
+  {
+    "id": "ula-ultra-circuit-sv",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "ULA Equipment",
+    "model": "Circuit SV",
+    "variant": "Ultra",
+    "weight_g": 1015,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 379.99,
+    "specs": {
+      "volume_l": 48,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Ultra",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/ultra-circuit-sv",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "ula-xs-circuit",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "ULA Equipment",
+    "model": "XS Circuit",
+    "variant": null,
+    "weight_g": 1038,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 299.99,
+    "specs": {
+      "volume_l": 68,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Robic",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/kids-circuit",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "kids/XS torso version"
+  },
+  {
+    "id": "ula-catalyst",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "ULA Equipment",
+    "model": "Catalyst",
+    "variant": null,
+    "weight_g": 1259,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 319.99,
+    "specs": {
+      "volume_l": 75,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Robic",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/catalyst",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "ula-ultra-catalyst",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "ULA Equipment",
+    "model": "Catalyst",
+    "variant": "Ultra",
+    "weight_g": 1137,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 399.99,
+    "specs": {
+      "volume_l": 75,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "Ultra",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/ultra-catalyst",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "ula-ohm-ultragrid",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "ULA Equipment",
+    "model": "Ohm",
+    "variant": "UltraGrid",
+    "weight_g": 862,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 249.99,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "material": "UltraGrid",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/ohm",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "2026 redesign"
+  },
+  {
+    "id": "ula-ohm-2025",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "ULA Equipment",
+    "model": "Ohm",
+    "variant": "2025 (63L)",
+    "weight_g": 958,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 199.99,
+    "specs": {
+      "volume_l": 63,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "material": "Robic",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/ohm-2024",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "previous version, closeout pricing"
+  },
+  {
+    "id": "ula-cdt-ultragrid",
+    "category": "backpack",
+    "subcategory": "framesheet",
+    "brand": "ULA Equipment",
+    "model": "CDT",
+    "variant": "UltraGrid",
+    "weight_g": 768,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 199.99,
+    "specs": {
+      "volume_l": 50,
+      "frame": "framesheet",
+      "max_load_lb": 25,
+      "material": "UltraGrid",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/cdt",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "foam back panel, no stays"
+  },
+  {
+    "id": "ula-nexus-ultragrid",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "ULA Equipment",
+    "model": "Nexus",
+    "variant": "UltraGrid",
+    "weight_g": 510,
+    "weight_basis": "manufacturer",
+    "weight_note": "range 510-609 g by config (lightest listed)",
+    "price_usd": 219.99,
+    "specs": {
+      "volume_l": 40,
+      "frame": "frameless",
+      "max_load_lb": 25,
+      "material": "UltraGrid",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/ultragrid-nexus",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "ula-nexus-2025",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "ULA Equipment",
+    "model": "Nexus",
+    "variant": "2025 UltraGrid",
+    "weight_g": 533,
+    "weight_basis": "manufacturer",
+    "weight_note": "range 533-632 g by config (lightest listed)",
+    "price_usd": 149.99,
+    "specs": {
+      "volume_l": 40,
+      "frame": "frameless",
+      "max_load_lb": 25,
+      "material": "UltraGrid",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/2025-ultragrid-nexus",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "previous version, closeout pricing"
+  },
+  {
+    "id": "ula-camino",
+    "category": "backpack",
+    "subcategory": "framesheet",
+    "brand": "ULA Equipment",
+    "model": "Camino",
+    "variant": null,
+    "weight_g": 1338,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 299.99,
+    "specs": {
+      "volume_l": 54,
+      "frame": "framesheet",
+      "max_load_lb": 40,
+      "material": "Robic",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/camino",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "travel/trail hybrid, front-loading"
+  },
+  {
+    "id": "ula-ultra-camino",
+    "category": "backpack",
+    "subcategory": "framesheet",
+    "brand": "ULA Equipment",
+    "model": "Camino",
+    "variant": "Ultra",
+    "weight_g": 1440,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 399.99,
+    "specs": {
+      "volume_l": 54,
+      "frame": "framesheet",
+      "max_load_lb": 40,
+      "material": "Ultra",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/ultra-camino",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "travel/trail hybrid"
+  },
+  {
+    "id": "ula-kids-spark",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "ULA Equipment",
+    "model": "Kid's Spark",
+    "variant": null,
+    "weight_g": 936,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 229.99,
+    "specs": {
+      "volume_l": 41,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "material": "Robic",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/kids-spark",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "youth pack"
+  },
+  {
+    "id": "ula-dragonfly-30-robic",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "ULA Equipment",
+    "model": "Dragonfly",
+    "variant": "30L Robic",
+    "weight_g": 745,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 239.99,
+    "specs": {
+      "volume_l": 30,
+      "frame": "framesheet",
+      "max_load_lb": 25,
+      "material": "Robic",
+      "hipbelt": false,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/dragonfly",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "ula-dragonfly-30-ultra",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "ULA Equipment",
+    "model": "Dragonfly",
+    "variant": "30L Ultra",
+    "weight_g": 777,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 289.99,
+    "specs": {
+      "volume_l": 30,
+      "frame": "framesheet",
+      "max_load_lb": 25,
+      "material": "Ultra",
+      "hipbelt": false,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/ultra-dragonfly",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "ula-dragonfly-36-robic",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "ULA Equipment",
+    "model": "Dragonfly",
+    "variant": "36L Robic",
+    "weight_g": 802,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 249.99,
+    "specs": {
+      "volume_l": 36,
+      "frame": "framesheet",
+      "max_load_lb": 25,
+      "material": "Robic",
+      "hipbelt": false,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/36l-robic-dragonfly",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "ula-dragonfly-36-ultra",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "ULA Equipment",
+    "model": "Dragonfly",
+    "variant": "36L Ultra",
+    "weight_g": 879,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 319.99,
+    "specs": {
+      "volume_l": 36,
+      "frame": "framesheet",
+      "max_load_lb": 25,
+      "material": "Ultra",
+      "hipbelt": false,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/ultra-36-dragonfly",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "ula-cicada-ewp-ultra",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "ULA Equipment",
+    "model": "Cicada EWP",
+    "variant": "Ultra",
+    "weight_g": 800,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, all components",
+    "price_usd": 349.99,
+    "specs": {
+      "volume_l": 22,
+      "frame": "framesheet",
+      "max_load_lb": 25,
+      "material": "Ultra",
+      "hipbelt": false,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/ultra-cicada-ewp",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "ula-photon",
+    "category": "backpack",
+    "subcategory": "framesheet",
+    "brand": "ULA Equipment",
+    "model": "Photon",
+    "variant": null,
+    "weight_g": 595,
+    "weight_basis": "manufacturer",
+    "weight_note": "recalled ~21 oz",
+    "price_usd": 294.99,
+    "specs": {
+      "volume_l": 38,
+      "frame": "framesheet",
+      "max_load_lb": 20,
+      "material": "Ultra",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "url": "https://www.ula-equipment.com/product/custom-photon",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "now custom-order only"
+  },
+  {
+    "id": "six-moon-designs-swift-x",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Six Moon Designs",
+    "model": "Swift X",
+    "variant": null,
+    "weight_g": 1100,
+    "weight_basis": "manufacturer",
+    "weight_note": "total with stay, vest harness and hipbelt",
+    "price_usd": 375,
+    "specs": {
+      "volume_l": 56,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "VX21 / LS21",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.sixmoondesigns.com/products/swift-x-ultralight-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "41L body, 56L total; Ultra 200X version $430"
+  },
+  {
+    "id": "six-moon-designs-swift-v",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Six Moon Designs",
+    "model": "Swift V",
+    "variant": null,
+    "weight_g": 964,
+    "weight_basis": "manufacturer",
+    "weight_note": "total with stay, vest harness and hipbelt",
+    "price_usd": 275,
+    "specs": {
+      "volume_l": 49,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "material": "Robic",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.sixmoondesigns.com/products/swift-v-hiking-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "38L body, 49L total"
+  },
+  {
+    "id": "six-moon-designs-minimalist-v2-robic",
+    "category": "backpack",
+    "subcategory": "framesheet",
+    "brand": "Six Moon Designs",
+    "model": "Minimalist V2",
+    "variant": "Robic",
+    "weight_g": 992,
+    "weight_basis": "manufacturer",
+    "weight_note": "total incl. delrin stay, straps, hipbelt",
+    "price_usd": 285,
+    "specs": {
+      "volume_l": 59,
+      "frame": "framesheet",
+      "max_load_lb": 30,
+      "material": "Robic",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.sixmoondesigns.com/products/minimalist-v2-ultralight-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "40L body, 59L total; EPX200 version $385 / 1153 g"
+  },
+  {
+    "id": "six-moon-designs-flight-30-robic",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Six Moon Designs",
+    "model": "Flight 30",
+    "variant": "Robic",
+    "weight_g": 743,
+    "weight_basis": "manufacturer",
+    "weight_note": "total incl. harness and optional hipbelt",
+    "price_usd": 225,
+    "specs": {
+      "volume_l": 31,
+      "frame": "frameless",
+      "material": "Robic",
+      "hipbelt": true
+    },
+    "url": "https://www.sixmoondesigns.com/products/flight-30-ultralight-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "six-moon-designs-wyeast",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Six Moon Designs",
+    "model": "Wy'east",
+    "variant": null,
+    "weight_g": 580,
+    "weight_basis": "manufacturer",
+    "weight_note": "total incl. hydration sleeve and hipbelt",
+    "price_usd": 185,
+    "specs": {
+      "volume_l": 34,
+      "frame": "frameless",
+      "material": "Robic",
+      "hipbelt": true
+    },
+    "url": "https://www.sixmoondesigns.com/products/wyeast-daypack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "six-moon-designs-flex-pr",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Six Moon Designs",
+    "model": "Flex PR",
+    "variant": "Robic",
+    "weight_g": 1660,
+    "weight_basis": "manufacturer",
+    "weight_note": "total incl. harness, belt and dry bag",
+    "price_usd": 280,
+    "specs": {
+      "frame": "internal",
+      "material": "Robic",
+      "hipbelt": true
+    },
+    "url": "https://www.sixmoondesigns.com/products/flex-pack-pr-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "packrafting pack"
+  },
+  {
+    "id": "granite-gear-crown3-60",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Granite Gear",
+    "model": "Crown3 60",
+    "variant": "Unisex",
+    "weight_g": 1040,
+    "weight_basis": "manufacturer",
+    "weight_note": "short torso, without lid (lid +82 g)",
+    "price_usd": 259.95,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "100D/210D Robic",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "regular",
+        "long"
+      ]
+    },
+    "url": "https://www.granitegear.com/outdoor/backpacks/multi-day-backpacks/crown3-60-pack.html",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "43 lb rating with optional aluminum stay"
+  },
+  {
+    "id": "granite-gear-crown3-60-womens",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Granite Gear",
+    "model": "Crown3 60",
+    "variant": "Women's",
+    "weight_g": 1040,
+    "weight_basis": "estimate",
+    "weight_note": "assumed same as unisex, without lid",
+    "price_usd": 259.95,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Robic",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "regular",
+        "long"
+      ]
+    },
+    "url": "https://www.granitegear.com/outdoor/backpacks/multi-day-backpacks/crown3-60-series-packs",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "granite-gear-crown3-60-si-eco",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Granite Gear",
+    "model": "Crown3 60 S.I. ECO",
+    "variant": "Unisex",
+    "weight_g": 1040,
+    "weight_basis": "manufacturer",
+    "weight_note": "short torso, without lid",
+    "price_usd": 259.95,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "recycled Robic",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "regular",
+        "long"
+      ]
+    },
+    "url": "https://www.granitegear.com/outdoor/backpacks/multi-day-backpacks/crown3-60-s-i-size-inclusive-eco-pc.html",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "size-inclusive hipbelt"
+  },
+  {
+    "id": "granite-gear-crown3-40-eco",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Granite Gear",
+    "model": "Crown3 40 ECO",
+    "variant": "Unisex",
+    "weight_g": 1040,
+    "weight_basis": "manufacturer",
+    "weight_note": "without lid",
+    "price_usd": 239.95,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "recycled Robic",
+      "hipbelt": true
+    },
+    "url": "https://www.granitegear.com/outdoor/backpacks/multi-day-backpacks/crown3-40-eco-unisex.html",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "granite-gear-blaze-60",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Granite Gear",
+    "model": "Blaze 60",
+    "variant": "Unisex",
+    "weight_g": 1310,
+    "weight_basis": "manufacturer",
+    "weight_note": "short torso, without lid",
+    "price_usd": 299.94,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "max_load_lb": 50,
+      "material": "100D/210D Robic",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "regular",
+        "long"
+      ]
+    },
+    "url": "https://www.granitegear.com/outdoor/backpacks/multi-day-backpacks/blaze-60-unisex.html",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "granite-gear-blaze-60-womens",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Granite Gear",
+    "model": "Blaze 60",
+    "variant": "Women's",
+    "weight_g": 1310,
+    "weight_basis": "estimate",
+    "weight_note": "assumed same as unisex, without lid",
+    "price_usd": 299.94,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "max_load_lb": 50,
+      "material": "Robic",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "regular",
+        "long"
+      ]
+    },
+    "url": "https://www.granitegear.com/outdoor/backpacks/multi-day-backpacks/blaze-60-women-s-fit.html",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "granite-gear-perimeter-50",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Granite Gear",
+    "model": "Perimeter 50",
+    "variant": "Unisex",
+    "weight_g": 1400,
+    "weight_basis": "manufacturer",
+    "weight_note": "smaller size",
+    "price_usd": 249.95,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "hipbelt": true
+    },
+    "url": "https://www.granitegear.com/outdoor/backpacks/multi-day-backpacks/perimeter-50-unisex.html",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "granite-gear-perimeter-35",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Granite Gear",
+    "model": "Perimeter 35",
+    "variant": null,
+    "weight_g": 1360,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 229.95,
+    "specs": {
+      "volume_l": 35,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "hipbelt": true
+    },
+    "url": "https://www.granitegear.com/outdoor/backpacks/multi-day-backpacks/perimeter-35-marina-black.html",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "granite-gear-virga3-55",
+    "category": "backpack",
+    "subcategory": "framesheet",
+    "brand": "Granite Gear",
+    "model": "Virga3 55",
+    "variant": "Unisex",
+    "weight_g": 760,
+    "weight_basis": "manufacturer",
+    "weight_note": "regular; stripped weight 535 g",
+    "price_usd": 199.94,
+    "specs": {
+      "volume_l": 55,
+      "frame": "framesheet",
+      "max_load_lb": 25,
+      "material": "Robic",
+      "hipbelt": true,
+      "torso_sizes": [
+        "regular",
+        "long"
+      ]
+    },
+    "url": "https://www.granitegear.com/outdoor/backpacks/multi-day-backpacks/virga3-55-unisex.html",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "granite-gear-virga3-26",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Granite Gear",
+    "model": "Virga3 26",
+    "variant": "Unisex",
+    "weight_g": 570,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 179.95,
+    "specs": {
+      "volume_l": 26,
+      "frame": "frameless",
+      "max_load_lb": 25,
+      "material": "Robic",
+      "hipbelt": true
+    },
+    "url": "https://www.granitegear.com/outdoor/backpacks/multi-day-backpacks/virga3-26-unisex.html",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "bonfus-framus-58l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Bonfus",
+    "model": "Framus",
+    "variant": "58L",
+    "weight_g": 795,
+    "weight_basis": "manufacturer",
+    "weight_note": "Ultra 200X, size M",
+    "price_usd": 369,
+    "specs": {
+      "volume_l": 58,
+      "frame": "internal",
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://bonfus.com/product/framus-58l/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "bonfus-framus-48l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Bonfus",
+    "model": "Framus",
+    "variant": "48L",
+    "weight_g": 760,
+    "weight_basis": "manufacturer",
+    "weight_note": "Ultra 200X, size M",
+    "price_usd": 349,
+    "specs": {
+      "volume_l": 48,
+      "frame": "internal",
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://bonfus.com/product/framus-48l/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "bonfus-aerus-55l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Bonfus",
+    "model": "Aerus",
+    "variant": "55L",
+    "weight_g": 795,
+    "weight_basis": "manufacturer",
+    "weight_note": "Ultra 200X, size M",
+    "price_usd": 389,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://bonfus.com/product/aerus-55l/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "ventilated trampoline back"
+  },
+  {
+    "id": "bonfus-maxus-80l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Bonfus",
+    "model": "Maxus",
+    "variant": "80L",
+    "weight_g": 1080,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 399,
+    "specs": {
+      "volume_l": 80,
+      "frame": "internal",
+      "hipbelt": true
+    },
+    "url": "https://bonfus.com/product/maxus-80l/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "bonfus-iterus-38l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Bonfus",
+    "model": "Iterus",
+    "variant": "38L",
+    "weight_g": 380,
+    "weight_basis": "manufacturer",
+    "weight_note": "Ultra 200X, no belt (webbing belt +35 g)",
+    "price_usd": 259,
+    "specs": {
+      "volume_l": 38,
+      "frame": "frameless",
+      "material": "Ultra 200X",
+      "hipbelt": false
+    },
+    "url": "https://bonfus.com/product/iterus-38l/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "bonfus-saccus-48l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Bonfus",
+    "model": "Saccus",
+    "variant": "48L",
+    "weight_g": 480,
+    "weight_basis": "manufacturer",
+    "weight_note": "Ultra 200X",
+    "price_usd": 279,
+    "specs": {
+      "volume_l": 48,
+      "frame": "frameless",
+      "material": "Ultra 200X",
+      "hipbelt": false
+    },
+    "url": "https://bonfus.com/product/saccus-48l/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "bonfus-altus-38l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Bonfus",
+    "model": "Altus",
+    "variant": "38L",
+    "weight_g": 365,
+    "weight_basis": "manufacturer",
+    "weight_note": "starting weight excl. hipbelt; 28L 350 g / 48L 380 g",
+    "price_usd": 229,
+    "specs": {
+      "volume_l": 38,
+      "frame": "frameless",
+      "hipbelt": false
+    },
+    "url": "https://bonfus.com/product/altus-custom-pack/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "custom pack; price is starting price"
+  },
+  {
+    "id": "bonfus-fastus-23l",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Bonfus",
+    "model": "Fastus",
+    "variant": "23L",
+    "weight_g": 360,
+    "weight_basis": "manufacturer",
+    "weight_note": "starting weight",
+    "price_usd": 249,
+    "specs": {
+      "volume_l": 23,
+      "frame": "frameless",
+      "hipbelt": false
+    },
+    "url": "https://bonfus.com/product/fastus-23l/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "liteaf-curve-30l-frameless-ultra",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "LiteAF",
+    "model": "Curve 30L Frameless",
+    "variant": "UltraWeave",
+    "weight_g": 368,
+    "weight_basis": "manufacturer",
+    "weight_note": "range 368-538 g by options (min listed)",
+    "price_usd": 265,
+    "specs": {
+      "volume_l": 30,
+      "frame": "frameless",
+      "material": "UltraWeave",
+      "hipbelt": true
+    },
+    "url": "https://liteaf.com/product/ultra-30l-curve/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "custom-built; ECOPAK version $235"
+  },
+  {
+    "id": "liteaf-curve-35l-frameless-ultra",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "LiteAF",
+    "model": "Curve 35L Frameless",
+    "variant": "UltraWeave",
+    "weight_g": 425,
+    "weight_basis": "estimate",
+    "weight_note": "estimated between 30L and 40L listings",
+    "price_usd": 285,
+    "specs": {
+      "volume_l": 35,
+      "frame": "frameless",
+      "material": "UltraWeave",
+      "hipbelt": true
+    },
+    "url": "https://liteaf.com/product/ultra-35l-curve/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "custom-built"
+  },
+  {
+    "id": "liteaf-curve-40l-frameless-ultra",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "LiteAF",
+    "model": "Curve 40L Frameless",
+    "variant": "UltraWeave",
+    "weight_g": 481,
+    "weight_basis": "manufacturer",
+    "weight_note": "range 481-793 g by options (min listed)",
+    "price_usd": 305,
+    "specs": {
+      "volume_l": 40,
+      "frame": "frameless",
+      "material": "UltraWeave",
+      "hipbelt": true
+    },
+    "url": "https://liteaf.com/product/ultra-40l-curve-frameless/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "custom-built; ECOPAK version $275"
+  },
+  {
+    "id": "liteaf-curve-20l-frameless-ultra",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "LiteAF",
+    "model": "Curve 20L Frameless",
+    "variant": "UltraWeave",
+    "weight_g": 402,
+    "weight_basis": "manufacturer",
+    "weight_note": "with all straps (385 g stripped)",
+    "price_usd": 235,
+    "specs": {
+      "volume_l": 20,
+      "frame": "frameless",
+      "material": "UltraWeave",
+      "hipbelt": false
+    },
+    "url": "https://liteaf.com/product/ultra-20l-curve/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "liteaf-curve-40l-full-suspension-ultra",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "LiteAF",
+    "model": "Curve 40L Full Suspension",
+    "variant": "UltraWeave",
+    "weight_g": 708,
+    "weight_basis": "manufacturer",
+    "weight_note": "range 708-907 g by torso/hipbelt (min listed)",
+    "price_usd": 345,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "material": "UltraWeave",
+      "hipbelt": true
+    },
+    "url": "https://liteaf.com/product/ultra-40l-curve-full-suspension/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "custom-built; ECOPAK version $315"
+  },
+  {
+    "id": "liteaf-curve-46l-full-suspension-ultra",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "LiteAF",
+    "model": "Curve 46L Full Suspension",
+    "variant": "UltraWeave",
+    "weight_g": 708,
+    "weight_basis": "manufacturer",
+    "weight_note": "range 708-907+ g by torso/hipbelt (min listed)",
+    "price_usd": 365,
+    "specs": {
+      "volume_l": 46,
+      "frame": "internal",
+      "material": "UltraWeave",
+      "hipbelt": true
+    },
+    "url": "https://liteaf.com/product/ultra-46l-curve-full-suspension/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "custom-built; ECOPAK version $335"
+  },
+  {
+    "id": "liteaf-multi-day-35l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "LiteAF",
+    "model": "Multi-Day 35L",
+    "variant": null,
+    "weight_g": 476,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, no hipbelt",
+    "price_usd": 189.99,
+    "specs": {
+      "volume_l": 35,
+      "frame": "frameless",
+      "hipbelt": false,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://liteaf.com/product/multi-day-35l/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "liteaf-multi-day-20l",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "LiteAF",
+    "model": "Multi-Day 20L",
+    "variant": null,
+    "weight_g": 363,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 175,
+    "specs": {
+      "volume_l": 20,
+      "frame": "frameless",
+      "hipbelt": false
+    },
+    "url": "https://liteaf.com/product/the-multi-day-pack/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "swd-sl40-ultra",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Superior Wilderness Designs",
+    "model": "SL40",
+    "variant": "Ultra",
+    "weight_g": 610,
+    "weight_basis": "manufacturer",
+    "weight_note": "21-22 oz depending on size/fabric (midpoint); removable frame -> 18.5 oz frameless",
+    "price_usd": 349,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.swdbackpacks.com/product-page/sl40-internal-frame",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "swd-sl40-ultragrid",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Superior Wilderness Designs",
+    "model": "SL40",
+    "variant": "UltraGrid",
+    "weight_g": 638,
+    "weight_basis": "manufacturer",
+    "weight_note": "22-23 oz depending on size (midpoint)",
+    "price_usd": 299,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "material": "UltraGrid",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.swdbackpacks.com/product-page/sl40-ultragrid-internal-frame",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "swd-movement-40-ultragrid",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Superior Wilderness Designs",
+    "model": "Movement 40",
+    "variant": "UltraGrid",
+    "weight_g": 765,
+    "weight_basis": "manufacturer",
+    "weight_note": "average incl. all optional items; Ultra version $379",
+    "price_usd": 329,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "material": "UltraGrid",
+      "hipbelt": true
+    },
+    "url": "https://www.swdbackpacks.com/product-page/movement-40-ultragrid-internal-frame",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "swd-long-haul-50-ultragrid",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Superior Wilderness Designs",
+    "model": "Long Haul 50",
+    "variant": "UltraGrid",
+    "weight_g": 893,
+    "weight_basis": "manufacturer",
+    "weight_note": "average incl. all optional items (stays 4 oz, M)",
+    "price_usd": 329,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "material": "UltraGrid",
+      "hipbelt": true
+    },
+    "url": "https://www.swdbackpacks.com/product-page/long-haul-50-ultragrid-internal-frame",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "swd-long-haul-50-ultra",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Superior Wilderness Designs",
+    "model": "Long Haul 50",
+    "variant": "Ultra",
+    "weight_g": 811,
+    "weight_basis": "manufacturer",
+    "weight_note": "base weight incl. stays and back pad (med short)",
+    "price_usd": 379,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "material": "Ultra 200X",
+      "hipbelt": true
+    },
+    "url": "https://www.swdbackpacks.com/product-page/ultralight-long-haul-50l-internal-frame",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "swd-long-haul-50-rugged",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Superior Wilderness Designs",
+    "model": "Long Haul 50",
+    "variant": "Rugged (Ultra 400)",
+    "weight_g": 869,
+    "weight_basis": "manufacturer",
+    "weight_note": "base weight incl. stays and back pad (med short)",
+    "price_usd": 379,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "material": "Ultra 400X",
+      "hipbelt": true
+    },
+    "url": "https://www.swdbackpacks.com/product-page/2021-long-haul-50-ultra400-internal-frame",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "swd-wolverine-70",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Superior Wilderness Designs",
+    "model": "Wolverine",
+    "variant": "70L",
+    "weight_g": 936,
+    "weight_basis": "manufacturer",
+    "weight_note": "minimum usable weight, size M",
+    "price_usd": 399,
+    "specs": {
+      "volume_l": 70,
+      "frame": "internal",
+      "material": "Ultra",
+      "hipbelt": true
+    },
+    "url": "https://www.swdbackpacks.com/product-page/wendigo-internal-frame",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "load hauler (formerly Wendigo)"
+  },
+  {
+    "id": "swd-wolverine-95",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Superior Wilderness Designs",
+    "model": "Wolverine",
+    "variant": "95L",
+    "weight_g": 1063,
+    "weight_basis": "manufacturer",
+    "weight_note": "minimum usable weight, size L, 30\" belt",
+    "price_usd": 429,
+    "specs": {
+      "volume_l": 95,
+      "frame": "internal",
+      "material": "Ultra",
+      "hipbelt": true
+    },
+    "url": "https://www.swdbackpacks.com/product-page/wolverine-95l-internal-frame",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "load hauler/packrafting"
+  },
+  {
+    "id": "swd-big-wild-70",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Superior Wilderness Designs",
+    "model": "Big Wild",
+    "variant": "70L",
+    "weight_g": 936,
+    "weight_basis": "manufacturer",
+    "weight_note": "minimum usable weight, size M",
+    "price_usd": 399,
+    "specs": {
+      "volume_l": 70,
+      "frame": "internal",
+      "material": "Ultra 400X",
+      "hipbelt": true
+    },
+    "url": "https://www.swdbackpacks.com/product-page/big-wild-70l-ultra400",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "swd-big-wild-95",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Superior Wilderness Designs",
+    "model": "Big Wild",
+    "variant": "95L",
+    "weight_g": 1063,
+    "weight_basis": "manufacturer",
+    "weight_note": "minimum usable weight, size L, 28\" belt",
+    "price_usd": 429,
+    "specs": {
+      "volume_l": 95,
+      "frame": "internal",
+      "material": "Ultra 400X",
+      "hipbelt": true
+    },
+    "url": "https://www.swdbackpacks.com/product-page/rugged-big-wild-95l-internal-frame",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "swd-superior-35-ultra",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Superior Wilderness Designs",
+    "model": "Superior 35",
+    "variant": "Ultra",
+    "weight_g": 422,
+    "weight_basis": "manufacturer",
+    "weight_note": "pack body + top & sternum straps",
+    "price_usd": 259,
+    "specs": {
+      "volume_l": 35,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "Ultra 200X",
+      "hipbelt": false
+    },
+    "url": "https://www.swdbackpacks.com/product-page/superior35ultra",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "swd-superior-27-ultragrid",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Superior Wilderness Designs",
+    "model": "Superior 27",
+    "variant": "UltraGrid",
+    "weight_g": 366,
+    "weight_basis": "manufacturer",
+    "weight_note": "pack body + top & sternum straps",
+    "price_usd": 229,
+    "specs": {
+      "volume_l": 27,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "UltraGrid",
+      "hipbelt": false
+    },
+    "url": "https://www.swdbackpacks.com/product-page/ultralightframelessbackpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "montane-trailblazer-44",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Montane",
+    "model": "Trailblazer 44",
+    "variant": null,
+    "weight_g": 1090,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 175,
+    "specs": {
+      "volume_l": 44,
+      "frame": "internal",
+      "hipbelt": true
+    },
+    "url": "https://montane.com/products/montane-trailblazer-44l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "USD price from Montane's US store (us.montane.com/products/montane-trailblazer-44l-backpack), checked 2026-10-23."
+  },
+  {
+    "id": "montane-trailblazer-32",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Montane",
+    "model": "Trailblazer 32",
+    "variant": null,
+    "weight_g": 920,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 165,
+    "specs": {
+      "volume_l": 32,
+      "frame": "framesheet",
+      "hipbelt": true
+    },
+    "url": "https://montane.com/products/montane-trailblazer-r-32l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "USD price from Montane's US store (us.montane.com/products/montane-trailblazer-r-32l-backpack), checked 2026-10-23."
+  },
+  {
+    "id": "montane-trailblazer-xt-35",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Montane",
+    "model": "Trailblazer XT 35",
+    "variant": null,
+    "weight_g": 1170,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 175,
+    "specs": {
+      "volume_l": 35,
+      "frame": "framesheet",
+      "hipbelt": true
+    },
+    "url": "https://montane.com/products/montane-trailblazer-r-xt-35l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "USD price from Montane's US store (us.montane.com/products/montane-trailblazer-r-xt-35l-backpack), checked 2026-10-23."
+  },
+  {
+    "id": "montane-trailblazer-lt-28",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Montane",
+    "model": "Trailblazer LT 28",
+    "variant": null,
+    "weight_g": 390,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 135,
+    "specs": {
+      "volume_l": 28,
+      "frame": "frameless",
+      "hipbelt": false
+    },
+    "url": "https://montane.com/products/montane-trailblazer-lt-28l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "USD price from Montane's US store (us.montane.com/products/montane-trailblazer-lt-28l-backpack), checked 2026-10-23."
+  },
+  {
+    "id": "montane-gecko-vp-20",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Montane",
+    "model": "Gecko VP 20+",
+    "variant": null,
+    "weight_g": 314,
+    "weight_basis": "manufacturer",
+    "weight_note": "running vest pack",
+    "price_usd": 195,
+    "specs": {
+      "volume_l": 20,
+      "frame": "frameless",
+      "hipbelt": false
+    },
+    "url": "https://montane.com/products/montane-gecko-vp-20",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "USD price from Montane's US store (us.montane.com/products/montane-gecko-vp-20), checked 2026-10-23."
+  },
+  {
+    "id": "montane-valen-40",
+    "category": "backpack",
+    "subcategory": "framesheet",
+    "brand": "Montane",
+    "model": "Valen 40+5",
+    "variant": null,
+    "weight_g": 730,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 190,
+    "specs": {
+      "volume_l": 45,
+      "frame": "framesheet",
+      "hipbelt": true
+    },
+    "url": "https://montane.com/products/montane-valen-40-5l-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "USD price from Montane's US store (us.montane.com/products/montane-valen-40-5l-backpack), checked 2026-10-23."
+  },
+  {
+    "id": "arcteryx-aerios-35",
+    "category": "backpack",
+    "subcategory": "framesheet",
+    "brand": "Arc'teryx",
+    "model": "Aerios 35",
+    "variant": null,
+    "weight_g": 1160,
+    "weight_basis": "manufacturer",
+    "weight_note": "regular",
+    "price_usd": 250,
+    "specs": {
+      "volume_l": 35,
+      "frame": "framesheet",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "regular",
+        "tall"
+      ]
+    },
+    "url": "https://arcteryx.com/us/en/shop/aerios-35-backpack-0705",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "arcteryx-aerios-18",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Arc'teryx",
+    "model": "Aerios 18",
+    "variant": null,
+    "weight_g": 567,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 180,
+    "specs": {
+      "volume_l": 18,
+      "frame": "framesheet",
+      "hipbelt": false
+    },
+    "url": "https://arcteryx.com/us/en/shop/aerios-18-backpack-0704",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "arcteryx-alpha-fl-30",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Arc'teryx",
+    "model": "Alpha FL 30",
+    "variant": null,
+    "weight_g": 665,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 280,
+    "specs": {
+      "volume_l": 30,
+      "frame": "framesheet",
+      "hipbelt": false
+    },
+    "url": "https://arcteryx.com/us/en/shop/alpha-fl-30-backpack-0349",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "alpine climbing pack"
+  },
+  {
+    "id": "arcteryx-alpha-sl-30",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Arc'teryx",
+    "model": "Alpha SL 30",
+    "variant": null,
+    "weight_g": 444,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 400,
+    "specs": {
+      "volume_l": 30,
+      "frame": "frameless",
+      "hipbelt": false
+    },
+    "url": "https://arcteryx.com/us/en/shop/alpha-sl-30-backpack-9660",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "alpine climbing pack"
+  },
+  {
+    "id": "black-diamond-beta-light-45",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Black Diamond",
+    "model": "Beta Light 45",
+    "variant": null,
+    "weight_g": 890,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 449.95,
+    "specs": {
+      "volume_l": 45,
+      "frame": "internal",
+      "material": "UHMWPE ripstop",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://blackdiamondequipment.com/products/beta-light-45-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "inflatable airbeam frame"
+  },
+  {
+    "id": "black-diamond-beta-light-30",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Black Diamond",
+    "model": "Beta Light 30",
+    "variant": null,
+    "weight_g": 695,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 429.95,
+    "specs": {
+      "volume_l": 30,
+      "frame": "internal",
+      "material": "UHMWPE ripstop",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://blackdiamondequipment.com/products/beta-light-30-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "inflatable airbeam frame"
+  },
+  {
+    "id": "black-diamond-distance-22",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Black Diamond",
+    "model": "Distance 22",
+    "variant": null,
+    "weight_g": 400,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 229.95,
+    "specs": {
+      "volume_l": 22,
+      "frame": "frameless",
+      "hipbelt": false,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://blackdiamondequipment.com/products/distance-22-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "running vest-style fastpack"
+  },
+  {
+    "id": "black-diamond-distance-15",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Black Diamond",
+    "model": "Distance 15",
+    "variant": null,
+    "weight_g": 330,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 199.95,
+    "specs": {
+      "volume_l": 15,
+      "frame": "frameless",
+      "hipbelt": false,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://blackdiamondequipment.com/products/distance-15-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "black-diamond-pursuit-30",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Black Diamond",
+    "model": "Pursuit 30",
+    "variant": null,
+    "weight_g": 796,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 119.97,
+    "specs": {
+      "volume_l": 30,
+      "frame": "framesheet",
+      "hipbelt": true
+    },
+    "url": "https://blackdiamondequipment.com/products/pursuit-30-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "listed at sale price; MSRP likely higher"
+  },
+  {
+    "id": "black-diamond-speed-40",
+    "category": "backpack",
+    "subcategory": "framesheet",
+    "brand": "Black Diamond",
+    "model": "Speed 40",
+    "variant": null,
+    "weight_g": 1077,
+    "weight_basis": "manufacturer",
+    "weight_note": "S/M",
+    "price_usd": 249.95,
+    "specs": {
+      "volume_l": 40,
+      "frame": "framesheet",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S/M",
+        "M/L"
+      ]
+    },
+    "url": "https://blackdiamondequipment.com/products/speed-40-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "alpine climbing pack"
+  },
+  {
+    "id": "seek-outside-divide-4800",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Seek Outside",
+    "model": "Divide 4800 2.0",
+    "variant": null,
+    "weight_g": 1304,
+    "weight_basis": "manufacturer",
+    "weight_note": "minimum trail weight (shipped 3 lb 7 oz)",
+    "price_usd": 505,
+    "specs": {
+      "volume_l": 79,
+      "frame": "internal",
+      "material": "Ultra/UltraGrid",
+      "hipbelt": true
+    },
+    "url": "https://seekoutside.com/divide-4800-2-0/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Revolution frame; load rated 200+ lb"
+  },
+  {
+    "id": "seek-outside-unaweep-4800",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Seek Outside",
+    "model": "Unaweep 4800 2.0",
+    "variant": null,
+    "weight_g": 1332,
+    "weight_basis": "manufacturer",
+    "weight_note": "minimum trail weight (shipped 3 lb 6 oz)",
+    "price_usd": 600,
+    "specs": {
+      "volume_l": 79,
+      "frame": "internal",
+      "hipbelt": true
+    },
+    "url": "https://seekoutside.com/unaweep-4800-2-0/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "seek-outside-gila-3500",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Seek Outside",
+    "model": "Gila 3500 2.0",
+    "variant": null,
+    "weight_g": 1219,
+    "weight_basis": "manufacturer",
+    "weight_note": "minimum trail weight",
+    "price_usd": 540,
+    "specs": {
+      "volume_l": 57,
+      "frame": "internal",
+      "hipbelt": true
+    },
+    "url": "https://seekoutside.com/gila-3500-2-0/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "seek-outside-flight-3",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Seek Outside",
+    "model": "Flight 3",
+    "variant": null,
+    "weight_g": 1219,
+    "weight_basis": "manufacturer",
+    "weight_note": "listed 2 lb 11 oz",
+    "price_usd": 359,
+    "specs": {
+      "volume_l": 52,
+      "frame": "internal",
+      "max_load_lb": 50,
+      "material": "UltraGrid / Ultra 200X",
+      "hipbelt": true
+    },
+    "url": "https://seekoutside.com/flight-3/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "3200 ci"
+  },
+  {
+    "id": "northern-ultralight-sundown-48",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Northern Ultralight",
+    "model": "Sundown",
+    "variant": "48L",
+    "weight_g": 810,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M with frame stays and hipbelt (579 g minimum)",
+    "price_usd": null,
+    "specs": {
+      "volume_l": 48,
+      "frame": "internal",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.northernultralight.com/store/sundown",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Canadian maker; from CAD 420 (price_usd null)"
+  },
+  {
+    "id": "northern-ultralight-dreamline",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Northern Ultralight",
+    "model": "Dreamline",
+    "variant": null,
+    "weight_g": 1314,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, standard",
+    "price_usd": null,
+    "specs": {
+      "frame": "internal",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.northernultralight.com/store/dreamline",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Canadian maker; from CAD 636 (price_usd null)"
+  },
+  {
+    "id": "deuter-aircontact-ultra-50-5",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Deuter",
+    "model": "Aircontact Ultra 50+5",
+    "variant": null,
+    "weight_g": 1270,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 295,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "hipbelt": true
+    },
+    "url": "https://www.deuter.com/us-en/aircontact-ultra-50-5/3380324",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "deuter-aircontact-ultra-45-5-sl",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Deuter",
+    "model": "Aircontact Ultra 45+5 SL",
+    "variant": "Women's (SL)",
+    "weight_g": 1210,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 295,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "hipbelt": true
+    },
+    "url": "https://www.deuter.com/us-en/aircontact-ultra-45-5-sl/4046051172040",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "deuter-aircontact-ultra-40-5",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Deuter",
+    "model": "Aircontact Ultra 40+5",
+    "variant": null,
+    "weight_g": 1210,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 275,
+    "specs": {
+      "volume_l": 45,
+      "frame": "internal",
+      "hipbelt": true
+    },
+    "url": "https://www.deuter.com/us-en/aircontact-ultra-40-5/4046051172033",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "deuter-aircontact-ultra-35-5-sl",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Deuter",
+    "model": "Aircontact Ultra 35+5 SL",
+    "variant": "Women's (SL)",
+    "weight_g": 1160,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 275,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "hipbelt": true
+    },
+    "url": "https://www.deuter.com/us-en/aircontact-ultra-35-5-sl/4046051172026",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "deuter-aircontact-lite-50-10",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Deuter",
+    "model": "Aircontact Lite 50+10",
+    "variant": null,
+    "weight_g": 1640,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 230,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "hipbelt": true
+    },
+    "url": "https://www.deuter.com/us-en/aircontact-lite-50-10/4046051148717",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "deuter-aircontact-lite-40-10",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Deuter",
+    "model": "Aircontact Lite 40+10",
+    "variant": null,
+    "weight_g": 1590,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 220,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "hipbelt": true
+    },
+    "url": "https://www.deuter.com/us-en/aircontact-lite-40-10/3340123",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "deuter-speed-lite-21",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Deuter",
+    "model": "Speed Lite 21",
+    "variant": null,
+    "weight_g": 470,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 85,
+    "specs": {
+      "volume_l": 21,
+      "frame": "framesheet",
+      "hipbelt": true
+    },
+    "url": "https://www.deuter.com/us-en/speed-lite-21/4046051170121",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "deuter-speed-lite-cv-25",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Deuter",
+    "model": "Speed Lite CV 25",
+    "variant": null,
+    "weight_g": 680,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 120,
+    "specs": {
+      "volume_l": 25,
+      "frame": "framesheet",
+      "hipbelt": true
+    },
+    "url": "https://www.deuter.com/us-en/speed-lite-cv-25/4046051143699",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "osprey-exos-38",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Osprey",
+    "model": "Exos 38",
+    "variant": null,
+    "weight_g": 1222,
+    "weight_basis": "manufacturer",
+    "weight_note": "S/M 2.695 lb (L/XL 2.827 lb), Osprey spec via retailer listing",
+    "price_usd": 220,
+    "specs": {
+      "volume_l": 38,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "material": "100D/210D nylon",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S/M",
+        "L/XL"
+      ]
+    },
+    "url": "https://www.osprey.com/us/en/product/exos-38",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Weight verified via The Outfitters (Osprey spec copy); USD price not re-verified this session."
+  },
+  {
+    "id": "osprey-exos-48",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Osprey",
+    "model": "Exos 48",
+    "variant": null,
+    "weight_g": 1255,
+    "weight_basis": "manufacturer",
+    "weight_note": "S/M 2.767 lb (L/XL 2.853 lb), Osprey spec via retailer listing",
+    "price_usd": 265,
+    "specs": {
+      "volume_l": 48,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "material": "100D/210D nylon",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S/M",
+        "L/XL"
+      ]
+    },
+    "url": "https://www.osprey.com/us/en/product/exos-48",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Weight from Osprey spec copy (The Outfitters); price from GearX (US)."
+  },
+  {
+    "id": "osprey-exos-58",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Osprey",
+    "model": "Exos 58",
+    "variant": null,
+    "weight_g": 1288,
+    "weight_basis": "manufacturer",
+    "weight_note": "S/M 2.84 lb (L/XL 2.941 lb), Osprey spec via retailer listing",
+    "price_usd": 285,
+    "specs": {
+      "volume_l": 58,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "100D/210D nylon",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S/M",
+        "L/XL"
+      ]
+    },
+    "url": "https://www.osprey.com/us/en/product/exos-58",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Weight from Osprey spec copy (The Outfitters); price per Switchback Travel."
+  },
+  {
+    "id": "osprey-eja-38",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Osprey",
+    "model": "Eja 38",
+    "variant": "Women's",
+    "weight_g": 1020,
+    "weight_basis": "manufacturer",
+    "weight_note": "approx., size-dependent",
+    "price_usd": 220,
+    "specs": {
+      "volume_l": 38,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "material": "100D/210D nylon",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS/S",
+        "M/L"
+      ]
+    },
+    "url": "https://www.osprey.com/us/en/product/eja-38",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "weights/prices recalled; osprey.com blocked automated access this session"
+  },
+  {
+    "id": "osprey-eja-48",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Osprey",
+    "model": "Eja 48",
+    "variant": "Women's",
+    "weight_g": 1209,
+    "weight_basis": "manufacturer",
+    "weight_note": "WXS/S 2.666 lb (WM/L 2.758 lb), Osprey spec via retailer listing",
+    "price_usd": 265,
+    "specs": {
+      "volume_l": 48,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "material": "100D/210D nylon",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS/S",
+        "M/L"
+      ]
+    },
+    "url": "https://www.osprey.com/us/en/product/eja-48",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Weight from Osprey spec copy (The Outfitters); price from GearX (US)."
+  },
+  {
+    "id": "osprey-eja-58",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Osprey",
+    "model": "Eja 58",
+    "variant": "Women's",
+    "weight_g": 1232,
+    "weight_basis": "manufacturer",
+    "weight_note": "WXS/S 2.717 lb (WM/L 2.822 lb), Osprey spec via retailer listing",
+    "price_usd": 285,
+    "specs": {
+      "volume_l": 58,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "100D/210D nylon",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS/S",
+        "M/L"
+      ]
+    },
+    "url": "https://www.osprey.com/us/en/product/eja-58",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Weight from Osprey spec copy (The Outfitters); price per Switchback Travel."
+  },
+  {
+    "id": "osprey-exos-pro-55",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Osprey",
+    "model": "Exos Pro 55",
+    "variant": null,
+    "weight_g": 942,
+    "weight_basis": "manufacturer",
+    "weight_note": "S/M 2.077 lb (L/XL 2.165 lb); lid removable (-80 g)",
+    "price_usd": 300,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "material": "UHMWPE ripstop",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S/M",
+        "L/XL"
+      ]
+    },
+    "url": "https://www.osprey.com/us/en/product/exos-pro-55",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Weight from Osprey spec copy (The Outfitters); USD price not re-verified."
+  },
+  {
+    "id": "osprey-eja-pro-55",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Osprey",
+    "model": "Eja Pro 55",
+    "variant": "Women's",
+    "weight_g": 950,
+    "weight_basis": "manufacturer",
+    "weight_note": "approx.",
+    "price_usd": 325,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "material": "UHMWPE ripstop",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS/S",
+        "M/L"
+      ]
+    },
+    "url": "https://store.miyaradventures.com/products/osprey-eja-pro-55-backpack-womens",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "weights/prices recalled; osprey.com blocked automated access this session"
+  },
+  {
+    "id": "osprey-levity-45",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Osprey",
+    "model": "Levity 45",
+    "variant": null,
+    "weight_g": 820,
+    "weight_basis": "manufacturer",
+    "weight_note": "approx.",
+    "price_usd": 280,
+    "specs": {
+      "volume_l": 45,
+      "frame": "internal",
+      "max_load_lb": 25,
+      "material": "NanoFly nylon/UHMWPE",
+      "hipbelt": true
+    },
+    "url": "https://www.osprey.com/us/en/product/levity-45",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "weights/prices recalled; osprey.com blocked automated access this session"
+  },
+  {
+    "id": "osprey-levity-60",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Osprey",
+    "model": "Levity 60",
+    "variant": null,
+    "weight_g": 900,
+    "weight_basis": "manufacturer",
+    "weight_note": "approx.",
+    "price_usd": 300,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "max_load_lb": 25,
+      "material": "NanoFly nylon/UHMWPE",
+      "hipbelt": true
+    },
+    "url": "https://www.osprey.com/us/en/product/levity-60",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "weights/prices recalled; osprey.com blocked automated access this session"
+  },
+  {
+    "id": "osprey-lumina-45",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Osprey",
+    "model": "Lumina 45",
+    "variant": "Women's",
+    "weight_g": 800,
+    "weight_basis": "manufacturer",
+    "weight_note": "approx.",
+    "price_usd": 280,
+    "specs": {
+      "volume_l": 45,
+      "frame": "internal",
+      "max_load_lb": 25,
+      "material": "NanoFly nylon/UHMWPE",
+      "hipbelt": true
+    },
+    "url": "https://www.osprey.com/us/en/product/lumina-45",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "weights/prices recalled; osprey.com blocked automated access this session"
+  },
+  {
+    "id": "osprey-lumina-60",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Osprey",
+    "model": "Lumina 60",
+    "variant": "Women's",
+    "weight_g": 880,
+    "weight_basis": "manufacturer",
+    "weight_note": "approx.",
+    "price_usd": 300,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "max_load_lb": 25,
+      "material": "NanoFly nylon/UHMWPE",
+      "hipbelt": true
+    },
+    "url": "https://www.osprey.com/us/en/product/lumina-60",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "weights/prices recalled; osprey.com blocked automated access this session"
+  },
+  {
+    "id": "osprey-talon-22",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Osprey",
+    "model": "Talon 22",
+    "variant": null,
+    "weight_g": 1080,
+    "weight_basis": "estimate",
+    "weight_note": "2.38 lb, Osprey spec (current AirScape framesheet version)",
+    "price_usd": 175,
+    "specs": {
+      "volume_l": 22,
+      "frame": "framesheet",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S/M",
+        "L/XL"
+      ]
+    },
+    "url": "https://www.osprey.com/us/en/product/talon-22",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Current Talon 22 is much heavier than older versions; weight via The Outfitters (Osprey spec), price via GearX."
+  },
+  {
+    "id": "osprey-talon-33",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Osprey",
+    "model": "Talon 33",
+    "variant": null,
+    "weight_g": 1261,
+    "weight_basis": "estimate",
+    "weight_note": "2.78 lb / 1.26 kg, Osprey spec",
+    "price_usd": 180,
+    "specs": {
+      "volume_l": 33,
+      "frame": "framesheet",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S/M",
+        "L/XL"
+      ]
+    },
+    "url": "https://www.osprey.com/us/en/product/talon-33",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Weight via The Outfitters (Osprey spec copy); USD price not re-verified."
+  },
+  {
+    "id": "osprey-talon-44",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Osprey",
+    "model": "Talon 44",
+    "variant": null,
+    "weight_g": 1569,
+    "weight_basis": "estimate",
+    "weight_note": "S/M 3.46 lb (L/XL 3.57 lb), Osprey spec; LightWire frame",
+    "price_usd": 200,
+    "specs": {
+      "volume_l": 44,
+      "frame": "framesheet",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S/M",
+        "L/XL"
+      ]
+    },
+    "url": "https://www.osprey.com/us/en/product/talon-44",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Weight via The Outfitters (Osprey spec copy); USD price not re-verified."
+  },
+  {
+    "id": "rei-co-op-flash-55-mens",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "REI Co-op",
+    "model": "Flash 55",
+    "variant": "Men's",
+    "weight_g": 1276,
+    "weight_basis": "manufacturer",
+    "weight_note": "2 lb 13 oz per Switchback Travel spec table (Oct 2026)",
+    "price_usd": 229,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "material": "ripstop nylon",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.rei.com/product/223386/rei-co-op-flash-55-pack-mens",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "rei.com blocked automated access this session"
+  },
+  {
+    "id": "rei-co-op-flash-55-womens",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "REI Co-op",
+    "model": "Flash 55",
+    "variant": "Women's",
+    "weight_g": 1247,
+    "weight_basis": "estimate",
+    "weight_note": "2 lb 12 oz per Switchback Travel spec table (Oct 2026)",
+    "price_usd": 229,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "material": "ripstop nylon",
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M"
+      ]
+    },
+    "url": "https://www.rei.com/product/223387/rei-co-op-flash-55-pack-womens",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "rei.com blocked automated access this session"
+  },
+  {
+    "id": "rei-co-op-flash-22",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "REI Co-op",
+    "model": "Flash 22",
+    "variant": null,
+    "weight_g": 420,
+    "weight_basis": "estimate",
+    "weight_note": "approx.",
+    "price_usd": 60,
+    "specs": {
+      "volume_l": 22,
+      "frame": "frameless",
+      "hipbelt": false
+    },
+    "url": "https://www.rei.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "rei.com blocked automated access this session"
+  },
+  {
+    "id": "rei-co-op-flash-18",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "REI Co-op",
+    "model": "Flash 18",
+    "variant": null,
+    "weight_g": 280,
+    "weight_basis": "estimate",
+    "weight_note": "approx.",
+    "price_usd": 40,
+    "specs": {
+      "volume_l": 18,
+      "frame": "frameless",
+      "hipbelt": false
+    },
+    "url": "https://www.rei.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "stuffable summit pack"
+  },
+  {
+    "id": "gregory-focal-48",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Gregory",
+    "model": "Focal 48",
+    "variant": "Men's",
+    "weight_g": 1040,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled (approx.)",
+    "price_usd": 249.95,
+    "specs": {
+      "volume_l": 48,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.gregory.com/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "price checked at Campsaver this session; gregory.com blocked"
+  },
+  {
+    "id": "gregory-focal-58",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Gregory",
+    "model": "Focal 58",
+    "variant": "Men's",
+    "weight_g": 1130,
+    "weight_basis": "manufacturer",
+    "weight_note": "weight recalled (approx.)",
+    "price_usd": 269.95,
+    "specs": {
+      "volume_l": 58,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.gregory.com/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "price checked at Campsaver this session"
+  },
+  {
+    "id": "gregory-facet-45",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Gregory",
+    "model": "Facet 45",
+    "variant": "Women's",
+    "weight_g": 1000,
+    "weight_basis": "estimate",
+    "weight_note": "approx.",
+    "price_usd": 249.95,
+    "specs": {
+      "volume_l": 45,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M"
+      ]
+    },
+    "url": "https://www.gregory.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "gregory-facet-55",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Gregory",
+    "model": "Facet 55",
+    "variant": "Women's",
+    "weight_g": 1080,
+    "weight_basis": "estimate",
+    "weight_note": "approx.",
+    "price_usd": 269.95,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "hipbelt": true,
+      "torso_sizes": [
+        "XS",
+        "S",
+        "M"
+      ]
+    },
+    "url": "https://www.gregory.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "mystery-ranch-radix-47",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Mystery Ranch",
+    "model": "Radix 47",
+    "variant": null,
+    "weight_g": 1300,
+    "weight_basis": "estimate",
+    "weight_note": "approx.",
+    "price_usd": 289,
+    "specs": {
+      "volume_l": 47,
+      "frame": "internal",
+      "hipbelt": true
+    },
+    "url": "https://www.mysteryranch.com/",
+    "discontinued": true,
+    "confidence": "low",
+    "notes": "outdoor line no longer shown on mysteryranch.com; may be discontinued"
+  },
+  {
+    "id": "mystery-ranch-radix-31",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Mystery Ranch",
+    "model": "Radix 31",
+    "variant": null,
+    "weight_g": 1050,
+    "weight_basis": "estimate",
+    "weight_note": "approx.",
+    "price_usd": 229,
+    "specs": {
+      "volume_l": 31,
+      "frame": "framesheet",
+      "hipbelt": true
+    },
+    "url": "https://www.mysteryranch.com/",
+    "discontinued": true,
+    "confidence": "low",
+    "notes": "outdoor line no longer shown on mysteryranch.com; may be discontinued"
+  },
+  {
+    "id": "mld-burn",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Mountain Laurel Designs",
+    "model": "Burn",
+    "variant": "38L",
+    "weight_g": 340,
+    "weight_basis": "estimate",
+    "weight_note": "approx., base pack",
+    "price_usd": 250,
+    "specs": {
+      "volume_l": 38,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "Ultra/DCF",
+      "hipbelt": false
+    },
+    "url": "https://mountainlaureldesigns.com/shop/packs/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "MLD store closed/packs not listed during this session; values recalled"
+  },
+  {
+    "id": "mld-prophet",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Mountain Laurel Designs",
+    "model": "Prophet",
+    "variant": "48L",
+    "weight_g": 400,
+    "weight_basis": "estimate",
+    "weight_note": "approx., base pack",
+    "price_usd": 285,
+    "specs": {
+      "volume_l": 48,
+      "frame": "frameless",
+      "max_load_lb": 25,
+      "material": "Ultra/DCF",
+      "hipbelt": true
+    },
+    "url": "https://mountainlaureldesigns.com/shop/packs/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "MLD store closed/packs not listed during this session; values recalled"
+  },
+  {
+    "id": "mld-exodus",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Mountain Laurel Designs",
+    "model": "Exodus",
+    "variant": "55L",
+    "weight_g": 480,
+    "weight_basis": "estimate",
+    "weight_note": "approx., base pack",
+    "price_usd": 300,
+    "specs": {
+      "volume_l": 55,
+      "frame": "frameless",
+      "max_load_lb": 30,
+      "material": "Ultra/DCF",
+      "hipbelt": true
+    },
+    "url": "https://mountainlaureldesigns.com/shop/packs/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "MLD store closed/packs not listed during this session; values recalled"
+  },
+  {
+    "id": "waymark-thru-40",
+    "category": "backpack",
+    "subcategory": "framesheet",
+    "brand": "Waymark Gear Co",
+    "model": "THRU",
+    "variant": "40L",
+    "weight_g": 590,
+    "weight_basis": "estimate",
+    "weight_note": "approx.",
+    "price_usd": 260,
+    "specs": {
+      "volume_l": 40,
+      "frame": "framesheet",
+      "hipbelt": true
+    },
+    "url": "https://waymarkgear.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "waymarkgear.com blocked automated access"
+  },
+  {
+    "id": "nashville-packs-cutaway",
+    "category": "backpack",
+    "subcategory": "framesheet",
+    "brand": "Nashville Packs",
+    "model": "Cutaway",
+    "variant": null,
+    "weight_g": 500,
+    "weight_basis": "estimate",
+    "weight_note": "approx.",
+    "price_usd": 279,
+    "specs": {
+      "volume_l": 40,
+      "frame": "framesheet",
+      "hipbelt": true
+    },
+    "url": "https://nashvillepacks.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "site unreachable this session; framed and frameless versions offered"
+  },
+  {
+    "id": "zimmerbuilt-quickstep",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "ZimmerBuilt",
+    "model": "Quickstep",
+    "variant": null,
+    "weight_g": 340,
+    "weight_basis": "estimate",
+    "weight_note": "approx.",
+    "price_usd": 185,
+    "specs": {
+      "volume_l": 25,
+      "frame": "frameless",
+      "hipbelt": false
+    },
+    "url": "https://www.zimmerbuilt.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "custom/small-batch maker"
+  },
+  {
+    "id": "elemental-horizons-kalais",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Elemental Horizons",
+    "model": "Kalais",
+    "variant": null,
+    "weight_g": 900,
+    "weight_basis": "estimate",
+    "weight_note": "approx.",
+    "price_usd": 340,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "hipbelt": true
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "small-batch maker"
+  },
+  {
+    "id": "3f-ul-gear-qidian-pro",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "3F UL Gear",
+    "model": "QiDian Pro",
+    "variant": "46+10L",
+    "weight_g": 950,
+    "weight_basis": "estimate",
+    "weight_note": "approx.",
+    "price_usd": 100,
+    "specs": {
+      "volume_l": 56,
+      "frame": "internal",
+      "hipbelt": true
+    },
+    "url": null,
+    "discontinued": false,
+    "confidence": "low",
+    "notes": "budget pack sold via marketplaces"
+  },
+  {
+    "id": "exped-lightning-45",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Exped",
+    "model": "Lightning 45",
+    "variant": null,
+    "weight_g": 1190,
+    "weight_basis": "estimate",
+    "weight_note": "approx.",
+    "price_usd": 199,
+    "specs": {
+      "volume_l": 45,
+      "frame": "internal",
+      "hipbelt": true
+    },
+    "url": "https://www.exped.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "exped-lightning-60",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Exped",
+    "model": "Lightning 60",
+    "variant": null,
+    "weight_g": 1320,
+    "weight_basis": "estimate",
+    "weight_note": "approx.",
+    "price_usd": 229,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "hipbelt": true
+    },
+    "url": "https://www.exped.com/",
+    "discontinued": false,
+    "confidence": "low",
+    "notes": null
+  },
+  {
+    "id": "liteway-gramless-35l-ultragrid",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Liteway",
+    "model": "Gramless 35L Pack",
+    "variant": "UltraGrid",
+    "weight_g": 410,
+    "weight_basis": "manufacturer",
+    "weight_note": "UltraGrid version; Ecopak EPX200 version 490 g",
+    "price_usd": null,
+    "specs": {
+      "volume_l": 35,
+      "frame": "frameless",
+      "max_load_lb": 26,
+      "material": "UltraGrid 210D recycled nylon grid",
+      "torso_sizes": "XS 40 cm, S/M 45 cm, M/L 50 cm"
+    },
+    "url": "https://www.backpackinglight.com.au/products/liteway-gramless-ultra-35l-pack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-gramless-ultra-35l-pack), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+    "id": "liteway-hkr-pack-ultra-35l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Liteway",
+    "model": "HKR Pack Ultra 35L",
+    "variant": null,
+    "weight_g": 390,
+    "weight_basis": "manufacturer",
+    "weight_note": "complete; 314 g without straps and shock cords",
+    "price_usd": null,
+    "specs": {
+      "volume_l": 35,
+      "frame": "frameless",
+      "material": "Ultra 100",
+      "torso_sizes": "XS/S, M/L"
+    },
+    "url": "https://www.backpackinglight.com.au/products/liteway-hkr-pack-ultra-35l",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-hkr-pack-ultra-35l), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+    "id": "liteway-urban-pro-pack-18l-ultragrid",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Liteway",
+    "model": "Urban Pro Pack 18L",
+    "variant": "UltraGrid",
+    "weight_g": 280,
+    "weight_basis": "manufacturer",
+    "weight_note": "UltraGrid version; Ecopak EPX200 version 340 g",
+    "price_usd": null,
+    "specs": {
+      "volume_l": 18,
+      "frame": "frameless",
+      "material": "UltraGrid recycled nylon grid"
+    },
+    "url": "https://www.backpackinglight.com.au/products/liteway-urban-pro-pack-18l",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-urban-pro-pack-18l), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+    "id": "liteway-urban-pro-pack-30l-ultragrid",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "Liteway",
+    "model": "Urban Pro Pack 30L",
+    "variant": "UltraGrid",
+    "weight_g": 400,
+    "weight_basis": "manufacturer",
+    "weight_note": "UltraGrid version; Ecopak EPX200 version 455 g",
+    "price_usd": null,
+    "specs": {
+      "volume_l": 30,
+      "frame": "frameless",
+      "max_load_lb": 18,
+      "material": "UltraGrid 210D recycled nylon grid"
+    },
+    "url": "https://www.backpackinglight.com.au/products/liteway-urban-pro-pack-18l-copy",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-urban-pro-pack-18l-copy), checked 2026-10-23. Sold in AUD only there; no USD price found."
+  },
+  {
+    "id": "rei-co-op-flash-air-50",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "REI Co-op",
+    "model": "Flash Air 50",
+    "variant": null,
+    "weight_g": 850,
+    "weight_basis": "manufacturer",
+    "weight_note": "1 lb 14 oz (men's & women's) per Switchback Travel",
+    "price_usd": 299,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "max_load_lb": 25,
+      "material": "nylon",
+      "hipbelt": true
+    },
+    "url": "https://www.rei.com/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "REI's lightest backpacking pack; men's and women's versions."
+  },
+  {
+    "id": "rei-co-op-trailmade-60-mens",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "REI Co-op",
+    "model": "Trailmade 60",
+    "variant": "Men's",
+    "weight_g": 1503,
+    "weight_basis": "manufacturer",
+    "weight_note": "3 lb 5 oz per Switchback Travel (women's 3 lb 3 oz)",
+    "price_usd": 189,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "material": "100D nylon",
+      "hipbelt": true
+    },
+    "url": "https://www.rei.com/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Budget pack."
+  }
+]

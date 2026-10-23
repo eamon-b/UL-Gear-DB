@@ -1,0 +1,72 @@
+# UL Gear DB
+
+An interactive database of ultralight backpacking gear, with a comparison view and a pack-list builder that improves on LighterPack.
+
+- **Browse and compare**: pick a category, then filter by brand, type, weight, price, confidence, and spec filters generated from the data (numeric ranges, yes/no toggles, multi-selects). Sort by any column, including **g/$** (grams saved per extra dollar versus the cheapest item in view). A weight-vs-price scatter plot highlights the **Pareto frontier** (nothing lighter for less). You can compare up to 6 items side by side, with the best value in each row highlighted.
+- **Global search** across every category (press `/`).
+- **Pack lists**: build multiple lists stored in localStorage. Add DB items or custom items, and set qty, worn, and consumable on each, editing inline. The list shows base, worn, consumable, pack, and skin-out totals, the cost, and a category donut.
+  - **Alternatives**: opens the full browse view for an item's category, scoped to the item's own type (tent vs tents, not tarps) with a one-click **All shelters** toggle, plus deltas (±g, ±$, $/oz saved), quick chips, and one-click **Swap**.
+  - **Lighten my pack**: a greedy plan by $ per gram saved, within a budget you set. By default it only suggests like-for-like swaps: same type, and comparable key specs (quilt temperature rating, pad R-value, shelter capacity, pack/pot/bottle volume, power bank capacity, bear-approved storage).
+  - **Share via URL**: the whole list is compressed into the link with lz-string. The link opens a read-only view with "Copy to my lists".
+  - **LighterPack CSV import/export**: fuzzy-matches rows to DB items, with a review screen to confirm.
+- Light and dark themes (follows the OS, with a toggle), g/oz/lb units, and a phone-friendly layout. The site is fully static.
+
+## Development
+
+```bash
+npm install
+npm run dev        # builds data, then starts Vite on http://localhost:5173
+npm run build      # builds data, type-checks, builds to dist/
+npm run preview    # serves dist/ on http://localhost:4173
+npm run data       # only (re)build public/data/gear.json + data/report.json
+npm run check-data # data sanity report -> data/data-issues.json (add `-- --all` to print everything)
+```
+
+Smoke test (Playwright; needs a Chromium. Set `CHROMIUM_PATH` if it is not in `/opt/pw-browsers`):
+
+```bash
+npm run build && npx vite preview --port 4173 &
+node scripts/smoke-test.mjs http://localhost:4173/
+```
+
+Screenshots go to `screenshots/`.
+
+## Data
+
+```
+data/categories.json        categories, groups, and allowed subcategories (the contract)
+data/SCHEMA.md              item schema and recommended spec keys per category
+data/raw/<category>.json    one JSON array of items per category
+data/raw/_sample.json       dev fixture: used only when no other raw file has valid items
+data/aliases.json           old id -> current id, so saved/shared lists survive merged duplicates
+data/report.json            validation report from the last data build
+data/data-issues.json       likely-bad records from `npm run check-data` (outliers, dupes, shipping weights, …)
+public/data/gear.json       compact bundle the app loads (generated, git-ignored)
+```
+
+`scripts/build-data.mjs` validates every raw file:
+
+- ids must be unique across all files. Duplicates get a `-2`, `-3` suffix and a warning, and identical brand+model+variant entries are flagged.
+- The category must be valid (it is inferred from the file name if missing or invalid). The subcategory must belong to that category: case slips and near misses are mapped to the closest match, and anything else goes to `other`, or to the closest match when the category has no `other`.
+- `brand` and `model` are required. `weight_g` must be a positive number: strings are coerced and values are rounded to integers. `price_usd` must be a number or `null`, and strings like `"$199"` are parsed.
+- Strings are trimmed, numeric or boolean strings in `specs` are converted, and enums get defaults.
+- Items that can't be fixed are dropped and listed in the report.
+
+### Contributing data
+
+1. Edit or add items in `data/raw/<category>.json`, following `data/SCHEMA.md`. Each item needs a source `url` and an honest `confidence` (`high` means checked against a source).
+2. Run `npm run data` and read the console report and `data/report.json`. There should be no dropped items or duplicate ids. Then run `npm run check-data` and look at anything it flags for your records.
+   When you remove a duplicate or rename an id, add `"old-id": "new-id"` to `data/aliases.json`.
+3. Open a PR and link your sources. Measured weights are welcome: use `"weight_basis": "measured"` and describe what was weighed in `weight_note`.
+
+Weights are manufacturer claims unless marked otherwise. Prices are USD list prices and go stale.
+
+## Deploy (GitHub Pages)
+
+`.github/workflows/deploy.yml` builds and deploys on every push to `main`. In the repo settings, go to **Pages** and set **Source** to **GitHub Actions**.
+
+The app uses `base: './'` and hash routing (`#/c/shelter`, `#/lists`, `#/share/…`), so it works under any subpath such as `https://<user>.github.io/<repo>/` with no configuration. To use absolute asset URLs instead, build with `VITE_BASE=/<repo>/ npm run build`.
+
+## Tech
+
+Vite, React 18, and TypeScript, with plain CSS (theme tokens on `:root`). The scatter plot and donut are hand-written SVG. Dependencies: `lz-string` (share links) and `papaparse` (CSV). There is no router library: a 40-line hash router lives in `src/lib/router.ts`.

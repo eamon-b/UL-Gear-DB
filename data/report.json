@@ -1,0 +1,217 @@
+{
+  "generated_at": "2026-10-23T12:01:47.661Z",
+  "files": [
+    {
+      "file": "backpack.json",
+      "read": 227,
+      "kept": 227,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "base-layer.json",
+      "read": 179,
+      "kept": 179,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "communication.json",
+      "read": 32,
+      "kept": 32,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "cook-accessory.json",
+      "read": 70,
+      "kept": 70,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "cookware.json",
+      "read": 104,
+      "kept": 104,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "first-aid-hygiene.json",
+      "read": 80,
+      "kept": 80,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "food-storage.json",
+      "read": 44,
+      "kept": 44,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "footwear.json",
+      "read": 254,
+      "kept": 254,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "headwear-handwear.json",
+      "read": 119,
+      "kept": 119,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "insulation.json",
+      "read": 185,
+      "kept": 185,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "lighting.json",
+      "read": 78,
+      "kept": 78,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "misc.json",
+      "read": 60,
+      "kept": 60,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "pack-organization.json",
+      "read": 129,
+      "kept": 129,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "pillow.json",
+      "read": 35,
+      "kept": 35,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "power.json",
+      "read": 55,
+      "kept": 55,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "rain-jacket.json",
+      "read": 90,
+      "kept": 90,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "rain-pants.json",
+      "read": 63,
+      "kept": 63,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "shelter.json",
+      "read": 347,
+      "kept": 347,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "sleep-insulation.json",
+      "read": 218,
+      "kept": 218,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "sleeping-pad.json",
+      "read": 128,
+      "kept": 128,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "stove.json",
+      "read": 89,
+      "kept": 89,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "trekking-poles.json",
+      "read": 81,
+      "kept": 81,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "water-storage.json",
+      "read": 63,
+      "kept": 63,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "water-treatment.json",
+      "read": 58,
+      "kept": 58,
+      "dropped": 0,
+      "error": null
+    },
+    {
+      "file": "wind-layer.json",
+      "read": 52,
+      "kept": 52,
+      "dropped": 0,
+      "error": null
+    }
+  ],
+  "counts": {
+    "shelter": 347,
+    "backpack": 227,
+    "sleep-insulation": 218,
+    "sleeping-pad": 128,
+    "pillow": 35,
+    "stove": 89,
+    "cookware": 104,
+    "cook-accessory": 70,
+    "water-treatment": 58,
+    "water-storage": 63,
+    "rain-jacket": 90,
+    "rain-pants": 63,
+    "wind-layer": 52,
+    "insulation": 185,
+    "base-layer": 179,
+    "headwear-handwear": 119,
+    "footwear": 254,
+    "lighting": 78,
+    "power": 55,
+    "communication": 32,
+    "trekking-poles": 81,
+    "food-storage": 44,
+    "pack-organization": 129,
+    "first-aid-hygiene": 80,
+    "misc": 60
+  },
+  "total": 2840,
+  "dropped": [],
+  "fixed": [],
+  "duplicate_ids": [],
+  "possible_duplicates": [],
+  "used_fixtures": false,
+  "aliases": {
+    "kept": 2,
+    "ignored": []
+  }
+}
