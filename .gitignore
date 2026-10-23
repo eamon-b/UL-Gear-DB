@@ -5,3 +5,4 @@ screenshots/*.tmp
 *.log
 .DS_Store
 *.tsbuildinfo
+public/data/examples.json

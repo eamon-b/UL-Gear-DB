@@ -17,6 +17,7 @@ export function Header({ section }: { section: string }) {
       <nav className="mainnav">
         <a href={href('/')} className={section === 'browse' ? 'on' : ''}>Browse</a>
         <a href={href('/lists')} className={section === 'lists' ? 'on' : ''}>Lists{lists.length ? <span className="pill">{lists.length}</span> : null}</a>
+        <a href={href('/examples')} className={section === 'examples' ? 'on' : ''}>Examples</a>
         <a href={href('/compare')} className={section === 'compare' ? 'on' : ''}>Compare</a>
         <a href={href('/about')} className={section === 'about' ? 'on' : ''}>About</a>
       </nav>

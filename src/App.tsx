@@ -10,6 +10,7 @@ import { CompareTray, CompareView } from './components/CompareView';
 import { ListsPage } from './components/ListsPage';
 import { SharedView } from './components/SharedView';
 import { AboutPage } from './components/AboutPage';
+import { ExamplesPage } from './components/ExamplesPage';
 import { ItemDrawer } from './components/ItemDrawer';
 
 export default function App() {
@@ -38,6 +39,7 @@ function Shell() {
     case 'search': page = <SearchPage q={route.query.get('q') ?? ''} />; break;
     case 'compare': section = 'compare'; page = <CompareView idsParam={route.query.get('ids')} />; break;
     case 'lists': section = 'lists'; page = <ListsPage listId={a} />; break;
+    case 'examples': section = 'examples'; page = <ExamplesPage />; break;
     case 'share': section = 'lists'; page = <SharedView data={route.path.slice(1).join('/')} />; break;
     case 'about': section = 'about'; page = <AboutPage />; break;
     default: page = <BrowsePage />;
