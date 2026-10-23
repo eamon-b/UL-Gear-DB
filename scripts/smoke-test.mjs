@@ -57,7 +57,7 @@ try {
   await page.fill('.filters .search-in', 'durston');
   await page.waitForTimeout(150);
   const afterQ = await page.locator('table.gear tbody tr[data-id]').count();
-  const names = await page.locator('table.gear tbody tr[data-id] .c-name .brand').allTextContents();
+  const names = await page.locator('table.gear tbody tr[data-id] .c-name').allTextContents();
   check('text filter', afterQ > 0 && afterQ < before && names.every((n) => /durston/i.test(n)), `${afterQ} rows`);
   await page.fill('.filters .search-in', '');
   await page.click('.ms-btn:has-text("Type")');
