@@ -139,11 +139,11 @@ function Row({ r, unit, readOnly, patch, remove, move, onAlt }: {
   const setWeight = (v: number | null) => {
     const g = v == null ? 0 : Math.round(fromUnit(v, unit) * 10) / 10;
     if (r.item) patch(li.uid, { weight_g: v == null ? undefined : g });
-    else patch(li.uid, { custom: { ...customBase(), weight_g: g } });
+    else patch(li.uid, { custom: { ...customBase(), weight_g: g }, weight_g: undefined });
   };
   const setPrice = (v: number | null) => {
     if (r.item) patch(li.uid, { price_usd: v });
-    else patch(li.uid, { custom: { ...customBase(), price_usd: v } });
+    else patch(li.uid, { custom: { ...customBase(), price_usd: v }, price_usd: undefined });
   };
   return (
     <tr className={`${li.worn ? 'worn' : ''} ${li.consumable ? 'cons' : ''}`} data-uid={li.uid}>

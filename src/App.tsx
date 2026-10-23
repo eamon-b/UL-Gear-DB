@@ -46,8 +46,8 @@ function Shell() {
   return (
     <>
       <Header section={section} />
-      {/* keyed on the route so navigating away recovers from a page that threw */}
-      <main><ErrorBoundary key={route.raw}>{page}</ErrorBoundary></main>
+      {/* keyed on the path (not the query, which search rewrites per keystroke) so navigating away recovers from a page that threw */}
+      <main><ErrorBoundary key={route.path.join('/')}>{page}</ErrorBoundary></main>
       <ItemDrawer />
       {section !== 'compare' && <CompareTray />}
     </>

@@ -19,8 +19,11 @@ export function saveLS(key: string, value: unknown) {
 /** Only http(s) links are rendered: list data can come from share links and CSVs, so `javascript:` etc. must not reach an href. */
 export function safeUrl(u: unknown): string | null {
   if (typeof u !== 'string' || !u.trim()) return null;
+  let s = u.trim();
+  // LighterPack URLs are free text: keep scheme-less ones like "www.zpacks.com/tent".
+  if (/^[\w-]+(\.[\w-]+)+(:\d+)?([/?#]|$)/.test(s)) s = 'https://' + s;
   try {
-    const p = new URL(u.trim());
+    const p = new URL(s);
     return p.protocol === 'http:' || p.protocol === 'https:' ? p.href : null;
   } catch {
     return null;
