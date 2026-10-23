@@ -5706,5 +5706,81 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Budget pack."
+  },
+  {
+    "id": "sierra-designs-flex-capacitor-40-60l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Sierra Designs",
+    "model": "Flex Capacitor",
+    "variant": "40-60L",
+    "weight_g": 1247,
+    "weight_basis": "manufacturer",
+    "weight_note": "S/M torso (2 lb 12 oz); M/L is 3 lb 2 oz",
+    "price_usd": 199.95,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S/M",
+        "M/L"
+      ]
+    },
+    "url": "https://sierradesigns.com/products/flex-capacitor-40-60",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Expandable 40-60L; Y-Flex suspension. Tagged Outlet on sierradesigns.com."
+  },
+  {
+    "id": "sierra-designs-nexus-lite-35-50l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Sierra Designs",
+    "model": "Nexus Lite",
+    "variant": "35-50L",
+    "weight_g": 1125,
+    "weight_basis": "manufacturer",
+    "weight_note": "pack without 10L garment bag or 5L hood (2.48 lb); 3.1 lb with both",
+    "price_usd": 229.95,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S/M",
+        "M/L"
+      ]
+    },
+    "url": "https://sierradesigns.com/products/nexus-lite-35-50l-zipperless-pack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Zipperless roll-top; Y-Flex suspension."
+  },
+  {
+    "id": "neve-gear-wallaroo-pro-55l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Neve Gear",
+    "model": "Wallaroo Pro",
+    "variant": "55L",
+    "weight_g": 825,
+    "weight_basis": "manufacturer",
+    "weight_note": "Medium; Large 845 g",
+    "price_usd": 285,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "material": "Ultra 200X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://nevegear.com/products/wallaroo-pro-55l",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "7075 aluminium inverted-U frame."
   }
 ]

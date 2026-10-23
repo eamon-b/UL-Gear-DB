@@ -4017,5 +4017,27 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Handmade in USA"
+  },
+  {
+    "id": "neve-gear-barrington-down-hoody-mens",
+    "category": "insulation",
+    "subcategory": "down jacket",
+    "brand": "Neve Gear",
+    "model": "Barrington Down Hoody",
+    "variant": "Men's",
+    "weight_g": 200,
+    "weight_basis": "manufacturer",
+    "weight_note": "Men's Medium; down 90 g",
+    "price_usd": 159,
+    "specs": {
+      "fill": "down",
+      "fill_power": 950,
+      "fill_weight_g": 90,
+      "hood": true
+    },
+    "url": "https://nevegear.com/products/barrington-down-jacket-mens",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "7D ripstop shell. Weight from GGG listing."
   }
 ]

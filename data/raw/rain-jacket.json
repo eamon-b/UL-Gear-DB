@@ -1952,5 +1952,47 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Sold as Ultralight Rain Jacket at GGG ($175). Not seam sealed from the factory; handmade in USA"
+  },
+  {
+    "id": "lightheart-gear-rain-jacket",
+    "category": "rain-jacket",
+    "subcategory": "rain jacket",
+    "brand": "LightHeart Gear",
+    "model": "Rain Jacket",
+    "variant": null,
+    "weight_g": 201,
+    "weight_basis": "manufacturer",
+    "weight_note": "size Medium (7.1 oz); XS 6.6 oz to 3XL 8.1 oz",
+    "price_usd": 150,
+    "specs": {
+      "material": "20D silicone/PU-coated ripstop nylon",
+      "waterproof_rating_mm": 5000,
+      "breathability": "non-breathable",
+      "pit_zips": true,
+      "hood": true
+    },
+    "url": "https://lightheartgear.com/products/rain-jackets-new",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Fully seam-taped, PFAS-free, purposely non-breathable with long pit zips."
+  },
+  {
+    "id": "lightheart-gear-rain-wrap",
+    "category": "rain-jacket",
+    "subcategory": "rain kilt/skirt",
+    "brand": "LightHeart Gear",
+    "model": "Rain Wrap",
+    "variant": null,
+    "weight_g": 71,
+    "weight_basis": "manufacturer",
+    "weight_note": "size Medium (2.5 oz)",
+    "price_usd": 55,
+    "specs": {
+      "material": "silicone/PU-coated ripstop nylon"
+    },
+    "url": "https://lightheartgear.com/products/rain-wrap-1",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Weight from GGG listing of the same product."
   }
 ]
