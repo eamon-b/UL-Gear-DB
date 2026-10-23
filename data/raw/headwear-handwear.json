@@ -2250,5 +2250,43 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Packable bucket-style hat"
+  },
+  {
+    "id": "moosetrack-packs-switchback-convertible-mittens",
+    "category": "headwear-handwear",
+    "subcategory": "insulated glove/mitt",
+    "brand": "MooseTrack Packs",
+    "model": "SwitchBack Convertible Mittens",
+    "variant": null,
+    "weight_g": 37,
+    "weight_basis": "manufacturer",
+    "weight_note": "size S/M; L/XL 45 g",
+    "price_usd": 30,
+    "specs": {
+      "material": "Polartec Power Grid"
+    },
+    "url": "https://www.garagegrowngear.com/products/switchback-convertible-mittens-by-moose-track-packs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Flip-top mitten over open fingers."
+  },
+  {
+    "id": "high-tail-designs-hiking-gaiter",
+    "category": "headwear-handwear",
+    "subcategory": "neck gaiter",
+    "brand": "High Tail Designs",
+    "model": "Hiking Gaiter",
+    "variant": null,
+    "weight_g": 35,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 21,
+    "specs": {
+      "material": "100% polyester"
+    },
+    "url": "https://www.garagegrowngear.com/products/hiking-gaiter-by-high-tail-designs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
   }
 ]

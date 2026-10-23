@@ -11,7 +11,7 @@
     "weight_note": null,
     "price_usd": 84.99,
     "specs": {
-      "volume_l": 5.0,
+      "volume_l": 5,
       "approved": "IGBC #5422; WMI",
       "cubic_in": 305
     },
@@ -93,7 +93,7 @@
     "weight_g": 895,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 120.0,
+    "price_usd": 120,
     "specs": {
       "volume_l": 8.3,
       "approved": "IGBC #255500; WMI",
@@ -156,7 +156,7 @@
     "weight_g": 794,
     "weight_basis": "manufacturer",
     "weight_note": "28 oz",
-    "price_usd": 426.0,
+    "price_usd": 426,
     "specs": {
       "volume_l": 8.2,
       "approved": "IGBC; SIBBG",
@@ -177,7 +177,7 @@
     "weight_g": 879,
     "weight_basis": "manufacturer",
     "weight_note": "'just over 31 oz'",
-    "price_usd": 459.0,
+    "price_usd": 459,
     "specs": {
       "volume_l": 10.7,
       "approved": "IGBC; SIBBG",
@@ -198,7 +198,7 @@
     "weight_g": 936,
     "weight_basis": "manufacturer",
     "weight_note": "'just over 33 oz'",
-    "price_usd": 489.0,
+    "price_usd": 489,
     "specs": {
       "volume_l": 12.3,
       "approved": "IGBC; SIBBG",
@@ -219,7 +219,7 @@
     "weight_g": 1021,
     "weight_basis": "manufacturer",
     "weight_note": "'just over 36 oz'",
-    "price_usd": 524.0,
+    "price_usd": 524,
     "specs": {
       "volume_l": 14.7,
       "approved": "IGBC; SIBBG",
@@ -302,7 +302,7 @@
     "weight_g": 725,
     "weight_basis": "manufacturer",
     "weight_note": "26.55 oz per specs (description says 28.55 oz)",
-    "price_usd": 86.0,
+    "price_usd": 86,
     "specs": {
       "volume_l": 4.5,
       "approved": "IGBC; SIBBG",
@@ -463,7 +463,7 @@
     "weight_g": 199,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 163.0,
+    "price_usd": 163,
     "specs": {
       "volume_l": 14,
       "approved": "IGBC #245493"
@@ -567,7 +567,7 @@
     "weight_g": 32,
     "weight_basis": "manufacturer",
     "weight_note": "bag only (variant weight in store data)",
-    "price_usd": 58.0,
+    "price_usd": 58,
     "specs": {
       "volume_l": 10,
       "approved": null,
@@ -588,7 +588,7 @@
     "weight_g": 39,
     "weight_basis": "manufacturer",
     "weight_note": "bag only (variant weight in store data)",
-    "price_usd": 68.0,
+    "price_usd": 68,
     "specs": {
       "volume_l": 15,
       "approved": null,
@@ -609,7 +609,7 @@
     "weight_g": 95,
     "weight_basis": "estimate",
     "weight_note": "estimated from components",
-    "price_usd": 75.0,
+    "price_usd": 75,
     "specs": {
       "volume_l": 10,
       "approved": null,
@@ -630,7 +630,7 @@
     "weight_g": 102,
     "weight_basis": "estimate",
     "weight_note": "estimated from components",
-    "price_usd": 85.0,
+    "price_usd": 85,
     "specs": {
       "volume_l": 15,
       "approved": null,
@@ -913,5 +913,43 @@
     "discontinued": false,
     "confidence": "low",
     "notes": null
+  },
+  {
+    "id": "ultralitesacks-zippered-bear-bag-regular",
+    "category": "food-storage",
+    "subcategory": "bear bag",
+    "brand": "UltraliteSacks",
+    "model": "Ultralight Zippered Bear Bag",
+    "variant": "Regular",
+    "weight_g": 40,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 39,
+    "specs": {
+      "material": "Ultra TX50"
+    },
+    "url": "https://www.garagegrowngear.com/products/ultralight-zippered-bear-bag-by-ultralitesacks",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "For hanging; not bear-proof or odor-proof. 2-4 days of food."
+  },
+  {
+    "id": "ultralitesacks-zippered-bear-bag-large",
+    "category": "food-storage",
+    "subcategory": "bear bag",
+    "brand": "UltraliteSacks",
+    "model": "Ultralight Zippered Bear Bag",
+    "variant": "Large",
+    "weight_g": 68,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 49,
+    "specs": {
+      "material": "Ultra TX50"
+    },
+    "url": "https://www.garagegrowngear.com/products/ultralight-zippered-bear-bag-by-ultralitesacks",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "For hanging; not bear-proof or odor-proof. 3-6 days of food."
   }
 ]

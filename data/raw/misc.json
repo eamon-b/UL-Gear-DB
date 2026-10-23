@@ -1233,5 +1233,24 @@
     "discontinued": false,
     "confidence": "high",
     "notes": null
+  },
+  {
+    "id": "high-tail-designs-printed-tyvek-ground-cloth",
+    "category": "misc",
+    "subcategory": "ground sheet",
+    "brand": "High Tail Designs",
+    "model": "Printed Tyvek Ground Cloth",
+    "variant": null,
+    "weight_g": 137,
+    "weight_basis": "manufacturer",
+    "weight_note": "36 x 78 in",
+    "price_usd": 62,
+    "specs": {
+      "material": "Tyvek"
+    },
+    "url": "https://www.garagegrowngear.com/products/tyvek-ground-cloth-by-high-tail-designs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Some prints cost more ($72)."
   }
 ]

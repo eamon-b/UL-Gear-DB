@@ -1994,5 +1994,110 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight from GGG listing of the same product."
+  },
+  {
+    "id": "mountain-equipment-odyssey-jacket-mens",
+    "category": "rain-jacket",
+    "subcategory": "rain jacket",
+    "brand": "Mountain Equipment",
+    "model": "Odyssey Jacket",
+    "variant": "Men's",
+    "weight_g": 460,
+    "weight_basis": "manufacturer",
+    "weight_note": "size L",
+    "price_usd": 349.95,
+    "specs": {
+      "material": "3-layer DRILITE+ 50D",
+      "pit_zips": true,
+      "hood": true
+    },
+    "url": "https://us.mountain-equipment.com/products/odyssey-mens-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "mountain-equipment-odyssey-jacket-womens",
+    "category": "rain-jacket",
+    "subcategory": "rain jacket",
+    "brand": "Mountain Equipment",
+    "model": "Odyssey Jacket",
+    "variant": "Women's",
+    "weight_g": 390,
+    "weight_basis": "manufacturer",
+    "weight_note": "size 12 (UK)",
+    "price_usd": 349.95,
+    "specs": {
+      "material": "3-layer DRILITE+ 50D",
+      "pit_zips": true,
+      "hood": true
+    },
+    "url": "https://us.mountain-equipment.com/products/odyssey-womens-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "mountain-equipment-makalu-jacket-mens",
+    "category": "rain-jacket",
+    "subcategory": "rain jacket",
+    "brand": "Mountain Equipment",
+    "model": "Makalu Jacket",
+    "variant": "Men's",
+    "weight_g": 520,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 549.95,
+    "specs": {
+      "material": "3-layer GORE-TEX ePE 70D",
+      "pit_zips": true,
+      "hood": true
+    },
+    "url": "https://us.mountain-equipment.com/products/makalu-mens-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Heavier-duty mountain shell; helmet-compatible hood."
+  },
+  {
+    "id": "mountain-equipment-makalu-jacket-womens",
+    "category": "rain-jacket",
+    "subcategory": "rain jacket",
+    "brand": "Mountain Equipment",
+    "model": "Makalu Jacket",
+    "variant": "Women's",
+    "weight_g": 490,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 549.95,
+    "specs": {
+      "material": "3-layer GORE-TEX ePE 70D",
+      "pit_zips": true,
+      "hood": true
+    },
+    "url": "https://us.mountain-equipment.com/products/makalu-womens-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Heavier-duty mountain shell; helmet-compatible hood."
+  },
+  {
+    "id": "moosetrack-packs-dyneema-hooded-half-poncho",
+    "category": "rain-jacket",
+    "subcategory": "poncho",
+    "brand": "MooseTrack Packs",
+    "model": "Dyneema Hooded Half-Poncho",
+    "variant": null,
+    "weight_g": 82,
+    "weight_basis": "manufacturer",
+    "weight_note": "one size",
+    "price_usd": 200,
+    "specs": {
+      "material": "1.0 oz DCF",
+      "hood": true,
+      "pit_zips": false
+    },
+    "url": "https://www.garagegrowngear.com/products/hooded-half-poncho-by-moose-track-packs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Covers the wearer and a daypack-sized pack; half zip."
   }
 ]

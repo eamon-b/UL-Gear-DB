@@ -2711,5 +2711,308 @@
     "discontinued": false,
     "confidence": "medium",
     "notes": "Figures from a 2024 third-party review; manufacturer site blocked"
+  },
+  {
+    "id": "aarn-packs-water-bottle-holder",
+    "category": "pack-organization",
+    "subcategory": "shoulder pouch",
+    "brand": "Aarn Packs",
+    "model": "Water Bottle Holder",
+    "variant": null,
+    "weight_g": 42,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 29.99,
+    "specs": {
+      "material": "100D Robic"
+    },
+    "url": "https://www.garagegrowngear.com/products/water-bottle-holder-by-aarn-packs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "aarn-packs-shoulder-strap-pocket",
+    "category": "pack-organization",
+    "subcategory": "shoulder pouch",
+    "brand": "Aarn Packs",
+    "model": "Shoulder Strap Pocket",
+    "variant": null,
+    "weight_g": 52,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 29.99,
+    "specs": {
+      "material": "100D Robic"
+    },
+    "url": "https://www.garagegrowngear.com/products/shoulder-strap-pocket-by-aarn-packs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "lite-werks-shoulder-strap-pocket",
+    "category": "pack-organization",
+    "subcategory": "shoulder pouch",
+    "brand": "LITE WERKS",
+    "model": "Shoulder Strap Pocket",
+    "variant": null,
+    "weight_g": 57,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 26,
+    "specs": {
+      "material": "UltraGrid 210D"
+    },
+    "url": "https://www.garagegrowngear.com/products/shoulder-strap-pocket-by-lite-werks",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "lite-werks-hip-belt-pocket",
+    "category": "pack-organization",
+    "subcategory": "pouch/fanny pack",
+    "brand": "LITE WERKS",
+    "model": "Hip Belt Pocket",
+    "variant": null,
+    "weight_g": 71,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 24,
+    "specs": {
+      "material": "UltraGrid 210D"
+    },
+    "url": "https://www.garagegrowngear.com/products/hip-belt-pocket-by-lite-werks",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Works as a hip belt pocket or a fanny pack."
+  },
+  {
+    "id": "lite-werks-water-bottle-carrier",
+    "category": "pack-organization",
+    "subcategory": "shoulder pouch",
+    "brand": "LITE WERKS",
+    "model": "Water Bottle Carrier",
+    "variant": null,
+    "weight_g": 28,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 22,
+    "specs": {
+      "material": "UltraGrid 210D"
+    },
+    "url": "https://www.garagegrowngear.com/products/water-bottle-carrier-by-lite-werks",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Fits a 700 ml Smartwater bottle."
+  },
+  {
+    "id": "symbiosis-gear-huckleberry",
+    "category": "pack-organization",
+    "subcategory": "pouch/fanny pack",
+    "brand": "Symbiosis Gear",
+    "model": "Huckleberry Fanny Pack & Hip Belt Pocket",
+    "variant": null,
+    "weight_g": 91,
+    "weight_basis": "manufacturer",
+    "weight_note": "with waist belt; pouch only 45 g",
+    "price_usd": 46,
+    "specs": {
+      "volume_l": 1.31,
+      "material": "420D Extreema"
+    },
+    "url": "https://www.garagegrowngear.com/products/huckleberry-fanny-pack-by-symbiosis-gear",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "ultralitesacks-compression-sack-medium",
+    "category": "pack-organization",
+    "subcategory": "stuff sack",
+    "brand": "UltraliteSacks",
+    "model": "Ultralight Compression Sack",
+    "variant": "Medium (6.8L)",
+    "weight_g": 60,
+    "weight_basis": "manufacturer",
+    "weight_note": "S 5.5 L 51 g; L 9.5 L 68 g",
+    "price_usd": 32,
+    "specs": {
+      "volume_l": 6.8,
+      "material": "Ultra TX50",
+      "waterproof": false
+    },
+    "url": "https://www.garagegrowngear.com/products/compression-dry-bag-by-ultralitesacks",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Small $26, Large $38."
+  },
+  {
+    "id": "ultralitesacks-ultralight-cube-regular",
+    "category": "pack-organization",
+    "subcategory": "stuff sack",
+    "brand": "UltraliteSacks",
+    "model": "Ultralight Cubes",
+    "variant": "Regular",
+    "weight_g": 11,
+    "weight_basis": "manufacturer",
+    "weight_note": "Large 1.9 L 17 g; X-Large 4.42 L 26 g",
+    "price_usd": 21,
+    "specs": {
+      "volume_l": 1.17,
+      "material": "Ultra TX50",
+      "waterproof": false
+    },
+    "url": "https://www.garagegrowngear.com/products/zippered-cube-kit-by-ultralitesacks",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Zippered ditty cube."
+  },
+  {
+    "id": "high-tail-designs-ultralight-fanny-pack",
+    "category": "pack-organization",
+    "subcategory": "pouch/fanny pack",
+    "brand": "High Tail Designs",
+    "model": "Ultralight Fanny Pack",
+    "variant": null,
+    "weight_g": 51,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 66,
+    "specs": {
+      "volume_l": 1,
+      "material": "2.92 oz Dyneema Hybrid",
+      "waterproof": false
+    },
+    "url": "https://www.garagegrowngear.com/products/ultralight-fanny-pack-by-high-tail-designs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Printed patterns cost more ($76)."
+  },
+  {
+    "id": "high-tail-designs-dyneema-drawstring-stuff-sack",
+    "category": "pack-organization",
+    "subcategory": "stuff sack",
+    "brand": "High Tail Designs",
+    "model": "Printed Dyneema Drawstring Stuff Sack",
+    "variant": null,
+    "weight_g": 7,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 34,
+    "specs": {
+      "volume_l": 1,
+      "material": "1.43 oz DCF",
+      "waterproof": false
+    },
+    "url": "https://www.garagegrowngear.com/products/ultralight-drawstring-stuff-sack-by-high-tail-designs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Listed as 0.24 oz / 6.8 g."
+  },
+  {
+    "id": "high-tail-designs-dyneema-roll-top-sack-3-5l",
+    "category": "pack-organization",
+    "subcategory": "stuff sack",
+    "brand": "High Tail Designs",
+    "model": "Printed Dyneema Roll-Top Sack",
+    "variant": "3.5L",
+    "weight_g": 17,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 55,
+    "specs": {
+      "volume_l": 3.5,
+      "material": "1.43 oz DCF",
+      "waterproof": false
+    },
+    "url": "https://www.garagegrowngear.com/products/dyneema-roll-top-sack-by-high-tail-designs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Taped seams, roll-top; not for submersion."
+  },
+  {
+    "id": "high-tail-designs-dyneema-roll-top-sack-9l",
+    "category": "pack-organization",
+    "subcategory": "stuff sack",
+    "brand": "High Tail Designs",
+    "model": "Printed Dyneema Roll-Top Sack",
+    "variant": "9L",
+    "weight_g": 26,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 67,
+    "specs": {
+      "volume_l": 9,
+      "material": "1.43 oz DCF",
+      "waterproof": false
+    },
+    "url": "https://www.garagegrowngear.com/products/dyneema-roll-top-sack-by-high-tail-designs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Taped seams, roll-top; not for submersion."
+  },
+  {
+    "id": "high-tail-designs-tx50-roll-top-sack-4-5l",
+    "category": "pack-organization",
+    "subcategory": "stuff sack",
+    "brand": "High Tail Designs",
+    "model": "Printed TX50 Roll-Top Stuff-Sack",
+    "variant": "4.5L",
+    "weight_g": 27,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 40,
+    "specs": {
+      "volume_l": 4.5,
+      "material": "Challenge TX50",
+      "waterproof": false
+    },
+    "url": "https://www.garagegrowngear.com/products/tx50-roll-top-sack-by-high-tail-designs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Some prints cost more ($47)."
+  },
+  {
+    "id": "high-tail-designs-tx50-roll-top-sack-6-5l",
+    "category": "pack-organization",
+    "subcategory": "stuff sack",
+    "brand": "High Tail Designs",
+    "model": "Printed TX50 Roll-Top Stuff-Sack",
+    "variant": "6.5L",
+    "weight_g": 31,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 45,
+    "specs": {
+      "volume_l": 6.5,
+      "material": "Challenge TX50",
+      "waterproof": false
+    },
+    "url": "https://www.garagegrowngear.com/products/tx50-roll-top-sack-by-high-tail-designs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Some prints cost more ($53)."
+  },
+  {
+    "id": "high-tail-designs-tent-stake-sack",
+    "category": "pack-organization",
+    "subcategory": "stuff sack",
+    "brand": "High Tail Designs",
+    "model": "Tent Stake Sack",
+    "variant": null,
+    "weight_g": 5,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 25,
+    "specs": {
+      "material": "DCF",
+      "waterproof": false
+    },
+    "url": "https://www.garagegrowngear.com/products/tent-stake-sack-by-high-tail-designs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Holds up to 12 MSR Groundhog stakes."
   }
 ]

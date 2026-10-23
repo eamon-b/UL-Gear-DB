@@ -1031,5 +1031,45 @@
     "discontinued": false,
     "confidence": "high",
     "notes": null
+  },
+  {
+    "id": "mountain-equipment-aerofoil-hooded-jacket-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Mountain Equipment",
+    "model": "Aerofoil Hooded Jacket",
+    "variant": "Men's",
+    "weight_g": 120,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 149.95,
+    "specs": {
+      "material": "EXOLITE 45 double-weave softshell",
+      "hood": true
+    },
+    "url": "https://us.mountain-equipment.com/products/aerofoil-hooded-mens-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Packs into its chest pocket."
+  },
+  {
+    "id": "mountain-equipment-aerofoil-hooded-jacket-womens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Mountain Equipment",
+    "model": "Aerofoil Hooded Jacket",
+    "variant": "Women's",
+    "weight_g": 110,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 149.95,
+    "specs": {
+      "material": "EXOLITE 45 double-weave softshell",
+      "hood": true
+    },
+    "url": "https://us.mountain-equipment.com/products/aerofoil-hooded-womens-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Packs into its chest pocket."
   }
 ]

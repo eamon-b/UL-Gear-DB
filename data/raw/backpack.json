@@ -5782,5 +5782,551 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "7075 aluminium inverted-U frame."
+  },
+  {
+    "id": "hyberg-arcon-lite",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "HYBERG",
+    "model": "Arcon Lite",
+    "variant": null,
+    "weight_g": 750,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M total: pack 505 g + aluminum frame 65 g + hip belt 150 g + chest strap and elastic cord; size L 785 g",
+    "price_usd": 435,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "material": "ALUULA Graflyte",
+      "hipbelt": true,
+      "torso_sizes": [
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.hyberg.de/products/arcon-lite",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "60 L total (49 L body + 11 L pockets). Price converted from EUR 389 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+  },
+  {
+    "id": "hyberg-arcon",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "HYBERG",
+    "model": "Arcon",
+    "variant": null,
+    "weight_g": 905,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M total: pack 650 g + aluminum frame 65 g + hip belt 160 g + chest strap and elastic cord; size L 920 g",
+    "price_usd": 323,
+    "specs": {
+      "volume_l": 60,
+      "frame": "internal",
+      "material": "X-Pac VX21",
+      "hipbelt": true,
+      "torso_sizes": [
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.hyberg.de/products/arcon-ultralight-hiking-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "60 L total (49 L body + 11 L pockets); removable hip belt in three sizes. Price converted from EUR 289 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+  },
+  {
+    "id": "hyberg-aguila-lite-aluula",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "HYBERG",
+    "model": "Aguila Lite",
+    "variant": "ALUULA",
+    "weight_g": 380,
+    "weight_basis": "manufacturer",
+    "weight_note": "total: pack 325 g + hip belt 40 g + chest strap 15 g",
+    "price_usd": 246,
+    "specs": {
+      "volume_l": 37,
+      "frame": "frameless",
+      "material": "ALUULA Graflyte",
+      "hipbelt": true
+    },
+    "url": "https://www.hyberg.de/products/aguila-lite",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "37 L total (29 L body + 8 L pockets). Price converted from EUR 219.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+  },
+  {
+    "id": "hyberg-aguila-lite-dcf",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "HYBERG",
+    "model": "Aguila Lite",
+    "variant": "Dyneema (2025)",
+    "weight_g": 473,
+    "weight_basis": "manufacturer",
+    "weight_note": "total: pack 430 g + hip belt 31 g + chest strap 12 g",
+    "price_usd": 222,
+    "specs": {
+      "volume_l": 37,
+      "frame": "frameless",
+      "material": "DCF Hybrid 5.0 (CT9HK.18)",
+      "hipbelt": true
+    },
+    "url": "https://www.hyberg.de/products/aguila-dcf",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Listed by HYBERG as \"AGUILA LITE (2025)\". 37 L total (29 L body + 8 L pockets). Price converted from EUR 197.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+  },
+  {
+    "id": "hyberg-aguila",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "HYBERG",
+    "model": "Aguila",
+    "variant": null,
+    "weight_g": 480,
+    "weight_basis": "manufacturer",
+    "weight_note": "total: pack 425 g + hip belt 40 g + chest strap 15 g",
+    "price_usd": 201,
+    "specs": {
+      "volume_l": 37,
+      "frame": "frameless",
+      "material": "X-Pac VX07",
+      "hipbelt": true
+    },
+    "url": "https://www.hyberg.de/products/aguila-ultralight-hyberg-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "37 L total (29 L body + 8 L pockets). Price converted from EUR 179.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+  },
+  {
+    "id": "hyberg-bandit-lite",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "HYBERG",
+    "model": "Bandit Lite",
+    "variant": null,
+    "weight_g": 410,
+    "weight_basis": "manufacturer",
+    "weight_note": "ALUULA version total: pack 355 g + hip belt 40 g + chest strap 15 g; Dyneema version 420 g",
+    "price_usd": 252,
+    "specs": {
+      "volume_l": 40,
+      "frame": "frameless",
+      "material": "ALUULA Graflyte or 2.92 oz DCF",
+      "hipbelt": true
+    },
+    "url": "https://www.hyberg.de/products/bandit-ultralight-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "40 L total (29 L body + 11 L pockets). Price is the Dyneema version (EUR 224.95); ALUULA version EUR 269.65. Price converted from EUR 224.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+  },
+  {
+    "id": "hyberg-bandit",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "HYBERG",
+    "model": "Bandit",
+    "variant": null,
+    "weight_g": 480,
+    "weight_basis": "manufacturer",
+    "weight_note": "total: pack 415 g + hip belt 40 g + chest strap 15 g + elastic cord 10 g",
+    "price_usd": 224,
+    "specs": {
+      "volume_l": 40,
+      "frame": "frameless",
+      "material": "X-Pac VX07",
+      "hipbelt": true
+    },
+    "url": "https://www.hyberg.de/products/bandit-x",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "40 L total (29 L body + 11 L pockets). Price converted from EUR 199.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+  },
+  {
+    "id": "hyberg-attila-lite-aluula",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "HYBERG",
+    "model": "Attila Lite",
+    "variant": "ALUULA",
+    "weight_g": 590,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M total: pack 540 g + chest strap 15 g + sit pad 35 g; S 575 g, L 605 g",
+    "price_usd": 343,
+    "specs": {
+      "volume_l": 48,
+      "frame": "frameless",
+      "material": "ALUULA Graflyte",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "max_load_lb": 33
+    },
+    "url": "https://www.hyberg.de/products/attila-lite-ultralight-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "48 L total in size M (38 L body + 10 L pockets); rec. max load 15 kg. Price converted from EUR 306.85 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+  },
+  {
+    "id": "hyberg-attila-lite-dcf",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "HYBERG",
+    "model": "Attila Lite",
+    "variant": "Dyneema",
+    "weight_g": 630,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M total: pack 580 g + chest strap 15 g + sit pad 35 g; S 620 g, L 645 g",
+    "price_usd": 304,
+    "specs": {
+      "volume_l": 48,
+      "frame": "frameless",
+      "material": "DCF",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "max_load_lb": 33
+    },
+    "url": "https://www.hyberg.de/products/attila-lite-ultralight-backpack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "48 L total in size M (38 L body + 10 L pockets); rec. max load 15 kg. Price converted from EUR 271.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+  },
+  {
+    "id": "hyberg-attila",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "HYBERG",
+    "model": "Attila",
+    "variant": null,
+    "weight_g": 710,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M total: pack 658 g + chest strap 12 g + sit pad 40 g; S 682 g, L 740 g",
+    "price_usd": 280,
+    "specs": {
+      "volume_l": 48,
+      "frame": "frameless",
+      "material": "X-Pac VX07",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "max_load_lb": 33
+    },
+    "url": "https://www.hyberg.de/products/attila-x",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "48 L total in size M (38 L body + 10 L pockets); rec. max load 15 kg. Price converted from EUR 249.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+  },
+  {
+    "id": "hyberg-egoist-lite",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "HYBERG",
+    "model": "Egoist Lite",
+    "variant": null,
+    "weight_g": 455,
+    "weight_basis": "manufacturer",
+    "weight_note": "ALUULA version size M total: pack 405 g + chest strap 15 g + sit pad 35 g; Dyneema version M 470 g; L adds ~10 g",
+    "price_usd": 252,
+    "specs": {
+      "volume_l": 40,
+      "frame": "frameless",
+      "material": "ALUULA or DCF",
+      "torso_sizes": [
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.hyberg.de/products/egoist-lite",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "40 L total (29 L body + 11 L pockets). Price is Dyneema size M (EUR 224.95); ALUULA EUR 269.65. Price converted from EUR 224.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+  },
+  {
+    "id": "hyberg-egoist",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "HYBERG",
+    "model": "Egoist",
+    "variant": null,
+    "weight_g": 545,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M total: pack 485 g + chest strap 15 g + sit pad 35 g + elastic cord 10 g; L 560 g",
+    "price_usd": 246,
+    "specs": {
+      "volume_l": 40,
+      "frame": "frameless",
+      "torso_sizes": [
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.hyberg.de/products/egoist",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "40 L total (29 L body + 11 L pockets). Price converted from EUR 219.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+  },
+  {
+    "id": "aarn-packs-pace-magic-40",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Aarn Packs",
+    "model": "Pace Magic 40",
+    "variant": null,
+    "weight_g": 850,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 249,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "max_load_lb": 30,
+      "material": "100D Robic nylon",
+      "hipbelt": true
+    },
+    "url": "https://www.garagegrowngear.com/products/pace-magic-40-by-aarn-packs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Form-fitting frame; hip belt balance pockets (1.5 L x2). Rec. max load 13.5 kg."
+  },
+  {
+    "id": "aarn-packs-mountain-magic-50-pro",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Aarn Packs",
+    "model": "Mountain Magic 50 Pro",
+    "variant": null,
+    "weight_g": 1000,
+    "weight_basis": "manufacturer",
+    "weight_note": "short back; medium back 1005 g; removable Multi Balance front pockets add 256 g",
+    "price_usd": 399,
+    "specs": {
+      "volume_l": 50,
+      "frame": "internal",
+      "max_load_lb": 33,
+      "material": "70D Robic Gridstop with UHMWPE",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "medium"
+      ]
+    },
+    "url": "https://www.garagegrowngear.com/products/mountain-magic-50-pro-by-aarn-packs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "50 L total including 7 L of front balance pockets."
+  },
+  {
+    "id": "lite-werks-daily-dose-55l",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "LITE WERKS",
+    "model": "The Daily Dose 55L",
+    "variant": null,
+    "weight_g": 1247,
+    "weight_basis": "manufacturer",
+    "weight_note": "size medium",
+    "price_usd": 398,
+    "specs": {
+      "volume_l": 55,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "Ultra 200X / Ultra 400X",
+      "hipbelt": true,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.garagegrowngear.com/products/the-daily-dose-55l-by-lite-werks-1",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Aluminum rod frame, adjustable torso, removable hip belt. Medium: 44 L internal + 11 L extension + 10 L external."
+  },
+  {
+    "id": "moosetrack-packs-mtp-35l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "MooseTrack Packs",
+    "model": "MTP 35L Backpacking Rucksack",
+    "variant": null,
+    "weight_g": 567,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 300,
+    "specs": {
+      "volume_l": 40,
+      "frame": "frameless",
+      "material": "ECOPAK EPX200 / UltraGrid",
+      "hipbelt": true
+    },
+    "url": "https://www.garagegrowngear.com/products/mtp-35l-backpacking-rucksack-by-moose-track-packs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "35 L internal + 5 L pockets."
+  },
+  {
+    "id": "symbiosis-gear-aspen",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Symbiosis Gear",
+    "model": "The Aspen",
+    "variant": "Women's",
+    "weight_g": 709,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 299,
+    "specs": {
+      "volume_l": 38,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "420D Extreema",
+      "hipbelt": true
+    },
+    "url": "https://www.garagegrowngear.com/products/the-aspen-by-symbiosis-gear",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Women-specific S-curve straps; 1.5\" webbing hip belt."
+  },
+  {
+    "id": "virginia-foothill-designs-ultralight-25l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Virginia Foothill Designs",
+    "model": "Ultralight 25L Pack",
+    "variant": null,
+    "weight_g": 346,
+    "weight_basis": "manufacturer",
+    "weight_note": "no hip belt",
+    "price_usd": 220,
+    "specs": {
+      "volume_l": 25,
+      "frame": "frameless",
+      "material": "X-Pac VX07",
+      "hipbelt": false,
+      "torso_sizes": [
+        "17 in"
+      ]
+    },
+    "url": "https://www.garagegrowngear.com/products/ultralight-25l-pack-by-virginia-foothill-designs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "virginia-foothill-designs-ultralight-40l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Virginia Foothill Designs",
+    "model": "Ultralight 40L Pack",
+    "variant": null,
+    "weight_g": 425,
+    "weight_basis": "manufacturer",
+    "weight_note": "size medium; S 390 g, L 431 g; no hip belt",
+    "price_usd": 250,
+    "specs": {
+      "volume_l": 40,
+      "frame": "frameless",
+      "material": "X-Pac VX07",
+      "hipbelt": false,
+      "torso_sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "url": "https://www.garagegrowngear.com/products/40l-with-standard-rigid-pockets-by-virginia-foothill-designs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "yar-gear-apex-28l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "YAR.gear",
+    "model": "Apex 28L",
+    "variant": null,
+    "weight_g": 295,
+    "weight_basis": "manufacturer",
+    "weight_note": "minimum weight",
+    "price_usd": 180,
+    "specs": {
+      "volume_l": 28,
+      "frame": "frameless",
+      "max_load_lb": 25,
+      "material": "Ultra 200",
+      "hipbelt": false,
+      "torso_sizes": [
+        "17 in",
+        "19 in"
+      ]
+    },
+    "url": "https://www.garagegrowngear.com/products/apex-28l-pack-by-yar-gear",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "yar-gear-cadence-25l",
+    "category": "backpack",
+    "subcategory": "daypack/fastpack",
+    "brand": "YAR.gear",
+    "model": "Cadence 25L",
+    "variant": null,
+    "weight_g": 397,
+    "weight_basis": "manufacturer",
+    "weight_note": "17\" torso; 19\" torso 403 g",
+    "price_usd": 230,
+    "specs": {
+      "volume_l": 25,
+      "frame": "frameless",
+      "max_load_lb": 20,
+      "material": "Ultra 200 / UltraGrid",
+      "hipbelt": false,
+      "torso_sizes": [
+        "17 in",
+        "19 in"
+      ]
+    },
+    "url": "https://www.garagegrowngear.com/products/prototype-25l-pack-by-yar-gear",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Vest-style roll-top fastpack."
+  },
+  {
+    "id": "ultralitesacks-recyclops-35l",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "UltraliteSacks",
+    "model": "Recyclops 35L",
+    "variant": null,
+    "weight_g": 440,
+    "weight_basis": "manufacturer",
+    "weight_note": "total; stripped 360 g",
+    "price_usd": 195,
+    "specs": {
+      "volume_l": 35,
+      "frame": "frameless",
+      "material": "UltraGrid",
+      "hipbelt": true
+    },
+    "url": "https://www.garagegrowngear.com/products/recyclops-ultralight-35l-backpack-by-ultralightsacks",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Removable 1\" hip belt."
   }
 ]

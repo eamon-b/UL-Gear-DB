@@ -4039,5 +4039,136 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "7D ripstop shell. Weight from GGG listing."
+  },
+  {
+    "id": "mountain-equipment-earthrise-hooded-jacket-mens",
+    "category": "insulation",
+    "subcategory": "down jacket",
+    "brand": "Mountain Equipment",
+    "model": "Earthrise Hooded Jacket",
+    "variant": "Men's",
+    "weight_g": 390,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 249.95,
+    "specs": {
+      "fill": "down",
+      "fill_power": 700,
+      "fill_weight_g": 155,
+      "hood": true
+    },
+    "url": "https://us.mountain-equipment.com/products/earthrise-hooded-mens-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Fill weight is size L. Recycled 20D shell and recycled duck down."
+  },
+  {
+    "id": "mountain-equipment-earthrise-hooded-jacket-womens",
+    "category": "insulation",
+    "subcategory": "down jacket",
+    "brand": "Mountain Equipment",
+    "model": "Earthrise Hooded Jacket",
+    "variant": "Women's",
+    "weight_g": 390,
+    "weight_basis": "manufacturer",
+    "weight_note": "as listed on the US site; same figure as the men's",
+    "price_usd": 249.95,
+    "specs": {
+      "fill": "down",
+      "fill_power": 700,
+      "fill_weight_g": 132,
+      "hood": true
+    },
+    "url": "https://us.mountain-equipment.com/products/earthrise-hooded-womens-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Fill weight is size 12 (UK)."
+  },
+  {
+    "id": "mountain-equipment-earthrise-vest-mens",
+    "category": "insulation",
+    "subcategory": "vest",
+    "brand": "Mountain Equipment",
+    "model": "Earthrise Vest",
+    "variant": "Men's",
+    "weight_g": 270,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 169.95,
+    "specs": {
+      "fill": "down",
+      "fill_power": 700,
+      "fill_weight_g": 81,
+      "hood": false
+    },
+    "url": "https://us.mountain-equipment.com/products/earthrise-mens-vest",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Fill weight is size L."
+  },
+  {
+    "id": "mountain-equipment-earthrise-vest-womens",
+    "category": "insulation",
+    "subcategory": "vest",
+    "brand": "Mountain Equipment",
+    "model": "Earthrise Vest",
+    "variant": "Women's",
+    "weight_g": 200,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 169.95,
+    "specs": {
+      "fill": "down",
+      "fill_power": 700,
+      "fill_weight_g": 69,
+      "hood": false
+    },
+    "url": "https://us.mountain-equipment.com/products/earthrise-womens-vest",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Fill weight is size 12 (UK)."
+  },
+  {
+    "id": "mountain-equipment-frostline-short-mens",
+    "category": "insulation",
+    "subcategory": "insulated pants",
+    "brand": "Mountain Equipment",
+    "model": "Frostline Short",
+    "variant": "Men's",
+    "weight_g": 230,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 139.95,
+    "specs": {
+      "fill": "down",
+      "fill_power": 700,
+      "fill_weight_g": 54,
+      "hood": false
+    },
+    "url": "https://us.mountain-equipment.com/products/frostline-mens-short",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Down over-shorts with full-length side zips; DRILITE LOFT 20D shell. Fill weight is size L. No Frostline jacket is currently listed."
+  },
+  {
+    "id": "mountain-equipment-particle-hooded-jacket-mens",
+    "category": "insulation",
+    "subcategory": "synthetic jacket",
+    "brand": "Mountain Equipment",
+    "model": "Particle Hooded Jacket",
+    "variant": "Men's",
+    "weight_g": 430,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 187,
+    "specs": {
+      "fill": "synthetic",
+      "fill_weight_g": 130,
+      "hood": true
+    },
+    "url": "https://www.mountain-equipment.com/products/particle-hooded-mens-jacket",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "POLARLOFT Featherless synthetic fill (130 g, size L), not down. Not on the US store; price converted from GBP 140 at 1 GBP = 1.3368 USD."
   }
 ]

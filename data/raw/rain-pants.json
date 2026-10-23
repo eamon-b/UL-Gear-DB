@@ -1213,5 +1213,62 @@
     "discontinued": false,
     "confidence": "high",
     "notes": null
+  },
+  {
+    "id": "mountain-equipment-odyssey-pant-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Mountain Equipment",
+    "model": "Odyssey Pant",
+    "variant": "Men's",
+    "weight_g": 350,
+    "weight_basis": "manufacturer",
+    "weight_note": "size L",
+    "price_usd": 199.95,
+    "specs": {
+      "material": "3-layer DRILITE+ 50D"
+    },
+    "url": "https://us.mountain-equipment.com/products/odyssey-mens-pant",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "3/4-length side zips."
+  },
+  {
+    "id": "mountain-equipment-odyssey-pant-womens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Mountain Equipment",
+    "model": "Odyssey Pant",
+    "variant": "Women's",
+    "weight_g": 330,
+    "weight_basis": "manufacturer",
+    "weight_note": "size 12 (UK)",
+    "price_usd": 199.95,
+    "specs": {
+      "material": "3-layer DRILITE+ 50D"
+    },
+    "url": "https://us.mountain-equipment.com/products/odyssey-womens-pant",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "3/4-length side zips."
+  },
+  {
+    "id": "mountain-equipment-makalu-pant-mens",
+    "category": "rain-pants",
+    "subcategory": "rain pants",
+    "brand": "Mountain Equipment",
+    "model": "Makalu Pant",
+    "variant": "Men's",
+    "weight_g": 420,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 349.95,
+    "specs": {
+      "material": "3-layer GORE-TEX 70D"
+    },
+    "url": "https://us.mountain-equipment.com/products/makalu-mens-pant",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "3/4-length side zips."
   }
 ]
