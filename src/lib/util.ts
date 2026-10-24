@@ -24,7 +24,8 @@ export function safeUrl(u: unknown): string | null {
   if (/^[\w-]+(\.[\w-]+)+(:\d+)?([/?#]|$)/.test(s)) s = 'https://' + s;
   try {
     const p = new URL(s);
-    return p.protocol === 'http:' || p.protocol === 'https:' ? p.href : null;
+    // Validate the parsed URL but keep the text as written, so CSV export round-trips it.
+    return p.protocol === 'http:' || p.protocol === 'https:' ? s : null;
   } catch {
     return null;
   }
