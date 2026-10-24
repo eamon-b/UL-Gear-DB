@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "data": "node scripts/build-data.mjs",
+    "data:strict": "node scripts/build-data.mjs --strict",
     "predev": "node scripts/build-data.mjs",
     "dev": "vite",
     "prebuild": "node scripts/build-data.mjs",

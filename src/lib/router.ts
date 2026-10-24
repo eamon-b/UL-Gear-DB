@@ -6,10 +6,15 @@ export interface Route {
   raw: string;
 }
 
+// A malformed escape (e.g. a share link cut off mid-`%2F`) must not throw and blank the app.
+const decodeSeg = (s: string) => {
+  try { return decodeURIComponent(s); } catch { return s; }
+};
+
 export function parseHash(h = window.location.hash): Route {
   const raw = h.replace(/^#/, '');
   const [p, q = ''] = raw.split('?');
-  return { path: p.split('/').filter(Boolean).map(decodeURIComponent), query: new URLSearchParams(q), raw };
+  return { path: p.split('/').filter(Boolean).map(decodeSeg), query: new URLSearchParams(q), raw };
 }
 
 export function useRoute(): Route {
