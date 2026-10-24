@@ -12,6 +12,7 @@ import { SharedView } from './components/SharedView';
 import { AboutPage } from './components/AboutPage';
 import { ExamplesPage } from './components/ExamplesPage';
 import { ItemDrawer } from './components/ItemDrawer';
+import { ErrorBoundary } from './components/ErrorBoundary';
 
 export default function App() {
   const [db, setDb] = useState<DB | null>(null);
@@ -47,7 +48,8 @@ function Shell() {
   return (
     <>
       <Header section={section} />
-      <main>{page}</main>
+      {/* keyed on the path (not the query, which search rewrites per keystroke) so navigating away recovers from a page that threw */}
+      <main><ErrorBoundary key={route.path.join('/')}>{page}</ErrorBoundary></main>
       <ItemDrawer />
       {section !== 'compare' && <CompareTray />}
     </>
