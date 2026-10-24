@@ -16,9 +16,9 @@
       "collapsed_length_in": 13,
       "locking": "Z-pole push-button"
     },
-    "url": "https://www.blackdiamondequipment.com/",
+    "url": "https://www.blackdiamondequipment.com/products/distance-carbon-z-poles",
     "discontinued": true,
-    "confidence": "low",
+    "confidence": "high",
     "notes": "100 cm length no longer offered; current Distance Carbon Z comes in 105-130 cm (105 cm = 256 g/pair)."
   },
   {
@@ -35,7 +35,7 @@
     "specs": {
       "material": "carbon",
       "adjustable": false,
-      "collapsed_length_in": 14,
+      "collapsed_length_in": 14.6,
       "locking": "Z-pole push-button"
     },
     "url": "https://www.blackdiamondequipment.com/products/distance-carbon-z-poles",
@@ -57,7 +57,7 @@
     "specs": {
       "material": "carbon",
       "adjustable": false,
-      "collapsed_length_in": 15,
+      "collapsed_length_in": 15.7,
       "locking": "Z-pole push-button"
     },
     "url": "https://www.blackdiamondequipment.com/products/distance-carbon-z-poles",
@@ -79,7 +79,7 @@
     "specs": {
       "material": "carbon",
       "adjustable": false,
-      "collapsed_length_in": 16,
+      "collapsed_length_in": 17.3,
       "locking": "Z-pole push-button"
     },
     "url": "https://www.blackdiamondequipment.com/products/distance-carbon-z-poles",
@@ -94,17 +94,17 @@
     "brand": "Black Diamond",
     "model": "Distance Carbon FLZ",
     "variant": "95-110 cm",
-    "weight_g": 312,
+    "weight_g": 308,
     "weight_basis": "manufacturer",
     "weight_note": "per pair",
-    "price_usd": 219.95,
+    "price_usd": 239.95,
     "specs": {
       "material": "carbon",
       "adjustable": true,
-      "collapsed_length_in": 14,
+      "collapsed_length_in": 13.4,
       "locking": "FlickLock + Z-pole"
     },
-    "url": "https://www.blackdiamondequipment.com/",
+    "url": "https://www.blackdiamondequipment.com/products/distance-carbon-flz-poles",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -116,17 +116,17 @@
     "brand": "Black Diamond",
     "model": "Distance Carbon FLZ",
     "variant": "110-125 cm",
-    "weight_g": 340,
+    "weight_g": 336,
     "weight_basis": "manufacturer",
     "weight_note": "per pair",
-    "price_usd": 219.95,
+    "price_usd": 239.95,
     "specs": {
       "material": "carbon",
       "adjustable": true,
-      "collapsed_length_in": 15,
+      "collapsed_length_in": 14.6,
       "locking": "FlickLock + Z-pole"
     },
-    "url": "https://www.blackdiamondequipment.com/",
+    "url": "https://www.blackdiamondequipment.com/products/distance-carbon-flz-poles",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -138,17 +138,17 @@
     "brand": "Black Diamond",
     "model": "Distance Carbon FLZ",
     "variant": "125-140 cm",
-    "weight_g": 368,
+    "weight_g": 364,
     "weight_basis": "manufacturer",
     "weight_note": "per pair",
-    "price_usd": 219.95,
+    "price_usd": 239.95,
     "specs": {
       "material": "carbon",
       "adjustable": true,
-      "collapsed_length_in": 16,
+      "collapsed_length_in": 15.7,
       "locking": "FlickLock + Z-pole"
     },
-    "url": "https://www.blackdiamondequipment.com/",
+    "url": "https://www.blackdiamondequipment.com/products/distance-carbon-flz-poles",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -189,7 +189,7 @@
     "specs": {
       "material": "aluminum",
       "adjustable": false,
-      "collapsed_length_in": 15,
+      "collapsed_length_in": 15.7,
       "locking": "Z-pole push-button"
     },
     "url": "https://www.blackdiamondequipment.com/products/distance-z-trekking-running-poles",
@@ -214,7 +214,7 @@
       "collapsed_length_in": 24,
       "locking": "FlickLock Pro"
     },
-    "url": "https://www.blackdiamondequipment.com/",
+    "url": "https://www.blackdiamondequipment.com/products/alpine-carbon-cork-trekking-poles",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -248,20 +248,20 @@
     "brand": "Black Diamond",
     "model": "Trail",
     "variant": null,
-    "weight_g": 486,
+    "weight_g": 480,
     "weight_basis": "manufacturer",
     "weight_note": "per pair",
     "price_usd": 119.95,
     "specs": {
       "material": "aluminum",
       "adjustable": true,
-      "collapsed_length_in": 27,
+      "collapsed_length_in": 25.4,
       "locking": "FlickLock"
     },
-    "url": "https://www.blackdiamondequipment.com/",
+    "url": "https://www.blackdiamondequipment.com/products/trail-trekking-poles",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Price recalled."
+    "notes": null
   },
   {
     "id": "black-diamond-trail-back",
@@ -277,7 +277,7 @@
     "specs": {
       "material": "aluminum",
       "adjustable": true,
-      "collapsed_length_in": 27,
+      "collapsed_length_in": 24.2,
       "locking": "FlickLock"
     },
     "url": "https://www.blackdiamondequipment.com/products/trail-back-trekking-poles",
@@ -321,7 +321,7 @@
     "specs": {
       "material": "aluminum",
       "adjustable": true,
-      "collapsed_length_in": 27,
+      "collapsed_length_in": 25.5,
       "locking": "FlickLock"
     },
     "url": "https://www.blackdiamondequipment.com/products/trail-cork-trekking-poles",
@@ -336,20 +336,20 @@
     "brand": "Black Diamond",
     "model": "Pursuit",
     "variant": "S/M",
-    "weight_g": 465,
+    "weight_g": 495,
     "weight_basis": "manufacturer",
-    "weight_note": "per pair",
-    "price_usd": 159.95,
+    "weight_note": "per pair (S/M, 100-125 cm)",
+    "price_usd": 169.95,
     "specs": {
       "material": "aluminum",
       "adjustable": true,
       "collapsed_length_in": 26,
       "locking": "FlickLock"
     },
-    "url": "https://www.blackdiamondequipment.com/",
+    "url": "https://www.blackdiamondequipment.com/products/pursuit-trekking-poles",
     "discontinued": false,
     "confidence": "high",
-    "notes": "REI: 1 lb 0.4 oz."
+    "notes": "BD spec: 495 g/pair (S/M)."
   },
   {
     "id": "black-diamond-pursuit-m-l",
@@ -358,20 +358,20 @@
     "brand": "Black Diamond",
     "model": "Pursuit",
     "variant": "M/L",
-    "weight_g": 499,
+    "weight_g": 535,
     "weight_basis": "manufacturer",
-    "weight_note": "per pair",
-    "price_usd": 159.95,
+    "weight_note": "per pair (M/L, 125-140 cm)",
+    "price_usd": 169.95,
     "specs": {
       "material": "aluminum",
       "adjustable": true,
       "collapsed_length_in": 27,
       "locking": "FlickLock"
     },
-    "url": "https://www.blackdiamondequipment.com/",
+    "url": "https://www.blackdiamondequipment.com/products/pursuit-trekking-poles",
     "discontinued": false,
     "confidence": "high",
-    "notes": "REI: 1 lb 1.6 oz; OutdoorGearLab measured 540 g."
+    "notes": "BD spec: 535 g/pair (M/L); OutdoorGearLab measured 540 g."
   },
   {
     "id": "black-diamond-pursuit-flz-m-l",
@@ -390,10 +390,10 @@
       "collapsed_length_in": 16,
       "locking": "FlickLock + Z-pole"
     },
-    "url": "https://www.blackdiamondequipment.com/",
-    "discontinued": false,
+    "url": "https://www.blackdiamondequipment.com/products/pursuit-carbon-flz-trekking-poles",
+    "discontinued": true,
     "confidence": "high",
-    "notes": null
+    "notes": "Aluminum Pursuit FLZ absent from BD's US store catalog (Oct 2026); only the Pursuit Carbon FLZ is listed."
   },
   {
     "id": "black-diamond-pursuit-shock",
@@ -424,19 +424,19 @@
     "brand": "Leki",
     "model": "Makalu FX Carbon",
     "variant": null,
-    "weight_g": 486,
+    "weight_g": 504,
     "weight_basis": "manufacturer",
-    "weight_note": "per pair",
-    "price_usd": 249.95,
+    "weight_note": "per pair, standard 110-130 cm (252 g/pole); compact 100-120 cm is 241 g/pole",
+    "price_usd": 229.95,
     "specs": {
       "material": "carbon",
       "adjustable": true,
-      "collapsed_length_in": 15.7,
-      "locking": "SpeedLock 2 + push-button"
+      "collapsed_length_in": 16.1,
+      "locking": "Speed Lock 2 Plus + ELD folding"
     },
-    "url": "https://www.leki.com/",
+    "url": "https://lekiusa.com/products/makalu-fx-carbon",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Hybrid folding/telescoping; Leki lists 252 g (per pole)."
   },
   {
@@ -456,10 +456,10 @@
       "collapsed_length_in": 15,
       "locking": "SpeedLock 2 + push-button"
     },
-    "url": "https://www.leki.com/",
-    "discontinued": false,
+    "url": "https://lekiusa.com/products/makalu-fx-carbon",
+    "discontinued": true,
     "confidence": "high",
-    "notes": "229 g per pole; price recalled."
+    "notes": "Micro Vario Carbon no longer on lekiusa.com (product page 404, absent from store search, Oct 2026); Makalu FX Carbon is the current folding-adjustable carbon pole."
   },
   {
     "id": "leki-black-series-fx-carbon",
@@ -468,20 +468,20 @@
     "brand": "Leki",
     "model": "Black Series FX Carbon",
     "variant": null,
-    "weight_g": 420,
+    "weight_g": 456,
     "weight_basis": "manufacturer",
-    "weight_note": "per pair",
+    "weight_note": "per pair (228 g/pole)",
     "price_usd": 249.95,
     "specs": {
       "material": "carbon",
       "adjustable": true,
-      "collapsed_length_in": 15,
-      "locking": "SpeedLock 2 + push-button"
+      "collapsed_length_in": 15.7,
+      "locking": "Speed Lock 2 Plus + CLD folding"
     },
-    "url": "https://www.leki.com/",
+    "url": "https://lekiusa.com/products/black-series-fx-carbon_leki-usa_trekking-poles_all-season",
     "discontinued": false,
-    "confidence": "low",
-    "notes": null
+    "confidence": "high",
+    "notes": "Leki US list $249.95 (on sale $199.95 Oct 2026); succeeded by Makalu Pro FX Carbon."
   },
   {
     "id": "leki-cressida-fx-carbon",
@@ -501,10 +501,10 @@
       "locking": "SpeedLock 2 + push-button",
       "gender": "women's"
     },
-    "url": "https://www.leki.com/",
-    "discontinued": false,
-    "confidence": "low",
-    "notes": null
+    "url": "https://lekiusa.com/products/makalu-fx-carbon",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "Leki: the compact Makalu FX Carbon (100-120 cm, 241 g/pole, $229.95) 'was previously known as Cressida FX Carbon'. Cressida FX Carbon AS still sold ($239.95 list, 258 g/pole)."
   },
   {
     "id": "leki-ultratrail-fx-one-superlite-120-cm",
@@ -513,10 +513,10 @@
     "brand": "Leki",
     "model": "Ultratrail FX.One Superlite",
     "variant": "120 cm",
-    "weight_g": 272,
+    "weight_g": 278,
     "weight_basis": "manufacturer",
-    "weight_note": "per pair (Leki lists 4.8 oz per pole)",
-    "price_usd": 199.95,
+    "weight_note": "per pair, 120 cm (139 g/pole)",
+    "price_usd": 249.95,
     "specs": {
       "material": "carbon",
       "adjustable": false,
@@ -545,10 +545,10 @@
       "collapsed_length_in": 26,
       "locking": "SpeedLock 2"
     },
-    "url": "https://www.leki.com/",
-    "discontinued": false,
+    "url": "https://lekiusa.com/products/makalu-lite-as",
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "Non-antishock Makalu Lite no longer on lekiusa.com (404, Oct 2026); Makalu Lite AS ($169.95, 253 g/pole) and Makalu Cork Lite ($159.95) are current."
   },
   {
     "id": "leki-khumbu-lite",
@@ -557,19 +557,19 @@
     "brand": "Leki",
     "model": "Khumbu Lite",
     "variant": null,
-    "weight_g": 520,
+    "weight_g": 498,
     "weight_basis": "manufacturer",
-    "weight_note": "per pair",
-    "price_usd": 119.95,
+    "weight_note": "per pair, 100-135 cm (249 g/pole); 90-125 cm compact 240 g/pole",
+    "price_usd": 129.95,
     "specs": {
       "material": "aluminum",
       "adjustable": true,
-      "collapsed_length_in": 26,
-      "locking": "SpeedLock 2"
+      "collapsed_length_in": 26.4,
+      "locking": "Speed Lock Plus"
     },
-    "url": "https://www.leki.com/",
+    "url": "https://lekiusa.com/products/khumbu-lite",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -582,7 +582,7 @@
     "weight_g": 502,
     "weight_basis": "manufacturer",
     "weight_note": "per pair (Leki lists 251 g per pole, 100-135 cm; 240 g for 90-125 cm)",
-    "price_usd": 99.95,
+    "price_usd": 109.95,
     "specs": {
       "material": "aluminum",
       "adjustable": true,
@@ -599,22 +599,22 @@
     "category": "trekking-poles",
     "subcategory": "adjustable",
     "brand": "Leki",
-    "model": "Sherpa FX Carbon Strong",
+    "model": "Sherpa FX Carbon",
     "variant": null,
-    "weight_g": 520,
+    "weight_g": 544,
     "weight_basis": "manufacturer",
-    "weight_note": "per pair",
-    "price_usd": 239.95,
+    "weight_note": "per pair (272 g/pole), 110-130 cm",
+    "price_usd": 279.95,
     "specs": {
-      "material": "carbon",
+      "material": "carbon upper, aluminum lower",
       "adjustable": true,
-      "collapsed_length_in": 16,
-      "locking": "SpeedLock 2 + push-button"
+      "collapsed_length_in": 16.1,
+      "locking": "Speed Lock 2 Plus + ELD folding"
     },
-    "url": "https://www.leki.com/",
+    "url": "https://lekiusa.com/products/sherpa-fx-carbon_leki-usa_mountaineering-four-season_poles_all-season",
     "discontinued": false,
-    "confidence": "low",
-    "notes": null
+    "confidence": "high",
+    "notes": "Current US name is Sherpa FX Carbon (formerly Sherpa FX Carbon Strong)."
   },
   {
     "id": "gossamer-gear-lt5-three-piece-carbon",
@@ -645,20 +645,20 @@
     "brand": "Gossamer Gear",
     "model": "FT3 Folding Trekking Poles",
     "variant": null,
-    "weight_g": 369,
+    "weight_g": 356,
     "weight_basis": "manufacturer",
-    "weight_note": "per pair, store listing weight (may include packaging)",
+    "weight_note": "per pair (178 g/pole without rubber boot); 369 g was the store shipping weight",
     "price_usd": 245,
     "specs": {
       "material": "carbon",
       "adjustable": true,
-      "collapsed_length_in": null,
+      "collapsed_length_in": 15,
       "locking": "folding + lever"
     },
-    "url": "https://www.gossamergear.com/",
+    "url": "https://www.gossamergear.com/products/ft3-folding-trekking-poles",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Adjusts 115-130 cm; folds to 38 cm."
   },
   {
     "id": "zpacks-minimalist-trekking-pole",
@@ -824,17 +824,17 @@
     "weight_g": 544,
     "weight_basis": "manufacturer",
     "weight_note": "per pair",
-    "price_usd": 49.99,
+    "price_usd": 74.95,
     "specs": {
       "material": "aluminum",
       "adjustable": true,
       "collapsed_length_in": 24,
       "locking": "lever lock"
     },
-    "url": "https://montemlife.com/product/ultra-strong-trekking-poles/",
+    "url": "https://montemlife.com/products/ultra-strong-trekking-poles-pair",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Price recalled."
+    "notes": "Montem spec: 19.2 oz/pair, 24-53 in."
   },
   {
     "id": "montem-ultra-strong-cork-grip",
@@ -846,17 +846,17 @@
     "weight_g": 544,
     "weight_basis": "manufacturer",
     "weight_note": "per pair",
-    "price_usd": 59.99,
+    "price_usd": 74.95,
     "specs": {
       "material": "aluminum",
       "adjustable": true,
       "collapsed_length_in": 24,
       "locking": "lever lock"
     },
-    "url": "https://montemlife.com/product/ultra-strong-cork-trekking-poles-pair",
+    "url": "https://montemlife.com/products/ultra-strong-cork-anti-shock-trekking-poles-pair",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Reviewers measured 500-539 g; price recalled."
+    "notes": "Current cork version is sold as Ultra Strong Cork Anti-Shock ($74.95). Reviewers measured 500-539 g."
   },
   {
     "id": "montem-ultra-light-3k-carbon-fiber",
@@ -887,20 +887,20 @@
     "brand": "Cascade Mountain Tech",
     "model": "Carbon Fiber Quick Lock",
     "variant": null,
-    "weight_g": 454,
-    "weight_basis": "measured",
-    "weight_note": "per pair, OutdoorGearLab measured 16.0 oz",
-    "price_usd": 49.99,
+    "weight_g": 459,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair (8.1 oz/pole without rubber tips)",
+    "price_usd": 64.99,
     "specs": {
       "material": "carbon",
       "adjustable": true,
       "collapsed_length_in": 26,
-      "locking": "lever lock"
+      "locking": "Quick Lock lever"
     },
-    "url": "https://cascademountaintech.com/",
+    "url": "https://cascademountaintech.com/products/carbon-fiber-hiking-trekking-pole-cork-grip",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Price recalled."
+    "notes": null
   },
   {
     "id": "cascade-mountain-tech-3k-carbon-fiber-quick-lock",
@@ -909,19 +909,19 @@
     "brand": "Cascade Mountain Tech",
     "model": "3K Carbon Fiber Quick Lock",
     "variant": null,
-    "weight_g": 440,
-    "weight_basis": "measured",
-    "weight_note": "per pair",
-    "price_usd": 59.99,
+    "weight_g": 454,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair (8 oz/pole without rubber tips)",
+    "price_usd": 74.99,
     "specs": {
       "material": "carbon",
       "adjustable": true,
       "collapsed_length_in": 26,
-      "locking": "lever lock"
+      "locking": "Quick Lock lever"
     },
-    "url": "https://cascademountaintech.com/",
+    "url": "https://cascademountaintech.com/products/3k-carbon-fiber-hiking-trekking-poles-cork-grip",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -931,19 +931,19 @@
     "brand": "Cascade Mountain Tech",
     "model": "Aircraft Aluminum Quick Lock",
     "variant": null,
-    "weight_g": 510,
+    "weight_g": 590,
     "weight_basis": "manufacturer",
-    "weight_note": "per pair",
-    "price_usd": 39.99,
+    "weight_note": "per pair (10.4 oz/pole), cork grip",
+    "price_usd": 29.99,
     "specs": {
-      "material": "aluminum",
+      "material": "6061 aluminum",
       "adjustable": true,
       "collapsed_length_in": 26,
-      "locking": "lever lock"
+      "locking": "Quick Lock lever"
     },
-    "url": "https://cascademountaintech.com/",
+    "url": "https://cascademountaintech.com/products/aluminum-hiking-trekking-poles-cork-grip",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1073,10 +1073,10 @@
       "collapsed_length_in": 15,
       "locking": "lever + push-button"
     },
-    "url": "https://helinox.com/",
-    "discontinued": false,
+    "url": "https://helinox.com/products/passport-tl115-pair",
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "Not on helinox.com US store (product 404, absent from store search, Oct 2026); only Passport TL115 listed."
   },
   {
     "id": "helinox-passport-tl120",
@@ -1095,10 +1095,10 @@
       "collapsed_length_in": 24,
       "locking": "lever lock"
     },
-    "url": "https://helinox.com/",
-    "discontinued": false,
+    "url": "https://helinox.com/products/passport-tl115-pair",
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "Not on helinox.com US store (product 404, absent from store search, Oct 2026); only Passport TL115 listed."
   },
   {
     "id": "kelty-range-2-0",
@@ -1151,20 +1151,20 @@
     "brand": "Foxelli",
     "model": "Carbon Fiber Trekking Poles",
     "variant": null,
-    "weight_g": 430,
+    "weight_g": 397,
     "weight_basis": "manufacturer",
-    "weight_note": "per pair",
-    "price_usd": 59.99,
+    "weight_note": "per pair (7 oz/pole)",
+    "price_usd": 139.97,
     "specs": {
       "material": "carbon",
       "adjustable": true,
-      "collapsed_length_in": 25,
+      "collapsed_length_in": 24,
       "locking": "lever lock"
     },
-    "url": "https://www.foxelli.com/",
+    "url": "https://www.foxelli.com/products/carbon-fiber-trekking-poles-hog1",
     "discontinued": false,
-    "confidence": "low",
-    "notes": null
+    "confidence": "high",
+    "notes": "Foxelli lists $139.97 regular price; commonly on sale at $69.97 (Oct 2026). Adjusts 24-55 in."
   },
   {
     "id": "black-diamond-trail-vista-shock",
@@ -1180,7 +1180,7 @@
     "specs": {
       "material": "aluminum",
       "adjustable": true,
-      "collapsed_length_in": 28,
+      "collapsed_length_in": 27.6,
       "locking": "FlickLock"
     },
     "url": "https://www.blackdiamondequipment.com/products/trail-vista-shock-trekking-poles",
@@ -1202,7 +1202,7 @@
     "specs": {
       "material": "aluminum",
       "adjustable": true,
-      "collapsed_length_in": 16,
+      "collapsed_length_in": 14.6,
       "locking": "FlickLock + Z-pole"
     },
     "url": "https://www.blackdiamondequipment.com/products/trail-vista-flz-trekking-poles",
@@ -1223,7 +1223,8 @@
     "price_usd": 239.95,
     "specs": {
       "material": "carbon",
-      "adjustable": false
+      "adjustable": false,
+      "locking": "none (fixed length, one-piece)"
     },
     "url": "https://www.blackdiamondequipment.com/products/distance-carbon-fkt-poles",
     "discontinued": false,
@@ -1244,7 +1245,8 @@
     "specs": {
       "material": "carbon",
       "adjustable": false,
-      "collapsed_length_in": 15.4
+      "collapsed_length_in": 15.4,
+      "locking": "Z-pole push-button"
     },
     "url": "https://www.blackdiamondequipment.com/products/distance-carbon-z-fkt-poles",
     "discontinued": false,
@@ -1265,7 +1267,8 @@
     "specs": {
       "material": "carbon",
       "adjustable": false,
-      "collapsed_length_in": 15.7
+      "collapsed_length_in": 15.7,
+      "locking": "Z-pole push-button"
     },
     "url": "https://www.blackdiamondequipment.com/products/pursuit-carbon-z-poles",
     "discontinued": false,
@@ -1366,13 +1369,15 @@
     "brand": "Leki",
     "model": "Skytera FX.ONE SL",
     "variant": null,
-    "weight_g": 318,
+    "weight_g": 316,
     "weight_basis": "manufacturer",
-    "weight_note": "per pair (Leki lists 5.6 oz per pole)",
+    "weight_note": "per pair, 120 cm (158 g/pole); 105 cm 144 g/pole to 130 cm 167 g/pole",
     "price_usd": 199.95,
     "specs": {
       "material": "carbon",
-      "adjustable": false
+      "adjustable": false,
+      "collapsed_length_in": 14.2,
+      "locking": "push-button (fixed length, folding)"
     },
     "url": "https://lekiusa.com/products/skytera-fx-one-sl",
     "discontinued": false,
@@ -1392,7 +1397,9 @@
     "price_usd": 149.95,
     "specs": {
       "material": "aluminum",
-      "adjustable": true
+      "adjustable": true,
+      "collapsed_length_in": 26.4,
+      "locking": "Speed Lock Plus"
     },
     "url": "https://lekiusa.com/products/skytera-lite",
     "discontinued": false,
@@ -1413,7 +1420,8 @@
     "specs": {
       "material": "aluminum",
       "adjustable": true,
-      "collapsed_length_in": 26
+      "collapsed_length_in": 26,
+      "locking": "Speed Lock Plus"
     },
     "url": "https://lekiusa.com/products/journey-lite_leki-usa_trekking-poles_all-season",
     "discontinued": false,
@@ -1429,12 +1437,13 @@
     "variant": null,
     "weight_g": 468,
     "weight_basis": "manufacturer",
-    "weight_note": "per pair (Leki lists 234 g per pole)",
+    "weight_note": "234 g per pole x2; sold as a SINGLE pole (price is per pole)",
     "price_usd": 119.95,
     "specs": {
       "material": "carbon",
       "adjustable": true,
-      "collapsed_length_in": 24.8
+      "collapsed_length_in": 24.8,
+      "locking": "Speed Lock 2 Plus"
     },
     "url": "https://lekiusa.com/products/legend-black-carbon",
     "discontinued": false,
@@ -1448,18 +1457,20 @@
     "brand": "Leki",
     "model": "Neotrail Pro FX.ONE Superlite",
     "variant": null,
-    "weight_g": 238,
+    "weight_g": 240,
     "weight_basis": "manufacturer",
-    "weight_note": "per pair (Leki lists 4.2 oz per pole)",
+    "weight_note": "per pair, 120 cm (120 g/pole)",
     "price_usd": 209.95,
     "specs": {
       "material": "carbon",
-      "adjustable": false
+      "adjustable": false,
+      "collapsed_length_in": 15,
+      "locking": "push-button (fixed length, folding)"
     },
     "url": "https://lekiusa.com/products/neotrailpro-fx-one-superlite",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Fixed-length trail running pole, 110-130 cm sizes"
+    "notes": "Pack size 33-38 cm depending on length."
   },
   {
     "id": "leki-cross-trail-fx-superlite",
@@ -1468,9 +1479,9 @@
     "brand": "Leki",
     "model": "Cross Trail FX Superlite",
     "variant": null,
-    "weight_g": 397,
+    "weight_g": 372,
     "weight_basis": "manufacturer",
-    "weight_note": "per pair (Leki lists 7 oz per pole)",
+    "weight_note": "per pair, 110-130 cm (186 g/pole)",
     "price_usd": 249.95,
     "specs": {
       "material": "carbon",
@@ -1497,11 +1508,12 @@
     "specs": {
       "material": "carbon",
       "adjustable": true,
-      "collapsed_length_in": 16.1
+      "collapsed_length_in": 16.1,
+      "locking": "Speed Lock 2 Plus AL + ELD folding"
     },
     "url": "https://lekiusa.com/products/makalu-pro-fx-carbon",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Weight from marketing copy; may refer to shaft only"
   },
   {
@@ -1730,7 +1742,8 @@
     "specs": {
       "material": "carbon fiber",
       "adjustable": true,
-      "locking": "flip lock"
+      "locking": "flip lock",
+      "collapsed_length_in": 24
     },
     "url": "https://montemlife.com/products/ultra-light-100-carbon-fiber-trekking-poles-pair",
     "discontinued": false,
@@ -1744,13 +1757,15 @@
     "brand": "Helinox",
     "model": "Passport TL115",
     "variant": null,
-    "weight_g": 326,
+    "weight_g": 320,
     "weight_basis": "manufacturer",
-    "weight_note": "per pair (Helinox lists 11.5 oz pair, 5.5 oz per piece)",
+    "weight_note": "per pair (160 g/pole)",
     "price_usd": 149.95,
     "specs": {
       "material": "aluminum",
-      "adjustable": false
+      "adjustable": false,
+      "collapsed_length_in": 14,
+      "locking": "tension cord + single push-button (fixed length, folding)"
     },
     "url": "https://helinox.com/products/passport-tl115-pair",
     "discontinued": false,

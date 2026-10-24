@@ -121,19 +121,21 @@
     "brand": "MSR",
     "model": "WindBurner Group Stove System",
     "variant": "2.5 L",
-    "weight_g": 754,
+    "weight_g": 591,
     "weight_basis": "manufacturer",
-    "weight_note": "weight recalled, not verified this session",
+    "weight_note": "minimum weight; packaged 599 g",
     "price_usd": 259.95,
     "specs": {
       "fuel": "isobutane canister",
       "piezo": false,
       "regulated": true,
-      "capacity_ml": 2500
+      "capacity_ml": 2500,
+      "boil_time_min": 6.2,
+      "boil_volume_l": 1
     },
     "url": "https://cascadedesigns.com/products/windburner-group-stove-system",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -199,7 +201,9 @@
       "fuel": "isobutane canister",
       "piezo": false,
       "regulated": true,
-      "capacity_ml": 2500
+      "capacity_ml": 2500,
+      "boil_time_min": 3,
+      "boil_volume_l": 1
     },
     "url": "https://cascadedesigns.com/products/reactor-stove-systems",
     "discontinued": false,
@@ -278,9 +282,9 @@
     "brand": "SOTO",
     "model": "WindMaster",
     "variant": "with TriFlex",
-    "weight_g": 67,
+    "weight_g": 65,
     "weight_basis": "manufacturer",
-    "weight_note": "with optional TriFlex pot support (sold separately)",
+    "weight_note": "WindMaster + TriFlex 2.3 oz per SOTO",
     "price_usd": null,
     "specs": {
       "fuel": "isobutane canister",
@@ -288,10 +292,10 @@
       "piezo": true,
       "regulated": true
     },
-    "url": "https://sotooutdoors.com/product/windmaster-stove-with-4flex/",
-    "discontinued": false,
+    "url": "https://sotooutdoors.com/product/triflex-for-windmaster-stove/",
+    "discontinued": true,
     "confidence": "high",
-    "notes": "Sold as 4Flex bundle; TriFlex support is an add-on."
+    "notes": "SOTO US now sells the WindMaster only with 4Flex ($69.95); the TriFlex pot support is sold separately ($10.45, 7 g)."
   },
   {
     "id": "soto-amicus-igniter",
@@ -344,7 +348,7 @@
     "variant": null,
     "weight_g": 182,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "6.4 oz per SOTO",
     "price_usd": 99.95,
     "specs": {
       "fuel": "isobutane canister",
@@ -423,7 +427,7 @@
     "url": "https://www.firemaplegear.com/products/fms-103",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Brand store price $18.50 (Oct 2026); store also shows a compare-at price of $22.20."
   },
   {
     "id": "fire-maple-fms-102",
@@ -446,7 +450,7 @@
     "url": "https://www.firemaplegear.com/products/fms-102-stove",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Brand store price $21.99 (Oct 2026); store also shows a compare-at price of $26.39."
   },
   {
     "id": "fire-maple-polaris-quad",
@@ -464,7 +468,8 @@
       "boil_time_min": 1.97,
       "piezo": true,
       "regulated": true,
-      "boil_volume_l": 0.5
+      "boil_volume_l": 0.5,
+      "output_btu": 11330
     },
     "url": "https://www.firemaplegear.com/products/polaris-quad-pressure-regulated-backpacking-stove",
     "discontinued": false,
@@ -486,7 +491,8 @@
       "fuel": "isobutane canister",
       "boil_time_min": 2.5,
       "piezo": true,
-      "boil_volume_l": 0.5
+      "boil_volume_l": 0.5,
+      "output_btu": 7165
     },
     "url": "https://www.firemaplegear.com/products/torch-backpacking-stove",
     "discontinued": false,
@@ -530,12 +536,13 @@
       "boil_time_min": 2.25,
       "piezo": true,
       "regulated": true,
-      "boil_volume_l": 0.5
+      "boil_volume_l": 0.5,
+      "output_btu": 7164
     },
     "url": "https://www.firemaplegear.com/products/greenpeak-gas-stove-with-electric-ignition-pro",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Brand store price $32.95 (Oct 2026); store also shows a compare-at price of $35.95."
   },
   {
     "id": "fire-maple-petrel-ti-remote",
@@ -557,7 +564,7 @@
     "url": "https://www.firemaplegear.com/products/petrel-titanium-ultralight-backpack-stove",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Brand store price $54.95 (Oct 2026); store also shows a compare-at price of $59.45."
   },
   {
     "id": "fire-maple-petrel-summit",
@@ -572,12 +579,13 @@
     "price_usd": 69.95,
     "specs": {
       "fuel": "isobutane canister",
-      "preheat_tube": true
+      "preheat_tube": true,
+      "output_btu": 9554
     },
     "url": "https://www.firemaplegear.com/products/petrel-summit-titanium-ultralight-backpack-stove",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Titanium remote stove with preheat tube."
+    "notes": "2.8 kW (9,554 BTU/h) upright; 3.3 kW (11,260 BTU/h) inverted after preheating."
   },
   {
     "id": "fire-maple-fms-118a",
@@ -592,12 +600,13 @@
     "price_usd": 39.95,
     "specs": {
       "fuel": "isobutane canister",
-      "preheat_tube": true
+      "preheat_tube": true,
+      "output_btu": 9500
     },
     "url": "https://www.firemaplegear.com/products/fms-118-gas-stove",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Brand store price $39.95 (Oct 2026); store also shows a compare-at price of $41.94."
   },
   {
     "id": "fire-maple-fms-125",
@@ -614,12 +623,13 @@
       "fuel": "isobutane canister",
       "boil_time_min": 2.17,
       "piezo": true,
-      "boil_volume_l": 0.5
+      "boil_volume_l": 0.5,
+      "output_btu": 13649
     },
     "url": "https://www.firemaplegear.com/products/fms-125-gas-stove",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Brand store price $35.95 (Oct 2026); store also shows a compare-at price of $41.16."
   },
   {
     "id": "fire-maple-star-x1-pro",
@@ -637,7 +647,8 @@
       "boil_time_min": 1.7,
       "piezo": true,
       "boil_volume_l": 0.5,
-      "capacity_ml": 1000
+      "capacity_ml": 1000,
+      "output_btu": 7507
     },
     "url": "https://www.firemaplegear.com/products/star-x1-pro-cooking-system",
     "discontinued": false,
@@ -660,12 +671,13 @@
       "boil_time_min": 1.7,
       "piezo": true,
       "boil_volume_l": 0.5,
-      "capacity_ml": 1000
+      "capacity_ml": 1000,
+      "output_btu": 7507
     },
     "url": "https://www.firemaplegear.com/products/star-x2-pro-cooking-system",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Brand store price $72.95 (Oct 2026); store also shows a compare-at price of $79.95."
   },
   {
     "id": "fire-maple-petrel-quickboil-pro",
@@ -683,7 +695,8 @@
       "boil_time_min": 1.75,
       "piezo": false,
       "boil_volume_l": 0.5,
-      "capacity_ml": 600
+      "capacity_ml": 600,
+      "output_btu": 8531
     },
     "url": "https://www.firemaplegear.com/products/petrel-quickboil-pro-system",
     "discontinued": false,
@@ -705,12 +718,13 @@
       "fuel": "isobutane canister",
       "boil_time_min": 1.67,
       "regulated": true,
-      "boil_volume_l": 0.5
+      "boil_volume_l": 0.5,
+      "output_btu": 7165
     },
     "url": "https://www.firemaplegear.com/products/mars-radiant-stove-system",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Brand store price $98.95 (Oct 2026); store also shows a compare-at price of $134.95."
   },
   {
     "id": "fire-maple-volcano",
@@ -729,7 +743,7 @@
     "url": "https://www.firemaplegear.com/products/volcano-alcohol-backpacking-stove",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Brand store price $59.95 (Oct 2026); store also shows a compare-at price of $71.94."
   },
   {
     "id": "fire-maple-maverick-triangle",
@@ -748,7 +762,7 @@
     "url": "https://www.firemaplegear.com/products/maverick-wood-stove-triangle-version",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Flat-pack stainless wood stove; heavy for UL."
+    "notes": "Flat-pack stainless wood stove; heavy for UL. Brand store price $32.95 (Oct 2026); store also shows a compare-at price of $41.94."
   },
   {
     "id": "primus-micron-iii",
@@ -787,7 +801,8 @@
       "fuel": "isobutane canister",
       "boil_time_min": 3.5,
       "piezo": false,
-      "boil_volume_l": 1
+      "boil_volume_l": 1,
+      "output_btu": 8530
     },
     "url": "https://www.primus.us/products/essential-trail-stove",
     "discontinued": false,
@@ -807,8 +822,10 @@
     "price_usd": 54.99,
     "specs": {
       "fuel": "isobutane canister",
-      "boil_time_min": 2.5,
-      "piezo": true
+      "boil_time_min": 3.5,
+      "piezo": true,
+      "output_btu": 8870,
+      "boil_volume_l": 1
     },
     "url": "https://www.primus.us/products/express-stove-piezo",
     "discontinued": false,
@@ -828,7 +845,8 @@
     "price_usd": 34.99,
     "specs": {
       "fuel": "isobutane canister",
-      "piezo": false
+      "piezo": false,
+      "output_btu": 9550
     },
     "url": "https://www.primus.us/products/classic-trail",
     "discontinued": false,
@@ -848,9 +866,10 @@
     "price_usd": 79.99,
     "specs": {
       "fuel": "isobutane canister",
-      "boil_time_min": 4,
+      "boil_time_min": 5,
       "preheat_tube": true,
-      "boil_volume_l": 1
+      "boil_volume_l": 1,
+      "output_btu": 6820
     },
     "url": "https://www.primus.us/products/express-spider-stove",
     "discontinued": false,
@@ -873,7 +892,8 @@
       "boil_time_min": 2.75,
       "piezo": true,
       "capacity_ml": 500,
-      "boil_volume_l": 0.5
+      "boil_volume_l": 0.5,
+      "output_btu": 4500
     },
     "url": "https://www.primus.us/products/lite-stove-system",
     "discontinued": false,
@@ -895,7 +915,8 @@
       "fuel": "isobutane canister",
       "boil_time_min": 2.75,
       "piezo": true,
-      "capacity_ml": 1000
+      "capacity_ml": 1000,
+      "output_btu": 4500
     },
     "url": "https://www.primus.us/products/lite-plus-stove-system-green",
     "discontinued": false,
@@ -949,19 +970,22 @@
     "brand": "Primus",
     "model": "Lite XL Stove System",
     "variant": null,
-    "weight_g": 434,
+    "weight_g": 460,
     "weight_basis": "manufacturer",
     "weight_note": "weight recalled; price verified",
     "price_usd": 139.99,
     "specs": {
       "fuel": "isobutane canister",
       "piezo": true,
-      "capacity_ml": 1000
+      "capacity_ml": 1000,
+      "output_btu": 5800,
+      "boil_time_min": 2.5,
+      "boil_volume_l": 0.5
     },
     "url": "https://www.primus.us/products/lite-xl-stove-system",
     "discontinued": false,
-    "confidence": "medium",
-    "notes": null
+    "confidence": "high",
+    "notes": "Primus spec table: 1700 W (~5,800 BTU/h), 460 g; product copy still says 4500 BTU (1500 W)."
   },
   {
     "id": "jetboil-flash",
@@ -973,18 +997,19 @@
     "weight_g": 371,
     "weight_basis": "manufacturer",
     "weight_note": "excludes fuel stabilizer",
-    "price_usd": 124.95,
+    "price_usd": 144.99,
     "specs": {
       "fuel": "isobutane canister",
       "boil_time_min": 1.67,
       "piezo": true,
       "capacity_ml": 1000,
-      "boil_volume_l": 0.5
+      "boil_volume_l": 0.5,
+      "output_btu": 5300
     },
     "url": "https://www.jetboil.com/en-us/stoves/cooking-systems/flash",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Weight/price checked against multiple retailers; manufacturer site blocked."
+    "notes": "Price and 5,300 BTU/h per GearX listing (Oct 2026)."
   },
   {
     "id": "jetboil-stash",
@@ -1004,10 +1029,10 @@
       "capacity_ml": 800,
       "boil_volume_l": 0.5
     },
-    "url": null,
+    "url": "https://www.evo.com/products/202055-jetboil-stashr-cooking-system",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Weight 7.1 oz and boil 2:30 per 0.5 L confirmed at evo (Oct 2026); evo regular price $144.95, other US retailers $134.95-$164.99."
   },
   {
     "id": "jetboil-minimo",
@@ -1019,19 +1044,20 @@
     "weight_g": 415,
     "weight_basis": "manufacturer",
     "weight_note": "Jetboil spec 415 g, excludes fuel stabilizer",
-    "price_usd": 164.95,
+    "price_usd": 179.99,
     "specs": {
       "fuel": "isobutane canister",
       "boil_time_min": 2.25,
       "piezo": true,
       "regulated": true,
       "capacity_ml": 1000,
-      "boil_volume_l": 0.5
+      "boil_volume_l": 0.5,
+      "output_btu": 6000
     },
-    "url": null,
+    "url": "https://jetboil.johnsonoutdoors.com/us/en-us/stoves/cooking-systems/minimo",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "List $179.99 per GearX (compare-at) / $179.95 Neptune Mountaineering; weight and BTU per GearX spec sheet."
   },
   {
     "id": "jetboil-zip",
@@ -1043,15 +1069,16 @@
     "weight_g": 340,
     "weight_basis": "manufacturer",
     "weight_note": "Jetboil spec 12 oz / 340 g, excludes fuel stabilizer",
-    "price_usd": 109.95,
+    "price_usd": 109.99,
     "specs": {
       "fuel": "isobutane canister",
       "boil_time_min": 2.5,
       "piezo": false,
       "capacity_ml": 800,
-      "boil_volume_l": 0.5
+      "boil_volume_l": 0.5,
+      "output_btu": 5300
     },
-    "url": null,
+    "url": "https://www.gearx.com/products/jetboil-zip-0-8l-stove-kit-bh2wv-carbon",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -1152,7 +1179,7 @@
     "weight_g": 20,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 34.95,
+    "price_usd": 39.95,
     "specs": {
       "fuel": "alcohol",
       "fuel_capacity_ml": 80
@@ -1160,7 +1187,7 @@
     "url": "https://www.toaksoutdoor.com/products/stv-01",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Regular price $39.95; brand store selling at $34.95 (Oct 2026)."
   },
   {
     "id": "toaks-wood-stove",
@@ -1172,14 +1199,14 @@
     "weight_g": 225,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 59.95,
+    "price_usd": 64.95,
     "specs": {
       "fuel": "wood"
     },
     "url": "https://www.toaksoutdoor.com/products/stv-11",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Regular price $64.95; brand store selling at $59.95 (Oct 2026)."
   },
   {
     "id": "toaks-wood-stove-small",
@@ -1284,8 +1311,8 @@
     "model": "New River Pot + Amicus Combo",
     "variant": null,
     "weight_g": 222,
-    "weight_basis": "estimate",
-    "weight_note": "sum of listed parts: stove 81 g + 1 L pot 118 g + lid 23 g",
+    "weight_basis": "manufacturer",
+    "weight_note": "New River pot 118 g + lid 23 g + Amicus with igniter 81 g",
     "price_usd": 59.45,
     "specs": {
       "fuel": "isobutane canister",
@@ -1369,7 +1396,8 @@
     "price_usd": 49.95,
     "specs": {
       "fuel": "isobutane canister",
-      "piezo": false
+      "piezo": false,
+      "output_btu": 9000
     },
     "url": "https://vargooutdoors.com/products/jet-ti-2-stove",
     "discontinued": false,
@@ -1518,17 +1546,19 @@
     "variant": null,
     "weight_g": 56,
     "weight_basis": "manufacturer",
-    "weight_note": "weight recalled; price verified",
+    "weight_note": "stove only; storage sack 5.7 g",
     "price_usd": 54.95,
     "specs": {
       "fuel": "isobutane canister",
       "output_btu": 11200,
-      "piezo": false
+      "piezo": false,
+      "boil_time_min": 5,
+      "boil_volume_l": 1
     },
     "url": "https://snowpeak.com/products/litemax-titanium-stove",
     "discontinued": false,
-    "confidence": "medium",
-    "notes": null
+    "confidence": "high",
+    "notes": "Price per snowpeak.com store; specs per Garage Grown Gear listing (GGG sells at $44.95)."
   },
   {
     "id": "snow-peak-gigapower-2-auto",
@@ -1548,8 +1578,8 @@
     },
     "url": "https://snowpeak.com/products/gigapower-stove-2-0-auto",
     "discontinued": false,
-    "confidence": "medium",
-    "notes": null
+    "confidence": "high",
+    "notes": "Price and 10,000 BTU per snowpeak.com product data (Oct 2026)."
   },
   {
     "id": "snow-peak-bipod",
@@ -1578,19 +1608,19 @@
     "brand": "BRS",
     "model": "BRS-3000T",
     "variant": null,
-    "weight_g": 25,
+    "weight_g": 26,
     "weight_basis": "manufacturer",
-    "weight_note": null,
-    "price_usd": 16.99,
+    "weight_note": "stove only; pouch 2 g",
+    "price_usd": 19.99,
     "specs": {
       "fuel": "isobutane canister",
-      "output_btu": 9550,
+      "output_btu": 9210,
       "piezo": false
     },
-    "url": null,
+    "url": "https://garagegrowngear.com/products/brs-3000-t-stove-by-brs-outdoor",
     "discontinued": false,
-    "confidence": "medium",
-    "notes": "Very popular budget titanium stove; poor wind performance."
+    "confidence": "high",
+    "notes": "Output 2700 W per spec (~9,210 BTU/h). Price per Garage Grown Gear (Oct 2026)."
   },
   {
     "id": "optimus-crux",
@@ -1606,12 +1636,14 @@
     "specs": {
       "fuel": "isobutane canister",
       "output_btu": 10200,
-      "piezo": false
+      "piezo": false,
+      "boil_time_min": 3,
+      "boil_volume_l": 1
     },
-    "url": null,
+    "url": "https://katadyn.com/products/8019260-optimus-crux",
     "discontinued": false,
     "confidence": "medium",
-    "notes": null
+    "notes": "Katadyn spec: 3000 W burner, boils 1 L in about 3 min (Katadyn also prints 12,000 BTU/h, inconsistent with 3 kW)."
   },
   {
     "id": "optimus-vega",
@@ -1626,13 +1658,13 @@
     "price_usd": 99.95,
     "specs": {
       "fuel": "isobutane canister",
-      "output_btu": 12000,
+      "output_btu": 8870,
       "invertible": true
     },
-    "url": null,
+    "url": "https://katadyn.com/products/8018505-optimus-vega",
     "discontinued": false,
     "confidence": "medium",
-    "notes": null
+    "notes": "Katadyn spec: 2.6 kW (prints 6,000 BTU/h; 2.6 kW = ~8,870 BTU/h), average boil time 4-5 min. Previous 12,000 BTU value not supported."
   },
   {
     "id": "kovea-spider",
@@ -1661,17 +1693,20 @@
     "brand": "Olicamp",
     "model": "Ion Micro Titanium",
     "variant": null,
-    "weight_g": 48,
+    "weight_g": 45,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 44.99,
+    "price_usd": 49.95,
     "specs": {
       "fuel": "isobutane canister",
-      "piezo": false
+      "piezo": false,
+      "output_btu": 8900,
+      "boil_time_min": 4.33,
+      "boil_volume_l": 0.95
     },
-    "url": null,
+    "url": "https://olicamp.com/ion-micro-titanium-stove.html",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1728,9 +1763,10 @@
     "weight_note": null,
     "price_usd": 49.95,
     "specs": {
-      "fuel": "alcohol"
+      "fuel": "alcohol",
+      "fuel_capacity_ml": 70
     },
-    "url": null,
+    "url": "https://www.evernewamerica.com/ti-stove/",
     "discontinued": false,
     "confidence": "medium",
     "notes": null
@@ -1828,7 +1864,7 @@
     "url": "https://www.emberlit.com/products/gen1-emberlit-backpacking-stove",
     "discontinued": false,
     "confidence": "medium",
-    "notes": null
+    "notes": "Brand store price $19.99 (Oct 2026); store also shows a compare-at price of $35.00."
   },
   {
     "id": "emberlit-original-titanium",
@@ -1847,7 +1883,7 @@
     "url": "https://www.emberlit.com/products/gen1-emberlit-backpacking-stove",
     "discontinued": false,
     "confidence": "medium",
-    "notes": null
+    "notes": "Brand store price $34.99 (Oct 2026); store also shows a compare-at price of $55.00."
   },
   {
     "id": "emberlit-mini-titanium",
@@ -1866,7 +1902,7 @@
     "url": "https://www.emberlit.com/products/emberlit-mini",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Limited remaining stock (Gen1 leftovers)."
+    "notes": "Limited remaining stock (Gen1 leftovers). Brand store price $29.99 (Oct 2026); store also shows a compare-at price of $59.95."
   },
   {
     "id": "trail-designs-sidewinder-ti-tri",
@@ -2141,5 +2177,27 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Windscreen/stove system for 700-750 ml titanium mugs. Base price; options change price."
+  },
+  {
+    "id": "soto-tritrail",
+    "category": "stove",
+    "subcategory": "canister",
+    "brand": "SOTO",
+    "model": "TriTrail",
+    "variant": null,
+    "weight_g": 135,
+    "weight_basis": "manufacturer",
+    "weight_note": "body only (SOTO spec)",
+    "price_usd": 69.95,
+    "specs": {
+      "fuel": "isobutane canister",
+      "output_btu": 8870,
+      "piezo": true,
+      "regulated": true
+    },
+    "url": "https://sotooutdoors.com/product/dealer-resources-6/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "SOTO regulator stove with titanium pot supports and Stealth Igniter; 2.6 kW (2,200 kcal/h, ~8,870 BTU/h)."
   }
 ]

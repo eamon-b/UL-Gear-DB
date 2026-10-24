@@ -78,9 +78,9 @@
       "hood": true
     },
     "url": "https://www.outdoorresearch.com/products/mens-helium-rain-jacket",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": null
+    "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
   },
   {
     "id": "outdoor-research-helium-rain-jacket-womens",
@@ -99,9 +99,9 @@
       "hood": true
     },
     "url": "https://www.outdoorresearch.com/products/womens-helium-rain-jacket",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "medium",
-    "notes": null
+    "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
   },
   {
     "id": "outdoor-research-helium-ascentshell-jacket-mens",
@@ -120,9 +120,9 @@
       "hood": true
     },
     "url": null,
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
   },
   {
     "id": "outdoor-research-foray-3l-jacket-mens",
@@ -133,14 +133,14 @@
     "variant": "Men's",
     "weight_g": 435,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
+    "weight_note": "OR-listed product weight",
     "price_usd": 260,
     "specs": {
-      "material": "AscentShell Dry 3L 40D recycled nylon stretch",
+      "material": "AscentShell Dry 3L recycled nylon 40D stretch",
       "pit_zips": true,
       "hood": true
     },
-    "url": "https://www.rei.com/product/236451",
+    "url": "https://www.outdoorresearch.com/products/mens-foray-3l-jacket-322088",
     "discontinued": false,
     "confidence": "high",
     "notes": "Full side zips (TorsoFlo-style venting)."
@@ -152,18 +152,18 @@
     "brand": "Outdoor Research",
     "model": "Aspire 3L Jacket",
     "variant": "Women's",
-    "weight_g": 380,
-    "weight_basis": "estimate",
-    "weight_note": "women's M, approximate",
-    "price_usd": 249,
+    "weight_g": 352,
+    "weight_basis": "manufacturer",
+    "weight_note": "OR-listed product weight",
+    "price_usd": 260,
     "specs": {
-      "material": "AscentShell Dry 3L",
+      "material": "AscentShell Dry 3L recycled nylon 40D stretch",
       "pit_zips": true,
       "hood": true
     },
-    "url": "https://www.rei.com/product/236451",
+    "url": "https://www.outdoorresearch.com/products/womens-aspire-3l-jacket-322107",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": "Women's counterpart to the Foray 3L; weight not verified."
   },
   {
@@ -204,9 +204,9 @@
       "hood": true
     },
     "url": "https://www.outdoorresearch.com/products/mens-motive-ascentshell-jacket-279986",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": null
+    "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
   },
   {
     "id": "outdoor-research-motive-ascentshell-jacket-womens",
@@ -225,9 +225,9 @@
       "hood": true
     },
     "url": null,
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": null
+    "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
   },
   {
     "id": "outdoor-research-stratoburst-stretch-rain-jacket-mens",
@@ -236,18 +236,18 @@
     "brand": "Outdoor Research",
     "model": "Stratoburst Stretch Rain Jacket",
     "variant": "Men's",
-    "weight_g": 315,
+    "weight_g": 240,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
-    "price_usd": 149,
+    "weight_note": "OR-listed product weight",
+    "price_usd": 175,
     "specs": {
-      "material": "2.5L stretch nylon",
+      "material": "Ventia 2.5L recycled polyester 50D stretch",
       "pit_zips": true,
       "hood": true
     },
-    "url": null,
+    "url": "https://www.outdoorresearch.com/products/mens-stratoburst-stretch-rain-jacket-300893",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -267,9 +267,9 @@
       "hood": true
     },
     "url": null,
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
   },
   {
     "id": "zpacks-vertice-rain-jacket-mens",
@@ -300,18 +300,18 @@
     "brand": "Zpacks",
     "model": "Vertice Rain Jacket",
     "variant": "Women's",
-    "weight_g": 142,
+    "weight_g": 144,
     "weight_basis": "manufacturer",
-    "weight_note": "women's M",
+    "weight_note": "Zpacks-listed weight",
     "price_usd": 299,
     "specs": {
       "material": "Vertice 3L 1.5 oz/sqyd",
       "pit_zips": true,
       "hood": true
     },
-    "url": "https://zpacks.com/collections/vertice-rain-gear",
+    "url": "https://zpacks.com/products/womens-vertice-rain-jacket",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -321,18 +321,18 @@
     "brand": "Zpacks",
     "model": "Groundsheet Poncho",
     "variant": "DCF",
-    "weight_g": 153,
+    "weight_g": 128,
     "weight_basis": "manufacturer",
-    "weight_note": "one size, doubles as groundsheet",
-    "price_usd": 199,
+    "weight_note": "Zpacks-listed weight",
+    "price_usd": 249,
     "specs": {
       "material": "Dyneema Composite Fabric",
       "hood": true
     },
-    "url": "https://zpacks.com/collections/rain-gear",
+    "url": "https://zpacks.com/products/groundsheet-poncho-convertible",
     "discontinued": false,
-    "confidence": "low",
-    "notes": null
+    "confidence": "high",
+    "notes": "Now sold as the Convertible Groundsheet Poncho."
   },
   {
     "id": "zpacks-vertice-rain-kilt",
@@ -344,11 +344,11 @@
     "weight_g": 68,
     "weight_basis": "manufacturer",
     "weight_note": "one size",
-    "price_usd": 79.95,
+    "price_usd": 89.95,
     "specs": {
       "material": "Vertice 3L"
     },
-    "url": "https://zpacks.com/collections/rain-gear",
+    "url": "https://zpacks.com/products/vertice-rain-kilt",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -363,11 +363,11 @@
     "weight_g": 52,
     "weight_basis": "manufacturer",
     "weight_note": "one size",
-    "price_usd": 79.95,
+    "price_usd": 89.95,
     "specs": {
       "material": "Dyneema Composite Fabric"
     },
-    "url": "https://zpacks.com/collections/rain-gear",
+    "url": "https://zpacks.com/products/dcf-rain-kilt",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -381,15 +381,16 @@
     "variant": "Men's",
     "weight_g": 166,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M (2025 version)",
+    "weight_note": "Montbell US listed average weight",
     "price_usd": 285,
     "specs": {
       "material": "SUPER DRY-TEC 3L 7D nylon",
       "waterproof_rating_mm": 20000,
       "pit_zips": true,
-      "hood": true
+      "hood": true,
+      "breathability": "52,000 g/m²/24h (JIS L-1099 B-1)"
     },
-    "url": "https://www.montbell.co.uk/collections/all/products/mens-versalite-jacket-blue",
+    "url": "https://www.montbell.com/us/en/products/detail/2328329",
     "discontinued": false,
     "confidence": "high",
     "notes": "Pre-2025 version used GORE-TEX Windstopper/Infinium at ~181 g."
@@ -401,19 +402,20 @@
     "brand": "Montbell",
     "model": "Versalite Jacket",
     "variant": "Women's",
-    "weight_g": 145,
+    "weight_g": 152,
     "weight_basis": "manufacturer",
-    "weight_note": "women's M (2025 version), approximate",
-    "price_usd": 285,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 275,
     "specs": {
       "material": "SUPER DRY-TEC 3L 7D nylon",
       "waterproof_rating_mm": 20000,
       "pit_zips": true,
-      "hood": true
+      "hood": true,
+      "breathability": "52,000 g/m²/24h (JIS L-1099 B-1)"
     },
-    "url": null,
+    "url": "https://www.montbell.com/us/en/products/detail/2328330",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -425,14 +427,16 @@
     "variant": "Men's",
     "weight_g": 284,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
+    "weight_note": "Montbell US listed average weight",
     "price_usd": 270,
     "specs": {
-      "material": "DRY-TEC 3L 30D nylon",
-      "pit_zips": false,
-      "hood": true
+      "material": "SUPER DRY-TEC 3L 30D Ballistic nylon ripstop",
+      "pit_zips": true,
+      "hood": true,
+      "waterproof_rating_mm": 20000,
+      "breathability": "40,000 g/m²/24h (JIS L-1099 B-1)"
     },
-    "url": "https://www.montbell.co.uk/products/mens-storm-cruiser-jacket-black-2328174",
+    "url": "https://www.montbell.com/us/en/products/detail/2328321",
     "discontinued": false,
     "confidence": "high",
     "notes": "Earlier version was GORE-TEX C-KNIT 20D."
@@ -444,18 +448,20 @@
     "brand": "Montbell",
     "model": "Storm Cruiser Jacket",
     "variant": "Women's",
-    "weight_g": 245,
+    "weight_g": 256,
     "weight_basis": "manufacturer",
-    "weight_note": "women's M, approximate",
-    "price_usd": 270,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 260,
     "specs": {
-      "material": "DRY-TEC 3L",
-      "pit_zips": false,
-      "hood": true
+      "material": "SUPER DRY-TEC 3L 30D Ballistic nylon ripstop",
+      "pit_zips": true,
+      "hood": true,
+      "waterproof_rating_mm": 20000,
+      "breathability": "40,000 g/m²/24h (JIS L-1099 B-1)"
     },
-    "url": null,
+    "url": "https://www.montbell.com/us/en/products/detail/2328322",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -465,18 +471,20 @@
     "brand": "Montbell",
     "model": "Peak Shell Jacket",
     "variant": "Men's",
-    "weight_g": 185,
+    "weight_g": 198,
     "weight_basis": "manufacturer",
-    "weight_note": "men's average (GORE-TEX version)",
-    "price_usd": 300,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 360,
     "specs": {
-      "material": "GORE-TEX 3L",
-      "pit_zips": false,
-      "hood": true
+      "material": "GORE-TEX 3L (ePE) 15D Ballistic Airlight nylon ripstop",
+      "pit_zips": true,
+      "hood": true,
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000 g/m²/24h (JIS L-1099 B-1)"
     },
-    "url": null,
+    "url": "https://www.montbell.com/us/en/products/detail/2328319",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Successor to Torrent Flier; formerly Super DRY-TEC."
   },
   {
@@ -488,17 +496,19 @@
     "variant": "Men's",
     "weight_g": 328,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M (some colours 336 g)",
-    "price_usd": 179,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 155,
     "specs": {
-      "material": "DRY-TEC 2.5L",
-      "pit_zips": true,
-      "hood": true
+      "material": "DRY-TEC 3L 50D nylon ripstop",
+      "pit_zips": false,
+      "hood": true,
+      "waterproof_rating_mm": 20000,
+      "breathability": "15,000 g/m²/24h (JIS L-1099 B-1)"
     },
-    "url": "https://www.montbell.co.uk/products/mens-thunder-pass-jacket-black",
+    "url": "https://www.montbell.com/us/en/products/detail/2328333",
     "discontinued": false,
     "confidence": "high",
-    "notes": "US price not verified; UK £140–155."
+    "notes": null
   },
   {
     "id": "montbell-rain-dancer-jacket-mens",
@@ -528,17 +538,20 @@
     "brand": "Montbell",
     "model": "Rain Trekker Jacket",
     "variant": "Men's",
-    "weight_g": 330,
-    "weight_basis": "estimate",
-    "weight_note": "men's M, approximate",
-    "price_usd": 159,
+    "weight_g": 320,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 330,
     "specs": {
-      "material": "DRY-TEC 2L",
-      "hood": true
+      "material": "GORE-TEX 3L (ePE) 50D nylon ripstop",
+      "hood": true,
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000 g/m²/24h (JIS L-1099 B-1)",
+      "pit_zips": false
     },
-    "url": null,
+    "url": "https://www.montbell.com/us/en/products/detail/2328317",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -647,27 +660,6 @@
     "notes": null
   },
   {
-    "id": "arcteryx-norvan-shell-jacket-mens",
-    "category": "rain-jacket",
-    "subcategory": "rain jacket",
-    "brand": "Arc'teryx",
-    "model": "Norvan Shell Jacket",
-    "variant": "Men's",
-    "weight_g": 190,
-    "weight_basis": "manufacturer",
-    "weight_note": "men's M",
-    "price_usd": 400,
-    "specs": {
-      "material": "GORE-TEX 3L",
-      "pit_zips": false,
-      "hood": true
-    },
-    "url": "https://regear.arcteryx.com/products/norvan-shell-jacket-mens_x000006566_graphiteblack",
-    "discontinued": false,
-    "confidence": "high",
-    "notes": null
-  },
-  {
     "id": "arcteryx-norvan-jacket-mens",
     "category": "rain-jacket",
     "subcategory": "rain jacket",
@@ -676,16 +668,16 @@
     "variant": "Men's",
     "weight_g": 215,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M (S26)",
-    "price_usd": null,
+    "weight_note": "Arc'teryx-listed weight",
+    "price_usd": 450,
     "specs": {
       "material": "GORE-TEX 3L",
       "hood": true
     },
-    "url": "https://featheredfriends.com/products/arcteryx-norvan-jacket-mens-s26",
+    "url": "https://arcteryx.com/us/en/shop/mens/norvan-jacket-9571",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Different spec from the Norvan Shell Jacket; price not confirmed."
+    "notes": "Arc'teryx notes this jacket was previously the Norvan Shell Jacket."
   },
   {
     "id": "arcteryx-zeta-sl-jacket-mens",
@@ -736,16 +728,16 @@
     "brand": "Patagonia",
     "model": "Torrentshell 3L Jacket",
     "variant": "Men's",
-    "weight_g": 397,
+    "weight_g": 400,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
+    "weight_note": "Patagonia-listed weight",
     "price_usd": 189,
     "specs": {
       "material": "H2No 3L recycled nylon",
       "pit_zips": true,
       "hood": true
     },
-    "url": "https://www.rei.com/product/215514/patagonia-torrentshell-3l-jacket-mens",
+    "url": "https://featheredfriends.com/products/patagonia-torrentshell-3l-jacket-mens-1",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -766,7 +758,7 @@
       "pit_zips": true,
       "hood": true
     },
-    "url": null,
+    "url": "https://featheredfriends.com/products/patagonia-torrentshell-3l-rain-jacket-womens",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
@@ -799,16 +791,16 @@
     "brand": "Patagonia",
     "model": "Storm Racer Jacket",
     "variant": "Women's",
-    "weight_g": 204,
+    "weight_g": 179,
     "weight_basis": "manufacturer",
-    "weight_note": "women's",
+    "weight_note": "Patagonia-listed weight",
     "price_usd": 315,
     "specs": {
       "material": "H2No 3L",
       "pit_zips": false,
       "hood": true
     },
-    "url": "https://www.patagonia.com.au/products/womens-storm-racer-jacket-24117-elgr",
+    "url": "https://www.patagonia.com/product/womens-storm-racer-running-jacket/24115.html",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -841,18 +833,18 @@
     "brand": "Patagonia",
     "model": "Granite Crest Rain Jacket",
     "variant": "Women's",
-    "weight_g": 340,
+    "weight_g": 357,
     "weight_basis": "manufacturer",
-    "weight_note": "women's M, approximate",
-    "price_usd": 279,
+    "weight_note": "Patagonia-listed weight",
+    "price_usd": 289,
     "specs": {
       "material": "H2No Performance Standard 3L",
       "pit_zips": true,
       "hood": true
     },
-    "url": null,
+    "url": "https://www.patagonia.com/product/womens-granite-crest-waterproof-rain-jacket/85420.html",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -967,18 +959,18 @@
     "brand": "Mountain Hardwear",
     "model": "Trailverse GORE-TEX Jacket",
     "variant": "Men's",
-    "weight_g": 414,
+    "weight_g": 478,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
-    "price_usd": 300,
+    "weight_note": "MH-listed approx. weight, size M",
+    "price_usd": 499,
     "specs": {
-      "material": "GORE-TEX 3L",
+      "material": "GORE-TEX ePE 3L, 100% recycled",
       "pit_zips": true,
       "hood": true
     },
-    "url": null,
+    "url": "https://www.mountainhardwear.com/p/mens-trailverse-gore-tex-rain-jacket-2092321.html",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -988,17 +980,18 @@
     "brand": "Rab",
     "model": "Phantom Waterproof Jacket",
     "variant": "Men's",
-    "weight_g": 117,
+    "weight_g": 116,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
+    "weight_note": "Rab US listed weight (Size M)",
     "price_usd": 225,
     "specs": {
       "material": "Pertex Shield 2.5L",
       "waterproof_rating_mm": 20000,
       "pit_zips": false,
-      "hood": true
+      "hood": true,
+      "breathability": "20,000g/m²/24h"
     },
-    "url": "https://www.wildthings.club/shop/clothing/jackets/rab-men-s-phantom-waterproof-jacket/",
+    "url": "https://rab.equipment/us/mens-phantom-waterproof-jacket",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -1021,9 +1014,9 @@
       "hood": true
     },
     "url": "https://www.evo.com/products/248154-rabr-phantom-pull-on-jacket-men-s",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": null
+    "notes": "Not in Rab US store (Phantom search returns only Phantom Jacket/Mountain Jacket/Pants; pull-on slugs 404), Oct 2026."
   },
   {
     "id": "rab-kinetic-2-jacket-mens",
@@ -1034,12 +1027,14 @@
     "variant": "Men's",
     "weight_g": 336,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
-    "price_usd": 260,
+    "weight_note": "Rab US listed weight",
+    "price_usd": 280,
     "specs": {
       "material": "Proflex 3L stretch",
       "pit_zips": false,
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 10000,
+      "breathability": "35,000g/m²/24h"
     },
     "url": "https://rab.equipment/us/kinetic-2-0-jacket",
     "discontinued": false,
@@ -1055,12 +1050,14 @@
     "variant": "Women's",
     "weight_g": 290,
     "weight_basis": "manufacturer",
-    "weight_note": "Rab spec 10.2 oz / 289.5 g",
+    "weight_note": "Rab US listed weight (Size M)",
     "price_usd": 280,
     "specs": {
       "material": "Proflex 3L stretch",
       "pit_zips": false,
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 10000,
+      "breathability": "35,000g/m²/24h"
     },
     "url": "https://rab.equipment/us/women-s-kinetic-2-0-jacket",
     "discontinued": false,
@@ -1094,19 +1091,21 @@
     "brand": "Rab",
     "model": "Downpour Eco Jacket",
     "variant": "Men's",
-    "weight_g": 320,
+    "weight_g": 377,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
-    "price_usd": 145,
+    "weight_note": "Rab US listed weight (Size M)",
+    "price_usd": 140,
     "specs": {
       "material": "Pertex Shield 2.5L recycled nylon",
       "pit_zips": true,
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000g/m²/24h"
     },
-    "url": "https://www.backcountry.com/rab-downpour-eco-jacket-mens",
+    "url": "https://rab.equipment/us/mens-downpour-waterproof-jacket",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Rab now sells this as the Downpour Waterproof Jacket (current version, 377 g M); older Downpour Eco listed ~320 g."
   },
   {
     "id": "rab-downpour-eco-jacket-womens",
@@ -1117,12 +1116,14 @@
     "variant": "Women's",
     "weight_g": 342,
     "weight_basis": "manufacturer",
-    "weight_note": "Rab spec 12 oz / 341.5 g",
+    "weight_note": "Rab US listed weight (Size 10)",
     "price_usd": 140,
     "specs": {
       "material": "Pertex Shield 2.5L recycled nylon",
       "pit_zips": true,
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000g/m²/24h"
     },
     "url": "https://rab.equipment/us/womens-downpour-waterproof-jacket",
     "discontinued": false,
@@ -1147,9 +1148,9 @@
       "hood": true
     },
     "url": "https://www.blackdiamondequipment.com/en_GB/product/stormline-stretch-rain-shell/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": null
+    "notes": "StormLine Stretch is a distinct, older BD.dry model (predecessor of FineLine); its BD product URLs now 404/redirect to the homepage and BD store search returns no StormLine products (Oct 2026)."
   },
   {
     "id": "black-diamond-stormline-stretch-rain-shell-womens",
@@ -1169,9 +1170,9 @@
       "hood": true
     },
     "url": "https://Switchbacktravel.com/reviews/black-diamond-stormline-stretch",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": null
+    "notes": "StormLine Stretch is a distinct, older BD.dry model (predecessor of FineLine); its BD product URLs now 404/redirect to the homepage and BD store search returns no StormLine products (Oct 2026)."
   },
   {
     "id": "black-diamond-fineline-stretch-rain-shell-mens",
@@ -1180,20 +1181,21 @@
     "brand": "Black Diamond",
     "model": "FineLine Stretch Rain Shell",
     "variant": "Men's",
-    "weight_g": 280,
+    "weight_g": 320,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
-    "price_usd": 180,
+    "weight_note": "BD-listed spec weight",
+    "price_usd": 189,
     "specs": {
       "material": "BD.dry 2L stretch",
       "waterproof_rating_mm": 10000,
-      "pit_zips": false,
-      "hood": true
+      "pit_zips": true,
+      "hood": true,
+      "breathability": "10,000 g/m²/24h"
     },
-    "url": "https://blackdiamondequipment.com/en_US/product/fineline-stretch-rain-shell",
+    "url": "https://www.blackdiamondequipment.com/products/mens-fineline-stretch-shell",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Distinct from (and successor to) the discontinued StormLine Stretch Rain Shell."
   },
   {
     "id": "black-diamond-fineline-stretch-rain-shell-womens",
@@ -1210,12 +1212,13 @@
       "material": "BD.dry 2L stretch",
       "waterproof_rating_mm": 10000,
       "pit_zips": false,
-      "hood": true
+      "hood": true,
+      "breathability": "10,000 g/m²/24h"
     },
     "url": "https://www.blackdiamondequipment.com/products/womens-fineline-stretch-shell",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Distinct from (and successor to) the discontinued StormLine Stretch Rain Shell."
   },
   {
     "id": "black-diamond-highline-stretch-shell-mens",
@@ -1231,7 +1234,9 @@
     "specs": {
       "material": "BD.dry 3L stretch",
       "pit_zips": true,
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000 g/m²/24h"
     },
     "url": "https://www.blackdiamondequipment.com/products/mens-highline-stretch-shell",
     "discontinued": false,
@@ -1353,13 +1358,13 @@
     "weight_g": 281,
     "weight_basis": "manufacturer",
     "weight_note": "9.9 oz per Switchback Travel spec table (Oct 2026)",
-    "price_usd": 100,
+    "price_usd": 99.95,
     "specs": {
       "material": "HydroWall 2.5L recycled nylon",
       "pit_zips": true,
       "hood": true
     },
-    "url": null,
+    "url": "https://www.rei.com/product/227614/rei-co-op-rainier-rain-jacket-womens",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -1525,11 +1530,13 @@
     "weight_note": "men's M (40D version)",
     "price_usd": 160,
     "specs": {
-      "material": "Pertex Shield 2.5L 40D recycled nylon",
+      "material": "Pertex Shield 40D ripstop",
       "pit_zips": false,
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000 g/m²/24h"
     },
-    "url": "https://montane.com/products/montane-mens-minimus-lite-waterproof-jacket",
+    "url": "https://montane.com/en-us/products/montane-mens-minimus-lite-waterproof-jacket",
     "discontinued": false,
     "confidence": "high",
     "notes": "USD price from Montane's US store (us.montane.com/products/montane-mens-minimus-lite-waterproof-jacket), checked 2026-10-23."
@@ -1610,14 +1617,14 @@
     "weight_note": "men's, REI lists 1 lb (rounded)",
     "price_usd": 145,
     "specs": {
-      "material": "2L nylon",
+      "material": "100% recycled polyester shell (215 g/m²)",
       "pit_zips": false,
       "hood": true
     },
-    "url": "https://www.rei.com/product/203404",
+    "url": "https://www.cotopaxi.com/products/cielo-rain-jacket-mens",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Cotopaxi lists no garment weight; 454 g (exactly 1 lb) is likely a rounded figure — unverified."
   },
   {
     "id": "ultimate-direction-ultra-jacket-mens",
@@ -1678,9 +1685,11 @@
     "specs": {
       "material": "2.5L",
       "pit_zips": false,
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000 g/m²/24h"
     },
-    "url": "https://www.rei.com/product/223848",
+    "url": "https://janji.com/products/ms-rainrunner-pack-jacket",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -1692,15 +1701,15 @@
     "brand": "Sea to Summit",
     "model": "Ultra-Sil Nano Poncho",
     "variant": null,
-    "weight_g": 145,
+    "weight_g": 130,
     "weight_basis": "manufacturer",
-    "weight_note": "one size",
+    "weight_note": "Sea to Summit tech-spec weight; packed weight 145 g",
     "price_usd": 111.95,
     "specs": {
-      "material": "15D Ultra-Sil nylon",
+      "material": "100% nylon (Ultra-Sil Nano)",
       "hood": true
     },
-    "url": "https://k2.com.au/products/sea-to-summit-ultra-sil-nano-poncho-green",
+    "url": "https://seatosummit.com/products/ultra-sil-nano-poncho",
     "discontinued": false,
     "confidence": "high",
     "notes": "USD price from seatosummit.com (US) product ultra-sil-nano-poncho, checked 2026-10-23."
@@ -1712,15 +1721,15 @@
     "brand": "Sea to Summit",
     "model": "Ultra-Sil Tarp Poncho",
     "variant": "15D",
-    "weight_g": 230,
+    "weight_g": 185,
     "weight_basis": "manufacturer",
-    "weight_note": "one size, 145x265 cm",
+    "weight_note": "Sea to Summit tech-spec weight; packed weight 230 g",
     "price_usd": 134.95,
     "specs": {
-      "material": "15D Ultra-Sil nylon",
+      "material": "100% nylon (Ultra-Sil Nano)",
       "hood": true
     },
-    "url": "https://seatosummit.com.au/collections/outdoor-activities-gear/products/ultra-sil-nano-tarp-poncho",
+    "url": "https://seatosummit.com/products/ultra-sil-nano-tarp-poncho",
     "discontinued": false,
     "confidence": "high",
     "notes": "AU$189.99; doubles as a tarp. USD price from seatosummit.com (US) product ultra-sil-nano-tarp-poncho, checked 2026-10-23."
@@ -1835,14 +1844,16 @@
     "brand": "Rab",
     "model": "Phantom Waterproof Jacket",
     "variant": "Women's",
-    "weight_g": 105,
+    "weight_g": 104,
     "weight_basis": "manufacturer",
-    "weight_note": "Rab listed 3.7 oz / 104.5 g",
+    "weight_note": "Rab US listed weight (Size 10)",
     "price_usd": 225,
     "specs": {
       "material": "Pertex Shield 2.5L",
       "hood": true,
-      "pit_zips": false
+      "pit_zips": false,
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000g/m²/24h"
     },
     "url": "https://rab.equipment/us/womens-phantom-waterproof-jacket",
     "discontinued": false,
@@ -1858,11 +1869,14 @@
     "variant": "Women's",
     "weight_g": 246,
     "weight_basis": "manufacturer",
-    "weight_note": "Montbell UK listed weight",
-    "price_usd": null,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 129,
     "specs": {
-      "material": "DRY-TEC 2-layer",
-      "hood": true
+      "material": "DRY-TEC 2L 70D nylon taffeta",
+      "hood": true,
+      "waterproof_rating_mm": 20000,
+      "breathability": "10,000 g/m²/24h (JIS L-1099 B-1)",
+      "pit_zips": false
     },
     "url": "https://www.montbell.com/us/en/products/detail/2328338",
     "discontinued": false,
@@ -1881,7 +1895,9 @@
     "weight_note": "women's S, Janji-listed 204 g / 7.2 oz",
     "price_usd": 218,
     "specs": {
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000 g/m²/24h"
     },
     "url": "https://janji.com/products/ws-rainrunner-pack-jacket",
     "discontinued": false,
@@ -2099,5 +2115,50 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Covers the wearer and a daypack-sized pack; half zip."
+  },
+  {
+    "id": "montbell-peak-shell-jacket-womens",
+    "category": "rain-jacket",
+    "subcategory": "rain jacket",
+    "brand": "Montbell",
+    "model": "Peak Shell Jacket",
+    "variant": "Women's",
+    "weight_g": 175,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 350,
+    "specs": {
+      "material": "GORE-TEX 3L (ePE) 15D Ballistic Airlight nylon ripstop",
+      "hood": true,
+      "pit_zips": true,
+      "waterproof_rating_mm": 20000,
+      "breathability": "20,000 g/m²/24h (JIS L-1099 B-1)"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2328320",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2328320"
+  },
+  {
+    "id": "montbell-rain-hiker-jacket-mens",
+    "category": "rain-jacket",
+    "subcategory": "rain jacket",
+    "brand": "Montbell",
+    "model": "Rain Hiker Jacket",
+    "variant": "Men's",
+    "weight_g": 269,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 135,
+    "specs": {
+      "material": "DRY-TEC 2L 70D nylon taffeta",
+      "hood": true,
+      "waterproof_rating_mm": 20000,
+      "breathability": "10,000 g/m²/24h (JIS L-1099 B-1)"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2328337",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2328337"
   }
 ]

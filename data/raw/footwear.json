@@ -1973,7 +1973,9 @@
     "specs": {
       "drop_mm": 10,
       "waterproof": false,
-      "gender": "men's"
+      "gender": "men's",
+      "stack_mm": 34,
+      "forefoot_stack_mm": 24
     },
     "url": "https://www.merrell.com/US/en/moab-speed-2/58711M.html",
     "discontinued": false,
@@ -1994,7 +1996,9 @@
     "specs": {
       "drop_mm": 10,
       "waterproof": true,
-      "gender": "men's"
+      "gender": "men's",
+      "stack_mm": 34,
+      "forefoot_stack_mm": 24
     },
     "url": "https://www.merrell.com/US/en/moab-speed-2-gore-tex/58708M.html",
     "discontinued": false,
@@ -2015,7 +2019,9 @@
     "specs": {
       "drop_mm": 10,
       "waterproof": true,
-      "gender": "men's"
+      "gender": "men's",
+      "stack_mm": 34,
+      "forefoot_stack_mm": 24
     },
     "url": "https://www.merrell.com/US/en/moab-speed-2-mid-gore-tex/58707M.html",
     "discontinued": false,
@@ -2035,7 +2041,8 @@
     "price_usd": 145,
     "specs": {
       "waterproof": false,
-      "gender": "men's"
+      "gender": "men's",
+      "drop_mm": 11.5
     },
     "url": "https://www.merrell.com/US/en/moab-3/52481M.html",
     "discontinued": false,
@@ -2055,7 +2062,8 @@
     "price_usd": 165,
     "specs": {
       "waterproof": true,
-      "gender": "men's"
+      "gender": "men's",
+      "drop_mm": 11.5
     },
     "url": "https://www.merrell.com/US/en/moab-3-waterproof/52474M.html",
     "discontinued": false,
@@ -2075,7 +2083,8 @@
     "price_usd": 185,
     "specs": {
       "waterproof": true,
-      "gender": "men's"
+      "gender": "men's",
+      "drop_mm": 11.5
     },
     "url": "https://www.merrell.com/US/en/moab-3-gore-tex/52978M.html",
     "discontinued": false,
@@ -2095,7 +2104,8 @@
     "price_usd": 175,
     "specs": {
       "waterproof": true,
-      "gender": "men's"
+      "gender": "men's",
+      "drop_mm": 11.5
     },
     "url": "https://www.merrell.com/US/en/moab-3-mid-waterproof/52470M.html",
     "discontinued": false,
@@ -2158,7 +2168,9 @@
     "specs": {
       "drop_mm": 4,
       "waterproof": false,
-      "gender": "men's"
+      "gender": "men's",
+      "stack_mm": 23.5,
+      "forefoot_stack_mm": 19.5
     },
     "url": "https://www.merrell.com/US/en/mtl-long-sky-2-matryx/59211M.html",
     "discontinued": false,
@@ -2179,7 +2191,9 @@
     "specs": {
       "drop_mm": 8,
       "waterproof": false,
-      "gender": "men's"
+      "gender": "men's",
+      "stack_mm": 29,
+      "forefoot_stack_mm": 21
     },
     "url": "https://www.merrell.com/US/en/nova-4/60175M.html",
     "discontinued": false,
@@ -2661,14 +2675,14 @@
     "weight_g": 596,
     "weight_basis": "manufacturer",
     "weight_note": "pair; Salomon spec 298 g single shoe x2",
-    "price_usd": 145,
+    "price_usd": 150,
     "specs": {
       "drop_mm": 10,
       "waterproof": false,
       "gender": "men's",
       "stack_mm": 32
     },
-    "url": "https://www.salomon.com/en-us/",
+    "url": "https://www.salomon.com/en-us/product/speedcross-6-lg9212/L49145100",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
@@ -2683,13 +2697,13 @@
     "weight_g": 656,
     "weight_basis": "manufacturer",
     "weight_note": "pair; Salomon spec 328 g single shoe x2",
-    "price_usd": 165,
+    "price_usd": 170,
     "specs": {
       "drop_mm": 10,
       "waterproof": true,
       "gender": "men's"
     },
-    "url": "https://www.salomon.com/en-us/",
+    "url": "https://www.salomon.com/en-us/product/speedcross-6-gore-tex-lg9214/L47584100",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
@@ -2704,13 +2718,13 @@
     "weight_g": 646,
     "weight_basis": "manufacturer",
     "weight_note": "pair; Salomon spec 323 g single shoe x2",
-    "price_usd": 140,
+    "price_usd": 150,
     "specs": {
       "drop_mm": 11,
       "waterproof": false,
       "gender": "men's"
     },
-    "url": "https://www.salomon.com/en-us/",
+    "url": "https://www.salomon.com/en-us/product/xa-pro-3d-v9-li3125/L47882500",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
@@ -2805,18 +2819,18 @@
     "brand": "Brooks",
     "model": "Caldera 8",
     "variant": null,
-    "weight_g": 618,
-    "weight_basis": "estimate",
-    "weight_note": "pair; approx single-shoe weight x2",
+    "weight_g": 601,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; Brooks-listed 10.6 oz / 300.5 g per shoe x2",
     "price_usd": 150,
     "specs": {
       "drop_mm": 6,
       "waterproof": false,
       "gender": "men's"
     },
-    "url": "https://www.brooksrunning.com/",
+    "url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/caldera-8/110440.html",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -3138,15 +3152,16 @@
     "variant": null,
     "weight_g": 510,
     "weight_basis": "manufacturer",
-    "weight_note": "pair; Shopify-listed product weight on bedrocksandals.com (size unspecified, may include packaging)",
+    "weight_note": "Weight is the Shopify per-size variant weight for the smallest size (values scale with size, e.g. 510-624 g); bedrocksandals.com states no net weight, so treat as approximate.",
     "price_usd": 115,
     "specs": {
-      "gender": "unisex"
+      "gender": "unisex",
+      "stack_mm": 14
     },
     "url": "https://www.bedrocksandals.com/products/cairn-evo",
     "discontinued": false,
     "confidence": "medium",
-    "notes": null
+    "notes": "Page lists \"Min Cushioning - 14mm\" sole."
   },
   {
     "id": "bedrock-sandals-cairn-evo-3d-pro",
@@ -3157,15 +3172,16 @@
     "variant": null,
     "weight_g": 533,
     "weight_basis": "manufacturer",
-    "weight_note": "pair; Shopify-listed product weight on bedrocksandals.com (size unspecified, may include packaging)",
+    "weight_note": "Weight is the Shopify per-size variant weight for the smallest size (values scale with size, e.g. 533-652 g); bedrocksandals.com states no net weight, so treat as approximate.",
     "price_usd": 140,
     "specs": {
-      "gender": "unisex"
+      "gender": "unisex",
+      "stack_mm": 16
     },
     "url": "https://www.bedrocksandals.com/products/cairn-evo-3d-pro",
     "discontinued": false,
     "confidence": "medium",
-    "notes": null
+    "notes": "Page lists \"Mid Cushioning - 16mm\" molded footbed."
   },
   {
     "id": "bedrock-sandals-classic-lt",
@@ -3176,7 +3192,7 @@
     "variant": null,
     "weight_g": 255,
     "weight_basis": "manufacturer",
-    "weight_note": "pair; Shopify-listed product weight on bedrocksandals.com (size unspecified, may include packaging)",
+    "weight_note": "Weight is the Shopify per-size variant weight for the smallest size (values scale with size, e.g. 255-374 g); bedrocksandals.com states no net weight, so treat as approximate.",
     "price_usd": 70,
     "specs": {
       "gender": "unisex"
@@ -3307,16 +3323,17 @@
     "brand": "HOKA",
     "model": "Ora Recovery Slide 3",
     "variant": null,
-    "weight_g": 397,
-    "weight_basis": "estimate",
-    "weight_note": "pair; approx single slide x2",
-    "price_usd": 60,
+    "weight_g": 442,
+    "weight_basis": "measured",
+    "weight_note": "pair; Running Warehouse-measured 7.8 oz single shoe (men's 9) x2",
+    "price_usd": 59.95,
     "specs": {
-      "gender": "unisex"
+      "gender": "unisex",
+      "drop_mm": 6
     },
     "url": "https://www.runningwarehouse.com/HOKA_Ora_Recovery_Slide_3/descpage-HOS3U02.html",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Price verified at Running Warehouse; weight estimated."
   },
   {
@@ -3326,16 +3343,16 @@
     "brand": "HOKA",
     "model": "Ora Recovery Flip",
     "variant": null,
-    "weight_g": 329,
-    "weight_basis": "estimate",
-    "weight_note": "pair; approx single flip-flop x2",
-    "price_usd": 60,
+    "weight_g": 294,
+    "weight_basis": "measured",
+    "weight_note": "pair; Running Warehouse-measured 5.2 oz single shoe (men's 9) x2",
+    "price_usd": 59.95,
     "specs": {
       "gender": "men's"
     },
     "url": "https://www.runningwarehouse.com/HOKA_Ora_Recovery_Flip/descpage-HORF1M3.html",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Price verified at Running Warehouse; weight estimated."
   },
   {
@@ -3561,7 +3578,7 @@
     "variant": null,
     "weight_g": 270,
     "weight_basis": "manufacturer",
-    "weight_note": "size S; Hillsound spec",
+    "weight_note": "per pair, size S (259 g XS / 300 g M / 324 g XL)",
     "price_usd": 79.95,
     "specs": {
       "waterproof": true
@@ -3580,7 +3597,7 @@
     "variant": null,
     "weight_g": 362,
     "weight_basis": "manufacturer",
-    "weight_note": "pair, size M; Hillsound spec",
+    "weight_note": "per pair, size M (320 g XS - 402 g XL); heavy-duty bushwhacking gaiter, weight confirmed",
     "price_usd": 104.95,
     "specs": {
       "waterproof": true
@@ -3617,9 +3634,9 @@
     "weight_g": 45,
     "weight_basis": "estimate",
     "weight_note": "pair, approx",
-    "price_usd": 30,
+    "price_usd": 25,
     "specs": {},
-    "url": "https://www.altrarunning.com/",
+    "url": "https://www.altrarunning.com/products/trail-gaiter-al016301",
     "discontinued": false,
     "confidence": "low",
     "notes": "Attaches to Altra GaiterTrap tab."
@@ -3800,9 +3817,9 @@
       "gender": "men's"
     },
     "url": "https://darntough.com/products/mens-merino-wool-nomad-boot-midweight-hiking-socks",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": null
+    "notes": "Tagged \"Discontinued\" in Darn Tough store data (style #1982), Oct 2026."
   },
   {
     "id": "darn-tough-run-micro-crew-ultra-lightweight-cushion-mens",
@@ -3822,7 +3839,7 @@
     "url": "https://darntough.com/products/mens-merino-wool-run-micro-crew-cushioned-ultra-lightweight-running-socks",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Distinct product (style #1071) from Vert Micro Crew (style #1066)."
   },
   {
     "id": "darn-tough-run-quarter-ultra-lightweight-cushion-mens",
@@ -3902,7 +3919,7 @@
     "url": "https://darntough.com/products/mens-merino-wool-vert-micro-crew-cushioned-ultra-lightweight-running-socks",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Distinct product (style #1066) from Run Micro Crew Ultra-Lightweight Cushion (style #1071); not a duplicate."
   },
   {
     "id": "darn-tough-ridge-runner-micro-crew-ultra-lightweight-mens",
@@ -3933,7 +3950,7 @@
     "variant": "Men's",
     "weight_g": 191,
     "weight_basis": "manufacturer",
-    "weight_note": "per pair; product weight listed in darntough.com store data (size unspecified)",
+    "weight_note": "one pair; Darn Tough per-size product weights 191-205 g (smallest size); heavyweight full-cushion OTC knit, not a multi-pack ($35 single pair)",
     "price_usd": 35,
     "specs": {
       "material": "merino wool blend",
@@ -4055,7 +4072,7 @@
     "weight_note": "per pair, approx (size M)",
     "price_usd": 25,
     "specs": {
-      "material": "merino wool blend",
+      "material": "58% Wool-Merino 40% Nylon 2% Elastane",
       "gender": "men's"
     },
     "url": "https://www.smartwool.com/products/hike-crew-socks-sw001614",
@@ -4075,7 +4092,7 @@
     "weight_note": "per pair, approx (size M)",
     "price_usd": 27,
     "specs": {
-      "material": "merino wool blend",
+      "material": "63% Merino Wool, 35% Nylon, 2% Elastane",
       "gender": "men's"
     },
     "url": "https://www.smartwool.com/products/hike-crew-socks-sw001618",
@@ -4095,7 +4112,7 @@
     "weight_note": "per pair, approx",
     "price_usd": 23,
     "specs": {
-      "material": "merino wool blend",
+      "material": "57% Merino Wool 41% Nylon 2% Elastane",
       "gender": "men's"
     },
     "url": "https://www.smartwool.com/products/hike-ankle-socks-sw001611",
@@ -4115,7 +4132,7 @@
     "weight_note": "per pair, approx",
     "price_usd": 17,
     "specs": {
-      "material": "merino wool blend",
+      "material": "60% Merino Wool 38% Nylon 1% Elastane 1% Polyester",
       "gender": "unisex"
     },
     "url": "https://www.smartwool.com/products/hike-classic-edition-liner-crew-socks-sw001650",
@@ -4135,7 +4152,8 @@
     "weight_note": "per pair, approx",
     "price_usd": 19.95,
     "specs": {
-      "gender": "men's"
+      "gender": "men's",
+      "material": "56% merino / 39% nylon / 2% recycled nylon / 3% spandex"
     },
     "url": "https://www.runningwarehouse.com/Smartwool_Run_Targeted_Cushion_Ankle_Socks/descpage-SWTCA5.html",
     "discontinued": false,
@@ -4208,9 +4226,9 @@
     "brand": "Feetures",
     "model": "Trail Max Cushion Quarter",
     "variant": null,
-    "weight_g": 45,
-    "weight_basis": "estimate",
-    "weight_note": "per pair, approx",
+    "weight_g": 68,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; size M per-size Shopify variant weight on brand store (weights scale by size: 64 g S - 73 g XL); not stated in product copy",
     "price_usd": 19,
     "specs": {
       "gender": "unisex"
@@ -4227,9 +4245,9 @@
     "brand": "Feetures",
     "model": "Trail Max Cushion Mini Crew",
     "variant": null,
-    "weight_g": 50,
-    "weight_basis": "estimate",
-    "weight_note": "per pair, approx",
+    "weight_g": 77,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; size M per-size Shopify variant weight on brand store (weights scale by size: 73 g S - 86 g XL); not stated in product copy",
     "price_usd": 21,
     "specs": {
       "gender": "unisex"
@@ -4389,7 +4407,8 @@
     "weight_note": "per pair, approx",
     "price_usd": 17.95,
     "specs": {
-      "gender": "unisex"
+      "gender": "unisex",
+      "material": "65% Drymax olefin / 20% polyester / 8% nylon / 7% elastane"
     },
     "url": "https://www.runningwarehouse.com/Drymax_Speedgoat_Lite_Trail_Running_Crew_Socks/descpage-DRLSPDC.html",
     "discontinued": false,
@@ -4577,14 +4596,14 @@
     "brand": "Hillsound",
     "model": "FreeSteps6 Crampons",
     "variant": null,
-    "weight_g": 340,
+    "weight_g": 364,
     "weight_basis": "manufacturer",
-    "weight_note": "pair, size M; Hillsound spec",
+    "weight_note": "pair, size M (12.84 oz), excluding carrying case",
     "price_usd": 64.95,
     "specs": {},
     "url": "https://www.hillsound.com/products/freesteps6-traction-device",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Hillsound says \"just over 12 ounces\" per pair (size M)."
   },
   {
@@ -4782,7 +4801,7 @@
     "weight_g": 538,
     "weight_basis": "manufacturer",
     "weight_note": "pair; ~269 g men's single shoe x2 (UK retailer guide; other listings 262 g)",
-    "price_usd": null,
+    "price_usd": 170,
     "specs": {
       "drop_mm": 6,
       "stack_mm": 34,

@@ -450,7 +450,7 @@
     "weight_g": 48,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 19.95,
+    "price_usd": 22.95,
     "specs": {
       "material": "titanium",
       "capacity_ml": 450,
@@ -459,7 +459,7 @@
     "url": "https://www.toaksoutdoor.com/products/cup-450-l",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Regular price $22.95; brand store selling at $19.95 (Oct 2026)."
   },
   {
     "id": "toaks-light-450-cup-lid",
@@ -471,7 +471,7 @@
     "weight_g": 62,
     "weight_basis": "manufacturer",
     "weight_note": "with lid; 48 g without",
-    "price_usd": 23.95,
+    "price_usd": 26.95,
     "specs": {
       "material": "titanium",
       "capacity_ml": 450
@@ -479,7 +479,7 @@
     "url": "https://www.toaksoutdoor.com/products/cup-450-l-c",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Regular price $26.95; brand store selling at $23.95 (Oct 2026)."
   },
   {
     "id": "toaks-450-cup",
@@ -1153,7 +1153,7 @@
     "url": "https://www.firemaplegear.com/products/alti-titanium-pot-900ml",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Brand store price $79.95 (Oct 2026); store also shows a compare-at price of $89.95."
   },
   {
     "id": "fire-maple-frost-900",
@@ -1173,7 +1173,7 @@
     "url": "https://www.firemaplegear.com/products/frost-0-9l-aluminium-pot",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Brand store price $23.95 (Oct 2026); store also shows a compare-at price of $32.10."
   },
   {
     "id": "fire-maple-frost-kettle-0-8",
@@ -1193,7 +1193,7 @@
     "url": "https://www.firemaplegear.com/products/frost-aluminium-kettle-0-8l",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Brand store price $20.36 (Oct 2026); store also shows a compare-at price of $23.95."
   },
   {
     "id": "soto-new-river-pot",
@@ -1282,9 +1282,9 @@
     "brand": "SOTO",
     "model": "Titanium Pot 750ml",
     "variant": null,
-    "weight_g": 95,
+    "weight_g": 90,
     "weight_basis": "manufacturer",
-    "weight_note": "pot 60 g + titanium lid 15 g + aluminum lifter 20 g (pot body alone 60 g)",
+    "weight_note": "pot 58 g + lid 13 g + pot lifter 19 g",
     "price_usd": 41.95,
     "specs": {
       "material": "titanium",
@@ -1302,9 +1302,9 @@
     "brand": "SOTO",
     "model": "Titanium Pot 1100ml",
     "variant": null,
-    "weight_g": 112,
+    "weight_g": 110,
     "weight_basis": "manufacturer",
-    "weight_note": "pot 62 g + titanium lid 30 g + aluminum lifter 20 g (pot body alone 62 g)",
+    "weight_note": "pot 62 g + lid 29 g + pot lifter 19 g",
     "price_usd": 44.95,
     "specs": {
       "material": "titanium",
@@ -1491,7 +1491,7 @@
     },
     "url": "https://snowpeak.com/products/trek-700-titanium",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1501,9 +1501,9 @@
     "brand": "Snow Peak",
     "model": "Trek 900 Titanium",
     "variant": null,
-    "weight_g": 193,
+    "weight_g": 175,
     "weight_basis": "manufacturer",
-    "weight_note": "pot + lid/pan; weight recalled",
+    "weight_note": "pot + lid/pan (spec 6.2 oz)",
     "price_usd": 54.95,
     "specs": {
       "material": "titanium",
@@ -1511,7 +1511,7 @@
     },
     "url": "https://snowpeak.com/products/trek-900-titanium-cookset",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1641,9 +1641,9 @@
     "brand": "Snow Peak",
     "model": "Ti-Double 450 Mug",
     "variant": null,
-    "weight_g": 110,
+    "weight_g": 104,
     "weight_basis": "manufacturer",
-    "weight_note": "weight recalled; price verified",
+    "weight_note": "spec 4.6 oz",
     "price_usd": 49.95,
     "specs": {
       "material": "titanium",
@@ -1651,7 +1651,7 @@
     },
     "url": "https://snowpeak.com/products/titanium-double-450-mug",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1800,9 +1800,9 @@
     "brand": "Primus",
     "model": "Lite XL Pot",
     "variant": null,
-    "weight_g": 200,
+    "weight_g": 325,
     "weight_basis": "manufacturer",
-    "weight_note": "weight recalled",
+    "weight_note": "Primus spec table",
     "price_usd": 79.99,
     "specs": {
       "material": "hard-anodized aluminum",
@@ -1810,7 +1810,7 @@
     },
     "url": "https://www.primus.us/products/lite-xl-pot-1-0-l-34-oz",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1820,9 +1820,9 @@
     "brand": "Primus",
     "model": "LiTech Coffee/Tea Kettle",
     "variant": "0.9 L",
-    "weight_g": 180,
+    "weight_g": 178,
     "weight_basis": "manufacturer",
-    "weight_note": "weight recalled",
+    "weight_note": "Primus spec table",
     "price_usd": 29.99,
     "specs": {
       "material": "hard-anodized aluminum",
@@ -1830,7 +1830,7 @@
     },
     "url": "https://www.primus.us/products/litech-coffee-tea-kettle-0-9l",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1840,9 +1840,9 @@
     "brand": "Primus",
     "model": "Essential Pot Set",
     "variant": "1.3 L",
-    "weight_g": 330,
+    "weight_g": 503,
     "weight_basis": "manufacturer",
-    "weight_note": "weight recalled",
+    "weight_note": "Primus spec table (pot set)",
     "price_usd": 39.95,
     "specs": {
       "material": "hard-anodized aluminum",
@@ -1850,7 +1850,7 @@
     },
     "url": "https://www.primus.us/products/essential-pot-set-1-3l",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1860,17 +1860,17 @@
     "brand": "Evernew",
     "model": "Titanium Mug Pot 500",
     "variant": null,
-    "weight_g": 77,
+    "weight_g": 74,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "Ti Ultralight Mug Pot 500ml (ECA266), 2.6 oz",
     "price_usd": null,
     "specs": {
       "material": "titanium",
       "capacity_ml": 500
     },
-    "url": null,
+    "url": "https://www.evernewamerica.com/ultralight-series/",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1880,17 +1880,17 @@
     "brand": "Evernew",
     "model": "Titanium Ultralight Pot 900",
     "variant": null,
-    "weight_g": 121,
+    "weight_g": 115,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "Ti Ultralight Pot 900ml (ECA252), 4.1 oz",
     "price_usd": null,
     "specs": {
       "material": "titanium",
       "capacity_ml": 900
     },
-    "url": null,
+    "url": "https://www.evernewamerica.com/ultralight-series/",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1900,17 +1900,17 @@
     "brand": "Evernew",
     "model": "Titanium Ultralight Pot 1.3L",
     "variant": null,
-    "weight_g": 151,
+    "weight_g": 130,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "Ti Ultralight Pot 1300ml (ECA253), 4.6 oz",
     "price_usd": null,
     "specs": {
       "material": "titanium",
       "capacity_ml": 1300
     },
-    "url": null,
+    "url": "https://www.evernewamerica.com/ultralight-series/",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -2063,15 +2063,15 @@
     "weight_g": 275,
     "weight_basis": "manufacturer",
     "weight_note": "1.0 L Tall FluxRing spare cup, Jetboil spec 9.7 oz / 275 g (with lid and cozy)",
-    "price_usd": null,
+    "price_usd": 64.99,
     "specs": {
       "material": "hard-anodized aluminum",
       "capacity_ml": 1000
     },
-    "url": null,
+    "url": "https://www.gearx.com/products/jetboil-1l-fluxring-tall-companion-cup-276zz-carbon",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Replacement/extra cup for Flash/Zip systems."
+    "notes": "Sold as the 1L FluxRing Tall Companion Cup; weight not stated by retailer."
   },
   {
     "id": "silverant-titanium-3-piece-cookset",

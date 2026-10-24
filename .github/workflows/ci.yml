@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # Fails on dropped records, duplicate ids, broken aliases or unreadable raw files.
+      - run: npm run data:strict
+      # Type-check + production build (prebuild regenerates the data bundle).
+      - run: npm run build
+      # No-op until a test script exists.
+      - run: npm test --if-present

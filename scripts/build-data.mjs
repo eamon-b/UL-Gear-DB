@@ -336,3 +336,19 @@ for (const d of report.duplicate_ids.slice(0, 25)) console.log(`    DUP  ${d.id}
 for (const d of report.possible_duplicates.slice(0, 10)) console.log(`    SAME? ${d.a}  ~  ${d.b}`);
 for (const d of report.aliases.ignored) console.log(`    ALIAS ignored ${d.from} -> ${d.to}: ${d.reason}`);
 console.log(`\n  Wrote ${path.relative(ROOT, OUT_FILE)} (${(fs.statSync(OUT_FILE).size / 1024).toFixed(1)} KB) and ${path.relative(ROOT, REPORT_FILE)}\n`);
+
+// --strict (used in CI): fail on problems that would otherwise only show up in the report.
+if (process.argv.includes('--strict')) {
+  const problems = [
+    ...report.files.filter((f) => f.error).map((f) => `${f.file}: ${f.error}`),
+    ...report.dropped.map((d) => `dropped ${d.where} ${d.id ?? ''}: ${d.reason}`),
+    ...report.duplicate_ids.map((d) => `duplicate id ${d.id} at ${d.where}`),
+    ...report.aliases.ignored.map((d) => `alias ${d.from} -> ${d.to}: ${d.reason}`),
+    ...(report.used_fixtures ? ['no real data: fell back to fixtures'] : []),
+  ];
+  if (problems.length) {
+    console.error(`  --strict: ${problems.length} data problem(s):`);
+    for (const p of problems) console.error(`    ${p}`);
+    process.exit(1);
+  }
+}

@@ -173,7 +173,7 @@
     "variant": "32 oz",
     "weight_g": 177,
     "weight_basis": "manufacturer",
-    "weight_note": "empty (6.25 oz recalled)",
+    "weight_note": "empty with cap, 6.25 oz",
     "price_usd": 16.99,
     "specs": {
       "capacity_l": 0.95,
@@ -181,9 +181,9 @@
       "material": "Tritan Renew",
       "thread": "63mm"
     },
-    "url": "https://nalgene.com/",
+    "url": "https://nalgene.com/product/32oz-wide-mouth-bottle/",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Price seen at EMS."
   },
   {
@@ -193,18 +193,18 @@
     "brand": "Nalgene",
     "model": "Narrow Mouth Sustain",
     "variant": "32 oz",
-    "weight_g": 176,
+    "weight_g": 177,
     "weight_basis": "manufacturer",
-    "weight_note": "empty",
+    "weight_note": "empty with cap, 6.25 oz",
     "price_usd": 16.99,
     "specs": {
       "capacity_l": 0.95,
       "collapsible": false,
       "material": "Tritan Renew"
     },
-    "url": "https://nalgene.com/",
+    "url": "https://nalgene.com/product/32oz-narrow-mouth-bottle/",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Price seen at EMS."
   },
   {
@@ -214,20 +214,20 @@
     "brand": "Nalgene",
     "model": "Wide Mouth HDPE",
     "variant": "32 oz",
-    "weight_g": 105,
+    "weight_g": 106,
     "weight_basis": "manufacturer",
-    "weight_note": "empty",
-    "price_usd": null,
+    "weight_note": "empty with cap, 3.75 oz",
+    "price_usd": 11.99,
     "specs": {
       "capacity_l": 0.95,
       "collapsible": false,
       "material": "HDPE",
       "thread": "63mm"
     },
-    "url": "https://nalgene.com/",
+    "url": "https://nalgene.com/product/32oz-wide-mouth-ultralite-bottle/",
     "discontinued": false,
-    "confidence": "medium",
-    "notes": "Translucent, softer and noticeably lighter than Tritan; UL-favorite Nalgene."
+    "confidence": "high",
+    "notes": "Sold by Nalgene as the 32oz Wide Mouth Ultralite (HDPE). Translucent, softer and noticeably lighter than Tritan; UL-favorite Nalgene."
   },
   {
     "id": "nalgene-wide-mouth-16oz-sustain",
@@ -236,18 +236,18 @@
     "brand": "Nalgene",
     "model": "Wide Mouth Sustain",
     "variant": "16 oz",
-    "weight_g": 113,
+    "weight_g": 89,
     "weight_basis": "manufacturer",
-    "weight_note": "empty",
-    "price_usd": null,
+    "weight_note": "empty with cap, 3.125 oz",
+    "price_usd": 14.99,
     "specs": {
       "capacity_l": 0.47,
       "collapsible": false,
       "material": "Tritan Renew"
     },
-    "url": "https://nalgene.com/",
+    "url": "https://nalgene.com/product/16oz-wide-mouth-bottle/",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -257,18 +257,18 @@
     "brand": "Nalgene",
     "model": "Wide Mouth Sustain Silo",
     "variant": "48 oz",
-    "weight_g": 215,
+    "weight_g": 209,
     "weight_basis": "manufacturer",
-    "weight_note": "empty",
+    "weight_note": "empty with cap, 7.375 oz",
     "price_usd": 19.99,
     "specs": {
       "capacity_l": 1.42,
       "collapsible": false,
       "material": "Tritan Renew"
     },
-    "url": "https://nalgene.com/",
+    "url": "https://nalgene.com/product/48oz-wide-mouth-silo-bottle/",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": "Price seen at EMS."
   },
   {
@@ -278,17 +278,17 @@
     "brand": "Nalgene",
     "model": "Flexible Cantene",
     "variant": "48 oz",
-    "weight_g": 45,
+    "weight_g": 64,
     "weight_basis": "manufacturer",
-    "weight_note": "empty",
-    "price_usd": null,
+    "weight_note": "empty with cap, 2.25 oz",
+    "price_usd": 19.32,
     "specs": {
       "capacity_l": 1.42,
       "collapsible": true
     },
-    "url": "https://nalgene.com/",
+    "url": "https://nalgene.com/product/48oz-nalgene-cantene/",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -307,7 +307,7 @@
       "collapsible": true,
       "thread": "28mm"
     },
-    "url": "https://garagegrowngear.com/products/softbottle-1l-by-platypus",
+    "url": "https://cascadedesigns.com/products/softbottle",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -329,9 +329,9 @@
       "thread": "28mm"
     },
     "url": "https://www.platypusbreathe.com/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "medium",
-    "notes": null
+    "notes": "Only the 1.0 L SoftBottle is listed on cascadedesigns.com (store search, Oct 2026)."
   },
   {
     "id": "platypus-platy-2l",
@@ -340,7 +340,7 @@
     "brand": "Platypus",
     "model": "Platy",
     "variant": "2L",
-    "weight_g": 37,
+    "weight_g": 36,
     "weight_basis": "manufacturer",
     "weight_note": "empty with cap",
     "price_usd": 19.95,
@@ -349,7 +349,7 @@
       "collapsible": true,
       "thread": "28mm"
     },
-    "url": "https://garagegrowngear.com/products/platy-2l-bottle-collapsible-bottle-by-platypus",
+    "url": "https://cascadedesigns.com/products/platy-2l-bottle",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -361,17 +361,17 @@
     "brand": "Platypus",
     "model": "Big Zip EVO",
     "variant": "2L",
-    "weight_g": 170,
+    "weight_g": 171,
     "weight_basis": "manufacturer",
     "weight_note": "reservoir + drink tube",
-    "price_usd": 39.95,
+    "price_usd": 54.95,
     "specs": {
       "capacity_l": 2,
       "collapsible": true
     },
-    "url": "https://www.platypusbreathe.com/",
+    "url": "https://cascadedesigns.com/products/big-zip-evo",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -381,17 +381,17 @@
     "brand": "Platypus",
     "model": "Big Zip EVO",
     "variant": "3L",
-    "weight_g": 181,
+    "weight_g": 184,
     "weight_basis": "manufacturer",
-    "weight_note": "reservoir + drink tube (6.4 oz recalled)",
-    "price_usd": 44.95,
+    "weight_note": "reservoir + drink tube",
+    "price_usd": 59.95,
     "specs": {
       "capacity_l": 3,
       "collapsible": true
     },
-    "url": "https://www.platypusbreathe.com/",
+    "url": "https://cascadedesigns.com/products/big-zip-evo",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -401,17 +401,17 @@
     "brand": "Platypus",
     "model": "Hoser",
     "variant": "3L",
-    "weight_g": 113,
+    "weight_g": 108,
     "weight_basis": "manufacturer",
     "weight_note": "reservoir + drink tube",
-    "price_usd": 29.95,
+    "price_usd": 39.95,
     "specs": {
       "capacity_l": 3,
       "collapsible": true
     },
-    "url": "https://www.platypusbreathe.com/",
+    "url": "https://cascadedesigns.com/products/hoser-reservoir",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": "Minimalist bladder with threaded cap."
   },
   {
@@ -451,9 +451,9 @@
       "collapsible": true,
       "thread": "28mm"
     },
-    "url": "https://evernewamerica.com/",
+    "url": "https://www.evernewamerica.com/hydration/",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -463,7 +463,7 @@
     "brand": "Evernew",
     "model": "Water Carry",
     "variant": "900ml",
-    "weight_g": 30,
+    "weight_g": 29,
     "weight_basis": "manufacturer",
     "weight_note": "empty with cap",
     "price_usd": null,
@@ -472,9 +472,9 @@
       "collapsible": true,
       "thread": "28mm"
     },
-    "url": "https://evernewamerica.com/",
+    "url": "https://www.evernewamerica.com/hydration/",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1114,16 +1114,16 @@
     "weight_g": 31,
     "weight_basis": "estimate",
     "weight_note": "empty pouch",
-    "price_usd": null,
+    "price_usd": 10.49,
     "specs": {
       "capacity_l": 1,
       "collapsible": true,
       "thread": "28mm"
     },
-    "url": "https://www.sawyer.com/",
+    "url": "https://www.sawyer.com/product/32-oz-squeezable-pouches-set-of-3",
     "discontinued": false,
     "confidence": "medium",
-    "notes": "Notorious for bursting at seams; many hikers swap to CNOC/Evernew."
+    "notes": "Sold as SP113 set of 3 for $10.49 (price is for the set); Sawyer lists 4.9 oz for the set. Notorious for bursting at seams; many hikers swap to CNOC/Evernew."
   },
   {
     "id": "sawyer-squeeze-pouch-64oz",
@@ -1135,16 +1135,16 @@
     "weight_g": 43,
     "weight_basis": "estimate",
     "weight_note": "empty pouch",
-    "price_usd": null,
+    "price_usd": 10.49,
     "specs": {
       "capacity_l": 2,
       "collapsible": true,
       "thread": "28mm"
     },
-    "url": "https://www.sawyer.com/",
+    "url": "https://www.sawyer.com/product/64-oz-squeezable-pouches-set-of-2",
     "discontinued": false,
     "confidence": "low",
-    "notes": null
+    "notes": "Sold as SP114 set of 2 for $10.49 (price is for the set); Sawyer lists 3.84 oz for the set."
   },
   {
     "id": "hydro-flask-32oz-wide-mouth",
@@ -1155,16 +1155,16 @@
     "variant": "32 oz",
     "weight_g": 431,
     "weight_basis": "manufacturer",
-    "weight_note": "empty with flex cap",
+    "weight_note": "15.2 oz per spec listing",
     "price_usd": 44.95,
     "specs": {
       "capacity_l": 0.95,
       "collapsible": false,
       "material": "insulated stainless steel"
     },
-    "url": "https://www.hydroflask.com/",
+    "url": "https://www.gearx.com/products/hydro-flask-32-oz-wide-mouth-bottle-1-hcuaz-agave2",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1183,10 +1183,10 @@
       "collapsible": false,
       "material": "insulated stainless steel"
     },
-    "url": "https://www.hydroflask.com/",
+    "url": "https://www.gearx.com/products/hydro-flask-21-oz-standard-mouth-1-1-a56jz-agave",
     "discontinued": false,
     "confidence": "low",
-    "notes": null
+    "notes": "List price $34.95 confirmed at GearX (Oct 2026); weight not stated there."
   },
   {
     "id": "osprey-hydraulics-lt-2-5l",
@@ -1198,15 +1198,15 @@
     "weight_g": 181,
     "weight_basis": "manufacturer",
     "weight_note": "reservoir + tube + valve",
-    "price_usd": 42,
+    "price_usd": 44,
     "specs": {
       "capacity_l": 2.5,
       "collapsible": true
     },
-    "url": "https://www.osprey.com/",
+    "url": "https://www.neptunemountaineering.com/products/hydraulics-light-2-5l-reservoir",
     "discontinued": false,
     "confidence": "low",
-    "notes": null
+    "notes": "Price per Neptune Mountaineering (Oct 2026); retailer lists approx. 6.5 oz."
   },
   {
     "id": "osprey-hydraulics-3l",
@@ -1218,15 +1218,15 @@
     "weight_g": 280,
     "weight_basis": "manufacturer",
     "weight_note": "reservoir + tube + valve, with stiffener",
-    "price_usd": 48,
+    "price_usd": 52,
     "specs": {
       "capacity_l": 3,
       "collapsible": true
     },
-    "url": "https://www.osprey.com/",
+    "url": "https://www.neptunemountaineering.com/products/hydraulics-3l-reservoir",
     "discontinued": false,
     "confidence": "low",
-    "notes": null
+    "notes": "Price per Neptune Mountaineering (Oct 2026)."
   },
   {
     "id": "camelbak-crux-3l",
@@ -1246,7 +1246,7 @@
     "url": "https://www.camelbak.com/",
     "discontinued": false,
     "confidence": "medium",
-    "notes": "Price seen at EMS."
+    "notes": "GearX lists the Crux 1.5L reservoir at $36 / 7 oz; 3L not re-checked."
   },
   {
     "id": "camelbak-crux-2l",
@@ -1278,16 +1278,16 @@
     "weight_g": 33,
     "weight_basis": "manufacturer",
     "weight_note": "Salomon spec 33 g (42 mm)",
-    "price_usd": 30,
+    "price_usd": 22,
     "specs": {
       "capacity_l": 0.5,
       "collapsible": true,
       "thread": "42mm"
     },
-    "url": "https://www.salomon.com/",
+    "url": "https://www.neptunemountaineering.com/products/soft-flack-500ml",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
+    "notes": "Price per Neptune Mountaineering (Oct 2026)."
   },
   {
     "id": "salomon-soft-flask-250ml",
@@ -1299,16 +1299,16 @@
     "weight_g": 22,
     "weight_basis": "manufacturer",
     "weight_note": "empty with valve cap",
-    "price_usd": 25,
+    "price_usd": 20,
     "specs": {
       "capacity_l": 0.25,
       "collapsible": true,
-      "thread": "42mm"
+      "thread": "28mm"
     },
-    "url": "https://www.salomon.com/",
+    "url": "https://www.neptunemountaineering.com/products/soft-flask-250ml",
     "discontinued": false,
     "confidence": "low",
-    "notes": null
+    "notes": "Retailer lists it as SOFT FLASK 250ml/8oz 28 (28 mm cap). Price per Neptune Mountaineering (Oct 2026)."
   },
   {
     "id": "silverant-titanium-800ml-screw-top-clip-bottle",

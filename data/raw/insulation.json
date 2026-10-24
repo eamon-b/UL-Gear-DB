@@ -145,7 +145,8 @@
     "specs": {
       "fill": "down",
       "fill_power": 900,
-      "fill_weight_g": 126
+      "fill_weight_g": 126,
+      "hood": false
     },
     "url": "https://featheredfriends.com/products/helios-down-insulated-pants",
     "discontinued": false,
@@ -166,7 +167,8 @@
     "specs": {
       "fill": "down",
       "fill_power": 800,
-      "fill_weight_g": 65
+      "fill_weight_g": 65,
+      "hood": false
     },
     "url": "https://featheredfriends.com/products/feathered-friends-down-booties",
     "discontinued": false,
@@ -667,7 +669,8 @@
     "price_usd": 125,
     "specs": {
       "fill": "fleece",
-      "material": "Mori 80 composite filament pile"
+      "material": "Mori 80 composite filament pile",
+      "hood": false
     },
     "url": "https://senchidesigns.com/products/mori-legging",
     "discontinued": false,
@@ -1081,7 +1084,8 @@
     "price_usd": 229,
     "specs": {
       "fill": "synthetic",
-      "insulation": "FullRange"
+      "insulation": "FullRange",
+      "hood": false
     },
     "url": "https://featheredfriends.com/products/patagonia-nano-air-light-bottoms-mens",
     "discontinued": false,
@@ -1242,14 +1246,15 @@
     "variant": "Men's",
     "weight_g": 252,
     "weight_basis": "manufacturer",
-    "weight_note": "retailer-listed (Feathered Friends), size not stated",
+    "weight_note": "Rab-listed 8.8 oz / 252 g (size M)",
     "price_usd": 355,
     "specs": {
       "fill": "down",
       "fill_power": 900,
-      "hood": false
+      "hood": false,
+      "fill_weight_g": 80
     },
-    "url": "https://featheredfriends.com/products/rab-mythic-alpine-light-jacket-mens",
+    "url": "https://rab.equipment/us/mythic-alpine-light-jacket",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -1284,7 +1289,7 @@
     "variant": "Men's",
     "weight_g": 477,
     "weight_basis": "manufacturer",
-    "weight_note": "retailer-listed (Feathered Friends), size not stated",
+    "weight_note": "Rab-listed 16.8 oz / 477 g (size M)",
     "price_usd": 380,
     "specs": {
       "fill": "down",
@@ -1292,7 +1297,7 @@
       "fill_weight_g": 179,
       "hood": true
     },
-    "url": "https://featheredfriends.com/products/rab-electron-pro-down-jacket-mens",
+    "url": "https://rab.equipment/us/mens-electron-pro-down-jacket",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -1310,7 +1315,8 @@
     "price_usd": 240,
     "specs": {
       "fill": "synthetic",
-      "insulation": "Stratus 100 g/m2"
+      "insulation": "Stratus 100 g/m2",
+      "hood": false
     },
     "url": "https://featheredfriends.com/products/rab-photon-pants",
     "discontinued": false,
@@ -1477,7 +1483,8 @@
     "price_usd": 95,
     "specs": {
       "fill": "fleece",
-      "material": "Polartec Alpha Direct 60"
+      "material": "Polartec Alpha Direct 60",
+      "hood": false
     },
     "url": "https://www.garagegrowngear.com/products/alpha-pants-by-farpointe-outdoor-gear",
     "discontinued": false,
@@ -1497,7 +1504,8 @@
     "price_usd": 95,
     "specs": {
       "fill": "fleece",
-      "material": "Polartec Alpha Direct 90"
+      "material": "Polartec Alpha Direct 90",
+      "hood": false
     },
     "url": "https://www.garagegrowngear.com/products/alpha-pants-by-farpointe-outdoor-gear",
     "discontinued": false,
@@ -1517,7 +1525,8 @@
     "price_usd": 105,
     "specs": {
       "fill": "fleece",
-      "material": "Pontetorto TecnoCore wool blend"
+      "material": "Pontetorto TecnoCore wool blend",
+      "hood": false
     },
     "url": "https://www.garagegrowngear.com/products/tecnowool-camp-pants-by-farpointe-outdoor-gear",
     "discontinued": false,
@@ -1573,16 +1582,17 @@
     "brand": "Black Diamond",
     "model": "Deploy Down 0.5 Pullover Hoody",
     "variant": "Men's",
-    "weight_g": 148,
+    "weight_g": 150,
     "weight_basis": "manufacturer",
-    "weight_note": "size M (Garage Grown Gear listing)",
+    "weight_note": "BD listed weight",
     "price_usd": 499,
     "specs": {
       "fill": "down",
       "fill_power": 1000,
-      "hood": true
+      "hood": true,
+      "fill_weight_g": 47
     },
-    "url": "https://www.garagegrowngear.com/products/mens-deploy-down-hoody-by-black-diamond",
+    "url": "https://www.blackdiamondequipment.com/products/mens-deploy-down-0-5-pullover-hoody",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -1596,14 +1606,15 @@
     "variant": "Women's",
     "weight_g": 138,
     "weight_basis": "manufacturer",
-    "weight_note": "size M (Garage Grown Gear listing)",
+    "weight_note": "BD listed weight",
     "price_usd": 499,
     "specs": {
       "fill": "down",
       "fill_power": 1000,
-      "hood": true
+      "hood": true,
+      "fill_weight_g": 43
     },
-    "url": "https://www.garagegrowngear.com/products/womens-deploy-down-hoody-by-black-diamond",
+    "url": "https://www.blackdiamondequipment.com/products/womens-deploy-down-0-5-pullover-hoody",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -1621,7 +1632,9 @@
     "price_usd": 279,
     "specs": {
       "fill": "down",
-      "hood": false
+      "hood": false,
+      "fill_power": 850,
+      "fill_weight_g": 102
     },
     "url": "https://www.garagegrowngear.com/products/mens-tarn-down-jacket-by-katabatic-gear",
     "discontinued": false,
@@ -1641,7 +1654,9 @@
     "price_usd": 309,
     "specs": {
       "fill": "down",
-      "hood": true
+      "hood": true,
+      "fill_power": 850,
+      "fill_weight_g": 159
     },
     "url": "https://www.garagegrowngear.com/products/mens-tincup-down-jacket-by-katabatic-gear",
     "discontinued": false,
@@ -1661,7 +1676,8 @@
     "price_usd": 90,
     "specs": {
       "fill": "down",
-      "fill_power": 800
+      "fill_power": 800,
+      "hood": false
     },
     "url": "https://www.garagegrowngear.com/products/flash-down-booties-by-western-mountaineering",
     "discontinued": false,
@@ -1849,7 +1865,8 @@
     "price_usd": 199,
     "specs": {
       "fill": "down",
-      "fill_power": 800
+      "fill_power": 800,
+      "hood": false
     },
     "url": "https://www.montbell.co.uk/products/mens-superior-down-pants-black",
     "discontinued": false,
@@ -1869,7 +1886,8 @@
     "price_usd": 140,
     "specs": {
       "fill": "synthetic",
-      "insulation": "Exceloft"
+      "insulation": "Exceloft",
+      "hood": false
     },
     "url": "https://www.montbell.co.uk/products/u-l-thermawrap-pants-taupe",
     "discontinued": false,
@@ -2078,12 +2096,13 @@
     "price_usd": 119,
     "specs": {
       "fill": "down",
-      "hood": false
+      "hood": false,
+      "fill_power": 660
     },
     "url": "https://www.decathlon.com/products/mens-hiking-sleeveless-padded-waistcoat-x-warm",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Decathlon lists fill power as 660 cuin, 85/15 down/feather."
   },
   {
     "id": "decathlon-forclaz-mt100-down-puffer-jacket-womens",
@@ -2095,15 +2114,16 @@
     "weight_g": 260,
     "weight_basis": "manufacturer",
     "weight_note": "manufacturer listed",
-    "price_usd": 100,
+    "price_usd": 99.99,
     "specs": {
       "fill": "down",
-      "hood": false
+      "hood": false,
+      "fill_power": 800
     },
-    "url": "https://www.decathlon.com/products/forclaz-mens-backpacking-down-jacket-266-f-mt100-black-356260-fw25",
+    "url": "https://www.decathlon.com/products/forclaz-mountain-backpacking-down-jacket-mt100-335256",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Women's weight verified; men's version also sold at same price"
+    "notes": "Decathlon lists 800 cuin down; 9.2 oz (260 g)."
   },
   {
     "id": "decathlon-simond-mt500-hooded-down-puffer-jacket-mens",
@@ -2124,7 +2144,7 @@
     "url": "https://www.decathlon.com/products/men-s-hooded-down-jacket-for-trekking-mt500-10-c-brown",
     "discontinued": false,
     "confidence": "low",
-    "notes": "Price verified; weight and fill power from memory"
+    "notes": "Price and 800 cuin 90/10 down verified on decathlon.com 2026-10-23; weight not listed on page (estimate)."
   },
   {
     "id": "black-diamond-deploy-down-1-0-hoody-mens",
@@ -2204,12 +2224,13 @@
     "price_usd": 329,
     "specs": {
       "fill": "down",
-      "hood": true
+      "hood": true,
+      "fill_power": 700
     },
     "url": "https://www.blackdiamondequipment.com/products/mens-access-down-1-0-hoody",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "700-fill duck down per BD product description; fill weight not published."
   },
   {
     "id": "black-diamond-access-down-2-0-vest-mens",
@@ -2384,14 +2405,15 @@
     "variant": "Men's",
     "weight_g": 428,
     "weight_basis": "manufacturer",
-    "weight_note": "size M, retailer-listed (Gear X)",
+    "weight_note": "Rab-listed 15.09 oz / 428 g (size M)",
     "price_usd": 325,
     "specs": {
       "fill": "down",
       "fill_power": 700,
-      "hood": true
+      "hood": true,
+      "fill_weight_g": 152
     },
-    "url": "https://www.gearx.com/products/rab-microlight-alpine-hoody-kv6xf-galaxy-blue",
+    "url": "https://rab.equipment/us/mens-microlight-alpine-down-jacket",
     "discontinued": false,
     "confidence": "high",
     "notes": "Retailer title says \"Hoody\"; this is the hooded Microlight Alpine. Fill power recalled"
@@ -2405,14 +2427,15 @@
     "variant": "Women's",
     "weight_g": 375,
     "weight_basis": "manufacturer",
-    "weight_note": "size 10, retailer-listed (Gear X)",
+    "weight_note": "Rab-listed 13.22 oz / 375 g (size 10)",
     "price_usd": 325,
     "specs": {
       "fill": "down",
       "fill_power": 700,
-      "hood": true
+      "hood": true,
+      "fill_weight_g": 137
     },
-    "url": "https://www.gearx.com/products/rab-womens-microlight-alpine-hoody-un3pv-graphene",
+    "url": "https://rab.equipment/us/womens-microlight-alpine-down-jacket",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -2799,7 +2822,8 @@
     "price_usd": 140,
     "specs": {
       "fill": "synthetic",
-      "insulation": "Climashield APEX 2 oz/yd2"
+      "insulation": "Climashield APEX 2 oz/yd2",
+      "hood": false
     },
     "url": "https://enlightenedequipment.com/mens-torrid-pants",
     "discontinued": false,
@@ -2819,7 +2843,8 @@
     "price_usd": 70,
     "specs": {
       "fill": "synthetic",
-      "insulation": "Climashield APEX 2 oz/yd2"
+      "insulation": "Climashield APEX 2 oz/yd2",
+      "hood": false
     },
     "url": "https://enlightenedequipment.com/torrid-booties-cus/",
     "discontinued": false,
@@ -2836,15 +2861,16 @@
     "weight_g": 200,
     "weight_basis": "estimate",
     "weight_note": "estimate; custom-built, weight depends on fill and fabric",
-    "price_usd": null,
+    "price_usd": 185,
     "specs": {
       "fill": "down",
-      "fill_power": 850
+      "fill_power": 850,
+      "hood": false
     },
     "url": "https://goosefeetgear.com/products/down-pants/",
     "discontinued": false,
-    "confidence": "low",
-    "notes": "Made to order; price depends on options"
+    "confidence": "medium",
+    "notes": "Custom-built; $185 base price (WooCommerce store API, checked 2026-10-23); fill selectable 2.5-8.5 oz of 850FP down, so weight varies."
   },
   {
     "id": "goosefeet-gear-down-socks",
@@ -2856,15 +2882,16 @@
     "weight_g": 45,
     "weight_basis": "estimate",
     "weight_note": "estimate, pair; custom-built",
-    "price_usd": null,
+    "price_usd": 75,
     "specs": {
       "fill": "down",
-      "fill_power": 850
+      "fill_power": 850,
+      "hood": false
     },
     "url": "https://goosefeetgear.com/products/down-socks/",
     "discontinued": false,
-    "confidence": "low",
-    "notes": "Made to order down socks; filed under insulated pants (closest subcategory)"
+    "confidence": "medium",
+    "notes": "Custom-built; $75 base price (WooCommerce store API, checked 2026-10-23); weight varies with size/fabric."
   },
   {
     "id": "arcteryx-atom-jacket-womens",
@@ -3041,7 +3068,8 @@
     "price_usd": 229,
     "specs": {
       "fill": "synthetic",
-      "insulation": "FullRange"
+      "insulation": "FullRange",
+      "hood": false
     },
     "url": "https://featheredfriends.com/products/patagonia-nano-air-light-bottoms-womens",
     "discontinued": false,
@@ -3062,9 +3090,10 @@
     "specs": {
       "fill": "down",
       "fill_power": 800,
-      "fill_weight_g": 74
+      "fill_weight_g": 74,
+      "hood": false
     },
-    "url": "https://www.neptunemountaineering.com/products/mythic-shorts-mens",
+    "url": "https://rab.equipment/us/mens-mythic-down-shorts",
     "discontinued": false,
     "confidence": "high",
     "notes": "Insulated down shorts"
@@ -3103,7 +3132,8 @@
     "price_usd": 300,
     "specs": {
       "fill": "down",
-      "hood": true
+      "hood": true,
+      "fill_power": 700
     },
     "url": "https://www.gearx.com/products/mountain-hardwear-women-s-stretchdown-hoody-hx93z-dark-storm-heather",
     "discontinued": false,
@@ -3143,7 +3173,8 @@
     "price_usd": 350,
     "specs": {
       "fill": "down",
-      "hood": true
+      "hood": true,
+      "fill_power": 700
     },
     "url": "https://www.gearx.com/products/mountain-hardwear-stretchdown-hoody-ba9mu-black",
     "discontinued": false,
@@ -3471,20 +3502,21 @@
     "subcategory": "down jacket",
     "brand": "Cumulus",
     "model": "Incredilite Jacket",
-    "variant": null,
-    "weight_g": 200,
+    "variant": "Men's",
+    "weight_g": 325,
     "weight_basis": "manufacturer",
-    "weight_note": "recalled",
-    "price_usd": null,
+    "weight_note": "Cumulus-listed 11.46 oz",
+    "price_usd": 289,
     "specs": {
       "fill": "down",
-      "fill_power": 900,
-      "hood": false
+      "fill_power": 850,
+      "hood": true,
+      "fill_weight_g": 108
     },
-    "url": "https://cumulus.equipment/",
+    "url": "https://cumulus.equipment/en/ga/p/men-down-jacket-incredilite",
     "discontinued": false,
-    "confidence": "low",
-    "notes": "Polish maker; weight recalled, USD price varies with exchange rate"
+    "confidence": "high",
+    "notes": "Cumulus global store USD price (import taxes extra)."
   },
   {
     "id": "outdoor-research-coldfront-down-hoodie-mens",
@@ -3503,9 +3535,9 @@
       "hood": true
     },
     "url": "https://www.outdoorresearch.com/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": "Weight/price recalled; heavier budget-oriented down hoodie"
+    "notes": "Not found in outdoorresearch.com store search (checked 2026-10-23); weight/price recalled."
   },
   {
     "id": "patagonia-down-sweater-womens",
@@ -3602,7 +3634,9 @@
     "price_usd": 349,
     "specs": {
       "fill": "down",
-      "hood": true
+      "hood": true,
+      "fill_power": 800,
+      "fill_weight_g": 113
     },
     "url": "https://www.blackdiamondequipment.com/products/womens-access-down-2-0-hoody",
     "discontinued": false,
@@ -3622,7 +3656,8 @@
     "price_usd": 449,
     "specs": {
       "fill": "down",
-      "hood": true
+      "hood": true,
+      "fill_power": 800
     },
     "url": "https://www.blackdiamondequipment.com/products/womens-deploy-down-1-0-hoody",
     "discontinued": false,
@@ -3642,7 +3677,8 @@
     "price_usd": 599,
     "specs": {
       "fill": "down",
-      "hood": true
+      "hood": true,
+      "fill_power": 1000
     },
     "url": "https://www.blackdiamondequipment.com/products/womens-deploy-down-0-5-full-zip-hoody",
     "discontinued": false,
@@ -3722,7 +3758,9 @@
     "price_usd": 280,
     "specs": {
       "fill": "down",
-      "hood": false
+      "hood": false,
+      "fill_power": 700,
+      "fill_weight_g": 121
     },
     "url": "https://rab.equipment/us/womens-microlight-down-jacket",
     "discontinued": false,
@@ -3743,12 +3781,13 @@
     "specs": {
       "fill": "down",
       "fill_power": 900,
-      "hood": true
+      "hood": true,
+      "fill_weight_g": 115
     },
     "url": "https://rab.equipment/us/womens-mythic-g-down-jacket",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Graphene-lined Mythic"
+    "notes": "Fill weight 115 g quoted by Rab for UK size 12; jacket weight for size 10."
   },
   {
     "id": "rab-electron-pro-down-jacket-womens",
@@ -3763,7 +3802,9 @@
     "price_usd": 380,
     "specs": {
       "fill": "down",
-      "hood": true
+      "hood": true,
+      "fill_power": 800,
+      "fill_weight_g": 170
     },
     "url": "https://rab.equipment/us/womens-electron-pro-down-jacket",
     "discontinued": false,

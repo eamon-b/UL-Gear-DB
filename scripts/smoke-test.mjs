@@ -215,6 +215,29 @@ try {
   check('CSV export header', csv.startsWith('Item Name,Category,desc,qty,weight,unit,url,price,worn,consumable'));
   check('CSV export rows', csv.trim().split('\n').length === 18);
 
+  // ---- Example lists: import the lightest one through the CSV review, keeping its weights
+  const examples = JSON.parse(fs.readFileSync(path.join(ROOT, 'public/data/examples.json'), 'utf8')).lists;
+  await page.goto(BASE + '#/examples');
+  await page.waitForSelector('.examples-table tbody tr');
+  check('examples page lists every example', (await page.locator('.examples-table tbody tr').count()) === examples.length, `${examples.length}`);
+  const ex = [...examples].sort((a, b) => a.base_g - b.base_g)[0];
+  await page.screenshot({ path: path.join(SHOTS, '12-examples.png'), fullPage: true });
+  await page.locator('.examples-table tbody tr').first().locator('.btn:has-text("Import")').click();
+  await page.waitForSelector('.modal table.import');
+  check('example review rows', (await page.locator('.modal table.import tbody tr').count()) === ex.items, `${ex.items}`);
+  await page.click('.modal .btn:has-text("Keep my weights for all")');
+  await page.click('.modal-foot .btn.primary');
+  await page.waitForSelector('.modal', { state: 'detached' });
+  await page.waitForSelector('.list-table tbody tr[data-uid]');
+  check('example imported as new list', (await page.locator('.list-table tbody tr[data-uid]').count()) === ex.items);
+  await page.click('.unit-seg .seg-opt:has-text("g")');
+  const grams = async (label) => {
+    const t = (await page.locator(`.tot:has(.tot-l:text-is("${label}")) .tot-v`).first().textContent()) ?? '';
+    return t.includes('kg') ? parseFloat(t) * 1000 : parseFloat(t.replace(/,/g, ''));
+  };
+  const total = await grams('Skin-out total');
+  check('example weight matches registry', Math.abs(total - ex.total_g) <= ex.items + 10, `${Math.round(total)} g vs ${ex.total_g} g`);
+
   // ---- About, theme, mobile
   await page.goto(BASE + '#/about');
   await page.waitForSelector('.about');

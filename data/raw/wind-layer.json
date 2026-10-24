@@ -34,7 +34,7 @@
       "material": "15D recycled nylon ripstop",
       "hood": true
     },
-    "url": "https://www.patagonia.com.au/products/womens-houdini-jacket-24147-bob",
+    "url": "https://www.patagonia.com/product/womens-houdini-windbreaker-jacket/24147.html",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
@@ -49,14 +49,14 @@
     "weight_g": 116,
     "weight_basis": "manufacturer",
     "weight_note": "men's M",
-    "price_usd": 199,
+    "price_usd": 179,
     "specs": {
       "material": "air-permeable nylon",
       "hood": true
     },
-    "url": "https://rushfaster.com.au/collections/vendors/products/patagonia-mens-houdini-air-jacket",
+    "url": "https://www.patagonia.com/product/mens-houdini-air-windbreaker-jacket/24010.html",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Weight checked (AU retailer); US price not verified."
   },
   {
@@ -108,12 +108,12 @@
     "weight_g": 105,
     "weight_basis": "manufacturer",
     "weight_note": "Patagonia spec 105 g (via The Outfitters)",
-    "price_usd": 139,
+    "price_usd": 145,
     "specs": {
       "material": "air-permeable nylon/elastane",
       "hood": false
     },
-    "url": null,
+    "url": "https://www.runningwarehouse.com/descpage-PMFAPLF.html",
     "discontinued": false,
     "confidence": "high",
     "notes": "Price per Switchback Travel."
@@ -245,15 +245,15 @@
     "brand": "Black Diamond",
     "model": "Distance Wind Shell",
     "variant": "Men's",
-    "weight_g": 98,
+    "weight_g": 91,
     "weight_basis": "manufacturer",
-    "weight_note": "men's",
+    "weight_note": "BD-listed spec weight",
     "price_usd": 199,
     "specs": {
       "material": "15D nylon ripstop 30 gsm",
       "hood": true
     },
-    "url": "https://blackdiamondequipment.com/products/m-distance-wind-shell",
+    "url": "https://www.blackdiamondequipment.com/products/m-distance-wind-shell",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -287,16 +287,16 @@
     "variant": "Men's",
     "weight_g": 72,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
-    "price_usd": 119,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 130,
     "specs": {
       "material": "7D Ballistic Airlight nylon",
       "hood": true
     },
-    "url": "https://www.pod7kilo.cz/en/p/vetrovka-montbell-tachyon-parka-panska/",
+    "url": "https://www.montbell.com/us/en/products/detail/2303106",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Price not verified; also sold as Tachyon Hooded Jacket."
+    "notes": "Sold in the US as Tachyon Hooded Jacket (#2303106)."
   },
   {
     "id": "montbell-tachyon-parka-womens",
@@ -305,18 +305,18 @@
     "brand": "Montbell",
     "model": "Tachyon Parka",
     "variant": "Women's",
-    "weight_g": 65,
+    "weight_g": 66,
     "weight_basis": "manufacturer",
-    "weight_note": "2.3 oz per Switchback Travel spec table (Oct 2026)",
+    "weight_note": "Montbell US listed average weight",
     "price_usd": 130,
     "specs": {
       "material": "7D Ballistic Airlight nylon",
       "hood": true
     },
-    "url": null,
+    "url": "https://www.montbell.com/us/en/products/detail/2303107",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Sold in the US as Tachyon Hooded Jacket (#2303107)."
   },
   {
     "id": "montbell-tachyon-anorak",
@@ -367,7 +367,7 @@
     "variant": "Men's",
     "weight_g": 37,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
+    "weight_note": "Montbell US listed average weight",
     "price_usd": 83,
     "specs": {
       "material": "ultralight nylon",
@@ -387,7 +387,7 @@
     "variant": "Men's",
     "weight_g": 53,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
+    "weight_note": "Montbell US listed average weight",
     "price_usd": 109,
     "specs": {
       "material": "7D Ballistic Airlight nylon"
@@ -404,18 +404,18 @@
     "brand": "Montbell",
     "model": "Wind Blast Parka",
     "variant": "Men's",
-    "weight_g": 130,
-    "weight_basis": "estimate",
-    "weight_note": "men's M, approximate",
-    "price_usd": 99,
+    "weight_g": 187,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 93,
     "specs": {
-      "material": "nylon",
+      "material": "40D nylon taffeta, water-repellent",
       "hood": true
     },
-    "url": null,
+    "url": "https://www.montbell.com/us/en/products/detail/2303142",
     "discontinued": false,
-    "confidence": "low",
-    "notes": null
+    "confidence": "high",
+    "notes": "Sold in the US as Wind Blast Hooded Jacket (#2303142)."
   },
   {
     "id": "enlightened-equipment-copperfield-wind-shirt-mens",
@@ -444,9 +444,9 @@
     "brand": "Enlightened Equipment",
     "model": "Copperfield Wind Shirt",
     "variant": "Women's",
-    "weight_g": 52,
+    "weight_g": 49,
     "weight_basis": "manufacturer",
-    "weight_note": "women's M, 10D, approximate",
+    "weight_note": "EE \"starting at\" weight 1.72 oz (48.7 g), smallest size / 10D fabric",
     "price_usd": 120,
     "specs": {
       "material": "10D nylon",
@@ -454,7 +454,7 @@
     },
     "url": "https://enlightenedequipment.com/womens-copperfield-wind-shirt-cus/",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -511,9 +511,9 @@
       "hood": true
     },
     "url": "https://www.opticsplanet.com/outdoor-research-helium-wind-hoodie-men-s.html",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": "Some variants discontinued."
+    "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
   },
   {
     "id": "rab-vital-hoody-mens",
@@ -524,13 +524,13 @@
     "variant": "Men's",
     "weight_g": 130,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M",
+    "weight_note": "Rab US listed weight (Size M)",
     "price_usd": 100,
     "specs": {
       "material": "20D Atmos nylon",
       "hood": true
     },
-    "url": "https://www.rei.com/product/C10989/rab-vital-hooded-jacket-mens",
+    "url": "https://rab.equipment/us/vital-hoody",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -544,7 +544,7 @@
     "variant": "Women's",
     "weight_g": 114,
     "weight_basis": "manufacturer",
-    "weight_note": "Rab spec 4 oz / 114 g",
+    "weight_note": "Rab US listed weight (Size 10)",
     "price_usd": 100,
     "specs": {
       "material": "20D Atmos nylon",
@@ -562,18 +562,18 @@
     "brand": "Rab",
     "model": "Borealis Jacket",
     "variant": "Men's",
-    "weight_g": 300,
+    "weight_g": 273,
     "weight_basis": "manufacturer",
-    "weight_note": "men's M (newer version ~250 g)",
-    "price_usd": 120,
+    "weight_note": "Rab US listed weight (Size M)",
+    "price_usd": 130,
     "specs": {
       "material": "Matrix stretch softshell",
       "hood": true
     },
-    "url": "https://evo.com/en-ca/softshell-jackets/rab-borealis-jacket",
+    "url": "https://rab.equipment/us/mens-borealis-hooded-jacket",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Light softshell used as a wind layer."
+    "notes": "Light softshell used as a wind layer; current US name Borealis Hooded Jacket."
   },
   {
     "id": "mountain-hardwear-kor-airshell-hoody-mens",
@@ -602,17 +602,17 @@
     "brand": "Mountain Hardwear",
     "model": "Kor AirShell Hoody",
     "variant": "Women's",
-    "weight_g": 156,
+    "weight_g": 123,
     "weight_basis": "manufacturer",
-    "weight_note": "women's M, approximate",
-    "price_usd": 165,
+    "weight_note": "MH product-page approx. weight, size M (a category page lists 180 g)",
+    "price_usd": 170,
     "specs": {
       "material": "Pertex Quantum Air",
       "hood": true
     },
-    "url": null,
+    "url": "https://www.mountainhardwear.com/p/womens-kor-airshell-hoody-2123801.html",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -630,7 +630,7 @@
       "material": "Pertex Quantum Air",
       "hood": false
     },
-    "url": null,
+    "url": "https://www.mountainhardwear.com/p/mens-kor-airshell-vest-2038211.html",
     "discontinued": false,
     "confidence": "low",
     "notes": null
@@ -645,7 +645,7 @@
     "weight_g": 53,
     "weight_basis": "manufacturer",
     "weight_note": "men's M",
-    "price_usd": 99.95,
+    "price_usd": 119.95,
     "specs": {
       "material": "ultralight nylon",
       "hood": true
@@ -670,7 +670,7 @@
       "material": "ultralight nylon",
       "hood": true
     },
-    "url": "https://no.montane.com/products/montane-mens-featherlite-nano-windproof-jacket",
+    "url": "https://montane.com/en-us/products/montane-mens-featherlite-nano-windproof-jacket",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -691,9 +691,9 @@
       "hood": true
     },
     "url": "https://backpackinglight.com.au/products/montane-featherlite-trail-jacket-mens-1",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": "AU$179."
+    "notes": "Absent from Montane US and UK stores (products.json catalog and store search), Oct 2026."
   },
   {
     "id": "janji-zephyrunner-wind-shell-mens",
@@ -702,15 +702,15 @@
     "brand": "Janji",
     "model": "Zephyrunner Wind Shell",
     "variant": "Men's",
-    "weight_g": 133,
+    "weight_g": 124,
     "weight_basis": "manufacturer",
-    "weight_note": "men's",
-    "price_usd": 148,
+    "weight_note": "Janji store product weight",
+    "price_usd": 156,
     "specs": {
       "material": "nylon, water-resistant",
       "hood": true
     },
-    "url": "https://www.rei.com/product/230745",
+    "url": "https://janji.com/products/ms-zephyrunner-wind-shell",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -904,7 +904,7 @@
     "variant": "Men's",
     "weight_g": 119,
     "weight_basis": "manufacturer",
-    "weight_note": "Montbell UK listed weight",
+    "weight_note": "Montbell US listed average weight",
     "price_usd": null,
     "specs": {
       "material": "40D nylon taffeta, water-repellent",
@@ -924,7 +924,7 @@
     "variant": "Men's",
     "weight_g": 165,
     "weight_basis": "manufacturer",
-    "weight_note": "Rab listed 5.8 oz / 165 g",
+    "weight_note": "Rab US listed weight (Size M)",
     "price_usd": 100,
     "specs": {
       "material": "Matrix Light stretch softshell, wind resistant",
@@ -944,7 +944,7 @@
     "variant": "Women's",
     "weight_g": 141,
     "weight_basis": "manufacturer",
-    "weight_note": "Rab listed 4.9 oz / 141 g",
+    "weight_note": "Rab US listed weight (Size 10)",
     "price_usd": 100,
     "specs": {
       "material": "Matrix Light stretch softshell, wind resistant",
@@ -984,8 +984,8 @@
     "variant": "Men's",
     "weight_g": 161,
     "weight_basis": "manufacturer",
-    "weight_note": "Montbell UK listed weight",
-    "price_usd": null,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 99,
     "specs": {
       "material": "water-repellent polyester"
     },
@@ -1001,17 +1001,17 @@
     "brand": "Montbell",
     "model": "Light Cross Runner Pants",
     "variant": "Women's",
-    "weight_g": 136,
+    "weight_g": 141,
     "weight_basis": "manufacturer",
-    "weight_note": "Montbell UK listed weight",
-    "price_usd": null,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 99,
     "specs": {
       "material": "water-repellent polyester"
     },
-    "url": "https://www.montbell.com/us/en/products/detail/1105715",
+    "url": "https://www.montbell.com/us/en/products/detail/2305250",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Light water-repellent running pant. Model #1105715"
+    "notes": "Current US listing is Cross Runner Light Pants Women's (#2305250); older #1105715 page has no US price."
   },
   {
     "id": "janji-zephyrunner-wind-shell-womens",
@@ -1071,5 +1071,65 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Packs into its chest pocket."
+  },
+  {
+    "id": "montbell-ex-light-wind-jacket-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Montbell",
+    "model": "EX Light Wind Jacket",
+    "variant": "Men's",
+    "weight_g": 49,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 105,
+    "specs": {
+      "material": "7D Ballistic Airlight nylon ripstop",
+      "hood": false
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2303136",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2303136"
+  },
+  {
+    "id": "montbell-ex-light-wind-jacket-womens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Montbell",
+    "model": "EX Light Wind Jacket",
+    "variant": "Women's",
+    "weight_g": 44,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 99,
+    "specs": {
+      "material": "7D Ballistic Airlight nylon ripstop",
+      "hood": false
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2303137",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2303137"
+  },
+  {
+    "id": "montbell-ul-stretch-wind-hooded-jacket-mens",
+    "category": "wind-layer",
+    "subcategory": "wind jacket",
+    "brand": "Montbell",
+    "model": "U.L. Stretch Wind Hooded Jacket",
+    "variant": "Men's",
+    "weight_g": 127,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 115,
+    "specs": {
+      "material": "15D Ballistic Airlight nylon ripstop, stretch",
+      "hood": true
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2303139",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2303139"
   }
 ]

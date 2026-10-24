@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T23:22:23.780Z",
+  "generated_at": "2026-10-24T00:08:41.809Z",
   "files": [
     {
       "file": "backpack.json",
@@ -94,8 +94,8 @@
     },
     {
       "file": "pillow.json",
-      "read": 37,
-      "kept": 37,
+      "read": 36,
+      "kept": 36,
       "dropped": 0,
       "error": null
     },
@@ -108,29 +108,29 @@
     },
     {
       "file": "rain-jacket.json",
-      "read": 100,
-      "kept": 100,
+      "read": 101,
+      "kept": 101,
       "dropped": 0,
       "error": null
     },
     {
       "file": "rain-pants.json",
-      "read": 66,
-      "kept": 66,
+      "read": 67,
+      "kept": 67,
       "dropped": 0,
       "error": null
     },
     {
       "file": "shelter.json",
-      "read": 378,
-      "kept": 378,
+      "read": 380,
+      "kept": 380,
       "dropped": 0,
       "error": null
     },
     {
       "file": "sleep-insulation.json",
-      "read": 234,
-      "kept": 234,
+      "read": 238,
+      "kept": 238,
       "dropped": 0,
       "error": null
     },
@@ -143,8 +143,8 @@
     },
     {
       "file": "stove.json",
-      "read": 102,
-      "kept": 102,
+      "read": 103,
+      "kept": 103,
       "dropped": 0,
       "error": null
     },
@@ -164,33 +164,33 @@
     },
     {
       "file": "water-treatment.json",
-      "read": 58,
-      "kept": 58,
+      "read": 61,
+      "kept": 61,
       "dropped": 0,
       "error": null
     },
     {
       "file": "wind-layer.json",
-      "read": 54,
-      "kept": 54,
+      "read": 57,
+      "kept": 57,
       "dropped": 0,
       "error": null
     }
   ],
   "counts": {
-    "shelter": 378,
+    "shelter": 380,
     "backpack": 253,
-    "sleep-insulation": 234,
+    "sleep-insulation": 238,
     "sleeping-pad": 128,
-    "pillow": 37,
-    "stove": 102,
+    "pillow": 36,
+    "stove": 103,
     "cookware": 105,
     "cook-accessory": 93,
-    "water-treatment": 58,
+    "water-treatment": 61,
     "water-storage": 64,
-    "rain-jacket": 100,
-    "rain-pants": 66,
-    "wind-layer": 54,
+    "rain-jacket": 101,
+    "rain-pants": 67,
+    "wind-layer": 57,
     "insulation": 201,
     "base-layer": 193,
     "headwear-handwear": 132,
@@ -204,14 +204,14 @@
     "first-aid-hygiene": 85,
     "misc": 77
   },
-  "total": 3094,
+  "total": 3108,
   "dropped": [],
   "fixed": [],
   "duplicate_ids": [],
   "possible_duplicates": [],
   "used_fixtures": false,
   "aliases": {
-    "kept": 2,
+    "kept": 5,
     "ignored": []
   }
 }

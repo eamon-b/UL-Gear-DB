@@ -1,0 +1,1629 @@
+{
+ "updates": [
+  {
+   "id": "black-diamond-access-down-2-0-hoody-womens",
+   "set": {
+    "specs": {
+     "fill_power": 800,
+     "fill_weight_g": 113
+    }
+   }
+  },
+  {
+   "id": "black-diamond-access-down-1-0-hoody-mens",
+   "set": {
+    "specs": {
+     "fill_power": 700
+    },
+    "notes": "700-fill duck down per BD product description; fill weight not published."
+   }
+  },
+  {
+   "id": "black-diamond-deploy-down-1-0-hoody-womens",
+   "set": {
+    "specs": {
+     "fill_power": 800
+    }
+   }
+  },
+  {
+   "id": "black-diamond-deploy-down-0-5-full-zip-hoody-womens",
+   "set": {
+    "specs": {
+     "fill_power": 1000
+    }
+   }
+  },
+  {
+   "id": "black-diamond-deploy-down-0-5-pullover-hoody-mens",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/mens-deploy-down-0-5-pullover-hoody",
+    "weight_g": 150,
+    "weight_note": "BD listed weight",
+    "specs": {
+     "fill_weight_g": 47
+    }
+   }
+  },
+  {
+   "id": "black-diamond-deploy-down-0-5-pullover-hoody-womens",
+   "set": {
+    "url": "https://www.blackdiamondequipment.com/products/womens-deploy-down-0-5-pullover-hoody",
+    "weight_note": "BD listed weight",
+    "specs": {
+     "fill_weight_g": 43
+    }
+   }
+  },
+  {
+   "id": "exped-ultra-1r-m",
+   "set": {
+    "specs": {
+     "thickness_in": 2.8
+    }
+   }
+  },
+  {
+   "id": "exped-ultra-1r-lw",
+   "set": {
+    "specs": {
+     "thickness_in": 2.8
+    }
+   }
+  },
+  {
+   "id": "exped-ultra-3r-s",
+   "set": {
+    "specs": {
+     "thickness_in": 2.8
+    }
+   }
+  },
+  {
+   "id": "exped-ultra-3r-m",
+   "set": {
+    "specs": {
+     "thickness_in": 2.8
+    }
+   }
+  },
+  {
+   "id": "exped-ultra-3r-lw",
+   "set": {
+    "specs": {
+     "thickness_in": 2.8
+    }
+   }
+  },
+  {
+   "id": "exped-ultra-3r-mummy-m",
+   "set": {
+    "specs": {
+     "thickness_in": 2.8
+    }
+   }
+  },
+  {
+   "id": "exped-ultra-3r-mummy-lw",
+   "set": {
+    "specs": {
+     "thickness_in": 2.8
+    }
+   }
+  },
+  {
+   "id": "exped-dura-3r-m",
+   "set": {
+    "specs": {
+     "thickness_in": 2.8
+    }
+   }
+  },
+  {
+   "id": "exped-ultra-6-5r-lw",
+   "set": {
+    "specs": {
+     "thickness_in": 3.5
+    }
+   }
+  },
+  {
+   "id": "exped-ultra-6-5r-mummy-lw",
+   "set": {
+    "specs": {
+     "thickness_in": 3.5
+    }
+   }
+  },
+  {
+   "id": "exped-ultra-8r-m",
+   "set": {
+    "specs": {
+     "thickness_in": 3.5
+    }
+   }
+  },
+  {
+   "id": "exped-ultra-8r-mummy-m",
+   "set": {
+    "specs": {
+     "thickness_in": 3.5
+    }
+   }
+  },
+  {
+   "id": "exped-ultra-10r-m",
+   "set": {
+    "specs": {
+     "thickness_in": 3.5
+    }
+   }
+  },
+  {
+   "id": "exped-dura-6-5r-m",
+   "set": {
+    "specs": {
+     "thickness_in": 3.5
+    }
+   }
+  },
+  {
+   "id": "exped-ultra-6-5r-m",
+   "set": {
+    "specs": {
+     "thickness_in": 3.5
+    },
+    "price_usd": 199.95,
+    "notes": "USD price from GearX (US retailer); exped.com lists only CHF/EUR."
+   }
+  },
+  {
+   "id": "exped-ultra-6-5r-mummy-m",
+   "set": {
+    "specs": {
+     "thickness_in": 3.5
+    },
+    "price_usd": 199.95,
+    "notes": "USD price from GearX (US retailer); exped.com lists only CHF/EUR."
+   }
+  },
+  {
+   "id": "exped-flex-1-5r-m",
+   "set": {
+    "specs": {
+     "thickness_in": 0.7
+    },
+    "price_usd": 44.95,
+    "notes": "USD price from GearX (US retailer); exped.com lists only CHF/EUR."
+   }
+  },
+  {
+   "id": "exped-flex-1-5r-xs",
+   "set": {
+    "specs": {
+     "thickness_in": 0.7
+    }
+   }
+  },
+  {
+   "id": "exped-flex-3r-m",
+   "set": {
+    "specs": {
+     "thickness_in": 1.2
+    }
+   }
+  },
+  {
+   "id": "exped-versa-1r-m",
+   "set": {
+    "specs": {
+     "thickness_in": 2.0
+    }
+   }
+  },
+  {
+   "id": "exped-versa-4-5r-m",
+   "set": {
+    "specs": {
+     "thickness_in": 3.0
+    }
+   }
+  },
+  {
+   "id": "exped-ultra-pillow-m",
+   "set": {
+    "weight_g": 50,
+    "weight_note": "exped.com variant weight",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "exped-ultra-pillow-l",
+   "set": {
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "exped-down-pillow-m",
+   "set": {
+    "weight_g": 140,
+    "weight_basis": "manufacturer",
+    "weight_note": "exped.com variant weight (M)",
+    "specs": {
+     "inflated_size": "15 x 11 x 5.1 in"
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "exped-versaluxe-pillow",
+   "set": {
+    "weight_g": 130,
+    "weight_basis": "manufacturer",
+    "weight_note": "exped.com variant weight",
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "big-agnes-divide-insulated-20x72-regular",
+   "set": {
+    "specs": {
+     "r_value": 4,
+     "thickness_in": 3.25
+    }
+   }
+  },
+  {
+   "id": "big-agnes-twistercane-biofoam",
+   "set": {
+    "specs": {
+     "r_value": 1.7,
+     "thickness_in": 0.5,
+     "width_in": 20,
+     "length_in": 72
+    }
+   }
+  },
+  {
+   "id": "sea-to-summit-ultralight-insulated-womens-regular",
+   "set": {
+    "specs": {
+     "length_in": 66.1,
+     "width_in": 21.7
+    }
+   }
+  },
+  {
+   "id": "naturehike-troues-r3-5-folding-foam-pad",
+   "set": {
+    "specs": {
+     "thickness_in": 1.0,
+     "length_in": 72.8,
+     "width_in": 22.0
+    }
+   }
+  },
+  {
+   "id": "zenbivy-ultralight-mattress-20x72-tapered",
+   "set": {
+    "specs": {
+     "thickness_in": 3
+    }
+   }
+  },
+  {
+   "id": "zenbivy-ultralight-mattress-25x72-tapered",
+   "set": {
+    "specs": {
+     "thickness_in": 3
+    }
+   }
+  },
+  {
+   "id": "zenbivy-ultralight-mattress-25x72-rectangular",
+   "set": {
+    "specs": {
+     "thickness_in": 3
+    }
+   }
+  },
+  {
+   "id": "zenbivy-flex-air-mattress-20x72-tapered",
+   "set": {
+    "specs": {
+     "thickness_in": 3
+    }
+   }
+  },
+  {
+   "id": "zenbivy-flex-air-mattress-25x72-tapered",
+   "set": {
+    "specs": {
+     "thickness_in": 3
+    }
+   }
+  },
+  {
+   "id": "zenbivy-light-mattress-20x72",
+   "set": {
+    "specs": {
+     "thickness_in": 3
+    }
+   }
+  },
+  {
+   "id": "gossamer-gear-thinlight-foam-pad-1-8-rolled",
+   "set": {
+    "specs": {
+     "length_in": 58.7,
+     "width_in": 19
+    }
+   }
+  },
+  {
+   "id": "gossamer-gear-thinlight-foam-pad-1-8-folded",
+   "set": {
+    "specs": {
+     "length_in": 73.5,
+     "width_in": 19
+    }
+   }
+  },
+  {
+   "id": "gossamer-gear-thinlight-foam-pad-1-8-rolled-wide",
+   "set": {
+    "specs": {
+     "length_in": 58.7,
+     "width_in": 25
+    }
+   }
+  },
+  {
+   "id": "naturehike-troues-r2-0-folding-foam-pad",
+   "set": {
+    "specs": {
+     "length_in": 72.8,
+     "width_in": 22.0,
+     "thickness_in": 0.7
+    },
+    "notes": "Store variant weight 230 g conflicts with product text (approx. 420 g); unresolved."
+   }
+  },
+  {
+   "id": "nemo-fillo",
+   "set": {
+    "specs": {
+     "inflated_size": "17 x 11 x 4.0 in (43 x 27 x 10 cm)"
+    }
+   }
+  },
+  {
+   "id": "nemo-fillo-elite",
+   "set": {
+    "specs": {
+     "inflated_size": "15 x 11 x 3.0 in (39 x 27 x 8 cm)"
+    }
+   }
+  },
+  {
+   "id": "nemo-fillo-elite-wide",
+   "set": {
+    "specs": {
+     "inflated_size": "21 x 11 x 3.0 in (53 x 29 x 8 cm)"
+    }
+   }
+  },
+  {
+   "id": "klymit-pillow-x-base-regular",
+   "set": {
+    "weight_g": 71,
+    "weight_note": "Klymit-stated 2.5 oz / 71 g",
+    "specs": {
+     "inflated_size": "15 x 11 x 3.5 in (38 x 28 x 9 cm)"
+    }
+   }
+  },
+  {
+   "id": "klymit-pillow-x-base-extra-large",
+   "set": {
+    "weight_g": 91,
+    "weight_note": "Klymit-stated 3.2 oz (XL)",
+    "specs": {
+     "inflated_size": "18 x 13 x 2.5 in (46 x 33 x 6.5 cm)"
+    }
+   }
+  },
+  {
+   "id": "paria-outdoor-products-inflatable-pillow",
+   "set": {
+    "weight_g": 99,
+    "weight_note": "3.5 oz pillow; stuff sack +0.2 oz",
+    "specs": {
+     "inflated_size": "16 x 12 x 4 in"
+    }
+   }
+  },
+  {
+   "id": "paria-outdoor-products-deluxe-inflatable-pillow",
+   "set": {
+    "weight_note": "9 oz pillow; stuff sack +0.4 oz",
+    "specs": {
+     "inflated_size": "16 x 11.5 x 3.5 in"
+    }
+   }
+  },
+  {
+   "id": "zenbivy-softtop-pillow",
+   "set": {
+    "specs": {
+     "inflated_size": "14 x 9.5 x 6.5 in max (Regular; 36 x 24 x 17 cm)"
+    }
+   }
+  },
+  {
+   "id": "trekology-aluft-2-0",
+   "set": {
+    "url": "https://trekology.com/products/trekology-aluft-2-0-inflatable-pillow-for-camping-copy-2",
+    "weight_g": 110,
+    "weight_basis": "manufacturer",
+    "weight_note": "Trekology-stated 3.9 oz",
+    "price_usd": 27.99,
+    "specs": {
+     "inflated_size": "16 x 12 x 4 in (40.6 x 30.5 x 10 cm)"
+    },
+    "confidence": "high",
+    "notes": "List price $27.99 (frequently on sale at $23.99)."
+   }
+  },
+  {
+   "id": "hyperlite-mountain-gear-pillow-stuff-sack",
+   "set": {
+    "model": "Stuff Sack Pillow",
+    "url": "https://www.hyperlitemountaingear.com/products/stuff-sack-pillows",
+    "weight_g": 48,
+    "weight_basis": "manufacturer",
+    "weight_note": "HMG-stated 1.7 oz / 48 g",
+    "price_usd": 63,
+    "specs": {
+     "inflated_size": "12 x 17 in (30.5 x 43.2 cm) sack, filled with clothing"
+    },
+    "confidence": "high",
+    "notes": "Fleece-lined stuff sack filled with clothing; weight is low because it is not a standalone pillow."
+   }
+  },
+  {
+   "id": "cumulus-x-lite-200",
+   "set": {
+    "url": "https://cumulus.equipment/en/ga/p/down-sleeping-bag-x-lite-200",
+    "weight_g": 349,
+    "weight_basis": "manufacturer",
+    "weight_note": "Cumulus-listed 12.3 oz (standard size)",
+    "price_usd": 345,
+    "specs": {
+     "temp_rating_f": 32,
+     "fill_power": 900,
+     "fill_weight_g": 201
+    },
+    "confidence": "high",
+    "notes": "Cumulus global store USD price (import taxes extra). Temp = EN limit 32°F; comfort 39°F."
+   }
+  },
+  {
+   "id": "cumulus-lite-line-300",
+   "set": {
+    "url": "https://cumulus.equipment/en/ga/p/down-sleeping-bag-lite-line-300",
+    "weight_g": 601,
+    "weight_basis": "manufacturer",
+    "weight_note": "Cumulus-listed 21.2 oz (standard size)",
+    "price_usd": 305,
+    "confidence": "high",
+    "notes": "Cumulus global store USD price (import taxes extra). Temp = EN limit 32°F; comfort 39°F."
+   }
+  },
+  {
+   "id": "cumulus-panyam-450",
+   "set": {
+    "url": "https://cumulus.equipment/en/ga/p/down-sleeping-bag-panyam-450",
+    "weight_g": 811,
+    "weight_basis": "manufacturer",
+    "weight_note": "Cumulus-listed 28.6 oz (standard size)",
+    "price_usd": 379,
+    "specs": {
+     "temp_rating_f": 21
+    },
+    "confidence": "high",
+    "notes": "Cumulus global store USD price (import taxes extra). Temp = EN limit 21°F; comfort 32°F."
+   }
+  },
+  {
+   "id": "cumulus-quilt-450",
+   "set": {
+    "model": "The Quilt 450",
+    "url": "https://cumulus.equipment/en/ga/p/quilts-and-comforters-the-quilt-450",
+    "weight_g": 649,
+    "weight_basis": "manufacturer",
+    "weight_note": "Cumulus-listed 22.9 oz (standard size)",
+    "price_usd": 445,
+    "specs": {
+     "temp_rating_f": 19,
+     "fill_power": 900
+    },
+    "confidence": "high",
+    "notes": "Current Cumulus quilt line is The Quilt 150/300/450/600 (open construction). USD price from Cumulus global store. Temp = limit 19°F; comfort 30°F."
+   }
+  },
+  {
+   "id": "cumulus-quilt-250",
+   "set": {
+    "discontinued": true,
+    "notes": "Quilt 250 no longer listed; current Cumulus quilts are The Quilt 150/300/450/600 and Neo Quilt 150-600 (checked cumulus.equipment 2026-10-23). Weight/temp approximate."
+   }
+  },
+  {
+   "id": "cumulus-quilt-350",
+   "set": {
+    "discontinued": true,
+    "notes": "Quilt 350 no longer listed; current Cumulus quilts are The Quilt 150/300/450/600 and Neo Quilt 150-600 (checked cumulus.equipment 2026-10-23). Weight/temp approximate."
+   }
+  },
+  {
+   "id": "cumulus-incredilite-jacket",
+   "set": {
+    "variant": "Men's",
+    "url": "https://cumulus.equipment/en/ga/p/men-down-jacket-incredilite",
+    "weight_g": 325,
+    "weight_note": "Cumulus-listed 11.46 oz",
+    "price_usd": 289,
+    "specs": {
+     "fill_power": 850,
+     "fill_weight_g": 108,
+     "hood": true
+    },
+    "confidence": "high",
+    "notes": "Cumulus global store USD price (import taxes extra)."
+   }
+  },
+  {
+   "id": "hammock-gear-burrow-40f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 274
+    }
+   }
+  },
+  {
+   "id": "hammock-gear-burrow-30f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 362
+    }
+   }
+  },
+  {
+   "id": "hammock-gear-burrow-20f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 453
+    }
+   }
+  },
+  {
+   "id": "hammock-gear-burrow-10f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 548
+    }
+   }
+  },
+  {
+   "id": "hammock-gear-burrow-0f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 636
+    }
+   }
+  },
+  {
+   "id": "hammock-gear-incubator-40f",
+   "set": {
+    "price_usd": 239.95,
+    "specs": {
+     "fill_weight_g": 206
+    },
+    "notes": "HG spec sheet (PIncubator.pdf via hammockgear.com/product-specs) lists 900/950FP builds only; product page describes 850FP, so the 850FP weight may be slightly higher. Price = $219.95 base (40°F, Short) + Standard length (+$20) + temperature upcharge (30°F +$20, 20°F +$40, 10°F +$50, 0°F +$60), per hammockgear.com product options, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "hammock-gear-incubator-20f",
+   "set": {
+    "price_usd": 279.95,
+    "specs": {
+     "fill_weight_g": 343
+    },
+    "notes": "HG spec sheet (PIncubator.pdf via hammockgear.com/product-specs) lists 900/950FP builds only; product page describes 850FP, so the 850FP weight may be slightly higher. Price = $219.95 base (40°F, Short) + Standard length (+$20) + temperature upcharge (30°F +$20, 20°F +$40, 10°F +$50, 0°F +$60), per hammockgear.com product options, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "hammock-gear-incubator-0f",
+   "set": {
+    "price_usd": 299.95,
+    "specs": {
+     "fill_weight_g": 481
+    },
+    "notes": "HG spec sheet (PIncubator.pdf via hammockgear.com/product-specs) lists 900/950FP builds only; product page describes 850FP, so the 850FP weight may be slightly higher. Price = $219.95 base (40°F, Short) + Standard length (+$20) + temperature upcharge (30°F +$20, 20°F +$40, 10°F +$50, 0°F +$60), per hammockgear.com product options, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "warbonnet-outdoors-diamondback-topquilt-40f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 261
+    }
+   }
+  },
+  {
+   "id": "warbonnet-outdoors-diamondback-topquilt-20f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 395
+    }
+   }
+  },
+  {
+   "id": "warbonnet-outdoors-diamondback-topquilt-0f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 549
+    }
+   }
+  },
+  {
+   "id": "warbonnet-outdoors-yeti-20f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 178
+    }
+   }
+  },
+  {
+   "id": "warbonnet-outdoors-wooki-20f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 336
+    }
+   }
+  },
+  {
+   "id": "warbonnet-outdoors-lynx-20f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 260
+    }
+   }
+  },
+  {
+   "id": "ugq-outdoor-bandit-40f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 281
+    }
+   }
+  },
+  {
+   "id": "ugq-outdoor-bandit-30f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 362
+    }
+   }
+  },
+  {
+   "id": "ugq-outdoor-bandit-20f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 450
+    }
+   }
+  },
+  {
+   "id": "ugq-outdoor-bandit-10f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 533
+    }
+   }
+  },
+  {
+   "id": "ugq-outdoor-bandit-0f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 616
+    }
+   }
+  },
+  {
+   "id": "ugq-outdoor-bandit-20f-950fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 411
+    }
+   }
+  },
+  {
+   "id": "ugq-outdoor-zeppelin-20f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 387
+    }
+   }
+  },
+  {
+   "id": "ugq-outdoor-outlaw-20f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 565
+    }
+   }
+  },
+  {
+   "id": "ugq-outdoor-zeppelin-0f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 543
+    }
+   }
+  },
+  {
+   "id": "timmermade-down-quilt-30f",
+   "set": {
+    "weight_note": "30°F, 72\" length, 50/52/38/38\" width, 900FP; maker states 17.1 oz total",
+    "specs": {
+     "fill_weight_g": 326
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-50f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 183
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-40f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 274
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-30f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 365
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-20f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 456
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-10f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 547
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-0f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 638
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-40f-950fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 246
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-30f-950fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 327
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-20f-950fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 409
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-10f-950fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 490
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-revelation-0f-950fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 572
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-50f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 176
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-40f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 263
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-30f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 351
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-20f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 438
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-10f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 526
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-0f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 613
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-40f-950fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 235
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-30f-950fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 314
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-20f-950fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 392
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-enigma-10f-950fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 470
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-convert-40f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 306
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-convert-20f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 507
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-convert-10f-850fp",
+   "set": {
+    "specs": {
+     "fill_weight_g": 611
+    }
+   }
+  },
+  {
+   "id": "outdoor-vitals-stormloft-down-topquilt-40f",
+   "set": {
+    "url": "https://www.outdoorvitals.com/products/update-stormloft-0-30-f-down-topquilt-sleeping-bag",
+    "weight_g": 493,
+    "weight_basis": "manufacturer",
+    "weight_note": "Regular; maker-stated 1 lb 1.4 oz (excl. pad straps/sacks)",
+    "specs": {
+     "fill_weight_g": 280
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "outdoor-vitals-stormloft-down-topquilt-30f",
+   "set": {
+    "url": "https://www.outdoorvitals.com/products/update-stormloft-0-30-f-down-topquilt-sleeping-bag",
+    "weight_g": 556,
+    "weight_note": "Regular; maker-stated 1 lb 3.6 oz (excl. pad straps/sacks)",
+    "specs": {
+     "fill_weight_g": 350
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "outdoor-vitals-stormloft-down-topquilt-15f",
+   "set": {
+    "url": "https://www.outdoorvitals.com/products/update-stormloft-0-30-f-down-topquilt-sleeping-bag",
+    "weight_g": 689,
+    "weight_note": "Regular; maker-stated 1 lb 8.3 oz (excl. pad straps/sacks)",
+    "specs": {
+     "fill_weight_g": 485
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "outdoor-vitals-stormloft-down-topquilt-0f",
+   "set": {
+    "url": "https://www.outdoorvitals.com/products/update-stormloft-0-30-f-down-topquilt-sleeping-bag",
+    "weight_g": 791,
+    "weight_note": "Regular; maker-stated 1 lb 11.9 oz (excl. pad straps/sacks)",
+    "specs": {
+     "fill_weight_g": 610
+    },
+    "confidence": "high"
+   }
+  },
+  {
+   "id": "naturehike-lw180",
+   "set": {
+    "variant": "Standard",
+    "url": "https://www.naturehike.com/products/lw180-synthetic-sleeping-bag",
+    "weight_g": 680,
+    "weight_basis": "manufacturer",
+    "weight_note": "Standard size (190 x 75 cm), maker-stated ~680 g",
+    "price_usd": 32.99,
+    "specs": {
+     "temp_rating_f": 59
+    },
+    "confidence": "high",
+    "notes": "80 g/m² synthetic fill; Large is ~760 g. Often discounted to $29."
+   }
+  },
+  {
+   "id": "zenbivy-light-bed-25f",
+   "set": {
+    "model": "Light Quilt",
+    "url": "https://zenbivy.com/products/light-quilt",
+    "weight_g": 623,
+    "weight_basis": "manufacturer",
+    "weight_note": "Regular quilt only (Zenbivy-stated 1 lb 6 oz); Light Sheet sold separately",
+    "price_usd": 289,
+    "specs": {
+     "fill_weight_g": 321
+    },
+    "confidence": "high",
+    "notes": "Light Bed is now sold as Light Quilt + Light Sheet (39) or bundles. 25°F limit / 35°F comfort. Old 907 g figure (exactly 2 lb) was a rounded system weight."
+   }
+  },
+  {
+   "id": "zenbivy-light-bed-10f",
+   "set": {
+    "model": "Light Quilt",
+    "url": "https://zenbivy.com/products/light-quilt",
+    "weight_g": 907,
+    "weight_basis": "manufacturer",
+    "weight_note": "Regular quilt only (Zenbivy-stated 2 lb); Light Sheet sold separately",
+    "price_usd": 359,
+    "specs": {
+     "fill_weight_g": 579
+    },
+    "confidence": "high",
+    "notes": "Light Bed is now sold as Light Quilt + Light Sheet (39) or bundles. 10°F limit / 20°F comfort."
+   }
+  },
+  {
+   "id": "hyke-byke-eolus-0",
+   "set": {
+    "url": "https://www.campsaver.com/hyke-byke-eolus-ultralight-goose-down-sleeping-bag.html",
+    "weight_g": 1406,
+    "weight_basis": "manufacturer",
+    "weight_note": "Regular; maker copy states 3.10 lb (Short 2.90, Long 3.36)",
+    "specs": {
+     "fill_power": 800
+    },
+    "discontinued": true,
+    "notes": "Brand site hykeandbyke.com is a parked domain and CampSaver lists the H&B line as Unavailable & Discontinued (checked 2026-10-23). 0°F is the survival limit; comfort 30°F, limit 15°F."
+   }
+  },
+  {
+   "id": "hyke-byke-snowmass-0",
+   "set": {
+    "url": "https://www.campsaver.com/hyke-byke-snowmass-ultralight-down-sleeping-bag.html",
+    "discontinued": true,
+    "notes": "Brand site hykeandbyke.com is a parked domain and CampSaver lists the H&B line as Unavailable & Discontinued (checked 2026-10-23). Weight approximate."
+   }
+  },
+  {
+   "id": "hyke-byke-quandary-15",
+   "set": {
+    "url": "https://www.campsaver.com/hyke-byke-snowmass-ultralight-down-sleeping-bag.html",
+    "discontinued": true,
+    "notes": "Brand site hykeandbyke.com is a parked domain and CampSaver lists the H&B line as Unavailable & Discontinued (checked 2026-10-23). Weight approximate."
+   }
+  },
+  {
+   "id": "hyke-byke-shavano-32",
+   "set": {
+    "url": "https://www.campsaver.com/hyke-byke-snowmass-ultralight-down-sleeping-bag.html",
+    "discontinued": true,
+    "notes": "Brand site hykeandbyke.com is a parked domain and CampSaver lists the H&B line as Unavailable & Discontinued (checked 2026-10-23). Weight approximate."
+   }
+  },
+  {
+   "id": "montbell-down-hugger-800-3",
+   "set": {
+    "specs": {
+     "fill_weight_g": 280
+    },
+    "notes": "Specs and price from Miyar Adventures (US Montbell retailer) listing, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "montbell-down-hugger-800-1",
+   "set": {
+    "specs": {
+     "fill_weight_g": 570
+    },
+    "notes": "Specs and price from Miyar Adventures (US Montbell retailer) listing, checked 2026-10-23."
+   }
+  },
+  {
+   "id": "rab-mythic-alpine-light-jacket-mens",
+   "set": {
+    "url": "https://rab.equipment/us/mythic-alpine-light-jacket",
+    "weight_note": "Rab-listed 8.8 oz / 252 g (size M)",
+    "specs": {
+     "fill_weight_g": 80
+    }
+   }
+  },
+  {
+   "id": "rab-microlight-alpine-down-jacket-mens",
+   "set": {
+    "url": "https://rab.equipment/us/mens-microlight-alpine-down-jacket",
+    "weight_note": "Rab-listed 15.09 oz / 428 g (size M)",
+    "specs": {
+     "fill_weight_g": 152
+    }
+   }
+  },
+  {
+   "id": "rab-microlight-alpine-down-jacket-womens",
+   "set": {
+    "url": "https://rab.equipment/us/womens-microlight-alpine-down-jacket",
+    "weight_note": "Rab-listed 13.22 oz / 375 g (size 10)",
+    "specs": {
+     "fill_weight_g": 137
+    }
+   }
+  },
+  {
+   "id": "rab-electron-pro-down-jacket-mens",
+   "set": {
+    "url": "https://rab.equipment/us/mens-electron-pro-down-jacket",
+    "weight_note": "Rab-listed 16.8 oz / 477 g (size M)"
+   }
+  },
+  {
+   "id": "rab-mythic-shorts-mens",
+   "set": {
+    "url": "https://rab.equipment/us/mens-mythic-down-shorts",
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "rab-microlight-down-jacket-womens",
+   "set": {
+    "specs": {
+     "fill_power": 700,
+     "fill_weight_g": 121
+    }
+   }
+  },
+  {
+   "id": "rab-electron-pro-down-jacket-womens",
+   "set": {
+    "specs": {
+     "fill_power": 800,
+     "fill_weight_g": 170
+    }
+   }
+  },
+  {
+   "id": "rab-mythic-g-down-jacket-womens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 115
+    },
+    "notes": "Fill weight 115 g quoted by Rab for UK size 12; jacket weight for size 10."
+   }
+  },
+  {
+   "id": "rab-mythic-ultra-32f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 187
+    }
+   }
+  },
+  {
+   "id": "rab-mythic-ultra-20f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 355
+    }
+   }
+  },
+  {
+   "id": "rab-mythic-ultra-10f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 590
+    }
+   }
+  },
+  {
+   "id": "rab-neutrino-20f",
+   "set": {
+    "specs": {
+     "fill_weight_g": 400
+    }
+   }
+  },
+  {
+   "id": "rab-photon-pants",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "feathered-friends-helios-down-pants",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "feathered-friends-down-booties",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "montbell-superior-down-pants-mens",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "montbell-u-l-thermawrap-pants",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "patagonia-nano-air-light-bottoms-mens",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "patagonia-nano-air-light-bottoms-womens",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "senchi-designs-mori-80-legging",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "farpointe-outdoor-gear-alpha-camp-pants-60gsm",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "farpointe-outdoor-gear-alpha-camp-pants-90gsm",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "farpointe-outdoor-gear-tecnowool-camp-pants-90gsm",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "enlightened-equipment-torrid-booties",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "western-mountaineering-flash-down-booties",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "goosefeet-gear-down-pants",
+   "set": {
+    "specs": {
+     "hood": false
+    },
+    "price_usd": 185,
+    "confidence": "medium",
+    "notes": "Custom-built; $185 base price (WooCommerce store API, checked 2026-10-23); fill selectable 2.5-8.5 oz of 850FP down, so weight varies."
+   }
+  },
+  {
+   "id": "goosefeet-gear-down-socks",
+   "set": {
+    "specs": {
+     "hood": false
+    },
+    "price_usd": 75,
+    "confidence": "medium",
+    "notes": "Custom-built; $75 base price (WooCommerce store API, checked 2026-10-23); weight varies with size/fabric."
+   }
+  },
+  {
+   "id": "enlightened-equipment-torrid-pants-mens",
+   "set": {
+    "specs": {
+     "hood": false
+    }
+   }
+  },
+  {
+   "id": "outdoor-research-coldfront-down-hoodie-mens",
+   "set": {
+    "discontinued": true,
+    "notes": "Not found in outdoorresearch.com store search (checked 2026-10-23); weight/price recalled."
+   }
+  },
+  {
+   "id": "mountain-hardwear-phantom-15f",
+   "set": {
+    "price_usd": 680,
+    "notes": "Price and weight (924 g) from CampSaver listing (US retailer; mountainhardwear.com blocks automated access), checked 2026-10-23."
+   }
+  },
+  {
+   "id": "nemo-disco-15f-mens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 642
+    }
+   }
+  },
+  {
+   "id": "nemo-disco-30f-mens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 320
+    }
+   }
+  },
+  {
+   "id": "nemo-riff-15f-mens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 540
+    }
+   }
+  },
+  {
+   "id": "nemo-riff-30f-mens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 295
+    }
+   }
+  },
+  {
+   "id": "paria-outdoor-products-thermodown-30-quilt",
+   "set": {
+    "specs": {
+     "fill_power": 800,
+     "fill_weight_g": 397
+    }
+   }
+  },
+  {
+   "id": "katabatic-gear-tarn-down-jacket-mens",
+   "set": {
+    "specs": {
+     "fill_power": 850,
+     "fill_weight_g": 102
+    }
+   }
+  },
+  {
+   "id": "katabatic-gear-tincup-down-jacket-mens",
+   "set": {
+    "specs": {
+     "fill_power": 850,
+     "fill_weight_g": 159
+    }
+   }
+  },
+  {
+   "id": "mountain-hardwear-stretchdown-hoody-womens",
+   "set": {
+    "specs": {
+     "fill_power": 700
+    }
+   }
+  },
+  {
+   "id": "mountain-hardwear-stretchdown-hoody-mens",
+   "set": {
+    "specs": {
+     "fill_power": 700
+    }
+   }
+  },
+  {
+   "id": "decathlon-simond-mt500-down-puffer-vest-mens",
+   "set": {
+    "specs": {
+     "fill_power": 660
+    },
+    "notes": "Decathlon lists fill power as 660 cuin, 85/15 down/feather."
+   }
+  },
+  {
+   "id": "decathlon-forclaz-mt100-down-puffer-jacket-womens",
+   "set": {
+    "url": "https://www.decathlon.com/products/forclaz-mountain-backpacking-down-jacket-mt100-335256",
+    "price_usd": 99.99,
+    "specs": {
+     "fill_power": 800
+    },
+    "notes": "Decathlon lists 800 cuin down; 9.2 oz (260 g)."
+   }
+  },
+  {
+   "id": "decathlon-simond-mt500-hooded-down-puffer-jacket-mens",
+   "set": {
+    "notes": "Price and 800 cuin 90/10 down verified on decathlon.com 2026-10-23; weight not listed on page (estimate)."
+   }
+  },
+  {
+   "id": "marmot-hydrogen-30f",
+   "set": {
+    "url": "https://www.marmot.com/p/hydrogen-down-30--sleeping-bag/SP_2284611/AFS_195115133726.html",
+    "weight_g": 720,
+    "weight_basis": "manufacturer",
+    "weight_note": "Regular (fits to 6 ft); Marmot-listed 1 lb 9.4 oz",
+    "price_usd": 429,
+    "confidence": "high",
+    "notes": "Current Hydrogen Down 30° (style M14402), ExpeDRY 800FP goose; tested comfort 36°F / limit 27°F. Long $449."
+   }
+  },
+  {
+   "id": "marmot-phase-20",
+   "set": {
+    "discontinued": true,
+    "notes": "Phase not listed in marmot.com ultralight or backpacking sleeping-bag catalogs (checked 2026-10-23); weight approximate."
+   }
+  },
+  {
+   "id": "marmot-phase-30",
+   "set": {
+    "discontinued": true,
+    "notes": "Phase not listed in marmot.com ultralight or backpacking sleeping-bag catalogs (checked 2026-10-23); weight approximate."
+   }
+  },
+  {
+   "id": "marmot-helium-15f",
+   "set": {
+    "notes": "Only the Helium Down 15° Long ($539) is listed on marmot.com at check time (2026-10-23); Regular price not shown. Weight approximate."
+   }
+  },
+  {
+   "id": "big-agnes-fly-creek-ul-quilt",
+   "set": {
+    "specs": {
+     "fill_power": 850
+    }
+   }
+  },
+  {
+   "id": "naturehike-tuye-r3-5-ultralight-inflatable-pad-168x58-mummy",
+   "set": {
+    "weight_g": 450,
+    "weight_note": "Small Single Mummy 168x58x7 cm; spec table ~450 g (intro text says as little as 415 g)",
+    "confidence": "high"
+   }
+  }
+ ],
+ "additions": [
+  {
+   "id": "cumulus-the-quilt-300",
+   "category": "sleep-insulation",
+   "subcategory": "quilt",
+   "brand": "Cumulus",
+   "model": "The Quilt 300",
+   "variant": null,
+   "weight_g": 496,
+   "weight_basis": "manufacturer",
+   "weight_note": "Cumulus-listed 17.5 oz (standard size)",
+   "price_usd": 385,
+   "specs": {
+    "temp_rating_f": 28,
+    "fill": "down",
+    "fill_power": 900,
+    "fill_weight_g": 301,
+    "style": "quilt (open construction)"
+   },
+   "url": "https://cumulus.equipment/en/ga/p/quilts-and-comforters-the-quilt-300",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "USD price from Cumulus global store (import taxes extra), checked 2026-10-23. Temp = limit 28°F; comfort 37°F."
+  },
+  {
+   "id": "cumulus-the-quilt-150",
+   "category": "sleep-insulation",
+   "subcategory": "quilt",
+   "brand": "Cumulus",
+   "model": "The Quilt 150",
+   "variant": null,
+   "weight_g": 301,
+   "weight_basis": "manufacturer",
+   "weight_note": "Cumulus-listed 10.6 oz (standard size)",
+   "price_usd": 289,
+   "specs": {
+    "temp_rating_f": 39,
+    "fill": "down",
+    "fill_power": 900,
+    "fill_weight_g": 150,
+    "style": "quilt (open construction)"
+   },
+   "url": "https://cumulus.equipment/en/ga/p/quilts-and-comforters-the-quilt-150",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "USD price from Cumulus global store (import taxes extra), checked 2026-10-23. Temp = limit 39°F; comfort 48°F."
+  },
+  {
+   "id": "cumulus-neo-quilt-300",
+   "category": "sleep-insulation",
+   "subcategory": "quilt",
+   "brand": "Cumulus",
+   "model": "Neo Quilt 300",
+   "variant": null,
+   "weight_g": 454,
+   "weight_basis": "manufacturer",
+   "weight_note": "Cumulus-listed 16 oz (standard size)",
+   "price_usd": 385,
+   "specs": {
+    "temp_rating_f": 27,
+    "fill": "down",
+    "fill_power": 900,
+    "fill_weight_g": 301,
+    "style": "quilt (closed footbox)"
+   },
+   "url": "https://cumulus.equipment/en/ga/p/quilts-and-comforters-neo-quilt-300",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "USD price from Cumulus global store (import taxes extra), checked 2026-10-23. Temp = limit 27°F; comfort 37°F."
+  },
+  {
+   "id": "cumulus-neo-quilt-450",
+   "category": "sleep-insulation",
+   "subcategory": "quilt",
+   "brand": "Cumulus",
+   "model": "Neo Quilt 450",
+   "variant": null,
+   "weight_g": 610,
+   "weight_basis": "manufacturer",
+   "weight_note": "Cumulus-listed 21.5 oz (standard size)",
+   "price_usd": 445,
+   "specs": {
+    "temp_rating_f": 18,
+    "fill": "down",
+    "fill_power": 900,
+    "fill_weight_g": 451,
+    "style": "quilt (closed footbox)"
+   },
+   "url": "https://cumulus.equipment/en/ga/p/quilts-and-comforters-neo-quilt-450",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "USD price from Cumulus global store (import taxes extra), checked 2026-10-23. Temp = limit 18°F; comfort 28°F."
+  }
+ ],
+ "removals": []
+}

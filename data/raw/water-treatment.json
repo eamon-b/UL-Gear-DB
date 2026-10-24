@@ -15,7 +15,7 @@
       "removes_viruses": false,
       "thread": "28mm"
     },
-    "url": "https://www.sawyer.com/",
+    "url": "https://www.sawyer.com/product/squeeze-water-filter-system",
     "discontinued": false,
     "confidence": "high",
     "notes": "Lifetime warranty (no rated lifespan). Kit includes 2x 1L pouches. Weight/price checked at Garage Grown Gear."
@@ -37,7 +37,7 @@
       "lifespan_l": 378541,
       "thread": "28mm"
     },
-    "url": "https://www.sawyer.com/",
+    "url": "https://www.sawyer.com/product/micro-squeeze-water-filtration-system",
     "discontinued": false,
     "confidence": "high",
     "notes": "Rated to 100,000 gal. Checked at Garage Grown Gear."
@@ -51,17 +51,17 @@
     "variant": "SP128",
     "weight_g": 57,
     "weight_basis": "manufacturer",
-    "weight_note": "filter only (2 oz claimed)",
-    "price_usd": 27.49,
+    "weight_note": "filter only (Sawyer: total field weight 2 oz; 4.93 oz retail kit weight)",
+    "price_usd": 28.99,
     "specs": {
       "pore_size_micron": 0.1,
       "removes_viruses": false,
       "lifespan_l": 378541,
       "thread": "28mm"
     },
-    "url": "https://www.sawyer.com/",
+    "url": "https://www.sawyer.com/product/mini-water-filtration-system-blue",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Slower flow than Squeeze; common budget pick."
   },
   {
@@ -138,15 +138,15 @@
     "weight_g": 235,
     "weight_basis": "manufacturer",
     "weight_note": "all included components (8.3 oz per retailer); Sawyer lists 11.8 oz package weight",
-    "price_usd": null,
+    "price_usd": 46.99,
     "specs": {
       "pore_size_micron": 0.1,
       "removes_viruses": false,
       "capacity_l": 3.8
     },
-    "url": "https://sawyer.com/product/one-gallon-gravity-water-filtration-system",
+    "url": "https://www.sawyer.com/product/one-gallon-gravity-water-filtration-system",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Includes one 1-gal bag and a dual-threaded Mini filter. SP2160 variant has two bags."
   },
   {
@@ -164,10 +164,10 @@
       "pore_size_micron": 0.1,
       "removes_viruses": false
     },
-    "url": "https://www.sawyer.com/",
-    "discontinued": false,
+    "url": "https://www.sawyer.com/product/squeeze-water-filter-system",
+    "discontinued": true,
     "confidence": "low",
-    "notes": "Older kit SKU bundling three pouches; same filter as SP129."
+    "notes": "Older SP131 kit SKU (three pouches); no longer in Sawyer catalog/sitemap (Oct 2026) - current kit is SP129CL, same filter."
   },
   {
     "id": "katadyn-befree-0-6l",
@@ -187,7 +187,7 @@
       "lifespan_l": 1000,
       "thread": "42mm"
     },
-    "url": "https://www.katadyngroup.com/",
+    "url": "https://www.katadyngroup.com/us/en/8019639-katadyn-befree-0.6-us~p10915",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight from Katadyn product data; price recalled."
@@ -199,9 +199,9 @@
     "brand": "Katadyn",
     "model": "BeFree",
     "variant": "1.0L",
-    "weight_g": 73,
+    "weight_g": 63,
     "weight_basis": "manufacturer",
-    "weight_note": "filter + 1.0L flask",
+    "weight_note": "filter + 1.0L flask (Katadyn US spec 63 g)",
     "price_usd": 49.95,
     "specs": {
       "flow_rate_lpm": 2,
@@ -210,7 +210,7 @@
       "lifespan_l": 1000,
       "thread": "42mm"
     },
-    "url": "https://www.katadyngroup.com/",
+    "url": "https://www.katadyngroup.com/us/en/8018006-katadyn-befree-1.0l-us~p6730",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight from Katadyn product data (Black Edition listing); price recalled."
@@ -224,8 +224,8 @@
     "variant": "3.0L",
     "weight_g": 192,
     "weight_basis": "manufacturer",
-    "weight_note": "complete system per retailers",
-    "price_usd": 89.95,
+    "weight_note": "complete system (Katadyn spec)",
+    "price_usd": 79.95,
     "specs": {
       "flow_rate_lpm": 2,
       "pore_size_micron": 0.1,
@@ -233,10 +233,10 @@
       "lifespan_l": 1000,
       "thread": "42mm"
     },
-    "url": "https://www.katadyngroup.com/",
+    "url": "https://www.katadyngroup.com/us/en/8020470-katadyn-gravity-befree-3.0l-us~p6733",
     "discontinued": false,
-    "confidence": "medium",
-    "notes": null
+    "confidence": "high",
+    "notes": "Price per GearX listing (Oct 2026)."
   },
   {
     "id": "katadyn-befree-ac-1-0l",
@@ -248,7 +248,7 @@
     "weight_g": 76,
     "weight_basis": "manufacturer",
     "weight_note": "filter + 1.0L flask",
-    "price_usd": 52.95,
+    "price_usd": 59.95,
     "specs": {
       "flow_rate_lpm": 2,
       "pore_size_micron": 0.1,
@@ -260,7 +260,7 @@
     "url": "https://garagegrowngear.com/products/befree-activated-carbon-1l-by-katadyn",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Activated-carbon version of BeFree (taste/odor)."
+    "notes": "Activated-carbon version of BeFree (taste/odor). List $59.95 (GearX/Neptune); GGG sells at $52.95."
   },
   {
     "id": "katadyn-hiker-pro",
@@ -269,19 +269,19 @@
     "brand": "Katadyn",
     "model": "Hiker Pro",
     "variant": null,
-    "weight_g": 312,
+    "weight_g": 233,
     "weight_basis": "manufacturer",
-    "weight_note": "pump + hoses",
+    "weight_note": "Katadyn spec 233 g",
     "price_usd": 99.95,
     "specs": {
       "flow_rate_lpm": 1,
       "pore_size_micron": 0.2,
       "removes_viruses": false,
-      "lifespan_l": 750
+      "lifespan_l": 1150
     },
-    "url": "https://www.katadyngroup.com/",
+    "url": "https://www.katadyngroup.com/us/en/8019857-katadyn-hiker-pro-us-transparent~p6724",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -291,7 +291,7 @@
     "brand": "Katadyn",
     "model": "Pocket",
     "variant": null,
-    "weight_g": 567,
+    "weight_g": 550,
     "weight_basis": "manufacturer",
     "weight_note": "pump",
     "price_usd": null,
@@ -301,9 +301,9 @@
       "removes_viruses": false,
       "lifespan_l": 50000
     },
-    "url": "https://www.katadyngroup.com/",
+    "url": "https://www.katadyngroup.com/us/en/2010000-katadyn-pocket-water-filter~p6695",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Silver-impregnated ceramic; rated to 50,000 L."
   },
   {
@@ -316,17 +316,17 @@
     "weight_g": 425,
     "weight_basis": "manufacturer",
     "weight_note": "pump",
-    "price_usd": null,
+    "price_usd": 124.95,
     "specs": {
       "flow_rate_lpm": 2,
       "pore_size_micron": 0.2,
       "removes_viruses": false,
       "lifespan_l": 2000
     },
-    "url": "https://www.katadyngroup.com/",
+    "url": "https://www.katadyngroup.com/us/en/8014931-katadyn-vario-microfilter-usa~p6699",
     "discontinued": false,
-    "confidence": "low",
-    "notes": "Dual-mode ceramic/glass-fiber pump."
+    "confidence": "high",
+    "notes": "Dual-mode ceramic/glass-fiber pump: ~1 L/min (ceramic) or 2 L/min (faster flow). Price per Neptune Mountaineering."
   },
   {
     "id": "katadyn-gravity-camp-6l",
@@ -347,9 +347,9 @@
       "capacity_l": 6
     },
     "url": "https://www.katadyngroup.com/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "Absent from Katadyn US outdoor listing and katadyn.com catalog (Oct 2026)."
   },
   {
     "id": "katadyn-micropur-mp1-30",
@@ -361,17 +361,17 @@
     "weight_g": 14,
     "weight_basis": "estimate",
     "weight_note": "blister pack of 30",
-    "price_usd": null,
+    "price_usd": 17.95,
     "specs": {
       "removes_viruses": true,
       "lifespan_l": 30,
       "active": "chlorine dioxide",
       "contact_time_hr": 4
     },
-    "url": "https://www.katadyngroup.com/",
+    "url": "https://www.katadyngroup.com/us/en/8013692-micropur-purification-mp-1t-3x10-tab.-~p10779",
     "discontinued": false,
-    "confidence": "medium",
-    "notes": "Each tablet treats 1 L; 4 h for Cryptosporidium."
+    "confidence": "high",
+    "notes": "Each tablet treats 1 L; 4 h exposure time. Price per GearX listing."
   },
   {
     "id": "katadyn-micropur-mp1-20",
@@ -390,7 +390,7 @@
       "active": "chlorine dioxide",
       "contact_time_hr": 4
     },
-    "url": "https://www.katadyngroup.com/",
+    "url": "https://www.katadyngroup.com/us/en/8014996-micropur-purification-mp-1t-2x10-tab.-~p6627",
     "discontinued": false,
     "confidence": "low",
     "notes": null
@@ -402,16 +402,17 @@
     "brand": "Steripen",
     "model": "Ultralight UV",
     "variant": null,
-    "weight_g": 77,
+    "weight_g": 76,
     "weight_basis": "manufacturer",
     "weight_note": "device, per Katadyn product data",
     "price_usd": null,
     "specs": {
       "removes_viruses": true,
       "battery": "rechargeable (USB)",
-      "treatment": "1L per cycle"
+      "treatment": "1L per cycle",
+      "lifespan_l": 8000
     },
-    "url": "https://www.katadyngroup.com/",
+    "url": "https://www.katadyngroup.com/us/en/ull-mp-efg-steripen-ultralight-uv-water-purifier~p6690",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -423,18 +424,18 @@
     "brand": "Steripen",
     "model": "Adventurer Opti",
     "variant": null,
-    "weight_g": 102,
+    "weight_g": 103,
     "weight_basis": "manufacturer",
-    "weight_note": "with batteries",
-    "price_usd": null,
+    "weight_note": "with 2x CR123 batteries",
+    "price_usd": 124.95,
     "specs": {
       "removes_viruses": true,
       "lifespan_l": 8000,
       "battery": "2x CR123"
     },
-    "url": "https://www.katadyngroup.com/",
+    "url": "https://www.katadyngroup.com/us/en/ado-mp-efg-steripen-adventure-opti-uv-water-purifier~p6693",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Lamp life 8,000 L."
   },
   {
@@ -453,9 +454,9 @@
       "lifespan_l": 8000,
       "battery": "rechargeable (USB)"
     },
-    "url": "https://www.katadyngroup.com/",
+    "url": "https://www.katadyngroup.com/us/en/ult-mp-efg-steripen-ultra-uv-water-purifier~p6691",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -465,18 +466,18 @@
     "brand": "Steripen",
     "model": "Classic 3",
     "variant": null,
-    "weight_g": 181,
+    "weight_g": 178,
     "weight_basis": "manufacturer",
-    "weight_note": "with batteries",
+    "weight_note": "without batteries (4x AA not included)",
     "price_usd": null,
     "specs": {
       "removes_viruses": true,
       "lifespan_l": 8000,
       "battery": "4x AA"
     },
-    "url": "https://www.katadyngroup.com/",
+    "url": "https://www.katadyngroup.com/us/en/sp-efg-steripen-classic-3-uv-water-purifier~p30342",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -532,9 +533,9 @@
     "brand": "Platypus",
     "model": "GravityWorks",
     "variant": "4.0L system",
-    "weight_g": 305,
+    "weight_g": 326,
     "weight_basis": "manufacturer",
-    "weight_note": "complete system (10.75 oz per Backpacker)",
+    "weight_note": "complete 4.0 L system, 11.5 oz",
     "price_usd": 134.95,
     "specs": {
       "flow_rate_lpm": 1.75,
@@ -543,9 +544,9 @@
       "lifespan_l": 1500,
       "capacity_l": 4
     },
-    "url": "https://www.platypusbreathe.com/",
+    "url": "https://cascadedesigns.com/products/gravityworks-water-filter-system",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -566,10 +567,10 @@
       "lifespan_l": 1500,
       "capacity_l": 2
     },
-    "url": "https://www.platypusbreathe.com/",
-    "discontinued": false,
+    "url": "https://cascadedesigns.com/products/gravityworks-water-filter-system",
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "Platypus now sells only 4.0 L and 6.0 L GravityWorks systems (Oct 2026)."
   },
   {
     "id": "lifestraw-peak-solo",
@@ -612,7 +613,7 @@
     },
     "url": "https://lifestraw.com/products/lifestraw-peak-series-straw",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -645,9 +646,9 @@
     "brand": "LifeStraw",
     "model": "Peak Series Collapsible Squeeze",
     "variant": "650ml",
-    "weight_g": 88,
+    "weight_g": 102,
     "weight_basis": "manufacturer",
-    "weight_note": "filter + 650ml bottle",
+    "weight_note": "manufacturer spec (lifestraw.com lists 3.2 oz / 102 g, same as the 1L version)",
     "price_usd": 37.95,
     "specs": {
       "flow_rate_lpm": 3,
@@ -658,7 +659,7 @@
     },
     "url": "https://lifestraw.com/products/lifestraw-peak-series-squeeze-bottle",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -668,19 +669,20 @@
     "brand": "LifeStraw",
     "model": "Peak Series Gravity",
     "variant": "3L",
-    "weight_g": 215,
+    "weight_g": 228,
     "weight_basis": "manufacturer",
-    "weight_note": "system",
+    "weight_note": "manufacturer spec 8.1 oz",
     "price_usd": 65.95,
     "specs": {
       "pore_size_micron": 0.2,
       "removes_viruses": false,
       "lifespan_l": 2000,
-      "capacity_l": 3
+      "capacity_l": 3,
+      "flow_rate_lpm": 1.7
     },
     "url": "https://lifestraw.com/products/lifestraw-peak-series-gravity-3l",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -690,9 +692,9 @@
     "brand": "LifeStraw",
     "model": "Peak Series Gravity",
     "variant": "8L",
-    "weight_g": 340,
+    "weight_g": 536,
     "weight_basis": "manufacturer",
-    "weight_note": "system",
+    "weight_note": "manufacturer spec 19 oz",
     "price_usd": 95.95,
     "specs": {
       "pore_size_micron": 0.2,
@@ -702,7 +704,7 @@
     },
     "url": "https://lifestraw.com/products/lifestraw-peak-series-gravity-filter-system-8l",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -712,9 +714,9 @@
     "brand": "LifeStraw",
     "model": "Peak Series 3-in-1 Kit",
     "variant": null,
-    "weight_g": 170,
-    "weight_basis": "estimate",
-    "weight_note": "Solo filter + 650ml squeeze bag + 3L gravity bag",
+    "weight_g": 378,
+    "weight_basis": "manufacturer",
+    "weight_note": "sum of manufacturer component weights: Solo filter 48 g + 3L gravity bag w/ hose 228 g + 650 ml squeeze bottle 102 g",
     "price_usd": 99.95,
     "specs": {
       "flow_rate_lpm": 3,
@@ -724,7 +726,7 @@
     },
     "url": "https://lifestraw.com/products/lifestraw-peak-series-3-in-1",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": "Often on sale ($69.95 seen)."
   },
   {
@@ -745,7 +747,7 @@
     },
     "url": "https://lifestraw.com/products/lifestraw",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -777,7 +779,7 @@
     "brand": "LifeStraw",
     "model": "Go Series",
     "variant": "22 oz",
-    "weight_g": 221,
+    "weight_g": 247,
     "weight_basis": "manufacturer",
     "weight_note": "bottle + filter",
     "price_usd": 44.95,
@@ -790,7 +792,7 @@
     },
     "url": "https://lifestraw.com/products/lifestraw-go-series-650-ml",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -800,7 +802,7 @@
     "brand": "LifeStraw",
     "model": "Go Series",
     "variant": "1L",
-    "weight_g": 283,
+    "weight_g": 268,
     "weight_basis": "manufacturer",
     "weight_note": "bottle + filter",
     "price_usd": 49.95,
@@ -813,7 +815,7 @@
     },
     "url": "https://lifestraw.com/products/lifestraw-go-series-1l",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -914,16 +916,16 @@
     "weight_g": 490,
     "weight_basis": "manufacturer",
     "weight_note": "pump",
-    "price_usd": 389.95,
+    "price_usd": 399.95,
     "specs": {
       "flow_rate_lpm": 2.5,
       "pore_size_micron": 0.02,
       "removes_viruses": true,
       "lifespan_l": 10000
     },
-    "url": "https://www.msrgear.com/",
+    "url": "https://cascadedesigns.com/products/guardian-purifier",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Self-cleaning hollow-fiber purifier."
   },
   {
@@ -943,7 +945,7 @@
       "removes_viruses": false,
       "lifespan_l": 2000
     },
-    "url": "https://www.msrgear.com/",
+    "url": "https://cascadedesigns.com/products/trailshot-pocket-sized-water-filter",
     "discontinued": false,
     "confidence": "high",
     "notes": "Checked via GearX listing."
@@ -967,9 +969,9 @@
       "capacity_l": 2
     },
     "url": "https://www.msrgear.com/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "Not found in cascadedesigns.com store search (Oct 2026); only the TrailShot/Trail Base replacement cartridge kit is still sold."
   },
   {
     "id": "msr-miniworks-ex",
@@ -978,19 +980,19 @@
     "brand": "MSR",
     "model": "MiniWorks EX",
     "variant": null,
-    "weight_g": 454,
+    "weight_g": 460,
     "weight_basis": "manufacturer",
-    "weight_note": "pump",
-    "price_usd": 109.95,
+    "weight_note": "MSR lists 1 lb / 0.46 kg",
+    "price_usd": 129.95,
     "specs": {
       "flow_rate_lpm": 1,
       "pore_size_micron": 0.2,
       "removes_viruses": false,
       "lifespan_l": 2000
     },
-    "url": "https://www.msrgear.com/",
+    "url": "https://cascadedesigns.com/products/miniworks-r-ex-microfilter",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Ceramic + carbon."
   },
   {
@@ -1000,10 +1002,10 @@
     "brand": "MSR",
     "model": "AutoFlow XL",
     "variant": null,
-    "weight_g": 309,
+    "weight_g": 340,
     "weight_basis": "manufacturer",
-    "weight_note": "system",
-    "price_usd": 129.95,
+    "weight_note": "total system weight 12 oz",
+    "price_usd": 139.95,
     "specs": {
       "flow_rate_lpm": 1.75,
       "pore_size_micron": 0.2,
@@ -1011,9 +1013,9 @@
       "lifespan_l": 1500,
       "capacity_l": 10
     },
-    "url": "https://www.msrgear.com/",
+    "url": "https://cascadedesigns.com/products/autoflow-xl-gravity-filter-10-l",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1131,16 +1133,16 @@
     "weight_g": 31,
     "weight_basis": "estimate",
     "weight_note": "glass bottle",
-    "price_usd": null,
+    "price_usd": 11.99,
     "specs": {
       "removes_viruses": true,
       "lifespan_l": 25,
       "active": "iodine"
     },
-    "url": "https://www.potableaqua.com/",
+    "url": "https://pharmacalway.com/potableaqua/",
     "discontinued": false,
     "confidence": "low",
-    "notes": null
+    "notes": "Price per Neptune Mountaineering listing (Oct 2026); weight still an estimate."
   },
   {
     "id": "potable-aqua-pa-plus",
@@ -1152,16 +1154,16 @@
     "weight_g": 62,
     "weight_basis": "estimate",
     "weight_note": "two bottles",
-    "price_usd": null,
+    "price_usd": 15.99,
     "specs": {
       "removes_viruses": true,
       "lifespan_l": 25,
       "active": "iodine + taste neutralizer"
     },
-    "url": "https://www.potableaqua.com/",
+    "url": "https://pharmacalway.com/potableaqua/",
     "discontinued": false,
     "confidence": "low",
-    "notes": null
+    "notes": "Price per Neptune Mountaineering listing (Oct 2026); weight still an estimate."
   },
   {
     "id": "potable-aqua-chlorine-dioxide-20",
@@ -1179,7 +1181,7 @@
       "lifespan_l": 20,
       "active": "chlorine dioxide"
     },
-    "url": "https://www.potableaqua.com/",
+    "url": "https://pharmacalway.com/potableaqua/",
     "discontinued": false,
     "confidence": "low",
     "notes": null
@@ -1272,5 +1274,72 @@
     "discontinued": false,
     "confidence": "high",
     "notes": null
+  },
+  {
+    "id": "platypus-quickdraw-3l-gravity",
+    "category": "water-treatment",
+    "subcategory": "gravity filter",
+    "brand": "Platypus",
+    "model": "QuickDraw",
+    "variant": "3L Gravity System",
+    "weight_g": 233,
+    "weight_basis": "manufacturer",
+    "weight_note": "total system weight; minimum weight 136 g",
+    "price_usd": 99.95,
+    "specs": {
+      "flow_rate_lpm": 3,
+      "pore_size_micron": 0.2,
+      "removes_viruses": false,
+      "lifespan_l": 1000,
+      "capacity_l": 3
+    },
+    "url": "https://cascadedesigns.com/products/quickdraw-3l-gravity-filter-system",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "QuickDraw filter with 3L dirty reservoir; converts between gravity and squeeze use."
+  },
+  {
+    "id": "msr-guardian-gravity",
+    "category": "water-treatment",
+    "subcategory": "gravity filter",
+    "brand": "MSR",
+    "model": "Guardian Gravity Purifier",
+    "variant": null,
+    "weight_g": 530,
+    "weight_basis": "manufacturer",
+    "weight_note": "MSR spec 1 lb 2 oz",
+    "price_usd": 309.95,
+    "specs": {
+      "flow_rate_lpm": 0.5,
+      "pore_size_micron": 0.02,
+      "removes_viruses": true,
+      "lifespan_l": 3000,
+      "capacity_l": 10
+    },
+    "url": "https://cascadedesigns.com/products/guardian-gravity-purifier",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Hollow-fiber purifier with 10 L reservoir; meets NSF P248."
+  },
+  {
+    "id": "msr-thru-link",
+    "category": "water-treatment",
+    "subcategory": "straw filter",
+    "brand": "MSR",
+    "model": "Thru-Link Inline Filter",
+    "variant": null,
+    "weight_g": 71,
+    "weight_basis": "manufacturer",
+    "weight_note": "MSR spec 2.5 oz",
+    "price_usd": 54.95,
+    "specs": {
+      "flow_rate_lpm": 1.5,
+      "pore_size_micron": 0.2,
+      "removes_viruses": false
+    },
+    "url": "https://cascadedesigns.com/products/thru-link-inline-water-filter",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Inline hollow-fiber + activated-carbon filter for hydration reservoirs; also usable as a gravity filter."
   }
 ]

@@ -408,7 +408,8 @@
     "specs": {
       "material": "84% merino / 16% polyester with mesh panels",
       "gender": "men",
-      "upf": 25
+      "upf": 25,
+      "gsm": 135
     },
     "url": "https://www.ridgemerino.com/products/mens-pursuit-ultralight-air-merino-hoodie",
     "discontinued": false,
@@ -506,9 +507,9 @@
     "brand": "Ridge Merino",
     "model": "Merino Wool Boxer Briefs",
     "variant": "Men's",
-    "weight_g": 70,
-    "weight_basis": "estimate",
-    "weight_note": "estimate, size M",
+    "weight_g": 74,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M per-size Shopify variant weight on brand store (weights scale by size: 68 g S - 102 g XXL); not stated in product copy",
     "price_usd": 36,
     "specs": {
       "material": "83% merino / 12% recycled nylon / 5% spandex",
@@ -594,7 +595,8 @@
     "price_usd": 120,
     "specs": {
       "material": "merino wool blend",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 150
     },
     "url": "https://featheredfriends.com/products/arcteryx-rho-merino-wool-bottom-mens",
     "discontinued": false,
@@ -614,7 +616,8 @@
     "price_usd": 100,
     "specs": {
       "material": "synthetic stretch knit",
-      "gender": "women"
+      "gender": "women",
+      "gsm": 185
     },
     "url": "https://featheredfriends.com/products/arcteryx-rho-bottom-womens",
     "discontinued": false,
@@ -694,7 +697,8 @@
     "price_usd": 200,
     "specs": {
       "material": "softshell",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 186
     },
     "url": "https://featheredfriends.com/products/arcteryx-gamma-jogger-mens",
     "discontinued": false,
@@ -715,7 +719,8 @@
     "specs": {
       "material": "lightweight softshell",
       "gender": "men",
-      "inseam_in": 9
+      "inseam_in": 9,
+      "gsm": 125
     },
     "url": "https://featheredfriends.com/products/arcteryx-gamma-sl-short-9-inch-mens",
     "discontinued": false,
@@ -753,7 +758,7 @@
     "weight_g": 164,
     "weight_basis": "manufacturer",
     "weight_note": "retailer-listed (Feathered Friends), size not stated",
-    "price_usd": 89,
+    "price_usd": 95,
     "specs": {
       "material": "100% recycled polyester",
       "gsm": 140,
@@ -817,11 +822,11 @@
     "weight_note": "retailer-listed (Feathered Friends), size not stated",
     "price_usd": 125,
     "specs": {
-      "material": "100% merino wool",
+      "material": "100% Merino Wool",
       "gsm": 250,
       "gender": "men"
     },
-    "url": "https://featheredfriends.com/products/smartwool-classic-thermal-merino-base-layer-crew-mens-s26",
+    "url": "https://www.smartwool.com/products/mens-classic-thermal-merino-base-layer-crew-sw016349",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -838,11 +843,11 @@
     "weight_note": "retailer-listed (Feathered Friends), size not stated",
     "price_usd": 125,
     "specs": {
-      "material": "100% merino wool",
+      "material": "100% Merino Wool",
       "gsm": 250,
       "gender": "women"
     },
-    "url": "https://featheredfriends.com/products/smartwool-classic-thermal-merino-base-layer-crew-womens-s26",
+    "url": "https://www.smartwool.com/products/womens-classic-thermal-merino-base-layer-crew-sw016369",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -859,11 +864,11 @@
     "weight_note": "retailer-listed (Feathered Friends), size not stated",
     "price_usd": 125,
     "specs": {
-      "material": "100% merino wool",
+      "material": "100% Merino Wool",
       "gsm": 250,
       "gender": "men"
     },
-    "url": "https://featheredfriends.com/products/smartwool-merino-250-base-layer-bottom-mens-1",
+    "url": "https://www.smartwool.com/products/mens-classic-thermal-merino-base-layer-bottom-sw016361",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -880,11 +885,11 @@
     "weight_note": "estimate, size M",
     "price_usd": 100,
     "specs": {
-      "material": "merino/nylon core-spun",
+      "material": "88% Merino Wool, 12% Recycled Nylon",
       "gsm": 150,
       "gender": "men"
     },
-    "url": "https://featheredfriends.com/products/smartwool-classic-all-season-merino-base-layer-long-sleeve-mens",
+    "url": "https://www.smartwool.com/products/mens-classic-all-season-merino-base-layer-crew-sw016952",
     "discontinued": false,
     "confidence": "medium",
     "notes": "Price verified at retailer; weight estimated"
@@ -901,11 +906,11 @@
     "weight_note": "estimate, size M",
     "price_usd": 100,
     "specs": {
-      "material": "merino/nylon core-spun",
+      "material": "88% Merino Wool, 12% Recycled Nylon",
       "gsm": 150,
       "gender": "men"
     },
-    "url": "https://featheredfriends.com/products/smartwool-classic-all-season-merino-base-layer-bottom-mens",
+    "url": "https://www.smartwool.com/products/mens-classic-all-season-merino-base-layer-bottom-sw016958",
     "discontinued": false,
     "confidence": "medium",
     "notes": "Price verified at retailer; weight estimated"
@@ -922,10 +927,10 @@
     "weight_note": "retailer-listed (Feathered Friends), size not stated",
     "price_usd": 50,
     "specs": {
-      "material": "88% merino / 12% nylon",
+      "material": "88% Merino Wool, 12% Recycled Nylon",
       "gender": "men"
     },
-    "url": "https://featheredfriends.com/products/smartwool-merino-boxer-brief-mens",
+    "url": "https://www.smartwool.com/products/mens-merino-boxer-brief-sw016997",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -942,10 +947,10 @@
     "weight_note": "retailer-listed (Feathered Friends), size not stated",
     "price_usd": 55,
     "specs": {
-      "material": "merino blend",
+      "material": "56% Merino Wool, 19% TENCEL™ Lyocell, 11% Polyester, 9% Nylon, 5% Elastane",
       "gender": "men"
     },
-    "url": "https://featheredfriends.com/products/smartwool-intraknit-boxer-brief-mens",
+    "url": "https://www.smartwool.com/products/mens-intraknit-boxer-brief-sw003056",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -962,10 +967,10 @@
     "weight_note": "retailer-listed (Feathered Friends), size not stated",
     "price_usd": 35,
     "specs": {
-      "material": "merino blend",
+      "material": "88% Merino Wool, 12% Recycled Nylon",
       "gender": "women"
     },
-    "url": "https://featheredfriends.com/products/smartwool-merino-bikini-womens",
+    "url": "https://www.smartwool.com/products/womens-merino-bikini-sw016924",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -977,15 +982,15 @@
     "brand": "Outdoor Research",
     "model": "Echo Boxer Briefs",
     "variant": "Men's",
-    "weight_g": 75,
+    "weight_g": 74,
     "weight_basis": "manufacturer",
-    "weight_note": "retailer-listed (Feathered Friends), size not stated",
+    "weight_note": "OR-listed product weight",
     "price_usd": 36,
     "specs": {
       "material": "recycled polyester",
       "gender": "men"
     },
-    "url": "https://featheredfriends.com/products/outdoor-research-echo-boxer-briefs-mens",
+    "url": "https://www.outdoorresearch.com/products/mens-echo-boxer-briefs-287630",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -1024,7 +1029,8 @@
     "price_usd": 135,
     "specs": {
       "material": "Pertex Equilibrium 62 g/m2",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 62
     },
     "url": "https://www.garagegrowngear.com/products/mens-light-5-pocket-pants-by-yamatomichi",
     "discontinued": false,
@@ -1044,7 +1050,8 @@
     "price_usd": 135,
     "specs": {
       "material": "Pertex Equilibrium 62 g/m2",
-      "gender": "women"
+      "gender": "women",
+      "gsm": 62
     },
     "url": "https://www.garagegrowngear.com/products/womens-light-5-pocket-pants-by-yamatomichi",
     "discontinued": false,
@@ -1064,7 +1071,8 @@
     "price_usd": 110,
     "specs": {
       "material": "Pertex Equilibrium 62 g/m2",
-      "gender": "unisex"
+      "gender": "unisex",
+      "gsm": 62
     },
     "url": "https://www.garagegrowngear.com/products/light-5-pocket-shorts-by-yamatomichi",
     "discontinued": false,
@@ -1084,7 +1092,8 @@
     "price_usd": 105,
     "specs": {
       "material": "Pertex Equilibrium 62 g/m2",
-      "gender": "unisex"
+      "gender": "unisex",
+      "gsm": 62
     },
     "url": "https://www.garagegrowngear.com/products/light-5-pocket-short-shorts-by-yamatomichi",
     "discontinued": false,
@@ -1267,13 +1276,13 @@
     "variant": "Men's",
     "weight_g": 145,
     "weight_basis": "manufacturer",
-    "weight_note": "manufacturer listed weight (Montbell UK; Montbell quotes size M)",
+    "weight_note": "Montbell US listed average weight",
     "price_usd": 42,
     "specs": {
       "material": "ZEO-LINE polyester",
       "gender": "men"
     },
-    "url": "https://www.montbell.co.uk/products/mens-zeo-line-light-weight-round-neck-shirt-navy",
+    "url": "https://www.montbell.com/us/en/products/detail/2307125",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2307125, non-outlet), checked 2026-10-23."
@@ -1287,13 +1296,13 @@
     "variant": "Men's",
     "weight_g": 189,
     "weight_basis": "manufacturer",
-    "weight_note": "manufacturer listed weight (Montbell UK; Montbell quotes size M)",
+    "weight_note": "Montbell US listed average weight",
     "price_usd": 54,
     "specs": {
       "material": "ZEO-LINE polyester",
       "gender": "men"
     },
-    "url": "https://www.montbell.co.uk/products/mens-zeo-line-middle-weight-round-neck-shirt-black",
+    "url": "https://www.montbell.com/us/en/products/detail/2307112",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2307112, non-outlet), checked 2026-10-23."
@@ -1307,13 +1316,13 @@
     "variant": "Men's",
     "weight_g": 148,
     "weight_basis": "manufacturer",
-    "weight_note": "manufacturer listed weight (Montbell UK; Montbell quotes size M)",
+    "weight_note": "Montbell US listed average weight",
     "price_usd": 89,
     "specs": {
-      "material": "merino wool",
+      "material": "SUPER MERINO WOOL 85% wool / 15% polyester",
       "gender": "men"
     },
-    "url": "https://www.montbell.co.uk/products/mens-super-merino-wool-light-weight-round-neck-shirt-black",
+    "url": "https://www.montbell.com/us/en/products/detail/2307107",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2307107, non-outlet), checked 2026-10-23."
@@ -1327,13 +1336,13 @@
     "variant": "Men's",
     "weight_g": 110,
     "weight_basis": "manufacturer",
-    "weight_note": "manufacturer listed weight (Montbell UK; Montbell quotes size M)",
+    "weight_note": "Montbell US listed average weight",
     "price_usd": 48,
     "specs": {
       "material": "CLIMAAIR LIGHT polyester",
       "gender": "men"
     },
-    "url": "https://www.montbell.co.uk/products/mens-climaair-light-long-sleeve-t-orange",
+    "url": "https://www.montbell.com/us/en/products/detail/2306224",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2306224, non-outlet), checked 2026-10-23."
@@ -1347,13 +1356,13 @@
     "variant": "Men's",
     "weight_g": 129,
     "weight_basis": "manufacturer",
-    "weight_note": "manufacturer listed weight (Montbell UK; Montbell quotes size M)",
+    "weight_note": "Montbell US listed average weight",
     "price_usd": 53,
     "specs": {
       "material": "CLIMAAIR LIGHT polyester",
       "gender": "men"
     },
-    "url": "https://www.montbell.co.uk/products/mens-climaair-light-tights-black",
+    "url": "https://www.montbell.com/us/en/products/detail/2306228",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2306228, non-outlet), checked 2026-10-23."
@@ -1367,13 +1376,13 @@
     "variant": "Men's",
     "weight_g": 226,
     "weight_basis": "manufacturer",
-    "weight_note": "manufacturer listed weight (Montbell UK; Montbell quotes size M)",
+    "weight_note": "Montbell US listed average weight",
     "price_usd": 94,
     "specs": {
       "material": "2-way stretch woven",
       "gender": "men"
     },
-    "url": "https://www.montbell.co.uk/products/mens-cool-pants-dark-navy",
+    "url": "https://www.montbell.com/us/en/products/detail/2305157",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2305157, non-outlet), checked 2026-10-23."
@@ -1387,13 +1396,13 @@
     "variant": "Men's",
     "weight_g": 312,
     "weight_basis": "manufacturer",
-    "weight_note": "manufacturer listed weight (Montbell UK; Montbell quotes size M)",
+    "weight_note": "Montbell US listed average weight",
     "price_usd": 99,
     "specs": {
       "material": "94% nylon / 6% polyurethane ripstop",
       "gender": "men"
     },
-    "url": "https://www.montbell.co.uk/products/mens-light-o-d-pants-dark-charcoal",
+    "url": "https://www.montbell.com/us/en/products/detail/2305159",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2305159, non-outlet), checked 2026-10-23."
@@ -1407,13 +1416,13 @@
     "variant": "Men's",
     "weight_g": 218,
     "weight_basis": "manufacturer",
-    "weight_note": "manufacturer listed weight (Montbell UK; Montbell quotes size M)",
+    "weight_note": "Montbell US listed average weight",
     "price_usd": 85,
     "specs": {
       "material": "94% nylon / 6% polyurethane ripstop",
       "gender": "men"
     },
-    "url": "https://www.montbell.co.uk/products/mens-canyon-shorts-dark-grey",
+    "url": "https://www.montbell.com/us/en/products/detail/2305226",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2305226, non-outlet), checked 2026-10-23."
@@ -1427,13 +1436,13 @@
     "variant": "Men's",
     "weight_g": 101,
     "weight_basis": "manufacturer",
-    "weight_note": "manufacturer listed weight (Montbell UK; Montbell quotes size M)",
+    "weight_note": "Montbell US listed average weight",
     "price_usd": 75,
     "specs": {
       "material": "100% polyester 2-way stretch",
       "gender": "men"
     },
-    "url": "https://www.montbell.co.uk/products/mens-cross-runner-light-shorts-blue-green",
+    "url": "https://www.montbell.com/us/en/products/detail/2305252",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight per Montbell listing (also matches Montbell US). USD list price from Montbell America (montbell.com/us/en/products/detail/2305252, non-outlet), checked 2026-10-23."
@@ -1736,8 +1745,9 @@
     "weight_note": "size M",
     "price_usd": 98,
     "specs": {
-      "material": "Toray polyester",
-      "gender": "men"
+      "material": "Toray Fieldsensor Byokan 100% polyester circular knit",
+      "gender": "men",
+      "gsm": 159
     },
     "url": "https://pathprojects.com/products/kessler-ls-tee",
     "discontinued": false,
@@ -1937,10 +1947,10 @@
     "brand": "Decathlon",
     "model": "Simond MT500 Long-Sleeve 100% Merino T-Shirt",
     "variant": "Men's",
-    "weight_g": 230,
-    "weight_basis": "estimate",
-    "weight_note": "estimate, size M",
-    "price_usd": 80,
+    "weight_g": 238,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M per-size Shopify variant weight on brand store (weights scale by size: 230 g S - 300 g 2XL); not stated in product copy",
+    "price_usd": 79.99,
     "specs": {
       "material": "100% merino wool",
       "gsm": 190,
@@ -1963,8 +1973,9 @@
     "weight_note": "manufacturer listed (size not stated)",
     "price_usd": 129,
     "specs": {
-      "material": "Polartec Power Grid light",
-      "gender": "men"
+      "material": "Polartec Power Grid fleece, 90% polyester / 10% elastane",
+      "gender": "men",
+      "gsm": 119
     },
     "url": "https://www.blackdiamondequipment.com/products/mens-coefficient-lt-crew",
     "discontinued": false,
@@ -1984,7 +1995,8 @@
     "price_usd": 129,
     "specs": {
       "material": "Polartec Power Grid light",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 119
     },
     "url": "https://www.blackdiamondequipment.com/products/mens-coefficient-lt-pants",
     "discontinued": false,
@@ -2005,7 +2017,8 @@
     "specs": {
       "material": "polyester knit",
       "gender": "men",
-      "upf": 40
+      "upf": 40,
+      "gsm": 140
     },
     "url": "https://www.blackdiamondequipment.com/products/mens-alpenglow-hoody",
     "discontinued": false,
@@ -2024,9 +2037,10 @@
     "weight_note": "manufacturer listed (size not stated)",
     "price_usd": 149,
     "specs": {
-      "material": "polyester knit with mesh",
+      "material": "nylon stretch jersey, 92% nylon / 8% elastane",
       "gender": "men",
-      "upf": 40
+      "upf": 40,
+      "gsm": 158
     },
     "url": "https://www.blackdiamondequipment.com/products/mens-alpenglow-pro-hoody",
     "discontinued": false,
@@ -2047,7 +2061,8 @@
     "specs": {
       "material": "polyester knit",
       "gender": "men",
-      "upf": 40
+      "upf": 40,
+      "gsm": 140
     },
     "url": "https://www.blackdiamondequipment.com/products/mens-alpenglow-long-sleeve-crew",
     "discontinued": false,
@@ -2067,7 +2082,8 @@
     "price_usd": 169,
     "specs": {
       "material": "85% nylon / 15% elastane",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 148
     },
     "url": "https://www.blackdiamondequipment.com/products/mens-alpine-light-pants",
     "discontinued": false,
@@ -2087,7 +2103,8 @@
     "price_usd": 99,
     "specs": {
       "material": "stretch cotton blend",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 195
     },
     "url": "https://www.blackdiamondequipment.com/products/mens-notion-pants",
     "discontinued": false,
@@ -2108,7 +2125,8 @@
     "specs": {
       "material": "stretch cotton blend",
       "gender": "men",
-      "inseam_in": 7.75
+      "inseam_in": 7.75,
+      "gsm": 195
     },
     "url": "https://www.blackdiamondequipment.com/products/mens-notion-shorts",
     "discontinued": false,
@@ -2394,7 +2412,7 @@
       "material": "polyester knit",
       "gender": "men"
     },
-    "url": "https://www.gearx.com/products/outdoor-research-mens-eclipse-sun-t-shirt-mz7kl-skyline",
+    "url": "https://www.outdoorresearch.com/products/mens-eclipse-sun-t-shirt-322665",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -2414,7 +2432,7 @@
       "material": "nylon/spandex woven",
       "gender": "men"
     },
-    "url": "https://www.gearx.com/products/outdoor-research-mens-astroman-short-sleeve-sun-shirt-cg2vf-sedona-plaid",
+    "url": "https://www.outdoorresearch.com/products/mens-astroman-short-sleeve-sun-shirt-322669",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -2426,15 +2444,15 @@
     "brand": "Outdoor Research",
     "model": "Astroman Long Sleeve Sun Shirt",
     "variant": "Men's",
-    "weight_g": 173,
+    "weight_g": 180,
     "weight_basis": "manufacturer",
-    "weight_note": "retailer-listed (Neptune Mountaineering)",
+    "weight_note": "OR-listed product weight",
     "price_usd": 120,
     "specs": {
       "material": "nylon/spandex woven",
       "gender": "men"
     },
-    "url": "https://www.neptunemountaineering.com/products/astroman-long-sleeve-sun-shirt-mens",
+    "url": "https://www.outdoorresearch.com/products/mens-astroman-long-sleeve-sun-shirt-322670",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -2446,15 +2464,15 @@
     "brand": "Outdoor Research",
     "model": "Astroman Air Sun Hoodie",
     "variant": "Women's",
-    "weight_g": 156,
+    "weight_g": 155,
     "weight_basis": "manufacturer",
-    "weight_note": "retailer-listed (Gear X)",
+    "weight_note": "OR page listed weight",
     "price_usd": 115,
     "specs": {
       "material": "85% recycled nylon / 15% spandex",
       "gender": "women"
     },
-    "url": "https://www.gearx.com/products/outdoor-research-womens-astroman-air-sun-hoodie-cp8py-cherry-blossom",
+    "url": "https://www.outdoorresearch.com/products/womens-astroman-air-sun-hoodie-300856",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -2474,7 +2492,7 @@
       "material": "recycled polyester / elastane",
       "gender": "women"
     },
-    "url": "https://www.gearx.com/products/outdoor-research-womens-vigor-lt-hoodie-mo6xk-black",
+    "url": "https://www.outdoorresearch.com/products/womens-vigor-lt-hoodie-322851",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -2485,16 +2503,17 @@
     "subcategory": "hiking shorts",
     "brand": "Outdoor Research",
     "model": "Ferrosi Shorts",
-    "variant": "Women's",
+    "variant": "Women's 5\"",
     "weight_g": 210,
     "weight_basis": "manufacturer",
     "weight_note": "retailer-listed (Gear X)",
     "price_usd": 90,
     "specs": {
       "material": "nylon/spandex softshell",
-      "gender": "women"
+      "gender": "women",
+      "inseam_in": 5
     },
-    "url": "https://www.gearx.com/products/outdoor-research-womens-ferrosi-shorts-to4gu-malachite",
+    "url": "https://www.outdoorresearch.com/products/womens-ferrosi-shorts-5-inseam-300980",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -2511,11 +2530,11 @@
     "weight_note": "retailer-listed (Gear X)",
     "price_usd": 70,
     "specs": {
-      "material": "merino/nylon blend",
+      "material": "53% Merino Wool, 47% TENCEL™ Lyocell",
       "gsm": 120,
       "gender": "women"
     },
-    "url": "https://www.gearx.com/products/smartwool-merino-sport-120-short-sleeve-gf3bv-purple-storm",
+    "url": "https://www.smartwool.com/products/womens-active-ultralite-short-sleeve-sw016587",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -2532,10 +2551,10 @@
     "weight_note": "retailer-listed (Gear X)",
     "price_usd": 150,
     "specs": {
-      "material": "merino blend, knit-to-shape",
+      "material": "53% Merino Wool, 44% Polyester, 3% Elastane",
       "gender": "men"
     },
-    "url": "https://www.gearx.com/products/smartwool-intraknit-thermal-merino-base-layer-colorblock-crew-mens-bs4rh-dark-mink-burnt-sienna",
+    "url": "https://www.smartwool.com/products/mens-intraknit-thermal-merino-base-layer-crew-sw019286",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -2552,11 +2571,11 @@
     "weight_note": "estimate, size M",
     "price_usd": 130,
     "specs": {
-      "material": "merino blend",
+      "material": "88% Merino Wool, 12% Recycled Nylon",
       "gender": "men",
       "upf": 40
     },
-    "url": "https://www.gearx.com/products/smartwool-mens-merino-sun-hoodie-iz3ls-mineral-blue",
+    "url": "https://www.smartwool.com/products/mens-merino-sun-hoodie-sw003067",
     "discontinued": false,
     "confidence": "medium",
     "notes": "Price verified at retailer (UPF 40+); weight estimated"
@@ -2573,11 +2592,11 @@
     "weight_note": "estimate, size M",
     "price_usd": 130,
     "specs": {
-      "material": "merino blend",
+      "material": "88% Merino Wool, 12% Recycled Nylon",
       "gender": "women",
       "upf": 40
     },
-    "url": "https://www.gearx.com/products/smartwool-womens-merino-sun-hoodie-si3kq-dusty-teal",
+    "url": "https://www.smartwool.com/products/womens-merino-sun-hoodie-sw003076",
     "discontinued": false,
     "confidence": "medium",
     "notes": "Price verified at retailer; weight estimated"
@@ -2857,19 +2876,18 @@
     "brand": "Patagonia",
     "model": "Capilene Cool Daily Hoody",
     "variant": "Men's",
-    "weight_g": 150,
+    "weight_g": 179,
     "weight_basis": "manufacturer",
-    "weight_note": "recalled, size M",
+    "weight_note": "Patagonia-listed weight",
     "price_usd": 69,
     "specs": {
       "material": "recycled polyester",
-      "gender": "men",
-      "upf": 50
+      "gender": "men"
     },
-    "url": "https://www.patagonia.com/",
+    "url": "https://www.patagonia.com/product/mens-capilene-cool-daily-hoody/45310.html",
     "discontinued": false,
-    "confidence": "medium",
-    "notes": null
+    "confidence": "high",
+    "notes": "Patagonia relabeled Capilene Cool Daily without the UPF claim (voluntary recall notice); upf value may no longer apply."
   },
   {
     "id": "patagonia-tropic-comfort-natural-upf-hoody-mens",
@@ -2878,18 +2896,18 @@
     "brand": "Patagonia",
     "model": "Tropic Comfort Natural UPF Hoody",
     "variant": "Men's",
-    "weight_g": 190,
+    "weight_g": 265,
     "weight_basis": "manufacturer",
-    "weight_note": "recalled, size M",
-    "price_usd": 79,
+    "weight_note": "Patagonia-listed weight",
+    "price_usd": 99,
     "specs": {
-      "material": "polyester/cotton-lyocell blend",
+      "material": "96% modal / 4% spandex jersey",
       "gender": "men",
       "upf": 50
     },
-    "url": "https://www.patagonia.com/",
+    "url": "https://www.patagonia.com/product/mens-tropic-comfort-natural-sun-upf-hoody/41930.html",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -2902,13 +2920,13 @@
     "weight_g": 204,
     "weight_basis": "manufacturer",
     "weight_note": "Patagonia spec 204 g (7.2 oz)",
-    "price_usd": 65,
+    "price_usd": 75,
     "specs": {
       "material": "recycled nylon with mesh liner",
       "gender": "men",
       "inseam_in": 5
     },
-    "url": "https://www.patagonia.com/",
+    "url": "https://www.patagonia.com/product/mens-baggies-5-inch-inseam-shorts/57022.html",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
@@ -2928,7 +2946,7 @@
       "material": "nylon/spandex stretch woven",
       "gender": "men"
     },
-    "url": "https://www.patagonia.com/",
+    "url": "https://www.patagonia.com/product/mens-quandary-hiking-pants-regular/55183.html",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
@@ -2943,13 +2961,13 @@
     "weight_g": 221,
     "weight_basis": "manufacturer",
     "weight_note": "Patagonia spec 221 g (7.8 oz)",
-    "price_usd": 69,
+    "price_usd": 95,
     "specs": {
       "material": "nylon/spandex stretch woven",
       "gender": "men",
       "inseam_in": 10
     },
-    "url": "https://www.patagonia.com/",
+    "url": "https://www.patagonia.com/product/mens-quandary-hiking-shorts-10-inch/57828.html",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
@@ -2961,18 +2979,18 @@
     "brand": "Patagonia",
     "model": "Essential Boxer Briefs 3\"",
     "variant": "Men's",
-    "weight_g": 60,
+    "weight_g": 91,
     "weight_basis": "manufacturer",
-    "weight_note": "recalled",
+    "weight_note": "Patagonia EU-listed weight",
     "price_usd": 35,
     "specs": {
       "material": "recycled polyester/spandex",
       "gender": "men"
     },
-    "url": "https://www.patagonia.com/",
+    "url": "https://eu.patagonia.com/gb/en/product/mens-essential-boxer-briefs-3-inch/32555.html",
     "discontinued": false,
     "confidence": "low",
-    "notes": "Weight/price recalled, not verified"
+    "notes": "US price not confirmed (EU list EUR 35)."
   },
   {
     "id": "exofficio-give-n-go-2-0-boxer-brief-mens",
@@ -3086,12 +3104,12 @@
     "weight_g": 430,
     "weight_basis": "estimate",
     "weight_note": "recalled",
-    "price_usd": 99,
+    "price_usd": 109,
     "specs": {
       "material": "nylon stretch woven",
       "gender": "men"
     },
-    "url": "https://www.kuhl.com/",
+    "url": "https://www.kuhl.com/kuhl/mens/pants/renegade-pant/",
     "discontinued": false,
     "confidence": "low",
     "notes": "Weight/price recalled, not verified"
@@ -3106,12 +3124,12 @@
     "weight_g": 480,
     "weight_basis": "estimate",
     "weight_note": "recalled",
-    "price_usd": 99,
+    "price_usd": 85,
     "specs": {
       "material": "stretch nylon/polyester blend",
       "gender": "men"
     },
-    "url": "https://www.prana.com/",
+    "url": "https://www.prana.com/p/brion-pant-ii/1969771.html",
     "discontinued": false,
     "confidence": "low",
     "notes": "Weight/price recalled, not verified"
@@ -3246,15 +3264,15 @@
     "weight_g": 147,
     "weight_basis": "manufacturer",
     "weight_note": "Patagonia-listed 147 g (5.2 oz)",
-    "price_usd": null,
+    "price_usd": 69,
     "specs": {
-      "material": "recycled polyester, UPF 50+",
+      "material": "recycled polyester",
       "gender": "women"
     },
-    "url": "https://www.patagonia.com.au/products/womens-capilene-cool-daily-hoody-45316-cygx",
+    "url": "https://www.patagonia.com/product/womens-capilene-cool-daily-hoody/45316.html",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Patagonia relabeled Capilene Cool Daily without the UPF claim (voluntary recall notice). UPF claim removed from specs."
   },
   {
     "id": "patagonia-capilene-cool-sun-hoody-womens",
@@ -3266,12 +3284,12 @@
     "weight_g": 142,
     "weight_basis": "manufacturer",
     "weight_note": "Patagonia-listed 142 g (5 oz)",
-    "price_usd": null,
+    "price_usd": 89,
     "specs": {
       "material": "recycled polyester, UPF 50+",
       "gender": "women"
     },
-    "url": "https://www.patagonia.com.au/products/womens-capilene-cool-sun-hoody-44805-mlpx",
+    "url": "https://www.patagonia.com/product/womens-capilene-cool-sun-hoody/44805.html",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -3286,12 +3304,12 @@
     "weight_g": 220,
     "weight_basis": "manufacturer",
     "weight_note": "Patagonia-listed 220 g (7.75 oz)",
-    "price_usd": null,
+    "price_usd": 99,
     "specs": {
       "material": "natural-fiber blend, UPF 50+",
       "gender": "women"
     },
-    "url": "https://www.patagonia.com.au/products/womens-tropic-comfort-natural-hoody-41935-crgy",
+    "url": "https://www.patagonia.com/product/womens-tropic-comfort-natural-sun-upf-hoody/41935.html",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -3311,10 +3329,10 @@
       "material": "recycled nylon stretch, DWR",
       "gender": "women"
     },
-    "url": "https://www.patagonia.com.au/products/womens-quandary-pants-regular-55417-fge",
+    "url": "https://eu.patagonia.com/ee/en/product/womens-quandary-hiking-pants-regular/55417.html",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Weight 283 g confirmed on Patagonia EU page (style 55417); US price not found (patagonia.com blocks curl)."
   },
   {
     "id": "black-diamond-alpenglow-hoody-womens",
@@ -3329,7 +3347,8 @@
     "price_usd": 109,
     "specs": {
       "material": "UPF sun hoody knit",
-      "gender": "women"
+      "gender": "women",
+      "gsm": 140
     },
     "url": "https://www.blackdiamondequipment.com/products/womens-alpenglow-hoody",
     "discontinued": false,
@@ -3349,7 +3368,8 @@
     "price_usd": 149,
     "specs": {
       "material": "UPF sun hoody knit",
-      "gender": "women"
+      "gender": "women",
+      "gsm": 158
     },
     "url": "https://www.blackdiamondequipment.com/products/womens-alpenglow-pro-hoody",
     "discontinued": false,
@@ -3369,7 +3389,8 @@
     "price_usd": 169,
     "specs": {
       "material": "stretch softshell",
-      "gender": "women"
+      "gender": "women",
+      "gsm": 148
     },
     "url": "https://www.blackdiamondequipment.com/products/womens-alpine-light-pants",
     "discontinued": false,
@@ -3385,10 +3406,10 @@
     "variant": "Women's",
     "weight_g": 229,
     "weight_basis": "manufacturer",
-    "weight_note": "Montbell UK listed weight",
-    "price_usd": null,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 90,
     "specs": {
-      "material": "lightweight stretch synthetic",
+      "material": "100% nylon, water-repellent",
       "gender": "women"
     },
     "url": "https://www.montbell.com/us/en/products/detail/2305230",
@@ -3405,10 +3426,10 @@
     "variant": "Women's",
     "weight_g": 321,
     "weight_basis": "manufacturer",
-    "weight_note": "Montbell UK listed weight",
-    "price_usd": null,
+    "weight_note": "Montbell US listed average weight",
+    "price_usd": 97,
     "specs": {
-      "material": "stretch synthetic",
+      "material": "94% nylon / 6% polyurethane ripstop",
       "gender": "women"
     },
     "url": "https://www.montbell.com/us/en/products/detail/2305231",
@@ -3506,7 +3527,7 @@
     "weight_g": 159,
     "weight_basis": "manufacturer",
     "weight_note": "OR listed 5.6 oz / 159 g",
-    "price_usd": null,
+    "price_usd": 135,
     "specs": {
       "material": "UPF sun knit",
       "gender": "women"
@@ -3526,12 +3547,12 @@
     "weight_g": 122,
     "weight_basis": "manufacturer",
     "weight_note": "Patagonia-listed 122 g (4.3 oz)",
-    "price_usd": null,
+    "price_usd": 99,
     "specs": {
       "material": "recycled polyester grid fleece",
       "gender": "women"
     },
-    "url": "https://www.patagonia.com.au/products/womens-capilene-thermal-weight-crewneck-43650-blk",
+    "url": "https://www.patagonia.com/product/womens-capilene-thermal-weight-crew/43650.html",
     "discontinued": false,
     "confidence": "high",
     "notes": "Warmest Capilene base layer; commonly used as sleep layer"
@@ -3546,15 +3567,16 @@
     "weight_g": 133,
     "weight_basis": "manufacturer",
     "weight_note": "Patagonia-listed 133 g (4.7 oz)",
-    "price_usd": null,
+    "price_usd": 99,
     "specs": {
       "material": "recycled polyester grid fleece",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 129
     },
-    "url": "https://www.patagonia.com.au/products/mens-capilene-thermal-weight-bottoms-43687-blk",
+    "url": "https://eu.patagonia.com/gb/en/product/mens-capilene-thermal-weight-bottoms/43687.html",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Warmest Capilene base layer; commonly used as sleep layer"
+    "notes": "US list $99 per patagonia.com baselayer listing; 133 g per Patagonia UK product page."
   },
   {
     "id": "minus33-yukon-expedition-wool-crew-mens",
@@ -3586,7 +3608,7 @@
     "variant": "Women's",
     "weight_g": 340,
     "weight_basis": "manufacturer",
-    "weight_note": "size M, Minus33-listed 12 oz / 340 g",
+    "weight_note": "size M; Minus33-listed garment weight ~12 oz (340 g) — a true product weight, not a rounded shipping weight",
     "price_usd": 149.99,
     "specs": {
       "material": "100% merino, 400 gsm interlock",
@@ -3607,15 +3629,16 @@
     "variant": "Women's",
     "weight_g": 184,
     "weight_basis": "manufacturer",
-    "weight_note": "women's M (Shopify variant weight)",
+    "weight_note": "size M; \"Size M weight: 6.5oz\" in product copy",
     "price_usd": 80,
     "specs": {
       "material": "merino wool blend, midweight",
-      "gender": "women"
+      "gender": "women",
+      "gsm": 180
     },
     "url": "https://www.ridgemerino.com/products/womens-aspect-midweight-merino-wool-long-sleeve-shirt",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Midweight merino; counterpart to existing Aspect bottoms used as sleep set"
   },
   {

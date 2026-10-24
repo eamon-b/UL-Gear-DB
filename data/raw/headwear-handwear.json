@@ -448,14 +448,14 @@
     "brand": "Patagonia",
     "model": "Duckbill Cap",
     "variant": null,
-    "weight_g": 60,
-    "weight_basis": "estimate",
-    "weight_note": "approx",
+    "weight_g": 43,
+    "weight_basis": "manufacturer",
+    "weight_note": "Patagonia-listed weight",
     "price_usd": 39,
     "specs": {},
     "url": "https://www.runningwarehouse.com/Patagonia_Duckbill_Cap/descpage-PDCSBN.html",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Price verified at Running Warehouse; weight estimated."
   },
   {
@@ -465,14 +465,14 @@
     "brand": "Patagonia",
     "model": "Duckbill Trucker Hat",
     "variant": null,
-    "weight_g": 75,
-    "weight_basis": "estimate",
-    "weight_note": "approx",
+    "weight_g": 62,
+    "weight_basis": "manufacturer",
+    "weight_note": "Patagonia-listed weight",
     "price_usd": 39,
     "specs": {},
-    "url": "https://www.runningwarehouse.com/Patagonia_Duckbill_Trucker_Hat/descpage-PDBTHCG.html",
+    "url": "https://www.patagonia.com/product/duckbill-trucker-hat/28757.html",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Price verified at Running Warehouse; weight estimated."
   },
   {
@@ -482,15 +482,15 @@
     "brand": "Patagonia",
     "model": "Airshed Cap",
     "variant": null,
-    "weight_g": 45,
-    "weight_basis": "estimate",
-    "weight_note": "approx",
-    "price_usd": 39,
+    "weight_g": 74,
+    "weight_basis": "manufacturer",
+    "weight_note": "Patagonia-listed weight for current version (EU Airshed Lightweight Cap page lists 68 g)",
+    "price_usd": 49,
     "specs": {},
-    "url": "https://www.patagonia.com/",
+    "url": "https://www.patagonia.com/product/airshed-lightweight-cap/33316.html",
     "discontinued": false,
     "confidence": "medium",
-    "notes": null
+    "notes": "Patagonia US now lists this style (#33316) as the Terrebonne Lightweight Hat."
   },
   {
     "id": "patagonia-brimmer-hat",
@@ -813,7 +813,9 @@
     "weight_basis": "estimate",
     "weight_note": "approx",
     "price_usd": 25,
-    "specs": {},
+    "specs": {
+      "material": "88% Merino Wool, 12% Recycled Nylon"
+    },
     "url": "https://www.smartwool.com/products/merino-beanie-sw017047",
     "discontinued": false,
     "confidence": "medium",
@@ -830,7 +832,9 @@
     "weight_basis": "estimate",
     "weight_note": "approx",
     "price_usd": 35,
-    "specs": {},
+    "specs": {
+      "material": "100% Merino Wool"
+    },
     "url": "https://www.smartwool.com/products/thermal-merino-reversible-cuffed-beanie-sw0sw956",
     "discontinued": false,
     "confidence": "medium",
@@ -847,7 +851,9 @@
     "weight_basis": "estimate",
     "weight_note": "approx",
     "price_usd": 35,
-    "specs": {},
+    "specs": {
+      "material": "Crown/Side Panels: 56% Merino Wool, 44% Recycled Polyester"
+    },
     "url": "https://www.smartwool.com/products/active-fleece-beanie-sw003270",
     "discontinued": false,
     "confidence": "medium",
@@ -861,11 +867,11 @@
     "model": "Fisherman's Rolled Beanie",
     "variant": null,
     "weight_g": 102,
-    "weight_basis": "estimate",
-    "weight_note": "Patagonia spec 102 g (3.6 oz)",
+    "weight_basis": "manufacturer",
+    "weight_note": "Patagonia-listed weight (102 g / 3.6 oz)",
     "price_usd": 45,
     "specs": {},
-    "url": "https://www.patagonia.com/",
+    "url": "https://www.patagonia.com/product/fishermans-rolled-beanie/29105.html",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
@@ -895,11 +901,13 @@
     "model": "Bird Head Toque",
     "variant": null,
     "weight_g": 57,
-    "weight_basis": "estimate",
-    "weight_note": "Arc'teryx spec 57 g",
-    "price_usd": 40,
-    "specs": {},
-    "url": "https://arcteryx.com/us/en",
+    "weight_basis": "manufacturer",
+    "weight_note": "Arc'teryx-listed weight (57 g / 2 oz)",
+    "price_usd": 60,
+    "specs": {
+      "material": "microfleece, 50% merino / 50% recycled polyester"
+    },
+    "url": "https://arcteryx.com/us/en/shop/bird-head-toque",
     "discontinued": false,
     "confidence": "high",
     "notes": "Weight verified Oct 2026 via The Outfitters (manufacturer spec copy); USD price not re-verified."
@@ -1036,7 +1044,9 @@
     "weight_basis": "estimate",
     "weight_note": "approx",
     "price_usd": 45,
-    "specs": {},
+    "specs": {
+      "material": "100% Merino Wool"
+    },
     "url": "https://www.smartwool.com/products/thermal-merino-balaclava-sw0sc967",
     "discontinued": false,
     "confidence": "medium",
@@ -1053,7 +1063,9 @@
     "weight_basis": "estimate",
     "weight_note": "approx",
     "price_usd": 48,
-    "specs": {},
+    "specs": {
+      "material": "54% Recycled Polyester, 38% Merino Wool, 8% Spandex Elastane"
+    },
     "url": "https://www.smartwool.com/products/active-fleece-balaclava-sw003269",
     "discontinued": false,
     "confidence": "medium",
@@ -1070,7 +1082,9 @@
     "weight_basis": "estimate",
     "weight_note": "approx",
     "price_usd": 50,
-    "specs": {},
+    "specs": {
+      "material": "53% Merino Wool, 17% TENCEL Lyocell, 16% Polyester, 11% Nylon, 3% Elastane"
+    },
     "url": "https://www.smartwool.com/products/intraknit-all-season-balaclava-sw003247",
     "discontinued": false,
     "confidence": "medium",
@@ -1103,9 +1117,11 @@
     "weight_g": 38,
     "weight_basis": "estimate",
     "weight_note": "approx",
-    "price_usd": 25,
-    "specs": {},
-    "url": "https://www.buffusa.com/",
+    "price_usd": 23,
+    "specs": {
+      "material": "95% recycled materials, UPF 50"
+    },
+    "url": "https://www.buff.com/us/original-ecostretch-neckwear-buff-solid-black-black-117818999.html",
     "discontinued": false,
     "confidence": "medium",
     "notes": null
@@ -1257,7 +1273,9 @@
     "weight_basis": "estimate",
     "weight_note": "approx",
     "price_usd": 30,
-    "specs": {},
+    "specs": {
+      "material": "88% Merino Wool, 12% Recycled Nylon"
+    },
     "url": "https://www.smartwool.com/products/merino-neck-gaiter-sw017048",
     "discontinued": false,
     "confidence": "medium",
@@ -1270,14 +1288,16 @@
     "brand": "Salomon",
     "model": "Neck Gaiter",
     "variant": null,
-    "weight_g": 35,
-    "weight_basis": "estimate",
-    "weight_note": "approx",
+    "weight_g": 28,
+    "weight_basis": "manufacturer",
+    "weight_note": "\"weighing in at only 28 grams\" per Running Warehouse product copy",
     "price_usd": 25,
-    "specs": {},
+    "specs": {
+      "material": "98% polyester / 2% elastane"
+    },
     "url": "https://www.runningwarehouse.com/Salomon_Neck_Gaiter/descpage-SNGU.html",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Price verified at Running Warehouse."
   },
   {
@@ -1512,7 +1532,9 @@
     "weight_basis": "estimate",
     "weight_note": "approx",
     "price_usd": 28,
-    "specs": {},
+    "specs": {
+      "material": "48% Merino Wool, 48% Recycled Polyester, 2% Acrylic, 1% Elastodiene, 1% Elastane"
+    },
     "url": "https://www.smartwool.com/products/liner-glove-sw011555",
     "discontinued": false,
     "confidence": "medium",
@@ -1529,7 +1551,9 @@
     "weight_basis": "estimate",
     "weight_note": "approx",
     "price_usd": 35,
-    "specs": {},
+    "specs": {
+      "material": "88% Merino Wool, 12% Nylon"
+    },
     "url": "https://www.smartwool.com/products/merino-glove-sw018131",
     "discontinued": false,
     "confidence": "medium",
@@ -1546,7 +1570,9 @@
     "weight_basis": "estimate",
     "weight_note": "approx",
     "price_usd": 40,
-    "specs": {},
+    "specs": {
+      "material": "100% Merino Wool"
+    },
     "url": "https://www.smartwool.com/products/thermal-merino-glove-sw018132",
     "discontinued": false,
     "confidence": "medium",
@@ -1559,14 +1585,14 @@
     "brand": "Rab",
     "model": "Power Stretch Contact Glove",
     "variant": null,
-    "weight_g": 40,
-    "weight_basis": "estimate",
-    "weight_note": "approx",
-    "price_usd": 35,
+    "weight_g": 43,
+    "weight_basis": "manufacturer",
+    "weight_note": "Rab US listed weight",
+    "price_usd": 37,
     "specs": {},
-    "url": "https://rab.equipment/us",
+    "url": "https://rab.equipment/us/power-stretch-contact-glove",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1600,7 +1626,7 @@
     "specs": {},
     "url": "https://www.glacierglove.com/products/glacier-poly-liner",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1644,9 +1670,9 @@
     "brand": "Zpacks",
     "model": "Octa Fleece Mittens",
     "variant": null,
-    "weight_g": 17,
+    "weight_g": 19,
     "weight_basis": "manufacturer",
-    "weight_note": "Zpacks-listed weight (smallest size/default variant)",
+    "weight_note": "pair, size M per Zpacks variant data (17 g S / 21 g L); ultralight Octa fleece liner mitt, low weight is genuine",
     "price_usd": 29.95,
     "specs": {},
     "url": "https://zpacks.com/products/octa-fleece-mittens",
@@ -1847,7 +1873,9 @@
     "weight_basis": "estimate",
     "weight_note": "approx",
     "price_usd": 68,
-    "specs": {},
+    "specs": {
+      "material": "Main Body: 54% Recycled Polyester, 38% Merino Wool, 8% Elastane"
+    },
     "url": "https://www.smartwool.com/products/active-fleece-insulated-glove-sw003266",
     "discontinued": false,
     "confidence": "medium",
@@ -1864,7 +1892,9 @@
     "weight_basis": "estimate",
     "weight_note": "approx",
     "price_usd": 53,
-    "specs": {},
+    "specs": {
+      "material": "Main body: 100% Recycled Polyester"
+    },
     "url": "https://www.smartwool.com/products/smartloft-glove-sw003201",
     "discontinued": false,
     "confidence": "medium",
@@ -1881,7 +1911,9 @@
     "weight_basis": "estimate",
     "weight_note": "approx",
     "price_usd": 58,
-    "specs": {},
+    "specs": {
+      "material": "Main Body: 54% Recycled Polyester, 38% Merino Wool, 8% Recycled Spandex"
+    },
     "url": "https://www.smartwool.com/products/active-fleece-wind-mitten-sw003268",
     "discontinued": false,
     "confidence": "medium",

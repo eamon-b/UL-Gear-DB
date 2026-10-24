@@ -33,13 +33,13 @@
     "price_usd": 89.99,
     "specs": {
       "volume_l": 7.2,
-      "approved": "IGBC #5340; WMI",
+      "approved": "IGBC #5339; WMI",
       "cubic_in": 440
     },
     "url": "https://www.bearvault.com/products/bv450",
     "discontinued": false,
     "confidence": "high",
-    "notes": "~4 days of food."
+    "notes": "IGBC cert no. per IGBC Certified Products List (31 Jul 2026)."
   },
   {
     "id": "bearvault-bv475",
@@ -75,13 +75,13 @@
     "price_usd": 99.99,
     "specs": {
       "volume_l": 11.5,
-      "approved": "IGBC #5339; WMI",
+      "approved": "IGBC #5340; WMI",
       "cubic_in": 700
     },
     "url": "https://www.bearvault.com/products/bv500",
     "discontinued": false,
     "confidence": "high",
-    "notes": "~7 days of food."
+    "notes": "IGBC cert no. per IGBC Certified Products List (31 Jul 2026)."
   },
   {
     "id": "bearvault-bv-one",
@@ -117,7 +117,7 @@
     "price_usd": 104.99,
     "specs": {
       "volume_l": 11.7,
-      "approved": "IGBC",
+      "approved": "IGBC #5341 (on IGBC unconfirmed-products list, Jun 2026)",
       "cubic_in": 716
     },
     "url": "https://counterassault.com/products/bear-keg-food-storage-container",
@@ -138,7 +138,7 @@
     "price_usd": null,
     "specs": {
       "volume_l": 10.1,
-      "approved": "IGBC; SIBBG",
+      "approved": "IGBC #5298 (on IGBC unconfirmed-products list, Jun 2026); SIBBG",
       "cubic_in": 614
     },
     "url": "https://www.garciamachine.com/",
@@ -159,13 +159,13 @@
     "price_usd": 426,
     "specs": {
       "volume_l": 8.2,
-      "approved": "IGBC; SIBBG",
+      "approved": "SIBBG",
       "cubic_in": 500
     },
     "url": "https://wild-ideas.net/scout/",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Carbon-fiber composite. Approval list recalled, not checked."
+    "notes": "Carbon-fiber composite. Not on the IGBC certified or unconfirmed product lists (Jul 2026); Wild Ideas cites 2000 captive grizzly testing. SIBBG status not re-checked."
   },
   {
     "id": "wild-ideas-bearikade-weekender",
@@ -180,13 +180,13 @@
     "price_usd": 459,
     "specs": {
       "volume_l": 10.7,
-      "approved": "IGBC; SIBBG",
+      "approved": "SIBBG",
       "cubic_in": 650
     },
     "url": "https://wild-ideas.net/weekender/",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Not on the IGBC certified or unconfirmed product lists (Jul 2026)."
   },
   {
     "id": "wild-ideas-bearikade-blazer",
@@ -201,13 +201,13 @@
     "price_usd": 489,
     "specs": {
       "volume_l": 12.3,
-      "approved": "IGBC; SIBBG",
+      "approved": "SIBBG",
       "cubic_in": 750
     },
     "url": "https://wild-ideas.net/blazer/",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Not on the IGBC certified or unconfirmed product lists (Jul 2026)."
   },
   {
     "id": "wild-ideas-bearikade-expedition",
@@ -222,13 +222,13 @@
     "price_usd": 524,
     "specs": {
       "volume_l": 14.7,
-      "approved": "IGBC; SIBBG",
+      "approved": "SIBBG",
       "cubic_in": 900
     },
     "url": "https://wild-ideas.net/expedition/",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Not on the IGBC certified or unconfirmed product lists (Jul 2026)."
   },
   {
     "id": "lighter1-big-daddy",
@@ -239,17 +239,17 @@
     "variant": null,
     "weight_g": 1219,
     "weight_basis": "manufacturer",
-    "weight_note": "2 lb 11 oz",
-    "price_usd": null,
+    "weight_note": "canister 2 lb 4 oz + aluminum pan lid 6 oz + handle 1 oz (2 oz pan cover not included)",
+    "price_usd": 139.99,
     "specs": {
       "volume_l": 10.7,
-      "approved": "IGBC #3350-1",
+      "approved": "IGBC #3350 (on IGBC unconfirmed-products list, Jun 2026)",
       "cubic_in": 650
     },
     "url": "https://www.lighter1.com/big-daddy-index",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Lid doubles as a frying pan/plate."
+    "notes": "Lid doubles as a frying pan/plate. Listed sold out on lighter1.com (Oct 2026)."
   },
   {
     "id": "lighter1-lil-sami",
@@ -260,17 +260,17 @@
     "variant": null,
     "weight_g": 794,
     "weight_basis": "manufacturer",
-    "weight_note": "1 lb 12 oz",
-    "price_usd": null,
+    "weight_note": "canister 1 lb 5 oz + aluminum pan lid 6 oz + handle 1 oz (2 oz pan cover not included)",
+    "price_usd": 129.99,
     "specs": {
-      "volume_l": 4.9,
-      "approved": "IGBC #3350-1",
+      "volume_l": 5,
+      "approved": "IGBC #3351 (on IGBC unconfirmed-products list, Jun 2026)",
       "cubic_in": 300
     },
     "url": "https://www.lighter1.com/lil-sami-index",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Listed sold out on lighter1.com (Oct 2026)."
   },
   {
     "id": "udap-no-fed-bear",
@@ -279,18 +279,18 @@
     "brand": "UDAP",
     "model": "No-Fed-Bear Canister",
     "variant": null,
-    "weight_g": 1162,
+    "weight_g": 1089,
     "weight_basis": "manufacturer",
-    "weight_note": "weight and volume recalled, uncertain",
+    "weight_note": "UDAP spec 2.4 lb; 8 in dia x 10 in",
     "price_usd": 79.99,
     "specs": {
       "volume_l": 7.5,
-      "approved": "IGBC"
+      "approved": "IGBC #5345"
     },
-    "url": "https://www.udap.com/mm5/category/bear-resistant-food-storage",
+    "url": "https://www.udap.com/mm5/product/BRC",
     "discontinued": false,
-    "confidence": "low",
-    "notes": "Price checked at udap.com. The name is 'No-Fed-Bear' (not 'No-Fly-Zone')."
+    "confidence": "high",
+    "notes": "The name is No-Fed-Bear (not No-Fly-Zone). Volume not stated by UDAP; 7.5 L is unverified."
   },
   {
     "id": "bare-boxer-contender",
@@ -305,7 +305,7 @@
     "price_usd": 86,
     "specs": {
       "volume_l": 4.5,
-      "approved": "IGBC; SIBBG",
+      "approved": "IGBC #5438 (on IGBC unconfirmed-products list, Jun 2026); SIBBG",
       "cubic_in": 275
     },
     "url": "https://www.gossamergear.com/products/bare-boxer-bear-canister",
@@ -326,7 +326,7 @@
     "price_usd": 124.95,
     "specs": {
       "volume_l": 10.7,
-      "approved": "IGBC"
+      "approved": "IGBC #3738"
     },
     "url": "https://www.ursack.com/products/ursack-major",
     "discontinued": false,
@@ -386,7 +386,7 @@
     "price_usd": 189.95,
     "specs": {
       "volume_l": 10.7,
-      "approved": "IGBC"
+      "approved": "IGBC #5135"
     },
     "url": "https://www.ursack.com/products/ursack-allmitey",
     "discontinued": false,
@@ -606,9 +606,9 @@
     "brand": "Hyperlite Mountain Gear",
     "model": "Roll-Top Food Bag Kit",
     "variant": "10L",
-    "weight_g": 95,
-    "weight_basis": "estimate",
-    "weight_note": "estimated from components",
+    "weight_g": 113,
+    "weight_basis": "manufacturer",
+    "weight_note": "kit weight 4.0 oz as listed by HMG (10L bag 32 g + rock bag 4 g + line + carabiner)",
     "price_usd": 75,
     "specs": {
       "volume_l": 10,
@@ -617,7 +617,7 @@
     },
     "url": "https://hyperlitemountaingear.com/products/roll-top-food-bag-kit",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -627,9 +627,9 @@
     "brand": "Hyperlite Mountain Gear",
     "model": "Roll-Top Food Bag Kit",
     "variant": "15L",
-    "weight_g": 102,
+    "weight_g": 120,
     "weight_basis": "estimate",
-    "weight_note": "estimated from components",
+    "weight_note": "HMG 10L kit 4.0 oz (113 g) with the 15L bag (39 g) swapped for the 10L bag (32 g)",
     "price_usd": 85,
     "specs": {
       "volume_l": 15,
@@ -638,7 +638,7 @@
     },
     "url": "https://hyperlitemountaingear.com/products/roll-top-food-bag-kit",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "medium",
     "notes": null
   },
   {
@@ -732,9 +732,9 @@
     "brand": "NyloPro",
     "model": "Odor Barrier Bag",
     "variant": "Big 13x19.5 in",
-    "weight_g": 9,
-    "weight_basis": "estimate",
-    "weight_note": "estimated",
+    "weight_g": 12,
+    "weight_basis": "manufacturer",
+    "weight_note": "per bag, Zpacks listing 0.42 oz",
     "price_usd": 6.95,
     "specs": {
       "approved": null,
@@ -742,7 +742,7 @@
     },
     "url": "https://zpacks.com/products/nylopro-odor-barrier-bags",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": "Sold by Zpacks; sized to line its Big Food Bag."
   },
   {
@@ -752,9 +752,9 @@
     "brand": "NyloPro",
     "model": "Odor Barrier Bag",
     "variant": "Large 17.5x24.5 in",
-    "weight_g": 14,
-    "weight_basis": "estimate",
-    "weight_note": "estimated",
+    "weight_g": 19,
+    "weight_basis": "manufacturer",
+    "weight_note": "per bag, Zpacks listing 0.67 oz",
     "price_usd": 6.95,
     "specs": {
       "approved": null,
@@ -762,7 +762,7 @@
     },
     "url": "https://zpacks.com/products/nylopro-odor-barrier-bags",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -823,9 +823,9 @@
     "specs": {
       "net_oz": 7.9,
       "approved": "EPA-registered bear deterrent",
-      "range_ft": 30
+      "range_ft": 40
     },
-    "url": "https://www.udap.com/mm5/category/bear-pepper-spray",
+    "url": "https://www.udap.com/mm5/product/12",
     "discontinued": false,
     "confidence": "medium",
     "notes": "Price checked at udap.com."
@@ -846,7 +846,7 @@
       "approved": "EPA-registered bear deterrent",
       "range_ft": 30
     },
-    "url": "https://www.udap.com/mm5/category/bear-pepper-spray",
+    "url": "https://www.udap.com/mm5/product/15",
     "discontinued": false,
     "confidence": "medium",
     "notes": null
@@ -865,9 +865,9 @@
     "specs": {
       "net_oz": 13.4,
       "approved": "EPA-registered bear deterrent",
-      "range_ft": 35
+      "range_ft": 40
     },
-    "url": "https://www.udap.com/mm5/category/bear-pepper-spray",
+    "url": "https://www.udap.com/mm5/product/18",
     "discontinued": false,
     "confidence": "medium",
     "notes": null
@@ -882,7 +882,7 @@
     "weight_g": 294,
     "weight_basis": "manufacturer",
     "weight_note": "total weight 10.375 oz",
-    "price_usd": 44.99,
+    "price_usd": 47.99,
     "specs": {
       "net_oz": 7.9,
       "approved": "EPA-registered bear deterrent",

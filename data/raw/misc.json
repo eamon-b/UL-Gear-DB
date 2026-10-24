@@ -70,7 +70,7 @@
     "specs": {
       "uv": true
     },
-    "url": "https://www.gossamergear.com/collections/accessories",
+    "url": "https://www.gossamergear.com/products/liteflex-hiking-chrome-umbrella",
     "discontinued": false,
     "confidence": "high",
     "notes": "Formerly sold as the Liteflex."
@@ -89,7 +89,7 @@
     "specs": {
       "type": "telescoping"
     },
-    "url": "https://www.gossamergear.com/collections/accessories",
+    "url": "https://www.gossamergear.com/products/travel-umbrella",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -106,7 +106,7 @@
     "weight_note": null,
     "price_usd": 49.95,
     "specs": {},
-    "url": "https://zpacks.com/collections/accessories",
+    "url": "https://zpacks.com/products/lotus-umbrella",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -203,7 +203,7 @@
     "specs": {
       "material": "closed-cell foam"
     },
-    "url": "https://www.gossamergear.com/collections/accessories",
+    "url": "https://www.gossamergear.com/products/sitlight-camp-seat",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -222,7 +222,7 @@
     "specs": {
       "material": "closed-cell foam"
     },
-    "url": "https://www.gossamergear.com/collections/accessories",
+    "url": "https://www.gossamergear.com/products/air-flow-sitlight-camp-seat",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -241,7 +241,7 @@
     "specs": {
       "material": "folding foam"
     },
-    "url": "https://www.gossamergear.com/collections/accessories",
+    "url": "https://www.gossamergear.com/products/little-sit-pads",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -260,7 +260,7 @@
     "specs": {
       "material": "closed-cell foam"
     },
-    "url": "https://zpacks.com/collections/accessories",
+    "url": "https://zpacks.com/products/foam-sit-pad",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -272,16 +272,16 @@
     "brand": "Therm-a-Rest",
     "model": "Z Seat",
     "variant": null,
-    "weight_g": 56,
+    "weight_g": 57,
     "weight_basis": "manufacturer",
-    "weight_note": null,
-    "price_usd": 24.95,
+    "weight_note": "2 oz (standard)",
+    "price_usd": 34.95,
     "specs": {
       "material": "closed-cell foam"
     },
-    "url": "https://www.thermarest.com/",
+    "url": "https://www.thermarest.com/products/z-seat",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -315,7 +315,7 @@
     "weight_note": "store listing weight",
     "price_usd": 24.95,
     "specs": {},
-    "url": "https://www.bigagnes.com/",
+    "url": "https://www.bigagnes.com/products/twentymile-ul-hiking-seat",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -346,16 +346,16 @@
     "brand": "Helinox",
     "model": "Chair One",
     "variant": null,
-    "weight_g": 890,
+    "weight_g": 893,
     "weight_basis": "manufacturer",
-    "weight_note": null,
-    "price_usd": 119.95,
+    "weight_note": "assembled 893 g; packed 965 g",
+    "price_usd": 109.95,
     "specs": {
       "capacity_lb": 320
     },
-    "url": "https://helinox.com/",
+    "url": "https://helinox.com/products/chair-one",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -401,16 +401,16 @@
     "brand": "Gossamer Gear",
     "model": "Polycryo Tent Footprint",
     "variant": null,
-    "weight_g": 170,
+    "weight_g": 168,
     "weight_basis": "manufacturer",
-    "weight_note": "store listing weight (may include packaging)",
+    "weight_note": "5.9 oz each, 72 x 96 in; material now PolyEarthylene biobased polyolefin",
     "price_usd": 13,
     "specs": {
       "material": "polycryo"
     },
-    "url": "https://www.gossamergear.com/collections/accessories",
+    "url": "https://www.gossamergear.com/products/polycryo-tent-footprint-ground-cloths",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -427,7 +427,7 @@
     "specs": {
       "material": "DCF"
     },
-    "url": "https://zpacks.com/collections/accessories",
+    "url": "https://zpacks.com/products/bathtub-groundsheets",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -446,7 +446,7 @@
     "specs": {
       "material": "DCF"
     },
-    "url": "https://zpacks.com/collections/accessories",
+    "url": "https://zpacks.com/products/flat-groundsheet",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -465,7 +465,7 @@
     "specs": {
       "material": "Nylo Pro"
     },
-    "url": "https://zpacks.com/collections/accessories",
+    "url": "https://zpacks.com/products/nylo-pro-groundsheet",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -484,7 +484,7 @@
     "specs": {
       "material": "Tyvek"
     },
-    "url": "https://zpacks.com/collections/accessories",
+    "url": "https://zpacks.com/products/tyvek-groundsheet",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -496,17 +496,17 @@
     "brand": "Durston",
     "model": "X-Mid 1 Groundsheet",
     "variant": null,
-    "weight_g": 113,
+    "weight_g": 105,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "3.7 oz",
     "price_usd": 49,
     "specs": {
       "material": "polyester"
     },
-    "url": "https://durstongear.com/",
+    "url": "https://durstongear.com/products/x-mid-x-dome-tent-groundsheets",
     "discontinued": false,
-    "confidence": "low",
-    "notes": "Price verified; weight recalled."
+    "confidence": "high",
+    "notes": null
   },
   {
     "id": "durston-x-mid-2-groundsheet",
@@ -515,17 +515,17 @@
     "brand": "Durston",
     "model": "X-Mid 2 Groundsheet",
     "variant": null,
-    "weight_g": 150,
+    "weight_g": 146,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "5.1 oz",
     "price_usd": 59,
     "specs": {
       "material": "polyester"
     },
-    "url": "https://durstongear.com/",
+    "url": "https://durstongear.com/products/x-mid-x-dome-tent-groundsheets",
     "discontinued": false,
-    "confidence": "low",
-    "notes": "Price verified; weight recalled."
+    "confidence": "high",
+    "notes": null
   },
   {
     "id": "big-agnes-fly-creek-hv-ul1-bikepack-footprint",
@@ -537,12 +537,12 @@
     "weight_g": 136,
     "weight_basis": "manufacturer",
     "weight_note": "store listing weight",
-    "price_usd": 55.25,
+    "price_usd": 65,
     "specs": {},
-    "url": "https://www.bigagnes.com/",
+    "url": "https://www.bigagnes.com/products/fly-creek-hv-ul1-bikepack-solution-dye-footprint",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "List $65 (on sale $55.25 Oct 2026)."
   },
   {
     "id": "msr-groundhog-7-5-in",
@@ -551,16 +551,16 @@
     "brand": "MSR",
     "model": "Groundhog",
     "variant": "7.5 in",
-    "weight_g": 13,
+    "weight_g": 14,
     "weight_basis": "manufacturer",
-    "weight_note": "per stake",
+    "weight_note": "13.95 g per stake (MSR)",
     "price_usd": 6.49,
     "specs": {
       "material": "aluminum",
       "shape": "Y",
       "length_in": 7.5
     },
-    "url": "https://www.msrgear.com/",
+    "url": "https://www.msrgear.com/products/groundhog-tent-stakes",
     "discontinued": false,
     "confidence": "medium",
     "notes": "Sold in 6-packs ($38.95, verified); price shown per stake."
@@ -581,7 +581,7 @@
       "shape": "Y",
       "length_in": 6
     },
-    "url": "https://www.msrgear.com/",
+    "url": "https://www.msrgear.com/products/mini-groundhog-stakes",
     "discontinued": false,
     "confidence": "medium",
     "notes": "Sold in 6-packs ($34.95, verified); price shown per stake."
@@ -601,7 +601,7 @@
       "material": "carbon/aluminum",
       "length_in": 6
     },
-    "url": "https://www.msrgear.com/",
+    "url": "https://www.msrgear.com/products/carbon-core-tent-stakes",
     "discontinued": false,
     "confidence": "low",
     "notes": "Pack price $49.95 verified (4-pack assumed)."
@@ -622,7 +622,7 @@
       "shape": "shepherd hook",
       "length_in": 6
     },
-    "url": "https://zpacks.com/collections/stakes",
+    "url": "https://zpacks.com/products/6-titanium-hook-stake-w-orange-head",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -642,7 +642,7 @@
       "material": "titanium",
       "length_in": 6.5
     },
-    "url": "https://zpacks.com/collections/stakes",
+    "url": "https://zpacks.com/products/6-5-titanium-hook-stake-w-red-head",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -663,7 +663,7 @@
       "shape": "Y",
       "length_in": 6
     },
-    "url": "https://zpacks.com/collections/stakes",
+    "url": "https://zpacks.com/products/6-blue-sonic-stake",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -684,7 +684,7 @@
       "shape": "Y",
       "length_in": 7
     },
-    "url": "https://zpacks.com/collections/stakes",
+    "url": "https://zpacks.com/products/7-blue-super-sonic-stake",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -704,7 +704,7 @@
       "material": "carbon",
       "length_in": 6.4
     },
-    "url": "https://zpacks.com/collections/stakes",
+    "url": "https://zpacks.com/products/carbon-fiber-stake",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -723,7 +723,7 @@
     "specs": {
       "material": "aluminum"
     },
-    "url": "https://zpacks.com/collections/stakes",
+    "url": "https://zpacks.com/products/aluminum-tent-platform-anchor",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -743,7 +743,7 @@
       "material": "carbon",
       "length_in": 6
     },
-    "url": "https://zpacks.com/collections/stakes",
+    "url": "https://zpacks.com/products/pachallama-2g-carbon-pin-tent-stake",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -763,7 +763,7 @@
       "material": "aluminum",
       "shape": "J"
     },
-    "url": "https://www.gossamergear.com/collections/accessories",
+    "url": "https://www.gossamergear.com/products/dac-stakes",
     "discontinued": false,
     "confidence": "medium",
     "notes": "Description says 6.8 g each; variant lists 9 g. $20 likely per set."
@@ -777,15 +777,15 @@
     "variant": null,
     "weight_g": 8,
     "weight_basis": "manufacturer",
-    "weight_note": "per stake",
-    "price_usd": 3.95,
+    "weight_note": "Ultralight nail peg, 0.3 oz / 8 g, 6 in",
+    "price_usd": 3.75,
     "specs": {
       "material": "titanium",
       "shape": "nail"
     },
-    "url": "https://vargooutdoors.com/",
+    "url": "https://vargooutdoors.com/products/titanium-nail-peg-ultralight",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -804,7 +804,7 @@
       "shape": "V",
       "length_in": 6.3
     },
-    "url": "https://www.toaksoutdoor.com/",
+    "url": "https://www.gossamergear.com/products/tite-lite-ul-tent-stakes",
     "discontinued": false,
     "confidence": "low",
     "notes": "Gossamer Gear store lists 28 g (possibly packaging)."
@@ -901,11 +901,11 @@
     "weight_g": 34,
     "weight_basis": "estimate",
     "weight_note": null,
-    "price_usd": 15,
+    "price_usd": 20,
     "specs": {
       "diameter_mm": 2.4
     },
-    "url": "https://lawsonequipment.com/",
+    "url": "https://lawsonequipment.com/products/reflective-glowire",
     "discontinued": false,
     "confidence": "low",
     "notes": null
@@ -920,11 +920,11 @@
     "weight_g": 25,
     "weight_basis": "estimate",
     "weight_note": null,
-    "price_usd": 14,
+    "price_usd": 20,
     "specs": {
       "diameter_mm": 1.6
     },
-    "url": "https://lawsonequipment.com/",
+    "url": "https://lawsonequipment.com/products/ironwire-high-strength-accessory-cord",
     "discontinued": false,
     "confidence": "low",
     "notes": null
@@ -960,7 +960,7 @@
     "weight_note": null,
     "price_usd": 12.95,
     "specs": {},
-    "url": "https://zpacks.com/collections/accessories",
+    "url": "https://zpacks.com/products/ultralight-titanium-whistle",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -977,7 +977,7 @@
     "weight_note": null,
     "price_usd": 19.95,
     "specs": {},
-    "url": "https://zpacks.com/collections/accessories",
+    "url": "https://zpacks.com/products/silva-pocket-compass",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -996,7 +996,7 @@
     "specs": {
       "material": "DCF"
     },
-    "url": "https://zpacks.com/collections/accessories",
+    "url": "https://zpacks.com/products/tri-fold-minimalist-wallet",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -1015,7 +1015,7 @@
     "specs": {
       "type": "phone/electronics case"
     },
-    "url": "https://zpacks.com/collections/accessories",
+    "url": "https://zpacks.com/products/ultralight-electronics-case-tech-organizer",
     "discontinued": false,
     "confidence": "high",
     "notes": null
