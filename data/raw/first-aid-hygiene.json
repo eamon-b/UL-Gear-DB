@@ -6,15 +6,15 @@
     "brand": "Adventure Medical Kits",
     "model": "Ultralight/Watertight Medical Kit",
     "variant": ".3",
-    "weight_g": 73,
+    "weight_g": 74,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "2.6 oz per AMK",
     "price_usd": 13.99,
     "specs": {
       "people": 1,
       "days": 1
     },
-    "url": "https://www.adventuremedicalkits.com/",
+    "url": "https://www.adventuremedicalkits.com/products/ultralight-watertight-medical-kit-3",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -26,15 +26,15 @@
     "brand": "Adventure Medical Kits",
     "model": "Ultralight/Watertight Medical Kit",
     "variant": ".5",
-    "weight_g": 104,
+    "weight_g": 102,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "3.6 oz per AMK",
     "price_usd": 31.99,
     "specs": {
       "people": 2,
       "days": "1-2"
     },
-    "url": "https://www.adventuremedicalkits.com/",
+    "url": "https://www.adventuremedicalkits.com/products/ultralight-watertight-medical-kit-5",
     "discontinued": false,
     "confidence": "high",
     "notes": "Body text lists 3.6 oz (102 g)."
@@ -48,13 +48,13 @@
     "variant": ".7",
     "weight_g": 164,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "5.8 oz per AMK",
     "price_usd": 44.99,
     "specs": {
       "people": "1-2",
       "days": "1-4"
     },
-    "url": "https://www.adventuremedicalkits.com/",
+    "url": "https://www.adventuremedicalkits.com/products/ultralight-watertight-medical-kit-7",
     "discontinued": false,
     "confidence": "high",
     "notes": "Listed as 5.8 oz."
@@ -68,13 +68,13 @@
     "variant": ".9",
     "weight_g": 204,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "AMK store listing weight; no stated weight in product copy",
     "price_usd": 63.49,
     "specs": {
       "people": "1-4",
       "days": "1-4"
     },
-    "url": "https://www.adventuremedicalkits.com/",
+    "url": "https://www.adventuremedicalkits.com/products/ultralight-watertight-medical-kit-9",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -88,13 +88,13 @@
     "variant": "Pro",
     "weight_g": 794,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "AMK store listing weight (794 g, may include packaging); product copy gives no weight",
     "price_usd": 172.99,
     "specs": {
       "people": "up to 10",
       "days": "up to 7"
     },
-    "url": "https://www.adventuremedicalkits.com/",
+    "url": "https://www.adventuremedicalkits.com/products/ultralight-watertight-medical-kit-pro",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -144,10 +144,10 @@
     "variant": null,
     "weight_g": 1,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "Zpacks lists 0.04 oz / 1 g (genuinely ~1 g card-style tick remover)",
     "price_usd": 9.95,
     "specs": {},
-    "url": "https://zpacks.com/collections/accessories",
+    "url": "https://zpacks.com/products/zpacks-1g-tick-remover",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -178,16 +178,16 @@
     "brand": "Vargo",
     "model": "Dig Dig Tool",
     "variant": null,
-    "weight_g": 33,
+    "weight_g": 36,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "1.25 oz",
     "price_usd": 24.95,
     "specs": {
       "material": "titanium"
     },
-    "url": "https://vargooutdoors.com/",
+    "url": "https://vargooutdoors.com/products/dig-dig-tooltm",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -204,10 +204,10 @@
     "specs": {
       "material": "aluminum"
     },
-    "url": "https://seatosummit.com/",
-    "discontinued": false,
+    "url": "https://seatosummit.com/products/pocket-trowel-nylon-66",
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "Aluminum Pocket Trowel absent from Sea to Summit US store (Oct 2026); current Pocket Trowel is glass-filled nylon, 68 g, $16.95."
   },
   {
     "id": "gossamer-gear-ultralight-backpacking-trowel",
@@ -333,7 +333,7 @@
     "specs": {
       "type": "pee cloth"
     },
-    "url": "https://www.kulacloth.com/",
+    "url": "https://www.kulacloth.com/products/tranquil-topo-kula-cloth-®-copy",
     "discontinued": false,
     "confidence": "high",
     "notes": "\"About half an ounce\"; Zpacks lists 13 g."
@@ -352,10 +352,10 @@
     "specs": {
       "volume_ml": 59
     },
-    "url": "https://www.drbronner.com/",
-    "discontinued": false,
+    "url": "https://www.drbronner.com/products/peppermint-pure-castile-liquid-soap",
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "2 oz size no longer sold on drbronner.com (Oct 2026); smallest is 3.4 oz ($4.69). 66 g = 2 fl oz soap + bottle, plausible."
   },
   {
     "id": "summit-suds-powdered-soap",
@@ -383,10 +383,10 @@
     "variant": null,
     "weight_g": 2,
     "weight_basis": "manufacturer",
-    "weight_note": "toothbrush",
+    "weight_note": "Zpacks lists 0.07 oz / 2 g (brush; tiny 5 g toothpaste sample not reflected)",
     "price_usd": 7.95,
     "specs": {},
-    "url": "https://zpacks.com/collections/accessories",
+    "url": "https://zpacks.com/products/trailbrush-w-5g-colgate-toothpaste",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -554,9 +554,9 @@
       "pliers": true
     },
     "url": "https://www.leatherman.com/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "medium",
-    "notes": null
+    "notes": "Not found on leatherman.com store/search (Oct 2026)."
   },
   {
     "id": "leatherman-micra",
@@ -567,15 +567,15 @@
     "variant": null,
     "weight_g": 51,
     "weight_basis": "manufacturer",
-    "weight_note": null,
-    "price_usd": 44.95,
+    "weight_note": "1.8 oz",
+    "price_usd": 49.95,
     "specs": {
       "tools": 10,
       "scissors": true
     },
-    "url": "https://www.leatherman.com/",
+    "url": "https://www.leatherman.com/products/micra",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -594,9 +594,9 @@
       "pliers": true
     },
     "url": "https://www.leatherman.com/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "Not found on leatherman.com store/search (Oct 2026); only spare tweezers for Style PS listed."
   },
   {
     "id": "opinel-no-06-stainless",
@@ -605,16 +605,16 @@
     "brand": "Opinel",
     "model": "No.06",
     "variant": "stainless",
-    "weight_g": 22,
+    "weight_g": 34,
     "weight_basis": "manufacturer",
-    "weight_note": null,
-    "price_usd": 18,
+    "weight_note": "1.2 oz",
+    "price_usd": 19,
     "specs": {
       "blade_in": 2.8
     },
-    "url": "https://www.opinel-usa.com/",
+    "url": "https://www.opinel-usa.com/products/opinel-no-6-stainless-steel-folding-knife",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -626,14 +626,14 @@
     "variant": "stainless",
     "weight_g": 45,
     "weight_basis": "manufacturer",
-    "weight_note": null,
-    "price_usd": 20,
+    "weight_note": "1.6 oz",
+    "price_usd": 23,
     "specs": {
       "blade_in": 3.3
     },
-    "url": "https://www.opinel-usa.com/",
+    "url": "https://www.opinel-usa.com/products/no-8-opinel-stainless-steel-blade",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -643,17 +643,17 @@
     "brand": "Gerber",
     "model": "Dime",
     "variant": null,
-    "weight_g": 63,
+    "weight_g": 62,
     "weight_basis": "manufacturer",
-    "weight_note": null,
-    "price_usd": 29.99,
+    "weight_note": "2.2 oz",
+    "price_usd": 34.99,
     "specs": {
       "tools": 12,
       "pliers": true
     },
-    "url": "https://www.gerbergear.com/",
+    "url": "https://www.gerbergear.com/products/dime-black-30-000469n",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -671,9 +671,9 @@
       "blade_in": 2.2
     },
     "url": "https://www.gerbergear.com/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "Not on gerbergear.com (Oct 2026); only Paraframe I listed."
   },
   {
     "id": "spyderco-ladybug-3",
@@ -685,11 +685,11 @@
     "weight_g": 16,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 54.95,
+    "price_usd": 70,
     "specs": {
       "blade_in": 1.9
     },
-    "url": "https://www.spyderco.com/",
+    "url": "https://www.spyderco.com/products/ladybug®-3",
     "discontinued": false,
     "confidence": "medium",
     "notes": null
@@ -791,7 +791,7 @@
     "weight_note": null,
     "price_usd": 9,
     "specs": {},
-    "url": "https://durstongear.com/",
+    "url": "https://durstongear.com/products/dcf-repair-kit",
     "discontinued": false,
     "confidence": "low",
     "notes": "Price verified; weight estimated."
@@ -829,10 +829,10 @@
     "specs": {
       "type": "head net"
     },
-    "url": "https://seatosummit.com/",
-    "discontinued": false,
+    "url": "https://seatosummit.com/products/ultra-fine-mesh-mosquito-head-net",
+    "discontinued": true,
     "confidence": "medium",
-    "notes": null
+    "notes": "Nano head net no longer in Sea to Summit's US store (Oct 2026); closest current model is the Ultra-Fine Mesh Mosquito Head Net (23 g, $17.95)."
   },
   {
     "id": "sea-to-summit-mosquito-head-net",
@@ -841,16 +841,16 @@
     "brand": "Sea to Summit",
     "model": "Mosquito Head Net",
     "variant": null,
-    "weight_g": 23,
+    "weight_g": 24,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 14.95,
+    "price_usd": 16.95,
     "specs": {
       "type": "head net"
     },
-    "url": "https://seatosummit.com/",
+    "url": "https://seatosummit.com/products/mosquito-head-net",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {

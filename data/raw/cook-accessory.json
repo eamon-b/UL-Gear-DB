@@ -516,7 +516,7 @@
     "weight_g": 32,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 10.0,
+    "price_usd": 10,
     "specs": {
       "fits": "Vargo BOT"
     },
@@ -756,7 +756,7 @@
     "url": "https://www.firemaplegear.com/products/fmt-t61-titanium-cutlery",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "Brand store price $9.99 (Oct 2026); store also shows a compare-at price of $11.41."
   },
   {
     "id": "fire-maple-fmw-503-windscreen",
@@ -775,7 +775,7 @@
     "url": "https://www.firemaplegear.com/products/fmw-503-9pcs-foldable-windshield",
     "discontinued": false,
     "confidence": "high",
-    "notes": "For remote-canister and alcohol stoves."
+    "notes": "For remote-canister and alcohol stoves. Brand store price $10.85 (Oct 2026); store also shows a compare-at price of $12.96."
   },
   {
     "id": "soto-pocket-spork",
@@ -956,7 +956,7 @@
     "brand": "Snow Peak",
     "model": "Titanium Spork",
     "variant": null,
-    "weight_g": 17,
+    "weight_g": 16,
     "weight_basis": "manufacturer",
     "weight_note": "weight recalled; price verified",
     "price_usd": 8.95,
@@ -965,7 +965,7 @@
     },
     "url": "https://snowpeak.com/products/titanium-spork",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1034,16 +1034,16 @@
     "brand": "Humangear",
     "model": "GoBites Uno",
     "variant": null,
-    "weight_g": 11,
+    "weight_g": 15,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "regular length (15 g); long version 18 g / $8.95",
     "price_usd": 4.99,
     "specs": {
       "material": "nylon"
     },
-    "url": null,
+    "url": "https://garagegrowngear.com/products/gobite-uno-spoon-fork-by-humangear",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1079,7 +1079,7 @@
     "specs": {
       "material": "Tritan"
     },
-    "url": null,
+    "url": "https://www.lightmyfire.com/products/swedish-spork-original-bulk",
     "discontinued": false,
     "confidence": "medium",
     "notes": null
@@ -1091,17 +1091,17 @@
     "brand": "Sea to Summit",
     "model": "Camp Cutlery Spoon",
     "variant": null,
-    "weight_g": 8,
+    "weight_g": 12,
     "weight_basis": "manufacturer",
     "weight_note": "weight estimated",
-    "price_usd": null,
+    "price_usd": 1,
     "specs": {
       "material": "glass-reinforced polypropylene"
     },
     "url": "https://seatosummit.com/products/camp-spoon",
     "discontinued": false,
-    "confidence": "low",
-    "notes": null
+    "confidence": "high",
+    "notes": "Sea to Summit lists it at $1.00 (Oct 2026), likely clearance."
   },
   {
     "id": "bic-mini-lighter",
@@ -1110,16 +1110,16 @@
     "brand": "BIC",
     "model": "Mini Lighter",
     "variant": null,
-    "weight_g": 11,
-    "weight_basis": "measured",
-    "weight_note": "typical full weight",
+    "weight_g": 12,
+    "weight_basis": "manufacturer",
+    "weight_note": "spec 11.5 g",
     "price_usd": 1.99,
     "specs": {
       "refillable": false
     },
-    "url": null,
+    "url": "https://garagegrowngear.com/products/bic-lighter-mini",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1155,10 +1155,10 @@
     "specs": {
       "type": "ferro rod"
     },
-    "url": null,
+    "url": "https://www.lightmyfire.com/products/swedish-firesteel-scout-2in1",
     "discontinued": false,
     "confidence": "low",
-    "notes": null
+    "notes": "Current model is the Swedish FireSteel scout 2in1 (brand store prices in SEK)."
   },
   {
     "id": "light-my-fire-firesteel-army",
@@ -1174,10 +1174,10 @@
     "specs": {
       "type": "ferro rod"
     },
-    "url": null,
+    "url": "https://www.lightmyfire.com/products/swedish-firesteel-army-2in1",
     "discontinued": false,
     "confidence": "low",
-    "notes": null
+    "notes": "Current model is the Swedish FireSteel army 2in1 (brand store prices in SEK)."
   },
   {
     "id": "emberlit-flint-and-steel",

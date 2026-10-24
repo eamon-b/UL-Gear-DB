@@ -1,0 +1,2250 @@
+{
+  "updates": [
+    {
+      "id": "arcteryx-norvan-jacket-mens",
+      "set": {
+        "url": "https://arcteryx.com/us/en/shop/mens/norvan-jacket-9571",
+        "price_usd": 450,
+        "notes": "Arc'teryx notes this jacket was previously the Norvan Shell Jacket.",
+        "weight_note": "Arc'teryx-listed weight"
+      }
+    },
+    {
+      "id": "arcteryx-zeta-sl-pant-mens",
+      "set": {
+        "url": "https://arcteryx.com/us/en/shop/mens/zeta-sl-pant",
+        "price_usd": 249,
+        "weight_g": 245,
+        "confidence": "high",
+        "weight_note": "Arc'teryx-listed weight"
+      }
+    },
+    {
+      "id": "arcteryx-bird-head-toque",
+      "set": {
+        "url": "https://arcteryx.com/us/en/shop/bird-head-toque",
+        "price_usd": 60,
+        "weight_basis": "manufacturer",
+        "weight_note": "Arc'teryx-listed weight (57 g / 2 oz)",
+        "specs": {
+          "material": "microfleece, 50% merino / 50% recycled polyester"
+        }
+      }
+    },
+    {
+      "id": "black-diamond-stormline-stretch-rain-shell-mens",
+      "set": {
+        "discontinued": true,
+        "notes": "StormLine Stretch is a distinct, older BD.dry model (predecessor of FineLine); its BD product URLs now 404/redirect to the homepage and BD store search returns no StormLine products (Oct 2026)."
+      }
+    },
+    {
+      "id": "black-diamond-stormline-stretch-rain-shell-womens",
+      "set": {
+        "discontinued": true,
+        "notes": "StormLine Stretch is a distinct, older BD.dry model (predecessor of FineLine); its BD product URLs now 404/redirect to the homepage and BD store search returns no StormLine products (Oct 2026)."
+      }
+    },
+    {
+      "id": "black-diamond-stormline-stretch-full-zip-rain-pants-mens",
+      "set": {
+        "discontinued": true,
+        "notes": "StormLine Stretch is a distinct, older BD.dry model (predecessor of FineLine); its BD product URLs now 404/redirect to the homepage and BD store search returns no StormLine products (Oct 2026)."
+      }
+    },
+    {
+      "id": "black-diamond-stormline-stretch-full-zip-rain-pants-womens",
+      "set": {
+        "discontinued": true,
+        "notes": "StormLine Stretch is a distinct, older BD.dry model (predecessor of FineLine); its BD product URLs now 404/redirect to the homepage and BD store search returns no StormLine products (Oct 2026)."
+      }
+    },
+    {
+      "id": "black-diamond-fineline-stretch-rain-shell-mens",
+      "set": {
+        "url": "https://www.blackdiamondequipment.com/products/mens-fineline-stretch-shell",
+        "weight_g": 320,
+        "weight_note": "BD-listed spec weight",
+        "price_usd": 189,
+        "notes": "Distinct from (and successor to) the discontinued StormLine Stretch Rain Shell.",
+        "specs": {
+          "breathability": "10,000 g/m²/24h",
+          "pit_zips": true
+        }
+      }
+    },
+    {
+      "id": "black-diamond-fineline-stretch-rain-shell-womens",
+      "set": {
+        "notes": "Distinct from (and successor to) the discontinued StormLine Stretch Rain Shell.",
+        "specs": {
+          "breathability": "10,000 g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "black-diamond-fineline-stretch-full-zip-pants-mens",
+      "set": {
+        "weight_basis": "manufacturer",
+        "weight_note": "BD-listed spec weight (smallest of 217/227/277 g listed)",
+        "specs": {
+          "waterproof_rating_mm": 10000,
+          "breathability": "10,000 g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "black-diamond-highline-stretch-shell-mens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "breathability": "20,000 g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "black-diamond-highline-stretch-rain-pants-mens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "breathability": "20,000 g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "black-diamond-highline-stretch-rain-pants-womens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "breathability": "20,000 g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "black-diamond-distance-wind-shell-mens",
+      "set": {
+        "weight_g": 91,
+        "weight_note": "BD-listed spec weight",
+        "url": "https://www.blackdiamondequipment.com/products/m-distance-wind-shell"
+      }
+    },
+    {
+      "id": "brooks-catamount-4",
+      "set": {
+        "price_usd": 170
+      }
+    },
+    {
+      "id": "brooks-caldera-8",
+      "set": {
+        "url": "https://www.brooksrunning.com/en_us/mens/shoes/trail-shoes/caldera-8/110440.html",
+        "weight_g": 601,
+        "weight_basis": "manufacturer",
+        "weight_note": "pair; Brooks-listed 10.6 oz / 300.5 g per shoe x2",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "altra-trail-gaiter",
+      "set": {
+        "url": "https://www.altrarunning.com/products/trail-gaiter-al016301",
+        "price_usd": 25
+      }
+    },
+    {
+      "id": "darn-tough-mountaineering-over-the-calf-heavyweight-mens",
+      "set": {
+        "weight_note": "one pair; Darn Tough per-size product weights 191-205 g (smallest size); heavyweight full-cushion OTC knit, not a multi-pack ($35 single pair)"
+      }
+    },
+    {
+      "id": "darn-tough-vert-micro-crew-ultra-lightweight-cushion-mens",
+      "set": {
+        "notes": "Distinct product (style #1066) from Run Micro Crew Ultra-Lightweight Cushion (style #1071); not a duplicate."
+      }
+    },
+    {
+      "id": "darn-tough-run-micro-crew-ultra-lightweight-cushion-mens",
+      "set": {
+        "notes": "Distinct product (style #1071) from Vert Micro Crew (style #1066)."
+      }
+    },
+    {
+      "id": "darn-tough-nomad-boot-midweight-mens",
+      "set": {
+        "discontinued": true,
+        "notes": "Tagged \"Discontinued\" in Darn Tough store data (style #1982), Oct 2026."
+      }
+    },
+    {
+      "id": "enlightened-equipment-copperfield-wind-shirt-womens",
+      "set": {
+        "weight_g": 49,
+        "weight_note": "EE \"starting at\" weight 1.72 oz (48.7 g), smallest size / 10D fabric",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "enlightened-equipment-visp-rain-pants",
+      "set": {
+        "discontinued": true,
+        "notes": "visp-rain-pants URL 404s and store search for \"visp\" returns only the Visp Rain Jacket and Visp Rain Mitts (Oct 2026)."
+      }
+    },
+    {
+      "id": "bedrock-sandals-cairn-evo",
+      "set": {
+        "weight_note": "Weight is the Shopify per-size variant weight for the smallest size (values scale with size, e.g. 510-624 g); bedrocksandals.com states no net weight, so treat as approximate.",
+        "notes": "Page lists \"Min Cushioning - 14mm\" sole.",
+        "specs": {
+          "stack_mm": 14
+        }
+      }
+    },
+    {
+      "id": "bedrock-sandals-cairn-evo-3d-pro",
+      "set": {
+        "weight_note": "Weight is the Shopify per-size variant weight for the smallest size (values scale with size, e.g. 533-652 g); bedrocksandals.com states no net weight, so treat as approximate.",
+        "notes": "Page lists \"Mid Cushioning - 16mm\" molded footbed.",
+        "specs": {
+          "stack_mm": 16
+        }
+      }
+    },
+    {
+      "id": "bedrock-sandals-classic-lt",
+      "set": {
+        "weight_note": "Weight is the Shopify per-size variant weight for the smallest size (values scale with size, e.g. 255-374 g); bedrocksandals.com states no net weight, so treat as approximate."
+      }
+    },
+    {
+      "id": "hillsound-freesteps6-crampons",
+      "set": {
+        "weight_g": 364,
+        "weight_note": "pair, size M (12.84 oz), excluding carrying case",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "hillsound-super-armadillo-nano-gaiter",
+      "set": {
+        "weight_note": "per pair, size M (320 g XS - 402 g XL); heavy-duty bushwhacking gaiter, weight confirmed"
+      }
+    },
+    {
+      "id": "hillsound-armadillo-lt-gaiter",
+      "set": {
+        "weight_note": "per pair, size S (259 g XS / 300 g M / 324 g XL)"
+      }
+    },
+    {
+      "id": "ridge-merino-pursuit-air-ultralight-merino-hoodie-mens",
+      "set": {
+        "specs": {
+          "gsm": 135
+        }
+      }
+    },
+    {
+      "id": "arcteryx-rho-merino-wool-bottom-mens",
+      "set": {
+        "specs": {
+          "gsm": 150
+        }
+      }
+    },
+    {
+      "id": "arcteryx-rho-bottom-womens",
+      "set": {
+        "specs": {
+          "gsm": 185
+        }
+      }
+    },
+    {
+      "id": "arcteryx-gamma-jogger-mens",
+      "set": {
+        "specs": {
+          "gsm": 186
+        }
+      }
+    },
+    {
+      "id": "arcteryx-gamma-sl-short-9-mens",
+      "set": {
+        "specs": {
+          "gsm": 125
+        }
+      }
+    },
+    {
+      "id": "yamatomichi-light-5-pocket-pants-mens",
+      "set": {
+        "specs": {
+          "gsm": 62
+        }
+      }
+    },
+    {
+      "id": "yamatomichi-light-5-pocket-pants-womens",
+      "set": {
+        "specs": {
+          "gsm": 62
+        }
+      }
+    },
+    {
+      "id": "yamatomichi-light-5-pocket-shorts",
+      "set": {
+        "specs": {
+          "gsm": 62
+        }
+      }
+    },
+    {
+      "id": "yamatomichi-light-5-pocket-short-shorts",
+      "set": {
+        "specs": {
+          "gsm": 62
+        }
+      }
+    },
+    {
+      "id": "path-projects-kessler-ls-tee",
+      "set": {
+        "specs": {
+          "gsm": 159,
+          "material": "Toray Fieldsensor Byokan 100% polyester circular knit"
+        }
+      }
+    },
+    {
+      "id": "black-diamond-coefficient-lt-crew-mens",
+      "set": {
+        "specs": {
+          "gsm": 119,
+          "material": "Polartec Power Grid fleece, 90% polyester / 10% elastane"
+        }
+      }
+    },
+    {
+      "id": "black-diamond-coefficient-lt-pants-mens",
+      "set": {
+        "specs": {
+          "gsm": 119
+        }
+      }
+    },
+    {
+      "id": "black-diamond-alpenglow-hoody-mens",
+      "set": {
+        "specs": {
+          "gsm": 140
+        }
+      }
+    },
+    {
+      "id": "black-diamond-alpenglow-pro-hoody-mens",
+      "set": {
+        "specs": {
+          "gsm": 158,
+          "material": "nylon stretch jersey, 92% nylon / 8% elastane"
+        }
+      }
+    },
+    {
+      "id": "black-diamond-alpenglow-long-sleeve-crew-mens",
+      "set": {
+        "specs": {
+          "gsm": 140
+        }
+      }
+    },
+    {
+      "id": "black-diamond-alpine-light-pants-mens",
+      "set": {
+        "specs": {
+          "gsm": 148
+        }
+      }
+    },
+    {
+      "id": "black-diamond-notion-pants-mens",
+      "set": {
+        "specs": {
+          "gsm": 195
+        }
+      }
+    },
+    {
+      "id": "black-diamond-notion-shorts-mens",
+      "set": {
+        "specs": {
+          "gsm": 195
+        }
+      }
+    },
+    {
+      "id": "black-diamond-alpenglow-hoody-womens",
+      "set": {
+        "specs": {
+          "gsm": 140
+        }
+      }
+    },
+    {
+      "id": "black-diamond-alpenglow-pro-hoody-womens",
+      "set": {
+        "specs": {
+          "gsm": 158
+        }
+      }
+    },
+    {
+      "id": "black-diamond-alpine-light-pants-womens",
+      "set": {
+        "specs": {
+          "gsm": 148
+        }
+      }
+    },
+    {
+      "id": "ridge-merino-aspect-midweight-merino-base-layer-crew-womens",
+      "set": {
+        "specs": {
+          "gsm": 180
+        },
+        "confidence": "high",
+        "weight_note": "size M; \"Size M weight: 6.5oz\" in product copy"
+      }
+    },
+    {
+      "id": "patagonia-capilene-thermal-weight-bottoms-mens",
+      "set": {
+        "specs": {
+          "gsm": 129
+        },
+        "url": "https://eu.patagonia.com/gb/en/product/mens-capilene-thermal-weight-bottoms/43687.html",
+        "price_usd": 99,
+        "notes": "US list $99 per patagonia.com baselayer listing; 133 g per Patagonia UK product page."
+      }
+    },
+    {
+      "id": "montbell-versalite-jacket-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2328329",
+        "weight_note": "Montbell US listed average weight",
+        "specs": {
+          "breathability": "52,000 g/m²/24h (JIS L-1099 B-1)"
+        }
+      }
+    },
+    {
+      "id": "montbell-versalite-jacket-womens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2328330",
+        "confidence": "high",
+        "weight_g": 152,
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 275,
+        "specs": {
+          "breathability": "52,000 g/m²/24h (JIS L-1099 B-1)"
+        }
+      }
+    },
+    {
+      "id": "montbell-storm-cruiser-jacket-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2328321",
+        "weight_note": "Montbell US listed average weight",
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "material": "SUPER DRY-TEC 3L 30D Ballistic nylon ripstop",
+          "breathability": "40,000 g/m²/24h (JIS L-1099 B-1)",
+          "pit_zips": true
+        }
+      }
+    },
+    {
+      "id": "montbell-storm-cruiser-jacket-womens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2328322",
+        "confidence": "high",
+        "weight_g": 256,
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 260,
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "material": "SUPER DRY-TEC 3L 30D Ballistic nylon ripstop",
+          "breathability": "40,000 g/m²/24h (JIS L-1099 B-1)",
+          "pit_zips": true
+        }
+      }
+    },
+    {
+      "id": "montbell-peak-shell-jacket-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2328319",
+        "confidence": "high",
+        "weight_g": 198,
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 360,
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "material": "GORE-TEX 3L (ePE) 15D Ballistic Airlight nylon ripstop",
+          "breathability": "20,000 g/m²/24h (JIS L-1099 B-1)",
+          "pit_zips": true
+        }
+      }
+    },
+    {
+      "id": "montbell-thunder-pass-jacket-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2328333",
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 155,
+        "notes": null,
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "material": "DRY-TEC 3L 50D nylon ripstop",
+          "breathability": "15,000 g/m²/24h (JIS L-1099 B-1)",
+          "pit_zips": false
+        }
+      }
+    },
+    {
+      "id": "montbell-rain-trekker-jacket-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2328317",
+        "confidence": "high",
+        "weight_g": 320,
+        "weight_basis": "manufacturer",
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 330,
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "material": "GORE-TEX 3L (ePE) 50D nylon ripstop",
+          "breathability": "20,000 g/m²/24h (JIS L-1099 B-1)",
+          "pit_zips": false
+        }
+      }
+    },
+    {
+      "id": "montbell-rain-hiker-jacket-womens",
+      "set": {
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 129,
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "material": "DRY-TEC 2L 70D nylon taffeta",
+          "breathability": "10,000 g/m²/24h (JIS L-1099 B-1)",
+          "pit_zips": false
+        }
+      }
+    },
+    {
+      "id": "montbell-storm-cruiser-pants-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2328323",
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 159,
+        "notes": "Sold in the US as DRY-TEC Rain Pants (#2328323); same product as montbell-dry-tec-rain-pants-mens.",
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "material": "SUPER DRY-TEC 3L 30D nylon ripstop"
+        }
+      }
+    },
+    {
+      "id": "montbell-thunder-pass-pants-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2328335",
+        "weight_note": "Montbell US listed average weight",
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "material": "DRY-TEC 3L 50D nylon ripstop"
+        }
+      }
+    },
+    {
+      "id": "montbell-thunder-pass-pants-womens",
+      "set": {
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 99,
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "material": "DRY-TEC 3L 50D nylon ripstop"
+        }
+      }
+    },
+    {
+      "id": "montbell-dry-tec-rain-pants-mens",
+      "set": {
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 159,
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "material": "SUPER DRY-TEC 3L 30D nylon ripstop"
+        }
+      }
+    },
+    {
+      "id": "montbell-dry-tec-rain-pants-womens",
+      "set": {
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 149,
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "material": "SUPER DRY-TEC 3L 30D Ballistic nylon ripstop"
+        }
+      }
+    },
+    {
+      "id": "montbell-dry-tec-ul-rain-pants-mens",
+      "set": {
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 189,
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "material": "SUPER DRY-TEC 3L 7D Ballistic Airlight nylon ripstop",
+          "breathability": "52,000 g/m²/24h (JIS L-1099 B-1)"
+        }
+      }
+    },
+    {
+      "id": "montbell-dry-tec-ul-rain-pants-womens",
+      "set": {
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 175,
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "material": "SUPER DRY-TEC 3L 7D Ballistic Airlight nylon ripstop",
+          "breathability": "52,000 g/m²/24h (JIS L-1099 B-1)"
+        }
+      }
+    },
+    {
+      "id": "montbell-gore-tex-rain-pants-mens",
+      "set": {
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 245,
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "material": "GORE-TEX 3L (ePE) 20D nylon ripstop"
+        }
+      }
+    },
+    {
+      "id": "montbell-gore-tex-rain-pants-womens",
+      "set": {
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 230,
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "material": "GORE-TEX 3L (ePE) 20D nylon ripstop"
+        }
+      }
+    },
+    {
+      "id": "montbell-tachyon-parka-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2303106",
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 130,
+        "notes": "Sold in the US as Tachyon Hooded Jacket (#2303106)."
+      }
+    },
+    {
+      "id": "montbell-tachyon-parka-womens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2303107",
+        "weight_g": 66,
+        "weight_note": "Montbell US listed average weight",
+        "notes": "Sold in the US as Tachyon Hooded Jacket (#2303107)."
+      }
+    },
+    {
+      "id": "montbell-ex-light-wind-vest",
+      "set": {
+        "weight_note": "Montbell US listed average weight"
+      }
+    },
+    {
+      "id": "montbell-tachyon-pants-mens",
+      "set": {
+        "weight_note": "Montbell US listed average weight"
+      }
+    },
+    {
+      "id": "montbell-wind-blast-parka-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2303142",
+        "confidence": "high",
+        "weight_g": 187,
+        "weight_basis": "manufacturer",
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 93,
+        "notes": "Sold in the US as Wind Blast Hooded Jacket (#2303142).",
+        "specs": {
+          "material": "40D nylon taffeta, water-repellent"
+        }
+      }
+    },
+    {
+      "id": "montbell-wind-blast-vest-mens",
+      "set": {
+        "weight_note": "Montbell US listed average weight"
+      }
+    },
+    {
+      "id": "montbell-cross-runner-light-pants-mens",
+      "set": {
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 99
+      }
+    },
+    {
+      "id": "montbell-light-cross-runner-pants-womens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2305250",
+        "weight_g": 141,
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 99,
+        "notes": "Current US listing is Cross Runner Light Pants Women's (#2305250); older #1105715 page has no US price."
+      }
+    },
+    {
+      "id": "montbell-zeo-line-light-weight-round-neck-shirt-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2307125",
+        "weight_note": "Montbell US listed average weight"
+      }
+    },
+    {
+      "id": "montbell-zeo-line-middle-weight-round-neck-shirt-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2307112",
+        "weight_note": "Montbell US listed average weight"
+      }
+    },
+    {
+      "id": "montbell-super-merino-wool-light-weight-round-neck-shirt-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2307107",
+        "weight_note": "Montbell US listed average weight",
+        "specs": {
+          "material": "SUPER MERINO WOOL 85% wool / 15% polyester"
+        }
+      }
+    },
+    {
+      "id": "montbell-climaair-light-long-sleeve-t-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2306224",
+        "weight_note": "Montbell US listed average weight"
+      }
+    },
+    {
+      "id": "montbell-climaair-light-tights-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2306228",
+        "weight_note": "Montbell US listed average weight"
+      }
+    },
+    {
+      "id": "montbell-cool-pants-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2305157",
+        "weight_note": "Montbell US listed average weight"
+      }
+    },
+    {
+      "id": "montbell-light-o-d-pants-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2305159",
+        "weight_note": "Montbell US listed average weight"
+      }
+    },
+    {
+      "id": "montbell-canyon-shorts-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2305226",
+        "weight_note": "Montbell US listed average weight"
+      }
+    },
+    {
+      "id": "montbell-cross-runner-light-shorts-mens",
+      "set": {
+        "url": "https://www.montbell.com/us/en/products/detail/2305252",
+        "weight_note": "Montbell US listed average weight"
+      }
+    },
+    {
+      "id": "montbell-cool-pants-womens",
+      "set": {
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 90,
+        "specs": {
+          "material": "100% nylon, water-repellent"
+        }
+      }
+    },
+    {
+      "id": "montbell-od-light-pants-womens",
+      "set": {
+        "weight_note": "Montbell US listed average weight",
+        "price_usd": 97,
+        "specs": {
+          "material": "94% nylon / 6% polyurethane ripstop"
+        }
+      }
+    },
+    {
+      "id": "montbell-versalite-pants-mens",
+      "set": {
+        "discontinued": true,
+        "notes": "UK product page 404s and Versalite Pants are absent from Montbell UK/US stores (Oct 2026); succeeded by DRY-TEC U.L. Rain Pants (#2328331/#2328332)."
+      }
+    },
+    {
+      "id": "montbell-versalite-pants-womens",
+      "set": {
+        "discontinued": true,
+        "notes": "UK product page 404s and Versalite Pants are absent from Montbell UK/US stores (Oct 2026); succeeded by DRY-TEC U.L. Rain Pants (#2328331/#2328332)."
+      }
+    },
+    {
+      "id": "merrell-moab-speed-2",
+      "set": {
+        "specs": {
+          "stack_mm": 34,
+          "forefoot_stack_mm": 24
+        }
+      }
+    },
+    {
+      "id": "merrell-moab-speed-2-gore-tex",
+      "set": {
+        "specs": {
+          "stack_mm": 34,
+          "forefoot_stack_mm": 24
+        }
+      }
+    },
+    {
+      "id": "merrell-moab-speed-2-mid-gore-tex",
+      "set": {
+        "specs": {
+          "stack_mm": 34,
+          "forefoot_stack_mm": 24
+        }
+      }
+    },
+    {
+      "id": "merrell-mtl-long-sky-2-matryx",
+      "set": {
+        "specs": {
+          "stack_mm": 23.5,
+          "forefoot_stack_mm": 19.5
+        }
+      }
+    },
+    {
+      "id": "merrell-nova-4",
+      "set": {
+        "specs": {
+          "stack_mm": 29,
+          "forefoot_stack_mm": 21
+        }
+      }
+    },
+    {
+      "id": "merrell-moab-3",
+      "set": {
+        "specs": {
+          "drop_mm": 11.5
+        }
+      }
+    },
+    {
+      "id": "merrell-moab-3-waterproof",
+      "set": {
+        "specs": {
+          "drop_mm": 11.5
+        }
+      }
+    },
+    {
+      "id": "merrell-moab-3-gore-tex",
+      "set": {
+        "specs": {
+          "drop_mm": 11.5
+        }
+      }
+    },
+    {
+      "id": "merrell-moab-3-mid-waterproof",
+      "set": {
+        "specs": {
+          "drop_mm": 11.5
+        }
+      }
+    },
+    {
+      "id": "montane-minimus-lite-jacket-mens",
+      "set": {
+        "url": "https://montane.com/en-us/products/montane-mens-minimus-lite-waterproof-jacket",
+        "specs": {
+          "material": "Pertex Shield 40D ripstop",
+          "waterproof_rating_mm": 20000,
+          "breathability": "20,000 g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "montane-minimus-nano-pull-on-waterproof-pants",
+      "set": {
+        "url": "https://montane.com/en-us/products/montane-unisex-minimus-nano-pull-over-waterproof-pants",
+        "price_usd": 125
+      }
+    },
+    {
+      "id": "montane-featherlite-nano-jacket-mens",
+      "set": {
+        "url": "https://montane.com/en-us/products/montane-mens-featherlite-nano-windproof-jacket"
+      }
+    },
+    {
+      "id": "montane-minimus-lite-pants-mens",
+      "set": {
+        "discontinued": true,
+        "notes": "Absent from Montane US and UK stores (products.json catalog and store search), Oct 2026."
+      }
+    },
+    {
+      "id": "montane-featherlite-trail-jacket-mens",
+      "set": {
+        "discontinued": true,
+        "notes": "Absent from Montane US and UK stores (products.json catalog and store search), Oct 2026."
+      }
+    },
+    {
+      "id": "outdoor-research-helium-rain-jacket-mens",
+      "set": {
+        "discontinued": true,
+        "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
+      }
+    },
+    {
+      "id": "outdoor-research-helium-rain-jacket-womens",
+      "set": {
+        "discontinued": true,
+        "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
+      }
+    },
+    {
+      "id": "outdoor-research-helium-rain-pants-mens",
+      "set": {
+        "discontinued": true,
+        "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
+      }
+    },
+    {
+      "id": "outdoor-research-helium-rain-pants-womens",
+      "set": {
+        "discontinued": true,
+        "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
+      }
+    },
+    {
+      "id": "outdoor-research-helium-ascentshell-jacket-mens",
+      "set": {
+        "discontinued": true,
+        "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
+      }
+    },
+    {
+      "id": "outdoor-research-motive-ascentshell-jacket-mens",
+      "set": {
+        "discontinued": true,
+        "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
+      }
+    },
+    {
+      "id": "outdoor-research-motive-ascentshell-jacket-womens",
+      "set": {
+        "discontinued": true,
+        "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
+      }
+    },
+    {
+      "id": "outdoor-research-apollo-rain-jacket-mens",
+      "set": {
+        "discontinued": true,
+        "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
+      }
+    },
+    {
+      "id": "outdoor-research-helium-wind-hoodie-mens",
+      "set": {
+        "discontinued": true,
+        "notes": "404 on outdoorresearch.com and absent from OR store search (Oct 2026); superseded by Helium UL / Foray / Aspire lines"
+      }
+    },
+    {
+      "id": "outdoor-research-foray-3l-jacket-mens",
+      "set": {
+        "url": "https://www.outdoorresearch.com/products/mens-foray-3l-jacket-322088",
+        "weight_note": "OR-listed product weight",
+        "specs": {
+          "material": "AscentShell Dry 3L recycled nylon 40D stretch"
+        }
+      }
+    },
+    {
+      "id": "outdoor-research-aspire-3l-jacket-womens",
+      "set": {
+        "url": "https://www.outdoorresearch.com/products/womens-aspire-3l-jacket-322107",
+        "price_usd": 260,
+        "weight_g": 352,
+        "weight_basis": "manufacturer",
+        "weight_note": "OR-listed product weight",
+        "confidence": "high",
+        "specs": {
+          "material": "AscentShell Dry 3L recycled nylon 40D stretch"
+        }
+      }
+    },
+    {
+      "id": "outdoor-research-stratoburst-stretch-rain-jacket-mens",
+      "set": {
+        "url": "https://www.outdoorresearch.com/products/mens-stratoburst-stretch-rain-jacket-300893",
+        "price_usd": 175,
+        "weight_g": 240,
+        "weight_note": "OR-listed product weight",
+        "confidence": "high",
+        "specs": {
+          "material": "Ventia 2.5L recycled polyester 50D stretch"
+        }
+      }
+    },
+    {
+      "id": "outdoor-research-foray-3l-pants-mens",
+      "set": {
+        "url": "https://www.outdoorresearch.com/products/mens-foray-3l-pants-322089",
+        "price_usd": 210,
+        "weight_note": "OR-listed product weight"
+      }
+    },
+    {
+      "id": "outdoor-research-echo-boxer-briefs-mens",
+      "set": {
+        "url": "https://www.outdoorresearch.com/products/mens-echo-boxer-briefs-287630",
+        "weight_g": 74,
+        "weight_note": "OR-listed product weight"
+      }
+    },
+    {
+      "id": "outdoor-research-eclipse-sun-t-shirt-mens",
+      "set": {
+        "url": "https://www.outdoorresearch.com/products/mens-eclipse-sun-t-shirt-322665"
+      }
+    },
+    {
+      "id": "outdoor-research-astroman-short-sleeve-sun-shirt-mens",
+      "set": {
+        "url": "https://www.outdoorresearch.com/products/mens-astroman-short-sleeve-sun-shirt-322669"
+      }
+    },
+    {
+      "id": "outdoor-research-astroman-long-sleeve-sun-shirt-mens",
+      "set": {
+        "url": "https://www.outdoorresearch.com/products/mens-astroman-long-sleeve-sun-shirt-322670",
+        "weight_g": 180,
+        "weight_note": "OR-listed product weight"
+      }
+    },
+    {
+      "id": "outdoor-research-astroman-air-sun-hoodie-womens",
+      "set": {
+        "url": "https://www.outdoorresearch.com/products/womens-astroman-air-sun-hoodie-300856",
+        "weight_g": 155,
+        "weight_note": "OR page listed weight"
+      }
+    },
+    {
+      "id": "outdoor-research-vigor-lt-hoodie-womens",
+      "set": {
+        "url": "https://www.outdoorresearch.com/products/womens-vigor-lt-hoodie-322851"
+      }
+    },
+    {
+      "id": "outdoor-research-astroman-full-zip-sun-hoodie-womens",
+      "set": {
+        "price_usd": 135
+      }
+    },
+    {
+      "id": "outdoor-research-ferrosi-shorts-womens",
+      "set": {
+        "url": "https://www.outdoorresearch.com/products/womens-ferrosi-shorts-5-inseam-300980",
+        "variant": "Women's 5\"",
+        "specs": {
+          "inseam_in": 5
+        }
+      }
+    },
+    {
+      "id": "patagonia-torrentshell-3l-jacket-mens",
+      "set": {
+        "weight_g": 400,
+        "url": "https://featheredfriends.com/products/patagonia-torrentshell-3l-jacket-mens-1",
+        "weight_note": "Patagonia-listed weight"
+      }
+    },
+    {
+      "id": "patagonia-torrentshell-3l-jacket-womens",
+      "set": {
+        "url": "https://featheredfriends.com/products/patagonia-torrentshell-3l-rain-jacket-womens"
+      }
+    },
+    {
+      "id": "patagonia-airshed-pro-pullover-mens",
+      "set": {
+        "url": "https://www.runningwarehouse.com/descpage-PMFAPLF.html",
+        "price_usd": 145
+      }
+    },
+    {
+      "id": "patagonia-capilene-midweight-bottoms-mens",
+      "set": {
+        "price_usd": 95
+      }
+    },
+    {
+      "id": "patagonia-houdini-jacket-womens",
+      "set": {
+        "url": "https://www.patagonia.com/product/womens-houdini-windbreaker-jacket/24147.html"
+      }
+    },
+    {
+      "id": "patagonia-houdini-air-jacket-mens",
+      "set": {
+        "url": "https://www.patagonia.com/product/mens-houdini-air-windbreaker-jacket/24010.html",
+        "price_usd": 179,
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "patagonia-storm-racer-jacket-womens",
+      "set": {
+        "url": "https://www.patagonia.com/product/womens-storm-racer-running-jacket/24115.html",
+        "weight_g": 179,
+        "weight_note": "Patagonia-listed weight"
+      }
+    },
+    {
+      "id": "patagonia-granite-crest-rain-jacket-womens",
+      "set": {
+        "url": "https://www.patagonia.com/product/womens-granite-crest-waterproof-rain-jacket/85420.html",
+        "price_usd": 289,
+        "weight_g": 357,
+        "confidence": "high",
+        "weight_note": "Patagonia-listed weight"
+      }
+    },
+    {
+      "id": "patagonia-granite-crest-rain-pants-womens",
+      "set": {
+        "url": "https://eu.patagonia.com/fi/en/product/womens-granite-crest-waterproof-rain-pants/85435.html",
+        "price_usd": 239,
+        "notes": "US price $239 from patagonia.com category listing; weight 244 g from Patagonia EU product page (US page blocked)."
+      }
+    },
+    {
+      "id": "patagonia-capilene-cool-daily-hoody-mens",
+      "set": {
+        "url": "https://www.patagonia.com/product/mens-capilene-cool-daily-hoody/45310.html",
+        "weight_g": 179,
+        "confidence": "high",
+        "notes": "Patagonia relabeled Capilene Cool Daily without the UPF claim (voluntary recall notice); upf value may no longer apply.",
+        "weight_note": "Patagonia-listed weight"
+      }
+    },
+    {
+      "id": "patagonia-capilene-cool-daily-hoody-womens",
+      "set": {
+        "url": "https://www.patagonia.com/product/womens-capilene-cool-daily-hoody/45316.html",
+        "price_usd": 69,
+        "notes": "Patagonia relabeled Capilene Cool Daily without the UPF claim (voluntary recall notice)."
+      }
+    },
+    {
+      "id": "patagonia-capilene-cool-sun-hoody-womens",
+      "set": {
+        "url": "https://www.patagonia.com/product/womens-capilene-cool-sun-hoody/44805.html",
+        "price_usd": 89
+      }
+    },
+    {
+      "id": "patagonia-tropic-comfort-natural-upf-hoody-mens",
+      "set": {
+        "url": "https://www.patagonia.com/product/mens-tropic-comfort-natural-sun-upf-hoody/41930.html",
+        "price_usd": 99,
+        "weight_g": 265,
+        "confidence": "high",
+        "weight_note": "Patagonia-listed weight",
+        "specs": {
+          "material": "96% modal / 4% spandex jersey"
+        }
+      }
+    },
+    {
+      "id": "patagonia-tropic-comfort-natural-upf-hoody-womens",
+      "set": {
+        "url": "https://www.patagonia.com/product/womens-tropic-comfort-natural-sun-upf-hoody/41935.html",
+        "price_usd": 99
+      }
+    },
+    {
+      "id": "patagonia-capilene-thermal-weight-crewneck-womens",
+      "set": {
+        "url": "https://www.patagonia.com/product/womens-capilene-thermal-weight-crew/43650.html",
+        "price_usd": 99
+      }
+    },
+    {
+      "id": "patagonia-baggies-shorts-5-mens",
+      "set": {
+        "url": "https://www.patagonia.com/product/mens-baggies-5-inch-inseam-shorts/57022.html",
+        "price_usd": 75
+      }
+    },
+    {
+      "id": "patagonia-quandary-pants-mens",
+      "set": {
+        "url": "https://www.patagonia.com/product/mens-quandary-hiking-pants-regular/55183.html"
+      }
+    },
+    {
+      "id": "patagonia-quandary-shorts-10-mens",
+      "set": {
+        "url": "https://www.patagonia.com/product/mens-quandary-hiking-shorts-10-inch/57828.html",
+        "price_usd": 95
+      }
+    },
+    {
+      "id": "patagonia-quandary-pants-womens",
+      "set": {
+        "url": "https://eu.patagonia.com/ee/en/product/womens-quandary-hiking-pants-regular/55417.html",
+        "notes": "Weight 283 g confirmed on Patagonia EU page (style 55417); US price not found (patagonia.com blocks curl)."
+      }
+    },
+    {
+      "id": "patagonia-essential-boxer-briefs-3-mens",
+      "set": {
+        "url": "https://eu.patagonia.com/gb/en/product/mens-essential-boxer-briefs-3-inch/32555.html",
+        "weight_g": 91,
+        "weight_note": "Patagonia EU-listed weight",
+        "notes": "US price not confirmed (EU list EUR 35)."
+      }
+    },
+    {
+      "id": "patagonia-fishermans-rolled-beanie",
+      "set": {
+        "url": "https://www.patagonia.com/product/fishermans-rolled-beanie/29105.html",
+        "weight_basis": "manufacturer",
+        "weight_note": "Patagonia-listed weight (102 g / 3.6 oz)"
+      }
+    },
+    {
+      "id": "patagonia-duckbill-cap",
+      "set": {
+        "weight_g": 43,
+        "confidence": "high",
+        "weight_basis": "manufacturer",
+        "weight_note": "Patagonia-listed weight"
+      }
+    },
+    {
+      "id": "patagonia-duckbill-trucker-hat",
+      "set": {
+        "url": "https://www.patagonia.com/product/duckbill-trucker-hat/28757.html",
+        "weight_g": 62,
+        "confidence": "high",
+        "weight_basis": "manufacturer",
+        "weight_note": "Patagonia-listed weight"
+      }
+    },
+    {
+      "id": "patagonia-airshed-cap",
+      "set": {
+        "url": "https://www.patagonia.com/product/airshed-lightweight-cap/33316.html",
+        "weight_g": 74,
+        "price_usd": 49,
+        "weight_basis": "manufacturer",
+        "weight_note": "Patagonia-listed weight for current version (EU Airshed Lightweight Cap page lists 68 g)",
+        "notes": "Patagonia US now lists this style (#33316) as the Terrebonne Lightweight Hat."
+      }
+    },
+    {
+      "id": "rab-phantom-waterproof-jacket-mens",
+      "set": {
+        "url": "https://rab.equipment/us/mens-phantom-waterproof-jacket",
+        "weight_g": 116,
+        "weight_note": "Rab US listed weight (Size M)",
+        "specs": {
+          "breathability": "20,000g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "rab-phantom-waterproof-jacket-womens",
+      "set": {
+        "weight_g": 104,
+        "weight_note": "Rab US listed weight (Size 10)",
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "breathability": "20,000g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "rab-kinetic-2-jacket-mens",
+      "set": {
+        "price_usd": 280.0,
+        "weight_note": "Rab US listed weight",
+        "specs": {
+          "waterproof_rating_mm": 10000,
+          "breathability": "35,000g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "rab-kinetic-2-jacket-womens",
+      "set": {
+        "weight_note": "Rab US listed weight (Size M)",
+        "specs": {
+          "waterproof_rating_mm": 10000,
+          "breathability": "35,000g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "rab-downpour-eco-jacket-mens",
+      "set": {
+        "url": "https://rab.equipment/us/mens-downpour-waterproof-jacket",
+        "price_usd": 140.0,
+        "weight_g": 377,
+        "weight_note": "Rab US listed weight (Size M)",
+        "notes": "Rab now sells this as the Downpour Waterproof Jacket (current version, 377 g M); older Downpour Eco listed ~320 g.",
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "breathability": "20,000g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "rab-downpour-eco-jacket-womens",
+      "set": {
+        "weight_note": "Rab US listed weight (Size 10)",
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "breathability": "20,000g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "rab-downpour-eco-pants-mens",
+      "set": {
+        "url": "https://rab.equipment/us/mens-downpour-waterproof-pants",
+        "price_usd": 110.0,
+        "weight_g": 262,
+        "weight_note": "Rab US listed weight (Size M)",
+        "notes": "Rab now sells this as the Downpour Waterproof Pants (current version).",
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "breathability": "20,000g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "rab-downpour-eco-pants-womens",
+      "set": {
+        "weight_basis": "manufacturer",
+        "weight_note": "Rab US listed weight (Size 10)",
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "breathability": "20,000g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "rab-kinetic-2-pants-mens",
+      "set": {
+        "weight_note": "Rab US listed weight",
+        "specs": {
+          "waterproof_rating_mm": 10000,
+          "breathability": "35,000g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "rab-kinetic-2-pants-womens",
+      "set": {
+        "weight_note": "Rab US listed weight",
+        "specs": {
+          "waterproof_rating_mm": 10000,
+          "breathability": "35,000g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "rab-phantom-waterproof-pants",
+      "set": {
+        "weight_note": "Rab US listed weight (Size M)",
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "breathability": "20,000g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "rab-firewall-waterproof-pants-mens",
+      "set": {
+        "weight_note": "Rab US listed weight (Size M)",
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "breathability": "20,000g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "rab-firewall-waterproof-pants-womens",
+      "set": {
+        "weight_note": "Rab US listed weight (Size 10)",
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "breathability": "20,000g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "rab-namche-hike-gore-tex-pants-mens",
+      "set": {
+        "weight_note": "Rab US listed weight (Size M)",
+        "specs": {
+          "waterproof_rating_mm": 28000
+        }
+      }
+    },
+    {
+      "id": "rab-namche-hike-gore-tex-pants-womens",
+      "set": {
+        "weight_note": "Rab US listed weight (Size 10)",
+        "specs": {
+          "waterproof_rating_mm": 28000
+        }
+      }
+    },
+    {
+      "id": "rab-vital-hoody-mens",
+      "set": {
+        "url": "https://rab.equipment/us/vital-hoody",
+        "weight_note": "Rab US listed weight (Size M)"
+      }
+    },
+    {
+      "id": "rab-vital-hoody-womens",
+      "set": {
+        "weight_note": "Rab US listed weight (Size 10)"
+      }
+    },
+    {
+      "id": "rab-borealis-jacket-mens",
+      "set": {
+        "url": "https://rab.equipment/us/mens-borealis-hooded-jacket",
+        "price_usd": 130.0,
+        "weight_g": 273,
+        "weight_note": "Rab US listed weight (Size M)",
+        "notes": "Light softshell used as a wind layer; current US name Borealis Hooded Jacket."
+      }
+    },
+    {
+      "id": "rab-borealis-vest-mens",
+      "set": {
+        "weight_note": "Rab US listed weight (Size M)"
+      }
+    },
+    {
+      "id": "rab-borealis-vest-womens",
+      "set": {
+        "weight_note": "Rab US listed weight (Size 10)"
+      }
+    },
+    {
+      "id": "rab-power-stretch-contact-glove",
+      "set": {
+        "url": "https://rab.equipment/us/power-stretch-contact-glove",
+        "price_usd": 37.0,
+        "weight_g": 43,
+        "weight_basis": "manufacturer",
+        "weight_note": "Rab US listed weight",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "rab-phantom-pull-on-mens",
+      "set": {
+        "discontinued": true,
+        "notes": "Not in Rab US store (Phantom search returns only Phantom Jacket/Mountain Jacket/Pants; pull-on slugs 404), Oct 2026."
+      }
+    },
+    {
+      "id": "hoka-ora-recovery-slide-3",
+      "set": {
+        "weight_g": 442,
+        "weight_basis": "measured",
+        "weight_note": "pair; Running Warehouse-measured 7.8 oz single shoe (men's 9) x2",
+        "price_usd": 59.95,
+        "confidence": "high",
+        "specs": {
+          "drop_mm": 6
+        }
+      }
+    },
+    {
+      "id": "hoka-ora-recovery-flip",
+      "set": {
+        "weight_g": 294,
+        "weight_basis": "measured",
+        "weight_note": "pair; Running Warehouse-measured 5.2 oz single shoe (men's 9) x2",
+        "price_usd": 59.95,
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "salomon-neck-gaiter",
+      "set": {
+        "weight_g": 28,
+        "weight_basis": "manufacturer",
+        "weight_note": "\"weighing in at only 28 grams\" per Running Warehouse product copy",
+        "confidence": "high",
+        "specs": {
+          "material": "98% polyester / 2% elastane"
+        }
+      }
+    },
+    {
+      "id": "smartwool-run-targeted-cushion-ankle",
+      "set": {
+        "specs": {
+          "material": "56% merino / 39% nylon / 2% recycled nylon / 3% spandex"
+        }
+      }
+    },
+    {
+      "id": "drymax-speedgoat-lite-trail-running-crew",
+      "set": {
+        "specs": {
+          "material": "65% Drymax olefin / 20% polyester / 8% nylon / 7% elastane"
+        }
+      }
+    },
+    {
+      "id": "salomon-speedcross-6",
+      "set": {
+        "url": "https://www.salomon.com/en-us/product/speedcross-6-lg9212/L49145100",
+        "price_usd": 150
+      }
+    },
+    {
+      "id": "salomon-speedcross-6-gtx",
+      "set": {
+        "url": "https://www.salomon.com/en-us/product/speedcross-6-gore-tex-lg9214/L47584100",
+        "price_usd": 170
+      }
+    },
+    {
+      "id": "salomon-xa-pro-3d-v9",
+      "set": {
+        "url": "https://www.salomon.com/en-us/product/xa-pro-3d-v9-li3125/L47882500",
+        "price_usd": 150
+      }
+    },
+    {
+      "id": "ridge-merino-merino-wool-boxer-briefs-mens",
+      "set": {
+        "weight_g": 74,
+        "weight_basis": "manufacturer",
+        "weight_note": "size M per-size Shopify variant weight on brand store (weights scale by size: 68 g S - 102 g XXL); not stated in product copy"
+      }
+    },
+    {
+      "id": "decathlon-simond-mt500-long-sleeve-100-merino-t-shirt-mens",
+      "set": {
+        "weight_g": 238,
+        "weight_basis": "manufacturer",
+        "weight_note": "size M per-size Shopify variant weight on brand store (weights scale by size: 230 g S - 300 g 2XL); not stated in product copy",
+        "price_usd": 79.99
+      }
+    },
+    {
+      "id": "feetures-trail-max-cushion-quarter",
+      "set": {
+        "weight_g": 68,
+        "weight_basis": "manufacturer",
+        "weight_note": "pair; size M per-size Shopify variant weight on brand store (weights scale by size: 64 g S - 73 g XL); not stated in product copy"
+      }
+    },
+    {
+      "id": "feetures-trail-max-cushion-mini-crew",
+      "set": {
+        "weight_g": 77,
+        "weight_basis": "manufacturer",
+        "weight_note": "pair; size M per-size Shopify variant weight on brand store (weights scale by size: 73 g S - 86 g XL); not stated in product copy"
+      }
+    },
+    {
+      "id": "glacier-glove-glacier-poly-liner",
+      "set": {
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "sea-to-summit-ultra-sil-nano-poncho",
+      "set": {
+        "url": "https://seatosummit.com/products/ultra-sil-nano-poncho",
+        "weight_g": 130,
+        "weight_note": "Sea to Summit tech-spec weight; packed weight 145 g",
+        "specs": {
+          "material": "100% nylon (Ultra-Sil Nano)"
+        }
+      }
+    },
+    {
+      "id": "sea-to-summit-ultra-sil-tarp-poncho",
+      "set": {
+        "url": "https://seatosummit.com/products/ultra-sil-nano-tarp-poncho",
+        "weight_g": 185,
+        "weight_note": "Sea to Summit tech-spec weight; packed weight 230 g",
+        "specs": {
+          "material": "100% nylon (Ultra-Sil Nano)"
+        }
+      }
+    },
+    {
+      "id": "smartwool-classic-thermal-merino-base-layer-crew-mens",
+      "set": {
+        "url": "https://www.smartwool.com/products/mens-classic-thermal-merino-base-layer-crew-sw016349",
+        "specs": {
+          "material": "100% Merino Wool"
+        }
+      }
+    },
+    {
+      "id": "smartwool-classic-thermal-merino-base-layer-crew-womens",
+      "set": {
+        "url": "https://www.smartwool.com/products/womens-classic-thermal-merino-base-layer-crew-sw016369",
+        "specs": {
+          "material": "100% Merino Wool"
+        }
+      }
+    },
+    {
+      "id": "smartwool-classic-thermal-merino-base-layer-bottom-mens",
+      "set": {
+        "url": "https://www.smartwool.com/products/mens-classic-thermal-merino-base-layer-bottom-sw016361",
+        "specs": {
+          "material": "100% Merino Wool"
+        }
+      }
+    },
+    {
+      "id": "smartwool-classic-all-season-merino-base-layer-long-sleeve-mens",
+      "set": {
+        "url": "https://www.smartwool.com/products/mens-classic-all-season-merino-base-layer-crew-sw016952",
+        "specs": {
+          "material": "88% Merino Wool, 12% Recycled Nylon"
+        }
+      }
+    },
+    {
+      "id": "smartwool-classic-all-season-merino-base-layer-bottom-mens",
+      "set": {
+        "url": "https://www.smartwool.com/products/mens-classic-all-season-merino-base-layer-bottom-sw016958",
+        "specs": {
+          "material": "88% Merino Wool, 12% Recycled Nylon"
+        }
+      }
+    },
+    {
+      "id": "smartwool-merino-boxer-brief-mens",
+      "set": {
+        "url": "https://www.smartwool.com/products/mens-merino-boxer-brief-sw016997",
+        "specs": {
+          "material": "88% Merino Wool, 12% Recycled Nylon"
+        }
+      }
+    },
+    {
+      "id": "smartwool-intraknit-boxer-brief-mens",
+      "set": {
+        "url": "https://www.smartwool.com/products/mens-intraknit-boxer-brief-sw003056",
+        "specs": {
+          "material": "56% Merino Wool, 19% TENCEL™ Lyocell, 11% Polyester, 9% Nylon, 5% Elastane"
+        }
+      }
+    },
+    {
+      "id": "smartwool-merino-bikini-womens",
+      "set": {
+        "url": "https://www.smartwool.com/products/womens-merino-bikini-sw016924",
+        "specs": {
+          "material": "88% Merino Wool, 12% Recycled Nylon"
+        }
+      }
+    },
+    {
+      "id": "smartwool-active-ultralite-short-sleeve-womens",
+      "set": {
+        "url": "https://www.smartwool.com/products/womens-active-ultralite-short-sleeve-sw016587",
+        "specs": {
+          "material": "53% Merino Wool, 47% TENCEL™ Lyocell"
+        }
+      }
+    },
+    {
+      "id": "smartwool-intraknit-thermal-merino-base-layer-crew-mens",
+      "set": {
+        "url": "https://www.smartwool.com/products/mens-intraknit-thermal-merino-base-layer-crew-sw019286",
+        "specs": {
+          "material": "53% Merino Wool, 44% Polyester, 3% Elastane"
+        }
+      }
+    },
+    {
+      "id": "smartwool-merino-sun-hoodie-mens",
+      "set": {
+        "url": "https://www.smartwool.com/products/mens-merino-sun-hoodie-sw003067",
+        "specs": {
+          "material": "88% Merino Wool, 12% Recycled Nylon"
+        }
+      }
+    },
+    {
+      "id": "smartwool-merino-sun-hoodie-womens",
+      "set": {
+        "url": "https://www.smartwool.com/products/womens-merino-sun-hoodie-sw003076",
+        "specs": {
+          "material": "88% Merino Wool, 12% Recycled Nylon"
+        }
+      }
+    },
+    {
+      "id": "smartwool-merino-beanie",
+      "set": {
+        "specs": {
+          "material": "88% Merino Wool, 12% Recycled Nylon"
+        }
+      }
+    },
+    {
+      "id": "smartwool-thermal-merino-reversible-cuffed-beanie",
+      "set": {
+        "specs": {
+          "material": "100% Merino Wool"
+        }
+      }
+    },
+    {
+      "id": "smartwool-active-fleece-beanie",
+      "set": {
+        "specs": {
+          "material": "Crown/Side Panels: 56% Merino Wool, 44% Recycled Polyester"
+        }
+      }
+    },
+    {
+      "id": "smartwool-thermal-merino-balaclava",
+      "set": {
+        "specs": {
+          "material": "100% Merino Wool"
+        }
+      }
+    },
+    {
+      "id": "smartwool-active-fleece-balaclava",
+      "set": {
+        "specs": {
+          "material": "54% Recycled Polyester, 38% Merino Wool, 8% Spandex Elastane"
+        }
+      }
+    },
+    {
+      "id": "smartwool-intraknit-all-season-balaclava",
+      "set": {
+        "specs": {
+          "material": "53% Merino Wool, 17% TENCEL Lyocell, 16% Polyester, 11% Nylon, 3% Elastane"
+        }
+      }
+    },
+    {
+      "id": "smartwool-merino-neck-gaiter",
+      "set": {
+        "specs": {
+          "material": "88% Merino Wool, 12% Recycled Nylon"
+        }
+      }
+    },
+    {
+      "id": "smartwool-liner-glove",
+      "set": {
+        "specs": {
+          "material": "48% Merino Wool, 48% Recycled Polyester, 2% Acrylic, 1% Elastodiene, 1% Elastane"
+        }
+      }
+    },
+    {
+      "id": "smartwool-merino-glove",
+      "set": {
+        "specs": {
+          "material": "88% Merino Wool, 12% Nylon"
+        }
+      }
+    },
+    {
+      "id": "smartwool-thermal-merino-glove",
+      "set": {
+        "specs": {
+          "material": "100% Merino Wool"
+        }
+      }
+    },
+    {
+      "id": "smartwool-active-fleece-insulated-glove",
+      "set": {
+        "specs": {
+          "material": "Main Body: 54% Recycled Polyester, 38% Merino Wool, 8% Elastane"
+        }
+      }
+    },
+    {
+      "id": "smartwool-smartloft-glove",
+      "set": {
+        "specs": {
+          "material": "Main body: 100% Recycled Polyester"
+        }
+      }
+    },
+    {
+      "id": "smartwool-active-fleece-wind-mitten",
+      "set": {
+        "specs": {
+          "material": "Main Body: 54% Recycled Polyester, 38% Merino Wool, 8% Recycled Spandex"
+        }
+      }
+    },
+    {
+      "id": "smartwool-hike-light-cushion-crew",
+      "set": {
+        "specs": {
+          "material": "58% Wool-Merino 40% Nylon 2% Elastane"
+        }
+      }
+    },
+    {
+      "id": "smartwool-hike-full-cushion-crew",
+      "set": {
+        "specs": {
+          "material": "63% Merino Wool, 35% Nylon, 2% Elastane"
+        }
+      }
+    },
+    {
+      "id": "smartwool-hike-light-cushion-ankle",
+      "set": {
+        "specs": {
+          "material": "57% Merino Wool 41% Nylon 2% Elastane"
+        }
+      }
+    },
+    {
+      "id": "smartwool-hike-classic-edition-liner-crew",
+      "set": {
+        "specs": {
+          "material": "60% Merino Wool 38% Nylon 1% Elastane 1% Polyester"
+        }
+      }
+    },
+    {
+      "id": "showers-pass-timberline-pant-mens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 15000,
+          "breathability": "30,000 g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "showers-pass-timberline-pant-womens",
+      "set": {
+        "confidence": "high",
+        "specs": {
+          "waterproof_rating_mm": 15000,
+          "breathability": "30,000 g/m²/24h"
+        },
+        "weight_note": "Showers Pass-listed 11.2 oz"
+      }
+    },
+    {
+      "id": "janji-rainrunner-pack-jacket-mens",
+      "set": {
+        "url": "https://janji.com/products/ms-rainrunner-pack-jacket",
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "breathability": "20,000 g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "janji-rainrunner-pack-jacket-womens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 20000,
+          "breathability": "20,000 g/m²/24h"
+        }
+      }
+    },
+    {
+      "id": "janji-zephyrunner-wind-shell-mens",
+      "set": {
+        "url": "https://janji.com/products/ms-zephyrunner-wind-shell",
+        "price_usd": 156,
+        "weight_g": 124,
+        "weight_note": "Janji store product weight"
+      }
+    },
+    {
+      "id": "mountain-hardwear-trailverse-gtx-jacket-mens",
+      "set": {
+        "url": "https://www.mountainhardwear.com/p/mens-trailverse-gore-tex-rain-jacket-2092321.html",
+        "price_usd": 499,
+        "weight_g": 478,
+        "weight_note": "MH-listed approx. weight, size M",
+        "confidence": "high",
+        "specs": {
+          "material": "GORE-TEX ePE 3L, 100% recycled"
+        }
+      }
+    },
+    {
+      "id": "mountain-hardwear-kor-airshell-hoody-womens",
+      "set": {
+        "url": "https://www.mountainhardwear.com/p/womens-kor-airshell-hoody-2123801.html",
+        "price_usd": 170,
+        "weight_g": 123,
+        "weight_note": "MH product-page approx. weight, size M (a category page lists 180 g)",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "mountain-hardwear-kor-airshell-vest-mens",
+      "set": {
+        "url": "https://www.mountainhardwear.com/p/mens-kor-airshell-vest-2038211.html"
+      }
+    },
+    {
+      "id": "rei-co-op-rainier-rain-jacket-womens",
+      "set": {
+        "url": "https://www.rei.com/product/227614/rei-co-op-rainier-rain-jacket-womens",
+        "price_usd": 99.95
+      }
+    },
+    {
+      "id": "rei-co-op-rainier-rain-pants-womens",
+      "set": {
+        "url": "https://www.rei.com/product/227615/rei-co-op-rainier-rain-pants-womens",
+        "weight_g": 301,
+        "weight_note": "REI-listed weight 10.6 oz",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "marmot-precip-eco-pants-mens",
+      "set": {
+        "url": "https://www.marmot.com/p/mens-precip-eco-rain-pants/SP_216590.html",
+        "price_usd": 120,
+        "weight_g": 230,
+        "weight_note": "Marmot-listed weight, 32 in inseam",
+        "confidence": "high",
+        "specs": {
+          "material": "nylon, 78 g/m²"
+        }
+      }
+    },
+    {
+      "id": "kuhl-renegade-pant-mens",
+      "set": {
+        "url": "https://www.kuhl.com/kuhl/mens/pants/renegade-pant/",
+        "price_usd": 109
+      }
+    },
+    {
+      "id": "prana-brion-pant-ii-mens",
+      "set": {
+        "url": "https://www.prana.com/p/brion-pant-ii/1969771.html",
+        "price_usd": 85
+      }
+    },
+    {
+      "id": "buff-original-ecostretch",
+      "set": {
+        "url": "https://www.buff.com/us/original-ecostretch-neckwear-buff-solid-black-black-117818999.html",
+        "price_usd": 23,
+        "specs": {
+          "material": "95% recycled materials, UPF 50"
+        }
+      }
+    },
+    {
+      "id": "minus33-kenai-expedition-wool-bottoms-womens",
+      "set": {
+        "weight_note": "size M; Minus33-listed garment weight ~12 oz (340 g) — a true product weight, not a rounded shipping weight"
+      }
+    },
+    {
+      "id": "cotopaxi-cielo-rain-jacket-mens",
+      "set": {
+        "url": "https://www.cotopaxi.com/products/cielo-rain-jacket-mens",
+        "notes": "Cotopaxi lists no garment weight; 454 g (exactly 1 lb) is likely a rounded figure — unverified.",
+        "specs": {
+          "material": "100% recycled polyester shell (215 g/m²)"
+        }
+      }
+    },
+    {
+      "id": "zpacks-vertice-rain-jacket-womens",
+      "set": {
+        "url": "https://zpacks.com/products/womens-vertice-rain-jacket",
+        "weight_g": 144,
+        "confidence": "high",
+        "weight_note": "Zpacks-listed weight"
+      }
+    },
+    {
+      "id": "zpacks-vertice-rain-pants-womens",
+      "set": {
+        "url": "https://zpacks.com/products/womens-vertice-rain-pants",
+        "weight_g": 72,
+        "price_usd": 159,
+        "weight_note": "Zpacks-listed weight"
+      }
+    },
+    {
+      "id": "zpacks-vertice-rain-pants-mens",
+      "set": {
+        "price_usd": 159
+      }
+    },
+    {
+      "id": "zpacks-groundsheet-poncho",
+      "set": {
+        "url": "https://zpacks.com/products/groundsheet-poncho-convertible",
+        "weight_g": 128,
+        "price_usd": 249,
+        "confidence": "high",
+        "notes": "Now sold as the Convertible Groundsheet Poncho.",
+        "weight_note": "Zpacks-listed weight"
+      }
+    },
+    {
+      "id": "zpacks-vertice-rain-kilt",
+      "set": {
+        "url": "https://zpacks.com/products/vertice-rain-kilt",
+        "price_usd": 89.95
+      }
+    },
+    {
+      "id": "zpacks-dcf-rain-kilt",
+      "set": {
+        "url": "https://zpacks.com/products/dcf-rain-kilt",
+        "price_usd": 89.95
+      }
+    },
+    {
+      "id": "zpacks-ventum-wind-shell",
+      "set": {
+        "price_usd": 119.95
+      }
+    },
+    {
+      "id": "zpacks-octa-fleece-mittens",
+      "set": {
+        "weight_g": 19,
+        "weight_note": "pair, size M per Zpacks variant data (17 g S / 21 g L); ultralight Octa fleece liner mitt, low weight is genuine"
+      }
+    }
+  ],
+  "additions": [
+    {
+      "id": "montbell-ex-light-wind-jacket-mens",
+      "category": "wind-layer",
+      "subcategory": "wind jacket",
+      "brand": "Montbell",
+      "model": "EX Light Wind Jacket",
+      "variant": "Men's",
+      "weight_g": 49,
+      "weight_basis": "manufacturer",
+      "weight_note": "Montbell US listed average weight",
+      "price_usd": 105,
+      "specs": {
+        "material": "7D Ballistic Airlight nylon ripstop",
+        "hood": false
+      },
+      "url": "https://www.montbell.com/us/en/products/detail/2303136",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Model #2303136"
+    },
+    {
+      "id": "montbell-ex-light-wind-jacket-womens",
+      "category": "wind-layer",
+      "subcategory": "wind jacket",
+      "brand": "Montbell",
+      "model": "EX Light Wind Jacket",
+      "variant": "Women's",
+      "weight_g": 44,
+      "weight_basis": "manufacturer",
+      "weight_note": "Montbell US listed average weight",
+      "price_usd": 99,
+      "specs": {
+        "material": "7D Ballistic Airlight nylon ripstop",
+        "hood": false
+      },
+      "url": "https://www.montbell.com/us/en/products/detail/2303137",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Model #2303137"
+    },
+    {
+      "id": "montbell-ul-stretch-wind-hooded-jacket-mens",
+      "category": "wind-layer",
+      "subcategory": "wind jacket",
+      "brand": "Montbell",
+      "model": "U.L. Stretch Wind Hooded Jacket",
+      "variant": "Men's",
+      "weight_g": 127,
+      "weight_basis": "manufacturer",
+      "weight_note": "Montbell US listed average weight",
+      "price_usd": 115,
+      "specs": {
+        "material": "15D Ballistic Airlight nylon ripstop, stretch",
+        "hood": true
+      },
+      "url": "https://www.montbell.com/us/en/products/detail/2303139",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Model #2303139"
+    },
+    {
+      "id": "montbell-peak-shell-jacket-womens",
+      "category": "rain-jacket",
+      "subcategory": "rain jacket",
+      "brand": "Montbell",
+      "model": "Peak Shell Jacket",
+      "variant": "Women's",
+      "weight_g": 175,
+      "weight_basis": "manufacturer",
+      "weight_note": "Montbell US listed average weight",
+      "price_usd": 350,
+      "specs": {
+        "material": "GORE-TEX 3L (ePE) 15D Ballistic Airlight nylon ripstop",
+        "hood": true,
+        "pit_zips": true,
+        "waterproof_rating_mm": 20000,
+        "breathability": "20,000 g/m²/24h (JIS L-1099 B-1)"
+      },
+      "url": "https://www.montbell.com/us/en/products/detail/2328320",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Model #2328320"
+    },
+    {
+      "id": "montbell-rain-hiker-jacket-mens",
+      "category": "rain-jacket",
+      "subcategory": "rain jacket",
+      "brand": "Montbell",
+      "model": "Rain Hiker Jacket",
+      "variant": "Men's",
+      "weight_g": 269,
+      "weight_basis": "manufacturer",
+      "weight_note": "Montbell US listed average weight",
+      "price_usd": 135,
+      "specs": {
+        "material": "DRY-TEC 2L 70D nylon taffeta",
+        "hood": true,
+        "waterproof_rating_mm": 20000,
+        "breathability": "10,000 g/m²/24h (JIS L-1099 B-1)"
+      },
+      "url": "https://www.montbell.com/us/en/products/detail/2328337",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Model #2328337"
+    },
+    {
+      "id": "montbell-rain-hiker-pants-mens",
+      "category": "rain-pants",
+      "subcategory": "rain pants",
+      "brand": "Montbell",
+      "model": "Rain Hiker Pants",
+      "variant": "Men's",
+      "weight_g": 193,
+      "weight_basis": "manufacturer",
+      "weight_note": "Montbell US listed average weight",
+      "price_usd": 89,
+      "specs": {
+        "material": "DRY-TEC 2L 70D nylon taffeta",
+        "waterproof_rating_mm": 20000,
+        "breathability": "10,000 g/m²/24h (JIS L-1099 B-1)"
+      },
+      "url": "https://www.montbell.com/us/en/products/detail/2328339",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Model #2328339"
+    },
+    {
+      "id": "montbell-dry-tec-stretch-rain-pants-mens",
+      "category": "rain-pants",
+      "subcategory": "rain pants",
+      "brand": "Montbell",
+      "model": "DRY-TEC Stretch Rain Pants",
+      "variant": "Men's",
+      "weight_g": 175,
+      "weight_basis": "manufacturer",
+      "weight_note": "Montbell US listed average weight",
+      "price_usd": 180,
+      "specs": {
+        "material": "SUPER DRY-TEC 3L 15D Ballistic Airlight nylon ripstop, stretch",
+        "waterproof_rating_mm": 20000,
+        "breathability": "50,000 g/m²/24h (JIS L-1099 B-1)"
+      },
+      "url": "https://www.montbell.com/us/en/products/detail/2328345",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Model #2328345"
+    }
+  ],
+  "removals": [
+    {
+      "id": "arcteryx-norvan-shell-jacket-mens",
+      "merge_into": "arcteryx-norvan-jacket-mens",
+      "reason": "Arc'teryx US page for Norvan Jacket (#9571, 215 g, $450) states it was previously the Norvan Shell Jacket — same product renamed."
+    },
+    {
+      "id": "montbell-storm-cruiser-pants-mens",
+      "merge_into": "montbell-dry-tec-rain-pants-mens",
+      "reason": "Same product: UK handle mens-dry-tec-rain-pants = Montbell #2328323 DRY-TEC Rain Pants (207 g); identical weight/price"
+    }
+  ]
+}

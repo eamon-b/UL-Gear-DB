@@ -426,10 +426,10 @@
     "brand": "Zpacks",
     "model": "Pack Liner",
     "variant": "Medium",
-    "weight_g": 35,
+    "weight_g": 36,
     "weight_basis": "manufacturer",
-    "weight_note": "Manufacturer lists a single 1.2 oz weight; medium likely slightly heavier",
-    "price_usd": 59.95,
+    "weight_note": "Zpacks store variant weight",
+    "price_usd": 64.95,
     "specs": {
       "volume_l": 44,
       "material": "DCF 1.0 oz/sqyd",
@@ -437,7 +437,7 @@
     },
     "url": "https://zpacks.com/products/pack-liner",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Fits 50-60L packs"
   },
   {
@@ -447,10 +447,10 @@
     "brand": "Zpacks",
     "model": "Pack Liner",
     "variant": "Large",
-    "weight_g": 35,
+    "weight_g": 38,
     "weight_basis": "manufacturer",
-    "weight_note": "Manufacturer lists a single 1.2 oz weight; large likely heavier",
-    "price_usd": 59.95,
+    "weight_note": "Zpacks store variant weight",
+    "price_usd": 69.95,
     "specs": {
       "volume_l": 57,
       "material": "DCF 1.0 oz/sqyd",
@@ -458,7 +458,7 @@
     },
     "url": "https://zpacks.com/products/pack-liner",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Fits 70L packs"
   },
   {
@@ -494,7 +494,7 @@
     "weight_note": null,
     "price_usd": 32.95,
     "specs": {
-      "volume_l": null,
+      "volume_l": 1,
       "material": "DCF/Ultra",
       "waterproof": false
     },
@@ -515,7 +515,7 @@
     "weight_note": null,
     "price_usd": 42.95,
     "specs": {
-      "volume_l": null,
+      "volume_l": 0.75,
       "material": "Ultra",
       "waterproof": false
     },
@@ -536,7 +536,7 @@
     "weight_note": null,
     "price_usd": 32.95,
     "specs": {
-      "volume_l": null,
+      "volume_l": 1,
       "material": "Ultra",
       "waterproof": false
     },
@@ -557,7 +557,7 @@
     "weight_note": null,
     "price_usd": 79.95,
     "specs": {
-      "volume_l": null,
+      "volume_l": 1.7,
       "material": "Ultra",
       "waterproof": false
     },
@@ -1314,8 +1314,8 @@
     "variant": "7L",
     "weight_g": 28,
     "weight_basis": "manufacturer",
-    "weight_note": null,
-    "price_usd": null,
+    "weight_note": "per pod; sold as a 3-pack for $45",
+    "price_usd": 15,
     "specs": {
       "volume_l": 7,
       "material": "Sil/PU 40D nylon",

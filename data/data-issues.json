@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-23T12:01:57.163Z",
-  "records": 2840,
-  "records_flagged": 169,
+  "generated_at": "2026-10-24T00:08:22.046Z",
+  "records": 2854,
+  "records_flagged": 131,
   "counts": {
-    "weight-outlier": 33,
-    "price-per-gram": 5,
-    "near-duplicate": 8,
-    "shipping-weight": 37,
-    "per-pair": 1,
-    "missing-url": 94
+    "weight-outlier": 35,
+    "per-pair": 2,
+    "price-per-gram": 7,
+    "near-duplicate": 9,
+    "shipping-weight": 27,
+    "missing-url": 59
   },
   "thresholds": {
     "weight_outlier": ">4x or <0.25x subcategory median (n>=5)",
@@ -50,6 +50,19 @@
       }
     },
     {
+      "type": "per-pair",
+      "score": 70,
+      "id": "leki-legend-black-carbon",
+      "file": "trekking-poles.json",
+      "index": 65,
+      "name": "Leki Legend Black Carbon",
+      "category": "trekking-poles",
+      "subcategory": "adjustable",
+      "weight_g": 468,
+      "price_usd": 119.95,
+      "message": "note says per pole (\"234 g per pole x2; sold as a SINGLE pole (price is per pole)\") but poles are stored per PAIR"
+    },
+    {
       "type": "weight-outlier",
       "score": 70,
       "id": "msr-aquatabs-10",
@@ -68,7 +81,7 @@
     },
     {
       "type": "weight-outlier",
-      "score": 66,
+      "score": 65,
       "id": "anker-solix-625-solar-panel-100w",
       "file": "power.json",
       "index": 43,
@@ -77,10 +90,10 @@
       "subcategory": "solar panel",
       "weight_g": 5000,
       "price_usd": 249.99,
-      "message": "weight 5000 g is 9.8x the solar panel median (511 g, n=8)",
+      "message": "weight 5000 g is 9.4x the solar panel median (530 g, n=8)",
       "details": {
-        "median_g": 511,
-        "ratio": 9.79
+        "median_g": 530,
+        "ratio": 9.43
       }
     },
     {
@@ -115,6 +128,23 @@
       "details": {
         "median_g": 13,
         "ratio": 8.54
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 59,
+      "id": "nitecore-nu05-v2",
+      "file": "lighting.json",
+      "index": 5,
+      "name": "Nitecore NU05 V2",
+      "category": "lighting",
+      "subcategory": "headlamp",
+      "weight_g": 11,
+      "price_usd": 19.95,
+      "message": "weight 11 g is 1/7.8x the headlamp median (86 g, n=59)",
+      "details": {
+        "median_g": 86,
+        "ratio": 0.13
       }
     },
     {
@@ -169,20 +199,20 @@
       }
     },
     {
-      "type": "weight-outlier",
-      "score": 58,
-      "id": "nitecore-nu05-v2",
-      "file": "lighting.json",
-      "index": 5,
-      "name": "Nitecore NU05 V2",
-      "category": "lighting",
-      "subcategory": "headlamp",
-      "weight_g": 11,
-      "price_usd": 19.95,
-      "message": "weight 11 g is 1/7.4x the headlamp median (81 g, n=59)",
+      "type": "price-per-gram",
+      "score": 54,
+      "id": "msr-aquatabs-10",
+      "file": "water-treatment.json",
+      "index": 46,
+      "name": "MSR Aquatabs sleeve of 10",
+      "category": "water-treatment",
+      "subcategory": "chemical",
+      "weight_g": 2,
+      "price_usd": 14.95,
+      "message": "$14.95 for 2 g is 23.2x the chemical median $/g (0.322 $/g, n=6)",
       "details": {
-        "median_g": 81,
-        "ratio": 0.14
+        "usd_per_g": 7.475,
+        "median_usd_per_g": 0.3223
       }
     },
     {
@@ -290,23 +320,6 @@
     {
       "type": "weight-outlier",
       "score": 47,
-      "id": "hyperlite-mountain-gear-pillow-stuff-sack",
-      "file": "pillow.json",
-      "index": 34,
-      "name": "Hyperlite Mountain Gear Pillow Stuff Sack",
-      "category": "pillow",
-      "subcategory": "foam/hybrid",
-      "weight_g": 45,
-      "price_usd": null,
-      "message": "weight 45 g is 1/5.0x the foam/hybrid median (227 g, n=9)",
-      "details": {
-        "median_g": 227,
-        "ratio": 0.2
-      }
-    },
-    {
-      "type": "weight-outlier",
-      "score": 47,
       "id": "sea-to-summit-frontier-pan-8",
       "file": "cookware.json",
       "index": 72,
@@ -319,6 +332,23 @@
       "details": {
         "median_g": 71,
         "ratio": 5.15
+      }
+    },
+    {
+      "type": "price-per-gram",
+      "score": 46,
+      "id": "naturehike-lw180",
+      "file": "sleep-insulation.json",
+      "index": 193,
+      "name": "Naturehike LW180 Standard",
+      "category": "sleep-insulation",
+      "subcategory": "sleeping bag",
+      "weight_g": 680,
+      "price_usd": 32.99,
+      "message": "$32.99 for 680 g is 1/14.7x the sleeping bag median $/g (0.711 $/g, n=65)",
+      "details": {
+        "usd_per_g": 0.0485,
+        "median_usd_per_g": 0.7114
       }
     },
     {
@@ -352,6 +382,23 @@
       "message": "weight 20 g is 1/4.7x the pouch/fanny pack median (94 g, n=11)",
       "details": {
         "median_g": 94,
+        "ratio": 0.21
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 45,
+      "id": "hyperlite-mountain-gear-pillow-stuff-sack",
+      "file": "pillow.json",
+      "index": 33,
+      "name": "Hyperlite Mountain Gear Stuff Sack Pillow",
+      "category": "pillow",
+      "subcategory": "foam/hybrid",
+      "weight_g": 48,
+      "price_usd": 63,
+      "message": "weight 48 g is 1/4.7x the foam/hybrid median (227 g, n=9)",
+      "details": {
+        "median_g": 227,
         "ratio": 0.21
       }
     },
@@ -407,23 +454,6 @@
       }
     },
     {
-      "type": "weight-outlier",
-      "score": 44,
-      "id": "loksak-opsak-28x20",
-      "file": "food-storage.json",
-      "index": 34,
-      "name": "Loksak OPSAK 28x20 in (2-pack)",
-      "category": "food-storage",
-      "subcategory": "odor-proof bag",
-      "weight_g": 57,
-      "price_usd": 25.99,
-      "message": "weight 57 g is 4.6x the odor-proof bag median (13 g, n=6)",
-      "details": {
-        "median_g": 13,
-        "ratio": 4.56
-      }
-    },
-    {
       "type": "price-per-gram",
       "score": 43,
       "id": "sawyer-permethrin-fabric-treatment-12-oz-pump",
@@ -460,6 +490,23 @@
     {
       "type": "weight-outlier",
       "score": 43,
+      "id": "lifestraw-peak-3-in-1-kit",
+      "file": "water-treatment.json",
+      "index": 32,
+      "name": "LifeStraw Peak Series 3-in-1 Kit",
+      "category": "water-treatment",
+      "subcategory": "squeeze filter",
+      "weight_g": 378,
+      "price_usd": 99.95,
+      "message": "weight 378 g is 4.4x the squeeze filter median (85 g, n=19)",
+      "details": {
+        "median_g": 85,
+        "ratio": 4.45
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 43,
       "id": "zpacks-stuff-sack-small",
       "file": "pack-organization.json",
       "index": 1,
@@ -472,6 +519,23 @@
       "details": {
         "median_g": 23,
         "ratio": 0.22
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 42,
+      "id": "derma-safe-folding-knife",
+      "file": "first-aid-hygiene.json",
+      "index": 73,
+      "name": "Derma-Safe Folding Knife",
+      "category": "first-aid-hygiene",
+      "subcategory": "knife/multitool",
+      "weight_g": 8,
+      "price_usd": 2.25,
+      "message": "weight 8 g is 1/4.3x the knife/multitool median (34 g, n=15)",
+      "details": {
+        "median_g": 34,
+        "ratio": 0.24
       }
     },
     {
@@ -544,6 +608,40 @@
     },
     {
       "type": "weight-outlier",
+      "score": 42,
+      "id": "zpacks-big-food-bag",
+      "file": "food-storage.json",
+      "index": 25,
+      "name": "Zpacks Big Food Bag",
+      "category": "food-storage",
+      "subcategory": "bear bag",
+      "weight_g": 31,
+      "price_usd": 44.95,
+      "message": "weight 31 g is 1/4.2x the bear bag median (131 g, n=16)",
+      "details": {
+        "median_g": 131,
+        "ratio": 0.24
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 42,
+      "id": "zpacks-pipsqueak-knife-with-s-biner",
+      "file": "first-aid-hygiene.json",
+      "index": 27,
+      "name": "Zpacks Pipsqueak Knife with S-biner",
+      "category": "first-aid-hygiene",
+      "subcategory": "knife/multitool",
+      "weight_g": 8,
+      "price_usd": 24.95,
+      "message": "weight 8 g is 1/4.3x the knife/multitool median (34 g, n=15)",
+      "details": {
+        "median_g": 34,
+        "ratio": 0.24
+      }
+    },
+    {
+      "type": "weight-outlier",
       "score": 41,
       "id": "aquamira-water-treatment-1oz",
       "file": "water-treatment.json",
@@ -579,34 +677,17 @@
     {
       "type": "weight-outlier",
       "score": 41,
-      "id": "kelty-noahs-tarp-9",
-      "file": "shelter.json",
-      "index": 312,
-      "name": "Kelty Noah's Tarp 9",
-      "category": "shelter",
-      "subcategory": "tarp",
-      "weight_g": 1270,
-      "price_usd": 79.95,
-      "message": "weight 1270 g is 4.1x the tarp median (312 g, n=82)",
+      "id": "hyperlite-roll-top-food-bag-10l",
+      "file": "food-storage.json",
+      "index": 27,
+      "name": "Hyperlite Mountain Gear Roll-Top Food Bag 10L",
+      "category": "food-storage",
+      "subcategory": "bear bag",
+      "weight_g": 32,
+      "price_usd": 58,
+      "message": "weight 32 g is 1/4.1x the bear bag median (131 g, n=16)",
       "details": {
-        "median_g": 312,
-        "ratio": 4.08
-      }
-    },
-    {
-      "type": "weight-outlier",
-      "score": 41,
-      "id": "zpacks-octa-fleece-mittens",
-      "file": "headwear-handwear.json",
-      "index": 96,
-      "name": "Zpacks Octa Fleece Mittens",
-      "category": "headwear-handwear",
-      "subcategory": "insulated glove/mitt",
-      "weight_g": 17,
-      "price_usd": 29.95,
-      "message": "weight 17 g is 1/4.1x the insulated glove/mitt median (70 g, n=15)",
-      "details": {
-        "median_g": 70,
+        "median_g": 131,
         "ratio": 0.24
       }
     },
@@ -630,17 +711,34 @@
     {
       "type": "near-duplicate",
       "score": 40,
+      "id": "black-diamond-fineline-stretch-rain-shell-mens",
+      "file": "rain-jacket.json",
+      "index": 55,
+      "name": "Black Diamond FineLine Stretch Rain Shell Men's",
+      "category": "rain-jacket",
+      "subcategory": "rain jacket",
+      "weight_g": 320,
+      "price_usd": 189,
+      "message": "looks like rain-jacket.json[53] \"Black Diamond StormLine Stretch Rain Shell Men's\" (320 g vs 320 g, name similarity 0.85)",
+      "details": {
+        "other": "rain-jacket.json[53]",
+        "other_id": "black-diamond-stormline-stretch-rain-shell-mens"
+      }
+    },
+    {
+      "type": "near-duplicate",
+      "score": 40,
       "id": "black-diamond-fineline-stretch-rain-shell-womens",
       "file": "rain-jacket.json",
-      "index": 57,
+      "index": 56,
       "name": "Black Diamond FineLine Stretch Rain Shell Women's",
       "category": "rain-jacket",
       "subcategory": "rain jacket",
       "weight_g": 270,
       "price_usd": 189,
-      "message": "looks like rain-jacket.json[55] \"Black Diamond StormLine Stretch Rain Shell Women's\" (269 g vs 270 g, name similarity 0.86)",
+      "message": "looks like rain-jacket.json[54] \"Black Diamond StormLine Stretch Rain Shell Women's\" (269 g vs 270 g, name similarity 0.86)",
       "details": {
-        "other": "rain-jacket.json[55]",
+        "other": "rain-jacket.json[54]",
         "other_id": "black-diamond-stormline-stretch-rain-shell-womens"
       }
     },
@@ -766,18 +864,18 @@
     {
       "type": "price-per-gram",
       "score": 39,
-      "id": "kelty-noahs-tarp-9",
-      "file": "shelter.json",
-      "index": 312,
-      "name": "Kelty Noah's Tarp 9",
-      "category": "shelter",
-      "subcategory": "tarp",
-      "weight_g": 1270,
-      "price_usd": 79.95,
-      "message": "$79.95 for 1270 g is 1/9.4x the tarp median $/g (0.589 $/g, n=67)",
+      "id": "frogg-toggs-ultra-lite2-pants-mens",
+      "file": "rain-pants.json",
+      "index": 28,
+      "name": "Frogg Toggs Ultra-Lite2 Pants Men's",
+      "category": "rain-pants",
+      "subcategory": "rain pants",
+      "weight_g": 193,
+      "price_usd": 15,
+      "message": "$15 for 193 g is 1/9.7x the rain pants median $/g (0.753 $/g, n=61)",
       "details": {
-        "usd_per_g": 0.063,
-        "median_usd_per_g": 0.5894
+        "usd_per_g": 0.0777,
+        "median_usd_per_g": 0.7528
       }
     },
     {
@@ -800,41 +898,15 @@
     {
       "type": "shipping-weight",
       "score": 35,
-      "id": "bedrock-sandals-cairn-evo",
-      "file": "footwear.json",
-      "index": 143,
-      "name": "Bedrock Sandals Cairn Evo",
-      "category": "footwear",
-      "subcategory": "camp shoe/sandal",
-      "weight_g": 510,
-      "price_usd": 115,
-      "message": "notes say the weight may be a packaged/shipping weight: \"pair; Shopify-listed product weight on bedrocksandals.com (size unspecified, may include packaging)\""
-    },
-    {
-      "type": "shipping-weight",
-      "score": 35,
-      "id": "bedrock-sandals-cairn-evo-3d-pro",
-      "file": "footwear.json",
-      "index": 144,
-      "name": "Bedrock Sandals Cairn Evo 3D PRO",
-      "category": "footwear",
-      "subcategory": "camp shoe/sandal",
-      "weight_g": 533,
-      "price_usd": 140,
-      "message": "notes say the weight may be a packaged/shipping weight: \"pair; Shopify-listed product weight on bedrocksandals.com (size unspecified, may include packaging)\""
-    },
-    {
-      "type": "shipping-weight",
-      "score": 35,
-      "id": "bedrock-sandals-classic-lt",
-      "file": "footwear.json",
-      "index": 145,
-      "name": "Bedrock Sandals Classic LT",
-      "category": "footwear",
-      "subcategory": "camp shoe/sandal",
-      "weight_g": 255,
-      "price_usd": 70,
-      "message": "notes say the weight may be a packaged/shipping weight: \"pair; Shopify-listed product weight on bedrocksandals.com (size unspecified, may include packaging)\""
+      "id": "adventure-medical-kits-ultralight-watertight-pro",
+      "file": "first-aid-hygiene.json",
+      "index": 4,
+      "name": "Adventure Medical Kits Ultralight/Watertight Medical Kit Pro",
+      "category": "first-aid-hygiene",
+      "subcategory": "first aid kit",
+      "weight_g": 794,
+      "price_usd": 172.99,
+      "message": "notes say the weight may be a packaged/shipping weight: \"AMK store listing weight (794 g, may include packaging); product copy gives no weight\""
     },
     {
       "type": "shipping-weight",
@@ -852,41 +924,15 @@
     {
       "type": "shipping-weight",
       "score": 35,
-      "id": "gossamer-gear-ft3-folding-trekking-poles",
-      "file": "trekking-poles.json",
-      "index": 29,
-      "name": "Gossamer Gear FT3 Folding Trekking Poles",
-      "category": "trekking-poles",
-      "subcategory": "folding",
-      "weight_g": 369,
-      "price_usd": 245,
-      "message": "notes say the weight may be a packaged/shipping weight: \"per pair, store listing weight (may include packaging)\""
-    },
-    {
-      "type": "shipping-weight",
-      "score": 35,
-      "id": "gossamer-gear-polycryo-tent-footprint",
-      "file": "misc.json",
-      "index": 21,
-      "name": "Gossamer Gear Polycryo Tent Footprint",
-      "category": "misc",
-      "subcategory": "ground sheet",
-      "weight_g": 170,
-      "price_usd": 13,
-      "message": "notes say the weight may be a packaged/shipping weight: \"store listing weight (may include packaging)\""
-    },
-    {
-      "type": "shipping-weight",
-      "score": 35,
-      "id": "kelty-noahs-tarp-9",
-      "file": "shelter.json",
-      "index": 312,
-      "name": "Kelty Noah's Tarp 9",
-      "category": "shelter",
-      "subcategory": "tarp",
-      "weight_g": 1270,
-      "price_usd": 79.95,
-      "message": "notes say the weight may be a packaged/shipping weight: \"store shipping weight\""
+      "id": "minus33-kenai-expedition-wool-bottoms-womens",
+      "file": "base-layer.json",
+      "index": 175,
+      "name": "Minus33 Kenai Expedition Wool Bottoms Women's",
+      "category": "base-layer",
+      "subcategory": "sleep clothes",
+      "weight_g": 340,
+      "price_usd": 149.99,
+      "message": "notes say the weight may be a packaged/shipping weight: \"size M; Minus33-listed garment weight ~12 oz (340 g) — a true product weight, not a rounded shipping weight | Heavyweigh\""
     },
     {
       "type": "shipping-weight",
@@ -952,19 +998,6 @@
       "weight_g": 960,
       "price_usd": 159,
       "message": "notes say the weight may be a packaged/shipping weight: \"minimum weight; packaged approx. 1.05 kg | Naturehike product page Weight spec, checked 2026-10-23. Previous 1600 g was \""
-    },
-    {
-      "type": "shipping-weight",
-      "score": 35,
-      "id": "six-moon-designs-haven",
-      "file": "shelter.json",
-      "index": 58,
-      "name": "Six Moon Designs Haven Ultralight Tent",
-      "category": "shelter",
-      "subcategory": "trekking-pole tent",
-      "weight_g": 964,
-      "price_usd": 375,
-      "message": "notes say the weight may be a packaged/shipping weight: \"store shipping weight (tarp + NetTent), approximate\""
     },
     {
       "type": "shipping-weight",
@@ -1045,19 +1078,6 @@
       "message": "notes say the weight may be a packaged/shipping weight: \"Reg width (55\") / Reg length (72\"), 850FP, M10T fabric, boxed flat sewn footbox (lightest config) | Weight from UGQ BAND\""
     },
     {
-      "type": "shipping-weight",
-      "score": 35,
-      "id": "yama-mountain-gear-cirriform-2p-tarp-dcf",
-      "file": "shelter.json",
-      "index": 192,
-      "name": "Yama Mountain Gear 2P Cirriform Tarp DCF",
-      "category": "shelter",
-      "subcategory": "tarp",
-      "weight_g": 434,
-      "price_usd": 440,
-      "message": "notes say the weight may be a packaged/shipping weight: \"packaged weight\""
-    },
-    {
       "type": "per-pair",
       "score": 30,
       "id": "darn-tough-mountaineering-over-the-calf-heavyweight-mens",
@@ -1069,19 +1089,6 @@
       "weight_g": 191,
       "price_usd": 35,
       "message": "191 g is heavy for one pair of socks: multi-pack?"
-    },
-    {
-      "type": "shipping-weight",
-      "score": 25,
-      "id": "adventure-medical-kits-ultralight-watertight-pro",
-      "file": "first-aid-hygiene.json",
-      "index": 4,
-      "name": "Adventure Medical Kits Ultralight/Watertight Medical Kit Pro",
-      "category": "first-aid-hygiene",
-      "subcategory": "first aid kit",
-      "weight_g": 794,
-      "price_usd": 172.99,
-      "message": "794 g is exactly 1.75 lb and 4.8x the median: possibly a rounded shipping weight"
     },
     {
       "type": "shipping-weight",
@@ -1114,7 +1121,7 @@
       "score": 25,
       "id": "cotopaxi-cielo-rain-jacket-mens",
       "file": "rain-jacket.json",
-      "index": 76,
+      "index": 75,
       "name": "Cotopaxi Cielo Rain Jacket Men's",
       "category": "rain-jacket",
       "subcategory": "rain jacket",
@@ -1134,19 +1141,6 @@
       "weight_g": 1247,
       "price_usd": 249.99,
       "message": "1247 g is exactly 2.75 lb and 2.2x the median: possibly a rounded shipping weight"
-    },
-    {
-      "type": "shipping-weight",
-      "score": 25,
-      "id": "hyke-byke-eolus-0",
-      "file": "sleep-insulation.json",
-      "index": 191,
-      "name": "Hyke & Byke Eolus 0 0°F",
-      "category": "sleep-insulation",
-      "subcategory": "sleeping bag",
-      "weight_g": 1474,
-      "price_usd": null,
-      "message": "1474 g is exactly 3.25 lb and 1.8x the median: possibly a rounded shipping weight"
     },
     {
       "type": "shipping-weight",
@@ -1173,19 +1167,6 @@
       "weight_g": 340,
       "price_usd": 29.99,
       "message": "340 g is exactly 0.75 lb and 1.5x the median: possibly a rounded shipping weight"
-    },
-    {
-      "type": "shipping-weight",
-      "score": 25,
-      "id": "minus33-kenai-expedition-wool-bottoms-womens",
-      "file": "base-layer.json",
-      "index": 175,
-      "name": "Minus33 Kenai Expedition Wool Bottoms Women's",
-      "category": "base-layer",
-      "subcategory": "sleep clothes",
-      "weight_g": 340,
-      "price_usd": 149.99,
-      "message": "340 g is exactly 0.75 lb and 1.7x the median: possibly a rounded shipping weight"
     },
     {
       "type": "shipping-weight",
@@ -1271,45 +1252,19 @@
       "id": "zenbivy-light-bed-10f",
       "file": "sleep-insulation.json",
       "index": 196,
-      "name": "Zenbivy Light Bed 10°F",
-      "category": "sleep-insulation",
-      "subcategory": "quilt",
-      "weight_g": 1134,
-      "price_usd": null,
-      "message": "1134 g is exactly 2.5 lb and 1.9x the median: possibly a rounded shipping weight"
-    },
-    {
-      "type": "shipping-weight",
-      "score": 25,
-      "id": "zenbivy-light-bed-25f",
-      "file": "sleep-insulation.json",
-      "index": 195,
-      "name": "Zenbivy Light Bed 25°F",
+      "name": "Zenbivy Light Quilt 10°F",
       "category": "sleep-insulation",
       "subcategory": "quilt",
       "weight_g": 907,
-      "price_usd": null,
+      "price_usd": 359,
       "message": "907 g is exactly 2 lb and 1.5x the median: possibly a rounded shipping weight"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "3f-ul-gear-qidian-pro",
-      "file": "backpack.json",
-      "index": 218,
-      "name": "3F UL Gear QiDian Pro 46+10L",
-      "category": "backpack",
-      "subcategory": "internal frame",
-      "weight_g": 950,
-      "price_usd": 100,
-      "message": "no source url"
     },
     {
       "type": "missing-url",
       "score": 15,
       "id": "altus-atmospheric-poncho",
       "file": "rain-jacket.json",
-      "index": 83,
+      "index": 82,
       "name": "Altus Atmospheric Poncho",
       "category": "rain-jacket",
       "subcategory": "poncho",
@@ -1348,25 +1303,12 @@
       "score": 15,
       "id": "arcteryx-zeta-sl-jacket-womens",
       "file": "rain-jacket.json",
-      "index": 34,
+      "index": 33,
       "name": "Arc'teryx Zeta SL Jacket Women's",
       "category": "rain-jacket",
       "subcategory": "rain jacket",
       "weight_g": 280,
       "price_usd": 299,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "arcteryx-zeta-sl-pant-mens",
-      "file": "rain-pants.json",
-      "index": 25,
-      "name": "Arc'teryx Zeta SL Pant Men's",
-      "category": "rain-pants",
-      "subcategory": "rain pants",
-      "weight_g": 230,
-      "price_usd": 199,
       "message": "no source url"
     },
     {
@@ -1385,22 +1327,9 @@
     {
       "type": "missing-url",
       "score": 15,
-      "id": "bic-mini-lighter",
-      "file": "cook-accessory.json",
-      "index": 57,
-      "name": "BIC Mini Lighter",
-      "category": "cook-accessory",
-      "subcategory": "lighter",
-      "weight_g": 11,
-      "price_usd": 1.99,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
       "id": "black-diamond-stormline-stretch-full-zip-rain-pants-womens",
       "file": "rain-pants.json",
-      "index": 21,
+      "index": 20,
       "name": "Black Diamond StormLine Stretch Full Zip Rain Pants Women's",
       "category": "rain-pants",
       "subcategory": "rain pants",
@@ -1424,22 +1353,9 @@
     {
       "type": "missing-url",
       "score": 15,
-      "id": "brs-3000t",
-      "file": "stove.json",
-      "index": 74,
-      "name": "BRS BRS-3000T",
-      "category": "stove",
-      "subcategory": "canister",
-      "weight_g": 25,
-      "price_usd": 16.99,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
       "id": "columbia-rebel-roamer-rain-pant-mens",
       "file": "rain-pants.json",
-      "index": 34,
+      "index": 33,
       "name": "Columbia Rebel Roamer Rain Pant Men's",
       "category": "rain-pants",
       "subcategory": "rain pants",
@@ -1489,58 +1405,6 @@
     {
       "type": "missing-url",
       "score": 15,
-      "id": "evernew-ti-mug-pot-500",
-      "file": "cookware.json",
-      "index": 93,
-      "name": "Evernew Titanium Mug Pot 500",
-      "category": "cookware",
-      "subcategory": "pot",
-      "weight_g": 77,
-      "price_usd": null,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "evernew-ti-ultralight-pot-1300",
-      "file": "cookware.json",
-      "index": 95,
-      "name": "Evernew Titanium Ultralight Pot 1.3L",
-      "category": "cookware",
-      "subcategory": "pot",
-      "weight_g": 151,
-      "price_usd": null,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "evernew-ti-ultralight-pot-900",
-      "file": "cookware.json",
-      "index": 94,
-      "name": "Evernew Titanium Ultralight Pot 900",
-      "category": "cookware",
-      "subcategory": "pot",
-      "weight_g": 121,
-      "price_usd": null,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "evernew-titanium-alcohol-stove",
-      "file": "stove.json",
-      "index": 81,
-      "name": "Evernew Titanium Alcohol Stove",
-      "category": "stove",
-      "subcategory": "alcohol",
-      "weight_g": 34,
-      "price_usd": 49.95,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
       "id": "firebox-nano-titanium",
       "file": "stove.json",
       "index": 85,
@@ -1569,7 +1433,7 @@
       "score": 15,
       "id": "gorewear-c5-shakedry-1985-jacket",
       "file": "rain-jacket.json",
-      "index": 69,
+      "index": 68,
       "name": "Gorewear C5 GORE-TEX Shakedry 1985 Jacket Men's",
       "category": "rain-jacket",
       "subcategory": "rain jacket",
@@ -1614,32 +1478,6 @@
       "subcategory": "utensil",
       "weight_g": 17,
       "price_usd": 6.99,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "humangear-gobites-uno",
-      "file": "cook-accessory.json",
-      "index": 53,
-      "name": "Humangear GoBites Uno",
-      "category": "cook-accessory",
-      "subcategory": "utensil",
-      "weight_g": 11,
-      "price_usd": 4.99,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "jetboil-flash-companion-cup",
-      "file": "cookware.json",
-      "index": 103,
-      "name": "Jetboil FluxRing Companion Cup",
-      "category": "cookware",
-      "subcategory": "pot",
-      "weight_g": 275,
-      "price_usd": null,
       "message": "no source url"
     },
     {
@@ -1697,32 +1535,6 @@
     {
       "type": "missing-url",
       "score": 15,
-      "id": "jetboil-minimo",
-      "file": "stove.json",
-      "index": 46,
-      "name": "Jetboil MiniMo",
-      "category": "stove",
-      "subcategory": "integrated canister",
-      "weight_g": 415,
-      "price_usd": 164.95,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "jetboil-stash",
-      "file": "stove.json",
-      "index": 45,
-      "name": "Jetboil Stash",
-      "category": "stove",
-      "subcategory": "integrated canister",
-      "weight_g": 200,
-      "price_usd": 149.95,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
       "id": "jetboil-sumo",
       "file": "stove.json",
       "index": 50,
@@ -1731,19 +1543,6 @@
       "subcategory": "integrated canister",
       "weight_g": 453,
       "price_usd": 174.95,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "jetboil-zip",
-      "file": "stove.json",
-      "index": 47,
-      "name": "Jetboil Zip",
-      "category": "stove",
-      "subcategory": "integrated canister",
-      "weight_g": 340,
-      "price_usd": 109.95,
       "message": "no source url"
     },
     {
@@ -1788,45 +1587,6 @@
     {
       "type": "missing-url",
       "score": 15,
-      "id": "light-my-fire-firesteel-army",
-      "file": "cook-accessory.json",
-      "index": 60,
-      "name": "Light My Fire Swedish FireSteel 2.0 Army",
-      "category": "cook-accessory",
-      "subcategory": "lighter",
-      "weight_g": 50,
-      "price_usd": 19.99,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "light-my-fire-firesteel-scout",
-      "file": "cook-accessory.json",
-      "index": 59,
-      "name": "Light My Fire Swedish FireSteel 2.0 Scout",
-      "category": "cook-accessory",
-      "subcategory": "lighter",
-      "weight_g": 25,
-      "price_usd": 14.99,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "light-my-fire-spork-original",
-      "file": "cook-accessory.json",
-      "index": 55,
-      "name": "Light My Fire Spork Original",
-      "category": "cook-accessory",
-      "subcategory": "utensil",
-      "weight_g": 9,
-      "price_usd": 4.95,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
       "id": "lixada-titanium-750-pot",
       "file": "cookware.json",
       "index": 101,
@@ -1842,7 +1602,7 @@
       "score": 15,
       "id": "marmot-minimalist-gtx-jacket-mens",
       "file": "rain-jacket.json",
-      "index": 62,
+      "index": 61,
       "name": "Marmot Minimalist GORE-TEX Jacket Men's",
       "category": "rain-jacket",
       "subcategory": "rain jacket",
@@ -1855,7 +1615,7 @@
       "score": 15,
       "id": "marmot-minimalist-gtx-pant-mens",
       "file": "rain-pants.json",
-      "index": 33,
+      "index": 32,
       "name": "Marmot Minimalist GORE-TEX Pant Men's",
       "category": "rain-pants",
       "subcategory": "rain pants",
@@ -1866,22 +1626,9 @@
     {
       "type": "missing-url",
       "score": 15,
-      "id": "marmot-precip-eco-pants-mens",
-      "file": "rain-pants.json",
-      "index": 15,
-      "name": "Marmot PreCip Eco Pants Men's",
-      "category": "rain-pants",
-      "subcategory": "rain pants",
-      "weight_g": 255,
-      "price_usd": 80,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
       "id": "marmot-precip-eco-pants-womens",
       "file": "rain-pants.json",
-      "index": 16,
+      "index": 15,
       "name": "Marmot PreCip Eco Pants Women's",
       "category": "rain-pants",
       "subcategory": "rain pants",
@@ -1894,25 +1641,12 @@
       "score": 15,
       "id": "montane-minimus-lite-pants-mens",
       "file": "rain-pants.json",
-      "index": 32,
+      "index": 31,
       "name": "Montane Minimus Lite Waterproof Pants Men's",
       "category": "rain-pants",
       "subcategory": "rain pants",
       "weight_g": 155,
       "price_usd": null,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "montbell-peak-shell-jacket-mens",
-      "file": "rain-jacket.json",
-      "index": 22,
-      "name": "Montbell Peak Shell Jacket Men's",
-      "category": "rain-jacket",
-      "subcategory": "rain jacket",
-      "weight_g": 185,
-      "price_usd": 300,
       "message": "no source url"
     },
     {
@@ -1931,58 +1665,6 @@
     {
       "type": "missing-url",
       "score": 15,
-      "id": "montbell-rain-trekker-jacket-mens",
-      "file": "rain-jacket.json",
-      "index": 25,
-      "name": "Montbell Rain Trekker Jacket Men's",
-      "category": "rain-jacket",
-      "subcategory": "rain jacket",
-      "weight_g": 330,
-      "price_usd": 159,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "montbell-storm-cruiser-jacket-womens",
-      "file": "rain-jacket.json",
-      "index": 21,
-      "name": "Montbell Storm Cruiser Jacket Women's",
-      "category": "rain-jacket",
-      "subcategory": "rain jacket",
-      "weight_g": 245,
-      "price_usd": 270,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "montbell-tachyon-parka-womens",
-      "file": "wind-layer.json",
-      "index": 15,
-      "name": "Montbell Tachyon Parka Women's",
-      "category": "wind-layer",
-      "subcategory": "wind jacket",
-      "weight_g": 65,
-      "price_usd": 130,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "montbell-versalite-jacket-womens",
-      "file": "rain-jacket.json",
-      "index": 19,
-      "name": "Montbell Versalite Jacket Women's",
-      "category": "rain-jacket",
-      "subcategory": "rain jacket",
-      "weight_g": 145,
-      "price_usd": 285,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
       "id": "montbell-versalite-pants-womens",
       "file": "rain-pants.json",
       "index": 6,
@@ -1996,58 +1678,6 @@
     {
       "type": "missing-url",
       "score": 15,
-      "id": "montbell-wind-blast-parka-mens",
-      "file": "wind-layer.json",
-      "index": 20,
-      "name": "Montbell Wind Blast Parka Men's",
-      "category": "wind-layer",
-      "subcategory": "wind jacket",
-      "weight_g": 130,
-      "price_usd": 99,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "mountain-hardwear-kor-airshell-hoody-womens",
-      "file": "wind-layer.json",
-      "index": 30,
-      "name": "Mountain Hardwear Kor AirShell Hoody Women's",
-      "category": "wind-layer",
-      "subcategory": "wind jacket",
-      "weight_g": 156,
-      "price_usd": 165,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "mountain-hardwear-kor-airshell-vest-mens",
-      "file": "wind-layer.json",
-      "index": 31,
-      "name": "Mountain Hardwear Kor AirShell Vest Men's",
-      "category": "wind-layer",
-      "subcategory": "wind vest",
-      "weight_g": 100,
-      "price_usd": 110,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "mountain-hardwear-trailverse-gtx-jacket-mens",
-      "file": "rain-jacket.json",
-      "index": 46,
-      "name": "Mountain Hardwear Trailverse GORE-TEX Jacket Men's",
-      "category": "rain-jacket",
-      "subcategory": "rain jacket",
-      "weight_g": 414,
-      "price_usd": 300,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
       "id": "msr-pocketrocket-original",
       "file": "stove.json",
       "index": 10,
@@ -2056,19 +1686,6 @@
       "subcategory": "canister",
       "weight_g": 85,
       "price_usd": null,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "olicamp-ion-micro-titanium",
-      "file": "stove.json",
-      "index": 78,
-      "name": "Olicamp Ion Micro Titanium",
-      "category": "stove",
-      "subcategory": "canister",
-      "weight_g": 48,
-      "price_usd": 44.99,
       "message": "no source url"
     },
     {
@@ -2095,32 +1712,6 @@
       "subcategory": "pot",
       "weight_g": 187,
       "price_usd": null,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "optimus-crux",
-      "file": "stove.json",
-      "index": 75,
-      "name": "Optimus Crux",
-      "category": "stove",
-      "subcategory": "canister",
-      "weight_g": 72,
-      "price_usd": 54.95,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "optimus-vega",
-      "file": "stove.json",
-      "index": 76,
-      "name": "Optimus Vega",
-      "category": "stove",
-      "subcategory": "remote canister",
-      "weight_g": 177,
-      "price_usd": 99.95,
       "message": "no source url"
     },
     {
@@ -2204,35 +1795,9 @@
     {
       "type": "missing-url",
       "score": 15,
-      "id": "outdoor-research-stratoburst-stretch-rain-jacket-mens",
-      "file": "rain-jacket.json",
-      "index": 11,
-      "name": "Outdoor Research Stratoburst Stretch Rain Jacket Men's",
-      "category": "rain-jacket",
-      "subcategory": "rain jacket",
-      "weight_g": 315,
-      "price_usd": 149,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "patagonia-airshed-pro-pullover-mens",
-      "file": "wind-layer.json",
-      "index": 5,
-      "name": "Patagonia Airshed Pro Pullover Men's",
-      "category": "wind-layer",
-      "subcategory": "wind jacket",
-      "weight_g": 105,
-      "price_usd": 139,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
       "id": "patagonia-alpine-houdini-jacket-mens",
       "file": "rain-jacket.json",
-      "index": 41,
+      "index": 40,
       "name": "Patagonia Alpine Houdini Jacket Men's",
       "category": "rain-jacket",
       "subcategory": "rain jacket",
@@ -2243,22 +1808,9 @@
     {
       "type": "missing-url",
       "score": 15,
-      "id": "patagonia-granite-crest-rain-jacket-womens",
-      "file": "rain-jacket.json",
-      "index": 40,
-      "name": "Patagonia Granite Crest Rain Jacket Women's",
-      "category": "rain-jacket",
-      "subcategory": "rain jacket",
-      "weight_g": 340,
-      "price_usd": 279,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
       "id": "patagonia-storm10-jacket-mens",
       "file": "rain-jacket.json",
-      "index": 42,
+      "index": 41,
       "name": "Patagonia Storm10 Jacket Men's",
       "category": "rain-jacket",
       "subcategory": "rain jacket",
@@ -2269,22 +1821,9 @@
     {
       "type": "missing-url",
       "score": 15,
-      "id": "patagonia-torrentshell-3l-jacket-womens",
-      "file": "rain-jacket.json",
-      "index": 36,
-      "name": "Patagonia Torrentshell 3L Jacket Women's",
-      "category": "rain-jacket",
-      "subcategory": "rain jacket",
-      "weight_g": 352,
-      "price_usd": 189,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
       "id": "rab-kinetic-ultra-jacket-mens",
       "file": "rain-jacket.json",
-      "index": 51,
+      "index": 50,
       "name": "Rab Kinetic Ultra Jacket Men's",
       "category": "rain-jacket",
       "subcategory": "rain jacket",
@@ -2303,32 +1842,6 @@
       "subcategory": "inflatable",
       "weight_g": 499,
       "price_usd": null,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "rei-co-op-rainier-rain-jacket-womens",
-      "file": "rain-jacket.json",
-      "index": 64,
-      "name": "REI Co-op Rainier Rain Jacket Women's",
-      "category": "rain-jacket",
-      "subcategory": "rain jacket",
-      "weight_g": 281,
-      "price_usd": 100,
-      "message": "no source url"
-    },
-    {
-      "type": "missing-url",
-      "score": 15,
-      "id": "rei-co-op-rainier-rain-pants-womens",
-      "file": "rain-pants.json",
-      "index": 19,
-      "name": "REI Co-op Rainier Rain Pants Women's",
-      "category": "rain-pants",
-      "subcategory": "rain pants",
-      "weight_g": 272,
-      "price_usd": 99.95,
       "message": "no source url"
     },
     {

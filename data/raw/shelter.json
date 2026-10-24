@@ -706,9 +706,9 @@
     "brand": "Durston",
     "model": "X-Mid Pro 1",
     "variant": "Woven floor",
-    "weight_g": 496,
-    "weight_basis": "estimate",
-    "weight_note": "tent only; estimated from ~2 oz floor difference stated by Durston",
+    "weight_g": 485,
+    "weight_basis": "manufacturer",
+    "weight_note": "tent only (silnylon floor); typical setup with sack + 5 stakes 550 g",
     "price_usd": 599,
     "specs": {
       "capacity": 1,
@@ -720,7 +720,7 @@
     },
     "url": "https://durstongear.com/products/x-mid-pro-1-tent-ultralight-thruhiking",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -798,26 +798,27 @@
   {
     "id": "durston-x-dome-1-plus",
     "category": "shelter",
-    "subcategory": "semi-freestanding tent",
+    "subcategory": "freestanding tent",
     "brand": "Durston",
     "model": "X-Dome 1+",
     "variant": null,
-    "weight_g": 1050,
+    "weight_g": 1085,
     "weight_basis": "manufacturer",
-    "weight_note": "approx. complete tent w/ poles",
+    "weight_note": "aluminum pole version (fly 405 g + regular inner 315 g + aluminum poles 365 g); carbon-pole version 985 g ($419)",
     "price_usd": 359,
     "specs": {
       "capacity": 1,
       "doors": 2,
       "walls": "double",
-      "material": "silpoly",
-      "freestanding": false,
-      "poles": "dedicated"
+      "material": "15D Sil/PE polyester fly, 15D Sil/PE nylon floor",
+      "freestanding": true,
+      "poles": "dedicated",
+      "packed_size": "46 x 12 cm"
     },
     "url": "https://durstongear.com/products/x-dome-1-plus-ultralight-backpacking-tent",
     "discontinued": false,
-    "confidence": "low",
-    "notes": "Not currently listed on Durston store; availability seasonal USD price $359 from durstongear.com product x-dome-1-plus-ultralight-backpacking-tent, checked 2026-10-23."
+    "confidence": "high",
+    "notes": "Listed on durstongear.com (X-Dome 1+, 2nd gen): $359 aluminum / $419 carbon / $444 carbon short; checked 2026-10-23."
   },
   {
     "id": "gossamer-gear-the-one",
@@ -1303,7 +1304,7 @@
     "variant": null,
     "weight_g": 1134,
     "weight_basis": "manufacturer",
-    "weight_note": null,
+    "weight_note": "manufacturer 40 oz; excludes stakes and poles",
     "price_usd": 160,
     "specs": {
       "capacity": 1,
@@ -1399,21 +1400,21 @@
     "brand": "Six Moon Designs",
     "model": "Haven Ultralight Tent",
     "variant": null,
-    "weight_g": 964,
+    "weight_g": 963,
     "weight_basis": "manufacturer",
-    "weight_note": "store shipping weight (tarp + NetTent), approximate",
+    "weight_note": "manufacturer total: tarp 453 g + NetTent 510 g (34 oz); stakes/poles not included",
     "price_usd": 375,
     "specs": {
       "capacity": 2,
       "doors": 2,
       "walls": "double",
-      "material": "silpoly",
+      "material": "20D silicone-coated polyester",
       "freestanding": false,
       "poles": "trekking"
     },
     "url": "https://sixmoondesigns.com/products/haven-ultralight-tarp",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -1523,7 +1524,7 @@
     "weight_g": 1190,
     "weight_basis": "manufacturer",
     "weight_note": "minimum weight",
-    "price_usd": 379,
+    "price_usd": 505,
     "specs": {
       "capacity": 2,
       "doors": 2,
@@ -1535,7 +1536,7 @@
     "url": "https://slingfin.com/products/2lite",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "List price $505 seam-sealed ($475 unsealed); store showed 25% sale ($378.75) on 2026-10-23."
   },
   {
     "id": "slingfin-splitwing-ul-tarp",
@@ -2314,7 +2315,7 @@
     "weight_g": 743,
     "weight_basis": "manufacturer",
     "weight_note": "min weight, mesh interior, no stakes/bags",
-    "price_usd": 229,
+    "price_usd": 329,
     "specs": {
       "capacity": 1,
       "doors": 2,
@@ -2326,7 +2327,7 @@
     "url": "https://www.tarptent.com/product/notch/",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "List $329 (mesh interior); on sale $229 at check 2026-10-23 (tarptent.com WooCommerce Store API)."
   },
   {
     "id": "tarptent-notch-li",
@@ -2362,7 +2363,7 @@
     "weight_g": 478,
     "weight_basis": "manufacturer",
     "weight_note": "min weight, no stakes/bags",
-    "price_usd": 549,
+    "price_usd": 649,
     "specs": {
       "capacity": 1,
       "doors": 1,
@@ -2374,7 +2375,7 @@
     "url": "https://www.tarptent.com/product/aeon-li/",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "List $649; on sale $549 at check 2026-10-23 (tarptent.com Store API)."
   },
   {
     "id": "tarptent-protrek",
@@ -2506,7 +2507,7 @@
     "weight_g": 825,
     "weight_basis": "manufacturer",
     "weight_note": "min weight w/ carbon pole set",
-    "price_usd": 339,
+    "price_usd": 349,
     "specs": {
       "capacity": 1,
       "doors": 2,
@@ -2914,7 +2915,7 @@
     "weight_g": 1171,
     "weight_basis": "manufacturer",
     "weight_note": "min weight w/ carbon arch pole",
-    "price_usd": 319,
+    "price_usd": 349,
     "specs": {
       "capacity": 1,
       "doors": 2,
@@ -2939,7 +2940,7 @@
     "weight_g": 1288,
     "weight_basis": "manufacturer",
     "weight_note": "min weight (fly, interior, poles)",
-    "price_usd": 404,
+    "price_usd": 449,
     "specs": {
       "capacity": 1,
       "doors": 2,
@@ -2952,7 +2953,7 @@
     "url": "https://www.tarptent.com/product/arcdome-1/",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "List $449 (partial solid interior, aluminum or 7.8 mm carbon poles); 10% sale ($404.10) at check 2026-10-23."
   },
   {
     "id": "tarptent-arcdome-2",
@@ -2964,7 +2965,7 @@
     "weight_g": 1639,
     "weight_basis": "manufacturer",
     "weight_note": "min weight",
-    "price_usd": 429,
+    "price_usd": 479,
     "specs": {
       "capacity": 2,
       "doors": 2,
@@ -2977,7 +2978,7 @@
     "url": "https://www.tarptent.com/product/arcdome-2-poly/",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "List $479 (mesh interior, aluminum poles); on sale $429 at check 2026-10-23."
   },
   {
     "id": "tarptent-cloudburst-3",
@@ -3822,7 +3823,7 @@
     "weight_g": 322,
     "weight_basis": "manufacturer",
     "weight_note": "total packed weight 11.4 oz",
-    "price_usd": 56.21,
+    "price_usd": 74.95,
     "specs": {
       "capacity": 1,
       "material": "40D diamond ripstop nylon",
@@ -3919,7 +3920,8 @@
       "material": "silnylon",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "hex"
+      "shape": "hex",
+      "doors": 0
     },
     "url": "https://www.kammok.com/products/kuhli-ultralight-camping-tarp",
     "discontinued": false,
@@ -3943,7 +3945,8 @@
       "material": "ripstop nylon",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "hex"
+      "shape": "hex",
+      "doors": 0
     },
     "url": "https://www.kammok.com/products/kuhli-camping-tarp",
     "discontinued": false,
@@ -3991,7 +3994,8 @@
       "material": "ripstop nylon",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "hex"
+      "shape": "hex",
+      "doors": 0
     },
     "url": "https://www.kammok.com/products/kuhli-xl-camping-tarp",
     "discontinued": false,
@@ -4148,7 +4152,8 @@
       "material": "nylon taffeta",
       "freestanding": false,
       "poles": "none",
-      "shape": "hex"
+      "shape": "hex",
+      "doors": 0
     },
     "url": "https://www.eaglesnestoutfittersinc.com/products/profly-rain-tarp",
     "discontinued": false,
@@ -4172,7 +4177,8 @@
       "material": "silnylon",
       "freestanding": false,
       "poles": "none",
-      "shape": "hex"
+      "shape": "hex",
+      "doors": 0
     },
     "url": "https://www.eaglesnestoutfittersinc.com/products/profly-sil-rain-tarp",
     "discontinued": false,
@@ -4186,21 +4192,22 @@
     "brand": "Sea to Summit",
     "model": "Telos Evo",
     "variant": "TR2",
-    "weight_g": 1761,
+    "weight_g": 1577,
     "weight_basis": "manufacturer",
-    "weight_note": "store data (likely packed weight)",
+    "weight_note": "minimum trail weight; packed weight 1625 g",
     "price_usd": 530,
     "specs": {
       "capacity": 2,
       "doors": 2,
       "walls": "double",
-      "material": "nylon",
+      "material": "Sil/PeU nylon/polyester fly, polyester mesh inner",
       "freestanding": true,
-      "poles": "dedicated"
+      "poles": "dedicated",
+      "packed_size": "50 x 14 x 14 cm"
     },
     "url": "https://seatosummit.com/products/telos-evo-tent",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -4210,21 +4217,22 @@
     "brand": "Sea to Summit",
     "model": "Telos Evo",
     "variant": "TR3",
-    "weight_g": 2205,
+    "weight_g": 2018,
     "weight_basis": "manufacturer",
-    "weight_note": "store data (likely packed weight)",
+    "weight_note": "minimum trail weight; packed weight 2069 g",
     "price_usd": 600,
     "specs": {
       "capacity": 3,
       "doors": 2,
       "walls": "double",
-      "material": "nylon",
+      "material": "Sil/PeU nylon/polyester fly, polyester mesh inner",
       "freestanding": true,
-      "poles": "dedicated"
+      "poles": "dedicated",
+      "packed_size": "50 x 16 x 16 cm"
     },
     "url": "https://seatosummit.com/products/telos-evo-tent",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -4234,21 +4242,22 @@
     "brand": "Sea to Summit",
     "model": "Ikos Evo",
     "variant": "TR2",
-    "weight_g": 2880,
+    "weight_g": 2446,
     "weight_basis": "manufacturer",
-    "weight_note": "store data (likely packed weight)",
+    "weight_note": "minimum trail weight; packed weight 2514 g",
     "price_usd": 350,
     "specs": {
       "capacity": 2,
       "doors": 2,
       "walls": "double",
-      "material": "polyester",
+      "material": "68D polyester",
       "freestanding": true,
-      "poles": "dedicated"
+      "poles": "dedicated",
+      "packed_size": "50 x 18 x 18 cm"
     },
     "url": "https://seatosummit.com/products/ikos-evo-tent",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -4306,21 +4315,23 @@
     "brand": "Sea to Summit",
     "model": "Escapist Evo Tarp",
     "variant": "M",
-    "weight_g": 370,
+    "weight_g": 348,
     "weight_basis": "manufacturer",
-    "weight_note": "store data",
+    "weight_note": "listed weight; minimum trail weight 260 g; packed 360 g",
     "price_usd": 220,
     "specs": {
       "capacity": 1,
       "walls": "single",
-      "material": "15D silnylon",
+      "material": "15D Ultra-Sil LS nylon",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "flat"
+      "shape": "flat",
+      "packed_size": "18 x 8 x 8 cm",
+      "doors": 0
     },
     "url": "https://seatosummit.com/products/escapist-evo-tarp",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -4330,21 +4341,23 @@
     "brand": "Sea to Summit",
     "model": "Escapist Evo Tarp",
     "variant": "L",
-    "weight_g": 542,
+    "weight_g": 499,
     "weight_basis": "manufacturer",
-    "weight_note": "store data",
+    "weight_note": "listed weight; minimum trail weight 418 g; packed 519 g",
     "price_usd": 270,
     "specs": {
       "capacity": 2,
       "walls": "single",
-      "material": "15D silnylon",
+      "material": "15D Ultra-Sil LS nylon",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "flat"
+      "shape": "flat",
+      "packed_size": "20 x 9 x 9 cm",
+      "doors": 0
     },
     "url": "https://seatosummit.com/products/escapist-evo-tarp",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -4354,21 +4367,22 @@
     "brand": "Sea to Summit",
     "model": "Minimalist Tarp",
     "variant": null,
-    "weight_g": 415,
+    "weight_g": 384,
     "weight_basis": "manufacturer",
-    "weight_note": "store data",
+    "weight_note": "listed weight; minimum trail weight 303 g; packed 403 g",
     "price_usd": 270,
     "specs": {
       "capacity": 1,
       "walls": "single",
-      "material": "silnylon",
+      "material": "Ultra-Sil LS 15D nylon/30D polyester ripstop",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "shaped"
+      "shape": "shaped",
+      "packed_size": "18 x 9 x 9 cm"
     },
     "url": "https://seatosummit.com/products/minimalist-tarp",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -4378,9 +4392,9 @@
     "brand": "Sea to Summit",
     "model": "Ultra-Sil Nano Tarp Poncho",
     "variant": null,
-    "weight_g": 210,
+    "weight_g": 185,
     "weight_basis": "manufacturer",
-    "weight_note": "store data",
+    "weight_note": "listed weight; packed 230 g",
     "price_usd": 134.95,
     "specs": {
       "capacity": 1,
@@ -4392,7 +4406,7 @@
     },
     "url": "https://seatosummit.com/products/ultra-sil-nano-tarp-poncho",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -4413,9 +4427,9 @@
       "poles": "none"
     },
     "url": "https://seatosummit.com/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "medium",
-    "notes": null
+    "notes": "No hammocks listed on seatosummit.com (US store search for 'hammock' returns none; guessed product handles 404), checked 2026-10-23."
   },
   {
     "id": "yama-mountain-gear-cirriform-1p-sw-standard",
@@ -4506,7 +4520,8 @@
       "material": "silpoly",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "shaped"
+      "shape": "shaped",
+      "doors": 0
     },
     "url": "https://www.yamamountaingear.com/products/1p-cirriform-tarp-silpoly",
     "discontinued": false,
@@ -4530,7 +4545,8 @@
       "material": "DCF",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "shaped"
+      "shape": "shaped",
+      "doors": 0
     },
     "url": "https://www.yamamountaingear.com/products/1p-cirriform-tarp-dcf",
     "discontinued": false,
@@ -4554,7 +4570,8 @@
       "material": "silpoly",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "shaped"
+      "shape": "shaped",
+      "doors": 0
     },
     "url": "https://www.yamamountaingear.com/products/1p-cirriform-tarp-w-bug-skirt",
     "discontinued": false,
@@ -4578,7 +4595,8 @@
       "material": "silpoly",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "shaped"
+      "shape": "shaped",
+      "doors": 0
     },
     "url": "https://www.yamamountaingear.com/products/2p-cirriform-tarp-silpoly",
     "discontinued": false,
@@ -4592,9 +4610,9 @@
     "brand": "Yama Mountain Gear",
     "model": "2P Cirriform Tarp",
     "variant": "DCF",
-    "weight_g": 434,
+    "weight_g": 360,
     "weight_basis": "manufacturer",
-    "weight_note": "packaged weight",
+    "weight_note": "tarp only; 434 g packaged (tarp 360 + rigging 65 + stuff sack 9)",
     "price_usd": 440,
     "specs": {
       "capacity": 2,
@@ -4602,7 +4620,8 @@
       "material": "DCF",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "shaped"
+      "shape": "shaped",
+      "doors": 0
     },
     "url": "https://www.yamamountaingear.com/products/2p-cirriform-tarp-dcf",
     "discontinued": false,
@@ -4626,7 +4645,8 @@
       "material": "15D silpoly",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "flat"
+      "shape": "flat",
+      "doors": 0
     },
     "url": "https://www.yamamountaingear.com/products/7-x-9-flat-tarp-silpoly",
     "discontinued": false,
@@ -4650,7 +4670,8 @@
       "material": "silpoly",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "flat"
+      "shape": "flat",
+      "doors": 0
     },
     "url": "https://www.yamamountaingear.com/products/8-6-x-10-silpoly-tarp",
     "discontinued": false,
@@ -4674,7 +4695,8 @@
       "material": "silpoly",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "flat"
+      "shape": "flat",
+      "doors": 0
     },
     "url": "https://www.yamamountaingear.com/products/6-x-9-tarp",
     "discontinued": false,
@@ -4698,7 +4720,8 @@
       "material": "silpoly",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "tapered"
+      "shape": "tapered",
+      "doors": 0
     },
     "url": "https://www.yamamountaingear.com/products/9-7-x-9-tapered-tarp-silpoly",
     "discontinued": false,
@@ -4722,7 +4745,8 @@
       "material": "silpoly",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "tapered"
+      "shape": "tapered",
+      "doors": 0
     },
     "url": "https://www.yamamountaingear.com/products/8-6-tapered-tarp-silpoly",
     "discontinued": false,
@@ -4746,7 +4770,8 @@
       "material": "silpoly",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "tapered"
+      "shape": "tapered",
+      "doors": 0
     },
     "url": "https://www.yamamountaingear.com/products/7-5-x-9-tapered-tarp-silpoly",
     "discontinued": false,
@@ -4770,7 +4795,8 @@
       "material": "DCF",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "tapered"
+      "shape": "tapered",
+      "doors": 0
     },
     "url": "https://www.yamamountaingear.com/products/9-7-x-9-tapered-tarp-dcf",
     "discontinued": false,
@@ -4794,7 +4820,8 @@
       "material": "DCF",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "tapered"
+      "shape": "tapered",
+      "doors": 0
     },
     "url": "https://www.yamamountaingear.com/products/8-6-x-9-tapered-tarp-dcf8",
     "discontinued": false,
@@ -4818,7 +4845,8 @@
       "material": "DCF",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "tapered"
+      "shape": "tapered",
+      "doors": 0
     },
     "url": "https://www.yamamountaingear.com/products/7-5-x-9-tapered-tarp-dcf",
     "discontinued": false,
@@ -5090,7 +5118,8 @@
       "material": "silnylon",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "flat"
+      "shape": "flat",
+      "doors": 0
     },
     "url": "https://www.locusgear.com/products/tarp-x-solo-sil",
     "discontinued": false,
@@ -5114,7 +5143,8 @@
       "material": "silnylon",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "flat"
+      "shape": "flat",
+      "doors": 0
     },
     "url": "https://www.locusgear.com/products/tarp-x-duo-sil",
     "discontinued": false,
@@ -5224,9 +5254,9 @@
     "brand": "Paria Outdoor Products",
     "model": "Sanctuary SilTarp",
     "variant": "10x8 Flat",
-    "weight_g": 440,
+    "weight_g": 439,
     "weight_basis": "manufacturer",
-    "weight_note": "approx.",
+    "weight_note": "tarp only 15.5 oz; whole kit (guylines, stakes, sacks) 20.5 oz",
     "price_usd": 84.99,
     "specs": {
       "capacity": 2,
@@ -5234,11 +5264,13 @@
       "material": "silnylon",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "flat"
+      "shape": "flat",
+      "packed_size": "9 x 5 x 4 in",
+      "doors": 0
     },
     "url": "https://pariaoutdoorproducts.com/products/silnylon-tarp-sanctuary-siltarp",
     "discontinued": false,
-    "confidence": "low",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -5347,7 +5379,7 @@
     "weight_g": 980,
     "weight_basis": "manufacturer",
     "weight_note": "tent and rainfly; pegs and guylines 140 g, footprint 220 g (total 1.34 kg)",
-    "price_usd": 189,
+    "price_usd": 199,
     "specs": {
       "capacity": 2,
       "doors": 2,
@@ -5395,7 +5427,7 @@
     "weight_g": 1820,
     "weight_basis": "manufacturer",
     "weight_note": "20D version minimum weight (210T version 2.2 kg)",
-    "price_usd": 161,
+    "price_usd": 169,
     "specs": {
       "capacity": 2,
       "doors": 2,
@@ -5550,9 +5582,9 @@
       "seasons": 4
     },
     "url": "https://www.naturehike.com/products/daban-1-person-ultralight-4-season-tunnel-tent",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "medium",
-    "notes": null
+    "notes": "Product page 404 and only the DABAN 2-person appears in naturehike.com store search, checked 2026-10-23."
   },
   {
     "id": "naturehike-long-boat-hammock",
@@ -5681,22 +5713,23 @@
     "brand": "Nordisk",
     "model": "Telemark 2.2 LW",
     "variant": null,
-    "weight_g": 1100,
+    "weight_g": 1060,
     "weight_basis": "manufacturer",
-    "weight_note": "approx.",
-    "price_usd": 749.95,
+    "weight_note": "trim weight 1.06 kg; official 1.12 kg; total 1.2 kg",
+    "price_usd": null,
     "specs": {
       "capacity": 2,
-      "doors": 1,
+      "doors": 2,
       "walls": "double",
-      "material": "nylon",
+      "material": "20D silicone/PU ripstop nylon fly, 10D/15D inner",
       "freestanding": false,
-      "poles": "dedicated"
+      "poles": "dedicated",
+      "packed_size": "15 x 35 cm"
     },
     "url": "https://nordisk.eu/products/telemark-2-2-lw-2-0-tent-black-forest-green",
     "discontinued": false,
-    "confidence": "low",
-    "notes": null
+    "confidence": "high",
+    "notes": "Specs from nordisk.eu (entrance on each side). Previous price 749.95 was the EUR price on nordisk.eu (Shopify currency EUR), not USD; no US list price found. Checked 2026-10-23."
   },
   {
     "id": "nordisk-voss-7-lw-tarp",
@@ -5901,9 +5934,9 @@
       "shape": "winter w/ doors"
     },
     "url": "https://www.warbonnetoutdoors.com/product/superfly/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "high",
-    "notes": null
+    "notes": "Superfly now offered only in 20D and 30D silpoly (warbonnetoutdoors.com Store API variations, checked 2026-10-23); silnylon version no longer sold."
   },
   {
     "id": "warbonnet-mountainfly-silnylon",
@@ -5970,7 +6003,8 @@
       "material": "20D silpoly",
       "freestanding": false,
       "poles": "none",
-      "shape": "hex"
+      "shape": "hex",
+      "doors": 0
     },
     "url": "https://www.warbonnetoutdoors.com/product/minifly-tarp/",
     "discontinued": false,
@@ -6018,7 +6052,8 @@
       "material": "30D silpoly",
       "freestanding": false,
       "poles": "none",
-      "shape": "flat"
+      "shape": "flat",
+      "doors": 0
     },
     "url": "https://www.warbonnetoutdoors.com/product/bushcrafter-tarp/",
     "discontinued": false,
@@ -6042,7 +6077,8 @@
       "material": "30D silpoly",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "flat"
+      "shape": "flat",
+      "doors": 0
     },
     "url": "https://www.warbonnetoutdoors.com/product/puptarp/",
     "discontinued": false,
@@ -6132,7 +6168,8 @@
       "material": "silpoly",
       "freestanding": false,
       "poles": "none",
-      "shape": "hex"
+      "shape": "hex",
+      "doors": 0
     },
     "url": "https://hammockgear.com/product/quest-hammock-tarp/",
     "discontinued": false,
@@ -6180,7 +6217,8 @@
       "material": "silpoly",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "ground tarp"
+      "shape": "ground tarp",
+      "doors": 0
     },
     "url": "https://hammockgear.com/product/the-trek/",
     "discontinued": false,
@@ -6204,7 +6242,8 @@
       "material": "DCF",
       "freestanding": false,
       "poles": "none",
-      "shape": "hex"
+      "shape": "hex",
+      "doors": 0
     },
     "url": "https://hammockgear.com/product/hex-tarp/",
     "discontinued": false,
@@ -6276,7 +6315,8 @@
       "material": "DCF",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "tapered"
+      "shape": "tapered",
+      "doors": 0
     },
     "url": "https://hammockgear.com/product/tapered-ground-tarp/",
     "discontinued": false,
@@ -6300,7 +6340,8 @@
       "material": "DCF",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "flat"
+      "shape": "flat",
+      "doors": 0
     },
     "url": "https://hammockgear.com/product/nomad-tarp/",
     "discontinued": false,
@@ -6316,7 +6357,7 @@
     "variant": null,
     "weight_g": 1247,
     "weight_basis": "manufacturer",
-    "weight_note": "approx. complete kit (hammock, tarp, quilts per config)",
+    "weight_note": "manufacturer total kit weight ~44 oz (2.75 lb): Circadian bug-net hammock, suspension, Quest/Journey tarp, 4 stakes, stuff sack; quilts not included",
     "price_usd": 249.99,
     "specs": {
       "capacity": 1,
@@ -6327,7 +6368,7 @@
     },
     "url": "https://hammockgear.com/product/the-wanderlust/",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -6462,7 +6503,8 @@
       "material": "30D silnylon",
       "freestanding": false,
       "poles": "none",
-      "shape": "hex"
+      "shape": "hex",
+      "doors": 0
     },
     "url": "https://www.hennessyhammock.com/products/hex-rainfly-30d-silnylon",
     "discontinued": false,
@@ -6558,7 +6600,8 @@
       "material": "DCF",
       "freestanding": false,
       "poles": "trekking",
-      "shape": "flat"
+      "shape": "flat",
+      "doors": 0
     },
     "url": "https://bonfus.com/product/dcf-square-flat-tarp/",
     "discontinued": false,
@@ -6718,7 +6761,7 @@
     "variant": null,
     "weight_g": 1640,
     "weight_basis": "manufacturer",
-    "weight_note": "approx. min weight (four-season)",
+    "weight_note": "minimum weight 3 lb 10 oz; packaged 1.86 kg",
     "price_usd": 799.95,
     "specs": {
       "capacity": 2,
@@ -6731,7 +6774,7 @@
     },
     "url": "https://www.cascadedesigns.com/products/access-2-two-person-four-season-ski-touring-tent",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -6741,9 +6784,9 @@
     "brand": "MSR",
     "model": "Elixir 2",
     "variant": null,
-    "weight_g": 2160,
+    "weight_g": 2330,
     "weight_basis": "manufacturer",
-    "weight_note": "approx. min weight",
+    "weight_note": "minimum weight 5 lb 2 oz; packaged 2.82 kg (includes footprint)",
     "price_usd": 339.95,
     "specs": {
       "capacity": 2,
@@ -6751,11 +6794,12 @@
       "walls": "double",
       "material": "polyester",
       "freestanding": true,
-      "poles": "dedicated"
+      "poles": "dedicated",
+      "packed_size": "51 x 17 cm"
     },
     "url": "https://www.cascadedesigns.com/products/elixir-2-backpacking-tent",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -6775,9 +6819,9 @@
       "poles": "dedicated"
     },
     "url": "https://www.outdoorresearch.com/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "medium",
-    "notes": null
+    "notes": "Superseded by the Helium UL Bivy (separate record); old Helium Bivy no longer on outdoorresearch.com (store search for 'bivy' lists only Helium UL and Alpine XT), checked 2026-10-23."
   },
   {
     "id": "outdoor-research-alpine-ascentshell-bivy",
@@ -6796,9 +6840,9 @@
       "poles": "dedicated"
     },
     "url": "https://www.outdoorresearch.com/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": null
+    "notes": "Replaced by the Alpine XT Bivy; AscentShell bivy no longer on outdoorresearch.com (store search for 'bivy' lists only Helium UL and Alpine XT), checked 2026-10-23."
   },
   {
     "id": "sol-escape-bivy",
@@ -6809,15 +6853,15 @@
     "variant": null,
     "weight_g": 241,
     "weight_basis": "manufacturer",
-    "weight_note": "listed weight",
-    "price_usd": null,
+    "weight_note": "Regular, 8.5 oz (XL 9.5 oz, $103.49)",
+    "price_usd": 86.49,
     "specs": {
       "capacity": 1,
-      "material": "breathable reflective non-woven"
+      "material": "Escape ThermaShell spunbonded olefin, metalized"
     },
-    "url": "https://www.surviveoutdoorslonger.com/",
+    "url": "https://www.surviveoutdoorslonger.com/products/escape-bivvy",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Emergency/ultralight bivy"
   },
   {
@@ -6829,15 +6873,15 @@
     "variant": null,
     "weight_g": 156,
     "weight_basis": "manufacturer",
-    "weight_note": "listed weight",
-    "price_usd": null,
+    "weight_note": "listed 5.5 oz",
+    "price_usd": 54.99,
     "specs": {
       "capacity": 1,
       "material": "breathable reflective non-woven"
     },
-    "url": "https://www.surviveoutdoorslonger.com/",
+    "url": "https://www.surviveoutdoorslonger.com/products/escape-lite-bivvy",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Emergency/ultralight bivy"
   },
   {
@@ -6847,18 +6891,18 @@
     "brand": "Borah Gear",
     "model": "Side-Zip Bivy",
     "variant": null,
-    "weight_g": 198,
+    "weight_g": 150,
     "weight_basis": "manufacturer",
-    "weight_note": "approx.; varies with fabric options",
-    "price_usd": null,
+    "weight_note": "Ultralight Bivy, Argon67 top, side zip, Reg/Reg (5.3 oz); chest zip 5.0 oz; Argon90 heavier",
+    "price_usd": 121,
     "specs": {
       "capacity": 1,
-      "material": "Argon/silpoly"
+      "material": "Argon67 (or Argon90) nylon top, 1.3 oz 20D silpoly floor, no-see-um netting"
     },
-    "url": "https://www.borahgear.com/",
+    "url": "https://borahgear.com/ultralightbivy.html",
     "discontinued": false,
-    "confidence": "low",
-    "notes": null
+    "confidence": "high",
+    "notes": "This is Borah's Ultralight Bivy with the side-zip option. Weight and price (Argon67 side zip $121; Argon90 side zip $111) from borahgear.com and its PayPal cart button, checked 2026-10-23."
   },
   {
     "id": "rab-alpine-bivi",
@@ -6937,22 +6981,22 @@
     "brand": "Marmot",
     "model": "Tungsten UL 2P",
     "variant": null,
-    "weight_g": 1450,
+    "weight_g": 1355,
     "weight_basis": "manufacturer",
-    "weight_note": "approx. min weight",
-    "price_usd": null,
+    "weight_note": "minimum weight 2 lb 15.8 oz",
+    "price_usd": 399,
     "specs": {
       "capacity": 2,
       "doors": 2,
       "walls": "double",
-      "material": "nylon",
+      "material": "polyester ripstop fly, nylon ripstop canopy/floor",
       "freestanding": true,
       "poles": "dedicated"
     },
-    "url": "https://www.marmot.com/",
+    "url": "https://www.campmor.com/products/marmot-tungsten-ul-2p-tent",
     "discontinued": false,
-    "confidence": "low",
-    "notes": null
+    "confidence": "high",
+    "notes": "Specs and $399 list (compare-at) price from Campmor (US retailer, Shopify), checked 2026-10-23; marmot.com not reachable to curl."
   },
   {
     "id": "marmot-superalloy-2p",
@@ -7036,17 +7080,18 @@
     "variant": null,
     "weight_g": 960,
     "weight_basis": "manufacturer",
-    "weight_note": "minimum weight 0.96 kg; packed 1.2 kg",
-    "price_usd": null,
+    "weight_note": "minimum weight 960 g (fly, inner, poles); packed 1200 g",
+    "price_usd": 845,
     "specs": {
       "capacity": 1,
       "doors": 1,
       "walls": "double",
       "material": "Kerlon 1000",
       "freestanding": false,
-      "poles": "dedicated"
+      "poles": "dedicated",
+      "packed_size": "43 x 13 cm"
     },
-    "url": "https://hilleberg.com/eng/tent/yellow-label-tents/enan/",
+    "url": "https://hilleberg.com/eng/products/tent/Enan",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -7060,17 +7105,19 @@
     "variant": null,
     "weight_g": 1300,
     "weight_basis": "manufacturer",
-    "weight_note": "minimum weight 1.3 kg; packed 1.7 kg",
-    "price_usd": null,
+    "weight_note": "minimum weight 1300 g; packed 1700 g",
+    "price_usd": 750,
     "specs": {
       "capacity": 1,
       "doors": 1,
       "walls": "double",
       "material": "Kerlon 1200",
       "freestanding": false,
-      "poles": "dedicated"
+      "poles": "dedicated",
+      "packed_size": "43 x 13 cm",
+      "seasons": 4
     },
-    "url": "https://hilleberg.com/",
+    "url": "https://hilleberg.com/eng/products/tent/Akto",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -7084,17 +7131,18 @@
     "variant": null,
     "weight_g": 1500,
     "weight_basis": "manufacturer",
-    "weight_note": "minimum weight 1.5 kg; packed 1.7 kg",
-    "price_usd": null,
+    "weight_note": "minimum weight 1500 g; packed 1700 g",
+    "price_usd": 995,
     "specs": {
       "capacity": 2,
       "doors": 1,
       "walls": "double",
       "material": "Kerlon 1000",
       "freestanding": false,
-      "poles": "dedicated"
+      "poles": "dedicated",
+      "packed_size": "46 x 14 cm"
     },
-    "url": "https://hilleberg.com/",
+    "url": "https://hilleberg.com/eng/products/tent/Niak",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -7108,8 +7156,8 @@
     "variant": null,
     "weight_g": 1500,
     "weight_basis": "manufacturer",
-    "weight_note": "minimum weight 1.5 kg; packed 1.8 kg",
-    "price_usd": null,
+    "weight_note": "Anjan 2: minimum weight 1500 g; packed 1800 g",
+    "price_usd": 895,
     "specs": {
       "capacity": 2,
       "doors": 1,
@@ -7117,9 +7165,10 @@
       "material": "Kerlon 1000",
       "freestanding": false,
       "poles": "dedicated",
-      "style": "tunnel"
+      "style": "tunnel",
+      "packed_size": "46 x 13 cm"
     },
-    "url": "https://hilleberg.com/",
+    "url": "https://hilleberg.com/eng/products/tent/Anjan",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -7134,16 +7183,17 @@
     "weight_g": 1900,
     "weight_basis": "manufacturer",
     "weight_note": "Rogen 2: minimum weight 1.9 kg; packed 2.2 kg",
-    "price_usd": null,
+    "price_usd": 1295,
     "specs": {
       "capacity": 2,
       "doors": 2,
       "walls": "double",
-      "material": "Kerlon 1200",
+      "material": "Kerlon 1000",
       "freestanding": true,
-      "poles": "dedicated"
+      "poles": "dedicated",
+      "packed_size": "46 x 15 cm"
     },
-    "url": "https://hilleberg.com/",
+    "url": "https://hilleberg.com/eng/products/tent/Rogen",
     "discontinued": false,
     "confidence": "high",
     "notes": "Hilleberg now lists Rogen 2 (1.9 kg) and Rogen 3 (2.2 kg)."
@@ -7157,8 +7207,8 @@
     "variant": null,
     "weight_g": 2000,
     "weight_basis": "manufacturer",
-    "weight_note": "minimum weight 2.0 kg; packed 2.3 kg",
-    "price_usd": null,
+    "weight_note": "minimum weight 2000 g; packed 2300 g",
+    "price_usd": 930,
     "specs": {
       "capacity": 1,
       "doors": 1,
@@ -7166,9 +7216,10 @@
       "material": "Kerlon 1800",
       "freestanding": true,
       "poles": "dedicated",
-      "seasons": 4
+      "seasons": 4,
+      "packed_size": "46 x 14 cm"
     },
-    "url": "https://hilleberg.com/",
+    "url": "https://hilleberg.com/eng/products/tent/Unna",
     "discontinued": false,
     "confidence": "high",
     "notes": null
@@ -7180,22 +7231,23 @@
     "brand": "3F UL Gear",
     "model": "Lanshan 1",
     "variant": null,
-    "weight_g": 880,
+    "weight_g": 770,
     "weight_basis": "manufacturer",
-    "weight_note": "approx. listed weight (silnylon, with inner)",
-    "price_usd": null,
+    "weight_note": "tent body (fly 419 g + 3-season inner 355 g); trail weight with stakes/guylines/sack ~920 g",
+    "price_usd": 137,
     "specs": {
       "capacity": 1,
       "doors": 1,
       "walls": "double",
       "material": "15D silnylon",
       "freestanding": false,
-      "poles": "trekking"
+      "poles": "trekking",
+      "packed_size": "34 x 15 cm"
     },
-    "url": "https://www.3fulgear.com/",
+    "url": "https://3fulgear.com/product/ultralight-tent/lanshan-1/",
     "discontinued": false,
-    "confidence": "medium",
-    "notes": null
+    "confidence": "high",
+    "notes": "USD price (3-season, 2026 version) and weights from 3F UL Gear store (WooCommerce), checked 2026-10-23."
   },
   {
     "id": "3f-ul-gear-lanshan-2",
@@ -7204,10 +7256,10 @@
     "brand": "3F UL Gear",
     "model": "Lanshan 2",
     "variant": null,
-    "weight_g": 1040,
+    "weight_g": 1023,
     "weight_basis": "manufacturer",
-    "weight_note": "approx. listed weight (with inner)",
-    "price_usd": null,
+    "weight_note": "tent body, 3-season inner (fly 546 g + inner 477 g); trail weight 1152 g",
+    "price_usd": 156,
     "specs": {
       "capacity": 2,
       "doors": 2,
@@ -7216,10 +7268,10 @@
       "freestanding": false,
       "poles": "trekking"
     },
-    "url": "https://www.3fulgear.com/",
+    "url": "https://3fulgear.com/product/ultralight-tent/lanshan2-classic/",
     "discontinued": false,
-    "confidence": "medium",
-    "notes": null
+    "confidence": "high",
+    "notes": "USD price (3-season, 2026 version) and weights from 3F UL Gear store (WooCommerce), checked 2026-10-23."
   },
   {
     "id": "3f-ul-gear-lanshan-2-pro",
@@ -7228,22 +7280,23 @@
     "brand": "3F UL Gear",
     "model": "Lanshan 2 Pro",
     "variant": null,
-    "weight_g": 1050,
+    "weight_g": 900,
     "weight_basis": "manufacturer",
-    "weight_note": "approx. listed weight",
-    "price_usd": null,
+    "weight_note": "tent body, SilNylon (877 g SilPoly); min trail weight 1034 g",
+    "price_usd": 190,
     "specs": {
       "capacity": 2,
       "doors": 2,
       "walls": "single",
-      "material": "20D silnylon",
+      "material": "20D silnylon or silpoly",
       "freestanding": false,
-      "poles": "trekking"
+      "poles": "trekking",
+      "packed_size": "34 x 15 cm"
     },
-    "url": "https://www.3fulgear.com/",
+    "url": "https://3fulgear.com/product/ultralight-tent/lanshan-2-pro/",
     "discontinued": false,
-    "confidence": "low",
-    "notes": null
+    "confidence": "high",
+    "notes": "USD price (3-season mesh inner) and weights from 3F UL Gear store (WooCommerce), checked 2026-10-23."
   },
   {
     "id": "3f-ul-gear-lanshan-1-pro",
@@ -7252,22 +7305,22 @@
     "brand": "3F UL Gear",
     "model": "Lanshan 1 Pro",
     "variant": null,
-    "weight_g": 780,
+    "weight_g": 688,
     "weight_basis": "manufacturer",
-    "weight_note": "approx. listed weight",
-    "price_usd": null,
+    "weight_note": "tent body, 3-season; trail weight 826 g with stakes, guylines, sack",
+    "price_usd": 169,
     "specs": {
       "capacity": 1,
       "doors": 1,
       "walls": "single",
-      "material": "20D silnylon",
+      "material": "20D silnylon or silpoly",
       "freestanding": false,
       "poles": "trekking"
     },
-    "url": "https://www.3fulgear.com/",
+    "url": "https://3fulgear.com/product/ultralight-tent/lanshan-1-pro/",
     "discontinued": false,
-    "confidence": "low",
-    "notes": null
+    "confidence": "high",
+    "notes": "USD price (3-season) and weights from 3F UL Gear store (WooCommerce), checked 2026-10-23."
   },
   {
     "id": "rei-co-op-flash-air-2",
@@ -7420,22 +7473,24 @@
     "brand": "Kelty",
     "model": "Noah's Tarp 9",
     "variant": null,
-    "weight_g": 1270,
+    "weight_g": 907,
     "weight_basis": "manufacturer",
-    "weight_note": "store shipping weight",
+    "weight_note": "Kelty-listed packaged weight 2 lb / 0.9 kg (no trail weight published); previous 1270 g was Shopify shipping weight",
     "price_usd": 79.95,
     "specs": {
       "capacity": 2,
       "walls": "single",
-      "material": "polyester",
+      "material": "68D polyester, 800 mm",
       "freestanding": false,
       "poles": "none",
-      "shape": "flat"
+      "shape": "flat",
+      "packed_size": "25.4 x 22.8 x 7.6 cm",
+      "doors": 0
     },
     "url": "https://www.kelty.com/products/noahs-tarp-9",
     "discontinued": false,
-    "confidence": "medium",
-    "notes": null
+    "confidence": "high",
+    "notes": "Heavy, low-cost 9x9 ft (274 cm) car-camping tarp; low $/g is genuine. Checked kelty.com 2026-10-23."
   },
   {
     "id": "simply-light-designs-trail-duster-2",
@@ -7563,7 +7618,7 @@
     "weight_g": 360,
     "weight_basis": "manufacturer",
     "weight_note": "tarp only; 410 g with guylines and stuff sack",
-    "price_usd": null,
+    "price_usd": 255,
     "specs": {
       "capacity": 1,
       "doors": 1,
@@ -7575,7 +7630,7 @@
     "url": "https://www.backpackinglight.com.au/products/liteway-pyraomm-solo-tarp",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-solo-tarp), checked 2026-10-23. Sold in AUD only there; no USD price found."
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-solo-tarp), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY PYRAOMM SOLO TARP 1P\"), checked 2026-10-23."
   },
   {
     "id": "liteway-pyraomm-solo-tarp-dcf",
@@ -7634,7 +7689,7 @@
     "weight_g": 440,
     "weight_basis": "manufacturer",
     "weight_note": "tarp only; 495 g with guylines and stuff sack",
-    "price_usd": null,
+    "price_usd": 326,
     "specs": {
       "capacity": 2,
       "doors": 1,
@@ -7646,7 +7701,7 @@
     "url": "https://www.backpackinglight.com.au/products/liteway-pyraomm-duo-tarp",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-duo-tarp), checked 2026-10-23. Sold in AUD only there; no USD price found."
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-duo-tarp), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY PYRAOMM DUO TARP 2P\"), checked 2026-10-23."
   },
   {
     "id": "liteway-pyraomm-duo-tarp-dcf",
@@ -7688,7 +7743,8 @@
       "walls": "single",
       "material": "1.1 oz Silpoly 20D ripstop",
       "freestanding": false,
-      "poles": "trekking"
+      "poles": "trekking",
+      "doors": 2
     },
     "url": "https://www.backpackinglight.com.au/products/liteway-illusion-duo-tent",
     "discontinued": false,
@@ -7711,7 +7767,8 @@
       "walls": "single",
       "material": "Dyneema Composite Fabric 1.0 oz",
       "freestanding": false,
-      "poles": "trekking"
+      "poles": "trekking",
+      "doors": 2
     },
     "url": "https://www.backpackinglight.com.au/products/liteway-illusion-duo-tent-dyneema",
     "discontinued": false,
@@ -7728,16 +7785,19 @@
     "weight_g": 195,
     "weight_basis": "manufacturer",
     "weight_note": "tarp only; 245 g with lines and stuff sack (272 x 144 cm)",
-    "price_usd": null,
+    "price_usd": 127,
     "specs": {
       "capacity": 1,
       "material": "1.1 oz Silpoly 20D ripstop",
-      "poles": "trekking"
+      "poles": "trekking",
+      "doors": 0,
+      "freestanding": false,
+      "walls": "single"
     },
     "url": "https://www.backpackinglight.com.au/products/liteway-simplex-mini-tarp",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-mini-tarp), checked 2026-10-23. Sold in AUD only there; no USD price found."
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-mini-tarp), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY Simplex Mini Tarp\"), checked 2026-10-23."
   },
   {
     "id": "liteway-simplex-max-tarp",
@@ -7749,16 +7809,19 @@
     "weight_g": 265,
     "weight_basis": "manufacturer",
     "weight_note": "tarp only; 315 g with guylines and stuff sack (5.0 m2)",
-    "price_usd": null,
+    "price_usd": 173,
     "specs": {
       "capacity": 2,
       "material": "1.1 oz Silpoly 20D ripstop",
-      "poles": "trekking"
+      "poles": "trekking",
+      "doors": 0,
+      "freestanding": false,
+      "walls": "single"
     },
     "url": "https://www.backpackinglight.com.au/products/liteway-simplex-max-tarp",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-max-tarp), checked 2026-10-23. Sold in AUD only there; no USD price found."
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-max-tarp), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY Simplex MAX Tarp\"), checked 2026-10-23."
   },
   {
     "id": "liteway-simplex-xl-tarp",
@@ -7770,16 +7833,19 @@
     "weight_g": 235,
     "weight_basis": "manufacturer",
     "weight_note": "tarp only; 280 g with guylines and stuff sack",
-    "price_usd": null,
+    "price_usd": 138,
     "specs": {
       "capacity": 1,
       "material": "1.1 oz Silpoly 20D ripstop",
-      "poles": "trekking"
+      "poles": "trekking",
+      "doors": 0,
+      "freestanding": false,
+      "walls": "single"
     },
     "url": "https://www.backpackinglight.com.au/products/liteway-simplex-xl-tarp-ultralight-hiking-tarp",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-xl-tarp-ultralight-hiking-tarp), checked 2026-10-23. Sold in AUD only there; no USD price found."
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-xl-tarp-ultralight-hiking-tarp), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY Simplex XL Tarp\"), checked 2026-10-23."
   },
   {
     "id": "liteway-simplex-1p-mesh-inner",
@@ -7812,16 +7878,19 @@
     "weight_g": 400,
     "weight_basis": "manufacturer",
     "weight_note": "tarp only; 450 g with guylines and stuff sack (294 x 294 cm)",
-    "price_usd": null,
+    "price_usd": 185,
     "specs": {
       "capacity": 2,
       "material": "1.1 oz Silpoly 20D ripstop",
-      "poles": "trekking"
+      "poles": "trekking",
+      "doors": 0,
+      "freestanding": false,
+      "walls": "single"
     },
     "url": "https://www.backpackinglight.com.au/products/liteway-biggie-tarp",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-biggie-tarp), checked 2026-10-23. Sold in AUD only there; no USD price found."
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-biggie-tarp), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY BIGGIE TARP\"), checked 2026-10-23."
   },
   {
     "id": "liteway-biggie-tarp-dcf",
@@ -7837,7 +7906,10 @@
     "specs": {
       "capacity": 2,
       "material": "Dyneema Composite Fabric 1.0 oz",
-      "poles": "trekking"
+      "poles": "trekking",
+      "doors": 0,
+      "freestanding": false,
+      "walls": "single"
     },
     "url": "https://www.backpackinglight.com.au/products/liteway-biggie-tarp-dcf",
     "discontinued": false,
@@ -7854,7 +7926,7 @@
     "weight_g": 225,
     "weight_basis": "manufacturer",
     "weight_note": "poncho-tarp only; 290 g with guylines and stuff sack",
-    "price_usd": null,
+    "price_usd": 150,
     "specs": {
       "capacity": 1,
       "material": "1.1 oz Levitex Silpoly 20D",
@@ -7863,7 +7935,7 @@
     "url": "https://www.backpackinglight.com.au/products/liteway-simplex-poncho-tarp",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-poncho-tarp), checked 2026-10-23. Sold in AUD only there; no USD price found."
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-simplex-poncho-tarp), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY PONCHO SIMPLEX\"), checked 2026-10-23."
   },
   {
     "id": "liteway-pyraomm-poncho",
@@ -7875,7 +7947,7 @@
     "weight_g": 350,
     "weight_basis": "manufacturer",
     "weight_note": "poncho-tarp only; 400 g with guylines and stuff sack",
-    "price_usd": null,
+    "price_usd": 255,
     "specs": {
       "capacity": 1,
       "doors": 1,
@@ -7886,7 +7958,7 @@
     "url": "https://www.backpackinglight.com.au/products/liteway-poncho-pyraomm-ultralight-hiking-tarp-poncho",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-poncho-pyraomm-ultralight-hiking-tarp-poncho), checked 2026-10-23. Sold in AUD only there; no USD price found."
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-poncho-pyraomm-ultralight-hiking-tarp-poncho), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY PONCHO PYRAOMM\"), checked 2026-10-23."
   },
   {
     "id": "rab-trailhead-bivy",
@@ -8005,7 +8077,7 @@
     "variant": "6'",
     "weight_g": 221,
     "weight_basis": "manufacturer",
-    "weight_note": "6' regular (Katabatic lists 7.5-8.7 oz across sizes)",
+    "weight_note": "6' regular, 7.8 oz (Katabatic lists 7.5-8.7 oz across sizes)",
     "price_usd": 159,
     "specs": {
       "capacity": 1,
@@ -8015,7 +8087,7 @@
     },
     "url": "https://katabaticgear.com/products/pinon-bivy",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "Extra-large mesh panel over head and torso"
   },
   {
@@ -8027,7 +8099,7 @@
     "variant": "6'",
     "weight_g": 264,
     "weight_basis": "manufacturer",
-    "weight_note": "approx. 6' regular (Katabatic lists 9.0-10.2 oz across sizes)",
+    "weight_note": "6' regular, 9.3 oz (Katabatic lists 9.0-10.2 oz across sizes)",
     "price_usd": 169,
     "specs": {
       "capacity": 1,
@@ -8037,7 +8109,7 @@
     },
     "url": "https://katabaticgear.com/products/wren-bivy",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": null
   },
   {
@@ -8137,7 +8209,7 @@
     "weight_g": 142,
     "weight_basis": "manufacturer",
     "weight_note": "standard size, chest zip, 0.7 oz netting (side zip 5.4 oz; XUL 4.4 oz)",
-    "price_usd": null,
+    "price_usd": 84,
     "specs": {
       "capacity": 1,
       "walls": "single",
@@ -8147,7 +8219,7 @@
     "url": "https://borahgear.com/bugbivy.html",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "USD price from Borah Gear PayPal cart button (UL Bug Bivy chest zip $84; side zip $89; XUL $104-109), checked 2026-10-23."
   },
   {
     "id": "borah-gear-cuben-bivy",
@@ -8159,7 +8231,7 @@
     "weight_g": 120,
     "weight_basis": "manufacturer",
     "weight_note": "standard length/girth, chest zip",
-    "price_usd": null,
+    "price_usd": 190,
     "specs": {
       "capacity": 1,
       "walls": "single",
@@ -8169,7 +8241,7 @@
     "url": "https://borahgear.com/cubenbivy.html",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "USD price from Borah Gear PayPal cart button (chest zip $190; side zip $195), checked 2026-10-23."
   },
   {
     "id": "borah-gear-cuben-bug-bivy",
@@ -8181,7 +8253,7 @@
     "weight_g": 108,
     "weight_basis": "manufacturer",
     "weight_note": "standard/standard, chest zip (side zip 4.1 oz)",
-    "price_usd": null,
+    "price_usd": 175,
     "specs": {
       "capacity": 1,
       "walls": "single",
@@ -8191,6 +8263,53 @@
     "url": "https://borahgear.com/cubenbugbivy.html",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": "USD price from Borah Gear PayPal cart button (chest zip $175; side zip $180), checked 2026-10-23."
+  },
+  {
+    "id": "outdoor-research-alpine-xt-bivy",
+    "category": "shelter",
+    "subcategory": "bivy",
+    "brand": "Outdoor Research",
+    "model": "Alpine XT Bivy",
+    "variant": null,
+    "weight_g": 594,
+    "weight_basis": "manufacturer",
+    "weight_note": "OR listed 20.95 oz / 594 g",
+    "price_usd": 375,
+    "specs": {
+      "capacity": 1,
+      "walls": "single",
+      "material": "3L Pertex Shield Air (electrospun) nylon ripstop, 40D PU-coated nylon floor",
+      "poles": "dedicated"
+    },
+    "url": "https://www.outdoorresearch.com/products/alpine-xt-bivy-322698",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "2026 replacement for the Alpine AscentShell Bivy. Price/weight from outdoorresearch.com, checked 2026-10-23."
+  },
+  {
+    "id": "bonfus-solus-1p",
+    "category": "shelter",
+    "subcategory": "trekking-pole tent",
+    "brand": "Bonfus",
+    "model": "Solus 1P",
+    "variant": null,
+    "weight_g": 495,
+    "weight_basis": "manufacturer",
+    "weight_note": "tent with premounted guylines; stuff sack +14 g",
+    "price_usd": 559,
+    "specs": {
+      "capacity": 1,
+      "doors": 1,
+      "walls": "single",
+      "material": "0.75/0.8 DCF body, 20D silpoly floor, integrated mesh",
+      "freestanding": false,
+      "poles": "trekking",
+      "packed_size": "12 x 32 cm"
+    },
+    "url": "https://bonfus.com/product/solus-1p/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Price (USD store) and specs from bonfus.com, checked 2026-10-23."
   }
 ]

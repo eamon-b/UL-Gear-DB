@@ -13,13 +13,14 @@
     "specs": {
       "volume_l": 60,
       "frame": "internal",
-      "material": "Ultra 200X / UltraGrid",
+      "material": "Ultra 100X / Ultra TenX",
       "hipbelt": true,
       "torso_sizes": [
         "short",
         "medium",
         "tall"
-      ]
+      ],
+      "max_load_lb": 40
     },
     "url": "https://zpacks.com/products/arc-pro-60l-backpack",
     "discontinued": false,
@@ -40,13 +41,14 @@
     "specs": {
       "volume_l": 50,
       "frame": "internal",
-      "material": "Ultra",
+      "material": "Ultra 100X / Ultra TenX",
       "hipbelt": true,
       "torso_sizes": [
         "short",
         "medium",
         "tall"
-      ]
+      ],
+      "max_load_lb": 40
     },
     "url": "https://zpacks.com/products/arc-pro-50l-backpack",
     "discontinued": false,
@@ -67,13 +69,14 @@
     "specs": {
       "volume_l": 70,
       "frame": "internal",
-      "material": "Ultra",
+      "material": "Ultra 100X / Ultra TenX",
       "hipbelt": true,
       "torso_sizes": [
         "short",
         "medium",
         "tall"
-      ]
+      ],
+      "max_load_lb": 40
     },
     "url": "https://zpacks.com/products/arc-pro-70l-backpack",
     "discontinued": false,
@@ -481,7 +484,8 @@
       "volume_l": 25,
       "frame": "frameless",
       "material": "Ultra",
-      "hipbelt": false
+      "hipbelt": false,
+      "max_load_lb": 20
     },
     "url": "https://zpacks.com/products/bagger-ultra-25l-backpack",
     "discontinued": false,
@@ -502,7 +506,8 @@
     "specs": {
       "volume_l": 30,
       "frame": "frameless",
-      "hipbelt": false
+      "hipbelt": false,
+      "max_load_lb": 20
     },
     "url": "https://zpacks.com/products/bagger-30l-travel-backpack",
     "discontinued": false,
@@ -1590,8 +1595,9 @@
     "specs": {
       "volume_l": 40,
       "frame": "internal",
-      "material": "Ultra/UHMWPE fused fabric",
-      "hipbelt": true
+      "material": "ALUULA Graflyte V52 (UHMWPE fused)",
+      "hipbelt": true,
+      "max_load_lb": 25
     },
     "url": "https://www.gossamergear.com/products/mirage-40l-backpack",
     "discontinued": false,
@@ -1716,8 +1722,9 @@
     "specs": {
       "volume_l": 38,
       "frame": "frameless",
-      "material": "Robic nylon",
-      "hipbelt": true
+      "material": "Riptide 100D recycled Robic nylon",
+      "hipbelt": true,
+      "max_load_lb": 25
     },
     "url": "https://www.gossamergear.com/products/skala-38-ultralight-backpack",
     "discontinued": false,
@@ -1738,8 +1745,9 @@
     "specs": {
       "volume_l": 28,
       "frame": "frameless",
-      "material": "Robic nylon",
-      "hipbelt": false
+      "material": "Riptide 100D recycled Robic nylon",
+      "hipbelt": false,
+      "max_load_lb": 25
     },
     "url": "https://www.gossamergear.com/products/grit-28l-fastpack",
     "discontinued": false,
@@ -1760,8 +1768,9 @@
     "specs": {
       "volume_l": 20,
       "frame": "frameless",
-      "material": "V52 fused mono-polymer",
-      "hipbelt": false
+      "material": "ALUULA Graflyte V52 (UHMWPE fused)",
+      "hipbelt": false,
+      "max_load_lb": 20
     },
     "url": "https://www.gossamergear.com/products/elixir-20l-daypack",
     "discontinued": false,
@@ -1782,7 +1791,7 @@
     "specs": {
       "volume_l": 25,
       "frame": "frameless",
-      "material": "Robic nylon",
+      "material": "70D recycled Robic nylon",
       "hipbelt": true
     },
     "url": "https://www.gossamergear.com/products/loris",
@@ -1804,7 +1813,8 @@
     "specs": {
       "volume_l": 20,
       "frame": "frameless",
-      "hipbelt": false
+      "hipbelt": false,
+      "material": "Riptide 100D recycled Robic nylon, 210D Robic bottom"
     },
     "url": "https://www.gossamergear.com/products/vetta-20-daypack",
     "discontinued": false,
@@ -1825,7 +1835,8 @@
     "specs": {
       "volume_l": 15,
       "frame": "frameless",
-      "hipbelt": false
+      "hipbelt": false,
+      "material": "Riptide 100D recycled Robic nylon"
     },
     "url": "https://www.gossamergear.com/products/cima-15-daypack",
     "discontinued": false,
@@ -1846,7 +1857,9 @@
     "specs": {
       "volume_l": 19,
       "frame": "frameless",
-      "hipbelt": false
+      "hipbelt": false,
+      "max_load_lb": 20,
+      "material": "70D recycled Robic nylon"
     },
     "url": "https://www.gossamergear.com/products/minimalist-19-daypack",
     "discontinued": false,
@@ -1866,7 +1879,8 @@
     "price_usd": 45,
     "specs": {
       "frame": "frameless",
-      "hipbelt": false
+      "hipbelt": false,
+      "material": "70D recycled Robic nylon"
     },
     "url": "https://www.gossamergear.com/products/riksak",
     "discontinued": false,
@@ -2623,7 +2637,7 @@
     "weight_g": 958,
     "weight_basis": "manufacturer",
     "weight_note": "size M, all components",
-    "price_usd": 199.99,
+    "price_usd": 279.99,
     "specs": {
       "volume_l": 63,
       "frame": "internal",
@@ -2641,7 +2655,7 @@
     "url": "https://www.ula-equipment.com/product/ohm-2024",
     "discontinued": false,
     "confidence": "high",
-    "notes": "previous version, closeout pricing"
+    "notes": "Previous version, on closeout: regular $279.99, closeout $199.99 at check 2026-10-23 (ula-equipment.com Store API)."
   },
   {
     "id": "ula-cdt-ultragrid",
@@ -2713,7 +2727,7 @@
     "weight_g": 533,
     "weight_basis": "manufacturer",
     "weight_note": "range 533-632 g by config (lightest listed)",
-    "price_usd": 149.99,
+    "price_usd": 229.99,
     "specs": {
       "volume_l": 40,
       "frame": "frameless",
@@ -2731,7 +2745,7 @@
     "url": "https://www.ula-equipment.com/product/2025-ultragrid-nexus",
     "discontinued": false,
     "confidence": "high",
-    "notes": "previous version, closeout pricing"
+    "notes": "Previous version, on closeout: regular $229.99, closeout $149.99 at check 2026-10-23 (ula-equipment.com Store API)."
   },
   {
     "id": "ula-camino",
@@ -3101,8 +3115,9 @@
     "specs": {
       "volume_l": 31,
       "frame": "frameless",
-      "material": "Robic",
-      "hipbelt": true
+      "material": "100D Robic nylon",
+      "hipbelt": true,
+      "max_load_lb": 20
     },
     "url": "https://www.sixmoondesigns.com/products/flight-30-ultralight-backpack",
     "discontinued": false,
@@ -3123,8 +3138,9 @@
     "specs": {
       "volume_l": 34,
       "frame": "frameless",
-      "material": "Robic",
-      "hipbelt": true
+      "material": "210D Robic nylon",
+      "hipbelt": true,
+      "max_load_lb": 20
     },
     "url": "https://www.sixmoondesigns.com/products/wyeast-daypack",
     "discontinued": false,
@@ -3144,8 +3160,10 @@
     "price_usd": 280,
     "specs": {
       "frame": "internal",
-      "material": "Robic",
-      "hipbelt": true
+      "material": "420D Robic nylon (or X-Pac VX21)",
+      "hipbelt": true,
+      "max_load_lb": 45,
+      "volume_l": 50
     },
     "url": "https://www.sixmoondesigns.com/products/flex-pack-pr-backpack",
     "discontinued": false,
@@ -3189,13 +3207,13 @@
     "variant": "Women's",
     "weight_g": 1040,
     "weight_basis": "estimate",
-    "weight_note": "assumed same as unisex, without lid",
+    "weight_note": "short torso, without lid (lid 0.18 lb); regular 1.08 kg",
     "price_usd": 259.95,
     "specs": {
       "volume_l": 60,
       "frame": "internal",
       "max_load_lb": 35,
-      "material": "Robic",
+      "material": "Robic high-tenacity nylon (100D/210D)",
       "hipbelt": true,
       "torso_sizes": [
         "short",
@@ -3203,10 +3221,10 @@
         "long"
       ]
     },
-    "url": "https://www.granitegear.com/outdoor/backpacks/multi-day-backpacks/crown3-60-series-packs",
+    "url": "https://www.granitegear.com/outdoor/backpacks/multi-day-backpacks/crown3-60-series-packs/crown3-60-pack-3840.html",
     "discontinued": false,
-    "confidence": "medium",
-    "notes": null
+    "confidence": "high",
+    "notes": "Load rating 25 lb w/o framesheet, 35 lb with framesheet, 43 lb with aluminum stay add-on. List $259.95 (on sale $129.98 at check, 2026-10-23)."
   },
   {
     "id": "granite-gear-crown3-60-si-eco",
@@ -3296,13 +3314,13 @@
     "variant": "Women's",
     "weight_g": 1310,
     "weight_basis": "estimate",
-    "weight_note": "assumed same as unisex, without lid",
+    "weight_note": "short torso, without lid (lid 0.18 lb); regular 1.36 kg",
     "price_usd": 299.94,
     "specs": {
       "volume_l": 60,
       "frame": "internal",
       "max_load_lb": 50,
-      "material": "Robic",
+      "material": "100D Robic nylon body, 210D Robic UHMWPE triple ripstop",
       "hipbelt": true,
       "torso_sizes": [
         "short",
@@ -3312,8 +3330,8 @@
     },
     "url": "https://www.granitegear.com/outdoor/backpacks/multi-day-backpacks/blaze-60-women-s-fit.html",
     "discontinued": false,
-    "confidence": "medium",
-    "notes": null
+    "confidence": "high",
+    "notes": "List $299.94 (on sale $149.98 at check, 2026-10-23); load rating 50 lb."
   },
   {
     "id": "granite-gear-perimeter-50",
@@ -3330,7 +3348,8 @@
       "volume_l": 50,
       "frame": "internal",
       "max_load_lb": 40,
-      "hipbelt": true
+      "hipbelt": true,
+      "material": "Robic high-tenacity nylon (100D/210D)"
     },
     "url": "https://www.granitegear.com/outdoor/backpacks/multi-day-backpacks/perimeter-50-unisex.html",
     "discontinued": false,
@@ -3352,7 +3371,8 @@
       "volume_l": 35,
       "frame": "internal",
       "max_load_lb": 40,
-      "hipbelt": true
+      "hipbelt": true,
+      "material": "Robic high-tenacity nylon (100D/210D)"
     },
     "url": "https://www.granitegear.com/outdoor/backpacks/multi-day-backpacks/perimeter-35-marina-black.html",
     "discontinued": false,
@@ -3429,7 +3449,8 @@
         "S",
         "M",
         "L"
-      ]
+      ],
+      "max_load_lb": 40
     },
     "url": "https://bonfus.com/product/framus-58l/",
     "discontinued": false,
@@ -3456,7 +3477,8 @@
         "S",
         "M",
         "L"
-      ]
+      ],
+      "max_load_lb": 40
     },
     "url": "https://bonfus.com/product/framus-48l/",
     "discontinued": false,
@@ -3483,7 +3505,8 @@
         "S",
         "M",
         "L"
-      ]
+      ],
+      "max_load_lb": 33
     },
     "url": "https://bonfus.com/product/aerus-55l/",
     "discontinued": false,
@@ -3504,7 +3527,9 @@
     "specs": {
       "volume_l": 80,
       "frame": "internal",
-      "hipbelt": true
+      "hipbelt": true,
+      "max_load_lb": 55,
+      "material": "Ultra 200X"
     },
     "url": "https://bonfus.com/product/maxus-80l/",
     "discontinued": false,
@@ -3526,7 +3551,8 @@
       "volume_l": 38,
       "frame": "frameless",
       "material": "Ultra 200X",
-      "hipbelt": false
+      "hipbelt": false,
+      "max_load_lb": 22
     },
     "url": "https://bonfus.com/product/iterus-38l/",
     "discontinued": false,
@@ -3548,7 +3574,8 @@
       "volume_l": 48,
       "frame": "frameless",
       "material": "Ultra 200X",
-      "hipbelt": false
+      "hipbelt": false,
+      "max_load_lb": 24
     },
     "url": "https://bonfus.com/product/saccus-48l/",
     "discontinued": false,
@@ -3590,7 +3617,8 @@
     "specs": {
       "volume_l": 23,
       "frame": "frameless",
-      "hipbelt": false
+      "hipbelt": false,
+      "material": "Ultra 200X"
     },
     "url": "https://bonfus.com/product/fastus-23l/",
     "discontinued": false,
@@ -3628,7 +3656,7 @@
     "variant": "UltraWeave",
     "weight_g": 425,
     "weight_basis": "estimate",
-    "weight_note": "estimated between 30L and 40L listings",
+    "weight_note": "15 oz / 425 g base (up to 19 oz / 538 g depending on torso size and options)",
     "price_usd": 285,
     "specs": {
       "volume_l": 35,
@@ -3638,7 +3666,7 @@
     },
     "url": "https://liteaf.com/product/ultra-35l-curve/",
     "discontinued": false,
-    "confidence": "medium",
+    "confidence": "high",
     "notes": "custom-built"
   },
   {
@@ -3796,7 +3824,8 @@
         "S",
         "M",
         "L"
-      ]
+      ],
+      "max_load_lb": 40
     },
     "url": "https://www.swdbackpacks.com/product-page/sl40-internal-frame",
     "discontinued": false,
@@ -3823,7 +3852,8 @@
         "S",
         "M",
         "L"
-      ]
+      ],
+      "max_load_lb": 40
     },
     "url": "https://www.swdbackpacks.com/product-page/sl40-ultragrid-internal-frame",
     "discontinued": false,
@@ -3845,7 +3875,8 @@
       "volume_l": 40,
       "frame": "internal",
       "material": "UltraGrid",
-      "hipbelt": true
+      "hipbelt": true,
+      "max_load_lb": 40
     },
     "url": "https://www.swdbackpacks.com/product-page/movement-40-ultragrid-internal-frame",
     "discontinued": false,
@@ -3867,7 +3898,8 @@
       "volume_l": 50,
       "frame": "internal",
       "material": "UltraGrid",
-      "hipbelt": true
+      "hipbelt": true,
+      "max_load_lb": 50
     },
     "url": "https://www.swdbackpacks.com/product-page/long-haul-50-ultragrid-internal-frame",
     "discontinued": false,
@@ -3889,7 +3921,8 @@
       "volume_l": 50,
       "frame": "internal",
       "material": "Ultra 200X",
-      "hipbelt": true
+      "hipbelt": true,
+      "max_load_lb": 50
     },
     "url": "https://www.swdbackpacks.com/product-page/ultralight-long-haul-50l-internal-frame",
     "discontinued": false,
@@ -3911,7 +3944,8 @@
       "volume_l": 50,
       "frame": "internal",
       "material": "Ultra 400X",
-      "hipbelt": true
+      "hipbelt": true,
+      "max_load_lb": 50
     },
     "url": "https://www.swdbackpacks.com/product-page/2021-long-haul-50-ultra400-internal-frame",
     "discontinued": false,
@@ -3933,7 +3967,8 @@
       "volume_l": 70,
       "frame": "internal",
       "material": "Ultra",
-      "hipbelt": true
+      "hipbelt": true,
+      "max_load_lb": 65
     },
     "url": "https://www.swdbackpacks.com/product-page/wendigo-internal-frame",
     "discontinued": false,
@@ -3955,7 +3990,8 @@
       "volume_l": 95,
       "frame": "internal",
       "material": "Ultra",
-      "hipbelt": true
+      "hipbelt": true,
+      "max_load_lb": 65
     },
     "url": "https://www.swdbackpacks.com/product-page/wolverine-95l-internal-frame",
     "discontinued": false,
@@ -3977,7 +4013,8 @@
       "volume_l": 70,
       "frame": "internal",
       "material": "Ultra 400X",
-      "hipbelt": true
+      "hipbelt": true,
+      "max_load_lb": 65
     },
     "url": "https://www.swdbackpacks.com/product-page/big-wild-70l-ultra400",
     "discontinued": false,
@@ -3999,7 +4036,8 @@
       "volume_l": 95,
       "frame": "internal",
       "material": "Ultra 400X",
-      "hipbelt": true
+      "hipbelt": true,
+      "max_load_lb": 65
     },
     "url": "https://www.swdbackpacks.com/product-page/rugged-big-wild-95l-internal-frame",
     "discontinued": false,
@@ -4066,9 +4104,10 @@
     "specs": {
       "volume_l": 44,
       "frame": "internal",
-      "hipbelt": true
+      "hipbelt": true,
+      "material": "Raptor Cross Lite 70D nylon, 210D ripstop base"
     },
-    "url": "https://montane.com/products/montane-trailblazer-44l-backpack",
+    "url": "https://us.montane.com/products/montane-trailblazer-44l-backpack",
     "discontinued": false,
     "confidence": "high",
     "notes": "USD price from Montane's US store (us.montane.com/products/montane-trailblazer-44l-backpack), checked 2026-10-23."
@@ -4087,9 +4126,10 @@
     "specs": {
       "volume_l": 32,
       "frame": "framesheet",
-      "hipbelt": true
+      "hipbelt": true,
+      "material": "Raptor Cross Lite 70D nylon, 210D ripstop base"
     },
-    "url": "https://montane.com/products/montane-trailblazer-r-32l-backpack",
+    "url": "https://us.montane.com/products/montane-trailblazer-r-32l-backpack",
     "discontinued": false,
     "confidence": "high",
     "notes": "USD price from Montane's US store (us.montane.com/products/montane-trailblazer-r-32l-backpack), checked 2026-10-23."
@@ -4108,9 +4148,10 @@
     "specs": {
       "volume_l": 35,
       "frame": "framesheet",
-      "hipbelt": true
+      "hipbelt": true,
+      "material": "Raptor Cross 210D triple ripstop nylon"
     },
-    "url": "https://montane.com/products/montane-trailblazer-r-xt-35l-backpack",
+    "url": "https://us.montane.com/products/montane-trailblazer-r-xt-35l-backpack",
     "discontinued": false,
     "confidence": "high",
     "notes": "USD price from Montane's US store (us.montane.com/products/montane-trailblazer-r-xt-35l-backpack), checked 2026-10-23."
@@ -4129,9 +4170,10 @@
     "specs": {
       "volume_l": 28,
       "frame": "frameless",
-      "hipbelt": false
+      "hipbelt": false,
+      "material": "nylon"
     },
-    "url": "https://montane.com/products/montane-trailblazer-lt-28l-backpack",
+    "url": "https://us.montane.com/products/montane-trailblazer-lt-28l-backpack",
     "discontinued": false,
     "confidence": "high",
     "notes": "USD price from Montane's US store (us.montane.com/products/montane-trailblazer-lt-28l-backpack), checked 2026-10-23."
@@ -4152,7 +4194,7 @@
       "frame": "frameless",
       "hipbelt": false
     },
-    "url": "https://montane.com/products/montane-gecko-vp-20",
+    "url": "https://us.montane.com/products/montane-gecko-vp-20",
     "discontinued": false,
     "confidence": "high",
     "notes": "USD price from Montane's US store (us.montane.com/products/montane-gecko-vp-20), checked 2026-10-23."
@@ -4171,9 +4213,10 @@
     "specs": {
       "volume_l": 45,
       "frame": "framesheet",
-      "hipbelt": true
+      "hipbelt": true,
+      "material": "recycled nylon/polyethylene blend (88/12)"
     },
-    "url": "https://montane.com/products/montane-valen-40-5l-backpack",
+    "url": "https://us.montane.com/products/montane-valen-40-5l-backpack",
     "discontinued": false,
     "confidence": "high",
     "notes": "USD price from Montane's US store (us.montane.com/products/montane-valen-40-5l-backpack), checked 2026-10-23."
@@ -4281,7 +4324,7 @@
     "specs": {
       "volume_l": 45,
       "frame": "internal",
-      "material": "UHMWPE ripstop",
+      "material": "Challenge Ultra 200",
       "hipbelt": true,
       "torso_sizes": [
         "XS",
@@ -4309,7 +4352,7 @@
     "specs": {
       "volume_l": 30,
       "frame": "internal",
-      "material": "UHMWPE ripstop",
+      "material": "Challenge Ultra 200",
       "hipbelt": true,
       "torso_sizes": [
         "XS",
@@ -4385,11 +4428,12 @@
     "weight_g": 796,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": 119.97,
+    "price_usd": 199.95,
     "specs": {
       "volume_l": 30,
       "frame": "framesheet",
-      "hipbelt": true
+      "hipbelt": true,
+      "material": "recycled nylon"
     },
     "url": "https://blackdiamondequipment.com/products/pursuit-30-backpack",
     "discontinued": false,
@@ -4414,7 +4458,8 @@
       "torso_sizes": [
         "S/M",
         "M/L"
-      ]
+      ],
+      "material": "BD X-rip 210D nylon, UTS coating"
     },
     "url": "https://blackdiamondequipment.com/products/speed-40-backpack",
     "discontinued": false,
@@ -4527,12 +4572,14 @@
         "S",
         "M",
         "L"
-      ]
+      ],
+      "max_load_lb": 32,
+      "material": "EPX200 (recycled 210D polyester grid)"
     },
     "url": "https://www.northernultralight.com/store/sundown",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Canadian maker; from CAD 420 (price_usd null)"
+    "notes": "Specs from northernultralight.com product data (load rating ~30-32 lb). Store prices only in CAD (base C$506) - no USD list price, left null. Checked 2026-10-23."
   },
   {
     "id": "northern-ultralight-dreamline",
@@ -4552,12 +4599,15 @@
         "S",
         "M",
         "L"
-      ]
+      ],
+      "max_load_lb": 50,
+      "volume_l": 50,
+      "material": "ECOPAK / UltraGrid recycled fabrics"
     },
     "url": "https://www.northernultralight.com/store/dreamline",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Canadian maker; from CAD 636 (price_usd null)"
+    "notes": "Specs from northernultralight.com product data (44 L main + 6 L pockets; load under 50 lb). Store prices only in CAD (base C$722) - no USD list price, left null. Checked 2026-10-23."
   },
   {
     "id": "deuter-aircontact-ultra-50-5",
@@ -4815,15 +4865,15 @@
     "brand": "Osprey",
     "model": "Eja 38",
     "variant": "Women's",
-    "weight_g": 1020,
+    "weight_g": 1178,
     "weight_basis": "manufacturer",
-    "weight_note": "approx., size-dependent",
-    "price_usd": 220,
+    "weight_note": "WXS/S 2.597 lb; WM/L 2.686 lb (1218 g)",
+    "price_usd": 245,
     "specs": {
       "volume_l": 38,
       "frame": "internal",
-      "max_load_lb": 30,
-      "material": "100D/210D nylon",
+      "max_load_lb": 25,
+      "material": "recycled 100D high-tenacity nylon ripstop",
       "hipbelt": true,
       "torso_sizes": [
         "XS/S",
@@ -4832,8 +4882,8 @@
     },
     "url": "https://www.osprey.com/us/en/product/eja-38",
     "discontinued": false,
-    "confidence": "medium",
-    "notes": "weights/prices recalled; osprey.com blocked automated access this session"
+    "confidence": "high",
+    "notes": "Price/weight/load range (20-25 lb) from Osprey spec text on Campmor (US retailer, Shopify JSON), checked 2026-10-23; osprey.com blocks automated access."
   },
   {
     "id": "osprey-eja-48",
@@ -5377,9 +5427,9 @@
       "hipbelt": false
     },
     "url": "https://mountainlaureldesigns.com/shop/packs/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": "MLD store closed/packs not listed during this session; values recalled"
+    "notes": "Not currently sold: MLD product page /product/burn/ resolves to an unpublished post (404) and product-category/packs shows 'No products' (checked 2026-10-23). Specs/price recalled."
   },
   {
     "id": "mld-prophet",
@@ -5400,9 +5450,9 @@
       "hipbelt": true
     },
     "url": "https://mountainlaureldesigns.com/shop/packs/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": "MLD store closed/packs not listed during this session; values recalled"
+    "notes": "Not currently sold: MLD product page /product/prophet/ resolves to an unpublished post (404) and product-category/packs shows 'No products' (checked 2026-10-23). Specs/price recalled."
   },
   {
     "id": "mld-exodus",
@@ -5423,9 +5473,9 @@
       "hipbelt": true
     },
     "url": "https://mountainlaureldesigns.com/shop/packs/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": "MLD store closed/packs not listed during this session; values recalled"
+    "notes": "Not currently sold: /product/exodus/ 404 and MLD product-category/packs shows 'No products' (checked 2026-10-23). Specs/price recalled."
   },
   {
     "id": "waymark-thru-40",
@@ -5451,23 +5501,30 @@
   {
     "id": "nashville-packs-cutaway",
     "category": "backpack",
-    "subcategory": "framesheet",
+    "subcategory": "frameless",
     "brand": "Nashville Packs",
-    "model": "Cutaway",
+    "model": "Cutaway 30",
     "variant": null,
-    "weight_g": 500,
-    "weight_basis": "estimate",
-    "weight_note": "approx.",
-    "price_usd": 279,
+    "weight_g": 394,
+    "weight_basis": "manufacturer",
+    "weight_note": "18\" torso",
+    "price_usd": 237,
     "specs": {
-      "volume_l": 40,
-      "frame": "framesheet",
-      "hipbelt": true
+      "volume_l": 43,
+      "frame": "frameless",
+      "hipbelt": false,
+      "max_load_lb": 25,
+      "material": "210D Venom Gridstop ECO (or X-Pac EPX70RS)",
+      "torso_sizes": [
+        "16in",
+        "18in",
+        "20in"
+      ]
     },
-    "url": "https://nashvillepacks.com/",
+    "url": "https://www.garagegrowngear.com/products/cutaway-pack-by-nashville-packs",
     "discontinued": false,
-    "confidence": "low",
-    "notes": "site unreachable this session; framed and frameless versions offered"
+    "confidence": "high",
+    "notes": "Specs/price from Garage Grown Gear (US retailer) listing: 43 L total (33 L internal) for 18\" torso, frameless, hipbelt attachment points only. nashvillepacks.com unreachable (proxy 502). Checked 2026-10-23."
   },
   {
     "id": "zimmerbuilt-quickstep",
@@ -5486,9 +5543,9 @@
       "hipbelt": false
     },
     "url": "https://www.zimmerbuilt.com/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": "custom/small-batch maker"
+    "notes": "Not listed on zimmerbuilt.com: the store now lists only in-stock fishing/tenkara packs and accessories (checked 2026-10-23). Specs recalled."
   },
   {
     "id": "elemental-horizons-kalais",
@@ -5518,19 +5575,21 @@
     "brand": "3F UL Gear",
     "model": "QiDian Pro",
     "variant": "46+10L",
-    "weight_g": 950,
-    "weight_basis": "estimate",
+    "weight_g": 880,
+    "weight_basis": "manufacturer",
     "weight_note": "approx.",
-    "price_usd": 100,
+    "price_usd": 92,
     "specs": {
       "volume_l": 56,
       "frame": "internal",
-      "hipbelt": true
+      "hipbelt": true,
+      "max_load_lb": 30,
+      "material": "UHMWPE/nylon blend"
     },
-    "url": null,
+    "url": "https://3fulgear.com/product/packs/qidian-pro-backpack/",
     "discontinued": false,
-    "confidence": "low",
-    "notes": "budget pack sold via marketplaces"
+    "confidence": "high",
+    "notes": "USD price, weight, 14 kg/30 lb load, 56 L from 3F UL Gear store (WooCommerce), checked 2026-10-23."
   },
   {
     "id": "exped-lightning-45",
@@ -5584,7 +5643,7 @@
     "weight_g": 410,
     "weight_basis": "manufacturer",
     "weight_note": "UltraGrid version; Ecopak EPX200 version 490 g",
-    "price_usd": null,
+    "price_usd": 255,
     "specs": {
       "volume_l": 35,
       "frame": "frameless",
@@ -5595,7 +5654,7 @@
     "url": "https://www.backpackinglight.com.au/products/liteway-gramless-ultra-35l-pack",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-gramless-ultra-35l-pack), checked 2026-10-23. Sold in AUD only there; no USD price found."
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-gramless-ultra-35l-pack), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"LITEWAY GRAMLESS PACK 35L (non-Ultra; UltraGrid is the lower AU price tier)\"), checked 2026-10-23."
   },
   {
     "id": "liteway-hkr-pack-ultra-35l",
@@ -5607,17 +5666,18 @@
     "weight_g": 390,
     "weight_basis": "manufacturer",
     "weight_note": "complete; 314 g without straps and shock cords",
-    "price_usd": null,
+    "price_usd": 349,
     "specs": {
       "volume_l": 35,
       "frame": "frameless",
       "material": "Ultra 100",
-      "torso_sizes": "XS/S, M/L"
+      "torso_sizes": "XS/S, M/L",
+      "max_load_lb": 26
     },
     "url": "https://www.backpackinglight.com.au/products/liteway-hkr-pack-ultra-35l",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-hkr-pack-ultra-35l), checked 2026-10-23. Sold in AUD only there; no USD price found."
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-hkr-pack-ultra-35l), checked 2026-10-23. USD price from Liteway official eBay store (ebay.com/str/litewayofficial, \"HKR PACK ULTRA 35L\"), checked 2026-10-23."
   },
   {
     "id": "liteway-urban-pro-pack-18l-ultragrid",
