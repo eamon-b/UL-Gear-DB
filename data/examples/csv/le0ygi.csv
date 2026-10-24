@@ -1,0 +1,76 @@
+Item Name,Category,desc,qty,weight,unit,url,price,worn,consumable
+raquettes ,SUR MOI - PERMANENT,MSR evo ascent,1,1770,gram,,0,Worn,
+chaussures T45,SUR MOI - PERMANENT,Salomon Nytro gtx,1,1286,gram,,0,Worn,
+chaussettes,SUR MOI - PERMANENT,Patagonia capilene,1,72,gram,,0,Worn,
+collant merinos,SUR MOI - PERMANENT,Odlo,1,197,gram,,0,Worn,
+"pantalon 3 couches (guetres int., zips latéraux)",SUR MOI - PERMANENT,Halti Drymaxx,1,850,gram,,0,Worn,
+t-shirt manches longues merinos,SUR MOI - PERMANENT,HH,1,297,gram,,0,Worn,
+Polaire à capuche,SUR MOI - PERMANENT,Patagonia R2 techface,1,533,gram,,0,Worn,
+caleçon ,SUR MOI - PERMANENT,D4,1,52,gram,,0,Worn,
+veste pluie,VETEMENTS SAC - MODULABLE,North Face / Futurelight,1,510,gram,,0,,
+buff merinos,VETEMENTS SAC - MODULABLE,,1,60,gram,,0,,
+bonnet polaire ,VETEMENTS SAC - MODULABLE,Weeze,1,28,gram,,0,,
+gants polaire windstopper,VETEMENTS SAC - MODULABLE,Millet,1,125,gram,,0,,
+surmouffle gtx,VETEMENTS SAC - MODULABLE,Extremities,1,73,gram,,0,,
+sous gants merinos,VETEMENTS SAC - MODULABLE,Icebreaker,1,28,gram,,0,,
+chaussettes chaudes,VETEMENTS SAC - MODULABLE,Nature & Découvertes,1,120,gram,,0,,
+pantalon polaire,VETEMENTS SAC - MODULABLE,D4 T100,1,173,gram,,0,,
+doudoune duvet à capuche + housse,VETEMENTS SAC - MODULABLE,Rab Microlight Alpine,1,480,gram,,0,,
+bonnet polaire,VETEMENTS SAC - MODULABLE,D4,1,27,gram,,0,,
+gants polaire coupe vent,BACKUP,,1,80,gram,,0,,
+chaussettes,BACKUP,D4,1,72,gram,,0,,
+sac à dos + deux poches ventrales,PORTAGE,KS Ultralight Gear KR50,1,750,gram,,0,,
+sac étanche ,PORTAGE,Arklight,1,29,gram,,0,,
+popotte 2L + couvercle + housse,CUISINE ,Toaks titanium,1,275,gram,,0,,
+mug 55cl + housse,CUISINE ,Toaks titanium ,1,80,gram,,0,,
+cuillère pliante titane,CUISINE ,Ti-time,1,15,gram,,0,,
+réchaud à bois + housse,CUISINE ,Ferzil 9 titane,1,116,gram,,0,,
+firesteel,CUISINE ,,1,28,gram,,0,,
+bouteille 1L,CUISINE ,Nalgene,1,108,gram,,0,,
+allumes feu,CUISINE ,paille + cire,1,135,gram,,0,,Consumable
+gratte gratte,CUISINE ,,1,2,gram,,0,,
+mini bic,CUISINE ,,1,11,gram,,0,,
+scie,CUISINE ,Fiskars sw73 xtract small,1,106,gram,,0,,
+couteau,CUISINE ,Mora Compagnon MG Carbon,1,78,gram,,0,,
+sac de couchage,COUCHAGE,Pajak Core 550 + housse,1,1000,gram,,0,,
+matelas ,COUCHAGE,Thermarest Neo-Air,1,436,gram,,0,,
+tapis de sol,COUCHAGE,Arkmat 127,1,127,gram,,0,,
+"tarp 3x2,9m sans housse",COUCHAGE,DD Hammocks,1,465,gram,,0,,
+haubans + faîtière,COUCHAGE,DD Hammocks,1,60,gram,,0,,
+couverture en Tyvek ,COUCHAGE,"2x1,5m",1,130,gram,,0,,
+téléphone,PETIT MATERIEL,Nokia 1209,1,70,gram,,0,,
+portefeuille,PETIT MATERIEL,papiers identité + CB + 50€,1,20,gram,,0,,
+boussole,PETIT MATERIEL,Recta,1,28,gram,,0,,
+frontale ,PETIT MATERIEL,Petzl Bindi + câble usb,1,40,gram,,0,,
+batterie sup. frontale,PETIT MATERIEL,Petzl,1,23,gram,,0,,
+lunettes soleil ,PETIT MATERIEL,Oakley,1,35,gram,,0,,
+sac poubelle à zip,PETIT MATERIEL,,1,12,gram,,0,,
+duct tape + cordelette,PETIT MATERIEL,,1,20,gram,,0,,
+feuille de route,PETIT MATERIEL,,1,2,gram,,0,,
+serviette microfibre 20x20cm,HYGIENE / SANTE,,1,18,gram,,0,,
+pq ,HYGIENE / SANTE,paquet de mouchoir,1,23,gram,,0,,
+lingettes déshydratées,HYGIENE / SANTE,,1,10,gram,,0,,
+brosse à dent bambou,HYGIENE / SANTE,,1,5,gram,,0,,
+savon Marseille ,HYGIENE / SANTE,(désinfectant/vaisselle/dentifrice),1,5,gram,,0,,
+beurre karité,HYGIENE / SANTE,,1,10,gram,,0,,
+pansements,HYGIENE / SANTE,,1,3,gram,,0,,
+sérum phy,HYGIENE / SANTE,,1,5,gram,,0,,
+argile verte,HYGIENE / SANTE,,1,0,gram,,0,,
+Total trousse,HYGIENE / SANTE,,1,60,gram,,0,,
+mélange ptit déj,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,"crèmes (riz/avoine), noix coco, amande, fèves cacao, myrtille",5,130,gram,,0,,Consumable
+sachet thé / maté,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,,5,3,gram,,0,,Consumable
+barre choco noix coco,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,Candy VIlle,6,51,gram,,0,,Consumable
+barre energy,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,Buddha Energy,6,40,gram,,0,,Consumable
+boîte sardine,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,,6,72,gram,,0,,Consumable
+tisane,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,Yogi Tea,6,3,gram,,0,,Consumable
+mélange fruits secs,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,"noix pécan, graines courge, noisettes, raisins secs, amandes",6,140,gram,,0,,Consumable
+2 tranches pain Essen,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,,5,110,gram,,0,,Consumable
+Cachet vitamine C,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,UPSA,6,2,gram,,0,,Consumable
+sachet soupe lyophilisée,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,,5,10,gram,,0,,Consumable
+bouillon cube ,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,,5,10,gram,,0,,Consumable
+purée en flocon ,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,+ crème de riz,3,83,gram,,0,,Consumable
+riz,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,blanc basmati,2,145,gram,,0,,Consumable
+levure maltée,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,,1,50,gram,,0,,Consumable
+huile d'olive,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,(avec btlle plastique),1,160,gram,,0,,Consumable
+purée sésame,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,(avec pot plastique),1,250,gram,,0,,Consumable
+contenants,NOURRITURE +/- 3100kcal/jour = 445kcal/100g,"zip-lock, plastiques, film étirable",1,100,gram,,0,,
