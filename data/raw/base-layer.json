@@ -3682,5 +3682,291 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Heavyweight; cold-weather camp/sleep layer"
+  },
+  {
+    "id": "xoskin-xounderwear-seamless-liner-shorts-mens",
+    "category": "base-layer",
+    "subcategory": "underwear",
+    "brand": "XOSKIN",
+    "model": "XOUNDERWEAR Seamless Liner Shorts",
+    "variant": "Men's",
+    "weight_g": 156,
+    "weight_basis": "manufacturer",
+    "weight_note": "Garage Grown Gear-listed 5.5 oz / 156 g (size not stated)",
+    "price_usd": 37,
+    "specs": {
+      "material": "88% RAPIDriCOPPER nylon, 12% spandex",
+      "gender": "men"
+    },
+    "url": "https://www.garagegrowngear.com/products/3-1-mens-xounderwear-seamless-liner-shorts-by-xoskin",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Mid-thigh, ~6 in flat inseam"
+  },
+  {
+    "id": "wuru-wool-100-merino-short-sleeve-mens",
+    "category": "base-layer",
+    "subcategory": "hiking shirt",
+    "brand": "Wūru Wool",
+    "model": "100% Merino Wool Short Sleeve",
+    "variant": "Men's",
+    "weight_g": 198,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Wūru-listed 7 oz / 198 g",
+    "price_usd": 89.95,
+    "specs": {
+      "material": "100% merino, 18.9 micron",
+      "gsm": 170,
+      "gender": "men"
+    },
+    "url": "https://wuruwool.com/products/mens-merino-100-wool-short-sleeve",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UPF 50+; made in USA"
+  },
+  {
+    "id": "wuru-wool-100-merino-relaxed-crew-short-sleeve-womens",
+    "category": "base-layer",
+    "subcategory": "hiking shirt",
+    "brand": "Wūru Wool",
+    "model": "100% Merino Relaxed Crew Short Sleeve",
+    "variant": "Women's",
+    "weight_g": 198,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Wūru-listed 7 oz / 198 g",
+    "price_usd": 89.95,
+    "specs": {
+      "material": "100% merino, 18.9 micron",
+      "gsm": 170,
+      "gender": "women"
+    },
+    "url": "https://wuruwool.com/products/womens-100-merino-crew-neck-sleeve-shirt",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UPF 50+; made in USA"
+  },
+  {
+    "id": "wuru-wool-100-merino-lightweight-hoodie-mens",
+    "category": "base-layer",
+    "subcategory": "sun hoody",
+    "brand": "Wūru Wool",
+    "model": "100% Merino Lightweight Hoodie",
+    "variant": "Men's",
+    "weight_g": 215,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Wūru-listed 7.6 oz / 215 g",
+    "price_usd": 119.95,
+    "specs": {
+      "material": "100% merino, 18.9 micron",
+      "gsm": 170,
+      "gender": "men"
+    },
+    "url": "https://wuruwool.com/products/mens-100-merino-lightweight-hoodie",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UPF 50+; thumb loops; made in USA"
+  },
+  {
+    "id": "wuru-wool-100-merino-lightweight-hoodie-womens",
+    "category": "base-layer",
+    "subcategory": "sun hoody",
+    "brand": "Wūru Wool",
+    "model": "100% Merino Lightweight Hoodie",
+    "variant": "Women's",
+    "weight_g": 210,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Wūru-listed 7.4 oz / 210 g",
+    "price_usd": 119.95,
+    "specs": {
+      "material": "100% merino, 18.9 micron",
+      "gsm": 170,
+      "gender": "women"
+    },
+    "url": "https://wuruwool.com/products/womens-100-merino-lightweight-hoodie",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UPF 50+; thumb loops; made in USA"
+  },
+  {
+    "id": "sambob-coastal-sun-hoodie",
+    "category": "base-layer",
+    "subcategory": "sun hoody",
+    "brand": "Sambob",
+    "model": "Coastal Sun Hoodie",
+    "variant": null,
+    "weight_g": 278,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 9.8 oz / 278 g",
+    "price_usd": 90,
+    "specs": {
+      "material": "Polartec Delta (polyester/lyocell/spandex)",
+      "gender": "unisex"
+    },
+    "url": "https://www.garagegrowngear.com/products/coastal-sun-hoodie-by-sambob",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UPF 30; heavier, more wind-resistant Delta fabric than typical sun hoodies; small-batch"
+  },
+  {
+    "id": "burgeon-outdoor-sunseeker-hoodie-mens",
+    "category": "base-layer",
+    "subcategory": "sun hoody",
+    "brand": "Burgeon Outdoor",
+    "model": "Sunseeker Hoodie",
+    "variant": "Men's",
+    "weight_g": 184,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 6.5 oz / 184 g (S 178 g, XXL 255 g)",
+    "price_usd": 109.95,
+    "specs": {
+      "material": "Polartec Delta: 62% recycled polyester, 35% lyocell, 3% spandex",
+      "gender": "men"
+    },
+    "url": "https://burgeonoutdoor.com/products/sunseekerhoodiemens",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UPF 30; made in New Hampshire"
+  },
+  {
+    "id": "burgeon-outdoor-sunseeker-hoodie-womens",
+    "category": "base-layer",
+    "subcategory": "sun hoody",
+    "brand": "Burgeon Outdoor",
+    "model": "Sunseeker Hoodie",
+    "variant": "Women's",
+    "weight_g": 167,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 5.9 oz / 167 g (XS 145 g, XL 194 g)",
+    "price_usd": 109.95,
+    "specs": {
+      "material": "Polartec Delta: 62% recycled polyester, 35% lyocell, 3% spandex",
+      "gender": "women"
+    },
+    "url": "https://burgeonoutdoor.com/products/sunseekerhoodiewomens",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UPF 30; made in New Hampshire"
+  },
+  {
+    "id": "branwyn-essential-bralette",
+    "category": "base-layer",
+    "subcategory": "underwear",
+    "brand": "BRANWYN",
+    "model": "Essential Bralette",
+    "variant": null,
+    "weight_g": 62,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 2.2 oz / 62 g",
+    "price_usd": 52,
+    "specs": {
+      "material": "81% merino, 14% nylon, 5% spandex",
+      "gender": "women"
+    },
+    "url": "https://branwyn.com/products/seamless-merino-wool-essential-bralette",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Seamless merino bra, light support, convertible straps"
+  },
+  {
+    "id": "branwyn-essential-racerback-sports-bra",
+    "category": "base-layer",
+    "subcategory": "underwear",
+    "brand": "BRANWYN",
+    "model": "Essential Racerback Sports Bra",
+    "variant": null,
+    "weight_g": 136,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 4.8 oz / 136 g",
+    "price_usd": 85,
+    "specs": {
+      "material": "76% merino, 14% nylon, 10% elastane",
+      "gender": "women"
+    },
+    "url": "https://branwyn.com/products/womens-seamless-merino-wool-racerback-sports-bra",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Seamless compressive merino sports bra"
+  },
+  {
+    "id": "branwyn-essential-boyshort",
+    "category": "base-layer",
+    "subcategory": "underwear",
+    "brand": "BRANWYN",
+    "model": "Essential Boyshort",
+    "variant": null,
+    "weight_g": 54,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 1.9 oz / 54 g",
+    "price_usd": 42,
+    "specs": {
+      "material": "81% merino, 14% nylon, 5% spandex",
+      "gender": "women"
+    },
+    "url": "https://branwyn.com/products/essential-womens-seamless-merino-wool-boyshort-underwear",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "branwyn-essential-hipster",
+    "category": "base-layer",
+    "subcategory": "underwear",
+    "brand": "BRANWYN",
+    "model": "Essential Hipster",
+    "variant": null,
+    "weight_g": 45,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 1.6 oz / 45 g",
+    "price_usd": 40,
+    "specs": {
+      "material": "81% merino, 14% nylon, 5% spandex",
+      "gender": "women"
+    },
+    "url": "https://branwyn.com/products/womens-seamless-merino-wool-essential-hipster",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "voormi-river-run-hoodie-mens",
+    "category": "base-layer",
+    "subcategory": "sun hoody",
+    "brand": "Voormi",
+    "model": "River Run Hoodie",
+    "variant": "Men's",
+    "weight_g": 186,
+    "weight_basis": "manufacturer",
+    "weight_note": "size L, Voormi-listed 186 g",
+    "price_usd": 139,
+    "specs": {
+      "material": "52% wool, 48% polyester",
+      "gsm": 120,
+      "gender": "men"
+    },
+    "url": "https://voormi.com/products/mens-river-run-hoodie",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UPF 30+; GGG lists 7 oz / 198 g (L); maker figure used"
+  },
+  {
+    "id": "voormi-river-run-hoodie-womens",
+    "category": "base-layer",
+    "subcategory": "sun hoody",
+    "brand": "Voormi",
+    "model": "River Run Hoodie",
+    "variant": "Women's",
+    "weight_g": 142,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 5 oz / 142 g",
+    "price_usd": 139,
+    "specs": {
+      "material": "52% wool, 48% polyester",
+      "gsm": 120,
+      "gender": "women"
+    },
+    "url": "https://voormi.com/products/womens-river-shirt",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UPF 30+; maker page gives no weight, so GGG figure used"
   }
 ]

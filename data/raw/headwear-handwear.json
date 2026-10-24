@@ -2092,5 +2092,253 @@
     "discontinued": false,
     "confidence": "high",
     "brand": "Timmermade"
+  },
+  {
+    "id": "skygoat-camp-beanie",
+    "category": "headwear-handwear",
+    "subcategory": "beanie",
+    "brand": "SkyGOAT",
+    "model": "CAMP Beanie",
+    "variant": null,
+    "weight_g": 25,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Garage Grown Gear-listed 0.9 oz / 25 g",
+    "price_usd": 30,
+    "specs": {
+      "material": "GOATgrid recycled polyester fleece"
+    },
+    "url": "https://www.garagegrowngear.com/products/camp-beanie-by-skygoat",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "skygoat-camp-mittens",
+    "category": "headwear-handwear",
+    "subcategory": "insulated glove/mitt",
+    "brand": "SkyGOAT",
+    "model": "CAMP Mittens",
+    "variant": null,
+    "weight_g": 28,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair, size M, Garage Grown Gear-listed 0.99 oz / 28 g",
+    "price_usd": 30,
+    "specs": {
+      "material": "GOATgrid recycled polyester fleece"
+    },
+    "url": "https://www.garagegrowngear.com/products/camp-mittens-by-skygoat",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Split-palm fleece mitten; flips to fingerless"
+  },
+  {
+    "id": "fractel-m-series-cap",
+    "category": "headwear-handwear",
+    "subcategory": "sun hat",
+    "brand": "FRACTEL",
+    "model": "M-Series Cap",
+    "variant": null,
+    "weight_g": 57,
+    "weight_basis": "manufacturer",
+    "weight_note": "Garage Grown Gear-listed 2 oz (also states 68 g); oz figure used",
+    "price_usd": 40,
+    "specs": {
+      "material": "recycled polyester, mesh panels"
+    },
+    "url": "https://www.garagegrowngear.com/products/m-series-cap-by-fractel",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "UPF 50+ running cap; $40-50 depending on colorway. Weight listing inconsistent (2 oz vs 68 g)"
+  },
+  {
+    "id": "fractel-l-series-legionnaire-hat",
+    "category": "headwear-handwear",
+    "subcategory": "sun hat",
+    "brand": "FRACTEL",
+    "model": "L-Series Legionnaire Hat",
+    "variant": null,
+    "weight_g": 62,
+    "weight_basis": "manufacturer",
+    "weight_note": "Garage Grown Gear-listed 2.2 oz / 62 g",
+    "price_usd": 55,
+    "specs": {
+      "material": "recycled polyester"
+    },
+    "url": "https://www.garagegrowngear.com/products/legionnaire-hat-sized-by-fractel",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "UPF 50+; sized S/M and L/XL"
+  },
+  {
+    "id": "fractel-m-series-winter-cap",
+    "category": "headwear-handwear",
+    "subcategory": "sun hat",
+    "brand": "FRACTEL",
+    "model": "M-Series Winter Cap",
+    "variant": null,
+    "weight_g": 85,
+    "weight_basis": "manufacturer",
+    "weight_note": "Garage Grown Gear-listed 3 oz / 85 g",
+    "price_usd": 50,
+    "specs": {
+      "material": "Polartec Wind Pro fleece"
+    },
+    "url": "https://www.garagegrowngear.com/products/m-series-winter-cap-by-fractel",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Fleece cold-weather cap with brim"
+  },
+  {
+    "id": "fractel-l-series-winter-legionnaire-hat",
+    "category": "headwear-handwear",
+    "subcategory": "sun hat",
+    "brand": "FRACTEL",
+    "model": "L-Series Winter Legionnaire Hat",
+    "variant": null,
+    "weight_g": 150,
+    "weight_basis": "manufacturer",
+    "weight_note": "Garage Grown Gear-listed 5.3 oz / 150 g",
+    "price_usd": 65,
+    "specs": {
+      "material": "Polartec Wind Pro fleece"
+    },
+    "url": "https://www.garagegrowngear.com/products/l-series-winter-legionnaire-hat-sized-by-fractel",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Fleece legionnaire with ear/neck flap for cold, windy conditions"
+  },
+  {
+    "id": "parapack-p-cap",
+    "category": "headwear-handwear",
+    "subcategory": "sun hat",
+    "brand": "Parapack",
+    "model": "P-CAP",
+    "variant": null,
+    "weight_g": 28,
+    "weight_basis": "manufacturer",
+    "weight_note": "Garage Grown Gear-listed 1 oz / 28 g",
+    "price_usd": 39.99,
+    "specs": {
+      "material": "UPF 50+ recycled polyester ripstop"
+    },
+    "url": "https://www.garagegrowngear.com/products/p-cap-by-parapack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Packable cord-adjust cap, one size fits most"
+  },
+  {
+    "id": "parapack-p-cap-lite",
+    "category": "headwear-handwear",
+    "subcategory": "sun hat",
+    "brand": "Parapack",
+    "model": "P-CAP Lite",
+    "variant": null,
+    "weight_g": 23,
+    "weight_basis": "manufacturer",
+    "weight_note": "Garage Grown Gear-listed 0.8 oz / 23 g",
+    "price_usd": 44.99,
+    "specs": {
+      "material": "recycled polyester ripstop front, nylon 6 monomesh back"
+    },
+    "url": "https://www.garagegrowngear.com/products/p-cap-lite-by-parapack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Mesh-back version of the P-CAP"
+  },
+  {
+    "id": "parapack-l-cap",
+    "category": "headwear-handwear",
+    "subcategory": "sun hat",
+    "brand": "Parapack",
+    "model": "L-CAP",
+    "variant": null,
+    "weight_g": 58,
+    "weight_basis": "manufacturer",
+    "weight_note": "Garage Grown Gear-listed 2 oz / 58 g",
+    "price_usd": 60,
+    "specs": {
+      "material": "UPF 50+ recycled polyester ripstop"
+    },
+    "url": "https://www.garagegrowngear.com/products/l-cap-by-parapack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Cap with removable/tuckable sun cape"
+  },
+  {
+    "id": "parapack-b-cap",
+    "category": "headwear-handwear",
+    "subcategory": "sun hat",
+    "brand": "Parapack",
+    "model": "B-CAP",
+    "variant": null,
+    "weight_g": 58,
+    "weight_basis": "manufacturer",
+    "weight_note": "Garage Grown Gear-listed 2 oz / 58 g",
+    "price_usd": 60,
+    "specs": {
+      "material": "UPF 50+ recycled polyester ripstop, mesh sides"
+    },
+    "url": "https://www.garagegrowngear.com/products/b-cap-bucket-hat-by-parapack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Packable bucket-style hat"
+  },
+  {
+    "id": "moosetrack-packs-switchback-convertible-mittens",
+    "category": "headwear-handwear",
+    "subcategory": "insulated glove/mitt",
+    "brand": "MooseTrack Packs",
+    "model": "SwitchBack Convertible Mittens",
+    "variant": null,
+    "weight_g": 37,
+    "weight_basis": "manufacturer",
+    "weight_note": "size S/M; L/XL 45 g",
+    "price_usd": 30,
+    "specs": {
+      "material": "Polartec Power Grid"
+    },
+    "url": "https://www.garagegrowngear.com/products/switchback-convertible-mittens-by-moose-track-packs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Flip-top mitten over open fingers."
+  },
+  {
+    "id": "high-tail-designs-hiking-gaiter",
+    "category": "headwear-handwear",
+    "subcategory": "neck gaiter",
+    "brand": "High Tail Designs",
+    "model": "Hiking Gaiter",
+    "variant": null,
+    "weight_g": 35,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 21,
+    "specs": {
+      "material": "100% polyester"
+    },
+    "url": "https://www.garagegrowngear.com/products/hiking-gaiter-by-high-tail-designs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "etowah-ultralight-overmitts",
+    "category": "headwear-handwear",
+    "subcategory": "rain mitt",
+    "brand": "Etowah Outfitters",
+    "model": "Ultralight Overmitts",
+    "variant": null,
+    "weight_g": 34,
+    "weight_basis": "manufacturer",
+    "weight_note": "size Medium",
+    "price_usd": 37,
+    "specs": {
+      "waterproof": false,
+      "material": "10D WPB laminate upper, PU-coated nylon palm"
+    },
+    "url": "https://www.garagegrowngear.com/products/ultralight-overmitts-by-etowah-outfitters",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Water-resistant, not seam-sealed."
   }
 ]

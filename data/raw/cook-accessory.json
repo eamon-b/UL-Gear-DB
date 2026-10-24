@@ -1352,5 +1352,449 @@
     "discontinued": false,
     "confidence": "low",
     "notes": null
+  },
+  {
+    "id": "qiwiz-titanium-windscreen-small",
+    "category": "cook-accessory",
+    "subcategory": "windscreen",
+    "brand": "QiWiz UL Gear",
+    "model": "Titanium Windscreen",
+    "variant": "Small",
+    "weight_g": 15,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 23.9,
+    "specs": {
+      "material": "titanium",
+      "fits": "pots up to 4 in (10 cm) diameter"
+    },
+    "url": "https://www.garagegrowngear.com/products/titanium-windscreen-by-qiwiz-ul-gear-1",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "TOAKS 550 version is 13 g."
+  },
+  {
+    "id": "qiwiz-adjustable-titanium-windscreen",
+    "category": "cook-accessory",
+    "subcategory": "windscreen",
+    "brand": "QiWiz UL Gear",
+    "model": "Adjustable Titanium Windscreen",
+    "variant": null,
+    "weight_g": 31,
+    "weight_basis": "manufacturer",
+    "weight_note": "30.5 g incl. stainless adjustment clips",
+    "price_usd": 25,
+    "specs": {
+      "material": "titanium",
+      "fits": "pots up to 6 in diameter"
+    },
+    "url": "https://www.garagegrowngear.com/products/titanium-windscreen-by-qiwiz-ul-gear",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "qiwiz-mesh-pot-stand",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "QiWiz UL Gear",
+    "model": "Mesh Pot Stand",
+    "variant": null,
+    "weight_g": 11,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 4.99,
+    "specs": {
+      "material": "stainless steel"
+    },
+    "url": "https://www.garagegrowngear.com/products/mesh-pot-stand-by-qiwiz-ul-gear",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Pot stand for alcohol/Esbit stoves."
+  },
+  {
+    "id": "flat-cat-gear-ocelot-ez-windscreen-pocket-rocket",
+    "category": "cook-accessory",
+    "subcategory": "windscreen",
+    "brand": "Flat Cat Gear",
+    "model": "Ocelot EZ Windscreen",
+    "variant": "Pocket Rocket",
+    "weight_g": 30,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 19.95,
+    "specs": {
+      "material": "stainless steel",
+      "fits": "MSR PocketRocket 2 / Deluxe, mugs up to 750 ml"
+    },
+    "url": "https://www.garagegrowngear.com/products/ocelot-ez-windscreen-by-flat-cat-gear",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Canister-stove windscreen/burner plate; also sold for 30+ other stove/pot combos."
+  },
+  {
+    "id": "flat-cat-gear-ocelot-3-8-windscreen-brs-3000t",
+    "category": "cook-accessory",
+    "subcategory": "windscreen",
+    "brand": "Flat Cat Gear",
+    "model": "Ocelot 3.8 Windscreen",
+    "variant": "BRS 3000t",
+    "weight_g": 32,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 29.95,
+    "specs": {
+      "material": "stainless steel",
+      "fits": "BRS 3000t, 95 mm TOAKS mugs"
+    },
+    "url": "https://www.garagegrowngear.com/products/toaks-ocelot-windscreen-by-flat-cat-gear",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "PocketRocket Mini version 29 g."
+  },
+  {
+    "id": "brautigam-long-titanium-spoon",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Brautigam Expedition Works",
+    "model": "Long Titanium Spoon",
+    "variant": null,
+    "weight_g": 17,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 24,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://brautigamexpeditionworks.com/products/long-titanium-spoon",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "9.65 in long-reach spoon. Natural finish price; anodized colors cost more."
+  },
+  {
+    "id": "brautigam-long-titanium-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Brautigam Expedition Works",
+    "model": "Long Titanium Spork",
+    "variant": null,
+    "weight_g": 17,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 24,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://brautigamexpeditionworks.com/products/long-titanium-spork",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Natural finish price; anodized colors cost more."
+  },
+  {
+    "id": "brautigam-the-dually",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Brautigam Expedition Works",
+    "model": "The Dually",
+    "variant": null,
+    "weight_g": 19,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 30,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://brautigamexpeditionworks.com/products/dually-fork-spoon-combo",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Spoon on one end, fork on the other. Natural finish price; anodized colors cost more."
+  },
+  {
+    "id": "brautigam-titanium-sporkspat",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Brautigam Expedition Works",
+    "model": "Titanium SporkSpat",
+    "variant": null,
+    "weight_g": 22,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 33,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://brautigamexpeditionworks.com/products/muskrat",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Spork + mini spatula combined. Natural finish price; anodized colors cost more."
+  },
+  {
+    "id": "brautigam-stubby-titanium-spork",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Brautigam Expedition Works",
+    "model": "Stubby Titanium Spork",
+    "variant": null,
+    "weight_g": 9,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 15,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://brautigamexpeditionworks.com/products/stubby-titanium-spork",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Natural finish price; anodized colors cost more."
+  },
+  {
+    "id": "brautigam-mini-titanium-spatula",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "Brautigam Expedition Works",
+    "model": "Mini Titanium Spatula",
+    "variant": null,
+    "weight_g": 16,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 31,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://brautigamexpeditionworks.com/products/mini-titanium-spatula",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Natural finish price; anodized colors cost more."
+  },
+  {
+    "id": "chicken-tramper-cold-soak-jar",
+    "category": "cook-accessory",
+    "subcategory": "cold-soak jar",
+    "brand": "Chicken Tramper Gear",
+    "model": "Cold Soak Jar",
+    "variant": null,
+    "weight_g": 54,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 6,
+    "specs": {
+      "capacity_ml": 473,
+      "material": "HDPE"
+    },
+    "url": "https://www.chickentrampergear.com/products/cold-soak-jar",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "16 oz jar. Brand site showed a sale price (about 20% off) this session; list price used."
+  },
+  {
+    "id": "alpenglow-gear-alpenflow-fuel-transfer-valve",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "Alpenglow Gear",
+    "model": "Alpenflow Fuel Transfer Valve",
+    "variant": null,
+    "weight_g": 3,
+    "weight_basis": "manufacturer",
+    "weight_note": "3.1 g",
+    "price_usd": 19.95,
+    "specs": {
+      "material": "nylon"
+    },
+    "url": "https://www.alpenglowgear.co/products/alpenflow-fuel-transfer-valve",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Transfers isobutane between threaded canisters."
+  },
+  {
+    "id": "jereko-gear-dragons-head-fuel-stand",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "Jereko Gear",
+    "model": "Dragon's Head Fuel Stand",
+    "variant": null,
+    "weight_g": 10,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 6,
+    "specs": {
+      "material": "PLA / shock cord"
+    },
+    "url": "https://www.garagegrowngear.com/products/dragons-head-fuel-stand-by-jereko-gear",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Canister stabilizer for 100/230/450 g canisters."
+  },
+  {
+    "id": "jereko-gear-pot-protector-regular",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "Jereko Gear",
+    "model": "Pot Protector",
+    "variant": "Regular (4 oz)",
+    "weight_g": 12,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 9.99,
+    "specs": {
+      "material": "TPU"
+    },
+    "url": "https://www.garagegrowngear.com/products/pot-protector-by-jereko-gear",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Stores a 100 g canister in the pot; Pot Protector + (230/450 g canisters) is 24 g, $11.99."
+  },
+  {
+    "id": "silverant-titanium-3-piece-cutlery-set",
+    "category": "cook-accessory",
+    "subcategory": "utensil",
+    "brand": "SilverAnt",
+    "model": "Titanium 3 Piece Cutlery Set",
+    "variant": null,
+    "weight_g": 43,
+    "weight_basis": "manufacturer",
+    "weight_note": "knife + fork + spoon; 57 g with carabiner and sack",
+    "price_usd": 22.49,
+    "specs": {
+      "material": "titanium"
+    },
+    "url": "https://www.garagegrowngear.com/products/titanium-3-piece-cutlery-set-knife-fork-and-spoon-by-silverant",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "big-sky-insulite-insulated-food-pouch-small",
+    "category": "cook-accessory",
+    "subcategory": "cozy",
+    "brand": "Big Sky International",
+    "model": "Insulite Insulated Food Pouch",
+    "variant": "Small",
+    "weight_g": 28,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 14.95,
+    "specs": {
+      "fits": "1 quart freezer bag / single-serve meal"
+    },
+    "url": "https://www.bigskyinternational.com/products/big-sky-insulite-insulated-food-pouch-freezer-bag-cooking-cozy-big-sky-international",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Reflective fabric with 60 gsm PrimaLoft."
+  },
+  {
+    "id": "big-sky-insulite-insulated-food-pouch-medium",
+    "category": "cook-accessory",
+    "subcategory": "cozy",
+    "brand": "Big Sky International",
+    "model": "Insulite Insulated Food Pouch",
+    "variant": "Medium",
+    "weight_g": 43,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 15.95,
+    "specs": {
+      "fits": "2+ serving meals"
+    },
+    "url": "https://www.bigskyinternational.com/products/big-sky-insulite-insulated-food-pouch-freezer-bag-cooking-cozy-big-sky-international",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Reflective fabric with 60 gsm PrimaLoft."
+  },
+  {
+    "id": "big-sky-insulite-insulated-food-pouch-medium-dyneema",
+    "category": "cook-accessory",
+    "subcategory": "cozy",
+    "brand": "Big Sky International",
+    "model": "Insulite Insulated Food Pouch",
+    "variant": "Medium Dyneema",
+    "weight_g": 39,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 34.95,
+    "specs": {
+      "fits": "2+ serving meals"
+    },
+    "url": "https://www.bigskyinternational.com/products/big-sky-insulite-insulated-food-pouch-freezer-bag-cooking-cozy-big-sky-international",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "DCF outer with 60 gsm PrimaLoft."
+  },
+  {
+    "id": "litesmith-cold-soaking-jar-medium",
+    "category": "cook-accessory",
+    "subcategory": "cold-soak jar",
+    "brand": "Litesmith",
+    "model": "Cold Soaking Jar",
+    "variant": "Medium 16 oz",
+    "weight_g": 52,
+    "weight_basis": "manufacturer",
+    "weight_note": "jar + lid",
+    "price_usd": null,
+    "specs": {
+      "capacity_ml": 475,
+      "material": "polypropylene"
+    },
+    "url": "https://www.litesmith.com/cold-soaking-jars/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Talenti-size replacement with smooth walls. Price $3.70-5.95 depending on size; per-size price not shown."
+  },
+  {
+    "id": "litesmith-cold-soaking-jar-x-large",
+    "category": "cook-accessory",
+    "subcategory": "cold-soak jar",
+    "brand": "Litesmith",
+    "model": "Cold Soaking Jar",
+    "variant": "X-Large 26 oz",
+    "weight_g": 76,
+    "weight_basis": "manufacturer",
+    "weight_note": "jar + lid",
+    "price_usd": null,
+    "specs": {
+      "capacity_ml": 775,
+      "material": "polypropylene"
+    },
+    "url": "https://www.litesmith.com/cold-soaking-jars/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Price $3.70-5.95 depending on size; per-size price not shown."
+  },
+  {
+    "id": "litesmith-pot-protector-small",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "Litesmith",
+    "model": "Pot Protector",
+    "variant": "Small",
+    "weight_g": 4,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 3.99,
+    "specs": {
+      "material": "TPU"
+    },
+    "url": "https://www.litesmith.com/pot-protectors/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Ring for 100-110 g canister base; prevents rust rings and rattle."
+  },
+  {
+    "id": "litesmith-lildash-shaker",
+    "category": "cook-accessory",
+    "subcategory": "other",
+    "brand": "Litesmith",
+    "model": "Lil'Dash Shaker",
+    "variant": null,
+    "weight_g": 9,
+    "weight_basis": "manufacturer",
+    "weight_note": "8.9 g",
+    "price_usd": 2.95,
+    "specs": {
+      "capacity_ml": 5
+    },
+    "url": "https://www.litesmith.com/lildash-shaker/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Flip-top spice shaker."
   }
 ]

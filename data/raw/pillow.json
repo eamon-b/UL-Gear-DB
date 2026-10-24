@@ -345,7 +345,7 @@
     "id": "nemo-fillo-elite",
     "category": "pillow",
     "subcategory": "inflatable",
-    "brand": "Nemo",
+    "brand": "NEMO",
     "model": "Fillo Elite",
     "variant": null,
     "weight_g": 85,
@@ -364,7 +364,7 @@
     "id": "nemo-fillo",
     "category": "pillow",
     "subcategory": "foam/hybrid",
-    "brand": "Nemo",
+    "brand": "NEMO",
     "model": "Fillo",
     "variant": null,
     "weight_g": 261,
@@ -383,7 +383,7 @@
     "id": "nemo-fillo-elite-wide",
     "category": "pillow",
     "subcategory": "inflatable",
-    "brand": "Nemo",
+    "brand": "NEMO",
     "model": "Fillo Elite Wide",
     "variant": null,
     "weight_g": 113,
@@ -636,5 +636,43 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Fleece-lined stuff sack filled with clothing; weight is low because it is not a standalone pillow."
+  },
+  {
+    "id": "big-sky-ultralight-pillow",
+    "category": "pillow",
+    "subcategory": "inflatable",
+    "brand": "Big Sky International",
+    "model": "UltraLight Pillow",
+    "variant": null,
+    "weight_g": 46,
+    "weight_basis": "manufacturer",
+    "weight_note": "pillow only 45.5 g; elastic cord 4.9 g and stuff sack 4 g extra",
+    "price_usd": 29.95,
+    "specs": {
+      "inflated_size": "20 x 12 x 4 in (50 x 30 x 10 cm)"
+    },
+    "url": "https://www.bigskyinternational.com/products/big-sky-ultralight-pillow-big-sky-international",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "TPU; formerly DreamSleeper. Brand site showed $24.95 sale price this session."
+  },
+  {
+    "id": "big-sky-deluxe-ultralight-pillow",
+    "category": "pillow",
+    "subcategory": "inflatable",
+    "brand": "Big Sky International",
+    "model": "Deluxe UltraLight Pillow",
+    "variant": null,
+    "weight_g": 124,
+    "weight_basis": "manufacturer",
+    "weight_note": "117 g pillow + case + 7 g mattress strap; bladder alone 44 g",
+    "price_usd": 44.95,
+    "specs": {
+      "inflated_size": "20 x 12 x 4 in (50 x 30 x 10 cm)"
+    },
+    "url": "https://www.bigskyinternational.com/products/big-sky-deluxe-utralight-pillow-inflatable-big-sky-international",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "PrimaLoft-insulated removable case. Brand site showed $39.95 sale price this session."
   }
 ]

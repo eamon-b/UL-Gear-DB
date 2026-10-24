@@ -1,0 +1,1281 @@
+{
+  "additions": [
+    {
+      "id": "hyberg-arcon-lite",
+      "category": "backpack",
+      "subcategory": "internal frame",
+      "brand": "HYBERG",
+      "model": "Arcon Lite",
+      "variant": null,
+      "weight_g": 750,
+      "weight_basis": "manufacturer",
+      "weight_note": "size M total: pack 505 g + aluminum frame 65 g + hip belt 150 g + chest strap and elastic cord; size L 785 g",
+      "price_usd": 435,
+      "specs": {
+        "volume_l": 60,
+        "frame": "internal",
+        "material": "ALUULA Graflyte",
+        "hipbelt": true,
+        "torso_sizes": [
+          "M",
+          "L"
+        ]
+      },
+      "url": "https://www.hyberg.de/products/arcon-lite",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "60 L total (49 L body + 11 L pockets). Price converted from EUR 389 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+    },
+    {
+      "id": "hyberg-arcon",
+      "category": "backpack",
+      "subcategory": "internal frame",
+      "brand": "HYBERG",
+      "model": "Arcon",
+      "variant": null,
+      "weight_g": 905,
+      "weight_basis": "manufacturer",
+      "weight_note": "size M total: pack 650 g + aluminum frame 65 g + hip belt 160 g + chest strap and elastic cord; size L 920 g",
+      "price_usd": 323,
+      "specs": {
+        "volume_l": 60,
+        "frame": "internal",
+        "material": "X-Pac VX21",
+        "hipbelt": true,
+        "torso_sizes": [
+          "M",
+          "L"
+        ]
+      },
+      "url": "https://www.hyberg.de/products/arcon-ultralight-hiking-backpack",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "60 L total (49 L body + 11 L pockets); removable hip belt in three sizes. Price converted from EUR 289 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+    },
+    {
+      "id": "hyberg-aguila-lite-aluula",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "brand": "HYBERG",
+      "model": "Aguila Lite",
+      "variant": "ALUULA",
+      "weight_g": 380,
+      "weight_basis": "manufacturer",
+      "weight_note": "total: pack 325 g + hip belt 40 g + chest strap 15 g",
+      "price_usd": 246,
+      "specs": {
+        "volume_l": 37,
+        "frame": "frameless",
+        "material": "ALUULA Graflyte",
+        "hipbelt": true
+      },
+      "url": "https://www.hyberg.de/products/aguila-lite",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "37 L total (29 L body + 8 L pockets). Price converted from EUR 219.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+    },
+    {
+      "id": "hyberg-aguila-lite-dcf",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "brand": "HYBERG",
+      "model": "Aguila Lite",
+      "variant": "Dyneema (2025)",
+      "weight_g": 473,
+      "weight_basis": "manufacturer",
+      "weight_note": "total: pack 430 g + hip belt 31 g + chest strap 12 g",
+      "price_usd": 222,
+      "specs": {
+        "volume_l": 37,
+        "frame": "frameless",
+        "material": "DCF Hybrid 5.0 (CT9HK.18)",
+        "hipbelt": true
+      },
+      "url": "https://www.hyberg.de/products/aguila-dcf",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Listed by HYBERG as \"AGUILA LITE (2025)\". 37 L total (29 L body + 8 L pockets). Price converted from EUR 197.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+    },
+    {
+      "id": "hyberg-aguila",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "brand": "HYBERG",
+      "model": "Aguila",
+      "variant": null,
+      "weight_g": 480,
+      "weight_basis": "manufacturer",
+      "weight_note": "total: pack 425 g + hip belt 40 g + chest strap 15 g",
+      "price_usd": 201,
+      "specs": {
+        "volume_l": 37,
+        "frame": "frameless",
+        "material": "X-Pac VX07",
+        "hipbelt": true
+      },
+      "url": "https://www.hyberg.de/products/aguila-ultralight-hyberg-backpack",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "37 L total (29 L body + 8 L pockets). Price converted from EUR 179.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+    },
+    {
+      "id": "hyberg-bandit-lite",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "brand": "HYBERG",
+      "model": "Bandit Lite",
+      "variant": null,
+      "weight_g": 410,
+      "weight_basis": "manufacturer",
+      "weight_note": "ALUULA version total: pack 355 g + hip belt 40 g + chest strap 15 g; Dyneema version 420 g",
+      "price_usd": 252,
+      "specs": {
+        "volume_l": 40,
+        "frame": "frameless",
+        "material": "ALUULA Graflyte or 2.92 oz DCF",
+        "hipbelt": true
+      },
+      "url": "https://www.hyberg.de/products/bandit-ultralight-backpack",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "40 L total (29 L body + 11 L pockets). Price is the Dyneema version (EUR 224.95); ALUULA version EUR 269.65. Price converted from EUR 224.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+    },
+    {
+      "id": "hyberg-bandit",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "brand": "HYBERG",
+      "model": "Bandit",
+      "variant": null,
+      "weight_g": 480,
+      "weight_basis": "manufacturer",
+      "weight_note": "total: pack 415 g + hip belt 40 g + chest strap 15 g + elastic cord 10 g",
+      "price_usd": 224,
+      "specs": {
+        "volume_l": 40,
+        "frame": "frameless",
+        "material": "X-Pac VX07",
+        "hipbelt": true
+      },
+      "url": "https://www.hyberg.de/products/bandit-x",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "40 L total (29 L body + 11 L pockets). Price converted from EUR 199.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+    },
+    {
+      "id": "hyberg-attila-lite-aluula",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "brand": "HYBERG",
+      "model": "Attila Lite",
+      "variant": "ALUULA",
+      "weight_g": 590,
+      "weight_basis": "manufacturer",
+      "weight_note": "size M total: pack 540 g + chest strap 15 g + sit pad 35 g; S 575 g, L 605 g",
+      "price_usd": 343,
+      "specs": {
+        "volume_l": 48,
+        "frame": "frameless",
+        "material": "ALUULA Graflyte",
+        "hipbelt": true,
+        "torso_sizes": [
+          "S",
+          "M",
+          "L"
+        ],
+        "max_load_lb": 33
+      },
+      "url": "https://www.hyberg.de/products/attila-lite-ultralight-backpack",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "48 L total in size M (38 L body + 10 L pockets); rec. max load 15 kg. Price converted from EUR 306.85 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+    },
+    {
+      "id": "hyberg-attila-lite-dcf",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "brand": "HYBERG",
+      "model": "Attila Lite",
+      "variant": "Dyneema",
+      "weight_g": 630,
+      "weight_basis": "manufacturer",
+      "weight_note": "size M total: pack 580 g + chest strap 15 g + sit pad 35 g; S 620 g, L 645 g",
+      "price_usd": 304,
+      "specs": {
+        "volume_l": 48,
+        "frame": "frameless",
+        "material": "DCF",
+        "hipbelt": true,
+        "torso_sizes": [
+          "S",
+          "M",
+          "L"
+        ],
+        "max_load_lb": 33
+      },
+      "url": "https://www.hyberg.de/products/attila-lite-ultralight-backpack",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "48 L total in size M (38 L body + 10 L pockets); rec. max load 15 kg. Price converted from EUR 271.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+    },
+    {
+      "id": "hyberg-attila",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "brand": "HYBERG",
+      "model": "Attila",
+      "variant": null,
+      "weight_g": 710,
+      "weight_basis": "manufacturer",
+      "weight_note": "size M total: pack 658 g + chest strap 12 g + sit pad 40 g; S 682 g, L 740 g",
+      "price_usd": 280,
+      "specs": {
+        "volume_l": 48,
+        "frame": "frameless",
+        "material": "X-Pac VX07",
+        "hipbelt": true,
+        "torso_sizes": [
+          "S",
+          "M",
+          "L"
+        ],
+        "max_load_lb": 33
+      },
+      "url": "https://www.hyberg.de/products/attila-x",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "48 L total in size M (38 L body + 10 L pockets); rec. max load 15 kg. Price converted from EUR 249.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+    },
+    {
+      "id": "hyberg-egoist-lite",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "brand": "HYBERG",
+      "model": "Egoist Lite",
+      "variant": null,
+      "weight_g": 455,
+      "weight_basis": "manufacturer",
+      "weight_note": "ALUULA version size M total: pack 405 g + chest strap 15 g + sit pad 35 g; Dyneema version M 470 g; L adds ~10 g",
+      "price_usd": 252,
+      "specs": {
+        "volume_l": 40,
+        "frame": "frameless",
+        "material": "ALUULA or DCF",
+        "torso_sizes": [
+          "M",
+          "L"
+        ]
+      },
+      "url": "https://www.hyberg.de/products/egoist-lite",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "40 L total (29 L body + 11 L pockets). Price is Dyneema size M (EUR 224.95); ALUULA EUR 269.65. Price converted from EUR 224.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+    },
+    {
+      "id": "hyberg-egoist",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "brand": "HYBERG",
+      "model": "Egoist",
+      "variant": null,
+      "weight_g": 545,
+      "weight_basis": "manufacturer",
+      "weight_note": "size M total: pack 485 g + chest strap 15 g + sit pad 35 g + elastic cord 10 g; L 560 g",
+      "price_usd": 246,
+      "specs": {
+        "volume_l": 40,
+        "frame": "frameless",
+        "torso_sizes": [
+          "M",
+          "L"
+        ]
+      },
+      "url": "https://www.hyberg.de/products/egoist",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "40 L total (29 L body + 11 L pockets). Price converted from EUR 219.95 at 1 EUR = 1.1193 USD (hyberg.de lists EUR only)."
+    },
+    {
+      "id": "mountain-equipment-earthrise-hooded-jacket-mens",
+      "category": "insulation",
+      "subcategory": "down jacket",
+      "brand": "Mountain Equipment",
+      "model": "Earthrise Hooded Jacket",
+      "variant": "Men's",
+      "weight_g": 390,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 249.95,
+      "specs": {
+        "fill": "down",
+        "fill_power": 700,
+        "fill_weight_g": 155,
+        "hood": true
+      },
+      "url": "https://us.mountain-equipment.com/products/earthrise-hooded-mens-jacket",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Fill weight is size L. Recycled 20D shell and recycled duck down."
+    },
+    {
+      "id": "mountain-equipment-earthrise-hooded-jacket-womens",
+      "category": "insulation",
+      "subcategory": "down jacket",
+      "brand": "Mountain Equipment",
+      "model": "Earthrise Hooded Jacket",
+      "variant": "Women's",
+      "weight_g": 390,
+      "weight_basis": "manufacturer",
+      "weight_note": "as listed on the US site; same figure as the men's",
+      "price_usd": 249.95,
+      "specs": {
+        "fill": "down",
+        "fill_power": 700,
+        "fill_weight_g": 132,
+        "hood": true
+      },
+      "url": "https://us.mountain-equipment.com/products/earthrise-hooded-womens-jacket",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Fill weight is size 12 (UK)."
+    },
+    {
+      "id": "mountain-equipment-earthrise-vest-mens",
+      "category": "insulation",
+      "subcategory": "vest",
+      "brand": "Mountain Equipment",
+      "model": "Earthrise Vest",
+      "variant": "Men's",
+      "weight_g": 270,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 169.95,
+      "specs": {
+        "fill": "down",
+        "fill_power": 700,
+        "fill_weight_g": 81,
+        "hood": false
+      },
+      "url": "https://us.mountain-equipment.com/products/earthrise-mens-vest",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Fill weight is size L."
+    },
+    {
+      "id": "mountain-equipment-earthrise-vest-womens",
+      "category": "insulation",
+      "subcategory": "vest",
+      "brand": "Mountain Equipment",
+      "model": "Earthrise Vest",
+      "variant": "Women's",
+      "weight_g": 200,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 169.95,
+      "specs": {
+        "fill": "down",
+        "fill_power": 700,
+        "fill_weight_g": 69,
+        "hood": false
+      },
+      "url": "https://us.mountain-equipment.com/products/earthrise-womens-vest",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Fill weight is size 12 (UK)."
+    },
+    {
+      "id": "mountain-equipment-frostline-short-mens",
+      "category": "insulation",
+      "subcategory": "insulated pants",
+      "brand": "Mountain Equipment",
+      "model": "Frostline Short",
+      "variant": "Men's",
+      "weight_g": 230,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 139.95,
+      "specs": {
+        "fill": "down",
+        "fill_power": 700,
+        "fill_weight_g": 54,
+        "hood": false
+      },
+      "url": "https://us.mountain-equipment.com/products/frostline-mens-short",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Down over-shorts with full-length side zips; DRILITE LOFT 20D shell. Fill weight is size L. No Frostline jacket is currently listed."
+    },
+    {
+      "id": "mountain-equipment-particle-hooded-jacket-mens",
+      "category": "insulation",
+      "subcategory": "synthetic jacket",
+      "brand": "Mountain Equipment",
+      "model": "Particle Hooded Jacket",
+      "variant": "Men's",
+      "weight_g": 430,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 187,
+      "specs": {
+        "fill": "synthetic",
+        "fill_weight_g": 130,
+        "hood": true
+      },
+      "url": "https://www.mountain-equipment.com/products/particle-hooded-mens-jacket",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "POLARLOFT Featherless synthetic fill (130 g, size L), not down. Not on the US store; price converted from GBP 140 at 1 GBP = 1.3368 USD."
+    },
+    {
+      "id": "mountain-equipment-odyssey-jacket-mens",
+      "category": "rain-jacket",
+      "subcategory": "rain jacket",
+      "brand": "Mountain Equipment",
+      "model": "Odyssey Jacket",
+      "variant": "Men's",
+      "weight_g": 460,
+      "weight_basis": "manufacturer",
+      "weight_note": "size L",
+      "price_usd": 349.95,
+      "specs": {
+        "material": "3-layer DRILITE+ 50D",
+        "pit_zips": true,
+        "hood": true
+      },
+      "url": "https://us.mountain-equipment.com/products/odyssey-mens-jacket",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "mountain-equipment-odyssey-jacket-womens",
+      "category": "rain-jacket",
+      "subcategory": "rain jacket",
+      "brand": "Mountain Equipment",
+      "model": "Odyssey Jacket",
+      "variant": "Women's",
+      "weight_g": 390,
+      "weight_basis": "manufacturer",
+      "weight_note": "size 12 (UK)",
+      "price_usd": 349.95,
+      "specs": {
+        "material": "3-layer DRILITE+ 50D",
+        "pit_zips": true,
+        "hood": true
+      },
+      "url": "https://us.mountain-equipment.com/products/odyssey-womens-jacket",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "mountain-equipment-odyssey-pant-mens",
+      "category": "rain-pants",
+      "subcategory": "rain pants",
+      "brand": "Mountain Equipment",
+      "model": "Odyssey Pant",
+      "variant": "Men's",
+      "weight_g": 350,
+      "weight_basis": "manufacturer",
+      "weight_note": "size L",
+      "price_usd": 199.95,
+      "specs": {
+        "material": "3-layer DRILITE+ 50D"
+      },
+      "url": "https://us.mountain-equipment.com/products/odyssey-mens-pant",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "3/4-length side zips."
+    },
+    {
+      "id": "mountain-equipment-odyssey-pant-womens",
+      "category": "rain-pants",
+      "subcategory": "rain pants",
+      "brand": "Mountain Equipment",
+      "model": "Odyssey Pant",
+      "variant": "Women's",
+      "weight_g": 330,
+      "weight_basis": "manufacturer",
+      "weight_note": "size 12 (UK)",
+      "price_usd": 199.95,
+      "specs": {
+        "material": "3-layer DRILITE+ 50D"
+      },
+      "url": "https://us.mountain-equipment.com/products/odyssey-womens-pant",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "3/4-length side zips."
+    },
+    {
+      "id": "mountain-equipment-makalu-jacket-mens",
+      "category": "rain-jacket",
+      "subcategory": "rain jacket",
+      "brand": "Mountain Equipment",
+      "model": "Makalu Jacket",
+      "variant": "Men's",
+      "weight_g": 520,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 549.95,
+      "specs": {
+        "material": "3-layer GORE-TEX ePE 70D",
+        "pit_zips": true,
+        "hood": true
+      },
+      "url": "https://us.mountain-equipment.com/products/makalu-mens-jacket",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Heavier-duty mountain shell; helmet-compatible hood."
+    },
+    {
+      "id": "mountain-equipment-makalu-jacket-womens",
+      "category": "rain-jacket",
+      "subcategory": "rain jacket",
+      "brand": "Mountain Equipment",
+      "model": "Makalu Jacket",
+      "variant": "Women's",
+      "weight_g": 490,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 549.95,
+      "specs": {
+        "material": "3-layer GORE-TEX ePE 70D",
+        "pit_zips": true,
+        "hood": true
+      },
+      "url": "https://us.mountain-equipment.com/products/makalu-womens-jacket",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Heavier-duty mountain shell; helmet-compatible hood."
+    },
+    {
+      "id": "mountain-equipment-makalu-pant-mens",
+      "category": "rain-pants",
+      "subcategory": "rain pants",
+      "brand": "Mountain Equipment",
+      "model": "Makalu Pant",
+      "variant": "Men's",
+      "weight_g": 420,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 349.95,
+      "specs": {
+        "material": "3-layer GORE-TEX 70D"
+      },
+      "url": "https://us.mountain-equipment.com/products/makalu-mens-pant",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "3/4-length side zips."
+    },
+    {
+      "id": "mountain-equipment-aerofoil-hooded-jacket-mens",
+      "category": "wind-layer",
+      "subcategory": "wind jacket",
+      "brand": "Mountain Equipment",
+      "model": "Aerofoil Hooded Jacket",
+      "variant": "Men's",
+      "weight_g": 120,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 149.95,
+      "specs": {
+        "material": "EXOLITE 45 double-weave softshell",
+        "hood": true
+      },
+      "url": "https://us.mountain-equipment.com/products/aerofoil-hooded-mens-jacket",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Packs into its chest pocket."
+    },
+    {
+      "id": "mountain-equipment-aerofoil-hooded-jacket-womens",
+      "category": "wind-layer",
+      "subcategory": "wind jacket",
+      "brand": "Mountain Equipment",
+      "model": "Aerofoil Hooded Jacket",
+      "variant": "Women's",
+      "weight_g": 110,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 149.95,
+      "specs": {
+        "material": "EXOLITE 45 double-weave softshell",
+        "hood": true
+      },
+      "url": "https://us.mountain-equipment.com/products/aerofoil-hooded-womens-jacket",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Packs into its chest pocket."
+    },
+    {
+      "id": "aarn-packs-pace-magic-40",
+      "category": "backpack",
+      "subcategory": "internal frame",
+      "brand": "Aarn Packs",
+      "model": "Pace Magic 40",
+      "variant": null,
+      "weight_g": 850,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 249,
+      "specs": {
+        "volume_l": 40,
+        "frame": "internal",
+        "max_load_lb": 30,
+        "material": "100D Robic nylon",
+        "hipbelt": true
+      },
+      "url": "https://www.garagegrowngear.com/products/pace-magic-40-by-aarn-packs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Form-fitting frame; hip belt balance pockets (1.5 L x2). Rec. max load 13.5 kg."
+    },
+    {
+      "id": "aarn-packs-mountain-magic-50-pro",
+      "category": "backpack",
+      "subcategory": "internal frame",
+      "brand": "Aarn Packs",
+      "model": "Mountain Magic 50 Pro",
+      "variant": null,
+      "weight_g": 1000,
+      "weight_basis": "manufacturer",
+      "weight_note": "short back; medium back 1005 g; removable Multi Balance front pockets add 256 g",
+      "price_usd": 399,
+      "specs": {
+        "volume_l": 50,
+        "frame": "internal",
+        "max_load_lb": 33,
+        "material": "70D Robic Gridstop with UHMWPE",
+        "hipbelt": true,
+        "torso_sizes": [
+          "short",
+          "medium"
+        ]
+      },
+      "url": "https://www.garagegrowngear.com/products/mountain-magic-50-pro-by-aarn-packs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "50 L total including 7 L of front balance pockets."
+    },
+    {
+      "id": "aarn-packs-water-bottle-holder",
+      "category": "pack-organization",
+      "subcategory": "shoulder pouch",
+      "brand": "Aarn Packs",
+      "model": "Water Bottle Holder",
+      "variant": null,
+      "weight_g": 42,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 29.99,
+      "specs": {
+        "material": "100D Robic"
+      },
+      "url": "https://www.garagegrowngear.com/products/water-bottle-holder-by-aarn-packs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "aarn-packs-shoulder-strap-pocket",
+      "category": "pack-organization",
+      "subcategory": "shoulder pouch",
+      "brand": "Aarn Packs",
+      "model": "Shoulder Strap Pocket",
+      "variant": null,
+      "weight_g": 52,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 29.99,
+      "specs": {
+        "material": "100D Robic"
+      },
+      "url": "https://www.garagegrowngear.com/products/shoulder-strap-pocket-by-aarn-packs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "lite-werks-daily-dose-55l",
+      "category": "backpack",
+      "subcategory": "internal frame",
+      "brand": "LITE WERKS",
+      "model": "The Daily Dose 55L",
+      "variant": null,
+      "weight_g": 1247,
+      "weight_basis": "manufacturer",
+      "weight_note": "size medium",
+      "price_usd": 398,
+      "specs": {
+        "volume_l": 55,
+        "frame": "internal",
+        "max_load_lb": 35,
+        "material": "Ultra 200X / Ultra 400X",
+        "hipbelt": true,
+        "torso_sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "url": "https://www.garagegrowngear.com/products/the-daily-dose-55l-by-lite-werks-1",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Aluminum rod frame, adjustable torso, removable hip belt. Medium: 44 L internal + 11 L extension + 10 L external."
+    },
+    {
+      "id": "lite-werks-shoulder-strap-pocket",
+      "category": "pack-organization",
+      "subcategory": "shoulder pouch",
+      "brand": "LITE WERKS",
+      "model": "Shoulder Strap Pocket",
+      "variant": null,
+      "weight_g": 57,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 26,
+      "specs": {
+        "material": "UltraGrid 210D"
+      },
+      "url": "https://www.garagegrowngear.com/products/shoulder-strap-pocket-by-lite-werks",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "lite-werks-hip-belt-pocket",
+      "category": "pack-organization",
+      "subcategory": "pouch/fanny pack",
+      "brand": "LITE WERKS",
+      "model": "Hip Belt Pocket",
+      "variant": null,
+      "weight_g": 71,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 24,
+      "specs": {
+        "material": "UltraGrid 210D"
+      },
+      "url": "https://www.garagegrowngear.com/products/hip-belt-pocket-by-lite-werks",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Works as a hip belt pocket or a fanny pack."
+    },
+    {
+      "id": "lite-werks-water-bottle-carrier",
+      "category": "pack-organization",
+      "subcategory": "shoulder pouch",
+      "brand": "LITE WERKS",
+      "model": "Water Bottle Carrier",
+      "variant": null,
+      "weight_g": 28,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 22,
+      "specs": {
+        "material": "UltraGrid 210D"
+      },
+      "url": "https://www.garagegrowngear.com/products/water-bottle-carrier-by-lite-werks",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Fits a 700 ml Smartwater bottle."
+    },
+    {
+      "id": "moosetrack-packs-mtp-35l",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "brand": "MooseTrack Packs",
+      "model": "MTP 35L Backpacking Rucksack",
+      "variant": null,
+      "weight_g": 567,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 300,
+      "specs": {
+        "volume_l": 40,
+        "frame": "frameless",
+        "material": "ECOPAK EPX200 / UltraGrid",
+        "hipbelt": true
+      },
+      "url": "https://www.garagegrowngear.com/products/mtp-35l-backpacking-rucksack-by-moose-track-packs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "35 L internal + 5 L pockets."
+    },
+    {
+      "id": "moosetrack-packs-dyneema-hooded-half-poncho",
+      "category": "rain-jacket",
+      "subcategory": "poncho",
+      "brand": "MooseTrack Packs",
+      "model": "Dyneema Hooded Half-Poncho",
+      "variant": null,
+      "weight_g": 82,
+      "weight_basis": "manufacturer",
+      "weight_note": "one size",
+      "price_usd": 200,
+      "specs": {
+        "material": "1.0 oz DCF",
+        "hood": true,
+        "pit_zips": false
+      },
+      "url": "https://www.garagegrowngear.com/products/hooded-half-poncho-by-moose-track-packs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Covers the wearer and a daypack-sized pack; half zip."
+    },
+    {
+      "id": "moosetrack-packs-switchback-convertible-mittens",
+      "category": "headwear-handwear",
+      "subcategory": "insulated glove/mitt",
+      "brand": "MooseTrack Packs",
+      "model": "SwitchBack Convertible Mittens",
+      "variant": null,
+      "weight_g": 37,
+      "weight_basis": "manufacturer",
+      "weight_note": "size S/M; L/XL 45 g",
+      "price_usd": 30,
+      "specs": {
+        "material": "Polartec Power Grid"
+      },
+      "url": "https://www.garagegrowngear.com/products/switchback-convertible-mittens-by-moose-track-packs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Flip-top mitten over open fingers."
+    },
+    {
+      "id": "symbiosis-gear-aspen",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "brand": "Symbiosis Gear",
+      "model": "The Aspen",
+      "variant": "Women's",
+      "weight_g": 709,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 299,
+      "specs": {
+        "volume_l": 38,
+        "frame": "frameless",
+        "max_load_lb": 20,
+        "material": "420D Extreema",
+        "hipbelt": true
+      },
+      "url": "https://www.garagegrowngear.com/products/the-aspen-by-symbiosis-gear",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Women-specific S-curve straps; 1.5\" webbing hip belt."
+    },
+    {
+      "id": "symbiosis-gear-huckleberry",
+      "category": "pack-organization",
+      "subcategory": "pouch/fanny pack",
+      "brand": "Symbiosis Gear",
+      "model": "Huckleberry Fanny Pack & Hip Belt Pocket",
+      "variant": null,
+      "weight_g": 91,
+      "weight_basis": "manufacturer",
+      "weight_note": "with waist belt; pouch only 45 g",
+      "price_usd": 46,
+      "specs": {
+        "volume_l": 1.31,
+        "material": "420D Extreema"
+      },
+      "url": "https://www.garagegrowngear.com/products/huckleberry-fanny-pack-by-symbiosis-gear",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "virginia-foothill-designs-ultralight-25l",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "brand": "Virginia Foothill Designs",
+      "model": "Ultralight 25L Pack",
+      "variant": null,
+      "weight_g": 346,
+      "weight_basis": "manufacturer",
+      "weight_note": "no hip belt",
+      "price_usd": 220,
+      "specs": {
+        "volume_l": 25,
+        "frame": "frameless",
+        "material": "X-Pac VX07",
+        "hipbelt": false,
+        "torso_sizes": [
+          "17 in"
+        ]
+      },
+      "url": "https://www.garagegrowngear.com/products/ultralight-25l-pack-by-virginia-foothill-designs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "virginia-foothill-designs-ultralight-40l",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "brand": "Virginia Foothill Designs",
+      "model": "Ultralight 40L Pack",
+      "variant": null,
+      "weight_g": 425,
+      "weight_basis": "manufacturer",
+      "weight_note": "size medium; S 390 g, L 431 g; no hip belt",
+      "price_usd": 250,
+      "specs": {
+        "volume_l": 40,
+        "frame": "frameless",
+        "material": "X-Pac VX07",
+        "hipbelt": false,
+        "torso_sizes": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "url": "https://www.garagegrowngear.com/products/40l-with-standard-rigid-pockets-by-virginia-foothill-designs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "yar-gear-apex-28l",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "brand": "YAR.gear",
+      "model": "Apex 28L",
+      "variant": null,
+      "weight_g": 295,
+      "weight_basis": "manufacturer",
+      "weight_note": "minimum weight",
+      "price_usd": 180,
+      "specs": {
+        "volume_l": 28,
+        "frame": "frameless",
+        "max_load_lb": 25,
+        "material": "Ultra 200",
+        "hipbelt": false,
+        "torso_sizes": [
+          "17 in",
+          "19 in"
+        ]
+      },
+      "url": "https://www.garagegrowngear.com/products/apex-28l-pack-by-yar-gear",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "id": "yar-gear-cadence-25l",
+      "category": "backpack",
+      "subcategory": "daypack/fastpack",
+      "brand": "YAR.gear",
+      "model": "Cadence 25L",
+      "variant": null,
+      "weight_g": 397,
+      "weight_basis": "manufacturer",
+      "weight_note": "17\" torso; 19\" torso 403 g",
+      "price_usd": 230,
+      "specs": {
+        "volume_l": 25,
+        "frame": "frameless",
+        "max_load_lb": 20,
+        "material": "Ultra 200 / UltraGrid",
+        "hipbelt": false,
+        "torso_sizes": [
+          "17 in",
+          "19 in"
+        ]
+      },
+      "url": "https://www.garagegrowngear.com/products/prototype-25l-pack-by-yar-gear",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Vest-style roll-top fastpack."
+    },
+    {
+      "id": "ultralitesacks-recyclops-35l",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "brand": "UltraliteSacks",
+      "model": "Recyclops 35L",
+      "variant": null,
+      "weight_g": 440,
+      "weight_basis": "manufacturer",
+      "weight_note": "total; stripped 360 g",
+      "price_usd": 195,
+      "specs": {
+        "volume_l": 35,
+        "frame": "frameless",
+        "material": "UltraGrid",
+        "hipbelt": true
+      },
+      "url": "https://www.garagegrowngear.com/products/recyclops-ultralight-35l-backpack-by-ultralightsacks",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Removable 1\" hip belt."
+    },
+    {
+      "id": "ultralitesacks-compression-sack-medium",
+      "category": "pack-organization",
+      "subcategory": "stuff sack",
+      "brand": "UltraliteSacks",
+      "model": "Ultralight Compression Sack",
+      "variant": "Medium (6.8L)",
+      "weight_g": 60,
+      "weight_basis": "manufacturer",
+      "weight_note": "S 5.5 L 51 g; L 9.5 L 68 g",
+      "price_usd": 32,
+      "specs": {
+        "volume_l": 6.8,
+        "material": "Ultra TX50",
+        "waterproof": false
+      },
+      "url": "https://www.garagegrowngear.com/products/compression-dry-bag-by-ultralitesacks",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Small $26, Large $38."
+    },
+    {
+      "id": "ultralitesacks-ultralight-cube-regular",
+      "category": "pack-organization",
+      "subcategory": "stuff sack",
+      "brand": "UltraliteSacks",
+      "model": "Ultralight Cubes",
+      "variant": "Regular",
+      "weight_g": 11,
+      "weight_basis": "manufacturer",
+      "weight_note": "Large 1.9 L 17 g; X-Large 4.42 L 26 g",
+      "price_usd": 21,
+      "specs": {
+        "volume_l": 1.17,
+        "material": "Ultra TX50",
+        "waterproof": false
+      },
+      "url": "https://www.garagegrowngear.com/products/zippered-cube-kit-by-ultralitesacks",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Zippered ditty cube."
+    },
+    {
+      "id": "ultralitesacks-zippered-bear-bag-regular",
+      "category": "food-storage",
+      "subcategory": "bear bag",
+      "brand": "UltraliteSacks",
+      "model": "Ultralight Zippered Bear Bag",
+      "variant": "Regular",
+      "weight_g": 40,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 39,
+      "specs": {
+        "material": "Ultra TX50"
+      },
+      "url": "https://www.garagegrowngear.com/products/ultralight-zippered-bear-bag-by-ultralitesacks",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "For hanging; not bear-proof or odor-proof. 2-4 days of food."
+    },
+    {
+      "id": "ultralitesacks-zippered-bear-bag-large",
+      "category": "food-storage",
+      "subcategory": "bear bag",
+      "brand": "UltraliteSacks",
+      "model": "Ultralight Zippered Bear Bag",
+      "variant": "Large",
+      "weight_g": 68,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 49,
+      "specs": {
+        "material": "Ultra TX50"
+      },
+      "url": "https://www.garagegrowngear.com/products/ultralight-zippered-bear-bag-by-ultralitesacks",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "For hanging; not bear-proof or odor-proof. 3-6 days of food."
+    },
+    {
+      "id": "high-tail-designs-ultralight-fanny-pack",
+      "category": "pack-organization",
+      "subcategory": "pouch/fanny pack",
+      "brand": "High Tail Designs",
+      "model": "Ultralight Fanny Pack",
+      "variant": null,
+      "weight_g": 51,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 66,
+      "specs": {
+        "volume_l": 1,
+        "material": "2.92 oz Dyneema Hybrid",
+        "waterproof": false
+      },
+      "url": "https://www.garagegrowngear.com/products/ultralight-fanny-pack-by-high-tail-designs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Printed patterns cost more ($76)."
+    },
+    {
+      "id": "high-tail-designs-dyneema-drawstring-stuff-sack",
+      "category": "pack-organization",
+      "subcategory": "stuff sack",
+      "brand": "High Tail Designs",
+      "model": "Printed Dyneema Drawstring Stuff Sack",
+      "variant": null,
+      "weight_g": 7,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 34,
+      "specs": {
+        "volume_l": 1,
+        "material": "1.43 oz DCF",
+        "waterproof": false
+      },
+      "url": "https://www.garagegrowngear.com/products/ultralight-drawstring-stuff-sack-by-high-tail-designs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Listed as 0.24 oz / 6.8 g."
+    },
+    {
+      "id": "high-tail-designs-dyneema-roll-top-sack-3-5l",
+      "category": "pack-organization",
+      "subcategory": "stuff sack",
+      "brand": "High Tail Designs",
+      "model": "Printed Dyneema Roll-Top Sack",
+      "variant": "3.5L",
+      "weight_g": 17,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 55,
+      "specs": {
+        "volume_l": 3.5,
+        "material": "1.43 oz DCF",
+        "waterproof": false
+      },
+      "url": "https://www.garagegrowngear.com/products/dyneema-roll-top-sack-by-high-tail-designs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Taped seams, roll-top; not for submersion."
+    },
+    {
+      "id": "high-tail-designs-dyneema-roll-top-sack-9l",
+      "category": "pack-organization",
+      "subcategory": "stuff sack",
+      "brand": "High Tail Designs",
+      "model": "Printed Dyneema Roll-Top Sack",
+      "variant": "9L",
+      "weight_g": 26,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 67,
+      "specs": {
+        "volume_l": 9,
+        "material": "1.43 oz DCF",
+        "waterproof": false
+      },
+      "url": "https://www.garagegrowngear.com/products/dyneema-roll-top-sack-by-high-tail-designs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Taped seams, roll-top; not for submersion."
+    },
+    {
+      "id": "high-tail-designs-tx50-roll-top-sack-4-5l",
+      "category": "pack-organization",
+      "subcategory": "stuff sack",
+      "brand": "High Tail Designs",
+      "model": "Printed TX50 Roll-Top Stuff-Sack",
+      "variant": "4.5L",
+      "weight_g": 27,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 40,
+      "specs": {
+        "volume_l": 4.5,
+        "material": "Challenge TX50",
+        "waterproof": false
+      },
+      "url": "https://www.garagegrowngear.com/products/tx50-roll-top-sack-by-high-tail-designs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Some prints cost more ($47)."
+    },
+    {
+      "id": "high-tail-designs-tx50-roll-top-sack-6-5l",
+      "category": "pack-organization",
+      "subcategory": "stuff sack",
+      "brand": "High Tail Designs",
+      "model": "Printed TX50 Roll-Top Stuff-Sack",
+      "variant": "6.5L",
+      "weight_g": 31,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 45,
+      "specs": {
+        "volume_l": 6.5,
+        "material": "Challenge TX50",
+        "waterproof": false
+      },
+      "url": "https://www.garagegrowngear.com/products/tx50-roll-top-sack-by-high-tail-designs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Some prints cost more ($53)."
+    },
+    {
+      "id": "high-tail-designs-tent-stake-sack",
+      "category": "pack-organization",
+      "subcategory": "stuff sack",
+      "brand": "High Tail Designs",
+      "model": "Tent Stake Sack",
+      "variant": null,
+      "weight_g": 5,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 25,
+      "specs": {
+        "material": "DCF",
+        "waterproof": false
+      },
+      "url": "https://www.garagegrowngear.com/products/tent-stake-sack-by-high-tail-designs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Holds up to 12 MSR Groundhog stakes."
+    },
+    {
+      "id": "high-tail-designs-printed-tyvek-ground-cloth",
+      "category": "misc",
+      "subcategory": "ground sheet",
+      "brand": "High Tail Designs",
+      "model": "Printed Tyvek Ground Cloth",
+      "variant": null,
+      "weight_g": 137,
+      "weight_basis": "manufacturer",
+      "weight_note": "36 x 78 in",
+      "price_usd": 62,
+      "specs": {
+        "material": "Tyvek"
+      },
+      "url": "https://www.garagegrowngear.com/products/tyvek-ground-cloth-by-high-tail-designs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": "Some prints cost more ($72)."
+    },
+    {
+      "id": "high-tail-designs-hiking-gaiter",
+      "category": "headwear-handwear",
+      "subcategory": "neck gaiter",
+      "brand": "High Tail Designs",
+      "model": "Hiking Gaiter",
+      "variant": null,
+      "weight_g": 35,
+      "weight_basis": "manufacturer",
+      "weight_note": null,
+      "price_usd": 21,
+      "specs": {
+        "material": "100% polyester"
+      },
+      "url": "https://www.garagegrowngear.com/products/hiking-gaiter-by-high-tail-designs",
+      "discontinued": false,
+      "confidence": "high",
+      "notes": null
+    }
+  ]
+}

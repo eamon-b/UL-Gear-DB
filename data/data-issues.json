@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-24T00:08:22.046Z",
-  "records": 2854,
-  "records_flagged": 131,
+  "generated_at": "2026-10-24T00:08:42.131Z",
+  "records": 3108,
+  "records_flagged": 152,
   "counts": {
-    "weight-outlier": 35,
+    "weight-outlier": 50,
     "per-pair": 2,
     "price-per-gram": 7,
-    "near-duplicate": 9,
-    "shipping-weight": 27,
+    "near-duplicate": 11,
+    "shipping-weight": 31,
     "missing-url": 59
   },
   "thresholds": {
@@ -15,23 +15,6 @@
     "price_per_gram": ">8x or <0.125x subcategory median $/g (n>=6 priced)"
   },
   "issues": [
-    {
-      "type": "weight-outlier",
-      "score": 74,
-      "id": "zpacks-1g-tick-remover",
-      "file": "first-aid-hygiene.json",
-      "index": 7,
-      "name": "Zpacks 1g Tick Remover",
-      "category": "first-aid-hygiene",
-      "subcategory": "first aid supply",
-      "weight_g": 1,
-      "price_usd": 9.95,
-      "message": "weight 1 g is 1/13.0x the first aid supply median (13 g, n=8)",
-      "details": {
-        "median_g": 13,
-        "ratio": 0.08
-      }
-    },
     {
       "type": "weight-outlier",
       "score": 73,
@@ -47,6 +30,23 @@
       "details": {
         "median_g": 32,
         "ratio": 12.5
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 72,
+      "id": "leukotape-p-sports-tape",
+      "file": "first-aid-hygiene.json",
+      "index": 76,
+      "name": "Leukotape Leukotape P Sports Tape 1.5 in x 15 yd",
+      "category": "first-aid-hygiene",
+      "subcategory": "first aid supply",
+      "weight_g": 111,
+      "price_usd": 16.99,
+      "message": "weight 111 g is 12.3x the first aid supply median (9 g, n=9)",
+      "details": {
+        "median_g": 9,
+        "ratio": 12.33
       }
     },
     {
@@ -98,36 +98,104 @@
     },
     {
       "type": "weight-outlier",
-      "score": 64,
-      "id": "diy-fancy-feast-alcohol-stove",
-      "file": "stove.json",
-      "index": 82,
-      "name": "DIY Cat Food Can (Fancy Feast) Alcohol Stove",
-      "category": "stove",
-      "subcategory": "alcohol",
+      "score": 65,
+      "id": "litesmith-zipza-pouch-small",
+      "file": "pack-organization.json",
+      "index": 159,
+      "name": "Litesmith Zipza Pouch Small",
+      "category": "pack-organization",
+      "subcategory": "pouch/fanny pack",
       "weight_g": 8,
-      "price_usd": null,
-      "message": "weight 8 g is 1/9.2x the alcohol median (74 g, n=12)",
+      "price_usd": 19.95,
+      "message": "weight 8 g is 1/9.6x the pouch/fanny pack median (77 g, n=19)",
       "details": {
-        "median_g": 74,
+        "median_g": 77,
+        "ratio": 0.1
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 64,
+      "id": "toaks-solid-fuel-cook-system",
+      "file": "stove.json",
+      "index": 55,
+      "name": "TOAKS Ultralight Titanium Solid Fuel Cook System",
+      "category": "stove",
+      "subcategory": "solid fuel",
+      "weight_g": 109,
+      "price_usd": 58,
+      "message": "weight 109 g is 9.1x the solid fuel median (12 g, n=5)",
+      "details": {
+        "median_g": 12,
+        "ratio": 9.08
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 63,
+      "id": "zpacks-1g-tick-remover",
+      "file": "first-aid-hygiene.json",
+      "index": 7,
+      "name": "Zpacks 1g Tick Remover",
+      "category": "first-aid-hygiene",
+      "subcategory": "first aid supply",
+      "weight_g": 1,
+      "price_usd": 9.95,
+      "message": "weight 1 g is 1/9.0x the first aid supply median (9 g, n=9)",
+      "details": {
+        "median_g": 9,
         "ratio": 0.11
       }
     },
     {
       "type": "weight-outlier",
       "score": 62,
-      "id": "leukotape-p-sports-tape",
-      "file": "first-aid-hygiene.json",
-      "index": 76,
-      "name": "Leukotape Leukotape P Sports Tape 1.5 in x 15 yd",
-      "category": "first-aid-hygiene",
-      "subcategory": "first aid supply",
-      "weight_g": 111,
-      "price_usd": 16.99,
-      "message": "weight 111 g is 8.5x the first aid supply median (13 g, n=8)",
+      "id": "flat-cat-gear-snow-leopard-stove-2-0",
+      "file": "stove.json",
+      "index": 98,
+      "name": "Flat Cat Gear Snow Leopard Stove 2.0",
+      "category": "stove",
+      "subcategory": "alcohol",
+      "weight_g": 4,
+      "price_usd": 29.5,
+      "message": "weight 4 g is 1/8.5x the alcohol median (34 g, n=23)",
       "details": {
-        "median_g": 13,
-        "ratio": 8.54
+        "median_g": 34,
+        "ratio": 0.12
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 59,
+      "id": "esbit-pocket-stove",
+      "file": "stove.json",
+      "index": 70,
+      "name": "Esbit Pocket Stove",
+      "category": "stove",
+      "subcategory": "solid fuel",
+      "weight_g": 92,
+      "price_usd": 15.95,
+      "message": "weight 92 g is 7.7x the solid fuel median (12 g, n=5)",
+      "details": {
+        "median_g": 12,
+        "ratio": 7.67
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 59,
+      "id": "hilltop-packs-ultralight-zipper-pouch-medium",
+      "file": "pack-organization.json",
+      "index": 148,
+      "name": "Hilltop Packs Ultralight Zipper Pouch Medium",
+      "category": "pack-organization",
+      "subcategory": "pouch/fanny pack",
+      "weight_g": 10,
+      "price_usd": 15.9,
+      "message": "weight 10 g is 1/7.7x the pouch/fanny pack median (77 g, n=19)",
+      "details": {
+        "median_g": 77,
+        "ratio": 0.13
       }
     },
     {
@@ -184,6 +252,23 @@
     {
       "type": "weight-outlier",
       "score": 58,
+      "id": "mayfly-ultralight-equipment-nymph",
+      "file": "footwear.json",
+      "index": 261,
+      "name": "Mayfly Ultralight Equipment Nymph",
+      "category": "footwear",
+      "subcategory": "camp shoe/sandal",
+      "weight_g": 48,
+      "price_usd": 38.99,
+      "message": "weight 48 g is 1/7.5x the camp shoe/sandal median (360 g, n=24)",
+      "details": {
+        "median_g": 360,
+        "ratio": 0.13
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 57,
       "id": "hydro-flask-32oz-wide-mouth",
       "file": "water-storage.json",
       "index": 55,
@@ -192,10 +277,61 @@
       "subcategory": "bottle",
       "weight_g": 431,
       "price_usd": 44.95,
-      "message": "weight 431 g is 7.6x the bottle median (57 g, n=17)",
+      "message": "weight 431 g is 7.2x the bottle median (60 g, n=18)",
       "details": {
-        "median_g": 57,
-        "ratio": 7.56
+        "median_g": 60,
+        "ratio": 7.18
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 56,
+      "id": "mayfly-ultralight-equipment-imago",
+      "file": "footwear.json",
+      "index": 260,
+      "name": "Mayfly Ultralight Equipment Imago",
+      "category": "footwear",
+      "subcategory": "camp shoe/sandal",
+      "weight_g": 51,
+      "price_usd": 38.99,
+      "message": "weight 51 g is 1/7.1x the camp shoe/sandal median (360 g, n=24)",
+      "details": {
+        "median_g": 360,
+        "ratio": 0.14
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 55,
+      "id": "fire-maple-volcano",
+      "file": "stove.json",
+      "index": 32,
+      "name": "Fire-Maple Volcano Adjustable Alcohol Stove",
+      "category": "stove",
+      "subcategory": "alcohol",
+      "weight_g": 226,
+      "price_usd": 59.95,
+      "message": "weight 226 g is 6.6x the alcohol median (34 g, n=23)",
+      "details": {
+        "median_g": 34,
+        "ratio": 6.65
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 55,
+      "id": "flat-cat-gear-bobcat-tilight-alcohol-stove",
+      "file": "stove.json",
+      "index": 97,
+      "name": "Flat Cat Gear Bobcat TiLight Alcohol Stove",
+      "category": "stove",
+      "subcategory": "alcohol",
+      "weight_g": 5,
+      "price_usd": 25,
+      "message": "weight 5 g is 1/6.8x the alcohol median (34 g, n=23)",
+      "details": {
+        "median_g": 34,
+        "ratio": 0.15
       }
     },
     {
@@ -217,7 +353,24 @@
     },
     {
       "type": "weight-outlier",
-      "score": 53,
+      "score": 54,
+      "id": "litesmith-zipza-pouch-large",
+      "file": "pack-organization.json",
+      "index": 160,
+      "name": "Litesmith Zipza Pouch Large",
+      "category": "pack-organization",
+      "subcategory": "pouch/fanny pack",
+      "weight_g": 12,
+      "price_usd": 22.95,
+      "message": "weight 12 g is 1/6.4x the pouch/fanny pack median (77 g, n=19)",
+      "details": {
+        "median_g": 77,
+        "ratio": 0.16
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 51,
       "id": "hydro-flask-21oz-standard-mouth",
       "file": "water-storage.json",
       "index": 56,
@@ -226,10 +379,10 @@
       "subcategory": "bottle",
       "weight_g": 357,
       "price_usd": 34.95,
-      "message": "weight 357 g is 6.3x the bottle median (57 g, n=17)",
+      "message": "weight 357 g is 6.0x the bottle median (60 g, n=18)",
       "details": {
-        "median_g": 57,
-        "ratio": 6.26
+        "median_g": 60,
+        "ratio": 5.95
       }
     },
     {
@@ -243,7 +396,7 @@
       "subcategory": "stuff sack",
       "weight_g": 4,
       "price_usd": 31,
-      "message": "weight 4 g is 1/5.6x the stuff sack median (23 g, n=56)",
+      "message": "weight 4 g is 1/5.6x the stuff sack median (23 g, n=66)",
       "details": {
         "median_g": 23,
         "ratio": 0.18
@@ -260,7 +413,7 @@
       "subcategory": "stuff sack",
       "weight_g": 4,
       "price_usd": 18,
-      "message": "weight 4 g is 1/5.6x the stuff sack median (23 g, n=56)",
+      "message": "weight 4 g is 1/5.6x the stuff sack median (23 g, n=66)",
       "details": {
         "median_g": 23,
         "ratio": 0.18
@@ -277,7 +430,7 @@
       "subcategory": "stuff sack",
       "weight_g": 4,
       "price_usd": 14.95,
-      "message": "weight 4 g is 1/5.6x the stuff sack median (23 g, n=56)",
+      "message": "weight 4 g is 1/5.6x the stuff sack median (23 g, n=66)",
       "details": {
         "median_g": 23,
         "ratio": 0.18
@@ -294,7 +447,7 @@
       "subcategory": "stuff sack",
       "weight_g": 4,
       "price_usd": 18.95,
-      "message": "weight 4 g is 1/5.6x the stuff sack median (23 g, n=56)",
+      "message": "weight 4 g is 1/5.6x the stuff sack median (23 g, n=66)",
       "details": {
         "median_g": 23,
         "ratio": 0.18
@@ -311,10 +464,10 @@
       "subcategory": "dry bag",
       "weight_g": 255,
       "price_usd": 80,
-      "message": "weight 255 g is 5.4x the dry bag median (47 g, n=34)",
+      "message": "weight 255 g is 5.5x the dry bag median (47 g, n=36)",
       "details": {
         "median_g": 47,
-        "ratio": 5.43
+        "ratio": 5.48
       }
     },
     {
@@ -345,10 +498,10 @@
       "subcategory": "sleeping bag",
       "weight_g": 680,
       "price_usd": 32.99,
-      "message": "$32.99 for 680 g is 1/14.7x the sleeping bag median $/g (0.711 $/g, n=65)",
+      "message": "$32.99 for 680 g is 1/14.3x the sleeping bag median $/g (0.693 $/g, n=69)",
       "details": {
         "usd_per_g": 0.0485,
-        "median_usd_per_g": 0.7114
+        "median_usd_per_g": 0.6934
       }
     },
     {
@@ -370,19 +523,53 @@
     },
     {
       "type": "weight-outlier",
-      "score": 45,
-      "id": "gossamer-gear-alchemy-hipbelt-pocket",
-      "file": "pack-organization.json",
-      "index": 50,
-      "name": "Gossamer Gear Alchemy Hipbelt Pocket",
-      "category": "pack-organization",
-      "subcategory": "pouch/fanny pack",
-      "weight_g": 20,
-      "price_usd": 35,
-      "message": "weight 20 g is 1/4.7x the pouch/fanny pack median (94 g, n=11)",
+      "score": 46,
+      "id": "sea-to-summit-pocket-trowel-aluminum",
+      "file": "first-aid-hygiene.json",
+      "index": 10,
+      "name": "Sea to Summit Pocket Trowel aluminum",
+      "category": "first-aid-hygiene",
+      "subcategory": "trowel",
+      "weight_g": 88,
+      "price_usd": 24.95,
+      "message": "weight 88 g is 4.9x the trowel median (18 g, n=15)",
       "details": {
-        "median_g": 94,
-        "ratio": 0.21
+        "median_g": 18,
+        "ratio": 4.89
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 46,
+      "id": "six-moon-designs-backpacking-dry-bag-50l",
+      "file": "pack-organization.json",
+      "index": 60,
+      "name": "Six Moon Designs Backpacking Dry Bag 50L",
+      "category": "pack-organization",
+      "subcategory": "dry bag",
+      "weight_g": 227,
+      "price_usd": 45,
+      "message": "weight 227 g is 4.9x the dry bag median (47 g, n=36)",
+      "details": {
+        "median_g": 47,
+        "ratio": 4.88
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 46,
+      "id": "toaks-alcohol-cook-system-900",
+      "file": "stove.json",
+      "index": 58,
+      "name": "TOAKS Titanium Alcohol Stove Cook System with 900 ml pot",
+      "category": "stove",
+      "subcategory": "alcohol",
+      "weight_g": 170,
+      "price_usd": 99.9,
+      "message": "weight 170 g is 5.0x the alcohol median (34 g, n=23)",
+      "details": {
+        "median_g": 34,
+        "ratio": 5
       }
     },
     {
@@ -405,35 +592,18 @@
     {
       "type": "weight-outlier",
       "score": 45,
-      "id": "six-moon-designs-backpacking-dry-bag-50l",
-      "file": "pack-organization.json",
-      "index": 60,
-      "name": "Six Moon Designs Backpacking Dry Bag 50L",
-      "category": "pack-organization",
-      "subcategory": "dry bag",
-      "weight_g": 227,
-      "price_usd": 45,
-      "message": "weight 227 g is 4.8x the dry bag median (47 g, n=34)",
+      "id": "toaks-alcohol-cook-system-700",
+      "file": "stove.json",
+      "index": 57,
+      "name": "TOAKS Titanium Alcohol Stove Cook System with 700 ml pot",
+      "category": "stove",
+      "subcategory": "alcohol",
+      "weight_g": 159,
+      "price_usd": 97.75,
+      "message": "weight 159 g is 4.7x the alcohol median (34 g, n=23)",
       "details": {
-        "median_g": 47,
-        "ratio": 4.83
-      }
-    },
-    {
-      "type": "price-per-gram",
-      "score": 44,
-      "id": "zpacks-1g-tick-remover",
-      "file": "first-aid-hygiene.json",
-      "index": 7,
-      "name": "Zpacks 1g Tick Remover",
-      "category": "first-aid-hygiene",
-      "subcategory": "first aid supply",
-      "weight_g": 1,
-      "price_usd": 9.95,
-      "message": "$9.95 for 1 g is 12.8x the first aid supply median $/g (0.779 $/g, n=8)",
-      "details": {
-        "usd_per_g": 9.95,
-        "median_usd_per_g": 0.7791
+        "median_g": 34,
+        "ratio": 4.68
       }
     },
     {
@@ -471,6 +641,40 @@
       }
     },
     {
+      "type": "price-per-gram",
+      "score": 43,
+      "id": "zpacks-1g-tick-remover",
+      "file": "first-aid-hygiene.json",
+      "index": 7,
+      "name": "Zpacks 1g Tick Remover",
+      "category": "first-aid-hygiene",
+      "subcategory": "first aid supply",
+      "weight_g": 1,
+      "price_usd": 9.95,
+      "message": "$9.95 for 1 g is 11.7x the first aid supply median $/g (0.853 $/g, n=9)",
+      "details": {
+        "usd_per_g": 9.95,
+        "median_usd_per_g": 0.8529
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 43,
+      "id": "high-tail-designs-tent-stake-sack",
+      "file": "pack-organization.json",
+      "index": 143,
+      "name": "High Tail Designs Tent Stake Sack",
+      "category": "pack-organization",
+      "subcategory": "stuff sack",
+      "weight_g": 5,
+      "price_usd": 25,
+      "message": "weight 5 g is 1/4.5x the stuff sack median (23 g, n=66)",
+      "details": {
+        "median_g": 23,
+        "ratio": 0.22
+      }
+    },
+    {
       "type": "weight-outlier",
       "score": 43,
       "id": "hyperlite-mountain-gear-drawstring-stuff-sack-1l",
@@ -481,7 +685,7 @@
       "subcategory": "stuff sack",
       "weight_g": 5,
       "price_usd": 34,
-      "message": "weight 5 g is 1/4.5x the stuff sack median (23 g, n=56)",
+      "message": "weight 5 g is 1/4.5x the stuff sack median (23 g, n=66)",
       "details": {
         "median_g": 23,
         "ratio": 0.22
@@ -507,6 +711,40 @@
     {
       "type": "weight-outlier",
       "score": 43,
+      "id": "pachallama-2g-carbon-pin-tent-stake-6-in",
+      "file": "misc.json",
+      "index": 38,
+      "name": "Pachallama 2g Carbon-Pin Tent Stake 6 in",
+      "category": "misc",
+      "subcategory": "stakes",
+      "weight_g": 2,
+      "price_usd": 3.95,
+      "message": "weight 2 g is 1/4.5x the stakes median (9 g, n=23)",
+      "details": {
+        "median_g": 9,
+        "ratio": 0.22
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 43,
+      "id": "ursack-allmitey-kodiak",
+      "file": "food-storage.json",
+      "index": 20,
+      "name": "Ursack AllMitey Kodiak",
+      "category": "food-storage",
+      "subcategory": "bear bag",
+      "weight_g": 434,
+      "price_usd": 294.95,
+      "message": "weight 434 g is 4.4x the bear bag median (99 g, n=22)",
+      "details": {
+        "median_g": 99,
+        "ratio": 4.41
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 43,
       "id": "zpacks-stuff-sack-small",
       "file": "pack-organization.json",
       "index": 1,
@@ -515,7 +753,7 @@
       "subcategory": "stuff sack",
       "weight_g": 5,
       "price_usd": 19.95,
-      "message": "weight 5 g is 1/4.5x the stuff sack median (23 g, n=56)",
+      "message": "weight 5 g is 1/4.5x the stuff sack median (23 g, n=66)",
       "details": {
         "median_g": 23,
         "ratio": 0.22
@@ -541,6 +779,23 @@
     {
       "type": "weight-outlier",
       "score": 42,
+      "id": "diy-fancy-feast-alcohol-stove",
+      "file": "stove.json",
+      "index": 82,
+      "name": "DIY Cat Food Can (Fancy Feast) Alcohol Stove",
+      "category": "stove",
+      "subcategory": "alcohol",
+      "weight_g": 8,
+      "price_usd": null,
+      "message": "weight 8 g is 1/4.3x the alcohol median (34 g, n=23)",
+      "details": {
+        "median_g": 34,
+        "ratio": 0.24
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 42,
       "id": "dr-bronner-s-pure-castile-liquid-soap-2-oz",
       "file": "first-aid-hygiene.json",
       "index": 18,
@@ -553,6 +808,23 @@
       "details": {
         "median_g": 16,
         "ratio": 4.26
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 42,
+      "id": "peak-first-aid-peak-tape",
+      "file": "first-aid-hygiene.json",
+      "index": 57,
+      "name": "Peak First Aid Peak Tape",
+      "category": "first-aid-hygiene",
+      "subcategory": "first aid supply",
+      "weight_g": 38,
+      "price_usd": 15,
+      "message": "weight 38 g is 4.2x the first aid supply median (9 g, n=9)",
+      "details": {
+        "median_g": 9,
+        "ratio": 4.22
       }
     },
     {
@@ -575,23 +847,6 @@
     {
       "type": "weight-outlier",
       "score": 42,
-      "id": "sea-to-summit-pocket-trowel-aluminum",
-      "file": "first-aid-hygiene.json",
-      "index": 10,
-      "name": "Sea to Summit Pocket Trowel aluminum",
-      "category": "first-aid-hygiene",
-      "subcategory": "trowel",
-      "weight_g": 88,
-      "price_usd": 24.95,
-      "message": "weight 88 g is 4.3x the trowel median (21 g, n=12)",
-      "details": {
-        "median_g": 21,
-        "ratio": 4.29
-      }
-    },
-    {
-      "type": "weight-outlier",
-      "score": 42,
       "id": "sea-to-summit-ultra-sil-compression-sack-20l",
       "file": "pack-organization.json",
       "index": 112,
@@ -600,7 +855,7 @@
       "subcategory": "stuff sack",
       "weight_g": 96,
       "price_usd": 49.95,
-      "message": "weight 96 g is 4.3x the stuff sack median (23 g, n=56)",
+      "message": "weight 96 g is 4.3x the stuff sack median (23 g, n=66)",
       "details": {
         "median_g": 23,
         "ratio": 4.27
@@ -609,18 +864,18 @@
     {
       "type": "weight-outlier",
       "score": 42,
-      "id": "zpacks-big-food-bag",
-      "file": "food-storage.json",
-      "index": 25,
-      "name": "Zpacks Big Food Bag",
-      "category": "food-storage",
-      "subcategory": "bear bag",
-      "weight_g": 31,
-      "price_usd": 44.95,
-      "message": "weight 31 g is 1/4.2x the bear bag median (131 g, n=16)",
+      "id": "toaks-alcohol-cook-system-650",
+      "file": "stove.json",
+      "index": 56,
+      "name": "TOAKS Titanium Alcohol Stove Cook System with 650 ml pot",
+      "category": "stove",
+      "subcategory": "alcohol",
+      "weight_g": 148,
+      "price_usd": 94.75,
+      "message": "weight 148 g is 4.4x the alcohol median (34 g, n=23)",
       "details": {
-        "median_g": 131,
-        "ratio": 0.24
+        "median_g": 34,
+        "ratio": 4.35
       }
     },
     {
@@ -672,23 +927,6 @@
       "details": {
         "median_g": 88,
         "ratio": 4.11
-      }
-    },
-    {
-      "type": "weight-outlier",
-      "score": 41,
-      "id": "hyperlite-roll-top-food-bag-10l",
-      "file": "food-storage.json",
-      "index": 27,
-      "name": "Hyperlite Mountain Gear Roll-Top Food Bag 10L",
-      "category": "food-storage",
-      "subcategory": "bear bag",
-      "weight_g": 32,
-      "price_usd": 58,
-      "message": "weight 32 g is 1/4.1x the bear bag median (131 g, n=16)",
-      "details": {
-        "median_g": 131,
-        "ratio": 0.24
       }
     },
     {
@@ -745,6 +983,23 @@
     {
       "type": "near-duplicate",
       "score": 40,
+      "id": "brautigam-long-titanium-spork",
+      "file": "cook-accessory.json",
+      "index": 76,
+      "name": "Brautigam Expedition Works Long Titanium Spork",
+      "category": "cook-accessory",
+      "subcategory": "utensil",
+      "weight_g": 17,
+      "price_usd": 24,
+      "message": "looks like cook-accessory.json[75] \"Brautigam Expedition Works Long Titanium Spoon\" (17 g vs 17 g, name similarity 0.89)",
+      "details": {
+        "other": "cook-accessory.json[75]",
+        "other_id": "brautigam-long-titanium-spoon"
+      }
+    },
+    {
+      "type": "near-duplicate",
+      "score": 40,
       "id": "darn-tough-vert-micro-crew-ultra-lightweight-cushion-mens",
       "file": "footwear.json",
       "index": 183,
@@ -757,6 +1012,23 @@
       "details": {
         "other": "footwear.json[179]",
         "other_id": "darn-tough-run-micro-crew-ultra-lightweight-cushion-mens"
+      }
+    },
+    {
+      "type": "near-duplicate",
+      "score": 40,
+      "id": "sierra-designs-cloud-zipperless-20f-regular",
+      "file": "sleep-insulation.json",
+      "index": 220,
+      "name": "Sierra Designs Cloud Zipperless 20°F 800F Regular",
+      "category": "sleep-insulation",
+      "subcategory": "sleeping bag",
+      "weight_g": 910,
+      "price_usd": 239.95,
+      "message": "looks like sleep-insulation.json[219] \"Sierra Designs Cloud Zippered 20°F 800F Regular\" (880 g vs 910 g, name similarity 0.91)",
+      "details": {
+        "other": "sleep-insulation.json[219]",
+        "other_id": "sierra-designs-cloud-zippered-20f-regular"
       }
     },
     {
@@ -845,37 +1117,20 @@
       }
     },
     {
-      "type": "price-per-gram",
+      "type": "weight-outlier",
       "score": 40,
-      "id": "nylofume-pack-liner-bag",
-      "file": "pack-organization.json",
-      "index": 124,
-      "name": "Nylofume Pack Liner Bag",
-      "category": "pack-organization",
-      "subcategory": "pack liner",
-      "weight_g": 26,
-      "price_usd": 2.4,
-      "message": "$2.4 for 26 g is 1/10.1x the pack liner median $/g (0.933 $/g, n=11)",
+      "id": "nemo-chipper",
+      "file": "misc.json",
+      "index": 15,
+      "name": "NEMO Chipper",
+      "category": "misc",
+      "subcategory": "sit pad",
+      "weight_g": 215,
+      "price_usd": 24.95,
+      "message": "weight 215 g is 4.0x the sit pad median (54 g, n=8)",
       "details": {
-        "usd_per_g": 0.0923,
-        "median_usd_per_g": 0.9333
-      }
-    },
-    {
-      "type": "price-per-gram",
-      "score": 39,
-      "id": "frogg-toggs-ultra-lite2-pants-mens",
-      "file": "rain-pants.json",
-      "index": 28,
-      "name": "Frogg Toggs Ultra-Lite2 Pants Men's",
-      "category": "rain-pants",
-      "subcategory": "rain pants",
-      "weight_g": 193,
-      "price_usd": 15,
-      "message": "$15 for 193 g is 1/9.7x the rain pants median $/g (0.753 $/g, n=61)",
-      "details": {
-        "usd_per_g": 0.0777,
-        "median_usd_per_g": 0.7528
+        "median_g": 54,
+        "ratio": 4.02
       }
     },
     {
@@ -893,6 +1148,40 @@
       "details": {
         "usd_per_g": 3.975,
         "median_usd_per_g": 0.425
+      }
+    },
+    {
+      "type": "price-per-gram",
+      "score": 38,
+      "id": "frogg-toggs-ultra-lite2-pants-mens",
+      "file": "rain-pants.json",
+      "index": 28,
+      "name": "Frogg Toggs Ultra-Lite2 Pants Men's",
+      "category": "rain-pants",
+      "subcategory": "rain pants",
+      "weight_g": 193,
+      "price_usd": 15,
+      "message": "$15 for 193 g is 1/9.0x the rain pants median $/g (0.699 $/g, n=64)",
+      "details": {
+        "usd_per_g": 0.0777,
+        "median_usd_per_g": 0.6993
+      }
+    },
+    {
+      "type": "price-per-gram",
+      "score": 38,
+      "id": "sea-to-summit-camp-cutlery-spoon",
+      "file": "cook-accessory.json",
+      "index": 56,
+      "name": "Sea to Summit Camp Cutlery Spoon",
+      "category": "cook-accessory",
+      "subcategory": "utensil",
+      "weight_g": 12,
+      "price_usd": 1,
+      "message": "$1 for 12 g is 1/8.9x the utensil median $/g (0.746 $/g, n=42)",
+      "details": {
+        "usd_per_g": 0.0833,
+        "median_usd_per_g": 0.7458
       }
     },
     {
@@ -1002,6 +1291,19 @@
     {
       "type": "shipping-weight",
       "score": 35,
+      "id": "neve-gear-bandicoot-28f-regular",
+      "file": "sleep-insulation.json",
+      "index": 229,
+      "name": "Neve Gear Bandicoot 28°F Regular",
+      "category": "sleep-insulation",
+      "subcategory": "sleeping bag",
+      "weight_g": 790,
+      "price_usd": 330,
+      "message": "notes say the weight may be a packaged/shipping weight: \"total estimated weight (~790 g); down 510 g | -2°C comfort. Pre-order shipping Oct 2026; weight marked estimated. Weight\""
+    },
+    {
+      "type": "shipping-weight",
+      "score": 35,
       "id": "ugq-outdoor-bandit-0f-850fp",
       "file": "sleep-insulation.json",
       "index": 46,
@@ -1093,6 +1395,58 @@
     {
       "type": "shipping-weight",
       "score": 25,
+      "id": "bear-paw-wilderness-designs-canopy-tent-2",
+      "file": "shelter.json",
+      "index": 357,
+      "name": "Bear Paw Wilderness Designs Canopy Tent 2 20D silnylon",
+      "category": "shelter",
+      "subcategory": "tarp",
+      "weight_g": 567,
+      "price_usd": 150,
+      "message": "567 g is exactly 1.25 lb and 1.8x the median: possibly a rounded shipping weight"
+    },
+    {
+      "type": "shipping-weight",
+      "score": 25,
+      "id": "bear-paw-wilderness-designs-la-garita",
+      "file": "shelter.json",
+      "index": 358,
+      "name": "Bear Paw Wilderness Designs La Garita 20D silnylon",
+      "category": "shelter",
+      "subcategory": "tarp",
+      "weight_g": 567,
+      "price_usd": 275,
+      "message": "567 g is exactly 1.25 lb and 1.8x the median: possibly a rounded shipping weight"
+    },
+    {
+      "type": "shipping-weight",
+      "score": 25,
+      "id": "bear-paw-wilderness-designs-luna-4",
+      "file": "shelter.json",
+      "index": 360,
+      "name": "Bear Paw Wilderness Designs Luna 4 20D silnylon",
+      "category": "shelter",
+      "subcategory": "pyramid",
+      "weight_g": 907,
+      "price_usd": 425,
+      "message": "907 g is exactly 2 lb and 2.1x the median: possibly a rounded shipping weight"
+    },
+    {
+      "type": "shipping-weight",
+      "score": 25,
+      "id": "bear-paw-wilderness-designs-minimalist-1",
+      "file": "shelter.json",
+      "index": 361,
+      "name": "Bear Paw Wilderness Designs Minimalist 1 30D silnylon floor",
+      "category": "shelter",
+      "subcategory": "bivy",
+      "weight_g": 340,
+      "price_usd": 125,
+      "message": "340 g is exactly 0.75 lb and 1.6x the median: possibly a rounded shipping weight"
+    },
+    {
+      "type": "shipping-weight",
+      "score": 25,
       "id": "big-agnes-copper-spur-ul4",
       "file": "shelter.json",
       "index": 73,
@@ -1114,7 +1468,7 @@
       "subcategory": "camp shoe/sandal",
       "weight_g": 680,
       "price_usd": 95,
-      "message": "680 g is exactly 1.5 lb and 1.7x the median: possibly a rounded shipping weight"
+      "message": "680 g is exactly 1.5 lb and 1.9x the median: possibly a rounded shipping weight"
     },
     {
       "type": "shipping-weight",
@@ -1179,7 +1533,7 @@
       "subcategory": "dry bag",
       "weight_g": 227,
       "price_usd": 45,
-      "message": "227 g is exactly 0.5 lb and 4.8x the median: possibly a rounded shipping weight"
+      "message": "227 g is exactly 0.5 lb and 4.9x the median: possibly a rounded shipping weight"
     },
     {
       "type": "shipping-weight",
@@ -1192,7 +1546,7 @@
       "subcategory": "trekking-pole tent",
       "weight_g": 1134,
       "price_usd": 160,
-      "message": "1134 g is exactly 2.5 lb and 1.7x the median: possibly a rounded shipping weight"
+      "message": "1134 g is exactly 2.5 lb and 1.6x the median: possibly a rounded shipping weight"
     },
     {
       "type": "shipping-weight",
@@ -1223,23 +1577,10 @@
     {
       "type": "shipping-weight",
       "score": 25,
-      "id": "tarptent-mesospire-2-plus",
-      "file": "shelter.json",
-      "index": 115,
-      "name": "Tarptent MesoSpire 2+",
-      "category": "shelter",
-      "subcategory": "trekking-pole tent",
-      "weight_g": 1021,
-      "price_usd": 299,
-      "message": "1021 g is exactly 2.25 lb and 1.5x the median: possibly a rounded shipping weight"
-    },
-    {
-      "type": "shipping-weight",
-      "score": 25,
       "id": "warbonnet-puptarp",
       "file": "shelter.json",
       "index": 253,
-      "name": "Warbonnet Puptarp",
+      "name": "Warbonnet Outdoors Puptarp",
       "category": "shelter",
       "subcategory": "tarp",
       "weight_g": 567,

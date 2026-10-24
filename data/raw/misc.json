@@ -1153,5 +1153,343 @@
     "discontinued": false,
     "confidence": "low",
     "notes": null
+  },
+  {
+    "id": "packtowl-personal-towel-face",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "PackTowl",
+    "model": "Personal Towel",
+    "variant": "Face",
+    "weight_g": 20,
+    "weight_basis": "manufacturer",
+    "weight_note": "14 x 10 in, Garage Grown Gear-listed 0.7 oz / 20 g",
+    "price_usd": 16.95,
+    "specs": {
+      "type": "towel",
+      "material": "microfiber, 80% polyester / 20% nylon"
+    },
+    "url": "https://www.garagegrowngear.com/products/personal-towel-by-packtowl",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "packtowl-personal-towel-hand",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "PackTowl",
+    "model": "Personal Towel",
+    "variant": "Hand",
+    "weight_g": 82,
+    "weight_basis": "manufacturer",
+    "weight_note": "36 x 16.5 in, Garage Grown Gear-listed 2.9 oz / 82 g",
+    "price_usd": null,
+    "specs": {
+      "type": "towel",
+      "material": "microfiber, 80% polyester / 20% nylon"
+    },
+    "url": "https://www.garagegrowngear.com/products/personal-towel-by-packtowl",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "GGG only stocks the Face size, so no price found"
+  },
+  {
+    "id": "packtowl-luxe-towel-face",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "PackTowl",
+    "model": "Luxe Towel",
+    "variant": "Face",
+    "weight_g": 31,
+    "weight_basis": "manufacturer",
+    "weight_note": "14 x 10 in, Garage Grown Gear-listed 1.1 oz / 31 g",
+    "price_usd": 19.95,
+    "specs": {
+      "type": "towel",
+      "material": "terry-knit microfiber, 85% polyester / 15% nylon"
+    },
+    "url": "https://www.garagegrowngear.com/products/luxe-towel-by-packtowl",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "packtowl-luxe-towel-hand",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "PackTowl",
+    "model": "Luxe Towel",
+    "variant": "Hand",
+    "weight_g": 130,
+    "weight_basis": "manufacturer",
+    "weight_note": "36 x 16.5 in, Garage Grown Gear-listed 4.6 oz / 130 g",
+    "price_usd": 32.95,
+    "specs": {
+      "type": "towel",
+      "material": "terry-knit microfiber, 85% polyester / 15% nylon"
+    },
+    "url": "https://www.garagegrowngear.com/products/luxe-towel-by-packtowl",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "high-tail-designs-printed-tyvek-ground-cloth",
+    "category": "misc",
+    "subcategory": "ground sheet",
+    "brand": "High Tail Designs",
+    "model": "Printed Tyvek Ground Cloth",
+    "variant": null,
+    "weight_g": 137,
+    "weight_basis": "manufacturer",
+    "weight_note": "36 x 78 in",
+    "price_usd": 62,
+    "specs": {
+      "material": "Tyvek"
+    },
+    "url": "https://www.garagegrowngear.com/products/tyvek-ground-cloth-by-high-tail-designs",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Some prints cost more ($72)."
+  },
+  {
+    "id": "brautigam-titanium-7g-stakes",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Brautigam Expedition Works",
+    "model": "Titanium 7G Stakes",
+    "variant": null,
+    "weight_g": 8,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake (7.5 g)",
+    "price_usd": 4,
+    "specs": {
+      "material": "titanium",
+      "shape": "shepherd hook",
+      "length_in": 6.1
+    },
+    "url": "https://brautigamexpeditionworks.com/products/titanium-7g-stakes",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Sold in 2-packs ($8.00); price shown per stake."
+  },
+  {
+    "id": "brautigam-dirt-dart-titanium-tent-stakes-standard",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Brautigam Expedition Works",
+    "model": "Dirt Dart Titanium Tent Stakes",
+    "variant": "Standard",
+    "weight_g": 11,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 7.5,
+    "specs": {
+      "material": "titanium",
+      "shape": "knotless hook",
+      "length_in": 6.6
+    },
+    "url": "https://brautigamexpeditionworks.com/products/dirt-dart-titanium-tent-stakes",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Knot-free guyline cleat design. Sold in 2-packs ($15.00); price shown per stake."
+  },
+  {
+    "id": "brautigam-dirt-dart-titanium-tent-stakes-xl",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Brautigam Expedition Works",
+    "model": "Dirt Dart Titanium Tent Stakes",
+    "variant": "XL",
+    "weight_g": 14,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake",
+    "price_usd": 8,
+    "specs": {
+      "material": "titanium",
+      "shape": "knotless hook",
+      "length_in": 8.6
+    },
+    "url": "https://brautigamexpeditionworks.com/products/dirt-dart-titanium-tent-stakes",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "For loose ground. Sold in 2-packs ($16.00); price shown per stake."
+  },
+  {
+    "id": "brautigam-ptarmigan-titanium-snow-anchor",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Brautigam Expedition Works",
+    "model": "Ptarmigan Titanium Snow Anchor",
+    "variant": null,
+    "weight_g": 21,
+    "weight_basis": "manufacturer",
+    "weight_note": "incl. Dyneema loop",
+    "price_usd": 16.5,
+    "specs": {
+      "material": "titanium",
+      "shape": "snow/sand anchor"
+    },
+    "url": "https://brautigamexpeditionworks.com/products/ptarmigan-titanium-snow-anchors",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Sold individually; 3 x 5 in."
+  },
+  {
+    "id": "chicken-tramper-bear-can-key",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Chicken Tramper Gear",
+    "model": "Bear Can Key",
+    "variant": null,
+    "weight_g": 4,
+    "weight_basis": "manufacturer",
+    "weight_note": "total incl. anchor; key alone 2.2 g",
+    "price_usd": 12,
+    "specs": {},
+    "url": "https://www.chickentrampergear.com/products/bear-can-key",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Opens BearVault and twist-lock canisters. Brand site showed a sale price (about 20% off) this session; list price used."
+  },
+  {
+    "id": "alpenglow-gear-alpenblow-classic-micro-inflator",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Alpenglow Gear",
+    "model": "Alpenblow Classic Micro Inflator",
+    "variant": null,
+    "weight_g": 9,
+    "weight_basis": "manufacturer",
+    "weight_note": "8.6 g",
+    "price_usd": 59.95,
+    "specs": {
+      "power": "USB-C, 18 mAh @ 5V per inflation"
+    },
+    "url": "https://www.alpenglowgear.co/products/alpenblow-classic",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "USB-C sleeping pad inflator powered from a phone or power bank; nozzles for major pad brands included."
+  },
+  {
+    "id": "alpenglow-gear-alpenblow-lux-micro-inflator",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Alpenglow Gear",
+    "model": "Alpenblow Lux Micro Inflator",
+    "variant": null,
+    "weight_g": 14,
+    "weight_basis": "manufacturer",
+    "weight_note": "13.7 g with Therm-a-Rest nozzle",
+    "price_usd": 59.95,
+    "specs": {
+      "power": "USB-C, 9 mAh @ 5V per inflation",
+      "lumens": null
+    },
+    "url": "https://www.alpenglowgear.co/products/alpenblow-lux",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Pad inflator + deflator with reading lamps, candle mode and white-noise; doubles as a lantern with the Lux Lantern Leash."
+  },
+  {
+    "id": "jereko-gear-driver",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Jereko Gear",
+    "model": "Driver",
+    "variant": null,
+    "weight_g": 16,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 4.99,
+    "specs": {
+      "material": "PLA"
+    },
+    "url": "https://www.garagegrowngear.com/products/driver-by-jereko-gear",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Hand guard for pushing trowels (Deuce, DirtSaw) and stakes into the ground."
+  },
+  {
+    "id": "jereko-gear-ultralight-carabiner",
+    "category": "misc",
+    "subcategory": "other",
+    "brand": "Jereko Gear",
+    "model": "Ultralight Carabiner",
+    "variant": null,
+    "weight_g": 4,
+    "weight_basis": "manufacturer",
+    "weight_note": "each",
+    "price_usd": 4,
+    "specs": {
+      "material": "PLA",
+      "max_load_lb": 40
+    },
+    "url": "https://www.garagegrowngear.com/products/ultralight-carabiner-by-jereko-gear",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Sold as a 2-pack ($4.00). Not for climbing."
+  },
+  {
+    "id": "big-sky-tube-steak-tent-stake-6-in",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Big Sky International",
+    "model": "Tube Steak Tent Stake",
+    "variant": "6 in",
+    "weight_g": 9,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake incl. reflective pull cord",
+    "price_usd": 2.95,
+    "specs": {
+      "material": "aluminum",
+      "shape": "tube",
+      "length_in": 6
+    },
+    "url": "https://www.bigskyinternational.com/products/big-sky-tube-steak-tent-pegs-stakes-big-sky-international",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Sold singly or in 4-packs."
+  },
+  {
+    "id": "big-sky-tube-steak-tent-stake-8-in",
+    "category": "misc",
+    "subcategory": "stakes",
+    "brand": "Big Sky International",
+    "model": "Tube Steak Tent Stake",
+    "variant": "8 in",
+    "weight_g": 14,
+    "weight_basis": "manufacturer",
+    "weight_note": "per stake incl. reflective pull cord",
+    "price_usd": 3.95,
+    "specs": {
+      "material": "aluminum",
+      "shape": "tube",
+      "length_in": 8
+    },
+    "url": "https://www.bigskyinternational.com/products/big-sky-tube-steak-tent-pegs-stakes-big-sky-international",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Sold singly or in 4-packs."
+  },
+  {
+    "id": "litesmith-folding-sit-pad",
+    "category": "misc",
+    "subcategory": "sit pad",
+    "brand": "Litesmith",
+    "model": "Folding Sit Pad",
+    "variant": null,
+    "weight_g": 28,
+    "weight_basis": "manufacturer",
+    "weight_note": "27.8 g",
+    "price_usd": 7.95,
+    "specs": {
+      "material": "EVA closed-cell foam"
+    },
+    "url": "https://www.litesmith.com/folding-sit-pad/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "15.5 x 10.75 in, accordion fold."
   }
 ]

@@ -1309,5 +1309,26 @@
     "discontinued": false,
     "confidence": "low",
     "notes": "Retailer lists it as SOFT FLASK 250ml/8oz 28 (28 mm cap). Price per Neptune Mountaineering (Oct 2026)."
+  },
+  {
+    "id": "silverant-titanium-800ml-screw-top-clip-bottle",
+    "category": "water-storage",
+    "subcategory": "bottle",
+    "brand": "SilverAnt",
+    "model": "Titanium 800ml Screw Top Clip Bottle",
+    "variant": null,
+    "weight_g": 167,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 74.99,
+    "specs": {
+      "capacity_l": 0.8,
+      "collapsible": false,
+      "material": "titanium"
+    },
+    "url": "https://www.garagegrowngear.com/products/titanium-800ml-screw-top-clip-bottle-by-silverant",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Includes insulating sleeve."
   }
 ]
