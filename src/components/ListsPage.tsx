@@ -55,6 +55,7 @@ export function ListsPage({ listId }: { listId?: string }) {
           Import LighterPack CSV
           <input ref={fileRef} type="file" accept=".csv,text/csv" onChange={(e) => onFile(e.target.files?.[0])} hidden data-testid="csv-input" />
         </label>
+        <a className="btn small wide" href={href('/examples')}>Browse example lists</a>
         <p className="muted small">Lists are stored in this browser (localStorage). Use Share or Export to back them up.</p>
       </aside>
       <div className="lists-main">
@@ -65,6 +66,7 @@ export function ListsPage({ listId }: { listId?: string }) {
             <div className="row gap">
               <button type="button" className="btn primary" onClick={() => createList()}>Create a list</button>
               <button type="button" className="btn" onClick={() => fileRef.current?.click()}>Import LighterPack CSV</button>
+              <a className="btn" href={href('/examples')}>Start from an example</a>
             </div>
           </div>
         ) : (

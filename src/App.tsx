@@ -10,7 +10,9 @@ import { CompareTray, CompareView } from './components/CompareView';
 import { ListsPage } from './components/ListsPage';
 import { SharedView } from './components/SharedView';
 import { AboutPage } from './components/AboutPage';
+import { ExamplesPage } from './components/ExamplesPage';
 import { ItemDrawer } from './components/ItemDrawer';
+import { ErrorBoundary } from './components/ErrorBoundary';
 
 export default function App() {
   const [db, setDb] = useState<DB | null>(null);
@@ -38,6 +40,7 @@ function Shell() {
     case 'search': page = <SearchPage q={route.query.get('q') ?? ''} />; break;
     case 'compare': section = 'compare'; page = <CompareView idsParam={route.query.get('ids')} />; break;
     case 'lists': section = 'lists'; page = <ListsPage listId={a} />; break;
+    case 'examples': section = 'examples'; page = <ExamplesPage />; break;
     case 'share': section = 'lists'; page = <SharedView data={route.path.slice(1).join('/')} />; break;
     case 'about': section = 'about'; page = <AboutPage />; break;
     default: page = <BrowsePage />;
@@ -45,7 +48,8 @@ function Shell() {
   return (
     <>
       <Header section={section} />
-      <main>{page}</main>
+      {/* keyed on the path (not the query, which search rewrites per keystroke) so navigating away recovers from a page that threw */}
+      <main><ErrorBoundary key={route.path.join('/')}>{page}</ErrorBoundary></main>
       <ItemDrawer />
       {section !== 'compare' && <CompareTray />}
     </>
