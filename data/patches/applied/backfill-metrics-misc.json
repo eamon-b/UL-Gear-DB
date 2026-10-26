@@ -1,0 +1,236 @@
+{
+ "updates": [
+  {
+   "id": "timmermade-overquilt",
+   "set": {
+    "specs": {
+     "temp_rating_f": 50
+    }
+   }
+  },
+  {
+   "id": "big-agnes-fly-creek-ul-quilt",
+   "set": {
+    "specs": {
+     "temp_rating_f": 50
+    }
+   }
+  },
+  {
+   "id": "neve-gear-waratah-ul-summer-quilt",
+   "set": {
+    "specs": {
+     "temp_rating_f": 39
+    }
+   }
+  },
+  {
+   "id": "gossamer-gear-thinlight-foam-pad-1-8-rolled",
+   "set": {
+    "specs": {
+     "r_value": 0.5
+    }
+   }
+  },
+  {
+   "id": "gossamer-gear-thinlight-foam-pad-1-8-folded",
+   "set": {
+    "specs": {
+     "r_value": 0.5
+    }
+   }
+  },
+  {
+   "id": "gossamer-gear-thinlight-foam-pad-1-8-rolled-wide",
+   "set": {
+    "specs": {
+     "r_value": 0.5
+    }
+   }
+  },
+  {
+   "id": "toaks-9-piece-short-combo",
+   "set": {
+    "specs": {
+     "capacity_ml": 1300
+    }
+   }
+  },
+  {
+   "id": "msr-titan-double-wall-mug",
+   "set": {
+    "specs": {
+     "capacity_ml": 375
+    }
+   }
+  },
+  {
+   "id": "msr-ceramic-solo-pot",
+   "set": {
+    "specs": {
+     "capacity_ml": 1300
+    }
+   }
+  },
+  {
+   "id": "soto-thermostack-original",
+   "set": {
+    "specs": {
+     "capacity_ml": 400
+    }
+   }
+  },
+  {
+   "id": "gossamer-gear-riksak",
+   "set": {
+    "specs": {
+     "volume_l": 20
+    }
+   }
+  },
+  {
+   "id": "nitecore-nb10000-gen-2",
+   "set": {
+    "specs": {
+     "capacity_wh": 38.5
+    }
+   }
+  },
+  {
+   "id": "nitecore-nb10000-gen-3",
+   "set": {
+    "specs": {
+     "capacity_wh": 38.5
+    }
+   }
+  },
+  {
+   "id": "nitecore-nb20000-gen-3",
+   "set": {
+    "specs": {
+     "capacity_wh": 72
+    }
+   }
+  },
+  {
+   "id": "nitecore-carbo-10000",
+   "set": {
+    "specs": {
+     "capacity_wh": 38.5
+    }
+   }
+  },
+  {
+   "id": "nitecore-carbo-20000",
+   "set": {
+    "specs": {
+     "capacity_wh": 77
+    }
+   }
+  },
+  {
+   "id": "nitecore-nb-air",
+   "set": {
+    "specs": {
+     "capacity_wh": 19.4
+    }
+   }
+  },
+  {
+   "id": "nitecore-summit-10000",
+   "set": {
+    "specs": {
+     "capacity_wh": 38.5
+    }
+   }
+  },
+  {
+   "id": "anker-737-powercore-24k",
+   "set": {
+    "specs": {
+     "capacity_wh": 86.4
+    }
+   }
+  },
+  {
+   "id": "anker-zolo-10k",
+   "set": {
+    "specs": {
+     "capacity_wh": 36
+    }
+   }
+  },
+  {
+   "id": "anker-powercore-10000",
+   "set": {
+    "specs": {
+     "capacity_wh": 36
+    }
+   }
+  },
+  {
+   "id": "goal-zero-flip-12",
+   "set": {
+    "specs": {
+     "capacity_wh": 12.06
+    }
+   }
+  },
+  {
+   "id": "goal-zero-flip-24",
+   "set": {
+    "specs": {
+     "capacity_wh": 24.12
+    }
+   }
+  },
+  {
+   "id": "goal-zero-venture-35",
+   "set": {
+    "specs": {
+     "capacity_wh": 35.52
+    }
+   }
+  },
+  {
+   "id": "biolite-charge-40-pd",
+   "set": {
+    "specs": {
+     "capacity_wh": 37
+    }
+   }
+  },
+  {
+   "id": "biolite-charge-80-pd",
+   "set": {
+    "specs": {
+     "capacity_wh": 74
+    }
+   }
+  },
+  {
+   "id": "sharge-shargeek-100",
+   "set": {
+    "specs": {
+     "capacity_wh": 93.5
+    }
+   }
+  },
+  {
+   "id": "baseus-blade-hd-20000",
+   "set": {
+    "specs": {
+     "capacity_wh": 74
+    }
+   }
+  },
+  {
+   "id": "zendure-supermini-20-plus",
+   "set": {
+    "specs": {
+     "capacity_wh": 77
+    }
+   }
+  }
+ ]
+}

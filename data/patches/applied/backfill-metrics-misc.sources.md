@@ -1,0 +1,31 @@
+# Sources for backfill-metrics-misc.json
+
+- timmermade-overquilt | temp_rating_f | 50 | https://timmermade.com/product/merganser-overbag/ | "Adds approximately 20 degrees of insulation (50f stand alone, 2.5oz/yd Climashield Apex)"
+- big-agnes-fly-creek-ul-quilt | temp_rating_f | 50 | https://www.backcountry.com/big-agnes-fly-creek-ul-zip-quilt-50f-down | "Degree 50°F" (Fly Creek UL Zip Quilt 50; SKU BFCULZQR5025 matches bigagnes.com variant); ISO comfort 59°F / limit 53°F
+- neve-gear-waratah-ul-summer-quilt | temp_rating_f | 39 | https://nevegear.com/products/waratah-ul-summer-quilt | "Comfort Temp: 4°C" (converted 39.2°F)
+- gossamer-gear-thinlight-foam-pad-1-8-rolled | r_value | 0.5 | https://www.gossamergear.com/products/thinlight-foam-pad | "we estimate the R values to be 0.5 for the 1/8" Thinlight" (manufacturer estimate)
+- gossamer-gear-thinlight-foam-pad-1-8-folded | r_value | 0.5 | https://www.gossamergear.com/products/thinlight-foam-pad | "we estimate the R values to be 0.5 for the 1/8" Thinlight" (manufacturer estimate)
+- gossamer-gear-thinlight-foam-pad-1-8-rolled-wide | r_value | 0.5 | https://www.gossamergear.com/products/thinlight-foam-pad | "we estimate the R values to be 0.5 for the 1/8" Thinlight" (manufacturer estimate)
+- toaks-9-piece-short-combo | capacity_ml | 1300 | https://www.toaksoutdoor.com/products/cmb-9piece_shortset | "a TOAKS Titanium 1300ml Pot with Pan" (largest pot; set total "3.5 Liter")
+- msr-titan-double-wall-mug | capacity_ml | 375 | https://cascadedesigns.com/products/titan-double-wall-mug | "0.375 liters" / "12.68 fl. oz."
+- msr-ceramic-solo-pot | capacity_ml | 1300 | https://cascadedesigns.com/products/ceramic-solo-pot | "Size: 1.3L"
+- soto-thermostack-original | capacity_ml | 400 | https://sotooutdoors.com/product/thermostack-cook-set-original/ | "Includes a 350ml stainless steel cup, a 400ml titanium cup, a lid..." (largest vessel)
+- gossamer-gear-riksak | volume_l | 20 | https://www.gossamergear.com/products/riksak | "Main Pack Body 20 L"
+- nitecore-nb10000-gen-2 | capacity_wh | 38.5 | https://nitecorestore.com/products/nitecore-nb10000-gen-2-qc-dual-port-10000mah-power-bank | "38.5Wh"
+- nitecore-nb10000-gen-3 | capacity_wh | 38.5 | https://www.nitecore.com/product/nb10000gen3 | "10,000mAh 3.85V (38.5Wh)"
+- nitecore-nb20000-gen-3 | capacity_wh | 72 | https://www.nitecore.com/product/nb20000gen3 | "20,000mAh 3.6V (72Wh)"
+- nitecore-carbo-10000 | capacity_wh | 38.5 | https://www.gearshop.co.nz/products/nitecore-carbo-10-000-waterproof-portable-power-bank | "10000mAh 3.85V (38.5Wh)"
+- nitecore-carbo-20000 | capacity_wh | 77 | https://www.nitecore.com/product/carbo20000 | "20,000mAh 3.85V (77Wh)"
+- nitecore-nb-air | capacity_wh | 19.4 | https://www.nitecore.com/product/nbair | "5,000mAh 3.88V (19.4Wh)"
+- nitecore-summit-10000 | capacity_wh | 38.5 | https://www.nitecore.com/product/summit10000 | "10,000mAh 3.85V (38.5Wh)"
+- anker-737-powercore-24k | capacity_wh | 86.4 | https://www.storagereview.com/review/anker-737-power-bank-review | "24,000mAh or 86.4Wh battery"
+- anker-zolo-10k | capacity_wh | 36 | https://hqtelecomsa.com/en/anker-a1688h31/p719557856 | "Capacity: 10,000 mAh / 36Wh" (A1688)
+- anker-powercore-10000 | capacity_wh | 36 | https://www.anker.com/eu-pl/products/a1263 | "10000 mAh / 36 Wh" (PowerCore 10000, A1263)
+- goal-zero-flip-12 | capacity_wh | 12.06 | https://www.goalzero.com/products/flip-12-power-bank | "Battery Size: 12.06 Wh (3.6V, 3350 mAh)"
+- goal-zero-flip-24 | capacity_wh | 24.12 | https://www.goalzero.com/products/flip-24-power-bank | "Battery Size: 24.12Wh (3.6V, 6700mAh)"
+- goal-zero-venture-35 | capacity_wh | 35.52 | https://www.goalzero.com/products/venture-35-power-bank | "Cell capacity: 35.52Wh (3.7V, 9600mAh)"
+- biolite-charge-40-pd | capacity_wh | 37 | https://www.bioliteenergy.com/products/charge-40-pd | "10,000 mAh, (37 Wh) Li-Ion"
+- biolite-charge-80-pd | capacity_wh | 74 | https://www.bioliteenergy.com/products/charge-80-pd | "20,000 mAh ... (74 Wh)"
+- sharge-shargeek-100 | capacity_wh | 93.5 | https://sharge.com/products/storm2 | "25,600mAh / 93.5Wh"; FAQ "Shargeek 100 is rated at 93.5Wh"
+- baseus-blade-hd-20000 | capacity_wh | 74 | https://hotline.ua/ua/mobile-universalnye-batarei/baseus-blade-20000mah-100w-hd-edition-black-ppbl000301/ | "20000 мА-год (74 Вт-год)" (PPBL000301 HD Edition)
+- zendure-supermini-20-plus | capacity_wh | 77 | https://powerbank.zendure.com/products/supermini-20-ultra-compact-20-000mah-usb-c-power-bank | "20,000mAh / 77Wh"

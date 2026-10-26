@@ -2426,7 +2426,7 @@
     "weight_note": null,
     "price_usd": 22,
     "specs": {
-      "r_value": null,
+      "r_value": 0.5,
       "length_in": 58.7,
       "width_in": 19,
       "thickness_in": 0.125,
@@ -2449,7 +2449,7 @@
     "weight_note": null,
     "price_usd": 32,
     "specs": {
-      "r_value": null,
+      "r_value": 0.5,
       "length_in": 73.5,
       "width_in": 19,
       "thickness_in": 0.125,
@@ -2472,7 +2472,7 @@
     "weight_note": null,
     "price_usd": 24,
     "specs": {
-      "r_value": null,
+      "r_value": 0.5,
       "length_in": 58.7,
       "width_in": 25,
       "thickness_in": 0.125,

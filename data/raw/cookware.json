@@ -690,7 +690,8 @@
     "weight_note": "total",
     "price_usd": 200.75,
     "specs": {
-      "material": "titanium"
+      "material": "titanium",
+      "capacity_ml": 1300
     },
     "url": "https://www.toaksoutdoor.com/products/cmb-9piece_shortset",
     "discontinued": false,
@@ -969,7 +970,8 @@
     "weight_note": "listed 4.1 oz",
     "price_usd": 54.95,
     "specs": {
-      "material": "titanium"
+      "material": "titanium",
+      "capacity_ml": 375
     },
     "url": "https://cascadedesigns.com/products/titan-double-wall-mug",
     "discontinued": false,
@@ -1008,7 +1010,8 @@
     "weight_note": "listed 7.5 oz",
     "price_usd": 61.95,
     "specs": {
-      "material": "aluminum, ceramic nonstick"
+      "material": "aluminum, ceramic nonstick",
+      "capacity_ml": 1300
     },
     "url": "https://cascadedesigns.com/products/ceramic-solo-pot",
     "discontinued": false,
@@ -1327,7 +1330,8 @@
     "weight_note": "total set weight",
     "price_usd": 54.95,
     "specs": {
-      "material": "stainless steel / titanium"
+      "material": "stainless steel / titanium",
+      "capacity_ml": 400
     },
     "url": "https://sotooutdoors.com/product/thermostack-cook-set-original/",
     "discontinued": false,
