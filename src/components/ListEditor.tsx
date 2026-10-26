@@ -146,7 +146,7 @@ function Row({ r, unit, readOnly, patch, remove, move, onAlt }: {
     else patch(li.uid, { custom: { ...customBase(), price_usd: v }, price_usd: undefined });
   };
   return (
-    <tr className={`${li.worn ? 'worn' : ''} ${li.consumable ? 'cons' : ''}`} data-uid={li.uid}>
+    <tr className={`${li.worn ? 'worn' : ''} ${li.consumable ? 'cons' : ''} ${li.qty > 0 ? '' : 'zero'}`} data-uid={li.uid} title={li.qty > 0 ? undefined : 'Qty 0: kept in the list but not counted in totals'}>
       <td className="c-name">
         <div className="name-line">
           <span className="name-main">

@@ -194,9 +194,10 @@ export function comparable(cur: Item, c: Item): boolean {
 }
 
 export function swapCandidates(r: Resolved, db: DB, opts: { sameSub: boolean; fullPrice: boolean; hideDisc: boolean }): SwapOption[] {
-  if (!r.item || r.li.consumable) return [];
+  // qty 0 lines are in the list but not carried: swapping them saves nothing.
+  if (!r.item || r.li.consumable || !(r.li.qty > 0)) return [];
   const cur = r.item;
-  const q = Math.max(1, r.li.qty);
+  const q = r.li.qty;
   const pool = db.byCategory.get(cur.category) ?? [];
   const out: SwapOption[] = [];
   for (const c of pool) {

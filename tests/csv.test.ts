@@ -44,9 +44,10 @@ describe('parseLighterPackCSV', () => {
     expect(parse1('a,c,,3,1,oz,,,,').qty).toBe(3);
   });
 
-  it('parses prices with currency symbols and separators, empty as null', () => {
+  it('parses prices with currency symbols and separators, empty and 0 as null', () => {
     expect(parse1('a,c,,1,1,oz,,"$1,299.00",,').price).toBe(1299);
-    expect(parse1('a,c,,1,1,oz,,0,,').price).toBe(0);
+    expect(parse1('a,c,,1,1,oz,,0,,').price).toBeNull();
+    expect(parse1('a,c,,1,1,oz,,0.00,,').price).toBeNull();
     expect(parse1('a,c,,1,1,oz,,,,').price).toBeNull();
   });
 
