@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useStore } from '../lib/store';
 import { shareUrl } from '../lib/lists';
 import { exportLighterPackCSV } from '../lib/csv';
-import { download, uid } from '../lib/util';
+import { download, loadLS, saveLS, uid } from '../lib/util';
 import { href, navigate } from '../lib/router';
 import { ListEditor } from './ListEditor';
 import { ImportReview } from './ImportReview';
@@ -12,6 +12,8 @@ export function ListsPage({ listId }: { listId?: string }) {
   const { db, unit, lists, activeList, setActiveList, createList, updateList, deleteList, toast } = useStore();
   const [importing, setImporting] = useState<{ text: string; name: string } | null>(null);
   const [shareLink, setShareLink] = useState<string | null>(null);
+  const [sideCollapsed, setSideCollapsed] = useState(() => loadLS('ulgdb.listsSideCollapsed', false));
+  const toggleSide = () => setSideCollapsed((c) => { saveLS('ulgdb.listsSideCollapsed', !c); return !c; });
   const fileRef = useRef<HTMLInputElement>(null);
   const list = (listId && lists.find((l) => l.id === listId)) || activeList;
   useEffect(() => {
@@ -37,9 +39,10 @@ export function ListsPage({ listId }: { listId?: string }) {
   };
 
   return (
-    <div className="lists-layout">
-      <aside className="lists-side">
-        <div className="row between">
+    <div className={`lists-layout ${sideCollapsed ? 'side-collapsed' : ''}`}>
+      <aside className={`lists-side ${sideCollapsed ? 'collapsed' : ''}`}>
+        <div className="row side-head">
+          <button type="button" className="icon-btn tiny side-toggle" onClick={toggleSide} title={sideCollapsed ? 'Show lists' : 'Hide lists'} aria-label={sideCollapsed ? 'Show lists' : 'Hide lists'} aria-expanded={!sideCollapsed}>{sideCollapsed ? '»' : '«'}</button>
           <strong>My lists</strong>
           <button type="button" className="btn small primary" onClick={() => { const l = createList(); navigate(`/lists/${l.id}`); }}>＋ New</button>
         </div>
