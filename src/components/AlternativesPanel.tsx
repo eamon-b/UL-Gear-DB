@@ -16,13 +16,14 @@ export function AlternativesPanel({ current, listItem, onClose, onSwap }: { curr
   }, [onClose]);
   if (!cat) return null;
   const curW = listItem.weight_g ?? current.weight_g;
+  const curP = listItem.price_usd !== undefined ? listItem.price_usd : current.price_usd;
   return (
     <div className="modal-backdrop" onClick={onClose}>
       <div className="modal wide" role="dialog" aria-label={`Alternatives to ${current.name}`} onClick={(e) => e.stopPropagation()}>
         <header className="modal-head">
           <div>
             <div className="muted small">Alternatives in {cat.name}</div>
-            <h2>{current.name} <span className="muted">{fmtW(curW, unit)} · {fmtPrice(current.price_usd)}</span></h2>
+            <h2>{current.name} <span className="muted">{fmtW(curW, unit)} · {fmtPrice(curP)}</span></h2>
           </div>
           <button type="button" className="icon-btn" onClick={onClose} aria-label="Close">✕</button>
         </header>
