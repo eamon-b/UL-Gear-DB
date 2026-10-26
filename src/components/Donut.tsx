@@ -44,7 +44,7 @@ export function Breakdown({ t, order, unit }: { t: Totals; order: string[]; unit
         </div>
       </div>
       <div className="bd-body">
-        <svg viewBox="0 0 160 160" width="160" height="160" role="img" aria-label="Weight by category">
+        <svg className="bd-donut" viewBox="0 0 160 160" width="160" height="160" role="img" aria-label="Weight by category">
           {sum === 0 && <circle cx={C} cy={C} r={(R + r) / 2} fill="none" stroke="var(--line)" strokeWidth={R - r} />}
           {arcs.map(({ s, d }) => (
             <path key={s.cat} d={d} className={`slot-${s.slot}`} opacity={hover && hover !== s.cat ? 0.35 : 1}
@@ -55,20 +55,18 @@ export function Breakdown({ t, order, unit }: { t: Totals; order: string[]; unit
           <text x={C} y={C - 2} textAnchor="middle" className="donut-v">{fmtW(hover ? folded.get(hover)?.v ?? 0 : sum, unit)}</text>
           <text x={C} y={C + 14} textAnchor="middle" className="donut-l">{hover ?? (metric === 'base' ? 'base' : 'total')}</text>
         </svg>
-        <table className="bd-table">
-          <tbody>
-            {segs.map((s) => (
-              <tr key={s.cat} onMouseEnter={() => setHover(s.cat)} onMouseLeave={() => setHover(null)} className={hover === s.cat ? 'hi' : ''}>
-                <td><i className={`sw slot-bg-${s.slot}`} /></td>
-                <td>{s.cat}</td>
-                <td className="num">{fmtW(s.v, unit)}</td>
-                <td className="num muted">{sum ? ((s.v / sum) * 100).toFixed(0) : 0}%</td>
-                <td className="num muted">{s.cost ? fmtPrice(s.cost) : ''}</td>
-              </tr>
-            ))}
-            {!segs.length && <tr><td className="muted">Nothing yet</td></tr>}
-          </tbody>
-        </table>
+        <div className="bd-legend">
+          {segs.map((s) => (
+            <div key={s.cat} onMouseEnter={() => setHover(s.cat)} onMouseLeave={() => setHover(null)} className={`bd-row ${hover === s.cat ? 'hi' : ''}`}>
+              <i className={`sw slot-bg-${s.slot}`} />
+              <span className="bd-cat">{s.cat}</span>
+              <span className="num">{fmtW(s.v, unit)}</span>
+              <span className="num muted">{sum ? ((s.v / sum) * 100).toFixed(0) : 0}%</span>
+              <span className="num muted">{s.cost ? fmtPrice(s.cost) : ''}</span>
+            </div>
+          ))}
+          {!segs.length && <div className="muted">Nothing yet</div>}
+        </div>
       </div>
     </div>
   );

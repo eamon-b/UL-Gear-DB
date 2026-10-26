@@ -209,6 +209,27 @@ try {
   const wornTxt = await page.locator('.tot:has-text("Worn") .tot-v').first().textContent();
   check('worn weight non-zero', !/^0/.test(wornTxt ?? '0'), wornTxt ?? '');
 
+  // ---- List layout: the table never scrolls sideways; the chart moves above it when space is short
+  const layout = () => page.evaluate(() => {
+    const tw = document.querySelector('.table-wrap'), side = document.querySelector('.list-side'), main = document.querySelector('.list-main');
+    return { overflow: tw.scrollWidth - tw.clientWidth, beside: side.getBoundingClientRect().left >= main.getBoundingClientRect().right - 1, nav: !!document.querySelector('.list-nav').offsetParent };
+  });
+  for (const w of [900, 1100, 1300, 1600, 1900]) {
+    await page.setViewportSize({ width: w, height: 900 });
+    const l = await layout();
+    check(`list ${w}px: table fits`, l.overflow <= 0, `${l.overflow}px overflow, chart ${l.beside ? 'beside' : 'above'}`);
+  }
+  await page.setViewportSize({ width: 1300, height: 900 });
+  check('list 1300px: chart above table', !(await layout()).beside);
+  await page.click('.side-toggle');
+  check('lists sidebar collapses', !(await layout()).nav);
+  await page.reload();
+  await page.waitForSelector('.list-table tbody tr[data-uid]');
+  check('sidebar collapse persists', !(await layout()).nav);
+  await page.click('.side-toggle');
+  check('lists sidebar expands', (await layout()).nav);
+  await page.setViewportSize({ width: 1400, height: 900 });
+
   // ---- CSV export round trip
   const [dl] = await Promise.all([page.waitForEvent('download'), page.click('.btn:has-text("Export CSV")')]);
   const csv = fs.readFileSync(await dl.path(), 'utf8');

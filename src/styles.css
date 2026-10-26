@@ -361,6 +361,14 @@ table.kv th { font-weight: 500; color: var(--text-2); width: 45%; }
 /* lists */
 .lists-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); }
 .lists-side { border-right: 1px solid var(--line); background: var(--surface); padding: 12px; position: sticky; top: 47px; height: calc(100vh - 47px); overflow: auto; }
+.lists-layout.side-collapsed { grid-template-columns: 36px minmax(0, 1fr); }
+.side-head { gap: 6px; }
+.side-head strong { margin-right: auto; }
+.side-toggle { flex: none; }
+@media (min-width: 761px) {
+  .lists-side.collapsed { padding: 8px 6px; }
+  .lists-side.collapsed > :not(.side-head), .lists-side.collapsed .side-head > :not(.side-toggle) { display: none; }
+}
 .list-nav { margin: 8px -12px; }
 .list-nav a { display: flex; justify-content: space-between; padding: 4px 12px; color: var(--text); }
 .list-nav a:hover { background: var(--hover); text-decoration: none; }
@@ -405,9 +413,25 @@ input.inline.qty { width: 44px; }
 .breakdown { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 8px 10px; }
 .bd-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
 .bd-body { display: flex; flex-direction: column; align-items: center; gap: 6px; }
-.bd-table td { padding: 2px 4px; font-size: 12px; }
-.bd-table td.num { white-space: nowrap; }
-.bd-table tr.hi { background: var(--hover); }
+.bd-legend { width: 100%; }
+.bd-row { display: grid; grid-template-columns: 10px minmax(0, 1fr) auto 3.2em auto; align-items: center; gap: 6px; padding: 2px 4px; font-size: 12px; border-radius: 3px; }
+.bd-row .num { white-space: nowrap; text-align: right; }
+.bd-row.hi { background: var(--hover); }
+.bd-cat { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* The chart only sits beside the table when the editor is wide enough for both; otherwise it becomes a strip above it. */
+.list-editor { container-type: inline-size; }
+@container (max-width: 1240px) {
+  .list-grid { grid-template-columns: minmax(0, 1fr); }
+  .list-side { position: static; order: -1; flex-direction: row; flex-wrap: wrap; align-items: stretch; }
+  .list-side .breakdown { flex: 1 1 100%; }
+  .list-side > .btn { flex: 0 0 auto; width: auto; }
+  .bd-body { flex-direction: row; align-items: center; gap: 16px; }
+  .bd-donut { flex: none; width: 120px; height: 120px; }
+  .bd-legend { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); column-gap: 16px; align-content: center; }
+}
+@container (max-width: 520px) {
+  .bd-body { flex-direction: column; }
+}
 .donut-v { fill: var(--text); font-size: 15px; font-weight: 650; }
 .donut-l { fill: var(--muted); font-size: 10px; }
 .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; }
@@ -440,16 +464,14 @@ tr.is-custom td:first-child { box-shadow: inset 3px 0 0 var(--s4); }
 
 /* responsive */
 @media (max-width: 1000px) {
-  .list-grid { grid-template-columns: minmax(0, 1fr); }
-  .list-main, .list-side { min-width: 0; }
-  .list-side { position: static; }
   .totals { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 @media (max-width: 760px) {
   .topbar { flex-wrap: wrap; gap: 8px; padding: 8px 12px; }
   .qsearch { order: 10; max-width: none; flex-basis: 100%; margin: 0; }
   .mainnav a { padding: 4px 6px; }
-  .browse-layout, .lists-layout { grid-template-columns: 1fr; }
+  .browse-layout, .lists-layout, .lists-layout.side-collapsed { grid-template-columns: 1fr; }
+  .side-toggle { display: none; }
   .cat-side, .lists-side { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); padding: 8px 12px; }
   .cat-nav { display: none; }
   .cat-select { display: block; width: 100%; }
@@ -475,11 +497,15 @@ tr.is-custom td:first-child { box-shadow: inset 3px 0 0 var(--s4); }
   .mainnav a { padding: 4px 5px; }
   .unit-seg .seg-opt { padding: 3px 7px; }
 
-  /* list rows become two-line cards so qty/worn/alternatives stay on screen */
+}
+
+/* List rows become two-line cards whenever the editor is too narrow for the full table (phones, or a narrow window with the sidebar open),
+   so qty/worn/alternatives stay on screen. */
+@container (max-width: 820px) {
   .list-main .table-wrap { overflow-x: visible; }
   table.list-table thead { display: none; }
   table.list-table, table.list-table tbody { display: block; }
-  table.list-table .cat-row { display: flex; justify-content: space-between; }
+  table.list-table .cat-row { display: flex; justify-content: space-between; background: var(--surface-2); }
   table.list-table .cat-row th { border: 0; }
   table.list-table .cat-row th:empty { display: none; }
   table.list-table tr[data-uid] { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; padding: 6px 8px; border-bottom: 1px solid var(--line-2); }
