@@ -6,6 +6,8 @@ import { fmtPrice, humanizeKey } from '../lib/util';
 import { fmtSpec } from './GearTable';
 import { href } from '../lib/router';
 import type { Item } from '../lib/types';
+import { activeMetric, fmtMetric, metricTitle, paretoFrontier3 } from '../lib/metric';
+import { paretoFrontier } from '../lib/filters';
 
 type Row = { label: string; key: string; get: (it: Item) => unknown; fmt?: (v: unknown, it: Item) => string; dir: 1 | -1 | 0; boolBest?: boolean | null };
 
@@ -18,11 +20,34 @@ export function CompareView({ idsParam }: { idsParam?: string | null }) {
     const base: Row[] = [
       { label: 'Category', key: 'category', get: (i) => db.catById.get(i.category)?.name ?? i.category, dir: 0 },
       { label: 'Type', key: 'subcategory', get: (i) => i.subcategory, dir: 0 },
-      { label: 'Weight', key: 'weight', get: (i) => i.weight_g, fmt: (v) => fmtW(v as number, unit), dir: -1 },
+      { label: 'Weight', key: 'weight', get: (i) => i.weight_g, fmt: (v) => (unit === 'g' && (v as number) < 10 ? `${(v as number).toFixed(1)} g` : fmtW(v as number, unit)), dir: -1 },
       { label: 'Price', key: 'price', get: (i) => i.price_usd, fmt: (v) => fmtPrice(v as number | null), dir: -1 },
     ];
+    // third dimension: only when everything shares a category, so one metric fits all columns
+    const cats = new Set(items.map((i) => i.category));
+    const cat = cats.size === 1 ? [...cats][0] : null;
+    const m = cat ? activeMetric(cat, db.byCategory.get(cat) ?? []) : null;
+    if (m) {
+      const per = m.unit ? `per ${m.unit}` : `per ${m.label}`;
+      const pos = (i: Item) => { const v = m.get(i); return v != null && v > 0 ? v : null; };
+      base.push({ label: metricTitle(m), key: 'metric', get: m.get, fmt: (v) => fmtMetric(v as number, m), dir: m.dir });
+      if (m.ratio) {
+        base.push(
+          { label: `Weight ${per}`, key: 'wper', get: (i) => { const v = pos(i); return v ? i.weight_g / v : null; }, fmt: (v) => (unit === 'g' && (v as number) < 10 ? `${(v as number).toFixed(1)} g` : fmtW(v as number, unit)), dir: -1 },
+          { label: `Price ${per}`, key: 'pper', get: (i) => { const v = pos(i); return v && i.price_usd != null ? i.price_usd / v : null; }, fmt: (v) => fmtPrice(v as number, (v as number) < 10 ? 2 : 0), dir: -1 },
+        );
+      }
+    }
+    // frontier membership within each item's whole category (same metric choice as Browse)
+    const front = new Map<string, Set<string>>();
+    for (const c of cats) {
+      const pool = db.byCategory.get(c) ?? [];
+      const cm = activeMetric(c, pool);
+      front.set(c, cm ? paretoFrontier3(pool, cm) : paretoFrontier(pool));
+    }
+    base.push({ label: m ? `Pareto frontier (wt, $, ${m.label.toLowerCase()})` : 'Pareto frontier', key: 'front', get: (i) => front.get(i.category)!.has(i.id), fmt: (v) => (v ? '★ Yes' : 'No'), dir: 0, boolBest: true });
     const keys: string[] = [];
-    for (const it of items) for (const k of Object.keys(it.specs)) if (!keys.includes(k)) keys.push(k);
+    for (const it of items) for (const k of Object.keys(it.specs)) if (!keys.includes(k) && k !== m?.key) keys.push(k);
     const spec: Row[] = keys.map((k) => ({
       label: humanizeKey(k), key: 'spec:' + k, get: (i) => i.specs[k], fmt: (v) => fmtSpec(v), dir: specDirection(k), boolBest: boolBetter(k),
     }));

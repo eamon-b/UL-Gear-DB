@@ -1880,7 +1880,8 @@
     "specs": {
       "frame": "frameless",
       "hipbelt": false,
-      "material": "70D recycled Robic nylon"
+      "material": "70D recycled Robic nylon",
+      "volume_l": 20
     },
     "url": "https://www.gossamergear.com/products/riksak",
     "discontinued": false,

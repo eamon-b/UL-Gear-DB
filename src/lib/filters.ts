@@ -164,13 +164,13 @@ export function cheapestBaseline(items: Item[]): Item | null {
   return b;
 }
 
-export type SortKey = string; // 'name' | 'brand' | 'subcategory' | 'weight' | 'price' | 'value' | 'category' | 'spec:<k>'
+export type SortKey = string; // 'name' | 'brand' | 'subcategory' | 'weight' | 'price' | 'value' | 'metric' | 'category' | 'spec:<k>'
 export interface Sort {
   key: SortKey;
   dir: 1 | -1;
 }
 
-export function sortItems(items: Item[], sort: Sort, valueOf: (it: Item) => number | null): Item[] {
+export function sortItems(items: Item[], sort: Sort, valueOf: (it: Item) => number | null, metricOf?: (it: Item) => number | null): Item[] {
   const { key, dir } = sort;
   const get = (it: Item): number | string | null => {
     switch (key) {
@@ -180,6 +180,7 @@ export function sortItems(items: Item[], sort: Sort, valueOf: (it: Item) => numb
       case 'weight': return it.weight_g;
       case 'price': return it.price_usd;
       case 'value': return valueOf(it);
+      case 'metric': return metricOf ? metricOf(it) : null;
       case 'confidence': return { high: 0, medium: 1, low: 2 }[it.confidence];
       default: {
         if (key.startsWith('spec:')) {

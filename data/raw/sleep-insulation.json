@@ -2755,7 +2755,8 @@
     "price_usd": 250,
     "specs": {
       "fill": "synthetic",
-      "style": "over-quilt (layering), Climashield APEX"
+      "style": "over-quilt (layering), Climashield APEX",
+      "temp_rating_f": 50
     },
     "url": "https://timmermade.com/product/merganser-overbag/",
     "discontinued": false,
@@ -3615,7 +3616,8 @@
     "specs": {
       "fill": "down",
       "style": "quilt",
-      "fill_power": 850
+      "fill_power": 850,
+      "temp_rating_f": 50
     },
     "url": "https://www.bigagnes.com/products/fly-creek-ul-quilt",
     "discontinued": false,
@@ -5189,7 +5191,8 @@
       "fill": "down",
       "fill_power": 850,
       "fill_weight_g": 295,
-      "style": "quilt"
+      "style": "quilt",
+      "temp_rating_f": 39
     },
     "url": "https://nevegear.com/products/waratah-ul-summer-quilt",
     "discontinued": false,

@@ -2,7 +2,8 @@
 
 An interactive database of ultralight backpacking gear, with a comparison view and a pack-list builder that improves on LighterPack.
 
-- **Browse and compare**: pick a category, then filter by brand, type, weight, price, confidence, and spec filters generated from the data (numeric ranges, yes/no toggles, multi-selects). Sort by any column, including **g/$** (grams saved per extra dollar versus the cheapest item in view). A weight-vs-price scatter plot highlights the **Pareto frontier** (nothing lighter for less). You can compare up to 6 items side by side, with the best value in each row highlighted.
+- **Browse and compare**: pick a category, then filter by brand, type, weight, price, confidence, and spec filters generated from the data (numeric ranges, yes/no toggles, multi-selects). Sort by any column, including **g/$** (grams saved per extra dollar versus the cheapest item in view). A weight-vs-price scatter plot highlights the **Pareto frontier** (nothing lighter for less).
+- **Third dimension**: most categories have a key spec besides weight and price (pack volume, quilt temp rating, pad R-value, shelter capacity, headlamp lumens, power bank Wh, puffy down fill, pot capacity, filter flow rate, stove boil time, and so on). Pick it with **Compare on**: the frontier becomes 3D (nothing lighter, cheaper *and* better on it), the scatter colors each dot by it, and you can switch the axes to it or to ratios like g per L and $ per lumen. Compare adds the metric, both ratios, and frontier membership. The choice is remembered per category. A metric is on by default only when at least 70% of the category's items have it (see [Coverage](#coverage)); sparser ones are still in the menu, with how many items have data. Items with no value for the metric keep their ★ if they are on the plain weight/price frontier. You can compare up to 6 items side by side, with the best value in each row highlighted.
 - **Global search** across every category (press `/`).
 - **Pack lists**: build multiple lists stored in localStorage. Add DB items or custom items, and set qty, worn, and consumable on each, editing inline. The list shows base, worn, consumable, pack, and skin-out totals, the cost, and a category donut.
   - **Alternatives**: opens the full browse view for an item's category, scoped to the item's own type (tent vs tents, not tarps) with a one-click **All shelters** toggle, plus deltas (±g, ±$, $/oz saved), quick chips, and one-click **Swap**.
@@ -21,6 +22,7 @@ npm run build      # builds data, type-checks, builds to dist/
 npm run preview    # serves dist/ on http://localhost:4173
 npm run data       # only (re)build public/data/gear.json + data/report.json
 npm run check-data # data sanity report -> data/data-issues.json (add `-- --all` to print everything)
+npm run coverage   # per-category price / weight / metric coverage -> the table in this README
 ```
 
 Smoke test (Playwright; needs a Chromium. Set `CHROMIUM_PATH` if it is not in `/opt/pw-browsers`):
@@ -55,6 +57,43 @@ data/examples/registry.json sources + list title and computed weights (generated
 public/data/examples.json   example lists bundle the app loads (generated, git-ignored)
 ```
 
+### Coverage
+
+How many items in each category have a price, a weight, and a value for the category's third-dimension metric (defined in `src/lib/metric.ts`). **Bold** cells are under 70%, the bar a metric has to clear to be on by default. Filling these gaps is the most useful data contribution.
+
+<!-- coverage:start -->
+| Category | Items | Price | Weight | 3rd metric | With metric | Default |
+|---|--:|--:|--:|---|--:|---|
+| Shelters | 380 | 329 (86%) | 380 (100%) | Capacity (person) | 380 (100%) | on |
+| Backpacks | 253 | 241 (95%) | 253 (100%) | Volume (L) | 253 (100%) | on |
+| Quilts & Sleeping Bags | 238 | 210 (88%) | 238 (100%) | Temp rating (°F) | 237 (99%) | on |
+| Sleeping Pads | 128 | 107 (83%) | 128 (100%) | R-value | 125 (97%) | on |
+| Pillows | 36 | 32 (88%) | 36 (100%) | – | – | – |
+| Stoves | 103 | 94 (91%) | 103 (100%) | Boil time (min) | **38 (36%)** | off |
+| Cookware | 105 | 94 (89%) | 105 (100%) | Capacity (ml) | 101 (96%) | on |
+| Cook Accessories | 93 | 83 (89%) | 93 (100%) | – | – | – |
+| Water Treatment | 61 | 51 (83%) | 61 (100%) | Flow rate (L/min) | **34 (55%)** | off |
+| Water Storage | 64 | 54 (84%) | 64 (100%) | Capacity (L) | 64 (100%) | on |
+| Rain Jackets | 101 | 98 (97%) | 101 (100%) | Waterproofing (mm) | **33 (32%)** | off |
+| Rain Pants | 67 | 64 (95%) | 67 (100%) | Waterproofing (mm) | **30 (44%)** | off |
+| Wind Layers | 57 | 52 (91%) | 57 (100%) | – | – | – |
+| Insulated Layers | 201 | 194 (96%) | 201 (100%) | Down fill (g) | **43 (21%)** | off |
+| Base Layers & Hiking Clothing | 193 | 192 (99%) | 193 (100%) | Fabric weight (gsm) | **79 (40%)** | off |
+| Hats & Gloves | 132 | 132 (100%) | 132 (100%) | – | – | – |
+| Footwear | 270 | 270 (100%) | 270 (100%) | – | – | – |
+| Headlamps & Lights | 78 | 78 (100%) | 78 (100%) | Brightness (lm) | 78 (100%) | on |
+| Power Banks & Charging | 55 | 55 (100%) | 55 (100%) | Energy (Wh) | **34 (61%)** | off |
+| Satellite & Navigation | 32 | 32 (100%) | 32 (100%) | – | – | – |
+| Trekking Poles | 84 | 78 (92%) | 84 (100%) | Collapsed (in) | 82 (97%) | on |
+| Food Storage & Bear Protection | 53 | 51 (96%) | 53 (100%) | Volume (L) | 38 (71%) | on |
+| Stuff Sacks & Pack Liners | 161 | 156 (96%) | 161 (100%) | Volume (L) | **109 (67%)** | off |
+| First Aid, Hygiene & Tools | 85 | 84 (98%) | 85 (100%) | – | – | – |
+| Camp Comfort & Misc | 77 | 75 (97%) | 77 (100%) | – | – | – |
+| **All** | **3107** | **2906 (93%)** | **3107 (100%)** | | **1758 (75%)** | |
+<!-- coverage:end -->
+
+`npm run coverage` regenerates the table. CI fails if it is out of date, so a PR that changes the data shows its effect on coverage in the README diff, and the table is also in each CI run's summary.
+
 ### Example lists
 
 To add a published list, append an entry to `data/examples/sources.json` with its LighterPack id (the part after `lighterpack.com/r/`) and the page where it was published. Then run `npm run fetch-examples`, which needs network access. It downloads lists that have no snapshot yet; `-- --all` refreshes every snapshot, and `-- --offline` only recomputes `registry.json`. Run `npm test` afterwards. Lists belong to their authors: credit them, and only add lists that were shared publicly.
@@ -72,6 +111,7 @@ To add a published list, append an entry to `data/examples/sources.json` with it
 1. Edit or add items in `data/raw/<category>.json`, following `data/SCHEMA.md`. Each item needs a source `url` and an honest `confidence` (`high` means checked against a source).
 2. Run `npm run data` and read the console report and `data/report.json`. There should be no dropped items or duplicate ids. Then run `npm run check-data` and look at anything it flags for your records.
    When you remove a duplicate or rename an id, add `"old-id": "new-id"` to `data/aliases.json`.
+   Then run `npm run coverage` to update the [coverage table](#coverage) (CI checks it is current).
 3. Open a PR and link your sources. Measured weights are welcome: use `"weight_basis": "measured"` and describe what was weighed in `weight_note`.
 
 Weights are manufacturer claims unless marked otherwise. Prices are USD list prices and go stale.

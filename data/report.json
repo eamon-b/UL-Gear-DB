@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T00:08:41.809Z",
+  "generated_at": "2026-10-26T10:21:00.246Z",
   "files": [
     {
       "file": "backpack.json",
@@ -101,8 +101,8 @@
     },
     {
       "file": "power.json",
-      "read": 56,
-      "kept": 56,
+      "read": 55,
+      "kept": 55,
       "dropped": 0,
       "error": null
     },
@@ -196,7 +196,7 @@
     "headwear-handwear": 132,
     "footwear": 270,
     "lighting": 78,
-    "power": 56,
+    "power": 55,
     "communication": 32,
     "trekking-poles": 84,
     "food-storage": 53,
@@ -204,14 +204,14 @@
     "first-aid-hygiene": 85,
     "misc": 77
   },
-  "total": 3108,
+  "total": 3107,
   "dropped": [],
   "fixed": [],
   "duplicate_ids": [],
   "possible_duplicates": [],
   "used_fixtures": false,
   "aliases": {
-    "kept": 5,
+    "kept": 6,
     "ignored": []
   }
 }

@@ -22,5 +22,7 @@ jobs:
       - run: npm run data:strict
       # Type-check + production build (prebuild regenerates the data bundle).
       - run: npm run build
-      # No-op until a test script exists.
-      - run: npm test --if-present
+      - run: npm test
+      # Per-category price / weight / metric coverage: printed to the job summary, and
+      # fails when the README table is stale (run `npm run coverage` and commit it).
+      - run: npm run coverage -- --check

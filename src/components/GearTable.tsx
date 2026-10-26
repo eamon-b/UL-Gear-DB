@@ -4,6 +4,7 @@ import type { Sort } from '../lib/filters';
 import { fmtDW, fmtW, G_PER_OZ, type Unit } from '../lib/units';
 import { fmtPrice, humanizeKey } from '../lib/util';
 import { useStore } from '../lib/store';
+import { fmtMetric, metricTitle, type Metric } from '../lib/metric';
 
 interface Props {
   items: Item[];
@@ -13,6 +14,7 @@ interface Props {
   specCols: string[];
   frontier: Set<string>;
   valueOf: (it: Item) => number | null;
+  metric?: Metric | null;
   baseline: Item | null;
   refItem?: Item | null;
   onSwap?: (it: Item) => void;
@@ -25,7 +27,7 @@ interface Props {
 const DEFAULT_DIR: Record<string, 1 | -1> = { value: -1 };
 
 export const GearTable = memo(function GearTable(p: Props) {
-  const { items, sort, setSort, unit, specCols, frontier, valueOf, refItem, onSwap, showCategory, catById, selectedId, baseline } = p;
+  const { items, sort, setSort, unit, specCols, frontier, valueOf, metric, refItem, onSwap, showCategory, catById, selectedId, baseline } = p;
   const { compare, toggleCompare, addToList, openItem } = useStore();
   const pageSize = p.pageSize ?? 100;
   const [page, setPage] = useState(0);
@@ -49,7 +51,7 @@ export const GearTable = memo(function GearTable(p: Props) {
         className={`${cls} sortable ${on ? 'sorted' : ''}`}
         title={title}
         aria-sort={on ? (sort.dir === 1 ? 'ascending' : 'descending') : 'none'}
-        onClick={() => setSort({ key, dir: on ? (sort.dir === 1 ? -1 : 1) : DEFAULT_DIR[key] ?? 1 })}
+        onClick={() => setSort({ key, dir: on ? (sort.dir === 1 ? -1 : 1) : key === 'metric' && metric ? (metric.dir === 1 ? -1 : 1) : DEFAULT_DIR[key] ?? 1 })}
       >
         {label}
         <span className="sort-ind">{on ? (sort.dir === 1 ? '▲' : '▼') : ''}</span>
@@ -74,6 +76,7 @@ export const GearTable = memo(function GearTable(p: Props) {
             {refItem && <th className="num">Δ wt</th>}
             {th('price', 'Price', 'num')}
             {refItem && <th className="num">Δ $</th>}
+            {metric && th('metric', metricTitle(metric), 'num metric-col', `${metric.dir === 1 ? 'Higher' : 'Lower'} is better`)}
             {th('value', refItem ? '$/oz saved' : 'g/$', 'num', valueTitle)}
             {specCols.map((k) => th('spec:' + k, humanizeKey(k), 'spec'))}
             {th('confidence', 'Conf.')}
@@ -96,7 +99,7 @@ export const GearTable = memo(function GearTable(p: Props) {
                     <span className="brand">{it.brand}</span> {it.model}
                     {it.variant && <span className="variant"> {it.variant}</span>}
                   </button>
-                  {frontier.has(it.id) && <span className="badge front" title="Pareto frontier: nothing lighter for less">★</span>}
+                  {frontier.has(it.id) && <span className="badge front" title={metric ? `Pareto frontier: nothing lighter, cheaper and better on ${metric.label.toLowerCase()}` : 'Pareto frontier: nothing lighter for less'}>★</span>}
                   {it.discontinued && <span className="badge disc">disc.</span>}
                   {isRef && <span className="badge ref">current</span>}
                   {onSwap && !isRef && <button type="button" className="btn small primary swap-btn" onClick={() => onSwap(it)} aria-label={`Swap to ${it.name}`}>Swap</button>}
@@ -107,6 +110,7 @@ export const GearTable = memo(function GearTable(p: Props) {
                 {refItem && <td className={`num ${dW < 0 ? 'good' : dW > 0 ? 'bad' : ''}`}>{isRef ? '' : fmtDW(dW, unit)}</td>}
                 <td className="num">{fmtPrice(it.price_usd)}</td>
                 {refItem && <td className={`num ${dP == null ? '' : dP < 0 ? 'good' : dP > 0 ? 'bad' : ''}`}>{isRef || dP == null ? '' : (dP > 0 ? '+' : dP < 0 ? '−' : '±') + fmtPrice(Math.abs(dP))}</td>}
+                {metric && <td className="num metric-col">{metric.get(it) == null ? <span className="muted">–</span> : fmtMetric(metric.get(it), metric, false)}</td>}
                 <td className="num">{fmtValue(v, !!refItem)}</td>
                 {specCols.map((k) => <td key={k} className={typeof it.specs[k] === 'number' ? 'num spec' : 'spec'}>{fmtSpec(it.specs[k])}</td>)}
                 <td><span className={`conf conf-${it.confidence}`} title={`Confidence: ${it.confidence}`}>{it.confidence[0].toUpperCase()}</span></td>
