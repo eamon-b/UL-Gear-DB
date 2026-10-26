@@ -1665,17 +1665,17 @@
     "brand": "Snow Peak",
     "model": "Personal Cooker 3",
     "variant": null,
-    "weight_g": 400,
+    "weight_g": 583,
     "weight_basis": "manufacturer",
-    "weight_note": "weight estimated",
+    "weight_note": null,
     "price_usd": 42.95,
     "specs": {
-      "material": "aluminum"
+      "material": "stainless steel"
     },
     "url": "https://snowpeak.com/products/personal-cooker-3-cs-073us",
     "discontinued": false,
-    "confidence": "low",
-    "notes": null
+    "confidence": "medium",
+    "notes": "Snow Peak: stainless steel, 20.5 oz (583 g); two pots, fry pan, lid, plate, bowl, case. No official pot capacity. Checked 2026-10-26."
   },
   {
     "id": "snow-peak-kettle-no-1",

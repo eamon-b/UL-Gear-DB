@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-26T10:16:06.699Z",
-  "records": 3108,
-  "records_flagged": 152,
+  "generated_at": "2026-10-26T10:20:22.559Z",
+  "records": 3107,
+  "records_flagged": 151,
   "counts": {
     "weight-outlier": 50,
     "per-pair": 2,
     "price-per-gram": 7,
     "near-duplicate": 11,
-    "shipping-weight": 31,
+    "shipping-weight": 30,
     "missing-url": 59
   },
   "thresholds": {
@@ -84,7 +84,7 @@
       "score": 65,
       "id": "anker-solix-625-solar-panel-100w",
       "file": "power.json",
-      "index": 43,
+      "index": 42,
       "name": "Anker SOLIX 625 Solar Panel 100W",
       "category": "power",
       "subcategory": "solar panel",
@@ -1508,19 +1508,6 @@
       "weight_g": 1588,
       "price_usd": null,
       "message": "1588 g is exactly 3.5 lb and 1.9x the median: possibly a rounded shipping weight"
-    },
-    {
-      "type": "shipping-weight",
-      "score": 25,
-      "id": "iniu-b61",
-      "file": "power.json",
-      "index": 18,
-      "name": "INIU B61",
-      "category": "power",
-      "subcategory": "power bank",
-      "weight_g": 340,
-      "price_usd": 29.99,
-      "message": "340 g is exactly 0.75 lb and 1.5x the median: possibly a rounded shipping weight"
     },
     {
       "type": "shipping-weight",
