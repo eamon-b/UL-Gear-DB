@@ -57,7 +57,8 @@ export function parseLighterPackCSV(text: string): { rows: LPRow[]; errors: stri
       qty: qty == null ? 1 : Math.max(0, qty),
       weight_g: Math.round(w * (UNIT_G[unit] ?? 28.3495) * 10) / 10,
       url: safeUrl(pick(r, 'url')) ?? '',
-      price: num(pick(r, 'price')),
+      // LighterPack exports 0 for an unset price, so 0 means unknown, not free.
+      price: num(pick(r, 'price')) || null,
       worn: truthy(pick(r, 'worn')),
       consumable: truthy(pick(r, 'consumable')),
     });

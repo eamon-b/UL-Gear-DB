@@ -399,6 +399,7 @@ table.kv th { font-weight: 500; color: var(--text-2); width: 45%; }
 .list-table .cat-row th.num { text-align: right; }
 .list-table tr.worn td:first-child { box-shadow: inset 3px 0 0 var(--s1); }
 .list-table tr.cons td:first-child { box-shadow: inset 3px 0 0 var(--s4); }
+.list-table tr.zero > td { opacity: 0.5; }
 input.inline { border-color: transparent !important; background: transparent !important; padding: 2px 4px !important; min-height: 24px !important; width: 100%; }
 input.inline:hover, input.inline:focus { border-color: var(--line) !important; background: var(--surface) !important; }
 input.inline.num { width: 72px; text-align: right; }
