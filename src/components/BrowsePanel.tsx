@@ -5,6 +5,7 @@ import { useStore } from '../lib/store';
 import { FilterPanel } from './FilterPanel';
 import { GearTable } from './GearTable';
 import { Scatter } from './Scatter';
+import { activeMetric, metricsFor, metricTitle, paretoFrontier3, saveMetricKey, type Metric } from '../lib/metric';
 
 interface Props {
   category: Category;
@@ -28,11 +29,18 @@ export function BrowsePanel({ category, refItem, onSwap }: Props) {
   // On phones the chart pushes the table off-screen; in Alternatives the table is what you act on.
   const [showChart, setShowChart] = useState(() => !(refItem && typeof window !== 'undefined' && window.innerWidth <= 760));
   const [selected, setSelected] = useState<string | null>(null);
+  const metrics = useMemo(() => metricsFor(category.id, pool), [category.id, pool]);
+  const [metric, setMetricS] = useState<Metric | null>(() => activeMetric(category.id, pool));
+  const setMetric = useCallback((key: string) => {
+    saveMetricKey(category.id, key);
+    setMetricS(metrics.find((m) => m.key === key) ?? null);
+  }, [category.id, metrics]);
 
   useEffect(() => {
     setFilters(defaults());
     setSort({ key: 'weight', dir: 1 });
     setSelected(null);
+    setMetricS(activeMetric(category.id, pool));
   }, [category.id, refItem?.id]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const setF = useCallback((f: Filters) => {
@@ -41,7 +49,7 @@ export function BrowsePanel({ category, refItem, onSwap }: Props) {
   }, [filters.chip]);
 
   const filtered = useMemo(() => applyFilters(pool, filters, refItem), [pool, filters, refItem]);
-  const frontier = useMemo(() => paretoFrontier(filtered), [filtered]);
+  const frontier = useMemo(() => (metric ? paretoFrontier3(filtered, metric) : paretoFrontier(filtered)), [filtered, metric]);
   const shownSet = useMemo(
     () => (filters.frontierOnly ? filtered.filter((i) => frontier.has(i.id) || i.id === refItem?.id) : filtered),
     [filtered, filters.frontierOnly, frontier, refItem],
@@ -49,15 +57,16 @@ export function BrowsePanel({ category, refItem, onSwap }: Props) {
   const baseline = useMemo(() => (refItem ? refItem : cheapestBaseline(shownSet)), [refItem, shownSet]);
   const valueOf = useCallback((it: Item) => gPerDollar(it, baseline), [baseline]);
   const sorted = useMemo(() => {
-    const s = sortItems(shownSet, sort, valueOf);
+    const s = sortItems(shownSet, sort, valueOf, metric?.get);
     if (refItem) {
       // pin the current item on top
       const i = s.findIndex((x) => x.id === refItem.id);
       if (i > 0) s.unshift(s.splice(i, 1)[0]);
     }
     return s;
-  }, [shownSet, sort, valueOf, refItem]);
-  const keys = useMemo(() => specKeys(pool), [pool]);
+  }, [shownSet, sort, valueOf, refItem, metric]);
+  // the metric gets its own column, so don't repeat its spec
+  const keys = useMemo(() => specKeys(pool).filter((k) => k !== metric?.key), [pool, metric]);
   const specCols = allSpecs ? keys : keys.slice(0, MAX_SPEC_COLS);
 
   const onSelect = useCallback((id: string) => {
@@ -70,15 +79,24 @@ export function BrowsePanel({ category, refItem, onSwap }: Props) {
       <FilterPanel category={category} pool={pool} filters={filters} setFilters={setF} unit={unit} refItem={refItem} shown={sorted.length} defaults={defaults} />
       <div className="toolbar">
         <label className="tog small"><input type="checkbox" checked={showChart} onChange={(e) => setShowChart(e.target.checked)} /> Scatter plot</label>
+        {metrics.length > 0 && (
+          <label className="small" title="A third dimension besides weight and price: it colors the scatter plot and joins the Pareto frontier (nothing lighter, cheaper and better on it).">
+            Compare on{' '}
+            <select value={metric?.key ?? ''} onChange={(e) => setMetric(e.target.value)} aria-label="Third dimension">
+              <option value="">weight &amp; price only</option>
+              {metrics.map((m) => <option key={m.key} value={m.key}>{metricTitle(m)}</option>)}
+            </select>
+          </label>
+        )}
         {keys.length > MAX_SPEC_COLS && (
           <label className="tog small"><input type="checkbox" checked={allSpecs} onChange={(e) => setAllSpecs(e.target.checked)} /> All spec columns ({keys.length})</label>
         )}
-        <span className="muted small">★ = Pareto frontier · click a column to sort</span>
+        <span className="muted small">★ = Pareto frontier{metric ? ` (weight, price, ${metric.label.toLowerCase()})` : ''} · click a column to sort</span>
       </div>
-      {showChart && <Scatter items={shownSet} frontier={frontier} unit={unit} refItem={refItem} selectedId={selected} onSelect={onSelect} />}
+      {showChart && <Scatter items={shownSet} frontier={frontier} unit={unit} metric={metric} refItem={refItem} selectedId={selected} onSelect={onSelect} />}
       <GearTable
         items={sorted} sort={sort} setSort={setSort} unit={unit} specCols={specCols} frontier={frontier}
-        valueOf={valueOf} baseline={baseline} refItem={refItem} onSwap={onSwap} selectedId={selected}
+        valueOf={valueOf} metric={metric} baseline={baseline} refItem={refItem} onSwap={onSwap} selectedId={selected}
       />
     </div>
   );

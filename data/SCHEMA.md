@@ -40,8 +40,10 @@ One entry per meaningfully different variant (e.g. quilt temperature ratings, pa
 - base-layer: material, gsm, gender
 - footwear: drop_mm, stack_mm, waterproof (bool), gender (weight per pair for shoes, per pair for socks)
 - lighting: lumens, battery, runtime_hr, rechargeable (bool)
-- power: capacity_mah, output_w, ports
+- power: capacity_mah, capacity_wh (when the maker states it; otherwise the app derives Wh from mAh at 3.7 V), output_w, ports
 - communication: network, two_way (bool), subscription (bool), battery_life
 - trekking-poles: material, adjustable (bool), collapsed_length_in, locking (weight is per PAIR)
 - food-storage: volume_l, approved (e.g. "IGBC", "SIBBG")
 - pack-organization: volume_l, material, waterproof (bool)
+
+The app's "third dimension" per category (`src/lib/metric.ts`) reads these keys, so fill them where you can: backpack volume_l, sleep-insulation temp_rating_f, sleeping-pad r_value, shelter capacity, lighting lumens, power capacity_wh/capacity_mah, insulation fill_weight_g (down), cookware capacity_ml, water-storage capacity_l, water-treatment flow_rate_lpm, stove boil_time_min.

@@ -5,6 +5,7 @@ import { fmtW, type Unit } from '../lib/units';
 import { fmtPrice, humanizeKey } from '../lib/util';
 import { fmtSpec } from './GearTable';
 import type { Item } from '../lib/types';
+import { activeMetric, fmtMetric } from '../lib/metric';
 
 export function ItemDrawer() {
   const { db, openItemId, openItem, unit, compare, toggleCompare, lists, activeList, addToList } = useStore();
@@ -24,6 +25,8 @@ export function ItemDrawer() {
   }, [it, db]);
   if (!it) return null;
   const cat = db.catById.get(it.category);
+  const m = activeMetric(it.category, db.byCategory.get(it.category) ?? []);
+  const mv = m?.get(it);
   return (
     <div className="drawer-backdrop" onClick={() => openItem(null)}>
       <aside className="drawer" role="dialog" aria-label={it.name} onClick={(e) => e.stopPropagation()}>
@@ -38,6 +41,7 @@ export function ItemDrawer() {
         <div className="drawer-stats">
           <div><div className="stat-v">{fmtW(it.weight_g, unit)}</div><div className="stat-l">{it.weight_basis} weight</div></div>
           <div><div className="stat-v">{fmtPrice(it.price_usd)}</div><div className="stat-l">list price</div></div>
+          {m && mv != null && <div><div className="stat-v">{fmtMetric(mv, m)}</div><div className="stat-l">{m.label.toLowerCase()}</div></div>}
           <div><div className={`stat-v conf-${it.confidence}`}>{it.confidence}</div><div className="stat-l">confidence</div></div>
         </div>
         {it.weight_note && <p className="small"><strong>Weight includes:</strong> {it.weight_note}</p>}
