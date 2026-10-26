@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { metricsFor, paretoFrontier3, type Metric } from '../src/lib/metric';
+import { activeMetric, defaultMetric, metricsFor, paretoFrontier3, type Metric } from '../src/lib/metric';
 import { paretoFrontier } from '../src/lib/filters';
 import type { Item } from '../src/lib/types';
 import { loadTestDB } from './helpers';
@@ -33,12 +33,34 @@ describe('paretoFrontier3', () => {
     expect(paretoFrontier3([warm, cold, worse], temp)).toEqual(new Set(['warm', 'cold']));
   });
 
-  it('keeps exact duplicates and skips items without price or metric', () => {
+  it('keeps exact duplicates and skips items without price', () => {
     const a = item('a', 500, 100, { volume_l: 40 });
     const b = item('b', 500, 100, { volume_l: 40 });
     const noPrice = item('np', 100, null, { volume_l: 90 });
-    const noVol = item('nv', 100, 10);
-    expect(paretoFrontier3([a, b, noPrice, noVol], vol)).toEqual(new Set(['a', 'b']));
+    expect(paretoFrontier3([a, b, noPrice], vol)).toEqual(new Set(['a', 'b']));
+  });
+
+  it('keeps 2D frontier items that have no metric value, and only those', () => {
+    const a = item('a', 500, 100, { volume_l: 40 });
+    const light = item('light', 100, 10); // lightest and cheapest, volume unknown
+    const meh = item('meh', 600, 120); // beaten on weight and price, volume unknown
+    expect(paretoFrontier3([a, light, meh], vol)).toEqual(new Set(['a', 'light']));
+  });
+
+  it('on the real data, drops a 2D frontier item only for a same weight and price item better on the metric', () => {
+    const db = loadTestDB();
+    for (const [cat, pool] of db.byCategory) {
+      const f2 = paretoFrontier(pool);
+      for (const m of metricsFor(cat, pool)) {
+        const f3 = paretoFrontier3(pool, m);
+        for (const id of f2) {
+          if (f3.has(id)) continue;
+          const a = db.byId.get(id)!, v = m.get(a);
+          const tie = v != null && pool.some((b) => b.price_usd === a.price_usd && b.weight_g === a.weight_g && m.get(b) != null && m.get(b)! * m.dir > v * m.dir);
+          expect(tie, `${cat} ${m.key} ${id}`).toBe(true);
+        }
+      }
+    }
   });
 });
 
@@ -49,6 +71,11 @@ describe('metricsFor', () => {
     expect(m.key).toBe('energy_wh');
     expect(m.get(pool[0])).toBe(37);
     expect(m.get(pool[1])).toBe(72);
+  });
+
+  it('does not offer the specs a derived metric is built from', () => {
+    const pool = [item('pb', 200, 50, { capacity_mah: 10000, capacity_wh: 37, output_w: 18 }, 'power'), item('pb2', 300, 80, { capacity_mah: 20000, capacity_wh: 74, output_w: 20 }, 'power')];
+    expect(metricsFor('power', pool).map((m) => m.key)).toEqual(['energy_wh', 'output_w']);
   });
 
   it('converts cubic inches to liters for food storage', () => {
@@ -63,5 +90,27 @@ describe('metricsFor', () => {
       lighting: 'lumens', power: 'energy_wh', insulation: 'fill_weight_g', cookware: 'capacity_ml',
     };
     for (const [cat, key] of Object.entries(want)) expect(metricsFor(cat, db.byCategory.get(cat) ?? [])[0]?.key, cat).toBe(key);
+  });
+});
+
+describe('defaultMetric', () => {
+  const vols = (n: number, withVol: number) => Array.from({ length: n }, (_, i) => item('p' + i, 500 + i, 100, i < withVol ? { volume_l: 30 + i } : {}));
+
+  it('is the first curated metric when most items have it', () => {
+    expect(defaultMetric('backpack', vols(10, 7))?.key).toBe('volume_l');
+    expect(activeMetric('backpack', vols(10, 7))?.key).toBe('volume_l');
+  });
+
+  it('is off when too few items have the metric, though it is still offered', () => {
+    const pool = vols(10, 6);
+    expect(defaultMetric('backpack', pool)).toBeNull();
+    expect(activeMetric('backpack', pool)).toBeNull();
+    expect(metricsFor('backpack', pool)[0].key).toBe('volume_l');
+  });
+
+  it('is never a metric picked up from the data in an uncurated category', () => {
+    const pool = [item('a', 100, 10, { capacity_ml: 500 }, 'cook-accessory'), item('b', 200, 20, { capacity_ml: 700 }, 'cook-accessory')];
+    expect(metricsFor('cook-accessory', pool).map((m) => m.key)).toEqual(['capacity_ml']);
+    expect(defaultMetric('cook-accessory', pool)).toBeNull();
   });
 });

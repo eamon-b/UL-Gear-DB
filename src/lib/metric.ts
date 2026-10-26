@@ -1,6 +1,6 @@
 import type { Item } from './types';
 import { loadLS, saveLS, humanizeKey } from './util';
-import { specDirection, specMeta } from './filters';
+import { paretoFrontier, specDirection, specMeta } from './filters';
 
 /**
  * A "third dimension" for a category besides weight and price: what you get for the
@@ -14,6 +14,10 @@ export interface Metric {
   /** "per unit" ratios (g/L, $/lumen) make sense: the quantity scales roughly linearly */
   ratio: boolean;
   get: (it: Item) => number | null;
+  /** other spec keys this metric is derived from, so they aren't offered again as separate metrics */
+  covers?: string[];
+  /** picked up from the data rather than curated: offered, never on by default */
+  auto?: boolean;
 }
 
 const num = (v: unknown) => (typeof v === 'number' && Number.isFinite(v) ? v : null);
@@ -26,7 +30,7 @@ const CU_IN_L = 0.0163871;
 const LI_ION_V = 3.7;
 
 const volumeL = (label = 'Volume'): Metric => ({
-  key: 'volume_l', label, unit: 'L', dir: 1, ratio: true,
+  key: 'volume_l', label, unit: 'L', dir: 1, ratio: true, covers: ['cubic_in'],
   get: (it) => num(it.specs.volume_l) ?? (num(it.specs.cubic_in) != null ? +(num(it.specs.cubic_in)! * CU_IN_L).toFixed(1) : null),
 });
 
@@ -39,7 +43,7 @@ const CURATED: Record<string, Metric[]> = {
   lighting: [spec('lumens', 'Brightness', 'lm', 1, true), spec('runtime_hr', 'Runtime', 'h', 1, true)],
   power: [
     {
-      key: 'energy_wh', label: 'Energy', unit: 'Wh', dir: 1, ratio: true,
+      key: 'energy_wh', label: 'Energy', unit: 'Wh', dir: 1, ratio: true, covers: ['capacity_wh', 'capacity_mah'],
       get: (it) => num(it.specs.capacity_wh) ?? (num(it.specs.capacity_mah) ? +((num(it.specs.capacity_mah)! * LI_ION_V) / 1000).toFixed(1) : null),
     },
     spec('output_w', 'Output', 'W', 1, false),
@@ -60,15 +64,30 @@ const CURATED: Record<string, Metric[]> = {
 /** Curated metrics first, then any other numeric spec with a known better-direction. */
 export function metricsFor(categoryId: string, pool: Item[]): Metric[] {
   const out = [...(CURATED[categoryId] ?? [])];
-  const have = new Set(out.map((m) => m.key));
+  const have = new Set(out.flatMap((m) => [m.key, ...(m.covers ?? [])]));
   for (const m of specMeta(pool)) {
     if (m.type !== 'number' || have.has(m.key)) continue;
     const dir = specDirection(m.key);
     if (dir === 0) continue;
-    out.push(spec(m.key, humanizeKey(m.key), '', dir, false));
+    out.push({ ...spec(m.key, humanizeKey(m.key), '', dir, false), auto: true });
   }
   // drop metrics nobody in the pool has
   return out.filter((m) => pool.some((it) => m.get(it) != null));
+}
+
+/** Share of items in the category that have a value for the metric. */
+export const metricCoverage = (m: Metric, pool: Item[]) => (pool.length ? pool.filter((it) => m.get(it) != null).length / pool.length : 0);
+
+/**
+ * Below this coverage a metric is offered but not on by default: items without a value can't
+ * be ranked on it, so a sparse default would mostly hide data gaps rather than show trade-offs.
+ */
+export const DEFAULT_MIN_COVERAGE = 0.7;
+
+/** The metric that's on until the user picks one: the first curated metric, if enough items have it. */
+export function defaultMetric(categoryId: string, pool: Item[], all = metricsFor(categoryId, pool)): Metric | null {
+  const m = all[0];
+  return m && !m.auto && metricCoverage(m, pool) >= DEFAULT_MIN_COVERAGE ? m : null;
 }
 
 const LS_KEY = 'ulgdb.metric';
@@ -86,7 +105,7 @@ export function activeMetric(categoryId: string, pool: Item[]): Metric | null {
   const all = metricsFor(categoryId, pool);
   const k = savedMetricKey(categoryId);
   if (k === '') return null;
-  return all.find((m) => m.key === k) ?? all[0] ?? null;
+  return all.find((m) => m.key === k) ?? defaultMetric(categoryId, pool, all);
 }
 
 export function fmtMetric(v: number | null | undefined, m: Metric, withUnit = true): string {
@@ -104,7 +123,9 @@ const geq = (a: number, b: number, dir: 1 | -1) => (dir === 1 ? a >= b : a <= b)
 /**
  * 3D Pareto frontier on (price, weight, metric): an item is on it when no other item is
  * at least as cheap, as light and as good on the metric, and strictly better on one.
- * Items without a price or metric value can't be placed and are left out.
+ * Items without a price are left out. Items without a metric value can't be ranked on it,
+ * so they keep their place on the 2D weight/price frontier: picking a metric never takes
+ * a ★ away for missing data.
  */
 export function paretoFrontier3(items: Item[], m: Metric): Set<string> {
   const pts = items
@@ -117,5 +138,7 @@ export function paretoFrontier3(items: Item[], m: Metric): Set<string> {
     );
     if (!dominated) out.add(a.it.id);
   }
+  const front2 = paretoFrontier(items);
+  for (const it of items) if (m.get(it) == null && front2.has(it.id)) out.add(it.id);
   return out;
 }

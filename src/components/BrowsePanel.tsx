@@ -5,7 +5,7 @@ import { useStore } from '../lib/store';
 import { FilterPanel } from './FilterPanel';
 import { GearTable } from './GearTable';
 import { Scatter } from './Scatter';
-import { activeMetric, metricsFor, metricTitle, paretoFrontier3, saveMetricKey, type Metric } from '../lib/metric';
+import { activeMetric, DEFAULT_MIN_COVERAGE, metricCoverage, metricsFor, metricTitle, paretoFrontier3, saveMetricKey, type Metric } from '../lib/metric';
 
 interface Props {
   category: Category;
@@ -33,7 +33,10 @@ export function BrowsePanel({ category, refItem, onSwap }: Props) {
   const [metric, setMetricS] = useState<Metric | null>(() => activeMetric(category.id, pool));
   const setMetric = useCallback((key: string) => {
     saveMetricKey(category.id, key);
-    setMetricS(metrics.find((m) => m.key === key) ?? null);
+    const m = metrics.find((x) => x.key === key) ?? null;
+    setMetricS(m);
+    // the metric column goes away with the metric: don't leave the table sorted on it
+    if (!m) setSort((s) => (s.key === 'metric' ? { key: 'weight', dir: 1 } : s));
   }, [category.id, metrics]);
 
   useEffect(() => {
@@ -84,7 +87,10 @@ export function BrowsePanel({ category, refItem, onSwap }: Props) {
             Compare on{' '}
             <select value={metric?.key ?? ''} onChange={(e) => setMetric(e.target.value)} aria-label="Third dimension">
               <option value="">weight &amp; price only</option>
-              {metrics.map((m) => <option key={m.key} value={m.key}>{metricTitle(m)}</option>)}
+              {metrics.map((m) => {
+                const cov = metricCoverage(m, pool);
+                return <option key={m.key} value={m.key}>{metricTitle(m)}{cov < DEFAULT_MIN_COVERAGE ? ` · ${Math.round(cov * 100)}% have data` : ''}</option>;
+              })}
             </select>
           </label>
         )}
