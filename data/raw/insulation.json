@@ -251,7 +251,7 @@
     "price_usd": 300,
     "specs": {
       "fill": "down",
-      "fill_power": 650,
+      "fill_power": 800,
       "hood": true
     },
     "url": "https://www.outdoorresearch.com/products/mens-transcendent-down-hoodie-322081",
@@ -272,7 +272,7 @@
     "price_usd": 275,
     "specs": {
       "fill": "down",
-      "fill_power": 650,
+      "fill_power": 800,
       "hood": false
     },
     "url": "https://www.outdoorresearch.com/products/mens-transcendent-down-jacket-322082",
@@ -691,7 +691,8 @@
     "specs": {
       "fill": "down",
       "fill_power": 850,
-      "hood": true
+      "hood": true,
+      "fill_weight_g": 113
     },
     "url": "https://featheredfriends.com/products/arcteryx-cerium-hoody-mens",
     "discontinued": false,
@@ -712,7 +713,8 @@
     "specs": {
       "fill": "down",
       "fill_power": 850,
-      "hood": true
+      "hood": true,
+      "fill_weight_g": 91
     },
     "url": "https://featheredfriends.com/products/arcteryx-cerium-hoody-womens",
     "discontinued": false,
@@ -1677,7 +1679,8 @@
     "specs": {
       "fill": "down",
       "fill_power": 800,
-      "hood": false
+      "hood": false,
+      "fill_weight_g": 28
     },
     "url": "https://www.garagegrowngear.com/products/flash-down-booties-by-western-mountaineering",
     "discontinued": false,
@@ -1698,7 +1701,8 @@
     "specs": {
       "fill": "down",
       "fill_power": 1000,
-      "hood": false
+      "hood": false,
+      "fill_weight_g": 45
     },
     "url": "https://www.montbell.co.uk/products/mens-plasma-1000-down-jacket-black",
     "discontinued": false,
@@ -1719,7 +1723,8 @@
     "specs": {
       "fill": "down",
       "fill_power": 1000,
-      "hood": false
+      "hood": false,
+      "fill_weight_g": 36
     },
     "url": "https://www.montbell.co.uk/products/womens-plasma-1000-down-jacket-black",
     "discontinued": false,
@@ -1740,7 +1745,8 @@
     "specs": {
       "fill": "down",
       "fill_power": 1000,
-      "hood": true
+      "hood": true,
+      "fill_weight_g": 96
     },
     "url": "https://www.montbell.co.uk/products/plasma-1000-alpine-down-parka-light-grey",
     "discontinued": false,
@@ -1761,7 +1767,8 @@
     "specs": {
       "fill": "down",
       "fill_power": 1000,
-      "hood": false
+      "hood": false,
+      "fill_weight_g": 27
     },
     "url": "https://www.montbell.co.uk/products/mens-plasma-1000-down-vest-black",
     "discontinued": false,
@@ -1782,7 +1789,8 @@
     "specs": {
       "fill": "down",
       "fill_power": 800,
-      "hood": false
+      "hood": false,
+      "fill_weight_g": 55
     },
     "url": "https://www.montbell.co.uk/products/mens-superior-down-jacket-grey",
     "discontinued": false,
@@ -1803,7 +1811,8 @@
     "specs": {
       "fill": "down",
       "fill_power": 800,
-      "hood": false
+      "hood": false,
+      "fill_weight_g": 45
     },
     "url": "https://www.montbell.co.uk/products/womens-superior-down-jacket-lavender",
     "discontinued": false,
@@ -1824,7 +1833,8 @@
     "specs": {
       "fill": "down",
       "fill_power": 800,
-      "hood": true
+      "hood": true,
+      "fill_weight_g": 70
     },
     "url": "https://www.montbell.co.uk/products/mens-superior-down-parka-grey",
     "discontinued": false,
@@ -1845,7 +1855,8 @@
     "specs": {
       "fill": "down",
       "fill_power": 800,
-      "hood": false
+      "hood": false,
+      "fill_weight_g": 45
     },
     "url": "https://www.montbell.co.uk/products/mens-superior-down-vest-navy",
     "discontinued": false,
@@ -3112,7 +3123,8 @@
     "specs": {
       "fill": "down",
       "fill_power": 900,
-      "hood": true
+      "hood": true,
+      "fill_weight_g": 130
     },
     "url": "https://www.neptunemountaineering.com/products/mythic-alpine-jacket-womens",
     "discontinued": false,

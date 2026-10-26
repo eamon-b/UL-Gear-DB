@@ -1,0 +1,116 @@
+{
+ "updates": [
+  {
+   "id": "montbell-plasma-1000-down-jacket-mens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 45
+    }
+   }
+  },
+  {
+   "id": "montbell-plasma-1000-down-jacket-womens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 36
+    }
+   }
+  },
+  {
+   "id": "montbell-plasma-1000-alpine-down-parka",
+   "set": {
+    "specs": {
+     "fill_weight_g": 96
+    }
+   }
+  },
+  {
+   "id": "montbell-plasma-1000-down-vest-mens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 27
+    }
+   }
+  },
+  {
+   "id": "montbell-superior-down-jacket-mens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 55
+    }
+   }
+  },
+  {
+   "id": "montbell-superior-down-jacket-womens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 45
+    }
+   }
+  },
+  {
+   "id": "montbell-superior-down-parka-mens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 70
+    }
+   }
+  },
+  {
+   "id": "montbell-superior-down-vest-mens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 45
+    }
+   }
+  },
+  {
+   "id": "western-mountaineering-flash-down-booties",
+   "set": {
+    "specs": {
+     "fill_weight_g": 28
+    }
+   }
+  },
+  {
+   "id": "arcteryx-cerium-hoody-mens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 113
+    }
+   }
+  },
+  {
+   "id": "arcteryx-cerium-hoody-womens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 91
+    }
+   }
+  },
+  {
+   "id": "rab-mythic-alpine-jacket-womens",
+   "set": {
+    "specs": {
+     "fill_weight_g": 130
+    }
+   }
+  },
+  {
+   "id": "outdoor-research-transcendent-down-hoodie-mens",
+   "set": {
+    "specs": {
+     "fill_power": 800
+    }
+   }
+  },
+  {
+   "id": "outdoor-research-transcendent-down-jacket-mens",
+   "set": {
+    "specs": {
+     "fill_power": 800
+    }
+   }
+  }
+ ]
+}
