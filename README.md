@@ -73,7 +73,7 @@ How many items in each category have a price, a weight, and a value for the cate
 | Cookware | 105 | 96 (91%) | 105 (100%) | Capacity (ml) | 101 (96%) | on |
 | Cook Accessories | 93 | 85 (91%) | 93 (100%) | – | – | – |
 | Water Treatment | 61 | 57 (93%) | 61 (100%) | Flow rate (L/min) | **38 (62%)** | off |
-| Water Storage | 64 | 55 (85%) | 64 (100%) | Capacity (L) | 64 (100%) | on |
+| Water Storage | 63 | 55 (87%) | 63 (100%) | Capacity (L) | 63 (100%) | on |
 | Rain Jackets | 101 | 98 (97%) | 101 (100%) | Waterproofing (mm) | **44 (43%)** | off |
 | Rain Pants | 67 | 64 (95%) | 67 (100%) | Waterproofing (mm) | **35 (52%)** | off |
 | Wind Layers | 57 | 54 (94%) | 57 (100%) | – | – | – |
@@ -89,7 +89,7 @@ How many items in each category have a price, a weight, and a value for the cate
 | Stuff Sacks & Pack Liners | 161 | 159 (98%) | 161 (100%) | Volume (L) | **111 (68%)** | off |
 | First Aid, Hygiene & Tools | 85 | 84 (98%) | 85 (100%) | – | – | – |
 | Camp Comfort & Misc | 77 | 77 (100%) | 77 (100%) | – | – | – |
-| **All** | **3107** | **2985 (96%)** | **3107 (100%)** | | **1835 (78%)** | |
+| **All** | **3106** | **2985 (96%)** | **3106 (100%)** | | **1834 (78%)** | |
 <!-- coverage:end -->
 
 `npm run coverage` regenerates the table. CI fails if it is out of date, so a PR that changes the data shows its effect on coverage in the README diff, and the table is also in each CI run's summary.

@@ -35,7 +35,7 @@
     "url": "https://www.euroschirm.com/en/trekking-umbrellas/",
     "discontinued": false,
     "confidence": "high",
-    "notes": "EU price €49.90."
+    "notes": "EU price €49.90; price_usd converted at 1.1133 USD/EUR (ECB, 2026-10-28)."
   },
   {
     "id": "euroschirm-swing-handsfree",
@@ -1192,7 +1192,7 @@
     "url": "https://www.garagegrowngear.com/products/personal-towel-by-packtowl",
     "discontinued": false,
     "confidence": "medium",
-    "notes": "GGG only stocks the Face size, so no price found"
+    "notes": null
   },
   {
     "id": "packtowl-luxe-towel-face",

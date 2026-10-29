@@ -145,26 +145,6 @@
     "notes": "Sturdy disposable bottle, popular for electrolyte mixing."
   },
   {
-    "id": "talenti-jar-pint",
-    "category": "water-storage",
-    "subcategory": "bottle",
-    "brand": "Talenti",
-    "model": "Gelato Jar",
-    "variant": "1 pint",
-    "weight_g": 57,
-    "weight_basis": "estimate",
-    "weight_note": "empty with lid",
-    "price_usd": null,
-    "specs": {
-      "capacity_l": 0.47,
-      "collapsible": false
-    },
-    "url": "https://www.talentigelato.com/",
-    "discontinued": false,
-    "confidence": "low",
-    "notes": "Repurposed as a cold-soak jar more than a water bottle."
-  },
-  {
     "id": "nalgene-wide-mouth-32oz-sustain",
     "category": "water-storage",
     "subcategory": "bottle",

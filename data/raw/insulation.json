@@ -257,7 +257,7 @@
     "url": "https://www.outdoorresearch.com/products/mens-transcendent-down-hoodie-322081",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Fill power recalled (650), not checked"
+    "notes": "800+ fill power per outdoorresearch.com, checked 2026-10-29."
   },
   {
     "id": "outdoor-research-transcendent-down-jacket-mens",
@@ -3504,9 +3504,9 @@
       "hood": false
     },
     "url": "https://www.westernmountaineering.com/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": "Weight recalled (~10 oz); price not verified"
+    "notes": "Weight recalled (~10 oz). Western Mountaineering now sells only the Hooded Flash Jacket ($500)."
   },
   {
     "id": "cumulus-incredilite-jacket",
@@ -3570,7 +3570,7 @@
     "url": "https://www.patagonia.com.au/products/womens-down-sweater-84684-blk",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Style 84684; USD price not captured (AU site)"
+    "notes": "Style 84684"
   },
   {
     "id": "patagonia-down-sweater-hoody-womens",

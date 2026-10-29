@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T09:58:51.766Z",
-  "records": 3107,
+  "generated_at": "2026-10-29T09:59:32.862Z",
+  "records": 3106,
   "records_flagged": 151,
   "counts": {
     "weight-outlier": 50,
@@ -268,23 +268,6 @@
     },
     {
       "type": "weight-outlier",
-      "score": 57,
-      "id": "hydro-flask-32oz-wide-mouth",
-      "file": "water-storage.json",
-      "index": 55,
-      "name": "Hydro Flask Wide Mouth 32 oz",
-      "category": "water-storage",
-      "subcategory": "bottle",
-      "weight_g": 431,
-      "price_usd": 44.95,
-      "message": "weight 431 g is 7.2x the bottle median (60 g, n=18)",
-      "details": {
-        "median_g": 60,
-        "ratio": 7.18
-      }
-    },
-    {
-      "type": "weight-outlier",
       "score": 56,
       "id": "mayfly-ultralight-equipment-imago",
       "file": "footwear.json",
@@ -336,6 +319,23 @@
     },
     {
       "type": "weight-outlier",
+      "score": 55,
+      "id": "hydro-flask-32oz-wide-mouth",
+      "file": "water-storage.json",
+      "index": 54,
+      "name": "Hydro Flask Wide Mouth 32 oz",
+      "category": "water-storage",
+      "subcategory": "bottle",
+      "weight_g": 431,
+      "price_usd": 44.95,
+      "message": "weight 431 g is 6.8x the bottle median (63 g, n=17)",
+      "details": {
+        "median_g": 63,
+        "ratio": 6.84
+      }
+    },
+    {
+      "type": "weight-outlier",
       "score": 54,
       "id": "litesmith-zipza-pouch-large",
       "file": "pack-organization.json",
@@ -353,19 +353,19 @@
     },
     {
       "type": "weight-outlier",
-      "score": 51,
+      "score": 50,
       "id": "hydro-flask-21oz-standard-mouth",
       "file": "water-storage.json",
-      "index": 56,
+      "index": 55,
       "name": "Hydro Flask Standard Mouth 21 oz",
       "category": "water-storage",
       "subcategory": "bottle",
       "weight_g": 357,
       "price_usd": 34.95,
-      "message": "weight 357 g is 6.0x the bottle median (60 g, n=18)",
+      "message": "weight 357 g is 5.7x the bottle median (63 g, n=17)",
       "details": {
-        "median_g": 60,
-        "ratio": 5.95
+        "median_g": 63,
+        "ratio": 5.67
       }
     },
     {
@@ -594,7 +594,7 @@
       "score": 44,
       "id": "hydrapak-seeker-6l",
       "file": "water-storage.json",
-      "index": 43,
+      "index": 42,
       "name": "HydraPak Seeker 6L",
       "category": "water-storage",
       "subcategory": "soft bottle",
