@@ -1674,7 +1674,7 @@
     "weight_note": null,
     "price_usd": 27,
     "specs": {
-      "volume_l": null,
+      "volume_l": 6,
       "material": "DCF 1.5",
       "waterproof": true
     },
@@ -1695,7 +1695,7 @@
     "weight_note": null,
     "price_usd": 44,
     "specs": {
-      "volume_l": null,
+      "volume_l": 25,
       "material": "DCF 1.5",
       "waterproof": true
     },
@@ -1735,7 +1735,7 @@
     "weight_g": 12,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 15,
     "specs": {
       "volume_l": null,
       "material": "DCF 1.5",
@@ -2659,7 +2659,7 @@
     "weight_g": 82,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 39.95,
     "specs": {
       "volume_l": 13,
       "material": "silnylon + eVent base",
@@ -2680,7 +2680,7 @@
     "weight_g": 112,
     "weight_basis": "manufacturer",
     "weight_note": "0.247 lb, Osprey spec",
-    "price_usd": null,
+    "price_usd": 42.5,
     "specs": {
       "volume_l": null,
       "material": "silnylon",

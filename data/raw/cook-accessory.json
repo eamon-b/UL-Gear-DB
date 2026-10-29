@@ -1729,7 +1729,7 @@
     "weight_g": 52,
     "weight_basis": "manufacturer",
     "weight_note": "jar + lid",
-    "price_usd": null,
+    "price_usd": 4.25,
     "specs": {
       "capacity_ml": 475,
       "material": "polypropylene"
@@ -1749,7 +1749,7 @@
     "weight_g": 76,
     "weight_basis": "manufacturer",
     "weight_note": "jar + lid",
-    "price_usd": null,
+    "price_usd": 5.95,
     "specs": {
       "capacity_ml": 775,
       "material": "polypropylene"

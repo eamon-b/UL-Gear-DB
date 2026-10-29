@@ -534,7 +534,8 @@
     "price_usd": 120,
     "specs": {
       "material": "synthetic stretch knit",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 185
     },
     "url": "https://featheredfriends.com/products/arcteryx-rho-lt-hoody-mens",
     "discontinued": false,
@@ -575,7 +576,8 @@
     "price_usd": 100,
     "specs": {
       "material": "synthetic stretch knit",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 185
     },
     "url": "https://featheredfriends.com/products/arcteryx-rho-lt-bottom-mens",
     "discontinued": false,
@@ -637,7 +639,8 @@
     "price_usd": 200,
     "specs": {
       "material": "softshell",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 186
     },
     "url": "https://featheredfriends.com/products/arcteryx-gamma-pant-mens",
     "discontinued": false,
@@ -657,7 +660,8 @@
     "price_usd": 200,
     "specs": {
       "material": "softshell",
-      "gender": "women"
+      "gender": "women",
+      "gsm": 186
     },
     "url": "https://featheredfriends.com/products/arcteryx-gamma-pant-womens",
     "discontinued": false,
@@ -677,7 +681,8 @@
     "price_usd": 160,
     "specs": {
       "material": "lightweight softshell",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 125
     },
     "url": "https://featheredfriends.com/products/arcteryx-gamma-sl-pant-mens",
     "discontinued": false,
@@ -928,7 +933,8 @@
     "price_usd": 50,
     "specs": {
       "material": "88% Merino Wool, 12% Recycled Nylon",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 150
     },
     "url": "https://www.smartwool.com/products/mens-merino-boxer-brief-sw016997",
     "discontinued": false,
@@ -1300,7 +1306,8 @@
     "price_usd": 54,
     "specs": {
       "material": "ZEO-LINE polyester",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 165
     },
     "url": "https://www.montbell.com/us/en/products/detail/2307112",
     "discontinued": false,
@@ -1320,7 +1327,8 @@
     "price_usd": 89,
     "specs": {
       "material": "SUPER MERINO WOOL 85% wool / 15% polyester",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 125
     },
     "url": "https://www.montbell.com/us/en/products/detail/2307107",
     "discontinued": false,
@@ -1644,7 +1652,8 @@
     "price_usd": 98,
     "specs": {
       "material": "nylon/spandex 72 g/m2",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 72
     },
     "url": "https://pathprojects.com/products/century-short",
     "discontinued": false,
@@ -1664,7 +1673,8 @@
     "price_usd": 88,
     "specs": {
       "material": "nylon/spandex 72 g/m2",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 72
     },
     "url": "https://pathprojects.com/products/altira-short",
     "discontinued": false,
@@ -2167,7 +2177,8 @@
     "price_usd": 59,
     "specs": {
       "material": "recycled polyester",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 125
     },
     "url": "https://www.neptunemountaineering.com/products/cap-cool-daily-shirt-great-waves-mens",
     "discontinued": false,
@@ -2187,7 +2198,8 @@
     "price_usd": 59,
     "specs": {
       "material": "recycled polyester",
-      "gender": "women"
+      "gender": "women",
+      "gsm": 125
     },
     "url": "https://www.neptunemountaineering.com/products/cap-cool-daily-short-sleeve-shirt-womens",
     "discontinued": false,
@@ -2208,7 +2220,8 @@
     "specs": {
       "material": "recycled polyester",
       "gender": "men",
-      "upf": 50
+      "upf": 50,
+      "gsm": 119
     },
     "url": "https://www.neptunemountaineering.com/products/longsleeve-cap-cool-sun-shirt-peak-visions-mens",
     "discontinued": false,
@@ -2249,7 +2262,8 @@
     "specs": {
       "material": "recycled polyester stretch woven with liner",
       "gender": "men",
-      "inseam_in": 5
+      "inseam_in": 5,
+      "gsm": 85
     },
     "url": "https://www.neptunemountaineering.com/products/strider-pro-5-short-mens",
     "discontinued": false,
@@ -2270,7 +2284,8 @@
     "specs": {
       "material": "recycled nylon",
       "gender": "men",
-      "inseam_in": 8
+      "inseam_in": 8,
+      "gsm": 85
     },
     "url": "https://www.neptunemountaineering.com/products/multi-trail-8-short-mens",
     "discontinued": false,
@@ -2290,7 +2305,8 @@
     "price_usd": 90,
     "specs": {
       "material": "polyester knit",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 110
     },
     "url": "https://www.gearx.com/products/arc-teryx-cormac-hoody-mens-s25-li3jo-stone-green-heather",
     "discontinued": false,
@@ -2310,7 +2326,8 @@
     "price_usd": 70,
     "specs": {
       "material": "polyester knit",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 110
     },
     "url": "https://www.neptunemountaineering.com/products/cormac-crew-short-sleeve-mens",
     "discontinued": false,
@@ -2370,7 +2387,8 @@
     "price_usd": 120,
     "specs": {
       "material": "synthetic stretch knit",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 185
     },
     "url": "https://www.gearx.com/products/arcteryx-rho-lt-zip-neck-mens-wp4fo-dark-jade",
     "discontinued": false,
@@ -2390,7 +2408,8 @@
     "price_usd": 140,
     "specs": {
       "material": "nylon woven",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 76
     },
     "url": "https://www.neptunemountaineering.com/products/skyline-long-sleeve-shirt-mens-1",
     "discontinued": false,
@@ -2820,7 +2839,8 @@
     "price_usd": 109,
     "specs": {
       "material": "nylon stretch woven",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 175
     },
     "url": "https://www.neptunemountaineering.com/products/renegade-recon-pant-mens",
     "discontinued": false,
@@ -2841,7 +2861,8 @@
     "specs": {
       "material": "nylon stretch woven",
       "gender": "men",
-      "inseam_in": 10
+      "inseam_in": 10,
+      "gsm": 170
     },
     "url": "https://www.neptunemountaineering.com/products/renegade-short-10-mens",
     "discontinued": false,
@@ -2862,7 +2883,8 @@
     "specs": {
       "material": "Enduro stretch woven",
       "gender": "men",
-      "inseam_in": 8
+      "inseam_in": 8,
+      "gsm": 176
     },
     "url": "https://www.gearx.com/products/kuhl-radikl-short-8in-inseam-bd9jr-deep-waters",
     "discontinued": false,
@@ -2882,7 +2904,8 @@
     "price_usd": 69,
     "specs": {
       "material": "recycled polyester",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 125
     },
     "url": "https://www.patagonia.com/product/mens-capilene-cool-daily-hoody/45310.html",
     "discontinued": false,
@@ -2903,7 +2926,8 @@
     "specs": {
       "material": "96% modal / 4% spandex jersey",
       "gender": "men",
-      "upf": 50
+      "upf": 50,
+      "gsm": 200
     },
     "url": "https://www.patagonia.com/product/mens-tropic-comfort-natural-sun-upf-hoody/41930.html",
     "discontinued": false,
@@ -2924,7 +2948,8 @@
     "specs": {
       "material": "recycled nylon with mesh liner",
       "gender": "men",
-      "inseam_in": 5
+      "inseam_in": 5,
+      "gsm": 166
     },
     "url": "https://www.patagonia.com/product/mens-baggies-5-inch-inseam-shorts/57022.html",
     "discontinued": false,
@@ -2944,7 +2969,8 @@
     "price_usd": 99,
     "specs": {
       "material": "nylon/spandex stretch woven",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 149
     },
     "url": "https://www.patagonia.com/product/mens-quandary-hiking-pants-regular/55183.html",
     "discontinued": false,
@@ -2965,7 +2991,8 @@
     "specs": {
       "material": "nylon/spandex stretch woven",
       "gender": "men",
-      "inseam_in": 10
+      "inseam_in": 10,
+      "gsm": 149
     },
     "url": "https://www.patagonia.com/product/mens-quandary-hiking-shorts-10-inch/57828.html",
     "discontinued": false,
@@ -3107,7 +3134,8 @@
     "price_usd": 109,
     "specs": {
       "material": "nylon stretch woven",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 170
     },
     "url": "https://www.kuhl.com/kuhl/mens/pants/renegade-pant/",
     "discontinued": false,
@@ -3167,7 +3195,8 @@
     "price_usd": 99.95,
     "specs": {
       "material": "merino blend (with Evolved Supply Co)",
-      "gender": "men"
+      "gender": "men",
+      "gsm": 135
     },
     "url": "https://zpacks.com/products/the-mirage-merino-sun-hoody",
     "discontinued": false,
@@ -3187,7 +3216,8 @@
     "price_usd": 99.95,
     "specs": {
       "material": "merino blend (with Evolved Supply Co)",
-      "gender": "women"
+      "gender": "women",
+      "gsm": 135
     },
     "url": "https://zpacks.com/products/womens-mirage-merino-sun-hoody",
     "discontinued": false,
@@ -3207,7 +3237,8 @@
     "price_usd": 69.95,
     "specs": {
       "material": "stretch synthetic, UPF 40+",
-      "gender": "unisex"
+      "gender": "unisex",
+      "gsm": 90
     },
     "url": "https://zpacks.com/products/zpacks-trail-cool-sun-hoody",
     "discontinued": false,
@@ -3227,7 +3258,8 @@
     "price_usd": 99.95,
     "specs": {
       "material": "Octa fleece",
-      "gender": "unisex"
+      "gender": "unisex",
+      "gsm": 80
     },
     "url": "https://zpacks.com/products/octa-thermal-bottoms-long-underwear-leggings",
     "discontinued": false,
@@ -3247,7 +3279,8 @@
     "price_usd": 99.95,
     "specs": {
       "material": "Octa fleece",
-      "gender": "unisex"
+      "gender": "unisex",
+      "gsm": 80
     },
     "url": "https://zpacks.com/products/zpacks-octa-fleece-camp-pants",
     "discontinued": false,
@@ -3267,7 +3300,8 @@
     "price_usd": 69,
     "specs": {
       "material": "recycled polyester",
-      "gender": "women"
+      "gender": "women",
+      "gsm": 125
     },
     "url": "https://www.patagonia.com/product/womens-capilene-cool-daily-hoody/45316.html",
     "discontinued": false,
@@ -3287,7 +3321,8 @@
     "price_usd": 89,
     "specs": {
       "material": "recycled polyester, UPF 50+",
-      "gender": "women"
+      "gender": "women",
+      "gsm": 119
     },
     "url": "https://www.patagonia.com/product/womens-capilene-cool-sun-hoody/44805.html",
     "discontinued": false,
@@ -3307,7 +3342,8 @@
     "price_usd": 99,
     "specs": {
       "material": "natural-fiber blend, UPF 50+",
-      "gender": "women"
+      "gender": "women",
+      "gsm": 200
     },
     "url": "https://www.patagonia.com/product/womens-tropic-comfort-natural-sun-upf-hoody/41935.html",
     "discontinued": false,
@@ -3327,7 +3363,8 @@
     "price_usd": null,
     "specs": {
       "material": "recycled nylon stretch, DWR",
-      "gender": "women"
+      "gender": "women",
+      "gsm": 149
     },
     "url": "https://eu.patagonia.com/ee/en/product/womens-quandary-hiking-pants-regular/55417.html",
     "discontinued": false,
@@ -3550,7 +3587,8 @@
     "price_usd": 99,
     "specs": {
       "material": "recycled polyester grid fleece",
-      "gender": "women"
+      "gender": "women",
+      "gsm": 129
     },
     "url": "https://www.patagonia.com/product/womens-capilene-thermal-weight-crew/43650.html",
     "discontinued": false,

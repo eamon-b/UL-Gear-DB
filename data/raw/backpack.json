@@ -2180,7 +2180,7 @@
     "weight_g": 408,
     "weight_basis": "manufacturer",
     "weight_note": "size M, starting weight",
-    "price_usd": null,
+    "price_usd": 199,
     "specs": {
       "volume_l": 30,
       "frame": "frameless",
@@ -2208,7 +2208,7 @@
     "weight_g": 438,
     "weight_basis": "manufacturer",
     "weight_note": "size M, starting weight",
-    "price_usd": null,
+    "price_usd": 210,
     "specs": {
       "volume_l": 40,
       "frame": "frameless",
@@ -2236,7 +2236,7 @@
     "weight_g": 650,
     "weight_basis": "manufacturer",
     "weight_note": "size M, carbon hoop frame + hipbelt",
-    "price_usd": null,
+    "price_usd": 295,
     "specs": {
       "volume_l": 40,
       "frame": "framesheet",
@@ -2264,7 +2264,7 @@
     "weight_g": 870,
     "weight_basis": "manufacturer",
     "weight_note": "size M, starting weight",
-    "price_usd": null,
+    "price_usd": 318,
     "specs": {
       "volume_l": 50,
       "frame": "internal",
@@ -2292,7 +2292,7 @@
     "weight_g": 910,
     "weight_basis": "manufacturer",
     "weight_note": "size M, starting weight",
-    "price_usd": null,
+    "price_usd": 329,
     "specs": {
       "volume_l": 50,
       "frame": "internal",
@@ -2320,7 +2320,7 @@
     "weight_g": 965,
     "weight_basis": "manufacturer",
     "weight_note": "size M, starting weight",
-    "price_usd": null,
+    "price_usd": 352,
     "specs": {
       "volume_l": 60,
       "frame": "internal",
@@ -2348,7 +2348,7 @@
     "weight_g": 545,
     "weight_basis": "manufacturer",
     "weight_note": "size M, starting weight",
-    "price_usd": null,
+    "price_usd": 301,
     "specs": {
       "volume_l": 35,
       "frame": "framesheet",
@@ -2375,7 +2375,7 @@
     "weight_g": 510,
     "weight_basis": "manufacturer",
     "weight_note": "total",
-    "price_usd": null,
+    "price_usd": 278,
     "specs": {
       "volume_l": 25,
       "frame": "framesheet",
@@ -4564,7 +4564,7 @@
     "weight_g": 810,
     "weight_basis": "manufacturer",
     "weight_note": "size M with frame stays and hipbelt (579 g minimum)",
-    "price_usd": null,
+    "price_usd": 299,
     "specs": {
       "volume_l": 48,
       "frame": "internal",
@@ -4592,7 +4592,7 @@
     "weight_g": 1314,
     "weight_basis": "manufacturer",
     "weight_note": "size M, standard",
-    "price_usd": null,
+    "price_usd": 453,
     "specs": {
       "frame": "internal",
       "hipbelt": true,
@@ -5690,7 +5690,7 @@
     "weight_g": 280,
     "weight_basis": "manufacturer",
     "weight_note": "UltraGrid version; Ecopak EPX200 version 340 g",
-    "price_usd": null,
+    "price_usd": 197.73,
     "specs": {
       "volume_l": 18,
       "frame": "frameless",
@@ -5711,7 +5711,7 @@
     "weight_g": 400,
     "weight_basis": "manufacturer",
     "weight_note": "UltraGrid version; Ecopak EPX200 version 455 g",
-    "price_usd": null,
+    "price_usd": 232.83,
     "specs": {
       "volume_l": 30,
       "frame": "frameless",

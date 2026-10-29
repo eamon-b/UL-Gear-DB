@@ -1,0 +1,44 @@
+{
+ "updates": [
+  {
+   "id": "mountain-laurel-designs-dcf-dry-bag-medium",
+   "set": {
+    "specs": {
+     "volume_l": 6
+    }
+   }
+  },
+  {
+   "id": "mountain-laurel-designs-dcf-dry-bag-x-large",
+   "set": {
+    "specs": {
+     "volume_l": 25
+    }
+   }
+  },
+  {
+   "id": "big-agnes-twentymile-ul-20x72",
+   "set": {
+    "specs": {
+     "r_value": 1.7
+    }
+   }
+  },
+  {
+   "id": "big-agnes-twentymile-ul-25x78",
+   "set": {
+    "specs": {
+     "r_value": 1.7
+    }
+   }
+  },
+  {
+   "id": "zpacks-carbon-fiber-trekking-pole-foam",
+   "set": {
+    "specs": {
+     "collapsed_length_in": 23.5
+    }
+   }
+  }
+ ]
+}

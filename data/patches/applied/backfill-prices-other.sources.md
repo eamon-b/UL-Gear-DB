@@ -1,0 +1,85 @@
+# Sources for backfill-prices-other.json
+
+- katadyn-pocket | price_usd | 429.95 | https://www.rei.com/product/653573 | "Katadyn Pocket Water Filter ... $429.95" (REI page seen via search result (WebFetch 403); Backcountry also shows original price $429.95)
+- katadyn-micropur-mp1-20 | price_usd | 12.95 | https://ridgeandriver.com/products/katadyn-micropur-mp1-purification-tablets-20-pack | "Katadyn Micropur MP1 Purification Tablets (20 pack) ... 12.95" (Shopify product JSON price/compare-at 12.95; Steep&Cheap shows 'Original price: $12.95')
+- steripen-ultralight | price_usd | 109.95 | https://www.gearx.com/products/steripen-ultralight-uv-purifier-dg5vx | "Steripen - Ultralight UV Purifier ... 109.95" (Shopify product JSON, compare-at 109.95; Backcountry also lists $109.95 original)
+- steripen-ultra | price_usd | 134.95 | https://www.rei.com/product/847549 | "Katadyn Steripen Ultra UV Water Purifier $134.95" (REI via search result; Ascent Outdoors Shopify JSON also 134.95)
+- steripen-classic-3 | price_usd | 99.95 | https://www.gearx.com/products/katadyn-steripen-classic-3-uv-water-purifier-mc9pk | "Katadyn - Steripen Classic 3 UV Water Purifier ... 99.95" (Shopify product JSON, compare-at 99.95)
+- litesmith-cold-soaking-jar-medium | price_usd | 4.25 | https://www.litesmith.com/cold-soaking-jars/ | "Medium - 16 oz (475 ml) ... $4.25" (per-size price from the page's BigCommerce product-attributes endpoint)
+- litesmith-cold-soaking-jar-x-large | price_usd | 5.95 | https://www.litesmith.com/cold-soaking-jars/ | "X-Large - 26 oz (775 ml) ... $5.95" (per-size price from the page's BigCommerce product-attributes endpoint)
+- mountain-laurel-designs-dcf-zip-pouch-large | price_usd | 15 | https://mountainlaureldesigns.com/product/cuben-fiber-zip-pouches/ | "SINGLE POUCH ... 15" (WooCommerce variation price; single pouch (Medium or Large, size chosen separately) is $15)
+- jetboil-micromo | price_usd | 169.99 | https://jetboil.johnsonoutdoors.com/stoves-systems/micromo-cooking-system?id=12601 | "MicroMo Cooking System ... $127.49 $169.99" (maker page via search result; $169.99 is the struck-through list price; Campmor/GOHUNT also $169.99)
+- osprey-ultralight-raincover-medium | price_usd | 42.5 | https://www.osprey.com/ultralight-raincover-medium | "Current Price $42.50" (maker page via search result; REI also $42.50)
+- granite-gear-event-sil-compression-drysack-13l | price_usd | 39.95 | https://www.gearx.com/products/granite-gear-event-sil-compression-drysack-s887z-jasmine-green | "Jasmine Green / 13 39.95" (Shopify JSON compare-at 39.95 (out of stock); Campmor 'Regular price $39.95')
+- frontiersman-bear-spray-9-2oz | price_usd | 49.99 | https://ascentoutdoors.com/products/frontiersman-bear-mountain-lion-spray-9-2oz | "Frontiersman Bear & Mountain Lion Spray 9.2OZ ... 49.99" (retailer; Cop's Plus 'Original price $49.99' and Blackovis regular $49.99 for FBAD-06; no price on sabrered.com)
+- patagonia-down-sweater-womens | price_usd | 289 | https://www.aspenskiandboard.com/products/patagonia-down-sweater-womens-jacket-2026-84684 | "Patagonia Down Sweater Womens Jacket 2026 (84684) ... Retail: $289.00" (retailer; Jenson USA also $289; older listings show $279)
+- patagonia-nano-puff-jacket-womens | price_usd | 239 | https://www.aspenskiandboard.com/products/patagonia-nano-puff-womens-jacket-2026-84218 | "Patagonia Nano Puff Womens Jacket 2026 (84218) | 239.00" (retailer 2026 listing; older listings show $229)
+- patagonia-down-sweater-hoody-womens | price_usd | 345 | https://www.rei.com/product/208409/patagonia-down-sweater-hoody-womens | "Patagonia Down Sweater Hoody - Women's ... $345.00" (REI via search result (403 to fetch); older listings $329; men's 2026 hoody is also $345 at Aspen Ski and Board)
+- montbell-ex-light-thermawrap-parka-womens | price_usd | 180 | https://www.montbell.com/us/en/products/detail/2301436 | "EX Light Thermawrap Parka Women's ... "shipping_from_code":2 ... "price":180" (USD price from the page's embedded product data for US-warehouse stock; rendered price field is JS-filled)
+- montbell-ex-light-thermawrap-jacket-womens | price_usd | 160 | https://www.montbell.com/us/en/products/detail/2301438 | "EX Light Thermawrap Jacket Women's ... "shipping_from_code":2 ... "price":160" (USD price from the page's embedded product data for US-warehouse stock)
+- montbell-wind-blast-vest-mens | price_usd | 76 | https://www.montbell.com/us/en/products/detail/1103326 | "Wind Blast Vest Men's | Montbell America ... "shipping_from_code":2 ... "price":76" (USD price from the page's embedded product data for US-warehouse stock)
+- montbell-ex-light-wind-parka-mens | price_usd | 119 | https://www.montbell.com/us/en/products/detail/1103285 | "EX Light Wind Hooded Jacket | Montbell America ... "price":119" (US page for model 1103285 (Montbell's US name for the EX Light Wind Parka; JP price_intax 11000 matches the item's noted ¥11,000). Page title has no gender; only XS in US stock)
+- komperdell-carbon-pro-zero | price_usd | 229.95 | https://ascentoutdoors.com/products/komperdell-carbon-pro-zero | "Komperdell Carbon Pro Zero ... 67CM 229.95" (US retailer, pair; Miyar Adventures also 229.95)
+- komperdell-carbon-evo-zero | price_usd | 199.95 | https://ascentoutdoors.com/products/komperdell-carbon-evozero | "Komperdell Carbon Evozero ... 199.95" (US retailer, pair; Miyar Adventures also 199.95)
+- komperdell-fx-l-carbon-vario-approach | price_usd | 249.95 | https://ascentoutdoors.com/products/komperdell-fxlite-carbon-vario-approach | "Komperdell Fxlite Carbon Vario Approach ... 249.95" (US retailer, pair; assumes FX.L = FXLite naming)
+- komperdell-explorer-zero | price_usd | 179.95 | https://ascentoutdoors.com/products/komperdell-explorer-zero | "Komperdell Explorer Zero | 179.95" (US retailer search listing, pair)
+- komperdell-carbon-ultra-zero | price_usd | 299.95 | https://outdoorvitals.com/products/komperdell-c3-cloud-trekking-pole-copy | "Komperdell Carbon Ultra Zero Trekking Poles ... Carbon 299.95" (US retailer; JSON compare-at oddly 249.95 (below price) and a search snippet showed '$269.95 $299.95'; maker EU price €179.95 (~$200))
+- potable-aqua-chlorine-dioxide-20 | price_usd | 13.99 | https://sportsmanswarehouse.com/camping-gear-supplies/hydration/water-filters/filter-parts-accessories/potable-aqua-chlorine-dioxide-water-purification-tablets-20-count/p/1240546 | "Potable Aqua Chlorine Dioxide Water Purification Tablets 20 count $13.99" (retailer, via search result)
+- garcia-backpackers-cache | price_usd | 79 | https://www.campmor.com/products/garcia-bear-resistant-container | "Backpackers' Cache Bear-Resistant Container ... 79.0" (retailer; Trailspace and ADK also $79)
+- packtowl-personal-towel-hand | price_usd | 29.95 | https://www.sportsbasement.com/products/packtowel-personal-hand | "Packtowel Personal - Hand ... Midnight / One Size 29.95" (retailer, compare-at 29.95; North40 lists $29.99)
+- olicamp-xts-pot | price_usd | 34.99 | https://libertymountain.com/olicamp-xts-pot-ntn13496.html | "OLICAMP XTS POT ... Retail Price $34.99" (Liberty Mountain is Olicamp's US distributor; seen via search result (page 403 to fetch))
+- evernew-water-carry-1500ml | price_usd | 15.49 | https://libertymountain.com/camp-hike/evernew-water-carry-ntn16026.html | "Item Number:696947 BOTTLE CONTAINER WATER CARRY WATER CARRY 1500ML Retail Price $15.49" (US distributor (Liberty Mountain), via search result)
+- euroschirm-light-trek-ultra | price_usd | 55.55 | https://www.euroschirm.com/en/trekking-umbrella-light-trek-ultra-light-blue/3019-tu | "Regular price: €49.90" (converted from €49.90 at 1.1133 USD/EUR (ECB, 2026-10-28))
+- esbit-titanium-pot-750 | price_usd | 72.31 | https://www.esbit.de/products/titan-topf-ultraleicht-750-ml-esbit | "Camping Topf · 750 ml · aus Titan ... 64.95" (converted from €64.95 at 1.1133 USD/EUR (ECB, 2026-10-28); maker store prices in EUR only)
+- esbit-titanium-folding-stove | price_usd | 22.21 | https://www.esbit.de/products/faltbarer-esbitkocher-aus-titan | "Faltbarer Esbitkocher · aus Titan ... 19.95" (converted from €19.95 at 1.1133 USD/EUR)
+- esbit-brass-alcohol-burner | price_usd | 18.87 | https://www.esbit.de/products/spiritusbrenner-aus-messing-mit-klappgriff | "Spiritusbrenner · aus Messing ... 16.95" (converted from €16.95 at 1.1133 USD/EUR)
+
+## Not found
+
+- patagonia-quandary-pants-womens: no current US price seen (patagonia.com in maintenance; retailers show $89 older and REI range up to $99)
+- patagonia-micro-puff-hoody-womens: no current USD price for style 84041 (only AU/CH prices and an older $299 MSRP)
+- primus-power-gas-100: primus.us sells only a 'Case of 24' ($146.99); no single-canister MSRP
+- primus-power-gas-230: primus.us sells only a 'Case of 24' ($182.99); no single-canister MSRP
+- talenti-gelato-jar: consumer grocery product, no MSRP
+- talenti-jar-pint: consumer grocery product, no MSRP
+- ziploc-twist-n-loc-16oz: consumer multipack product, no per-item MSRP
+- ziploc-twist-n-loc-32oz: consumer multipack product, no per-item MSRP
+- hefty-trash-compactor-bag: consumer multipack product, no per-item MSRP
+- smartwater-600ml: disposable beverage bottle, no MSRP
+- smartwater-700ml-sport: disposable beverage bottle, no MSRP
+- smartwater-1l: disposable beverage bottle, no MSRP
+- smartwater-1l-sport: disposable beverage bottle, no MSRP
+- smartwater-1-5l: disposable beverage bottle, no MSRP
+- gatorade-20oz: disposable beverage bottle, no MSRP
+- gatorade-28oz: disposable beverage bottle, no MSRP
+- diy-reflectix-pot-cozy: DIY item, no price
+- diy-fancy-feast-alcohol-stove: DIY item, no price
+- esbit-solid-fuel-tablets-14g: variant is a single 14 g tablet; maker sells only packs (6x14 g €5.95, 12x14 g €9.95)
+- antigravitygear-pot-cozy: no current listing/price found; sold in many sizes
+- evernew-ti-mug-pot-500: evernewamerica.com lists no prices; only EUR/AUD retailer prices found
+- evernew-ti-ultralight-pot-900: evernewamerica.com lists no prices; no USD listing for ECA252
+- evernew-ti-ultralight-pot-1300: evernewamerica.com lists no prices; no USD listing for ECA253
+- evernew-water-carry-900ml: US distributor price seen only for the 1500 ml size
+- keith-titanium-pot-900: model ambiguous (no exact 900 ml pot SKU identified); no US price found
+- keith-titanium-mug-450: no US price found (Drop hides prices; only JP/MY listings)
+- stanley-adventure-camp-cook-set-24oz: not on stanley1913.com (line appears replaced by Wildfare); only old deal prices found
+- olicamp-space-saver-mug: only the 16 oz Space Saver Cup (different capacity, reportedly discontinued) found
+- lixada-titanium-750-pot: Amazon-only generic brand, no MSRP page
+- boundless-voyage-titanium-750-pot: Amazon-only generic brand, no MSRP page
+- culoclean-ultralight: maker site links to Amazon only, no list price shown
+- western-mountaineering-flash-jacket: maker site lists only the Hooded Flash Jacket; no non-hooded Flash Jacket price
+- firebox-nano-titanium: maker site shows only kit/combo prices with stainless/titanium options under one price; stove-only titanium MSRP unclear
+- komperdell-carbon-fxp-ultra: no US listing found; maker price in EUR not checked within fetch budget
+- membrane-solutions-straw: several straw models and pack sizes; could not tie the item to one SKU price
+- berghaus-hyper-140-jacket-mens: berghaus.com product page now 404; only GBP RRPs (£180-£200) of uncertain date
+- salomon-bonatti-trail-waterproof-jacket-mens: no salomon.com US price seen; retailer names conflict (Bonatti Trail vs Bonatti Waterproof)
+- salomon-bonatti-cross-wind-jacket-mens: no USD price for men's model (only CAD/AUD/EUR)
+- mountain-laurel-designs-pack-pocket: product page https://mountainlaureldesigns.com/product/pack-pockets/ returns 404
+- ultimate-direction-breeze-jacket-mens: only an old $80 review price; no current listing
+
+## Flags
+
+- western-mountaineering-flash-jacket: specs say hood=false, but Western Mountaineering's shop lists only a "Hooded Flash Jacket" ("$500.00" on https://www.westernmountaineering.com/shop/page/4). The item may be a discontinued non-hooded version, or the hood flag may be wrong.
+- primus-power-gas-100 / primus-power-gas-230: both have url .../power-gas-100-gram-case, which is a 24-can case listing, not a single canister.
+- talenti-gelato-jar and talenti-jar-pint look like duplicates of the same jar (one in cook-accessory, one in water-storage).
+- montbell-ex-light-wind-parka-mens: Montbell US now names model 1103285 "EX Light Wind Hooded Jacket" with no gender in the title; the url field points to an outdoorgearzine roundup.

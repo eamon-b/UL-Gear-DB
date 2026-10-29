@@ -1,0 +1,132 @@
+{
+  "updates": [
+    {
+      "id": "sea-to-summit-ultra-sil-nano-poncho",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 1200
+        }
+      }
+    },
+    {
+      "id": "sea-to-summit-ultra-sil-tarp-poncho",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 1200
+        }
+      }
+    },
+    {
+      "id": "berghaus-hyper-100-jacket-mens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 20000
+        }
+      }
+    },
+    {
+      "id": "patagonia-torrentshell-3l-jacket-mens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 20000
+        }
+      }
+    },
+    {
+      "id": "patagonia-torrentshell-3l-jacket-womens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 20000
+        }
+      }
+    },
+    {
+      "id": "patagonia-torrentshell-3l-pants-mens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 20000
+        }
+      }
+    },
+    {
+      "id": "patagonia-torrentshell-3l-pants-womens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 20000
+        }
+      }
+    },
+    {
+      "id": "patagonia-storm-racer-jacket-mens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 20000
+        }
+      }
+    },
+    {
+      "id": "patagonia-granite-crest-rain-jacket-mens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 20000
+        }
+      }
+    },
+    {
+      "id": "patagonia-granite-crest-rain-jacket-womens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 20000
+        }
+      }
+    },
+    {
+      "id": "patagonia-granite-crest-rain-pants-mens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 20000
+        }
+      }
+    },
+    {
+      "id": "patagonia-granite-crest-rain-pants-womens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 20000
+        }
+      }
+    },
+    {
+      "id": "marmot-precip-eco-jacket-mens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 10000
+        }
+      }
+    },
+    {
+      "id": "marmot-precip-eco-jacket-womens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 10000
+        }
+      }
+    },
+    {
+      "id": "rab-kinetic-ultra-jacket-mens",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 10000
+        }
+      }
+    },
+    {
+      "id": "montane-minimus-nano-pull-on-waterproof-pants",
+      "set": {
+        "specs": {
+          "waterproof_rating_mm": 15000
+        }
+      }
+    }
+  ]
+}

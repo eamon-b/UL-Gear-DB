@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T10:21:04.246Z",
+  "generated_at": "2026-10-29T09:58:51.766Z",
   "records": 3107,
   "records_flagged": 151,
   "counts": {
@@ -332,23 +332,6 @@
       "details": {
         "median_g": 34,
         "ratio": 0.15
-      }
-    },
-    {
-      "type": "price-per-gram",
-      "score": 54,
-      "id": "msr-aquatabs-10",
-      "file": "water-treatment.json",
-      "index": 46,
-      "name": "MSR Aquatabs sleeve of 10",
-      "category": "water-treatment",
-      "subcategory": "chemical",
-      "weight_g": 2,
-      "price_usd": 14.95,
-      "message": "$14.95 for 2 g is 23.2x the chemical median $/g (0.322 $/g, n=6)",
-      "details": {
-        "usd_per_g": 7.475,
-        "median_usd_per_g": 0.3223
       }
     },
     {
@@ -1170,6 +1153,23 @@
     {
       "type": "price-per-gram",
       "score": 38,
+      "id": "msr-aquatabs-10",
+      "file": "water-treatment.json",
+      "index": 46,
+      "name": "MSR Aquatabs sleeve of 10",
+      "category": "water-treatment",
+      "subcategory": "chemical",
+      "weight_g": 2,
+      "price_usd": 14.95,
+      "message": "$14.95 for 2 g is 9.0x the chemical median $/g (0.834 $/g, n=8)",
+      "details": {
+        "usd_per_g": 7.475,
+        "median_usd_per_g": 0.8345
+      }
+    },
+    {
+      "type": "price-per-gram",
+      "score": 38,
       "id": "sea-to-summit-camp-cutlery-spoon",
       "file": "cook-accessory.json",
       "index": 56,
@@ -1779,7 +1779,7 @@
       "category": "pack-organization",
       "subcategory": "dry bag",
       "weight_g": 82,
-      "price_usd": null,
+      "price_usd": 39.95,
       "message": "no source url"
     },
     {
@@ -1844,7 +1844,7 @@
       "category": "stove",
       "subcategory": "integrated canister",
       "weight_g": 340,
-      "price_usd": null,
+      "price_usd": 169.99,
       "message": "no source url"
     },
     {
@@ -2039,7 +2039,7 @@
       "category": "cookware",
       "subcategory": "pot",
       "weight_g": 187,
-      "price_usd": null,
+      "price_usd": 34.99,
       "message": "no source url"
     },
     {
@@ -2052,7 +2052,7 @@
       "category": "pack-organization",
       "subcategory": "pack cover",
       "weight_g": 112,
-      "price_usd": null,
+      "price_usd": 42.5,
       "message": "no source url"
     },
     {

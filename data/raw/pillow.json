@@ -408,7 +408,7 @@
     "weight_g": 50,
     "weight_basis": "manufacturer",
     "weight_note": "exped.com variant weight",
-    "price_usd": null,
+    "price_usd": 44.95,
     "specs": {
       "inflated_size": "approx. 15 x 10 x 3.5 in"
     },
@@ -463,7 +463,7 @@
     "weight_g": 130,
     "weight_basis": "manufacturer",
     "weight_note": "exped.com variant weight",
-    "price_usd": null,
+    "price_usd": 49.95,
     "specs": {},
     "url": "https://www.exped.com/en/products/pillows/versaluxe-pillow",
     "discontinued": false,

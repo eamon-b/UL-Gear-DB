@@ -618,7 +618,7 @@
     "weight_g": 536,
     "weight_basis": "manufacturer",
     "weight_note": "Regular length (78\") / Regular width; 850FP; total weight from EE chart (18.89 oz)",
-    "price_usd": null,
+    "price_usd": 405,
     "specs": {
       "temp_rating_f": 40,
       "fill": "down",

@@ -3561,7 +3561,7 @@
     "weight_g": 292,
     "weight_basis": "manufacturer",
     "weight_note": "Patagonia-listed 292 g (10.3 oz)",
-    "price_usd": null,
+    "price_usd": 289,
     "specs": {
       "fill": "down",
       "fill_power": 800,
@@ -3582,7 +3582,7 @@
     "weight_g": 343,
     "weight_basis": "manufacturer",
     "weight_note": "Patagonia-listed 343 g (12.1 oz)",
-    "price_usd": null,
+    "price_usd": 345,
     "specs": {
       "fill": "down",
       "fill_power": 800,
@@ -3623,7 +3623,7 @@
     "weight_g": 309,
     "weight_basis": "manufacturer",
     "weight_note": "Patagonia-listed 309 g (10.9 oz)",
-    "price_usd": null,
+    "price_usd": 239,
     "specs": {
       "fill": "synthetic",
       "hood": false
@@ -3853,7 +3853,7 @@
     "weight_g": 180,
     "weight_basis": "manufacturer",
     "weight_note": "Montbell UK listed weight",
-    "price_usd": null,
+    "price_usd": 180,
     "specs": {
       "fill": "synthetic",
       "hood": true
@@ -3873,7 +3873,7 @@
     "weight_g": 159,
     "weight_basis": "manufacturer",
     "weight_note": "Montbell UK listed weight",
-    "price_usd": null,
+    "price_usd": 160,
     "specs": {
       "fill": "synthetic",
       "hood": false

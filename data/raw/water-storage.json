@@ -445,7 +445,7 @@
     "weight_g": 36,
     "weight_basis": "manufacturer",
     "weight_note": "empty with cap",
-    "price_usd": null,
+    "price_usd": 15.49,
     "specs": {
       "capacity_l": 1.5,
       "collapsible": true,

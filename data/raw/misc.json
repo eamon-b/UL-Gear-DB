@@ -28,7 +28,7 @@
     "weight_g": 175,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 55.55,
     "specs": {
       "type": "telescoping pocket"
     },
@@ -1184,7 +1184,7 @@
     "weight_g": 82,
     "weight_basis": "manufacturer",
     "weight_note": "36 x 16.5 in, Garage Grown Gear-listed 2.9 oz / 82 g",
-    "price_usd": null,
+    "price_usd": 29.95,
     "specs": {
       "type": "towel",
       "material": "microfiber, 80% polyester / 20% nylon"

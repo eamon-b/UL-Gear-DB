@@ -348,7 +348,7 @@
     "weight_g": 61,
     "weight_basis": "measured",
     "weight_note": "men's, reviewer-measured",
-    "price_usd": null,
+    "price_usd": 119,
     "specs": {
       "material": "ultralight nylon",
       "hood": true
@@ -905,7 +905,7 @@
     "weight_g": 119,
     "weight_basis": "manufacturer",
     "weight_note": "Montbell US listed average weight",
-    "price_usd": null,
+    "price_usd": 76,
     "specs": {
       "material": "40D nylon taffeta, water-repellent",
       "hood": false

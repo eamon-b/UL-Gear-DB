@@ -735,7 +735,8 @@
     "specs": {
       "material": "H2No 3L recycled nylon",
       "pit_zips": true,
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 20000
     },
     "url": "https://featheredfriends.com/products/patagonia-torrentshell-3l-jacket-mens-1",
     "discontinued": false,
@@ -756,7 +757,8 @@
     "specs": {
       "material": "H2No 3L recycled nylon",
       "pit_zips": true,
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 20000
     },
     "url": "https://featheredfriends.com/products/patagonia-torrentshell-3l-rain-jacket-womens",
     "discontinued": false,
@@ -777,7 +779,8 @@
     "specs": {
       "material": "H2No 3L",
       "pit_zips": false,
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 20000
     },
     "url": "https://www.rei.com/product/234799",
     "discontinued": false,
@@ -819,7 +822,8 @@
     "specs": {
       "material": "H2No Performance Standard 3L",
       "pit_zips": true,
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 20000
     },
     "url": "https://www.rei.com/product/201548",
     "discontinued": false,
@@ -840,7 +844,8 @@
     "specs": {
       "material": "H2No Performance Standard 3L",
       "pit_zips": true,
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 20000
     },
     "url": "https://www.patagonia.com/product/womens-granite-crest-waterproof-rain-jacket/85420.html",
     "discontinued": false,
@@ -1077,7 +1082,8 @@
     "price_usd": 230,
     "specs": {
       "material": "Proflex 3L stretch",
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 10000
     },
     "url": null,
     "discontinued": true,
@@ -1257,7 +1263,8 @@
     "specs": {
       "material": "NanoPro 2.5L recycled nylon",
       "pit_zips": true,
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 10000
     },
     "url": "https://www.campmor.com/products/marmot-mens-precip-eco-jacket",
     "discontinued": false,
@@ -1278,7 +1285,8 @@
     "specs": {
       "material": "NanoPro 2.5L recycled nylon",
       "pit_zips": true,
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 10000
     },
     "url": "https://www.campsaver.com/marmot-marmot-precip-eco-jacket-women-s.html",
     "discontinued": false,
@@ -1555,7 +1563,8 @@
     "specs": {
       "material": "Hydroshell Elite Pro 2.5L",
       "pit_zips": false,
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 20000
     },
     "url": "https://outdoorsmagic.com/article/berghaus-hyper-100-waterproof-jacket-review/",
     "discontinued": true,
@@ -1707,7 +1716,8 @@
     "price_usd": 111.95,
     "specs": {
       "material": "100% nylon (Ultra-Sil Nano)",
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 1200
     },
     "url": "https://seatosummit.com/products/ultra-sil-nano-poncho",
     "discontinued": false,
@@ -1727,7 +1737,8 @@
     "price_usd": 134.95,
     "specs": {
       "material": "100% nylon (Ultra-Sil Nano)",
-      "hood": true
+      "hood": true,
+      "waterproof_rating_mm": 1200
     },
     "url": "https://seatosummit.com/products/ultra-sil-nano-tarp-poncho",
     "discontinued": false,

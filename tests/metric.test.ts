@@ -114,3 +114,12 @@ describe('defaultMetric', () => {
     expect(defaultMetric('cook-accessory', pool)).toBeNull();
   });
 });
+
+describe('stove boil time', () => {
+  it('scales boil times quoted for other volumes to 1 L', () => {
+    const [m] = metricsFor('stove', [item('half', 80, 50, { boil_time_min: 1.75, boil_volume_l: 0.5 }, 'stove'), item('litre', 80, 50, { boil_time_min: 3.5 }, 'stove')]);
+    expect(m.key).toBe('boil_time_min');
+    expect(m.get(item('half', 80, 50, { boil_time_min: 1.75, boil_volume_l: 0.5 }, 'stove'))).toBe(3.5);
+    expect(m.get(item('litre', 80, 50, { boil_time_min: 3.5 }, 'stove'))).toBe(3.5);
+  });
+});

@@ -1468,7 +1468,7 @@
     "weight_g": 106,
     "weight_basis": "manufacturer",
     "weight_note": "listed 0.1065 kg",
-    "price_usd": null,
+    "price_usd": 72.31,
     "specs": {
       "material": "titanium",
       "capacity_ml": 750
@@ -1987,7 +1987,7 @@
     "weight_g": 187,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 34.99,
     "specs": {
       "material": "hard-anodized aluminum",
       "capacity_ml": 1000

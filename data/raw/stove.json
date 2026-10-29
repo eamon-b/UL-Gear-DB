@@ -246,7 +246,9 @@
     "price_usd": null,
     "specs": {
       "fuel": "isobutane canister",
-      "piezo": false
+      "piezo": false,
+      "boil_time_min": 3.5,
+      "boil_volume_l": 1
     },
     "url": null,
     "discontinued": true,
@@ -268,7 +270,9 @@
       "fuel": "isobutane canister",
       "output_btu": 11000,
       "piezo": true,
-      "regulated": true
+      "regulated": true,
+      "boil_time_min": 2.45,
+      "boil_volume_l": 0.5
     },
     "url": "https://sotooutdoors.com/product/windmaster-stove-with-4flex/",
     "discontinued": false,
@@ -311,7 +315,9 @@
     "specs": {
       "fuel": "isobutane canister",
       "output_btu": 10210,
-      "piezo": true
+      "piezo": true,
+      "boil_time_min": 3.68,
+      "boil_volume_l": 0.5
     },
     "url": "https://sotooutdoors.com/product/amicus-stove-with-igniter/",
     "discontinued": false,
@@ -580,7 +586,9 @@
     "specs": {
       "fuel": "isobutane canister",
       "preheat_tube": true,
-      "output_btu": 9554
+      "output_btu": 9554,
+      "boil_time_min": 2,
+      "boil_volume_l": 0.5
     },
     "url": "https://www.firemaplegear.com/products/petrel-summit-titanium-ultralight-backpack-stove",
     "discontinued": false,
@@ -846,7 +854,9 @@
     "specs": {
       "fuel": "isobutane canister",
       "piezo": false,
-      "output_btu": 9550
+      "output_btu": 9550,
+      "boil_time_min": 4,
+      "boil_volume_l": 1
     },
     "url": "https://www.primus.us/products/classic-trail",
     "discontinued": false,
@@ -1097,7 +1107,9 @@
     "specs": {
       "fuel": "isobutane canister",
       "piezo": true,
-      "regulated": true
+      "regulated": true,
+      "boil_time_min": 3,
+      "boil_volume_l": 1
     },
     "url": null,
     "discontinued": false,
@@ -1114,12 +1126,14 @@
     "weight_g": 340,
     "weight_basis": "manufacturer",
     "weight_note": "Jetboil spec 12 oz / 340 g, excludes fuel stabilizer",
-    "price_usd": null,
+    "price_usd": 169.99,
     "specs": {
       "fuel": "isobutane canister",
       "piezo": true,
       "regulated": true,
-      "capacity_ml": 800
+      "capacity_ml": 800,
+      "boil_time_min": 2.25,
+      "boil_volume_l": 0.5
     },
     "url": null,
     "discontinued": false,
@@ -1140,7 +1154,9 @@
     "specs": {
       "fuel": "isobutane canister",
       "piezo": true,
-      "capacity_ml": 1800
+      "capacity_ml": 1800,
+      "boil_time_min": 4.25,
+      "boil_volume_l": 1
     },
     "url": null,
     "discontinued": false,
@@ -1182,7 +1198,9 @@
     "price_usd": 39.95,
     "specs": {
       "fuel": "alcohol",
-      "fuel_capacity_ml": 80
+      "fuel_capacity_ml": 80,
+      "boil_time_min": 5.5,
+      "boil_volume_l": 0.475
     },
     "url": "https://www.toaksoutdoor.com/products/stv-01",
     "discontinued": false,
@@ -1490,7 +1508,7 @@
     "weight_g": 12,
     "weight_basis": "manufacturer",
     "weight_note": "listed 0.0115 kg",
-    "price_usd": null,
+    "price_usd": 22.21,
     "specs": {
       "fuel": "solid fuel tablets"
     },
@@ -1509,7 +1527,7 @@
     "weight_g": 108,
     "weight_basis": "manufacturer",
     "weight_note": "listed 0.108 kg",
-    "price_usd": null,
+    "price_usd": 18.87,
     "specs": {
       "fuel": "alcohol"
     },
@@ -1574,7 +1592,9 @@
     "specs": {
       "fuel": "isobutane canister",
       "output_btu": 10000,
-      "piezo": true
+      "piezo": true,
+      "boil_time_min": 4.8,
+      "boil_volume_l": 1
     },
     "url": "https://snowpeak.com/products/gigapower-stove-2-0-auto",
     "discontinued": false,
@@ -1594,7 +1614,9 @@
     "price_usd": 79.95,
     "specs": {
       "fuel": "isobutane canister",
-      "piezo": true
+      "piezo": true,
+      "boil_time_min": 3.58,
+      "boil_volume_l": 1
     },
     "url": "https://snowpeak.com/products/bipod-stove",
     "discontinued": false,
@@ -1615,7 +1637,9 @@
     "specs": {
       "fuel": "isobutane canister",
       "output_btu": 9210,
-      "piezo": false
+      "piezo": false,
+      "boil_time_min": 3.13,
+      "boil_volume_l": 0.5
     },
     "url": "https://garagegrowngear.com/products/brs-3000-t-stove-by-brs-outdoor",
     "discontinued": false,
@@ -1744,7 +1768,9 @@
     "price_usd": 24.95,
     "specs": {
       "fuel": "alcohol",
-      "fuel_capacity_ml": 100
+      "fuel_capacity_ml": 100,
+      "boil_time_min": 10,
+      "boil_volume_l": 1
     },
     "url": null,
     "discontinued": false,
@@ -2087,7 +2113,9 @@
       "fuel": "alcohol",
       "piezo": false,
       "material": "titanium",
-      "fuel_capacity_ml": 50
+      "fuel_capacity_ml": 50,
+      "boil_time_min": 7.5,
+      "boil_volume_l": 0.5
     },
     "url": "https://www.flatcatgear.com/shop/bobcat-tilight-alcohol-stove-copy/",
     "discontinued": false,

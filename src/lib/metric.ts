@@ -52,7 +52,17 @@ const CURATED: Record<string, Metric[]> = {
   cookware: [spec('capacity_ml', 'Capacity', 'ml', 1, true)],
   'water-storage': [spec('capacity_l', 'Capacity', 'L', 1, true)],
   'water-treatment': [spec('flow_rate_lpm', 'Flow rate', 'L/min', 1, false), spec('lifespan_l', 'Lifespan', 'L', 1, true)],
-  stove: [spec('boil_time_min', 'Boil time', 'min', -1, false), spec('output_btu', 'Output', 'BTU', 1, false)],
+  stove: [
+    {
+      // makers quote boil times for 0.5 L or 1 L; scale to 1 L so they compare (unstated volume = 1 L)
+      key: 'boil_time_min', label: 'Boil time', unit: 'min/L', dir: -1, ratio: false, covers: ['boil_volume_l'],
+      get: (it) => {
+        const t = num(it.specs.boil_time_min);
+        return t == null ? null : +(t / (num(it.specs.boil_volume_l) || 1)).toFixed(2);
+      },
+    },
+    spec('output_btu', 'Output', 'BTU', 1, false),
+  ],
   'food-storage': [volumeL()],
   'pack-organization': [volumeL()],
   'rain-jacket': [spec('waterproof_rating_mm', 'Waterproofing', 'mm', 1, false)],

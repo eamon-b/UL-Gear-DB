@@ -1713,7 +1713,7 @@
     "weight_note": "variant weight from manufacturer store data (likely packed weight)",
     "price_usd": 59.95,
     "specs": {
-      "r_value": null,
+      "r_value": 1.7,
       "length_in": 72,
       "width_in": 20,
       "thickness_in": null,
@@ -1736,7 +1736,7 @@
     "weight_note": "variant weight from manufacturer store data (likely packed weight)",
     "price_usd": 79.95,
     "specs": {
-      "r_value": null,
+      "r_value": 1.7,
       "length_in": 78,
       "width_in": 25,
       "thickness_in": null,
@@ -1780,7 +1780,7 @@
     "weight_g": 380,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 139.95,
     "specs": {
       "r_value": 1.8,
       "length_in": 72,
@@ -1803,7 +1803,7 @@
     "weight_g": 485,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 139.95,
     "specs": {
       "r_value": 1.8,
       "length_in": 77.6,
@@ -1872,7 +1872,7 @@
     "weight_g": 580,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 169.95,
     "specs": {
       "r_value": 3.2,
       "length_in": 77.6,
@@ -1964,7 +1964,7 @@
     "weight_g": 590,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 199.95,
     "specs": {
       "r_value": 6.9,
       "length_in": 77.6,
@@ -2010,7 +2010,7 @@
     "weight_g": 455,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 199.95,
     "specs": {
       "r_value": 6.9,
       "length_in": 77.6,
@@ -2033,7 +2033,7 @@
     "weight_g": 560,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 229.95,
     "specs": {
       "r_value": 8.8,
       "length_in": 72,
@@ -2056,7 +2056,7 @@
     "weight_g": 430,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 229.95,
     "specs": {
       "r_value": 8.8,
       "length_in": 72,
@@ -2079,7 +2079,7 @@
     "weight_g": 615,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 269.95,
     "specs": {
       "r_value": 10.2,
       "length_in": 72,
@@ -2125,7 +2125,7 @@
     "weight_g": 645,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 199.95,
     "specs": {
       "r_value": 6.9,
       "length_in": 72,
@@ -2148,7 +2148,7 @@
     "weight_g": 515,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 59.95,
     "specs": {
       "r_value": 2.8,
       "length_in": 72.8,

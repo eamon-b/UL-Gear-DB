@@ -13,7 +13,8 @@
     "specs": {
       "pore_size_micron": 0.1,
       "removes_viruses": false,
-      "thread": "28mm"
+      "thread": "28mm",
+      "flow_rate_lpm": 1.7
     },
     "url": "https://www.sawyer.com/product/squeeze-water-filter-system",
     "discontinued": false,
@@ -294,7 +295,7 @@
     "weight_g": 550,
     "weight_basis": "manufacturer",
     "weight_note": "pump",
-    "price_usd": null,
+    "price_usd": 429.95,
     "specs": {
       "flow_rate_lpm": 1,
       "pore_size_micron": 0.2,
@@ -383,7 +384,7 @@
     "weight_g": 10,
     "weight_basis": "estimate",
     "weight_note": "blister pack of 20",
-    "price_usd": null,
+    "price_usd": 12.95,
     "specs": {
       "removes_viruses": true,
       "lifespan_l": 20,
@@ -405,7 +406,7 @@
     "weight_g": 76,
     "weight_basis": "manufacturer",
     "weight_note": "device, per Katadyn product data",
-    "price_usd": null,
+    "price_usd": 109.95,
     "specs": {
       "removes_viruses": true,
       "battery": "rechargeable (USB)",
@@ -448,7 +449,7 @@
     "weight_g": 140,
     "weight_basis": "manufacturer",
     "weight_note": "device",
-    "price_usd": null,
+    "price_usd": 134.95,
     "specs": {
       "removes_viruses": true,
       "lifespan_l": 8000,
@@ -469,7 +470,7 @@
     "weight_g": 178,
     "weight_basis": "manufacturer",
     "weight_note": "without batteries (4x AA not included)",
-    "price_usd": null,
+    "price_usd": 99.95,
     "specs": {
       "removes_viruses": true,
       "lifespan_l": 8000,
@@ -609,7 +610,8 @@
     "specs": {
       "pore_size_micron": 0.2,
       "removes_viruses": false,
-      "lifespan_l": 4000
+      "lifespan_l": 4000,
+      "flow_rate_lpm": 2.5
     },
     "url": "https://lifestraw.com/products/lifestraw-peak-series-straw",
     "discontinued": false,
@@ -700,7 +702,8 @@
       "pore_size_micron": 0.2,
       "removes_viruses": false,
       "lifespan_l": 2000,
-      "capacity_l": 8
+      "capacity_l": 8,
+      "flow_rate_lpm": 1.5
     },
     "url": "https://lifestraw.com/products/lifestraw-peak-series-gravity-filter-system-8l",
     "discontinued": false,
@@ -743,7 +746,8 @@
     "specs": {
       "pore_size_micron": 0.2,
       "removes_viruses": false,
-      "lifespan_l": 4000
+      "lifespan_l": 4000,
+      "flow_rate_lpm": 2.1
     },
     "url": "https://lifestraw.com/products/lifestraw",
     "discontinued": false,
@@ -1175,7 +1179,7 @@
     "weight_g": 10,
     "weight_basis": "estimate",
     "weight_note": "blister pack",
-    "price_usd": null,
+    "price_usd": 13.99,
     "specs": {
       "removes_viruses": true,
       "lifespan_l": 20,

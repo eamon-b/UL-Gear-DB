@@ -1,0 +1,105 @@
+# Sources for backfill-metrics-stove-water.json
+
+- fire-maple-petrel-summit | boil_time_min | 2 | https://www.firemaplegear.com/products/petrel-summit-titanium-ultralight-backpack-stove | "Fast Trail Boils: boils 16.9 fl oz (0.5 L) of water in 2 minutes."
+- fire-maple-petrel-summit | boil_volume_l | 0.5 | https://www.firemaplegear.com/products/petrel-summit-titanium-ultralight-backpack-stove | "Fast Trail Boils: boils 16.9 fl oz (0.5 L) of water in 2 minutes."
+- primus-classic-trail | boil_time_min | 4 | https://www.primus.us/products/classic-trail | "provides a 2800W flame that can boil a liter of water in under four minutes" (maker states 'under four minutes'; recorded as 4)
+- primus-classic-trail | boil_volume_l | 1 | https://www.primus.us/products/classic-trail | "provides a 2800W flame that can boil a liter of water in under four minutes"
+- toaks-siphon-alcohol-stove | boil_time_min | 5.5 | https://www.toaksoutdoor.com/products/stv-01 | "Boil time: 475ml (2 cups) of water (starting at 80ºF) boils in 5 min 30 sec" (475 ml = 2 cups, recorded as 0.5 L per slice convention; 5 min 30 sec = 5.5)
+- toaks-siphon-alcohol-stove | boil_volume_l | 0.5 | https://www.toaksoutdoor.com/products/stv-01 | "Boil time: 475ml (2 cups) of water (starting at 80ºF) boils in 5 min 30 sec"
+- flat-cat-gear-bobcat-tilight-alcohol-stove | boil_time_min | 7.5 | https://www.flatcatgear.com/shop/bobcat-tilight-alcohol-stove-copy/ | "will boil 2 cups of room temperature water in about 7 1/2 minutes" (2 cups recorded as 0.5 L)
+- flat-cat-gear-bobcat-tilight-alcohol-stove | boil_volume_l | 0.5 | https://www.flatcatgear.com/shop/bobcat-tilight-alcohol-stove-copy/ | "will boil 2 cups of room temperature water in about 7 1/2 minutes"
+- jetboil-mightymo | boil_time_min | 3 | https://backpackinglight.com.au/products/jetboil-jetboil-mightymo-gas-stove | "Boil Time 3m per 1 liter in FluxRing Cooking Pot (avg. over life of 1lb Jetpower can)" (retailer reproducing Jetboil spec; jetboil.com is bot-blocked. Same text on liveferal.com)
+- jetboil-mightymo | boil_volume_l | 1 | https://backpackinglight.com.au/products/jetboil-jetboil-mightymo-gas-stove | "Boil Time 3m per 1 liter in FluxRing Cooking Pot (avg. over life of 1lb Jetpower can)"
+- jetboil-micromo | boil_time_min | 2.25 | https://liveferal.com/products/jetboil-micromo-personal-cook-system-stove | "Boil Time : 2m 15sec per .5 liter (avg. over life of Jetpower can)" (retailer reproducing Jetboil spec; 2m15s = 2.25)
+- jetboil-micromo | boil_volume_l | 0.5 | https://liveferal.com/products/jetboil-micromo-personal-cook-system-stove | "Boil Time : 2m 15sec per .5 liter (avg. over life of Jetpower can)"
+- jetboil-sumo | boil_time_min | 4.25 | https://theoutfitters.nf.ca/products/sumo-cooking-system | "Boil Time 4m 15sec per 1 liter (avg. over life of Jetpower can)" (retailer reproducing Jetboil spec; 4m15s = 4.25)
+- jetboil-sumo | boil_volume_l | 1 | https://theoutfitters.nf.ca/products/sumo-cooking-system | "Boil Time 4m 15sec per 1 liter (avg. over life of Jetpower can)"
+- soto-windmaster-4flex | boil_time_min | 2.45 | https://www.outdoorgearlab.com/reviews/camping-and-hiking/backpacking-stove/soto-windmaster | "Boil Time .5 liters 2 min 27 sec" (measured by OutdoorGearLab; review states 'the 4Flex (which is what we tested)'. SOTO's only published figure is a strong-wind claim, excluded. 2:27 = 2.45)
+- soto-windmaster-4flex | boil_volume_l | 0.5 | https://www.outdoorgearlab.com/reviews/camping-and-hiking/backpacking-stove/soto-windmaster | "Boil Time .5 liters 2 min 27 sec"
+- soto-amicus-igniter | boil_time_min | 3.68 | https://www.outdoorgearlab.com/reviews/camping-and-hiking/backpacking-stove/soto-amicus | "Boil Time .5 liters 3 min 41 sec" (measured by OutdoorGearLab; tested unit has 'Piezo Igniter Yes'. SOTO publishes no boil time. 3:41 = 3.68)
+- soto-amicus-igniter | boil_volume_l | 0.5 | https://www.outdoorgearlab.com/reviews/camping-and-hiking/backpacking-stove/soto-amicus | "Boil Time .5 liters 3 min 41 sec"
+- brs-3000t | boil_time_min | 3.13 | https://www.outdoorgearlab.com/reviews/camping-and-hiking/backpacking-stove/brs-3000t | "Boil Time .5 liters 3 min 8 sec" (measured by OutdoorGearLab; BRS publishes no official spec. 3:08 = 3.13)
+- brs-3000t | boil_volume_l | 0.5 | https://www.outdoorgearlab.com/reviews/camping-and-hiking/backpacking-stove/brs-3000t | "Boil Time .5 liters 3 min 8 sec"
+- trangia-spirit-burner | boil_time_min | 10 | https://www.bcf.com.au/p/trangia-spirit-burner-b25/132482.html | "Boils 1 litre of water in 10 min (this varies according to weather and quality of fuel)." (retailer BCF reproducing Trangia copy; also lists 'Boil time: Approx. 10 minutes for 1L of water')
+- trangia-spirit-burner | boil_volume_l | 1 | https://www.bcf.com.au/p/trangia-spirit-burner-b25/132482.html | "Boils 1 litre of water in 10 min (this varies according to weather and quality of fuel)."
+- msr-pocketrocket-original | boil_time_min | 3.5 | https://www.altitude-sports.com/p/msr-pocket-rocket-stove-11792 | "Boil time (MSR IsoPro), 1 liter: 3.5 minutes" (retailer listing for 'MSR Pocket Rocket Stove', 3 oz / 85 g original model, reproducing MSR spec)
+- msr-pocketrocket-original | boil_volume_l | 1 | https://www.altitude-sports.com/p/msr-pocket-rocket-stove-11792 | "Boil time (MSR IsoPro), 1 liter: 3.5 minutes"
+- snow-peak-gigapower-2-auto | boil_time_min | 4.8 | https://www.altitude-sports.com/p/snow-peak-gigapower-stove-automatic-swp-gs-100ar2 | "Boil Time: 4 Min. 48 Sec. / 1 Liter" (retailer listing 'Snow Peak GigaPower Stove Automatic' GS-100AR2 reproducing Snow Peak spec; 4:48 = 4.8)
+- snow-peak-gigapower-2-auto | boil_volume_l | 1 | https://www.altitude-sports.com/p/snow-peak-gigapower-stove-automatic-swp-gs-100ar2 | "Boil Time: 4 Min. 48 Sec. / 1 Liter"
+- snow-peak-bipod | boil_time_min | 3.58 | https://www.evo.com/products/174024-snow-peak-bipod-stove | "Boil Time: 3 Min. 35 Sec. / 1 Liter" (retailer evo reproducing Snow Peak spec; 3:35 = 3.58)
+- snow-peak-bipod | boil_volume_l | 1 | https://www.evo.com/products/174024-snow-peak-bipod-stove | "Boil Time: 3 Min. 35 Sec. / 1 Liter"
+- sawyer-squeeze | flow_rate_lpm | 1.7 | https://en.monrechaud.com/water-filter-sawyer-squeeze.html | "Article number SP129 ... Output 1.7 liter / minute" (retailer listing; sawyer.com product page gives no flow rate)
+- lifestraw-peak-straw | flow_rate_lpm | 2.5 | https://help.lifestraw.com/en-US/compare-%7C-comparison-of-lifestraw-straws-3976226 | "LifeStraw Peak Series Personal Water Filter Straw ... 2.5 L/ min (+/- 30%)" (LifeStraw help-centre comparison table)
+- lifestraw-personal | flow_rate_lpm | 2.1 | https://help.lifestraw.com/en-US/compare-%7C-comparison-of-lifestraw-straws-3976226 | "LifeStraw Personal Water Filter ... 2.1 L/min (+/- 30%)" (LifeStraw help-centre comparison table)
+- lifestraw-peak-gravity-8l | flow_rate_lpm | 1.5 | https://help.lifestraw.com/en-US/lifestraw-peak-series-%7C-what-is-the-flow-rate-for-the-peak-series-3l-and-8l-gravity-systems-3999830 | "When using your Peak Series 8L Gravity System, the flow rate is 1.5L per minute." (LifeStraw help centre)
+
+## Not found
+
+- soto-windmaster-triflex: discontinued combo; only SOTO figure is a strong-wind claim; OGL test was the 4Flex version
+- soto-amicus-no-igniter: no maker boil time; OGL test was the igniter version, so skipped
+- soto-fusion-trek: no maker figure on SOTO US page; REI 3:50/1 L figure seen only in search snippet (REI blocks fetch)
+- soto-micro-regulator: discontinued; no page found
+- fire-maple-greenpeak-standard: no boil time in specs (only reviews)
+- fire-maple-fms-118a: no boil time in specs (only reviews)
+- fire-maple-volcano: maker spec reads 'Boil Time 44 min 12 sec per 16.9 fl oz (0.5 L)', almost certainly a typo; skipped
+- fire-maple-maverick-triangle: no boil time published (wood stove)
+- primus-lite-ultra-0-8: maker site unreachable; retailers conflict (2:20 vs 2:45 per 0.5 L)
+- primus-lite-ultra-xl-1-2: primus.us page has no boil time; retailers conflict (2:30 vs 2:10 per 0.5 L)
+- toaks-wood-stove: no boil time on TOAKS page
+- toaks-wood-stove-small: no boil time on TOAKS page
+- toaks-solid-fuel-cook-system: no boil time on TOAKS page
+- toaks-alcohol-cook-system-650: no boil time on kit page (STV-01 stove figure not applied to kit)
+- toaks-alcohol-cook-system-700: no boil time on kit page
+- toaks-alcohol-cook-system-900: no boil time on kit page
+- soto-amicus-new-river-pot-combo: no boil time on SOTO page (only burn duration)
+- vargo-triad: only burn time in specs; boil times only in customer reviews
+- vargo-decagon: only burn time in specs
+- vargo-converter: no boil time in specs
+- vargo-jet-ti-2: no boil time in specs
+- vargo-hexagon-2-titanium: no boil time published (wood stove)
+- vargo-hexagon-2-stainless: no boil time published (wood stove)
+- vargo-hexagon-stainless: no boil time published (wood stove)
+- vargo-titanium-hexagon: discontinued, no page
+- esbit-titanium-folding-stove: esbit.de gives tablet burn time only
+- esbit-brass-alcohol-burner: esbit.de gives burn time only
+- esbit-pocket-stove: esbit.de gives tablet burn times only; 500 ml/8 min claims only on third-party pages
+- optimus-vega: Katadyn page says 'Average boil time (min) 4-5 min' with no volume; range
+- kovea-spider: no maker figure; retailer figures conflict (3:30, 3:44, 4:30 per 1 L)
+- evernew-titanium-alcohol-stove: evernewamerica page has no figure; retailer says 30 ml 'will burn for approximately 5 minutes and boil approximately 400ml', not a clean boil-time claim
+- diy-fancy-feast-alcohol-stove: DIY design, no maker spec
+- solo-stove-lite: solostove.com blocked; retailer figure is a range (8-10 min, 32 vs 34 fl oz conflict)
+- solo-stove-titan: solostove.com blocked; retailer figure is a range (4-6 min, 32 vs 34 fl oz conflict)
+- firebox-nano-titanium: product page 404; no published boil time found
+- emberlit-original-stainless: no boil time published (wood stove)
+- emberlit-original-titanium: no boil time published (wood stove)
+- emberlit-mini-titanium: no boil time published (wood stove)
+- trail-designs-sidewinder-ti-tri: no boil time on product page
+- trail-designs-fissure-ti-tri: no boil time on product page
+- trail-designs-classic-ti-tri: no boil time on product page
+- trail-designs-12-10-stove: no boil time on product page
+- trail-designs-kojin-stove: no boil time on product page
+- trail-designs-gram-cracker: no boil time on product page
+- qiwiz-dualfuel-xl: GGG lists fuel per volume boiled, not time
+- flat-cat-gear-bobcat-standard-2-0-alcohol-stove: no boil time on product page
+- flat-cat-gear-snow-leopard-stove-2-0: no boil time on product page
+- flat-cat-gear-multi-fuel-3-0-stove: only a range ('Typical boil times range from 6 to 9 minutes') with no fixed volume
+- flat-cat-gear-epicurean-ul15-stove: no boil time on product page
+- flat-cat-gear-snow-leopard-original-cooking-system: no boil time on product page
+- soto-tritrail: no boil time published
+- sawyer-micro-squeeze: sawyer.com gives no flow rate; only independent tests in search results
+- sawyer-mini: sawyer.com gives no flow rate
+- sawyer-squeeze-cnoc-2l: bundle page gives no flow rate (SP129 retailer figure not applied to bundle variant)
+- sawyer-squeeze-cnoc-1l: bundle page gives no flow rate
+- sawyer-micro-squeeze-cnoc-750ml: bundle page gives no flow rate
+- sawyer-one-gallon-gravity: sawyer.com gives no flow rate; third-party figures conflict
+- sawyer-squeeze-sp131: discontinued 3-pouch bundle; no page stating flow
+- lifestraw-flex: discontinued; LifeStraw Flex product guide gives no flow rate
+- lifestraw-go-22oz: sip bottle; no flow rate published
+- lifestraw-go-1l: sip bottle; no flow rate published
+- membrane-solutions-straw: model ambiguous (WS01/WS02/S1 etc.); retailer figures conflict (200-500 ml/min)
+
+## Flags
+
+- fire-maple-volcano: maker page spec 'Boil Time 44 min 12 sec per 16.9 fl oz (0.5 L)' looks like a typo (maybe 4 min 12 sec); not used.
+- soto-fusion-trek and soto-tritrail: `url` points at sotooutdoors.com 'dealer-resources' slugs rather than a normal product URL (page does load the product).
+- lifestraw-flex: `url` is the LifeStraw homepage.

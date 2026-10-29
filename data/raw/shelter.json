@@ -3086,7 +3086,7 @@
     "weight_g": 439,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 600,
     "specs": {
       "capacity": 2,
       "doors": 1,
@@ -3134,7 +3134,7 @@
     "weight_g": 455,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 785,
     "specs": {
       "capacity": 2,
       "doors": 1,
@@ -3182,7 +3182,7 @@
     "weight_g": 396,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 565,
     "specs": {
       "capacity": 1,
       "doors": 1,
@@ -3398,7 +3398,7 @@
     "weight_g": 204,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 445,
     "specs": {
       "capacity": 1,
       "doors": 0,
@@ -4943,7 +4943,7 @@
     "weight_g": 335,
     "weight_basis": "manufacturer",
     "weight_note": "incl. stuff sack",
-    "price_usd": null,
+    "price_usd": 563,
     "specs": {
       "capacity": 2,
       "doors": 1,
@@ -4967,7 +4967,7 @@
     "weight_g": 440,
     "weight_basis": "manufacturer",
     "weight_note": "incl. guylines, stuff sack",
-    "price_usd": null,
+    "price_usd": 241,
     "specs": {
       "capacity": 2,
       "doors": 1,
@@ -4991,7 +4991,7 @@
     "weight_g": 450,
     "weight_basis": "manufacturer",
     "weight_note": "incl. stuff sack",
-    "price_usd": null,
+    "price_usd": 214,
     "specs": {
       "capacity": 1,
       "doors": 1,
@@ -5015,7 +5015,7 @@
     "weight_g": 350,
     "weight_basis": "manufacturer",
     "weight_note": "incl. stuff sack",
-    "price_usd": null,
+    "price_usd": 576,
     "specs": {
       "capacity": 2,
       "doors": 1,
@@ -5039,7 +5039,7 @@
     "weight_g": 500,
     "weight_basis": "manufacturer",
     "weight_note": "incl. stuff sack",
-    "price_usd": null,
+    "price_usd": 722,
     "specs": {
       "capacity": 4,
       "doors": 1,
@@ -5063,7 +5063,7 @@
     "weight_g": 650,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 285,
     "specs": {
       "capacity": 4,
       "doors": 1,
@@ -5087,7 +5087,7 @@
     "weight_g": 960,
     "weight_basis": "manufacturer",
     "weight_note": "body 580 g + pole 380 g",
-    "price_usd": null,
+    "price_usd": 937,
     "specs": {
       "capacity": 1,
       "doors": 1,
@@ -5111,7 +5111,7 @@
     "weight_g": 250,
     "weight_basis": "manufacturer",
     "weight_note": "incl. stuff sack, no stakes/poles/guylines",
-    "price_usd": null,
+    "price_usd": 60,
     "specs": {
       "capacity": 1,
       "walls": "single",
@@ -5136,7 +5136,7 @@
     "weight_g": 470,
     "weight_basis": "manufacturer",
     "weight_note": "incl. stuff sack",
-    "price_usd": null,
+    "price_usd": 106,
     "specs": {
       "capacity": 2,
       "walls": "single",
@@ -5716,7 +5716,7 @@
     "weight_g": 1060,
     "weight_basis": "manufacturer",
     "weight_note": "trim weight 1.06 kg; official 1.12 kg; total 1.2 kg",
-    "price_usd": null,
+    "price_usd": 835,
     "specs": {
       "capacity": 2,
       "doors": 2,
@@ -7056,7 +7056,7 @@
     "weight_g": 1850,
     "weight_basis": "manufacturer",
     "weight_note": "approx. min weight",
-    "price_usd": null,
+    "price_usd": 880,
     "specs": {
       "capacity": 2,
       "doors": 1,
@@ -7332,7 +7332,7 @@
     "weight_g": 1220,
     "weight_basis": "manufacturer",
     "weight_note": "approx. min weight",
-    "price_usd": null,
+    "price_usd": 429,
     "specs": {
       "capacity": 2,
       "doors": 2,
@@ -7380,7 +7380,7 @@
     "weight_g": 2270,
     "weight_basis": "manufacturer",
     "weight_note": "approx. min weight",
-    "price_usd": null,
+    "price_usd": 199,
     "specs": {
       "capacity": 2,
       "doors": 2,
@@ -7596,7 +7596,7 @@
     "weight_g": 255,
     "weight_basis": "manufacturer",
     "weight_note": "approx., single layer",
-    "price_usd": null,
+    "price_usd": 69,
     "specs": {
       "capacity": 1,
       "material": "nylon",
@@ -7666,7 +7666,7 @@
     "weight_g": 270,
     "weight_basis": "manufacturer",
     "weight_note": "mesh inner only; 300 g with guylines and stuff sack",
-    "price_usd": null,
+    "price_usd": 209.43,
     "specs": {
       "capacity": 1,
       "doors": 1,
@@ -7713,7 +7713,7 @@
     "weight_g": 395,
     "weight_basis": "manufacturer",
     "weight_note": "tarp only, 1.0 oz DCF; 460 g with guylines and stuff sack",
-    "price_usd": null,
+    "price_usd": 876.33,
     "specs": {
       "capacity": 2,
       "doors": 1,
@@ -7737,7 +7737,7 @@
     "weight_g": 790,
     "weight_basis": "manufacturer",
     "weight_note": "tent only; 870 g with guylines and stuff sack",
-    "price_usd": null,
+    "price_usd": 525.33,
     "specs": {
       "capacity": 2,
       "walls": "single",

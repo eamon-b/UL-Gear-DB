@@ -1,0 +1,115 @@
+# Sources for backfill-metrics-rain.json
+
+- sea-to-summit-ultra-sil-nano-poncho | waterproof_rating_mm | 1200 | https://seatosummit.com/products/ultra-sil-nano-poncho | "This ultralight fabric has a 1,200mm hydrostatic head." (garment page)
+- sea-to-summit-ultra-sil-tarp-poncho | waterproof_rating_mm | 1200 | https://seatosummit.com/products/ultra-sil-nano-tarp-poncho | "This ultralight fabric has a 1,200mm hydrostatic head." (garment page)
+- berghaus-hyper-100-jacket-mens | waterproof_rating_mm | 20000 | https://www.alpinetrek.co.uk/berghaus-hyper-100-shell-jkt-waterproof-jacket/ | "Hydrostatic head main material: 20,000 mm" (retailer, Bergfreunde/Alpinetrek; also sportsshoes.com: "the fully waterproof 3-layer construction has a 20,000mm hydrostatic head")
+- patagonia-torrentshell-3l-jacket-mens | waterproof_rating_mm | 20000 | https://www.patagonia.com.au/products/mens-torrentshell-3l-rain-jacket-85241-blk + https://www.patagonia.com.au/pages/h2no-performance-standard | "Torrentshell 3L Rain Jacket meets Patagonia’s H2No® Performance Standard" / "The first Killer Wash tests are performed at 20,000mm of water and then again to ensure the fabric maintains a 10,000mm water rating." (Patagonia H2No standard figure, pre-wash; 10,000mm after Killer Wash. Garment page names H2No; Patagonia AU official site, patagonia.com was down)
+- patagonia-torrentshell-3l-jacket-womens | waterproof_rating_mm | 20000 | https://www.patagonia.com.au/products/womens-torrentshell-3l-rain-jacket-85246-blk + https://www.patagonia.com.au/pages/h2no-performance-standard | "Torrentshell 3L Rain Jacket meets Patagonia’s H2No® Performance Standard" / "The first Killer Wash tests are performed at 20,000mm of water and then again to ensure the fabric maintains a 10,000mm water rating." (Patagonia H2No standard figure, pre-wash; 10,000mm after Killer Wash. Garment page names H2No; Patagonia AU official site, patagonia.com was down)
+- patagonia-torrentshell-3l-pants-mens | waterproof_rating_mm | 20000 | https://www.patagonia.com.au/products/mens-torrentshell-3l-rain-pants-regular-85266-blk + https://www.patagonia.com.au/pages/h2no-performance-standard | "Torrentshell 3L Rain Pants meet Patagonia’s H2No® Performance Standard" / "The first Killer Wash tests are performed at 20,000mm of water and then again to ensure the fabric maintains a 10,000mm water rating." (Patagonia H2No standard figure, pre-wash; 10,000mm after Killer Wash. Garment page names H2No; Patagonia AU official site, patagonia.com was down)
+- patagonia-torrentshell-3l-pants-womens | waterproof_rating_mm | 20000 | https://www.patagonia.com.au/products/womens-torrentshell-3l-rain-pants-regular-85281-blk + https://www.patagonia.com.au/pages/h2no-performance-standard | "Torrentshell 3L Rain Pants meet Patagonia’s H2No® Performance Standard" / "The first Killer Wash tests are performed at 20,000mm of water and then again to ensure the fabric maintains a 10,000mm water rating." (Patagonia H2No standard figure, pre-wash; 10,000mm after Killer Wash. Garment page names H2No; Patagonia AU official site, patagonia.com was down)
+- patagonia-storm-racer-jacket-mens | waterproof_rating_mm | 20000 | https://www.patagonia.com.au/products/mens-storm-racer-jacket-24112-blk + https://www.patagonia.com.au/pages/h2no-performance-standard | "H2No® Performance Standard shell: 3-layer, 2.2-oz 20-denier 100% recycled nylon ripstop face" / "The first Killer Wash tests are performed at 20,000mm of water and then again to ensure the fabric maintains a 10,000mm water rating." (Patagonia H2No standard figure, pre-wash; 10,000mm after Killer Wash. Garment page names H2No; Patagonia AU official site, patagonia.com was down)
+- patagonia-granite-crest-rain-jacket-mens | waterproof_rating_mm | 20000 | https://www.patagonia.com.au/products/mens-granite-crest-rain-jacket-85415-blk + https://www.patagonia.com.au/pages/h2no-performance-standard | "This 3-layer shell meets our H2No® Performance Standard" / "The first Killer Wash tests are performed at 20,000mm of water and then again to ensure the fabric maintains a 10,000mm water rating." (Patagonia H2No standard figure, pre-wash; 10,000mm after Killer Wash. Garment page names H2No; Patagonia AU official site, patagonia.com was down)
+- patagonia-granite-crest-rain-jacket-womens | waterproof_rating_mm | 20000 | https://www.patagonia.com.au/products/womens-granite-crest-rain-jacket-85420-blk + https://www.patagonia.com.au/pages/h2no-performance-standard | "This 3-layer shell meets our H2No® Performance Standard" / "The first Killer Wash tests are performed at 20,000mm of water and then again to ensure the fabric maintains a 10,000mm water rating." (Patagonia H2No standard figure, pre-wash; 10,000mm after Killer Wash. Garment page names H2No; Patagonia AU official site, patagonia.com was down)
+- patagonia-granite-crest-rain-pants-mens | waterproof_rating_mm | 20000 | https://www.patagonia.com.au/products/mens-granite-crest-rain-pants-85430-blk + https://www.patagonia.com.au/pages/h2no-performance-standard | "This 3-layer shell meets our H2No® Performance Standard" / "The first Killer Wash tests are performed at 20,000mm of water and then again to ensure the fabric maintains a 10,000mm water rating." (Patagonia H2No standard figure, pre-wash; 10,000mm after Killer Wash. Garment page names H2No; Patagonia AU official site, patagonia.com was down)
+- patagonia-granite-crest-rain-pants-womens | waterproof_rating_mm | 20000 | https://www.patagonia.com.au/products/womens-granite-crest-rain-pants-85435-blk + https://www.patagonia.com.au/pages/h2no-performance-standard | "This 3-layer shell meets our H2No® Performance Standard" / "The first Killer Wash tests are performed at 20,000mm of water and then again to ensure the fabric maintains a 10,000mm water rating." (Patagonia H2No standard figure, pre-wash; 10,000mm after Killer Wash. Garment page names H2No; Patagonia AU official site, patagonia.com was down)
+- marmot-precip-eco-jacket-mens | waterproof_rating_mm | 10000 | https://www.evo.com/products/166909-marmot-precip-eco-jacket | "Waterproof & Breathable Membrane: 2.5L Marmot NanoPro™ | 10,000 mm Waterproof / 17,000 g/m²/24hr Breathability" (major retailer evo, men's listing; marmot.com returns 403)
+- marmot-precip-eco-jacket-womens | waterproof_rating_mm | 10000 | https://www.evo.com/products/166226-marmot-precip-eco-jacket-women-s | "2.5L Marmot NanoPro™ | 10,000 mm Waterproof / 17,000 g/m²/24hr Breathability" (major retailer evo, women's listing)
+- rab-kinetic-ultra-jacket-mens | waterproof_rating_mm | 10000 | https://www.snowandrock.com/p/rab-mens-kinetic-ultra-jacket-B12AE90057.html | "Membrane: Polyurethane \r\n Weight (g): 277 \r\n Water column (mm): 10000" (product "Mens Kinetic Ultra Jacket") (UK retailer Snow+Rock spec table; rab.equipment pages 404)
+- montane-minimus-nano-pull-on-waterproof-pants | waterproof_rating_mm | 15000 | https://montane.com/products/montane-unisex-minimus-nano-pull-over-waterproof-pants | "Minimus Nano waterproof pants are built from Montane’s PETRICHOR 2.5-layer technology which delivers waterproof (15,000mm Hydrostatic Head)" (manufacturer page; the /en-us/ URL in the item 404s)
+
+## Not found
+- frogg-toggs-ultra-lite2-jacket-mens: no mm figure published (froggtoggs.com, Walmart, Tractor Supply say only "waterproof")
+- frogg-toggs-ultra-lite2-jacket-womens: no mm figure published
+- frogg-toggs-ultra-lite2-poncho: no mm figure published
+- outdoor-research-helium-rain-jacket-mens: OR page 404; retailers (GearX, REI via search) name Pertex Shield Diamond Fuse but no mm; Pertex's own Shield/Diamond Fuse pages publish no mm figure
+- outdoor-research-helium-rain-jacket-womens: same as men's: no mm from OR or Pertex
+- outdoor-research-helium-ascentshell-jacket-mens: discontinued; OR publishes no AscentShell mm figure
+- outdoor-research-foray-3l-jacket-mens: OR page has no mm figure for AscentShell Dry
+- outdoor-research-aspire-3l-jacket-womens: OR page has no mm figure
+- outdoor-research-aspire-ii-jacket-womens: GORE-TEX Paclite Plus; no Gore/brand mm figure
+- outdoor-research-motive-ascentshell-jacket-mens: discontinued; only Backcountry/GearJunkie (via search) quote 15,000mm and Backcountry blocks fetching, so not verified on a page
+- outdoor-research-motive-ascentshell-jacket-womens: discontinued, no page
+- outdoor-research-stratoburst-stretch-rain-jacket-mens: OR page has no mm figure
+- outdoor-research-apollo-rain-jacket-mens: no URL; no mm figure found
+- zpacks-vertice-rain-jacket-mens: current Zpacks page gives no mm; the 20,000mm figure cited by reviewers is from a 2017 description of an older (1.92 oz) Vertice fabric
+- zpacks-vertice-rain-jacket-womens: same as men's
+- zpacks-groundsheet-poncho: Zpacks page gives no hydrostatic head for its DCF
+- zpacks-vertice-rain-kilt: same: no current Zpacks mm figure
+- zpacks-dcf-rain-kilt: Zpacks page gives no hydrostatic head for its DCF
+- montbell-rain-dancer-jacket-mens: GORE-TEX; no Gore/brand mm figure
+- arcteryx-beta-jacket-mens: GORE-TEX ePE; Arc'teryx/Gore publish no mm figure (retailer/blog 28,000mm rule of thumb not used)
+- arcteryx-beta-jacket-womens: GORE-TEX; no Gore/brand mm figure
+- arcteryx-beta-sl-jacket-mens: GORE-TEX; no Gore/brand mm figure
+- arcteryx-beta-ar-jacket-mens: GORE-TEX Pro; no Gore/brand mm figure
+- arcteryx-beta-lt-jacket-mens: GORE-TEX; no Gore/brand mm figure
+- arcteryx-norvan-jacket-mens: GORE-TEX; no Gore/brand mm figure
+- arcteryx-zeta-sl-jacket-mens: GORE-TEX Paclite Plus; no Gore/brand mm figure
+- arcteryx-zeta-sl-jacket-womens: GORE-TEX Paclite Plus; no Gore/brand mm figure
+- patagonia-storm-racer-jacket-womens: item URL is style 24115; the only Patagonia page I could load (patagonia.com.au) is style 24117, a different version. patagonia.com was down
+- patagonia-alpine-houdini-jacket-mens: no loadable Patagonia page naming H2No for this model (patagonia.com down, not on patagonia.com.au)
+- patagonia-storm10-jacket-mens: no loadable Patagonia page (discontinued, not on patagonia.com.au)
+- mountain-hardwear-minimizer-gtx-paclite-plus-jacket-mens: GORE-TEX; no Gore/brand mm figure (MH site 403)
+- mountain-hardwear-threshold-jacket-mens: REI/MH pages blocked (403); no mm found
+- mountain-hardwear-exposure-2-gtx-paclite-plus-jacket-mens: GORE-TEX; no Gore/brand mm figure
+- mountain-hardwear-trailverse-gtx-jacket-mens: GORE-TEX ePE; no Gore/brand mm figure
+- marmot-precip-eco-pro-jacket-mens: REI blocked; only a search snippet of Backcountry (20,000mm, described as 3-layer, which conflicts with the item's 2.5L), not verified
+- marmot-minimalist-gtx-jacket-mens: GORE-TEX Paclite; no Gore/brand mm figure
+- rei-co-op-rainier-rain-jacket-mens: REI blocks fetching (403); REI does not appear to publish a HydroWall mm figure
+- rei-co-op-rainier-rain-jacket-womens: REI blocked; no mm figure
+- rei-co-op-flash-stretch-rain-jacket-mens: REI blocked; no mm figure
+- rei-co-op-trailmade-rain-jacket-mens: REI blocked; no mm figure
+- gorewear-r7-shakedry-trail-hooded-jacket-mens: GORE-TEX Shakedry; no Gore mm figure
+- gorewear-c5-shakedry-1985-jacket: GORE-TEX Shakedry; no Gore mm figure
+- columbia-watertight-ii-jacket-mens: Omni-Tech; Columbia publishes no mm figure; Backcountry blocked
+- columbia-outdry-ex-featherweight-shell-mens: discontinued; review page has no mm figure
+- berghaus-hyper-140-jacket-mens: berghaus.com page 404; only review sites (advnture.com, outdoorgearzine) give 20,000mm, no manufacturer/retailer page loaded
+- cotopaxi-cielo-rain-jacket-mens: Cotopaxi page gives no mm figure
+- altus-atmospheric-poncho: Altus page (Atmospheric H30) 404; only a search snippet (WR 2,000mm), variant unconfirmed
+- ula-rain-kilt: ULA page gives no mm figure
+- outdoor-research-helium-ul-jacket-mens: OR page names Toray Dermizax with no mm; Dermizax variant not stated, so no Toray figure applies
+- outdoor-research-helium-ul-jacket-womens: same as men's
+- leve-outdoor-ultralight-jacket: Leve page gives fabric (15D silpoly) but no mm
+- lightheart-gear-rain-wrap: Lightheart page says only "Waterproof"
+- mountain-equipment-odyssey-jacket-mens: ME page (DRILITE+) gives no mm; the 20,000mm DRILITE figure is from older ME/retailer pages for earlier DRILITE versions
+- mountain-equipment-odyssey-jacket-womens: same as men's
+- mountain-equipment-makalu-jacket-mens: GORE-TEX ePE; ME page gives no mm
+- mountain-equipment-makalu-jacket-womens: GORE-TEX ePE; ME page gives no mm
+- moosetrack-packs-dyneema-hooded-half-poncho: GGG page gives no mm figure
+- zpacks-vertice-rain-pants-mens: same: no current Zpacks mm figure
+- zpacks-vertice-rain-pants-womens: same: no current Zpacks mm figure
+- outdoor-research-helium-rain-pants-mens: GearX names Pertex Shield Diamond Fuse 2.5L, no mm; Pertex publishes none
+- outdoor-research-helium-rain-pants-womens: no mm from OR or Pertex
+- outdoor-research-foray-3l-pants-mens: OR page has no mm figure
+- montbell-versalite-pants-womens: GORE-TEX Windstopper; no mm figure
+- patagonia-alpine-houdini-pants-mens: no loadable page (patagonia.com down, Trailspace 403)
+- marmot-precip-eco-full-zip-pants-mens: Campmor/marmot.com 403; no loadable page with mm (evo pants URLs 404)
+- marmot-precip-eco-pants-mens: marmot.com 403; no loadable page with mm
+- marmot-precip-eco-pants-womens: no loadable page with mm
+- rei-co-op-rainier-full-zip-rain-pants-mens: REI blocked; no mm figure
+- rei-co-op-rainier-rain-pants-mens: REI blocked; no mm figure
+- rei-co-op-rainier-rain-pants-womens: REI blocked; no mm figure
+- arcteryx-beta-pant-mens: GORE-TEX; no Gore/brand mm figure
+- arcteryx-beta-ar-pant-mens: GORE-TEX Pro; no Gore/brand mm figure
+- arcteryx-zeta-sl-pant-mens: GORE-TEX Paclite Plus; no Gore/brand mm figure
+- frogg-toggs-ultra-lite2-pants-mens: no mm figure published
+- mountain-hardwear-threshold-pant-mens: Backcountry blocked; no mm found
+- mountain-hardwear-exposure-2-gtx-paclite-pant-mens: GORE-TEX; no Gore/brand mm figure
+- montane-minimus-lite-pants-mens: no Montane page found (likely discontinued); search found only the Minimus Lite jacket's figure
+- marmot-minimalist-gtx-pant-mens: GORE-TEX Paclite; no Gore/brand mm figure
+- columbia-rebel-roamer-rain-pant-mens: Omni-Tech; no mm figure found
+- rei-co-op-trailmade-rain-pants-mens: item URL is just rei.com; REI blocked
+- black-diamond-fineline-stretch-full-zip-pants-womens: BD page names BD.dry with no mm figure
+- outdoor-research-helium-ul-pant-mens: same: Dermizax variant unstated, no mm
+- outdoor-research-helium-ul-pant-womens: same: Dermizax variant unstated, no mm
+- outdoor-research-stratoburst-stretch-rain-pant-mens: OR page has no mm figure
+- outdoor-research-stratoburst-stretch-rain-pant-womens: OR page has no mm figure
+- outdoor-research-aspire-3l-rain-pant-womens: OR page has no mm figure
+- mountain-equipment-odyssey-pant-mens: same: no current ME mm figure for DRILITE+
+- mountain-equipment-odyssey-pant-womens: same: no current ME mm figure for DRILITE+
+- mountain-equipment-makalu-pant-mens: GORE-TEX; ME page gives no mm
+
+## Flags
+- montane-minimus-nano-pull-on-waterproof-pants: `specs.material` says "Pertex Shield nano-weight 2.5L", but Montane's page says "PETRICHOR 2.5-layer". Its `url` (/en-us/) 404s; https://montane.com/products/montane-unisex-minimus-nano-pull-over-waterproof-pants works.
+- frogg-toggs-ultra-lite2-pants-mens: `url` goes to the Men's Ultra-Lite2 Rain Suit (jacket+pants) page, not a pants-only listing.
+- outdoor-research-helium-rain-jacket-mens / -womens: the item `url`s return 404.
+- patagonia-storm-racer-jacket-womens: `url` is style 24115; Patagonia's current women's Storm Racer is style 24117 (patagonia.com.au).
