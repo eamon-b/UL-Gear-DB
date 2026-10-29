@@ -13,7 +13,9 @@ export function MultiSelect({ label, options, value, onChange }: Props) {
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (!open) return;
-    const on = (e: MouseEvent) => { if (!ref.current?.contains(e.target as Node)) setOpen(false); };
+    const on = (e: MouseEvent) => {
+      if (!ref.current?.contains(e.target as Node)) setOpen(false);
+    };
     document.addEventListener('mousedown', on);
     return () => document.removeEventListener('mousedown', on);
   }, [open]);
@@ -32,10 +34,18 @@ export function MultiSelect({ label, options, value, onChange }: Props) {
       </button>
       {open && (
         <div className="ms-pop">
-          {options.length > 8 && <input className="ms-search" placeholder="Filter…" value={q} onChange={(e) => setQ(e.target.value)} autoFocus />}
+          {options.length > 8 && (
+            <input className="ms-search" placeholder="Filter…" value={q} onChange={(e) => setQ(e.target.value)} autoFocus />
+          )}
           <div className="ms-actions">
-            <button type="button" className="link" onClick={() => onChange([])}>Clear</button>
-            {shown.length > 1 && <button type="button" className="link" onClick={() => onChange([...new Set([...value, ...shown.map((o) => o.v)])])}>All shown</button>}
+            <button type="button" className="link" onClick={() => onChange([])}>
+              Clear
+            </button>
+            {shown.length > 1 && (
+              <button type="button" className="link" onClick={() => onChange([...new Set([...value, ...shown.map((o) => o.v)])])}>
+                All shown
+              </button>
+            )}
           </div>
           <div className="ms-list">
             {shown.map((o) => (

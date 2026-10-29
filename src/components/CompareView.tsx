@@ -9,7 +9,14 @@ import type { Item } from '../lib/types';
 import { activeMetric, fmtMetric, metricTitle, paretoFrontier3 } from '../lib/metric';
 import { paretoFrontier } from '../lib/filters';
 
-type Row = { label: string; key: string; get: (it: Item) => unknown; fmt?: (v: unknown, it: Item) => string; dir: 1 | -1 | 0; boolBest?: boolean | null };
+type Row = {
+  label: string;
+  key: string;
+  get: (it: Item) => unknown;
+  fmt?: (v: unknown, it: Item) => string;
+  dir: 1 | -1 | 0;
+  boolBest?: boolean | null;
+};
 
 export function CompareView({ idsParam }: { idsParam?: string | null }) {
   const { db, compare, toggleCompare, clearCompare, unit, openItem, addToList } = useStore();
@@ -20,7 +27,13 @@ export function CompareView({ idsParam }: { idsParam?: string | null }) {
     const base: Row[] = [
       { label: 'Category', key: 'category', get: (i) => db.catById.get(i.category)?.name ?? i.category, dir: 0 },
       { label: 'Type', key: 'subcategory', get: (i) => i.subcategory, dir: 0 },
-      { label: 'Weight', key: 'weight', get: (i) => i.weight_g, fmt: (v) => (unit === 'g' && (v as number) < 10 ? `${(v as number).toFixed(1)} g` : fmtW(v as number, unit)), dir: -1 },
+      {
+        label: 'Weight',
+        key: 'weight',
+        get: (i) => i.weight_g,
+        fmt: (v) => (unit === 'g' && (v as number) < 10 ? `${(v as number).toFixed(1)} g` : fmtW(v as number, unit)),
+        dir: -1,
+      },
       { label: 'Price', key: 'price', get: (i) => i.price_usd, fmt: (v) => fmtPrice(v as number | null), dir: -1 },
     ];
     // third dimension: only when everything shares a category, so one metric fits all columns
@@ -29,12 +42,33 @@ export function CompareView({ idsParam }: { idsParam?: string | null }) {
     const m = cat ? activeMetric(cat, db.byCategory.get(cat) ?? []) : null;
     if (m) {
       const per = m.unit ? `per ${m.unit}` : `per ${m.label}`;
-      const pos = (i: Item) => { const v = m.get(i); return v != null && v > 0 ? v : null; };
+      const pos = (i: Item) => {
+        const v = m.get(i);
+        return v != null && v > 0 ? v : null;
+      };
       base.push({ label: metricTitle(m), key: 'metric', get: m.get, fmt: (v) => fmtMetric(v as number, m), dir: m.dir });
       if (m.ratio) {
         base.push(
-          { label: `Weight ${per}`, key: 'wper', get: (i) => { const v = pos(i); return v ? i.weight_g / v : null; }, fmt: (v) => (unit === 'g' && (v as number) < 10 ? `${(v as number).toFixed(1)} g` : fmtW(v as number, unit)), dir: -1 },
-          { label: `Price ${per}`, key: 'pper', get: (i) => { const v = pos(i); return v && i.price_usd != null ? i.price_usd / v : null; }, fmt: (v) => fmtPrice(v as number, (v as number) < 10 ? 2 : 0), dir: -1 },
+          {
+            label: `Weight ${per}`,
+            key: 'wper',
+            get: (i) => {
+              const v = pos(i);
+              return v ? i.weight_g / v : null;
+            },
+            fmt: (v) => (unit === 'g' && (v as number) < 10 ? `${(v as number).toFixed(1)} g` : fmtW(v as number, unit)),
+            dir: -1,
+          },
+          {
+            label: `Price ${per}`,
+            key: 'pper',
+            get: (i) => {
+              const v = pos(i);
+              return v && i.price_usd != null ? i.price_usd / v : null;
+            },
+            fmt: (v) => fmtPrice(v as number, (v as number) < 10 ? 2 : 0),
+            dir: -1,
+          },
         );
       }
     }
@@ -45,11 +79,23 @@ export function CompareView({ idsParam }: { idsParam?: string | null }) {
       const cm = activeMetric(c, pool);
       front.set(c, cm ? paretoFrontier3(pool, cm) : paretoFrontier(pool));
     }
-    base.push({ label: m ? `Pareto frontier (wt, $, ${m.label.toLowerCase()})` : 'Pareto frontier', key: 'front', get: (i) => front.get(i.category)!.has(i.id), fmt: (v) => (v ? '★ Yes' : 'No'), dir: 0, boolBest: true });
+    base.push({
+      label: m ? `Pareto frontier (wt, $, ${m.label.toLowerCase()})` : 'Pareto frontier',
+      key: 'front',
+      get: (i) => front.get(i.category)!.has(i.id),
+      fmt: (v) => (v ? '★ Yes' : 'No'),
+      dir: 0,
+      boolBest: true,
+    });
     const keys: string[] = [];
     for (const it of items) for (const k of Object.keys(it.specs)) if (!keys.includes(k) && k !== m?.key) keys.push(k);
     const spec: Row[] = keys.map((k) => ({
-      label: humanizeKey(k), key: 'spec:' + k, get: (i) => i.specs[k], fmt: (v) => fmtSpec(v), dir: specDirection(k), boolBest: boolBetter(k),
+      label: humanizeKey(k),
+      key: 'spec:' + k,
+      get: (i) => i.specs[k],
+      fmt: (v) => fmtSpec(v),
+      dir: specDirection(k),
+      boolBest: boolBetter(k),
     }));
     const tail: Row[] = [
       { label: 'Weight basis', key: 'basis', get: (i) => i.weight_basis, dir: 0 },
@@ -64,7 +110,9 @@ export function CompareView({ idsParam }: { idsParam?: string | null }) {
     return (
       <div className="page">
         <h1>Compare</h1>
-        <p className="muted">Tick the ⇆ checkbox on up to 6 items in <a href={href('/')}>Browse</a> to compare them side by side.</p>
+        <p className="muted">
+          Tick the ⇆ checkbox on up to 6 items in <a href={href('/')}>Browse</a> to compare them side by side.
+        </p>
       </div>
     );
   }
@@ -74,7 +122,8 @@ export function CompareView({ idsParam }: { idsParam?: string | null }) {
     const out = new Set<number>();
     const nums = vals.map((v) => (typeof v === 'number' ? v : null));
     if (r.dir !== 0 && nums.filter((v) => v != null).length >= 2) {
-      const target = r.dir === -1 ? Math.min(...(nums.filter((v) => v != null) as number[])) : Math.max(...(nums.filter((v) => v != null) as number[]));
+      const target =
+        r.dir === -1 ? Math.min(...(nums.filter((v) => v != null) as number[])) : Math.max(...(nums.filter((v) => v != null) as number[]));
       nums.forEach((v, i) => v === target && out.add(i));
       if (out.size === nums.filter((v) => v != null).length) out.clear(); // all equal
     } else if (r.boolBest != null && vals.some((v) => typeof v === 'boolean')) {
@@ -89,10 +138,24 @@ export function CompareView({ idsParam }: { idsParam?: string | null }) {
   return (
     <div className="page">
       <div className="page-head row">
-        <h1>Compare <span className="muted">{items.length} items</span></h1>
+        <h1>
+          Compare <span className="muted">{items.length} items</span>
+        </h1>
         <div className="row gap">
-          <button type="button" className="btn" onClick={() => { navigator.clipboard?.writeText(`${location.origin}${location.pathname}#/compare?ids=${shareIds}`); }}>Copy link</button>
-          {!idsParam && <button type="button" className="btn ghost" onClick={clearCompare}>Clear all</button>}
+          <button
+            type="button"
+            className="btn"
+            onClick={() => {
+              navigator.clipboard?.writeText(`${location.origin}${location.pathname}#/compare?ids=${shareIds}`);
+            }}
+          >
+            Copy link
+          </button>
+          {!idsParam && (
+            <button type="button" className="btn ghost" onClick={clearCompare}>
+              Clear all
+            </button>
+          )}
         </div>
       </div>
       <div className="table-wrap">
@@ -103,12 +166,25 @@ export function CompareView({ idsParam }: { idsParam?: string | null }) {
               {items.map((it) => (
                 <th key={it.id}>
                   <button type="button" className="item-link" onClick={() => openItem(it.id)}>
-                    <span className="brand">{it.brand}</span><br />{it.model}{it.variant && <span className="variant"> {it.variant}</span>}
+                    <span className="brand">{it.brand}</span>
+                    <br />
+                    {it.model}
+                    {it.variant && <span className="variant"> {it.variant}</span>}
                   </button>
                   <div className="cmp-actions">
-                    {it.url && <a className="icon-btn" href={it.url} target="_blank" rel="noopener noreferrer" title="Source">↗</a>}
-                    <button type="button" className="icon-btn" title="Add to list" onClick={() => addToList(it.id)}>＋</button>
-                    {!idsParam && <button type="button" className="icon-btn" title="Remove" onClick={() => toggleCompare(it.id)}>✕</button>}
+                    {it.url && (
+                      <a className="icon-btn" href={it.url} target="_blank" rel="noopener noreferrer" title="Source">
+                        ↗
+                      </a>
+                    )}
+                    <button type="button" className="icon-btn" title="Add to list" onClick={() => addToList(it.id)}>
+                      ＋
+                    </button>
+                    {!idsParam && (
+                      <button type="button" className="icon-btn" title="Remove" onClick={() => toggleCompare(it.id)}>
+                        ✕
+                      </button>
+                    )}
                   </div>
                 </th>
               ))}
@@ -122,7 +198,11 @@ export function CompareView({ idsParam }: { idsParam?: string | null }) {
                   <th>{r.label}</th>
                   {items.map((it, i) => {
                     const v = r.get(it);
-                    return <td key={it.id} className={b.has(i) ? 'best' : ''}>{v == null || v === '' ? <span className="muted">–</span> : r.fmt ? r.fmt(v, it) : String(v)}</td>;
+                    return (
+                      <td key={it.id} className={b.has(i) ? 'best' : ''}>
+                        {v == null || v === '' ? <span className="muted">–</span> : r.fmt ? r.fmt(v, it) : String(v)}
+                      </td>
+                    );
                   })}
                 </tr>
               );
@@ -142,8 +222,12 @@ export function CompareTray() {
     <div className="compare-tray">
       <span className="muted">Compare:</span>
       <span className="tray-names">{compare.map((id) => db.byId.get(id)?.model).join(', ')}</span>
-      <a className="btn primary small" href={href('/compare')}>Compare {compare.length} →</a>
-      <button type="button" className="icon-btn" onClick={clearCompare} aria-label="Clear compare">✕</button>
+      <a className="btn primary small" href={href('/compare')}>
+        Compare {compare.length} →
+      </a>
+      <button type="button" className="icon-btn" onClick={clearCompare} aria-label="Clear compare">
+        ✕
+      </button>
     </div>
   );
 }

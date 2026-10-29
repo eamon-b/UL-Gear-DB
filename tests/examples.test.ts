@@ -27,7 +27,11 @@ describe('example list registry', () => {
   });
 
   it('has a snapshot and a registry entry for every source, and nothing else', () => {
-    const csvs = fs.readdirSync(path.join(DIR, 'csv')).filter((f) => f.endsWith('.csv')).map((f) => f.slice(0, -4)).sort();
+    const csvs = fs
+      .readdirSync(path.join(DIR, 'csv'))
+      .filter((f) => f.endsWith('.csv'))
+      .map((f) => f.slice(0, -4))
+      .sort();
     expect(csvs).toEqual(sources.map((s) => s.id).sort());
     expect(registry.lists.map((l) => l.id).sort()).toEqual(csvs);
   });
@@ -88,7 +92,9 @@ describe.each(registry.lists.map((l) => [l.id, l] as const))('example %s', (id, 
     const rev = buildReview(parsed.rows, db).map((r) => ({ ...r, keepWeight: true }));
     const t = totals(reviewToItems(rev).map((li) => resolve(li, db)));
     // rows the list records as 0 g fall back to the DB weight when matched
-    const zeroMatched = rev.filter((r) => r.choice && !(r.row.weight_g > 0)).reduce((s, r) => s + db.byId.get(r.choice)!.weight_g * r.row.qty, 0);
+    const zeroMatched = rev
+      .filter((r) => r.choice && !(r.row.weight_g > 0))
+      .reduce((s, r) => s + db.byId.get(r.choice)!.weight_g * r.row.qty, 0);
     expect(Math.abs(t.total - zeroMatched - entry.total_g)).toBeLessThanOrEqual(0.55 * qtyTotal + 1);
   });
 
@@ -97,6 +103,8 @@ describe.each(registry.lists.map((l) => [l.id, l] as const))('example %s', (id, 
     const list: PackList = { id: id, name: entry.title ?? id, items, created: 0, updated: 0 };
     const back = parseLighterPackCSV(exportLighterPackCSV(list, db, 'g'));
     expect(back.errors).toEqual([]);
-    expect(back.rows.map((r) => [r.qty, r.worn, r.consumable, r.category])).toEqual(items.map((li) => [li.qty, li.worn, li.consumable, li.cat]));
+    expect(back.rows.map((r) => [r.qty, r.worn, r.consumable, r.category])).toEqual(
+      items.map((li) => [li.qty, li.worn, li.consumable, li.cat]),
+    );
   });
 });

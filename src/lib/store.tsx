@@ -54,22 +54,41 @@ export function sanitizeLists(v: unknown): ListsState {
   for (const l of Array.isArray(o.lists) ? o.lists : []) {
     if (!l || typeof l !== 'object' || typeof l.id !== 'string') continue;
     const items = (Array.isArray(l.items) ? l.items : [])
-      .filter((li: unknown): li is ListItem => !!li && typeof li === 'object' && (typeof (li as ListItem).dbId === 'string' || !!(li as ListItem).custom))
+      .filter(
+        (li: unknown): li is ListItem =>
+          !!li && typeof li === 'object' && (typeof (li as ListItem).dbId === 'string' || !!(li as ListItem).custom),
+      )
       .map((li: ListItem) => ({
         ...li,
         uid: typeof li.uid === 'string' ? li.uid : uid(),
         qty: typeof li.qty === 'number' && Number.isFinite(li.qty) ? li.qty : 1,
         worn: !!li.worn,
         consumable: !!li.consumable,
-        ...(li.custom ? { custom: { ...li.custom, name: String(li.custom.name ?? 'Item'), category: String(li.custom.category ?? ''), weight_g: Number(li.custom.weight_g) || 0, price_usd: typeof li.custom.price_usd === 'number' ? li.custom.price_usd : null } } : {}),
+        ...(li.custom
+          ? {
+              custom: {
+                ...li.custom,
+                name: String(li.custom.name ?? 'Item'),
+                category: String(li.custom.category ?? ''),
+                weight_g: Number(li.custom.weight_g) || 0,
+                price_usd: typeof li.custom.price_usd === 'number' ? li.custom.price_usd : null,
+              },
+            }
+          : {}),
         ...(li.cat != null && typeof li.cat !== 'string' ? { cat: undefined } : {}),
         ...(li.weight_g != null && !Number.isFinite(li.weight_g) ? { weight_g: undefined } : {}),
         ...(li.price_usd != null && !Number.isFinite(li.price_usd) ? { price_usd: undefined } : {}),
       }));
     const now = Date.now();
-    lists.push({ id: l.id, name: typeof l.name === 'string' ? l.name : 'My list', items, created: Number(l.created) || now, updated: Number(l.updated) || now });
+    lists.push({
+      id: l.id,
+      name: typeof l.name === 'string' ? l.name : 'My list',
+      items,
+      created: Number(l.created) || now,
+      updated: Number(l.updated) || now,
+    });
   }
-  const activeId = typeof o.activeId === 'string' && lists.some((l) => l.id === o.activeId) ? o.activeId : lists[0]?.id ?? null;
+  const activeId = typeof o.activeId === 'string' && lists.some((l) => l.id === o.activeId) ? o.activeId : (lists[0]?.id ?? null);
   return { lists, activeId };
 }
 
@@ -88,14 +107,19 @@ export function StoreProvider({ db, children }: { db: DB; children: ReactNode })
   const [toasts, setToasts] = useState<{ id: string; msg: string }[]>([]);
   const [openItemId, setOpenItemId] = useState<string | null>(null);
 
-  const setUnit = useCallback((u: Unit) => { setUnitS(u); saveLS('ulgdb.unit', u); }, []);
+  const setUnit = useCallback((u: Unit) => {
+    setUnitS(u);
+    saveLS('ulgdb.unit', u);
+  }, []);
   const setTheme = useCallback((t: Theme) => {
     setThemeS(t);
     saveLS('ulgdb.themeMode', t);
     try {
       if (t === 'auto') localStorage.removeItem('ulgdb.theme');
       else localStorage.setItem('ulgdb.theme', t);
-    } catch { /* ignore */ }
+    } catch {
+      /* ignore */
+    }
   }, []);
   useEffect(() => {
     if (theme === 'auto') delete document.documentElement.dataset.theme;
@@ -108,7 +132,11 @@ export function StoreProvider({ db, children }: { db: DB; children: ReactNode })
   useEffect(() => {
     const on = (e: StorageEvent) => {
       if (e.key === 'ulgdb.lists' && e.newValue) {
-        try { setLs(sanitizeLists(JSON.parse(e.newValue))); } catch { /* ignore */ }
+        try {
+          setLs(sanitizeLists(JSON.parse(e.newValue)));
+        } catch {
+          /* ignore */
+        }
       }
     };
     window.addEventListener('storage', on);
@@ -121,16 +149,19 @@ export function StoreProvider({ db, children }: { db: DB; children: ReactNode })
     setTimeout(() => setToasts((t) => t.filter((x) => x.id !== id)), 2600);
   }, []);
 
-  const toggleCompare = useCallback((id: string) => {
-    setCompare((c) => {
-      if (c.includes(id)) return c.filter((x) => x !== id);
-      if (c.length >= MAX_COMPARE) {
-        toast(`Compare holds up to ${MAX_COMPARE} items`);
-        return c;
-      }
-      return [...c, id];
-    });
-  }, [toast]);
+  const toggleCompare = useCallback(
+    (id: string) => {
+      setCompare((c) => {
+        if (c.includes(id)) return c.filter((x) => x !== id);
+        if (c.length >= MAX_COMPARE) {
+          toast(`Compare holds up to ${MAX_COMPARE} items`);
+          return c;
+        }
+        return [...c, id];
+      });
+    },
+    [toast],
+  );
 
   const lsRef = useRef(ls);
   lsRef.current = ls;
@@ -149,52 +180,94 @@ export function StoreProvider({ db, children }: { db: DB; children: ReactNode })
   const deleteList = useCallback((id: string) => {
     setLs((s) => {
       const lists = s.lists.filter((l) => l.id !== id);
-      return { lists, activeId: s.activeId === id ? lists[0]?.id ?? null : s.activeId };
+      return { lists, activeId: s.activeId === id ? (lists[0]?.id ?? null) : s.activeId };
     });
   }, []);
 
   const setActiveList = useCallback((id: string) => setLs((s) => ({ ...s, activeId: id })), []);
 
-  const addToList = useCallback((dbId: string, listId?: string) => {
-    const s = lsRef.current;
-    let target = s.lists.find((l) => l.id === (listId ?? s.activeId)) ?? s.lists[0];
-    const item = db.byId.get(dbId);
-    if (!target) {
-      target = createList('My first list', [newListItem(dbId)]);
-    } else {
-      const existing = target.items.find((li) => li.dbId === dbId);
-      const tid = target.id;
-      setLs((st) => ({
-        activeId: st.activeId ?? tid,
-        lists: st.lists.map((l) =>
-          l.id !== tid
-            ? l
-            : {
-                ...l,
-                updated: Date.now(),
-                items: existing
-                  ? l.items.map((li) => (li.uid === existing.uid ? { ...li, qty: li.qty + 1 } : li))
-                  : [...l.items, newListItem(dbId)],
-              },
-        ),
-      }));
-    }
-    toast(`Added ${item?.name ?? dbId} to "${target.name}"`);
-  }, [db, createList, toast]);
+  const addToList = useCallback(
+    (dbId: string, listId?: string) => {
+      const s = lsRef.current;
+      let target = s.lists.find((l) => l.id === (listId ?? s.activeId)) ?? s.lists[0];
+      const item = db.byId.get(dbId);
+      if (!target) {
+        target = createList('My first list', [newListItem(dbId)]);
+      } else {
+        const existing = target.items.find((li) => li.dbId === dbId);
+        const tid = target.id;
+        setLs((st) => ({
+          activeId: st.activeId ?? tid,
+          lists: st.lists.map((l) =>
+            l.id !== tid
+              ? l
+              : {
+                  ...l,
+                  updated: Date.now(),
+                  items: existing
+                    ? l.items.map((li) => (li.uid === existing.uid ? { ...li, qty: li.qty + 1 } : li))
+                    : [...l.items, newListItem(dbId)],
+                },
+          ),
+        }));
+      }
+      toast(`Added ${item?.name ?? dbId} to "${target.name}"`);
+    },
+    [db, createList, toast],
+  );
 
   const activeList = ls.lists.find((l) => l.id === ls.activeId) ?? ls.lists[0] ?? null;
 
-  const value = useMemo<Store>(() => ({
-    db, unit, setUnit, theme, setTheme, compare, toggleCompare, clearCompare: () => setCompare([]),
-    lists: ls.lists, activeList, setActiveList, createList, updateList, deleteList, addToList, toast,
-    openItem: setOpenItemId, openItemId,
-  }), [db, unit, setUnit, theme, setTheme, compare, toggleCompare, ls.lists, activeList, setActiveList, createList, updateList, deleteList, addToList, toast, openItemId]);
+  const value = useMemo<Store>(
+    () => ({
+      db,
+      unit,
+      setUnit,
+      theme,
+      setTheme,
+      compare,
+      toggleCompare,
+      clearCompare: () => setCompare([]),
+      lists: ls.lists,
+      activeList,
+      setActiveList,
+      createList,
+      updateList,
+      deleteList,
+      addToList,
+      toast,
+      openItem: setOpenItemId,
+      openItemId,
+    }),
+    [
+      db,
+      unit,
+      setUnit,
+      theme,
+      setTheme,
+      compare,
+      toggleCompare,
+      ls.lists,
+      activeList,
+      setActiveList,
+      createList,
+      updateList,
+      deleteList,
+      addToList,
+      toast,
+      openItemId,
+    ],
+  );
 
   return (
     <Ctx.Provider value={value}>
       {children}
       <div className="toasts" role="status" aria-live="polite">
-        {toasts.map((t) => <div key={t.id} className="toast">{t.msg}</div>)}
+        {toasts.map((t) => (
+          <div key={t.id} className="toast">
+            {t.msg}
+          </div>
+        ))}
       </div>
     </Ctx.Provider>
   );

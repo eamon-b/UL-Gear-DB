@@ -22,7 +22,12 @@ export interface Metric {
 
 const num = (v: unknown) => (typeof v === 'number' && Number.isFinite(v) ? v : null);
 const spec = (key: string, label: string, unit: string, dir: 1 | -1, ratio: boolean): Metric => ({
-  key, label, unit, dir, ratio, get: (it) => num(it.specs[key]),
+  key,
+  label,
+  unit,
+  dir,
+  ratio,
+  get: (it) => num(it.specs[key]),
 });
 
 const CU_IN_L = 0.0163871;
@@ -30,7 +35,12 @@ const CU_IN_L = 0.0163871;
 const LI_ION_V = 3.7;
 
 const volumeL = (label = 'Volume'): Metric => ({
-  key: 'volume_l', label, unit: 'L', dir: 1, ratio: true, covers: ['cubic_in'],
+  key: 'volume_l',
+  label,
+  unit: 'L',
+  dir: 1,
+  ratio: true,
+  covers: ['cubic_in'],
   get: (it) => num(it.specs.volume_l) ?? (num(it.specs.cubic_in) != null ? +(num(it.specs.cubic_in)! * CU_IN_L).toFixed(1) : null),
 });
 
@@ -43,8 +53,14 @@ const CURATED: Record<string, Metric[]> = {
   lighting: [spec('lumens', 'Brightness', 'lm', 1, true), spec('runtime_hr', 'Runtime', 'h', 1, true)],
   power: [
     {
-      key: 'energy_wh', label: 'Energy', unit: 'Wh', dir: 1, ratio: true, covers: ['capacity_wh', 'capacity_mah'],
-      get: (it) => num(it.specs.capacity_wh) ?? (num(it.specs.capacity_mah) ? +((num(it.specs.capacity_mah)! * LI_ION_V) / 1000).toFixed(1) : null),
+      key: 'energy_wh',
+      label: 'Energy',
+      unit: 'Wh',
+      dir: 1,
+      ratio: true,
+      covers: ['capacity_wh', 'capacity_mah'],
+      get: (it) =>
+        num(it.specs.capacity_wh) ?? (num(it.specs.capacity_mah) ? +((num(it.specs.capacity_mah)! * LI_ION_V) / 1000).toFixed(1) : null),
     },
     spec('output_w', 'Output', 'W', 1, false),
   ],
@@ -55,7 +71,12 @@ const CURATED: Record<string, Metric[]> = {
   stove: [
     {
       // makers quote boil times for 0.5 L or 1 L; scale to 1 L so they compare (unstated volume = 1 L)
-      key: 'boil_time_min', label: 'Boil time', unit: 'min/L', dir: -1, ratio: false, covers: ['boil_volume_l'],
+      key: 'boil_time_min',
+      label: 'Boil time',
+      unit: 'min/L',
+      dir: -1,
+      ratio: false,
+      covers: ['boil_volume_l'],
       get: (it) => {
         const t = num(it.specs.boil_time_min);
         return t == null ? null : +(t / (num(it.specs.boil_volume_l) || 1)).toFixed(2);
@@ -143,8 +164,8 @@ export function paretoFrontier3(items: Item[], m: Metric): Set<string> {
     .filter((x): x is { it: Item; p: number; w: number; v: number } => x.p != null && x.v != null);
   const out = new Set<string>();
   for (const a of pts) {
-    const dominated = pts.some((b) =>
-      b !== a && b.p <= a.p && b.w <= a.w && geq(b.v, a.v, m.dir) && (b.p < a.p || b.w < a.w || b.v !== a.v),
+    const dominated = pts.some(
+      (b) => b !== a && b.p <= a.p && b.w <= a.w && geq(b.v, a.v, m.dir) && (b.p < a.p || b.w < a.w || b.v !== a.v),
     );
     if (!dominated) out.add(a.it.id);
   }

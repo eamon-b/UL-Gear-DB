@@ -18,6 +18,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # Code must match .prettierrc.json (run `npm run format` to fix).
+      - run: npm run format:check
       # Fails on dropped records, duplicate ids, broken aliases or unreadable raw files.
       - run: npm run data:strict
       # Type-check + production build (prebuild regenerates the data bundle).

@@ -13,7 +13,9 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const BASE = process.argv[2] || 'http://localhost:4173/';
 const SHOTS = path.join(ROOT, 'screenshots');
 fs.mkdirSync(SHOTS, { recursive: true });
-const exe = process.env.CHROMIUM_PATH || ['/opt/pw-browsers/chromium-1194/chrome-linux/chrome', '/opt/pw-browsers/chromium/chrome-linux/chrome'].find((p) => fs.existsSync(p));
+const exe =
+  process.env.CHROMIUM_PATH ||
+  ['/opt/pw-browsers/chromium-1194/chrome-linux/chrome', '/opt/pw-browsers/chromium/chrome-linux/chrome'].find((p) => fs.existsSync(p));
 
 const results = [];
 const check = (name, ok, extra = '') => {
@@ -44,13 +46,26 @@ try {
   check('pareto frontier marked', (await page.locator('.scatter circle.pt.front').count()) >= 1);
 
   // ---- Sort by weight desc then asc
-  const weights = async () => (await page.locator('table.gear tbody tr[data-id] td.num.strong').allTextContents()).slice(0, 10).map((t) => parseFloat(t.replace(/,/g, '')));
+  const weights = async () =>
+    (await page.locator('table.gear tbody tr[data-id] td.num.strong').allTextContents())
+      .slice(0, 10)
+      .map((t) => parseFloat(t.replace(/,/g, '')));
   await page.click('th.sortable:has-text("Weight")'); // toggles to desc
   let w = await weights();
-  check('sort weight desc', w.every((v, i) => i === 0 || v <= w[i - 1]), w.slice(0, 4).join(','));
+  check(
+    'sort weight desc',
+    w.every((v, i) => i === 0 || v <= w[i - 1]),
+    w.slice(0, 4).join(','),
+  );
   await page.click('th.sortable:has-text("Price")');
-  const prices = (await page.locator('table.gear tbody tr[data-id] td:nth-child(5)').allTextContents()).slice(0, 8).map((t) => parseFloat(t.replace(/[$,]/g, '')));
-  check('sort price asc', prices.filter((x) => !isNaN(x)).every((v, i, a) => i === 0 || v >= a[i - 1]), prices.slice(0, 4).join(','));
+  const prices = (await page.locator('table.gear tbody tr[data-id] td:nth-child(5)').allTextContents())
+    .slice(0, 8)
+    .map((t) => parseFloat(t.replace(/[$,]/g, '')));
+  check(
+    'sort price asc',
+    prices.filter((x) => !isNaN(x)).every((v, i, a) => i === 0 || v >= a[i - 1]),
+    prices.slice(0, 4).join(','),
+  );
 
   // ---- Filter: text + subcategory + spec
   const before = await page.locator('table.gear tbody tr[data-id]').count();
@@ -69,7 +84,11 @@ try {
   check('subcategory filter', subs.length > 0 && subs.every((s) => s === 'tarp'), `${subs.length} tarps`);
   // more filters panel open by default on desktop: toggle "hide discontinued" and a boolean spec if present
   await page.click('.tog:has-text("Hide discontinued") input');
-  check('spec filters generated', (await page.locator('.filter-grid .fg').count()) > 4, `${await page.locator('.filter-grid .fg').count()} filter groups`);
+  check(
+    'spec filters generated',
+    (await page.locator('.filter-grid .fg').count()) > 4,
+    `${await page.locator('.filter-grid .fg').count()} filter groups`,
+  );
   await page.screenshot({ path: path.join(SHOTS, '02-browse-shelters.png') });
   await page.click('.btn:has-text("Reset")');
 
@@ -139,14 +158,21 @@ try {
   {
     const refType = (await page.locator('.modal table.gear tbody tr.is-ref td.c-type').textContent())?.trim();
     const types = await page.locator('.modal table.gear tbody tr[data-id] td.c-type').allTextContents();
-    check('alternatives default to the same type', types.length > 1 && types.every((t) => t.trim() === refType), `${types.length} × ${refType}`);
+    check(
+      'alternatives default to the same type',
+      types.length > 1 && types.every((t) => t.trim() === refType),
+      `${types.length} × ${refType}`,
+    );
     const nSame = types.length;
     await page.click('.modal .filter-row.scope .seg-opt:has-text("All shelters")');
     const types2 = await page.locator('.modal table.gear tbody tr[data-id] td.c-type').allTextContents();
     check('one click widens to all shelters', new Set(types2).size > 1 && types2.length >= nSame, `${new Set(types2).size} types`);
     await page.click('.modal .filter-row.scope .seg-opt:has-text("Same type")');
   }
-  check('alternatives shows filters + scatter', (await page.locator('.modal .filters').count()) === 1 && (await page.locator('.modal .scatter circle').count()) > 3);
+  check(
+    'alternatives shows filters + scatter',
+    (await page.locator('.modal .filters').count()) === 1 && (await page.locator('.modal .scatter circle').count()) > 3,
+  );
   await page.click('.modal .btn:has-text("More filters")');
   check('alternatives has spec filters', (await page.locator('.modal .filter-grid .fg').count()) > 4);
   await page.click('.modal .chip:has-text("Lighter & cheaper")');
@@ -162,7 +188,11 @@ try {
   await swapRow.locator('button.swap-btn').click();
   await page.waitForSelector('.modal', { state: 'detached' });
   const namesAfter = await page.locator('.list-table .item-link').allTextContents();
-  check('swap replaced list item', namesAfter.some((n) => n.trim() === swapTo?.trim()) && !namesAfter.includes(tentName ?? '#'), `${tentName} -> ${swapTo}`);
+  check(
+    'swap replaced list item',
+    namesAfter.some((n) => n.trim() === swapTo?.trim()) && !namesAfter.includes(tentName ?? '#'),
+    `${tentName} -> ${swapTo}`,
+  );
 
   // ---- Lighten my pack
   await page.click('.btn:has-text("Lighten my pack")');
@@ -196,10 +226,12 @@ try {
   const rows = await page.locator('.modal table.import tbody tr').count();
   const matchedTxt = await page.locator('.modal-head h2 .muted').textContent();
   check('CSV review rows', rows === 17, `${rows} rows; ${matchedTxt}`);
-  const picks = await page.locator('.modal table.import tbody tr').evaluateAll((trs) => trs.map((tr) => {
-    const s = tr.querySelector('select');
-    return `${tr.querySelector('td')?.childNodes[0]?.textContent} => ${s?.selectedOptions[0]?.textContent}`;
-  }));
+  const picks = await page.locator('.modal table.import tbody tr').evaluateAll((trs) =>
+    trs.map((tr) => {
+      const s = tr.querySelector('select');
+      return `${tr.querySelector('td')?.childNodes[0]?.textContent} => ${s?.selectedOptions[0]?.textContent}`;
+    }),
+  );
   console.log('      ' + picks.join('\n      '));
   await page.screenshot({ path: path.join(SHOTS, '08-csv-review.png'), fullPage: true });
   await page.click('.modal-foot .btn.primary');
@@ -210,10 +242,17 @@ try {
   check('worn weight non-zero', !/^0/.test(wornTxt ?? '0'), wornTxt ?? '');
 
   // ---- List layout: the table never scrolls sideways; the chart moves above it when space is short
-  const layout = () => page.evaluate(() => {
-    const tw = document.querySelector('.table-wrap'), side = document.querySelector('.list-side'), main = document.querySelector('.list-main');
-    return { overflow: tw.scrollWidth - tw.clientWidth, beside: side.getBoundingClientRect().left >= main.getBoundingClientRect().right - 1, nav: !!document.querySelector('.list-nav').offsetParent };
-  });
+  const layout = () =>
+    page.evaluate(() => {
+      const tw = document.querySelector('.table-wrap'),
+        side = document.querySelector('.list-side'),
+        main = document.querySelector('.list-main');
+      return {
+        overflow: tw.scrollWidth - tw.clientWidth,
+        beside: side.getBoundingClientRect().left >= main.getBoundingClientRect().right - 1,
+        nav: !!document.querySelector('.list-nav').offsetParent,
+      };
+    });
   for (const w of [900, 1100, 1300, 1600, 1900]) {
     await page.setViewportSize({ width: w, height: 900 });
     const l = await layout();
@@ -240,7 +279,11 @@ try {
   const examples = JSON.parse(fs.readFileSync(path.join(ROOT, 'public/data/examples.json'), 'utf8')).lists;
   await page.goto(BASE + '#/examples');
   await page.waitForSelector('.examples-table tbody tr');
-  check('examples page lists every example', (await page.locator('.examples-table tbody tr').count()) === examples.length, `${examples.length}`);
+  check(
+    'examples page lists every example',
+    (await page.locator('.examples-table tbody tr').count()) === examples.length,
+    `${examples.length}`,
+  );
   const ex = [...examples].sort((a, b) => a.base_g - b.base_g)[0];
   await page.screenshot({ path: path.join(SHOTS, '12-examples.png'), fullPage: true });
   await page.locator('.examples-table tbody tr').first().locator('.btn:has-text("Import")').click();
@@ -283,7 +326,9 @@ try {
   await mp.goto(BASE + '#/lists');
   await mp.reload(); // hash-only navigation doesn't reload the store from localStorage
   await mp.waitForSelector('.list-table tr[data-uid]');
-  const offscreen = await mp.locator('.list-table tr[data-uid] button:has-text("Alternatives")').evaluateAll((bs) => bs.filter((b) => b.getBoundingClientRect().right > window.innerWidth).length);
+  const offscreen = await mp
+    .locator('.list-table tr[data-uid] button:has-text("Alternatives")')
+    .evaluateAll((bs) => bs.filter((b) => b.getBoundingClientRect().right > window.innerWidth).length);
   check('mobile: list actions visible', offscreen === 0, `${offscreen} off-screen`);
   await mp.screenshot({ path: path.join(SHOTS, '11-mobile-list.png'), fullPage: true });
   await m.close();

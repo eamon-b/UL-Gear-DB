@@ -16,7 +16,10 @@ export function DualRange({ min, max, step, lo, hi, onChange, format, label }: P
   const st = step ?? niceStep(min, max);
   const [a, setA] = useState(lo ?? min);
   const [b, setB] = useState(hi ?? max);
-  useEffect(() => { setA(lo ?? min); setB(hi ?? max); }, [lo, hi, min, max]);
+  useEffect(() => {
+    setA(lo ?? min);
+    setB(hi ?? max);
+  }, [lo, hi, min, max]);
   if (!(max > min)) return null;
   const commit = (na: number, nb: number) => {
     onChange(na <= min ? null : na, nb >= max ? null : nb);
@@ -31,12 +34,30 @@ export function DualRange({ min, max, step, lo, hi, onChange, format, label }: P
       <div className="dr-track">
         <div className="dr-fill" style={{ left: `${pct(a)}%`, right: `${100 - pct(b)}%` }} />
         <input
-          type="range" min={min} max={max} step={st} value={a} aria-label={`${label ?? ''} minimum`}
-          onChange={(e) => { const v = Math.min(Number(e.target.value), b); setA(v); commit(v, b); }}
+          type="range"
+          min={min}
+          max={max}
+          step={st}
+          value={a}
+          aria-label={`${label ?? ''} minimum`}
+          onChange={(e) => {
+            const v = Math.min(Number(e.target.value), b);
+            setA(v);
+            commit(v, b);
+          }}
         />
         <input
-          type="range" min={min} max={max} step={st} value={b} aria-label={`${label ?? ''} maximum`}
-          onChange={(e) => { const v = Math.max(Number(e.target.value), a); setB(v); commit(a, v); }}
+          type="range"
+          min={min}
+          max={max}
+          step={st}
+          value={b}
+          aria-label={`${label ?? ''} maximum`}
+          onChange={(e) => {
+            const v = Math.max(Number(e.target.value), a);
+            setB(v);
+            commit(a, v);
+          }}
         />
       </div>
     </div>

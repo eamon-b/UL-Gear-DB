@@ -15,21 +15,34 @@ export interface Resolved {
 }
 
 export function resolve(li: ListItem, db: DB): Resolved {
-  const item = li.dbId ? db.byId.get(li.dbId) ?? null : null;
+  const item = li.dbId ? (db.byId.get(li.dbId) ?? null) : null;
   if (item) {
     return {
-      li, item, name: item.name,
+      li,
+      item,
+      name: item.name,
       cat: li.cat || db.catById.get(item.category)?.name || item.category,
       weight_g: li.weight_g ?? item.weight_g,
       price_usd: li.price_usd !== undefined ? li.price_usd : item.price_usd,
-      url: safeUrl(item.url), missing: false,
+      url: safeUrl(item.url),
+      missing: false,
     };
   }
-  const c: CustomItem = li.custom ?? { name: li.dbId ? `Unknown item (${li.dbId})` : 'Item', category: 'Misc', weight_g: 0, price_usd: null };
+  const c: CustomItem = li.custom ?? {
+    name: li.dbId ? `Unknown item (${li.dbId})` : 'Item',
+    category: 'Misc',
+    weight_g: 0,
+    price_usd: null,
+  };
   return {
-    li, item: null, name: c.name, cat: li.cat || c.category || 'Uncategorized',
-    weight_g: li.weight_g ?? c.weight_g, price_usd: li.price_usd !== undefined ? li.price_usd : c.price_usd,
-    url: safeUrl(c.url), missing: !!li.dbId && !li.custom,
+    li,
+    item: null,
+    name: c.name,
+    cat: li.cat || c.category || 'Uncategorized',
+    weight_g: li.weight_g ?? c.weight_g,
+    price_usd: li.price_usd !== undefined ? li.price_usd : c.price_usd,
+    url: safeUrl(c.url),
+    missing: !!li.dbId && !li.custom,
   };
 }
 
@@ -80,15 +93,33 @@ export function totals(rs: Resolved[]): Totals {
 }
 
 // ---------------- Share via URL ----------------
-type SharedRow = [string | { n: string; c: string; w: number; p?: number | null; u?: string }, number, number, string?, number?, (number | null)?];
-interface SharedPayload { v: 1; n: string; i: SharedRow[] }
+type SharedRow = [
+  string | { n: string; c: string; w: number; p?: number | null; u?: string },
+  number,
+  number,
+  string?,
+  number?,
+  (number | null)?,
+];
+interface SharedPayload {
+  v: 1;
+  n: string;
+  i: SharedRow[];
+}
 
 export function encodeList(l: PackList): string {
   const rows: SharedRow[] = l.items.map((li) => {
     const flags = (li.worn ? 1 : 0) | (li.consumable ? 2 : 0);
-    const head: SharedRow[0] = li.dbId && !li.custom
-      ? li.dbId
-      : { n: li.custom?.name ?? 'Item', c: li.custom?.category ?? '', w: li.custom?.weight_g ?? 0, p: li.custom?.price_usd ?? null, ...(li.custom?.url ? { u: li.custom.url } : {}) };
+    const head: SharedRow[0] =
+      li.dbId && !li.custom
+        ? li.dbId
+        : {
+            n: li.custom?.name ?? 'Item',
+            c: li.custom?.category ?? '',
+            w: li.custom?.weight_g ?? 0,
+            p: li.custom?.price_usd ?? null,
+            ...(li.custom?.url ? { u: li.custom.url } : {}),
+          };
     const row: SharedRow = [head, li.qty, flags];
     if (li.cat || li.weight_g != null || li.price_usd !== undefined) row.push(li.cat ?? '');
     if (li.weight_g != null || li.price_usd !== undefined) row.push(li.weight_g ?? -1);
@@ -99,7 +130,7 @@ export function encodeList(l: PackList): string {
   return LZString.compressToEncodedURIComponent(JSON.stringify(payload));
 }
 
-const finiteOr = <T,>(v: unknown, fallback: T): number | T => (typeof v === 'number' && Number.isFinite(v) ? v : fallback);
+const finiteOr = <T>(v: unknown, fallback: T): number | T => (typeof v === 'number' && Number.isFinite(v) ? v : fallback);
 const str = (v: unknown) => (typeof v === 'string' ? v : v == null ? '' : String(v));
 
 /** Share payloads are untrusted input: every field is type-checked so a crafted link can't crash rendering. */
@@ -119,7 +150,13 @@ export function decodeList(s: string): PackList | null {
       else if (head && typeof head === 'object') {
         const h = head as Record<string, unknown>;
         const url = safeUrl(h.u);
-        li.custom = { name: str(h.n) || 'Item', category: str(h.c), weight_g: Math.max(0, finiteOr(h.w, 0)), price_usd: finiteOr(h.p, null), ...(url ? { url } : {}) };
+        li.custom = {
+          name: str(h.n) || 'Item',
+          category: str(h.c),
+          weight_g: Math.max(0, finiteOr(h.w, 0)),
+          price_usd: finiteOr(h.p, null),
+          ...(url ? { url } : {}),
+        };
       } else continue;
       if (typeof cat === 'string' && cat) li.cat = cat;
       if (typeof w === 'number' && Number.isFinite(w) && w >= 0) li.weight_g = w;
@@ -155,7 +192,8 @@ const isApproved = (v: unknown) => typeof v === 'string' && /IGBC|SIBBG/i.test(v
  * when both items carry the spec, so sparse data never hides a candidate.
  */
 export function comparable(cur: Item, c: Item): boolean {
-  const a = cur.specs, b = c.specs;
+  const a = cur.specs,
+    b = c.specs;
   const pair = (k: string) => [num(a[k]), num(b[k])] as const;
   switch (cur.category) {
     case 'sleep-insulation': {
@@ -234,7 +272,8 @@ export function lightenPlan(rs: Resolved[], db: DB, budget: number, opts: { same
   all.sort((a, b) => a.perGram - b.perGram || b.saved - a.saved);
   const used = new Set<string>();
   const picked: LightenRow[] = [];
-  let cumSaved = 0, cumCost = 0;
+  let cumSaved = 0,
+    cumCost = 0;
   for (const o of all) {
     if (used.has(o.r.li.uid)) continue;
     if (cumCost + o.cost > budget + 1e-9) continue;

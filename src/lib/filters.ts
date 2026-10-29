@@ -23,7 +23,8 @@ export function specMeta(items: Item[]): SpecMeta[] {
   for (const [key, a] of acc) {
     if (a.count < Math.min(minCount, items.length)) continue;
     if (a.nums.length >= a.count * 0.8 && a.nums.length) {
-      const min = Math.min(...a.nums), max = Math.max(...a.nums);
+      const min = Math.min(...a.nums),
+        max = Math.max(...a.nums);
       if (min !== max) out.push({ key, type: 'number', min, max, count: a.count });
     } else if (a.bools >= a.count * 0.8) {
       out.push({ key, type: 'boolean', count: a.count });
@@ -42,10 +43,7 @@ export function specKeys(items: Item[]): string[] {
   return [...m].sort((a, b) => b[1] - a[1]).map(([k]) => k);
 }
 
-export type SpecFilter =
-  | { type: 'range'; min: number; max: number }
-  | { type: 'bool'; value: boolean }
-  | { type: 'set'; values: string[] };
+export type SpecFilter = { type: 'range'; min: number; max: number } | { type: 'bool'; value: boolean } | { type: 'set'; values: string[] };
 
 export type Chip = 'lighter' | 'cheaper' | 'both' | 'value' | null;
 
@@ -66,8 +64,19 @@ export interface Filters {
 }
 
 export const emptyFilters = (): Filters => ({
-  q: '', subcats: [], brands: [], wMin: null, wMax: null, pMin: null, pMax: null,
-  hideDisc: false, hideNoPrice: false, confidence: [], specs: {}, frontierOnly: false, chip: null,
+  q: '',
+  subcats: [],
+  brands: [],
+  wMin: null,
+  wMax: null,
+  pMin: null,
+  pMax: null,
+  hideDisc: false,
+  hideNoPrice: false,
+  confidence: [],
+  specs: {},
+  frontierOnly: false,
+  chip: null,
 });
 
 export function activeFilterCount(f: Filters) {
@@ -174,14 +183,22 @@ export function sortItems(items: Item[], sort: Sort, valueOf: (it: Item) => numb
   const { key, dir } = sort;
   const get = (it: Item): number | string | null => {
     switch (key) {
-      case 'name': return it.name.toLowerCase();
-      case 'subcategory': return it.subcategory;
-      case 'category': return it.category;
-      case 'weight': return it.weight_g;
-      case 'price': return it.price_usd;
-      case 'value': return valueOf(it);
-      case 'metric': return metricOf ? metricOf(it) : null;
-      case 'confidence': return { high: 0, medium: 1, low: 2 }[it.confidence];
+      case 'name':
+        return it.name.toLowerCase();
+      case 'subcategory':
+        return it.subcategory;
+      case 'category':
+        return it.category;
+      case 'weight':
+        return it.weight_g;
+      case 'price':
+        return it.price_usd;
+      case 'value':
+        return valueOf(it);
+      case 'metric':
+        return metricOf ? metricOf(it) : null;
+      case 'confidence':
+        return { high: 0, medium: 1, low: 2 }[it.confidence];
       default: {
         if (key.startsWith('spec:')) {
           const v = it.specs[key.slice(5)];
@@ -207,7 +224,8 @@ export function sortItems(items: Item[], sort: Sort, valueOf: (it: Item) => numb
 }
 
 /** Which direction is "better" for a spec key (used to highlight bests in compare). */
-const HIGHER = /r_value|lumens|capacity|fill_power|output|flow_rate|runtime|max_load|waterproof_rating|lifespan|doors|volume|thickness|battery_life|gsm/;
+const HIGHER =
+  /r_value|lumens|capacity|fill_power|output|flow_rate|runtime|max_load|waterproof_rating|lifespan|doors|volume|thickness|battery_life|gsm/;
 const LOWER = /temp_rating|boil_time|pore_size|weight|price|packed|collapsed/;
 export function specDirection(key: string): 1 | -1 | 0 {
   if (LOWER.test(key)) return -1;

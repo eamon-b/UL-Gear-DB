@@ -24,11 +24,20 @@ export function SharedView({ data }: { data: string }) {
           <div className="muted small">Shared list · read-only</div>
           <h1 className="list-title-ro">{list.name}</h1>
         </div>
-        <button type="button" className="btn primary" onClick={() => {
-          const l = createList(list.name, list.items.map((i) => ({ ...i, uid: uid() })));
-          toast(`Copied "${list.name}" to your lists`);
-          navigate(`/lists/${l.id}`);
-        }}>Copy to my lists</button>
+        <button
+          type="button"
+          className="btn primary"
+          onClick={() => {
+            const l = createList(
+              list.name,
+              list.items.map((i) => ({ ...i, uid: uid() })),
+            );
+            toast(`Copied "${list.name}" to your lists`);
+            navigate(`/lists/${l.id}`);
+          }}
+        >
+          Copy to my lists
+        </button>
       </div>
       <ListEditor list={list} readOnly />
     </div>

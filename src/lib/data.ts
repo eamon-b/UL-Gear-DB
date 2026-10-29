@@ -74,7 +74,10 @@ export function searchItems(items: Item[], q: string, limit = Infinity): Item[] 
     let s = 0;
     for (const t of toks) {
       const idx = it.search.indexOf(t);
-      if (idx < 0) { ok = false; break; }
+      if (idx < 0) {
+        ok = false;
+        break;
+      }
       s += idx === 0 || it.search[idx - 1] === ' ' ? 2 : 1;
       if (it.name.toLowerCase().includes(t)) s += 1;
     }

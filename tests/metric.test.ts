@@ -5,11 +5,33 @@ import type { Item } from '../src/lib/types';
 import { loadTestDB } from './helpers';
 
 const item = (id: string, weight_g: number, price_usd: number | null, specs: Item['specs'] = {}, category = 'backpack'): Item => ({
-  id, category, subcategory: 'x', brand: 'B', model: id, variant: null, weight_g, weight_basis: 'manufacturer',
-  weight_note: null, price_usd, specs, url: null, discontinued: false, confidence: 'high', notes: null, name: id, search: id,
+  id,
+  category,
+  subcategory: 'x',
+  brand: 'B',
+  model: id,
+  variant: null,
+  weight_g,
+  weight_basis: 'manufacturer',
+  weight_note: null,
+  price_usd,
+  specs,
+  url: null,
+  discontinued: false,
+  confidence: 'high',
+  notes: null,
+  name: id,
+  search: id,
 });
 
-const vol: Metric = { key: 'volume_l', label: 'Volume', unit: 'L', dir: 1, ratio: true, get: (it) => (typeof it.specs.volume_l === 'number' ? it.specs.volume_l : null) };
+const vol: Metric = {
+  key: 'volume_l',
+  label: 'Volume',
+  unit: 'L',
+  dir: 1,
+  ratio: true,
+  get: (it) => (typeof it.specs.volume_l === 'number' ? it.specs.volume_l : null),
+};
 const temp: Metric = { ...vol, key: 't', dir: -1, get: (it) => (typeof it.specs.t === 'number' ? it.specs.t : null) };
 
 describe('paretoFrontier3', () => {
@@ -55,8 +77,11 @@ describe('paretoFrontier3', () => {
         const f3 = paretoFrontier3(pool, m);
         for (const id of f2) {
           if (f3.has(id)) continue;
-          const a = db.byId.get(id)!, v = m.get(a);
-          const tie = v != null && pool.some((b) => b.price_usd === a.price_usd && b.weight_g === a.weight_g && m.get(b) != null && m.get(b)! * m.dir > v * m.dir);
+          const a = db.byId.get(id)!,
+            v = m.get(a);
+          const tie =
+            v != null &&
+            pool.some((b) => b.price_usd === a.price_usd && b.weight_g === a.weight_g && m.get(b) != null && m.get(b)! * m.dir > v * m.dir);
           expect(tie, `${cat} ${m.key} ${id}`).toBe(true);
         }
       }
@@ -66,7 +91,10 @@ describe('paretoFrontier3', () => {
 
 describe('metricsFor', () => {
   it('derives power bank Wh from mAh when no Wh is listed', () => {
-    const pool = [item('pb', 200, 50, { capacity_mah: 10000 }, 'power'), item('pb2', 300, 80, { capacity_mah: 20000, capacity_wh: 72 }, 'power')];
+    const pool = [
+      item('pb', 200, 50, { capacity_mah: 10000 }, 'power'),
+      item('pb2', 300, 80, { capacity_mah: 20000, capacity_wh: 72 }, 'power'),
+    ];
     const [m] = metricsFor('power', pool);
     expect(m.key).toBe('energy_wh');
     expect(m.get(pool[0])).toBe(37);
@@ -74,7 +102,10 @@ describe('metricsFor', () => {
   });
 
   it('does not offer the specs a derived metric is built from', () => {
-    const pool = [item('pb', 200, 50, { capacity_mah: 10000, capacity_wh: 37, output_w: 18 }, 'power'), item('pb2', 300, 80, { capacity_mah: 20000, capacity_wh: 74, output_w: 20 }, 'power')];
+    const pool = [
+      item('pb', 200, 50, { capacity_mah: 10000, capacity_wh: 37, output_w: 18 }, 'power'),
+      item('pb2', 300, 80, { capacity_mah: 20000, capacity_wh: 74, output_w: 20 }, 'power'),
+    ];
     expect(metricsFor('power', pool).map((m) => m.key)).toEqual(['energy_wh', 'output_w']);
   });
 
@@ -86,15 +117,22 @@ describe('metricsFor', () => {
   it('has a default metric for the main categories in the real data', () => {
     const db = loadTestDB();
     const want: Record<string, string> = {
-      backpack: 'volume_l', 'sleep-insulation': 'temp_rating_f', 'sleeping-pad': 'r_value', shelter: 'capacity',
-      lighting: 'lumens', power: 'energy_wh', insulation: 'fill_weight_g', cookware: 'capacity_ml',
+      backpack: 'volume_l',
+      'sleep-insulation': 'temp_rating_f',
+      'sleeping-pad': 'r_value',
+      shelter: 'capacity',
+      lighting: 'lumens',
+      power: 'energy_wh',
+      insulation: 'fill_weight_g',
+      cookware: 'capacity_ml',
     };
     for (const [cat, key] of Object.entries(want)) expect(metricsFor(cat, db.byCategory.get(cat) ?? [])[0]?.key, cat).toBe(key);
   });
 });
 
 describe('defaultMetric', () => {
-  const vols = (n: number, withVol: number) => Array.from({ length: n }, (_, i) => item('p' + i, 500 + i, 100, i < withVol ? { volume_l: 30 + i } : {}));
+  const vols = (n: number, withVol: number) =>
+    Array.from({ length: n }, (_, i) => item('p' + i, 500 + i, 100, i < withVol ? { volume_l: 30 + i } : {}));
 
   it('is the first curated metric when most items have it', () => {
     expect(defaultMetric('backpack', vols(10, 7))?.key).toBe('volume_l');
@@ -117,7 +155,10 @@ describe('defaultMetric', () => {
 
 describe('stove boil time', () => {
   it('scales boil times quoted for other volumes to 1 L', () => {
-    const [m] = metricsFor('stove', [item('half', 80, 50, { boil_time_min: 1.75, boil_volume_l: 0.5 }, 'stove'), item('litre', 80, 50, { boil_time_min: 3.5 }, 'stove')]);
+    const [m] = metricsFor('stove', [
+      item('half', 80, 50, { boil_time_min: 1.75, boil_volume_l: 0.5 }, 'stove'),
+      item('litre', 80, 50, { boil_time_min: 3.5 }, 'stove'),
+    ]);
     expect(m.key).toBe('boil_time_min');
     expect(m.get(item('half', 80, 50, { boil_time_min: 1.75, boil_volume_l: 0.5 }, 'stove'))).toBe(3.5);
     expect(m.get(item('litre', 80, 50, { boil_time_min: 3.5 }, 'stove'))).toBe(3.5);

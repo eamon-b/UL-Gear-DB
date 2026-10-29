@@ -71,17 +71,33 @@ export function FilterPanel({ category, pool, filters: f, setFilters, unit, refI
         <button type="button" className={`btn ${open ? 'on' : ''}`} onClick={() => setOpen((o) => !o)} aria-expanded={open}>
           {open ? 'Hide' : 'More'} filters{n ? ` (${n})` : ''}
         </button>
-        {n > 0 && <button type="button" className="btn ghost" onClick={() => setFilters(defaults())}>Reset</button>}
-        <span className="muted count">{shown} / {pool.length} items</span>
+        {n > 0 && (
+          <button type="button" className="btn ghost" onClick={() => setFilters(defaults())}>
+            Reset
+          </button>
+        )}
+        <span className="muted count">
+          {shown} / {pool.length} items
+        </span>
       </div>
       {refItem && refSub && subcats.length > 1 && (
         <div className="filter-row scope" role="group" aria-label="Compare against">
           <span className="muted">Compare with:</span>
           <div className="seg">
-            <button type="button" className={`seg-opt ${sameTypeOnly ? 'on' : ''}`} aria-pressed={sameTypeOnly} onClick={() => up({ subcats: [refSub] })}>
+            <button
+              type="button"
+              className={`seg-opt ${sameTypeOnly ? 'on' : ''}`}
+              aria-pressed={sameTypeOnly}
+              onClick={() => up({ subcats: [refSub] })}
+            >
               Same type: {refSub} <span className="muted">{subCount(refSub)}</span>
             </button>
-            <button type="button" className={`seg-opt ${f.subcats.length === 0 ? 'on' : ''}`} aria-pressed={f.subcats.length === 0} onClick={() => up({ subcats: [] })}>
+            <button
+              type="button"
+              className={`seg-opt ${f.subcats.length === 0 ? 'on' : ''}`}
+              aria-pressed={f.subcats.length === 0}
+              onClick={() => up({ subcats: [] })}
+            >
               All {category ? category.name.toLowerCase() : 'types'} <span className="muted">{pool.length}</span>
             </button>
           </div>
@@ -91,7 +107,12 @@ export function FilterPanel({ category, pool, filters: f, setFilters, unit, refI
         <div className="filter-row chips">
           <span className="muted">Quick:</span>
           {CHIPS.map((c) => (
-            <button key={c.id} type="button" className={`chip ${f.chip === c.id ? 'on' : ''}`} onClick={() => up({ chip: f.chip === c.id ? null : c.id })}>
+            <button
+              key={c.id}
+              type="button"
+              className={`chip ${f.chip === c.id ? 'on' : ''}`}
+              onClick={() => up({ chip: f.chip === c.id ? null : c.id })}
+            >
               {c.label}
             </button>
           ))}
@@ -101,26 +122,57 @@ export function FilterPanel({ category, pool, filters: f, setFilters, unit, refI
         <div className="filter-grid">
           <div className="fg">
             <div className="fg-label">Weight</div>
-            <DualRange label="Weight" min={wExt[0]} max={wExt[1]} lo={f.wMin} hi={f.wMax} step={1} onChange={(lo, hi) => up({ wMin: lo, wMax: hi })} format={(v) => fmtW(v, unit)} />
+            <DualRange
+              label="Weight"
+              min={wExt[0]}
+              max={wExt[1]}
+              lo={f.wMin}
+              hi={f.wMax}
+              step={1}
+              onChange={(lo, hi) => up({ wMin: lo, wMax: hi })}
+              format={(v) => fmtW(v, unit)}
+            />
           </div>
           {pExt[1] > pExt[0] && (
             <div className="fg">
               <div className="fg-label">Price</div>
-              <DualRange label="Price" min={pExt[0]} max={pExt[1]} lo={f.pMin} hi={f.pMax} step={1} onChange={(lo, hi) => up({ pMin: lo, pMax: hi })} format={(v) => fmtPrice(v)} />
+              <DualRange
+                label="Price"
+                min={pExt[0]}
+                max={pExt[1]}
+                lo={f.pMin}
+                hi={f.pMax}
+                step={1}
+                onChange={(lo, hi) => up({ pMin: lo, pMax: hi })}
+                format={(v) => fmtPrice(v)}
+              />
             </div>
           )}
           <div className="fg">
             <div className="fg-label">Options</div>
-            <label className="tog"><input type="checkbox" checked={f.hideDisc} onChange={(e) => up({ hideDisc: e.target.checked })} /> Hide discontinued</label>
-            <label className="tog"><input type="checkbox" checked={f.hideNoPrice} onChange={(e) => up({ hideNoPrice: e.target.checked })} /> Hide unknown price</label>
-            <label className="tog"><input type="checkbox" checked={f.frontierOnly} onChange={(e) => up({ frontierOnly: e.target.checked })} /> Pareto frontier only</label>
+            <label className="tog">
+              <input type="checkbox" checked={f.hideDisc} onChange={(e) => up({ hideDisc: e.target.checked })} /> Hide discontinued
+            </label>
+            <label className="tog">
+              <input type="checkbox" checked={f.hideNoPrice} onChange={(e) => up({ hideNoPrice: e.target.checked })} /> Hide unknown price
+            </label>
+            <label className="tog">
+              <input type="checkbox" checked={f.frontierOnly} onChange={(e) => up({ frontierOnly: e.target.checked })} /> Pareto frontier
+              only
+            </label>
           </div>
           <div className="fg">
             <div className="fg-label">Confidence</div>
             <div className="seg">
               {(['high', 'medium', 'low'] as const).map((c) => (
                 <label key={c} className={`seg-opt ${f.confidence.includes(c) ? 'on' : ''}`}>
-                  <input type="checkbox" checked={f.confidence.includes(c)} onChange={() => up({ confidence: f.confidence.includes(c) ? f.confidence.filter((x) => x !== c) : [...f.confidence, c] })} />
+                  <input
+                    type="checkbox"
+                    checked={f.confidence.includes(c)}
+                    onChange={() =>
+                      up({ confidence: f.confidence.includes(c) ? f.confidence.filter((x) => x !== c) : [...f.confidence, c] })
+                    }
+                  />
                   {c}
                 </label>
               ))}
@@ -134,10 +186,14 @@ export function FilterPanel({ category, pool, filters: f, setFilters, unit, refI
                 <div className="fg" key={m.key}>
                   <div className="fg-label">{humanizeKey(m.key)}</div>
                   <DualRange
-                    label={humanizeKey(m.key)} min={m.min} max={m.max}
+                    label={humanizeKey(m.key)}
+                    min={m.min}
+                    max={m.max}
                     lo={cur?.type === 'range' && cur.min > m.min ? cur.min : null}
                     hi={cur?.type === 'range' && cur.max < m.max ? cur.max : null}
-                    onChange={(lo, hi) => setSpec(m.key, lo == null && hi == null ? null : { type: 'range', min: lo ?? m.min, max: hi ?? m.max })}
+                    onChange={(lo, hi) =>
+                      setSpec(m.key, lo == null && hi == null ? null : { type: 'range', min: lo ?? m.min, max: hi ?? m.max })
+                    }
                     format={(v) => (isW ? `${Math.round(toUnit(v, 'g'))} g` : fmtNum(v))}
                   />
                 </div>
@@ -150,7 +206,12 @@ export function FilterPanel({ category, pool, filters: f, setFilters, unit, refI
                   <div className="fg-label">{humanizeKey(m.key)}</div>
                   <div className="seg">
                     {([null, true, false] as const).map((v) => (
-                      <button key={String(v)} type="button" className={`seg-opt ${val === v ? 'on' : ''}`} onClick={() => setSpec(m.key, v == null ? null : { type: 'bool', value: v })}>
+                      <button
+                        key={String(v)}
+                        type="button"
+                        className={`seg-opt ${val === v ? 'on' : ''}`}
+                        onClick={() => setSpec(m.key, v == null ? null : { type: 'bool', value: v })}
+                      >
                         {v == null ? 'Any' : v ? 'Yes' : 'No'}
                       </button>
                     ))}
@@ -162,7 +223,8 @@ export function FilterPanel({ category, pool, filters: f, setFilters, unit, refI
               <div className="fg" key={m.key}>
                 <div className="fg-label">{humanizeKey(m.key)}</div>
                 <MultiSelect
-                  label="" options={m.values}
+                  label=""
+                  options={m.values}
                   value={cur?.type === 'set' ? cur.values : []}
                   onChange={(v) => setSpec(m.key, v.length ? { type: 'set', values: v } : null)}
                 />
@@ -177,8 +239,12 @@ export function FilterPanel({ category, pool, filters: f, setFilters, unit, refI
 
 function extent(xs: number[]): [number, number] {
   if (!xs.length) return [0, 0];
-  let a = Infinity, b = -Infinity;
-  for (const x of xs) { if (x < a) a = x; if (x > b) b = x; }
+  let a = Infinity,
+    b = -Infinity;
+  for (const x of xs) {
+    if (x < a) a = x;
+    if (x > b) b = x;
+  }
   return [Math.floor(a), Math.ceil(b)];
 }
 const fmtNum = (v: number) => (Math.abs(v) >= 100 ? Math.round(v).toLocaleString('en-US') : String(Math.round(v * 100) / 100));

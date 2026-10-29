@@ -20,7 +20,16 @@ export default function App() {
   useEffect(() => {
     loadDB().then(setDb, (e) => setErr(String(e)));
   }, []);
-  if (err) return <div className="page"><h1>Could not load data</h1><p className="warn">{err}</p><p>Run <code>npm run data</code> to generate <code>public/data/gear.json</code>.</p></div>;
+  if (err)
+    return (
+      <div className="page">
+        <h1>Could not load data</h1>
+        <p className="warn">{err}</p>
+        <p>
+          Run <code>npm run data</code> to generate <code>public/data/gear.json</code>.
+        </p>
+      </div>
+    );
   if (!db) return <div className="loading">Loading gear database…</div>;
   return (
     <StoreProvider db={db}>
@@ -32,24 +41,48 @@ export default function App() {
 function Shell() {
   const route = useRoute();
   const [head, a] = route.path;
-  useEffect(() => { window.scrollTo(0, 0); }, [head, a]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [head, a]);
   let section = 'browse';
   let page: JSX.Element;
   switch (head) {
-    case 'c': page = <BrowsePage catId={a} />; break;
-    case 'search': page = <SearchPage q={route.query.get('q') ?? ''} />; break;
-    case 'compare': section = 'compare'; page = <CompareView idsParam={route.query.get('ids')} />; break;
-    case 'lists': section = 'lists'; page = <ListsPage listId={a} />; break;
-    case 'examples': section = 'examples'; page = <ExamplesPage />; break;
-    case 'share': section = 'lists'; page = <SharedView data={route.path.slice(1).join('/')} />; break;
-    case 'about': section = 'about'; page = <AboutPage />; break;
-    default: page = <BrowsePage />;
+    case 'c':
+      page = <BrowsePage catId={a} />;
+      break;
+    case 'search':
+      page = <SearchPage q={route.query.get('q') ?? ''} />;
+      break;
+    case 'compare':
+      section = 'compare';
+      page = <CompareView idsParam={route.query.get('ids')} />;
+      break;
+    case 'lists':
+      section = 'lists';
+      page = <ListsPage listId={a} />;
+      break;
+    case 'examples':
+      section = 'examples';
+      page = <ExamplesPage />;
+      break;
+    case 'share':
+      section = 'lists';
+      page = <SharedView data={route.path.slice(1).join('/')} />;
+      break;
+    case 'about':
+      section = 'about';
+      page = <AboutPage />;
+      break;
+    default:
+      page = <BrowsePage />;
   }
   return (
     <>
       <Header section={section} />
       {/* keyed on the path (not the query, which search rewrites per keystroke) so navigating away recovers from a page that threw */}
-      <main><ErrorBoundary key={route.path.join('/')}>{page}</ErrorBoundary></main>
+      <main>
+        <ErrorBoundary key={route.path.join('/')}>{page}</ErrorBoundary>
+      </main>
       <ItemDrawer />
       {section !== 'compare' && <CompareTray />}
     </>

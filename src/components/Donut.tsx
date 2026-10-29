@@ -24,13 +24,16 @@ export function Breakdown({ t, order, unit }: { t: Totals; order: string[]; unit
   }
   const segs = [...folded.values()].filter((s) => s.v > 0).sort((a, b) => a.slot - b.slot);
   const sum = segs.reduce((s, x) => s + x.v, 0);
-  const R = 62, r = 40, C = 80;
+  const R = 62,
+    r = 40,
+    C = 80;
   let a0 = -Math.PI / 2;
   const gap = segs.length > 1 ? 0.025 : 0;
   const arcs = segs.map((s) => {
     const span = (s.v / sum) * Math.PI * 2;
     const a1 = a0 + span;
-    const from = a0 + gap / 2, to = Math.max(from + 0.001, a1 - gap / 2);
+    const from = a0 + gap / 2,
+      to = Math.max(from + 0.001, a1 - gap / 2);
     a0 = a1;
     return { s, d: arcPath(C, C, R, r, from, to) };
   });
@@ -39,25 +42,44 @@ export function Breakdown({ t, order, unit }: { t: Totals; order: string[]; unit
       <div className="bd-head">
         <strong>By category</strong>
         <div className="seg small">
-          <button type="button" className={`seg-opt ${metric === 'total' ? 'on' : ''}`} onClick={() => setMetric('total')}>Total</button>
-          <button type="button" className={`seg-opt ${metric === 'base' ? 'on' : ''}`} onClick={() => setMetric('base')}>Base</button>
+          <button type="button" className={`seg-opt ${metric === 'total' ? 'on' : ''}`} onClick={() => setMetric('total')}>
+            Total
+          </button>
+          <button type="button" className={`seg-opt ${metric === 'base' ? 'on' : ''}`} onClick={() => setMetric('base')}>
+            Base
+          </button>
         </div>
       </div>
       <div className="bd-body">
         <svg className="bd-donut" viewBox="0 0 160 160" width="160" height="160" role="img" aria-label="Weight by category">
           {sum === 0 && <circle cx={C} cy={C} r={(R + r) / 2} fill="none" stroke="var(--line)" strokeWidth={R - r} />}
           {arcs.map(({ s, d }) => (
-            <path key={s.cat} d={d} className={`slot-${s.slot}`} opacity={hover && hover !== s.cat ? 0.35 : 1}
-              onMouseEnter={() => setHover(s.cat)} onMouseLeave={() => setHover(null)}>
+            <path
+              key={s.cat}
+              d={d}
+              className={`slot-${s.slot}`}
+              opacity={hover && hover !== s.cat ? 0.35 : 1}
+              onMouseEnter={() => setHover(s.cat)}
+              onMouseLeave={() => setHover(null)}
+            >
               <title>{`${s.cat}: ${fmtW(s.v, unit)} (${((s.v / sum) * 100).toFixed(0)}%)`}</title>
             </path>
           ))}
-          <text x={C} y={C - 2} textAnchor="middle" className="donut-v">{fmtW(hover ? folded.get(hover)?.v ?? 0 : sum, unit)}</text>
-          <text x={C} y={C + 14} textAnchor="middle" className="donut-l">{hover ?? (metric === 'base' ? 'base' : 'total')}</text>
+          <text x={C} y={C - 2} textAnchor="middle" className="donut-v">
+            {fmtW(hover ? (folded.get(hover)?.v ?? 0) : sum, unit)}
+          </text>
+          <text x={C} y={C + 14} textAnchor="middle" className="donut-l">
+            {hover ?? (metric === 'base' ? 'base' : 'total')}
+          </text>
         </svg>
         <div className="bd-legend">
           {segs.map((s) => (
-            <div key={s.cat} onMouseEnter={() => setHover(s.cat)} onMouseLeave={() => setHover(null)} className={`bd-row ${hover === s.cat ? 'hi' : ''}`}>
+            <div
+              key={s.cat}
+              onMouseEnter={() => setHover(s.cat)}
+              onMouseLeave={() => setHover(null)}
+              className={`bd-row ${hover === s.cat ? 'hi' : ''}`}
+            >
               <i className={`sw slot-bg-${s.slot}`} />
               <span className="bd-cat">{s.cat}</span>
               <span className="num">{fmtW(s.v, unit)}</span>

@@ -19,11 +19,24 @@ export interface LPRow {
 }
 
 const UNIT_G: Record<string, number> = {
-  g: 1, gram: 1, grams: 1, kg: 1000, kilogram: 1000, kilograms: 1000,
-  oz: 28.3495, ounce: 28.3495, ounces: 28.3495, lb: 453.592, lbs: 453.592, pound: 453.592, pounds: 453.592,
+  g: 1,
+  gram: 1,
+  grams: 1,
+  kg: 1000,
+  kilogram: 1000,
+  kilograms: 1000,
+  oz: 28.3495,
+  ounce: 28.3495,
+  ounces: 28.3495,
+  lb: 453.592,
+  lbs: 453.592,
+  pound: 453.592,
+  pounds: 453.592,
 };
 const truthy = (v: unknown) => {
-  const s = String(v ?? '').trim().toLowerCase();
+  const s = String(v ?? '')
+    .trim()
+    .toLowerCase();
   return !!s && !['0', 'false', 'no', 'n', 'off'].includes(s);
 };
 const num = (v: unknown) => {
@@ -32,7 +45,11 @@ const num = (v: unknown) => {
 };
 
 export function parseLighterPackCSV(text: string): { rows: LPRow[]; errors: string[] } {
-  const res = Papa.parse<Record<string, string>>(text.replace(/^﻿/, ''), { header: true, skipEmptyLines: 'greedy', transformHeader: (h) => h.trim() });
+  const res = Papa.parse<Record<string, string>>(text.replace(/^﻿/, ''), {
+    header: true,
+    skipEmptyLines: 'greedy',
+    transformHeader: (h) => h.trim(),
+  });
   const errors = res.errors.slice(0, 5).map((e) => `Row ${e.row}: ${e.message}`);
   const fields = (res.meta.fields ?? []).map((f) => f.toLowerCase());
   const pick = (r: Record<string, string>, ...names: string[]) => {
@@ -75,7 +92,7 @@ export function exportLighterPackCSV(l: PackList, db: DB, unit: Unit): string {
     return [
       r.name,
       r.cat,
-      li.custom?.desc ?? (r.item ? r.item.weight_note ?? '' : ''),
+      li.custom?.desc ?? (r.item ? (r.item.weight_note ?? '') : ''),
       li.qty,
       unit === 'g' ? Math.round(w) : Math.round(w * 100) / 100,
       UNIT_LABEL[unit],
@@ -107,7 +124,10 @@ function tokens(s: string): string[] {
 
 /** "Hyperlite Mountain Gear" -> "hmg" */
 function acronym(brand: string) {
-  const w = brand.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+  const w = brand
+    .toLowerCase()
+    .split(/[^a-z0-9]+/)
+    .filter(Boolean);
   return w.length >= 2 ? w.map((x) => x[0]).join('') : null;
 }
 
@@ -125,7 +145,9 @@ function getIndex(db: DB) {
   let ix = indexCache.get(db);
   if (!ix) {
     const list: Indexed[] = db.items.map((it) => {
-      const brand = tokens(it.brand), model = tokens(it.model), variant = tokens(it.variant ?? '');
+      const brand = tokens(it.brand),
+        model = tokens(it.model),
+        variant = tokens(it.variant ?? '');
       return { it, brand, model, variant, joined: [...brand, ...model].join(''), acr: acronym(it.brand) };
     });
     const byTok = new Map<string, Indexed[]>();
@@ -184,7 +206,10 @@ export function matchItem(name: string, desc: string, weightG: number | null, db
     // fraction of the user's name tokens explained by this item
     const itemToks = [...e.brand, ...e.model, ...e.variant];
     if (e.acr) itemToks.push(e.acr);
-    const explained = qName.length ? qName.filter((q) => itemToks.some((t) => t === q || (q.length >= 3 && t.length >= 3 && (t.startsWith(q) || q.startsWith(t))))).length / qName.length : 0;
+    const explained = qName.length
+      ? qName.filter((q) => itemToks.some((t) => t === q || (q.length >= 3 && t.length >= 3 && (t.startsWith(q) || q.startsWith(t)))))
+          .length / qName.length
+      : 0;
     let s = 0.35 * mCov + 0.25 * explained + 0.2 * bCov + 0.12 * firstModel + 0.08 * vCov;
     if (e.joined.length >= 5 && qJoined.includes(e.joined)) s += 0.05;
     if (weightG && weightG > 0) {
@@ -225,8 +250,12 @@ export function reviewToItems(rev: ReviewRow[]): ListItem[] {
     return {
       ...base,
       custom: {
-        name: row.name, category: row.category, weight_g: Math.round(row.weight_g), price_usd: row.price,
-        ...(row.url ? { url: row.url } : {}), ...(row.desc ? { desc: row.desc } : {}),
+        name: row.name,
+        category: row.category,
+        weight_g: Math.round(row.weight_g),
+        price_usd: row.price,
+        ...(row.url ? { url: row.url } : {}),
+        ...(row.desc ? { desc: row.desc } : {}),
       },
     };
   });

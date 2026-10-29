@@ -32,32 +32,64 @@ export function ItemDrawer() {
       <aside className="drawer" role="dialog" aria-label={it.name} onClick={(e) => e.stopPropagation()}>
         <header className="drawer-head">
           <div>
-            <div className="muted small">{cat?.name} · {it.subcategory}</div>
-            <h2>{it.brand} {it.model}</h2>
+            <div className="muted small">
+              {cat?.name} · {it.subcategory}
+            </div>
+            <h2>
+              {it.brand} {it.model}
+            </h2>
             {it.variant && <div className="variant">{it.variant}</div>}
           </div>
-          <button type="button" className="icon-btn" onClick={() => openItem(null)} aria-label="Close">✕</button>
+          <button type="button" className="icon-btn" onClick={() => openItem(null)} aria-label="Close">
+            ✕
+          </button>
         </header>
         <div className="drawer-stats">
-          <div><div className="stat-v">{fmtW(it.weight_g, unit)}</div><div className="stat-l">{it.weight_basis} weight</div></div>
-          <div><div className="stat-v">{fmtPrice(it.price_usd)}</div><div className="stat-l">list price</div></div>
-          {m && mv != null && <div><div className="stat-v">{fmtMetric(mv, m)}</div><div className="stat-l">{m.label.toLowerCase()}</div></div>}
-          <div><div className={`stat-v conf-${it.confidence}`}>{it.confidence}</div><div className="stat-l">confidence</div></div>
+          <div>
+            <div className="stat-v">{fmtW(it.weight_g, unit)}</div>
+            <div className="stat-l">{it.weight_basis} weight</div>
+          </div>
+          <div>
+            <div className="stat-v">{fmtPrice(it.price_usd)}</div>
+            <div className="stat-l">list price</div>
+          </div>
+          {m && mv != null && (
+            <div>
+              <div className="stat-v">{fmtMetric(mv, m)}</div>
+              <div className="stat-l">{m.label.toLowerCase()}</div>
+            </div>
+          )}
+          <div>
+            <div className={`stat-v conf-${it.confidence}`}>{it.confidence}</div>
+            <div className="stat-l">confidence</div>
+          </div>
         </div>
-        {it.weight_note && <p className="small"><strong>Weight includes:</strong> {it.weight_note}</p>}
+        {it.weight_note && (
+          <p className="small">
+            <strong>Weight includes:</strong> {it.weight_note}
+          </p>
+        )}
         {it.discontinued && <p className="warn small">Discontinued</p>}
         <div className="drawer-actions">
-          <button type="button" className="btn primary" onClick={() => addToList(it.id)}>＋ Add to {activeList ? `"${activeList.name}"` : 'a new list'}</button>
+          <button type="button" className="btn primary" onClick={() => addToList(it.id)}>
+            ＋ Add to {activeList ? `"${activeList.name}"` : 'a new list'}
+          </button>
           <button type="button" className={`btn ${compare.includes(it.id) ? 'on' : ''}`} onClick={() => toggleCompare(it.id)}>
             {compare.includes(it.id) ? '✓ In compare' : 'Compare'}
           </button>
-          {it.url && <a className="btn" href={it.url} target="_blank" rel="noopener noreferrer">Source ↗</a>}
+          {it.url && (
+            <a className="btn" href={it.url} target="_blank" rel="noopener noreferrer">
+              Source ↗
+            </a>
+          )}
         </div>
         {lists.length > 1 && (
           <div className="small muted">
             Add to:{' '}
             {lists.map((l) => (
-              <button key={l.id} type="button" className="link" onClick={() => addToList(it.id, l.id)}>{l.name}</button>
+              <button key={l.id} type="button" className="link" onClick={() => addToList(it.id, l.id)}>
+                {l.name}
+              </button>
             ))}
           </div>
         )}
@@ -65,15 +97,36 @@ export function ItemDrawer() {
         <table className="kv">
           <tbody>
             {Object.entries(it.specs).map(([k, v]) => (
-              <tr key={k}><th>{humanizeKey(k)}</th><td>{fmtSpec(v)}</td></tr>
+              <tr key={k}>
+                <th>{humanizeKey(k)}</th>
+                <td>{fmtSpec(v)}</td>
+              </tr>
             ))}
-            {!Object.keys(it.specs).length && <tr><td className="muted">No specs recorded</td></tr>}
-            <tr><th>ID</th><td><code>{it.id}</code></td></tr>
+            {!Object.keys(it.specs).length && (
+              <tr>
+                <td className="muted">No specs recorded</td>
+              </tr>
+            )}
+            <tr>
+              <th>ID</th>
+              <td>
+                <code>{it.id}</code>
+              </td>
+            </tr>
           </tbody>
         </table>
-        {it.notes && <><h3>Notes</h3><p className="small">{it.notes}</p></>}
+        {it.notes && (
+          <>
+            <h3>Notes</h3>
+            <p className="small">{it.notes}</p>
+          </>
+        )}
         {lighter.length > 0 && <LighterList items={lighter} base={it} unit={unit} />}
-        <p className="small"><a href={href(`/c/${it.category}`)} onClick={() => openItem(null)}>Browse all {cat?.name.toLowerCase()} →</a></p>
+        <p className="small">
+          <a href={href(`/c/${it.category}`)} onClick={() => openItem(null)}>
+            Browse all {cat?.name.toLowerCase()} →
+          </a>
+        </p>
       </aside>
     </div>
   );
@@ -87,8 +140,13 @@ function LighterList({ items, base, unit }: { items: Item[]; base: Item; unit: U
       <ul className="mini-list">
         {items.map((x) => (
           <li key={x.id}>
-            <button type="button" className="link" onClick={() => openItem(x.id)}>{x.name}</button>
-            <span className="muted"> {fmtW(x.weight_g, unit)} · {fmtPrice(x.price_usd)} · <span className="good">−{fmtW(base.weight_g - x.weight_g, unit)}</span></span>
+            <button type="button" className="link" onClick={() => openItem(x.id)}>
+              {x.name}
+            </button>
+            <span className="muted">
+              {' '}
+              {fmtW(x.weight_g, unit)} · {fmtPrice(x.price_usd)} · <span className="good">−{fmtW(base.weight_g - x.weight_g, unit)}</span>
+            </span>
           </li>
         ))}
       </ul>

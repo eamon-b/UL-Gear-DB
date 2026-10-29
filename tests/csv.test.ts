@@ -1,7 +1,15 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { buildReview, exportLighterPackCSV, LP_COLUMNS, matchItem, MATCH_THRESHOLD, parseLighterPackCSV, reviewToItems } from '../src/lib/csv';
+import {
+  buildReview,
+  exportLighterPackCSV,
+  LP_COLUMNS,
+  matchItem,
+  MATCH_THRESHOLD,
+  parseLighterPackCSV,
+  reviewToItems,
+} from '../src/lib/csv';
 import { resolve, totals } from '../src/lib/lists';
 import type { ListItem, PackList } from '../src/lib/types';
 import { loadTestDB, ROOT } from './helpers';
@@ -67,10 +75,14 @@ describe('parseLighterPackCSV', () => {
   });
 
   it('strips a BOM, tolerates header case/spacing, CRLF, and blank lines', () => {
-    const text = '﻿ Item Name , CATEGORY ,Desc,Qty,Weight,Unit,URL,Price,Worn,Consumable\r\nPack,Packs,,1,20,oz,,,,\r\n\r\n,,,,,,,,,\r\nQuilt,Sleep,,1,1,lb,,,,\r\n';
+    const text =
+      '﻿ Item Name , CATEGORY ,Desc,Qty,Weight,Unit,URL,Price,Worn,Consumable\r\nPack,Packs,,1,20,oz,,,,\r\n\r\n,,,,,,,,,\r\nQuilt,Sleep,,1,1,lb,,,,\r\n';
     const { rows, errors } = parseLighterPackCSV(text);
     expect(errors).toEqual([]);
-    expect(rows.map((r) => [r.name, r.category, r.weight_g])).toEqual([['Pack', 'Packs', 567], ['Quilt', 'Sleep', 453.6]]);
+    expect(rows.map((r) => [r.name, r.category, r.weight_g])).toEqual([
+      ['Pack', 'Packs', 567],
+      ['Quilt', 'Sleep', 453.6],
+    ]);
   });
 
   it('fills an empty category and skips nameless rows', () => {
@@ -109,7 +121,7 @@ describe('review and import', () => {
       } else {
         expect(!r.matches[0] || r.matches[0].score < MATCH_THRESHOLD).toBe(true);
       }
-      for (const m of r.matches) expect(m.score).toBeGreaterThanOrEqual(0), expect(m.score).toBeLessThanOrEqual(1);
+      for (const m of r.matches) (expect(m.score).toBeGreaterThanOrEqual(0), expect(m.score).toBeLessThanOrEqual(1));
     }
     expect(rev.filter((r) => r.choice).length).toBeGreaterThan(0);
   });
@@ -135,8 +147,20 @@ describe('review and import', () => {
   it('custom rows keep the CSV name, weight, price, url and desc', () => {
     const rev = buildReview(rows, db).map((r) => ({ ...r, choice: '' }));
     const items = reviewToItems(rev);
-    expect(items[0].custom).toEqual({ name: 'Zpacks Duplex', category: 'Big Three', weight_g: 539, price_usd: 699, url: 'https://zpacks.com', desc: 'DCF tent' });
-    expect(items.find((i) => i.custom?.name === 'Sawyer Squeeze')!.custom).toEqual({ name: 'Sawyer Squeeze', category: 'Water', weight_g: 85, price_usd: 40 });
+    expect(items[0].custom).toEqual({
+      name: 'Zpacks Duplex',
+      category: 'Big Three',
+      weight_g: 539,
+      price_usd: 699,
+      url: 'https://zpacks.com',
+      desc: 'DCF tent',
+    });
+    expect(items.find((i) => i.custom?.name === 'Sawyer Squeeze')!.custom).toEqual({
+      name: 'Sawyer Squeeze',
+      category: 'Water',
+      weight_g: 85,
+      price_usd: 40,
+    });
   });
 
   it('matched rows use the DB weight unless "keep my weight" is set', () => {

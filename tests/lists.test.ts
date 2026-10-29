@@ -8,7 +8,9 @@ const opts = { sameSub: false, fullPrice: true, hideDisc: false };
 describe('qty 0 lines', () => {
   const db = loadTestDB();
   // heaviest priced item in a category that has lighter alternatives
-  const heavy = [...db.items].filter((i) => i.price_usd != null).sort((a, b) => b.weight_g - a.weight_g)
+  const heavy = [...db.items]
+    .filter((i) => i.price_usd != null)
+    .sort((a, b) => b.weight_g - a.weight_g)
     .find((i) => swapCandidates(resolve(newListItem(i.id), db), db, opts).length > 0)!;
 
   it('count nothing in totals', () => {
