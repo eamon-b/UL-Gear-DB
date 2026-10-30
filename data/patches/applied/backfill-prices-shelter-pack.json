@@ -1,0 +1,202 @@
+{
+  "updates": [
+    {
+      "id": "mountain-laurel-designs-duomid-dcf",
+      "set": {
+        "price_usd": 600
+      }
+    },
+    {
+      "id": "mountain-laurel-designs-duomid-xl-dcf",
+      "set": {
+        "price_usd": 785
+      }
+    },
+    {
+      "id": "mountain-laurel-designs-solomid-xl-dcf",
+      "set": {
+        "price_usd": 565
+      }
+    },
+    {
+      "id": "mountain-laurel-designs-littlestar-dcf",
+      "set": {
+        "price_usd": 445
+      }
+    },
+    {
+      "id": "atom-packs-atom-re30",
+      "set": {
+        "price_usd": 199
+      }
+    },
+    {
+      "id": "atom-packs-atom-re40",
+      "set": {
+        "price_usd": 210
+      }
+    },
+    {
+      "id": "atom-packs-pulse-ep40",
+      "set": {
+        "price_usd": 295
+      }
+    },
+    {
+      "id": "atom-packs-notch-ep50",
+      "set": {
+        "price_usd": 318
+      }
+    },
+    {
+      "id": "atom-packs-prospector-ep50",
+      "set": {
+        "price_usd": 329
+      }
+    },
+    {
+      "id": "atom-packs-prospector-ep60",
+      "set": {
+        "price_usd": 352
+      }
+    },
+    {
+      "id": "atom-packs-transition-ul35",
+      "set": {
+        "price_usd": 301
+      }
+    },
+    {
+      "id": "atom-packs-nanu-re25",
+      "set": {
+        "price_usd": 278
+      }
+    },
+    {
+      "id": "locus-gear-khufu-dcf",
+      "set": {
+        "price_usd": 563
+      }
+    },
+    {
+      "id": "locus-gear-khufu-hb",
+      "set": {
+        "price_usd": 241
+      }
+    },
+    {
+      "id": "locus-gear-khufu-tyvek",
+      "set": {
+        "price_usd": 214
+      }
+    },
+    {
+      "id": "locus-gear-hapi-dcf",
+      "set": {
+        "price_usd": 576
+      }
+    },
+    {
+      "id": "locus-gear-khafra-dcf",
+      "set": {
+        "price_usd": 722
+      }
+    },
+    {
+      "id": "locus-gear-khafra-hb",
+      "set": {
+        "price_usd": 285
+      }
+    },
+    {
+      "id": "locus-gear-djedi-dcf",
+      "set": {
+        "price_usd": 937
+      }
+    },
+    {
+      "id": "locus-gear-tarp-x-solo-sil",
+      "set": {
+        "price_usd": 60
+      }
+    },
+    {
+      "id": "locus-gear-tarp-x-duo-sil",
+      "set": {
+        "price_usd": 106
+      }
+    },
+    {
+      "id": "nordisk-telemark-2-2-lw",
+      "set": {
+        "price_usd": 835
+      }
+    },
+    {
+      "id": "the-north-face-assault-2-futurelight",
+      "set": {
+        "price_usd": 880
+      }
+    },
+    {
+      "id": "rei-co-op-flash-air-2",
+      "set": {
+        "price_usd": 429
+      }
+    },
+    {
+      "id": "rei-co-op-trailmade-2",
+      "set": {
+        "price_usd": 199
+      }
+    },
+    {
+      "id": "dutchware-netless-hammock-11ft",
+      "set": {
+        "price_usd": 69
+      }
+    },
+    {
+      "id": "liteway-pyraomm-solo-mesh",
+      "set": {
+        "price_usd": 209.43
+      }
+    },
+    {
+      "id": "liteway-pyraomm-duo-tarp-dcf",
+      "set": {
+        "price_usd": 876.33
+      }
+    },
+    {
+      "id": "liteway-illusion-duo-tent",
+      "set": {
+        "price_usd": 525.33
+      }
+    },
+    {
+      "id": "liteway-urban-pro-pack-18l-ultragrid",
+      "set": {
+        "price_usd": 197.73
+      }
+    },
+    {
+      "id": "liteway-urban-pro-pack-30l-ultragrid",
+      "set": {
+        "price_usd": 232.83
+      }
+    },
+    {
+      "id": "northern-ultralight-sundown-48",
+      "set": {
+        "price_usd": 299
+      }
+    },
+    {
+      "id": "northern-ultralight-dreamline",
+      "set": {
+        "price_usd": 453
+      }
+    }
+  ]
+}

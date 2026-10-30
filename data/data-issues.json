@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T10:21:04.246Z",
-  "records": 3107,
+  "generated_at": "2026-10-29T09:59:32.862Z",
+  "records": 3106,
   "records_flagged": 151,
   "counts": {
     "weight-outlier": 50,
@@ -268,23 +268,6 @@
     },
     {
       "type": "weight-outlier",
-      "score": 57,
-      "id": "hydro-flask-32oz-wide-mouth",
-      "file": "water-storage.json",
-      "index": 55,
-      "name": "Hydro Flask Wide Mouth 32 oz",
-      "category": "water-storage",
-      "subcategory": "bottle",
-      "weight_g": 431,
-      "price_usd": 44.95,
-      "message": "weight 431 g is 7.2x the bottle median (60 g, n=18)",
-      "details": {
-        "median_g": 60,
-        "ratio": 7.18
-      }
-    },
-    {
-      "type": "weight-outlier",
       "score": 56,
       "id": "mayfly-ultralight-equipment-imago",
       "file": "footwear.json",
@@ -335,20 +318,20 @@
       }
     },
     {
-      "type": "price-per-gram",
-      "score": 54,
-      "id": "msr-aquatabs-10",
-      "file": "water-treatment.json",
-      "index": 46,
-      "name": "MSR Aquatabs sleeve of 10",
-      "category": "water-treatment",
-      "subcategory": "chemical",
-      "weight_g": 2,
-      "price_usd": 14.95,
-      "message": "$14.95 for 2 g is 23.2x the chemical median $/g (0.322 $/g, n=6)",
+      "type": "weight-outlier",
+      "score": 55,
+      "id": "hydro-flask-32oz-wide-mouth",
+      "file": "water-storage.json",
+      "index": 54,
+      "name": "Hydro Flask Wide Mouth 32 oz",
+      "category": "water-storage",
+      "subcategory": "bottle",
+      "weight_g": 431,
+      "price_usd": 44.95,
+      "message": "weight 431 g is 6.8x the bottle median (63 g, n=17)",
       "details": {
-        "usd_per_g": 7.475,
-        "median_usd_per_g": 0.3223
+        "median_g": 63,
+        "ratio": 6.84
       }
     },
     {
@@ -370,19 +353,19 @@
     },
     {
       "type": "weight-outlier",
-      "score": 51,
+      "score": 50,
       "id": "hydro-flask-21oz-standard-mouth",
       "file": "water-storage.json",
-      "index": 56,
+      "index": 55,
       "name": "Hydro Flask Standard Mouth 21 oz",
       "category": "water-storage",
       "subcategory": "bottle",
       "weight_g": 357,
       "price_usd": 34.95,
-      "message": "weight 357 g is 6.0x the bottle median (60 g, n=18)",
+      "message": "weight 357 g is 5.7x the bottle median (63 g, n=17)",
       "details": {
-        "median_g": 60,
-        "ratio": 5.95
+        "median_g": 63,
+        "ratio": 5.67
       }
     },
     {
@@ -611,7 +594,7 @@
       "score": 44,
       "id": "hydrapak-seeker-6l",
       "file": "water-storage.json",
-      "index": 43,
+      "index": 42,
       "name": "HydraPak Seeker 6L",
       "category": "water-storage",
       "subcategory": "soft bottle",
@@ -1165,6 +1148,23 @@
       "details": {
         "usd_per_g": 0.0777,
         "median_usd_per_g": 0.6993
+      }
+    },
+    {
+      "type": "price-per-gram",
+      "score": 38,
+      "id": "msr-aquatabs-10",
+      "file": "water-treatment.json",
+      "index": 46,
+      "name": "MSR Aquatabs sleeve of 10",
+      "category": "water-treatment",
+      "subcategory": "chemical",
+      "weight_g": 2,
+      "price_usd": 14.95,
+      "message": "$14.95 for 2 g is 9.0x the chemical median $/g (0.834 $/g, n=8)",
+      "details": {
+        "usd_per_g": 7.475,
+        "median_usd_per_g": 0.8345
       }
     },
     {
@@ -1779,7 +1779,7 @@
       "category": "pack-organization",
       "subcategory": "dry bag",
       "weight_g": 82,
-      "price_usd": null,
+      "price_usd": 39.95,
       "message": "no source url"
     },
     {
@@ -1844,7 +1844,7 @@
       "category": "stove",
       "subcategory": "integrated canister",
       "weight_g": 340,
-      "price_usd": null,
+      "price_usd": 169.99,
       "message": "no source url"
     },
     {
@@ -2039,7 +2039,7 @@
       "category": "cookware",
       "subcategory": "pot",
       "weight_g": 187,
-      "price_usd": null,
+      "price_usd": 34.99,
       "message": "no source url"
     },
     {
@@ -2052,7 +2052,7 @@
       "category": "pack-organization",
       "subcategory": "pack cover",
       "weight_g": 112,
-      "price_usd": null,
+      "price_usd": 42.5,
       "message": "no source url"
     },
     {

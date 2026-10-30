@@ -166,7 +166,8 @@
     "weight_note": "men's M regular",
     "price_usd": 129,
     "specs": {
-      "material": "H2No 3L recycled nylon"
+      "material": "H2No 3L recycled nylon",
+      "waterproof_rating_mm": 20000
     },
     "url": "https://goodsports.com/products/patagonia-torrentshell-3l-pant-men",
     "discontinued": false,
@@ -185,7 +186,8 @@
     "weight_note": "Patagonia spec 309 g (10.9 oz)",
     "price_usd": 129,
     "specs": {
-      "material": "H2No 3L recycled nylon"
+      "material": "H2No 3L recycled nylon",
+      "waterproof_rating_mm": 20000
     },
     "url": "https://www.campmor.com/products/patagonia-womens-torrentshell-3l-pants-regular",
     "discontinued": false,
@@ -204,7 +206,8 @@
     "weight_note": "men's M",
     "price_usd": 229,
     "specs": {
-      "material": "H2No Performance Standard 3L"
+      "material": "H2No Performance Standard 3L",
+      "waterproof_rating_mm": 20000
     },
     "url": "https://goodsports.com/products/patagonia-granite-crest-rain-pants-mens",
     "discontinued": false,
@@ -1205,9 +1208,10 @@
     "weight_note": "Montane-listed 100 g",
     "price_usd": 125,
     "specs": {
-      "material": "Pertex Shield nano-weight 2.5L"
+      "material": "PETRICHOR 2.5L PU laminate, tricot face",
+      "waterproof_rating_mm": 15000
     },
-    "url": "https://montane.com/en-us/products/montane-unisex-minimus-nano-pull-over-waterproof-pants",
+    "url": "https://us.montane.com/products/montane-unisex-minimus-nano-pull-over-waterproof-pants",
     "discontinued": false,
     "confidence": "high",
     "notes": "Unisex emergency rain pant; Montane store lists 100.00 (currency unverified)"
@@ -1224,7 +1228,8 @@
     "weight_note": "Patagonia-listed 244 g (8.6 oz)",
     "price_usd": 239,
     "specs": {
-      "material": "H2No 3-layer"
+      "material": "H2No 3-layer",
+      "waterproof_rating_mm": 20000
     },
     "url": "https://eu.patagonia.com/fi/en/product/womens-granite-crest-waterproof-rain-pants/85435.html",
     "discontinued": false,

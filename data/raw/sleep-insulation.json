@@ -618,7 +618,7 @@
     "weight_g": 536,
     "weight_basis": "manufacturer",
     "weight_note": "Regular length (78\") / Regular width; 850FP; total weight from EE chart (18.89 oz)",
-    "price_usd": null,
+    "price_usd": 405,
     "specs": {
       "temp_rating_f": 40,
       "fill": "down",
@@ -4093,9 +4093,9 @@
       "style": "hooded mummy"
     },
     "url": "https://www.valandre.com/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": "Approximate."
+    "notes": "Approximate. Not in Valandré’s current range, which sells the Swing CO 450 / CO 850 instead."
   },
   {
     "id": "montbell-down-hugger-800-3",
@@ -4161,9 +4161,9 @@
       "style": "stretch mummy"
     },
     "url": "https://www.montbell.us/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": "Approximate."
+    "notes": "Approximate. Closeout on montbell.us; replaced by the Seamless Down Hugger 800 #5."
   },
   {
     "id": "outdoor-vitals-stormloft-down-topquilt-30f",

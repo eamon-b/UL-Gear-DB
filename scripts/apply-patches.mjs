@@ -22,9 +22,7 @@ for (const f of fs.readdirSync(rawDir)) {
   for (const item of files[cat]) byId.set(item.id, { item, cat });
 }
 
-const patches = fs.existsSync(patchDir)
-  ? fs.readdirSync(patchDir).filter((f) => f.endsWith('.json'))
-  : [];
+const patches = fs.existsSync(patchDir) ? fs.readdirSync(patchDir).filter((f) => f.endsWith('.json')) : [];
 if (!patches.length) {
   console.log('No patches to apply.');
   process.exit(0);
@@ -33,11 +31,18 @@ if (!patches.length) {
 const touched = new Set();
 for (const p of patches) {
   const patch = JSON.parse(fs.readFileSync(path.join(patchDir, p), 'utf8'));
-  let updated = 0, added = 0, missing = [], dupes = [], moved = 0;
+  let updated = 0,
+    added = 0,
+    missing = [],
+    dupes = [],
+    moved = 0;
 
   for (const { id, set } of patch.updates ?? []) {
     const hit = byId.get(id);
-    if (!hit) { missing.push(id); continue; }
+    if (!hit) {
+      missing.push(id);
+      continue;
+    }
     const { specs, ...rest } = set;
     Object.assign(hit.item, rest);
     if (specs) hit.item.specs = { ...(hit.item.specs ?? {}), ...specs };
@@ -54,8 +59,14 @@ for (const p of patches) {
   }
 
   for (const item of patch.additions ?? []) {
-    if (byId.has(item.id)) { dupes.push(item.id); continue; }
-    if (!files[item.category]) { missing.push(`${item.id} (unknown category ${item.category})`); continue; }
+    if (byId.has(item.id)) {
+      dupes.push(item.id);
+      continue;
+    }
+    if (!files[item.category]) {
+      missing.push(`${item.id} (unknown category ${item.category})`);
+      continue;
+    }
     files[item.category].push(item);
     byId.set(item.id, { item, cat: item.category });
     touched.add(item.category);

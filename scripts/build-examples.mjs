@@ -14,7 +14,9 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIR = path.join(ROOT, 'data/examples');
 const OUT_FILE = path.resolve(ROOT, process.env.OUT_FILE || 'public/data/examples.json');
 
-const reg = fs.existsSync(path.join(DIR, 'registry.json')) ? JSON.parse(fs.readFileSync(path.join(DIR, 'registry.json'), 'utf8')) : { lists: [] };
+const reg = fs.existsSync(path.join(DIR, 'registry.json'))
+  ? JSON.parse(fs.readFileSync(path.join(DIR, 'registry.json'), 'utf8'))
+  : { lists: [] };
 const lists = [];
 for (const l of reg.lists) {
   const file = path.join(DIR, 'csv', `${l.id}.csv`);
@@ -26,4 +28,6 @@ for (const l of reg.lists) {
 }
 fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
 fs.writeFileSync(OUT_FILE, JSON.stringify({ lists }));
-console.log(`  Wrote ${path.relative(ROOT, OUT_FILE)} (${lists.length} example lists, ${(fs.statSync(OUT_FILE).size / 1024).toFixed(1)} KB)`);
+console.log(
+  `  Wrote ${path.relative(ROOT, OUT_FILE)} (${lists.length} example lists, ${(fs.statSync(OUT_FILE).size / 1024).toFixed(1)} KB)`,
+);

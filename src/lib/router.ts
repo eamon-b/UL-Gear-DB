@@ -8,7 +8,11 @@ export interface Route {
 
 // A malformed escape (e.g. a share link cut off mid-`%2F`) must not throw and blank the app.
 const decodeSeg = (s: string) => {
-  try { return decodeURIComponent(s); } catch { return s; }
+  try {
+    return decodeURIComponent(s);
+  } catch {
+    return s;
+  }
 };
 
 export function parseHash(h = window.location.hash): Route {
@@ -29,7 +33,7 @@ export function useRoute(): Route {
 
 export function navigate(to: string, replace = false) {
   const h = to.startsWith('#') ? to : '#' + to;
-  if (replace) history.replaceState(null, '', h), window.dispatchEvent(new HashChangeEvent('hashchange'));
+  if (replace) (history.replaceState(null, '', h), window.dispatchEvent(new HashChangeEvent('hashchange')));
   else window.location.hash = h;
 }
 

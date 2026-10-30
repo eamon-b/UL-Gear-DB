@@ -1,0 +1,324 @@
+{
+ "updates": [
+  {
+   "id": "atom-packs-atom-re30",
+   "set": {
+    "notes": "UK maker; USD price from the maker’s US storefront (atompacks.co.uk/?country=US); UK price GBP 175"
+   }
+  },
+  {
+   "id": "atom-packs-atom-re40",
+   "set": {
+    "notes": "UK maker; USD price from the maker’s US storefront (atompacks.co.uk/?country=US); UK price GBP 185"
+   }
+  },
+  {
+   "id": "atom-packs-pulse-ep40",
+   "set": {
+    "notes": "UK maker; USD price from the maker’s US storefront (atompacks.co.uk/?country=US); UK price GBP 260"
+   }
+  },
+  {
+   "id": "atom-packs-notch-ep50",
+   "set": {
+    "notes": "UK maker; USD price from the maker’s US storefront (atompacks.co.uk/?country=US); UK price GBP 280"
+   }
+  },
+  {
+   "id": "atom-packs-prospector-ep50",
+   "set": {
+    "notes": "UK maker; USD price from the maker’s US storefront (atompacks.co.uk/?country=US); UK price GBP 290"
+   }
+  },
+  {
+   "id": "atom-packs-prospector-ep60",
+   "set": {
+    "notes": "UK maker; USD price from the maker’s US storefront (atompacks.co.uk/?country=US); UK price GBP 310"
+   }
+  },
+  {
+   "id": "atom-packs-transition-ul35",
+   "set": {
+    "notes": "UK maker; USD price from the maker’s US storefront (atompacks.co.uk/?country=US); UK price GBP 265"
+   }
+  },
+  {
+   "id": "atom-packs-nanu-re25",
+   "set": {
+    "notes": "UK maker; USD price from the maker’s US storefront (atompacks.co.uk/?country=US); UK price GBP 245"
+   }
+  },
+  {
+   "id": "northern-ultralight-sundown-48",
+   "set": {
+    "notes": "Specs from northernultralight.com product data (load rating ~30-32 lb). Store prices only in CAD: base C$420 (C$506 is with the hipbelt-pocket bundle); price_usd converted at 1.4047 CAD/USD (ECB, 2026-10-28). Checked 2026-10-23."
+   }
+  },
+  {
+   "id": "northern-ultralight-dreamline",
+   "set": {
+    "notes": "Specs from northernultralight.com product data (44 L main + 6 L pockets; load under 50 lb). Store prices only in CAD: base C$636 (C$722 is with the hipbelt-pocket bundle); price_usd converted at 1.4047 CAD/USD (ECB, 2026-10-28). Checked 2026-10-23."
+   }
+  },
+  {
+   "id": "liteway-urban-pro-pack-18l-ultragrid",
+   "set": {
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-urban-pro-pack-18l), checked 2026-10-23. USD price from Liteway’s current store (liteway.equipment, USD currency switch), checked 2026-10-29.",
+    "url": "https://liteway.equipment/packs/urban/urban-pro-pack-18l"
+   }
+  },
+  {
+   "id": "liteway-urban-pro-pack-30l-ultragrid",
+   "set": {
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-urban-pro-pack-18l-copy), checked 2026-10-23. USD price from Liteway’s current store (liteway.equipment, USD currency switch), checked 2026-10-29.",
+    "url": "https://liteway.equipment/packs/urban/urban-pro-pack-30l-xpac"
+   }
+  },
+  {
+   "id": "liteway-pyraomm-solo-mesh",
+   "set": {
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-solo-mesh), checked 2026-10-23. USD price from Liteway’s current store (liteway.equipment, USD currency switch), checked 2026-10-29.",
+    "url": "https://liteway.equipment/shelters/pyraomm-solo/pyraomm-solo-mesh"
+   }
+  },
+  {
+   "id": "liteway-pyraomm-duo-tarp-dcf",
+   "set": {
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-duo-tarp-dcf), checked 2026-10-23. USD price from Liteway’s current store (liteway.equipment, USD currency switch), checked 2026-10-29.",
+    "url": "https://liteway.equipment/pyraomm-duo-tarp-dcf"
+   }
+  },
+  {
+   "id": "liteway-illusion-duo-tent",
+   "set": {
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-illusion-duo-tent), checked 2026-10-23. USD price from Liteway’s current store (liteway.equipment, USD currency switch), checked 2026-10-29.",
+    "url": "https://liteway.equipment/shelters/illusion/illusion-duo-tent"
+   }
+  },
+  {
+   "id": "locus-gear-khufu-dcf",
+   "set": {
+    "notes": "Japan list price ¥89,000; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
+   }
+  },
+  {
+   "id": "locus-gear-khufu-hb",
+   "set": {
+    "notes": "Japan list price ¥38,000; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
+   }
+  },
+  {
+   "id": "locus-gear-khufu-tyvek",
+   "set": {
+    "notes": "Japan list price ¥33,800; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
+   }
+  },
+  {
+   "id": "locus-gear-hapi-dcf",
+   "set": {
+    "notes": "Japan list price ¥91,000; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
+   }
+  },
+  {
+   "id": "locus-gear-khafra-dcf",
+   "set": {
+    "notes": "Japan list price ¥114,000; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
+   }
+  },
+  {
+   "id": "locus-gear-khafra-hb",
+   "set": {
+    "notes": "Japan list price ¥45,000; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
+   }
+  },
+  {
+   "id": "locus-gear-djedi-dcf",
+   "set": {
+    "notes": "Japan list price ¥148,000; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
+   }
+  },
+  {
+   "id": "locus-gear-tarp-x-solo-sil",
+   "set": {
+    "notes": "Japan list price ¥9,500; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
+   }
+  },
+  {
+   "id": "locus-gear-tarp-x-duo-sil",
+   "set": {
+    "notes": "Japan list price ¥16,800; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
+   }
+  },
+  {
+   "id": "nordisk-telemark-2-2-lw",
+   "set": {
+    "notes": "Specs from nordisk.eu (entrance on each side). Previous price 749.95 was the EUR price on nordisk.eu (Shopify currency EUR), not USD; no US list price found; price_usd converted at 1.1133 USD/EUR (ECB, 2026-10-28). Checked 2026-10-23."
+   }
+  },
+  {
+   "id": "euroschirm-light-trek-ultra",
+   "set": {
+    "notes": "EU price €49.90; price_usd converted at 1.1133 USD/EUR (ECB, 2026-10-28)."
+   }
+  },
+  {
+   "id": "exped-ultra-1r-m",
+   "set": {
+    "notes": "USD list price from expedusa.com (Exped’s US store); exped.com shows CHF/EUR only."
+   }
+  },
+  {
+   "id": "exped-ultra-1r-lw",
+   "set": {
+    "notes": "USD list price from expedusa.com (Exped’s US store); exped.com shows CHF/EUR only."
+   }
+  },
+  {
+   "id": "exped-ultra-3r-lw",
+   "set": {
+    "notes": "USD list price from expedusa.com (Exped’s US store); exped.com shows CHF/EUR only."
+   }
+  },
+  {
+   "id": "exped-ultra-6-5r-lw",
+   "set": {
+    "notes": "USD list price from expedusa.com (Exped’s US store); exped.com shows CHF/EUR only."
+   }
+  },
+  {
+   "id": "exped-ultra-6-5r-mummy-lw",
+   "set": {
+    "notes": "USD list price from expedusa.com (Exped’s US store); exped.com shows CHF/EUR only."
+   }
+  },
+  {
+   "id": "exped-ultra-8r-m",
+   "set": {
+    "notes": "USD list price from expedusa.com (Exped’s US store); exped.com shows CHF/EUR only."
+   }
+  },
+  {
+   "id": "exped-ultra-8r-mummy-m",
+   "set": {
+    "notes": "USD list price from expedusa.com (Exped’s US store); exped.com shows CHF/EUR only."
+   }
+  },
+  {
+   "id": "exped-ultra-10r-m",
+   "set": {
+    "notes": "USD list price from expedusa.com (Exped’s US store); exped.com shows CHF/EUR only."
+   }
+  },
+  {
+   "id": "exped-dura-6-5r-m",
+   "set": {
+    "notes": "USD list price from expedusa.com (Exped’s US store); exped.com shows CHF/EUR only."
+   }
+  },
+  {
+   "id": "exped-flex-3r-m",
+   "set": {
+    "notes": "USD list price from expedusa.com (Exped’s US store); exped.com shows CHF/EUR only."
+   }
+  },
+  {
+   "id": "litesmith-cold-soaking-jar-medium",
+   "set": {
+    "notes": "Talenti-size replacement with smooth walls. Price $3.70-5.95 depending on size."
+   }
+  },
+  {
+   "id": "litesmith-cold-soaking-jar-x-large",
+   "set": {
+    "notes": "Price $3.70-5.95 depending on size."
+   }
+  },
+  {
+   "id": "patagonia-down-sweater-womens",
+   "set": {
+    "notes": "Style 84684"
+   }
+  },
+  {
+   "id": "packtowl-personal-towel-hand",
+   "set": {
+    "notes": null
+   }
+  },
+  {
+   "id": "osprey-ultralight-raincover-medium",
+   "set": {
+    "notes": "Fits ~30-50L packs. Weight verified Oct 2026 via The Outfitters (manufacturer spec copy)."
+   }
+  },
+  {
+   "id": "montbell-wind-blast-vest-mens",
+   "set": {
+    "notes": "Model #1103326. UK price GBP 75."
+   }
+  },
+  {
+   "id": "montbell-ex-light-wind-parka-mens",
+   "set": {
+    "url": "https://www.montbell.com/us/en/products/detail/1103285",
+    "notes": "Montbell US model 1103285, listed as “EX Light Wind Hooded Jacket”; Japan ¥11,000."
+   }
+  },
+  {
+   "id": "outdoor-research-transcendent-down-hoodie-mens",
+   "set": {
+    "notes": "800+ fill power per outdoorresearch.com, checked 2026-10-29."
+   }
+  },
+  {
+   "id": "montane-minimus-nano-pull-on-waterproof-pants",
+   "set": {
+    "url": "https://us.montane.com/products/montane-unisex-minimus-nano-pull-over-waterproof-pants",
+    "specs": {
+     "material": "PETRICHOR 2.5L PU laminate, tricot face"
+    }
+   }
+  },
+  {
+   "id": "patagonia-multi-trails-shorts-8-mens",
+   "set": {
+    "specs": {
+     "material": "90% recycled polyester / 10% spandex stretch plain weave"
+    }
+   }
+  },
+  {
+   "id": "montbell-down-hugger-800-5",
+   "set": {
+    "discontinued": true,
+    "notes": "Approximate. Closeout on montbell.us; replaced by the Seamless Down Hugger 800 #5."
+   }
+  },
+  {
+   "id": "western-mountaineering-flash-jacket",
+   "set": {
+    "discontinued": true,
+    "notes": "Weight recalled (~10 oz). Western Mountaineering now sells only the Hooded Flash Jacket ($500)."
+   }
+  },
+  {
+   "id": "valandre-swing-500",
+   "set": {
+    "discontinued": true,
+    "notes": "Approximate. Not in Valandré’s current range, which sells the Swing CO 450 / CO 850 instead."
+   }
+  },
+  {
+   "id": "the-north-face-assault-2-futurelight",
+   "set": {
+    "url": "https://www.thenorthface.com/en-us/p/bags-and-gear/camp-shop-829877/assault-2-futurelight-NF0A8AV1"
+   }
+  },
+  {
+   "id": "soto-fusion-trek",
+   "set": {
+    "url": "https://sotooutdoors.com/product/fusion-trek/"
+   }
+  }
+ ]
+}

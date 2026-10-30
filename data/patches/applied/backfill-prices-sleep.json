@@ -1,0 +1,82 @@
+{
+  "updates": [
+    {
+      "id": "enlightened-equipment-convert-40f-850fp",
+      "set": {
+        "price_usd": 405
+      }
+    },
+    {
+      "id": "exped-ultra-1r-m",
+      "set": {
+        "price_usd": 139.95
+      }
+    },
+    {
+      "id": "exped-ultra-1r-lw",
+      "set": {
+        "price_usd": 139.95
+      }
+    },
+    {
+      "id": "exped-ultra-3r-lw",
+      "set": {
+        "price_usd": 169.95
+      }
+    },
+    {
+      "id": "exped-ultra-6-5r-lw",
+      "set": {
+        "price_usd": 199.95
+      }
+    },
+    {
+      "id": "exped-ultra-6-5r-mummy-lw",
+      "set": {
+        "price_usd": 199.95
+      }
+    },
+    {
+      "id": "exped-ultra-8r-m",
+      "set": {
+        "price_usd": 229.95
+      }
+    },
+    {
+      "id": "exped-ultra-8r-mummy-m",
+      "set": {
+        "price_usd": 229.95
+      }
+    },
+    {
+      "id": "exped-ultra-10r-m",
+      "set": {
+        "price_usd": 269.95
+      }
+    },
+    {
+      "id": "exped-dura-6-5r-m",
+      "set": {
+        "price_usd": 199.95
+      }
+    },
+    {
+      "id": "exped-flex-3r-m",
+      "set": {
+        "price_usd": 59.95
+      }
+    },
+    {
+      "id": "exped-ultra-pillow-m",
+      "set": {
+        "price_usd": 44.95
+      }
+    },
+    {
+      "id": "exped-versaluxe-pillow",
+      "set": {
+        "price_usd": 49.95
+      }
+    }
+  ]
+}

@@ -1729,7 +1729,7 @@
     "weight_g": 52,
     "weight_basis": "manufacturer",
     "weight_note": "jar + lid",
-    "price_usd": null,
+    "price_usd": 4.25,
     "specs": {
       "capacity_ml": 475,
       "material": "polypropylene"
@@ -1737,7 +1737,7 @@
     "url": "https://www.litesmith.com/cold-soaking-jars/",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Talenti-size replacement with smooth walls. Price $3.70-5.95 depending on size; per-size price not shown."
+    "notes": "Talenti-size replacement with smooth walls. Price $3.70-5.95 depending on size."
   },
   {
     "id": "litesmith-cold-soaking-jar-x-large",
@@ -1749,7 +1749,7 @@
     "weight_g": 76,
     "weight_basis": "manufacturer",
     "weight_note": "jar + lid",
-    "price_usd": null,
+    "price_usd": 5.95,
     "specs": {
       "capacity_ml": 775,
       "material": "polypropylene"
@@ -1757,7 +1757,7 @@
     "url": "https://www.litesmith.com/cold-soaking-jars/",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Price $3.70-5.95 depending on size; per-size price not shown."
+    "notes": "Price $3.70-5.95 depending on size."
   },
   {
     "id": "litesmith-pot-protector-small",

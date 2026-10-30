@@ -3086,7 +3086,7 @@
     "weight_g": 439,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 600,
     "specs": {
       "capacity": 2,
       "doors": 1,
@@ -3134,7 +3134,7 @@
     "weight_g": 455,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 785,
     "specs": {
       "capacity": 2,
       "doors": 1,
@@ -3182,7 +3182,7 @@
     "weight_g": 396,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 565,
     "specs": {
       "capacity": 1,
       "doors": 1,
@@ -3398,7 +3398,7 @@
     "weight_g": 204,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 445,
     "specs": {
       "capacity": 1,
       "doors": 0,
@@ -4943,7 +4943,7 @@
     "weight_g": 335,
     "weight_basis": "manufacturer",
     "weight_note": "incl. stuff sack",
-    "price_usd": null,
+    "price_usd": 563,
     "specs": {
       "capacity": 2,
       "doors": 1,
@@ -4955,7 +4955,7 @@
     "url": "https://www.locusgear.com/products/khufu-dcf-b",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Japan list price ¥89,000"
+    "notes": "Japan list price ¥89,000; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
   },
   {
     "id": "locus-gear-khufu-hb",
@@ -4967,7 +4967,7 @@
     "weight_g": 440,
     "weight_basis": "manufacturer",
     "weight_note": "incl. guylines, stuff sack",
-    "price_usd": null,
+    "price_usd": 241,
     "specs": {
       "capacity": 2,
       "doors": 1,
@@ -4979,7 +4979,7 @@
     "url": "https://www.locusgear.com/products/khufu-hb",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Japan list price ¥38,000"
+    "notes": "Japan list price ¥38,000; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
   },
   {
     "id": "locus-gear-khufu-tyvek",
@@ -4991,7 +4991,7 @@
     "weight_g": 450,
     "weight_basis": "manufacturer",
     "weight_note": "incl. stuff sack",
-    "price_usd": null,
+    "price_usd": 214,
     "specs": {
       "capacity": 1,
       "doors": 1,
@@ -5003,7 +5003,7 @@
     "url": "https://www.locusgear.com/products/khufu-tyvek",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Japan list price ¥33,800"
+    "notes": "Japan list price ¥33,800; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
   },
   {
     "id": "locus-gear-hapi-dcf",
@@ -5015,7 +5015,7 @@
     "weight_g": 350,
     "weight_basis": "manufacturer",
     "weight_note": "incl. stuff sack",
-    "price_usd": null,
+    "price_usd": 576,
     "specs": {
       "capacity": 2,
       "doors": 1,
@@ -5027,7 +5027,7 @@
     "url": "https://www.locusgear.com/products/hapi-dcf-b",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Japan list price ¥91,000"
+    "notes": "Japan list price ¥91,000; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
   },
   {
     "id": "locus-gear-khafra-dcf",
@@ -5039,7 +5039,7 @@
     "weight_g": 500,
     "weight_basis": "manufacturer",
     "weight_note": "incl. stuff sack",
-    "price_usd": null,
+    "price_usd": 722,
     "specs": {
       "capacity": 4,
       "doors": 1,
@@ -5051,7 +5051,7 @@
     "url": "https://www.locusgear.com/products/khafra-dcf-b",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Japan list price ¥114,000"
+    "notes": "Japan list price ¥114,000; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
   },
   {
     "id": "locus-gear-khafra-hb",
@@ -5063,7 +5063,7 @@
     "weight_g": 650,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 285,
     "specs": {
       "capacity": 4,
       "doors": 1,
@@ -5075,7 +5075,7 @@
     "url": "https://www.locusgear.com/products/khafra-hb",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Japan list price ¥45,000"
+    "notes": "Japan list price ¥45,000; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
   },
   {
     "id": "locus-gear-djedi-dcf",
@@ -5087,7 +5087,7 @@
     "weight_g": 960,
     "weight_basis": "manufacturer",
     "weight_note": "body 580 g + pole 380 g",
-    "price_usd": null,
+    "price_usd": 937,
     "specs": {
       "capacity": 1,
       "doors": 1,
@@ -5099,7 +5099,7 @@
     "url": "https://www.locusgear.com/products/djedi-dcf-b-lsd",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Japan list price ¥148,000"
+    "notes": "Japan list price ¥148,000; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
   },
   {
     "id": "locus-gear-tarp-x-solo-sil",
@@ -5111,7 +5111,7 @@
     "weight_g": 250,
     "weight_basis": "manufacturer",
     "weight_note": "incl. stuff sack, no stakes/poles/guylines",
-    "price_usd": null,
+    "price_usd": 60,
     "specs": {
       "capacity": 1,
       "walls": "single",
@@ -5124,7 +5124,7 @@
     "url": "https://www.locusgear.com/products/tarp-x-solo-sil",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Japan list price ¥9,500"
+    "notes": "Japan list price ¥9,500; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
   },
   {
     "id": "locus-gear-tarp-x-duo-sil",
@@ -5136,7 +5136,7 @@
     "weight_g": 470,
     "weight_basis": "manufacturer",
     "weight_note": "incl. stuff sack",
-    "price_usd": null,
+    "price_usd": 106,
     "specs": {
       "capacity": 2,
       "walls": "single",
@@ -5149,7 +5149,7 @@
     "url": "https://www.locusgear.com/products/tarp-x-duo-sil",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Japan list price ¥16,800"
+    "notes": "Japan list price ¥16,800; price_usd converted at 157.96 JPY/USD (ECB, 2026-10-28), likely incl. Japanese consumption tax."
   },
   {
     "id": "paria-bryce-1p",
@@ -5716,7 +5716,7 @@
     "weight_g": 1060,
     "weight_basis": "manufacturer",
     "weight_note": "trim weight 1.06 kg; official 1.12 kg; total 1.2 kg",
-    "price_usd": null,
+    "price_usd": 835,
     "specs": {
       "capacity": 2,
       "doors": 2,
@@ -5729,7 +5729,7 @@
     "url": "https://nordisk.eu/products/telemark-2-2-lw-2-0-tent-black-forest-green",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Specs from nordisk.eu (entrance on each side). Previous price 749.95 was the EUR price on nordisk.eu (Shopify currency EUR), not USD; no US list price found. Checked 2026-10-23."
+    "notes": "Specs from nordisk.eu (entrance on each side). Previous price 749.95 was the EUR price on nordisk.eu (Shopify currency EUR), not USD; no US list price found; price_usd converted at 1.1133 USD/EUR (ECB, 2026-10-28). Checked 2026-10-23."
   },
   {
     "id": "nordisk-voss-7-lw-tarp",
@@ -7056,7 +7056,7 @@
     "weight_g": 1850,
     "weight_basis": "manufacturer",
     "weight_note": "approx. min weight",
-    "price_usd": null,
+    "price_usd": 880,
     "specs": {
       "capacity": 2,
       "doors": 1,
@@ -7066,7 +7066,7 @@
       "poles": "dedicated",
       "seasons": 4
     },
-    "url": "https://www.thenorthface.com/",
+    "url": "https://www.thenorthface.com/en-us/p/bags-and-gear/camp-shop-829877/assault-2-futurelight-NF0A8AV1",
     "discontinued": false,
     "confidence": "low",
     "notes": null
@@ -7332,7 +7332,7 @@
     "weight_g": 1220,
     "weight_basis": "manufacturer",
     "weight_note": "approx. min weight",
-    "price_usd": null,
+    "price_usd": 429,
     "specs": {
       "capacity": 2,
       "doors": 2,
@@ -7380,7 +7380,7 @@
     "weight_g": 2270,
     "weight_basis": "manufacturer",
     "weight_note": "approx. min weight",
-    "price_usd": null,
+    "price_usd": 199,
     "specs": {
       "capacity": 2,
       "doors": 2,
@@ -7596,7 +7596,7 @@
     "weight_g": 255,
     "weight_basis": "manufacturer",
     "weight_note": "approx., single layer",
-    "price_usd": null,
+    "price_usd": 69,
     "specs": {
       "capacity": 1,
       "material": "nylon",
@@ -7666,7 +7666,7 @@
     "weight_g": 270,
     "weight_basis": "manufacturer",
     "weight_note": "mesh inner only; 300 g with guylines and stuff sack",
-    "price_usd": null,
+    "price_usd": 209.43,
     "specs": {
       "capacity": 1,
       "doors": 1,
@@ -7674,10 +7674,10 @@
       "freestanding": false,
       "poles": "trekking"
     },
-    "url": "https://www.backpackinglight.com.au/products/liteway-pyraomm-solo-mesh",
+    "url": "https://liteway.equipment/shelters/pyraomm-solo/pyraomm-solo-mesh",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-solo-mesh), checked 2026-10-23. Sold in AUD only there; no USD price found."
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-solo-mesh), checked 2026-10-23. USD price from Liteway’s current store (liteway.equipment, USD currency switch), checked 2026-10-29."
   },
   {
     "id": "liteway-pyraomm-duo-tarp",
@@ -7713,7 +7713,7 @@
     "weight_g": 395,
     "weight_basis": "manufacturer",
     "weight_note": "tarp only, 1.0 oz DCF; 460 g with guylines and stuff sack",
-    "price_usd": null,
+    "price_usd": 876.33,
     "specs": {
       "capacity": 2,
       "doors": 1,
@@ -7722,10 +7722,10 @@
       "freestanding": false,
       "poles": "trekking"
     },
-    "url": "https://www.backpackinglight.com.au/products/liteway-pyraomm-duo-tarp-dcf",
+    "url": "https://liteway.equipment/pyraomm-duo-tarp-dcf",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-duo-tarp-dcf), checked 2026-10-23. Sold in AUD only there; no USD price found."
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-pyraomm-duo-tarp-dcf), checked 2026-10-23. USD price from Liteway’s current store (liteway.equipment, USD currency switch), checked 2026-10-29."
   },
   {
     "id": "liteway-illusion-duo-tent",
@@ -7737,7 +7737,7 @@
     "weight_g": 790,
     "weight_basis": "manufacturer",
     "weight_note": "tent only; 870 g with guylines and stuff sack",
-    "price_usd": null,
+    "price_usd": 525.33,
     "specs": {
       "capacity": 2,
       "walls": "single",
@@ -7746,10 +7746,10 @@
       "poles": "trekking",
       "doors": 2
     },
-    "url": "https://www.backpackinglight.com.au/products/liteway-illusion-duo-tent",
+    "url": "https://liteway.equipment/shelters/illusion/illusion-duo-tent",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-illusion-duo-tent), checked 2026-10-23. Sold in AUD only there; no USD price found."
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-illusion-duo-tent), checked 2026-10-23. USD price from Liteway’s current store (liteway.equipment, USD currency switch), checked 2026-10-29."
   },
   {
     "id": "liteway-illusion-duo-tent-dcf",

@@ -20,7 +20,18 @@ export class ErrorBoundary extends Component<{ children: ReactNode }, { error: E
         <h1>Something went wrong</h1>
         <p className="warn">{error.message}</p>
         {/* reload: a hash change alone can't reset a boundary above the router, or one already on #/ */}
-        <p><a href="#/" onClick={(e) => { e.preventDefault(); window.location.hash = '#/'; window.location.reload(); }}>Back to browse</a></p>
+        <p>
+          <a
+            href="#/"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.hash = '#/';
+              window.location.reload();
+            }}
+          >
+            Back to browse
+          </a>
+        </p>
       </div>
     );
   }

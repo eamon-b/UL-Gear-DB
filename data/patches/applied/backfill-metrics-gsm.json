@@ -1,0 +1,308 @@
+{
+  "updates": [
+    {
+      "id": "montbell-zeo-line-middle-weight-round-neck-shirt-mens",
+      "set": {
+        "specs": {
+          "gsm": 165
+        }
+      }
+    },
+    {
+      "id": "montbell-super-merino-wool-light-weight-round-neck-shirt-mens",
+      "set": {
+        "specs": {
+          "gsm": 125
+        }
+      }
+    },
+    {
+      "id": "path-projects-century-short",
+      "set": {
+        "specs": {
+          "gsm": 72
+        }
+      }
+    },
+    {
+      "id": "path-projects-altira-short",
+      "set": {
+        "specs": {
+          "gsm": 72
+        }
+      }
+    },
+    {
+      "id": "arcteryx-cormac-hoody-mens",
+      "set": {
+        "specs": {
+          "gsm": 110
+        }
+      }
+    },
+    {
+      "id": "arcteryx-rho-lt-zip-neck-mens",
+      "set": {
+        "specs": {
+          "gsm": 185
+        }
+      }
+    },
+    {
+      "id": "arcteryx-rho-lt-hoody-mens",
+      "set": {
+        "specs": {
+          "gsm": 185
+        }
+      }
+    },
+    {
+      "id": "arcteryx-skyline-ls-shirt-mens",
+      "set": {
+        "specs": {
+          "gsm": 76
+        }
+      }
+    },
+    {
+      "id": "zpacks-mirage-merino-sun-hoody-mens",
+      "set": {
+        "specs": {
+          "gsm": 135
+        }
+      }
+    },
+    {
+      "id": "zpacks-mirage-merino-sun-hoody-womens",
+      "set": {
+        "specs": {
+          "gsm": 135
+        }
+      }
+    },
+    {
+      "id": "zpacks-trail-cool-sun-hoody",
+      "set": {
+        "specs": {
+          "gsm": 90
+        }
+      }
+    },
+    {
+      "id": "zpacks-octa-fleece-thermal-bottoms",
+      "set": {
+        "specs": {
+          "gsm": 80
+        }
+      }
+    },
+    {
+      "id": "zpacks-octa-fleece-camp-pants",
+      "set": {
+        "specs": {
+          "gsm": 80
+        }
+      }
+    },
+    {
+      "id": "patagonia-capilene-cool-daily-hoody-womens",
+      "set": {
+        "specs": {
+          "gsm": 125
+        }
+      }
+    },
+    {
+      "id": "patagonia-capilene-cool-daily-hoody-mens",
+      "set": {
+        "specs": {
+          "gsm": 125
+        }
+      }
+    },
+    {
+      "id": "patagonia-capilene-cool-daily-shirt-mens",
+      "set": {
+        "specs": {
+          "gsm": 125
+        }
+      }
+    },
+    {
+      "id": "patagonia-long-sleeved-capilene-cool-sun-shirt-mens",
+      "set": {
+        "specs": {
+          "gsm": 119
+        }
+      }
+    },
+    {
+      "id": "patagonia-capilene-cool-sun-hoody-womens",
+      "set": {
+        "specs": {
+          "gsm": 119
+        }
+      }
+    },
+    {
+      "id": "patagonia-tropic-comfort-natural-upf-hoody-mens",
+      "set": {
+        "specs": {
+          "gsm": 200
+        }
+      }
+    },
+    {
+      "id": "patagonia-tropic-comfort-natural-upf-hoody-womens",
+      "set": {
+        "specs": {
+          "gsm": 200
+        }
+      }
+    },
+    {
+      "id": "patagonia-quandary-pants-mens",
+      "set": {
+        "specs": {
+          "gsm": 149
+        }
+      }
+    },
+    {
+      "id": "patagonia-quandary-shorts-10-mens",
+      "set": {
+        "specs": {
+          "gsm": 149
+        }
+      }
+    },
+    {
+      "id": "patagonia-quandary-pants-womens",
+      "set": {
+        "specs": {
+          "gsm": 149
+        }
+      }
+    },
+    {
+      "id": "patagonia-baggies-shorts-5-mens",
+      "set": {
+        "specs": {
+          "gsm": 166
+        }
+      }
+    },
+    {
+      "id": "patagonia-strider-pro-shorts-5-mens",
+      "set": {
+        "specs": {
+          "gsm": 85
+        }
+      }
+    },
+    {
+      "id": "patagonia-capilene-thermal-weight-crewneck-womens",
+      "set": {
+        "specs": {
+          "gsm": 129
+        }
+      }
+    },
+    {
+      "id": "arcteryx-rho-lt-bottom-mens",
+      "set": {
+        "specs": {
+          "gsm": 185
+        }
+      }
+    },
+    {
+      "id": "arcteryx-gamma-pant-mens",
+      "set": {
+        "specs": {
+          "gsm": 186
+        }
+      }
+    },
+    {
+      "id": "arcteryx-gamma-pant-womens",
+      "set": {
+        "specs": {
+          "gsm": 186
+        }
+      }
+    },
+    {
+      "id": "arcteryx-gamma-sl-pant-mens",
+      "set": {
+        "specs": {
+          "gsm": 125
+        }
+      }
+    },
+    {
+      "id": "arcteryx-cormac-crew-ss-mens",
+      "set": {
+        "specs": {
+          "gsm": 110
+        }
+      }
+    },
+    {
+      "id": "kuhl-radikl-short-8-mens",
+      "set": {
+        "specs": {
+          "gsm": 176
+        }
+      }
+    },
+    {
+      "id": "kuhl-renegade-short-10-mens",
+      "set": {
+        "specs": {
+          "gsm": 170
+        }
+      }
+    },
+    {
+      "id": "kuhl-renegade-pant-mens",
+      "set": {
+        "specs": {
+          "gsm": 170
+        }
+      }
+    },
+    {
+      "id": "kuhl-renegade-recon-pant-mens",
+      "set": {
+        "specs": {
+          "gsm": 175
+        }
+      }
+    },
+    {
+      "id": "patagonia-capilene-cool-daily-shirt-womens",
+      "set": {
+        "specs": {
+          "gsm": 125
+        }
+      }
+    },
+    {
+      "id": "patagonia-multi-trails-shorts-8-mens",
+      "set": {
+        "specs": {
+          "gsm": 85
+        }
+      }
+    },
+    {
+      "id": "smartwool-merino-boxer-brief-mens",
+      "set": {
+        "specs": {
+          "gsm": 150
+        }
+      }
+    }
+  ]
+}

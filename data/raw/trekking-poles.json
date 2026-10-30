@@ -1311,7 +1311,8 @@
     "specs": {
       "material": "carbon fiber",
       "adjustable": true,
-      "locking": "lever (clasp)"
+      "locking": "lever (clasp)",
+      "collapsed_length_in": 23.5
     },
     "url": "https://zpacks.com/products/zpacks-carbon-fiber-trekking-pole",
     "discontinued": false,
@@ -1570,7 +1571,7 @@
     "weight_g": 374,
     "weight_basis": "manufacturer",
     "weight_note": "per pair (Komperdell lists 187 g per pole)",
-    "price_usd": null,
+    "price_usd": 299.95,
     "specs": {
       "material": "carbon upper, titanal lower",
       "adjustable": true,
@@ -1591,7 +1592,7 @@
     "weight_g": 436,
     "weight_basis": "manufacturer",
     "weight_note": "per pair (Komperdell lists 218 g per pole)",
-    "price_usd": null,
+    "price_usd": 229.95,
     "specs": {
       "material": "carbon upper, titanal lower",
       "adjustable": true,
@@ -1612,7 +1613,7 @@
     "weight_g": 426,
     "weight_basis": "manufacturer",
     "weight_note": "per pair (Komperdell lists 213 g per pole)",
-    "price_usd": null,
+    "price_usd": 199.95,
     "specs": {
       "material": "carbon upper, titanal lower",
       "adjustable": true,
@@ -1633,7 +1634,7 @@
     "weight_g": 482,
     "weight_basis": "manufacturer",
     "weight_note": "per pair (Komperdell lists 241 g per pole)",
-    "price_usd": null,
+    "price_usd": 249.95,
     "specs": {
       "material": "carbon upper, titanal lower",
       "adjustable": true,
@@ -1675,7 +1676,7 @@
     "weight_g": 474,
     "weight_basis": "manufacturer",
     "weight_note": "per pair (Komperdell lists 237 g per pole)",
-    "price_usd": null,
+    "price_usd": 179.95,
     "specs": {
       "material": "aluminum",
       "adjustable": true,

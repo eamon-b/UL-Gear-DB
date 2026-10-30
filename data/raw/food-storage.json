@@ -135,7 +135,7 @@
     "weight_g": 1247,
     "weight_basis": "manufacturer",
     "weight_note": "2 lb 12 oz",
-    "price_usd": null,
+    "price_usd": 79,
     "specs": {
       "volume_l": 10.1,
       "approved": "IGBC #5298 (on IGBC unconfirmed-products list, Jun 2026); SIBBG",
@@ -903,7 +903,7 @@
     "weight_g": 335,
     "weight_basis": "estimate",
     "weight_note": "gross estimated",
-    "price_usd": null,
+    "price_usd": 49.99,
     "specs": {
       "net_oz": 9.2,
       "approved": "EPA-registered bear deterrent",

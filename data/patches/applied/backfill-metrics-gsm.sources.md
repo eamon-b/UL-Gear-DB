@@ -1,0 +1,124 @@
+# Sources for backfill-metrics-gsm.json
+
+- montbell-zeo-line-middle-weight-round-neck-shirt-mens | gsm | 165 | https://www.montbell.com/us/en/products/detail/2307112 | "Fabric Weight: 165 g/m2"
+- montbell-super-merino-wool-light-weight-round-neck-shirt-mens | gsm | 125 | https://www.montbell.com/us/en/products/detail/2307107 | "Fabric Weight: 125 g/m2"
+- path-projects-century-short | gsm | 72 | https://pathprojects.com/products/century-short | "Toray Stretch Ripstop: 72% nylon / 28% spandex, 72 g/sqm."
+- path-projects-altira-short | gsm | 72 | https://pathprojects.com/products/altira-short | "Toray Stretch Ripstop: 72% nylon / 28% spandex, 72 g/sqm."
+- arcteryx-cormac-hoody-mens | gsm | 110 | https://www.gearx.com/products/arc-teryx-cormac-hoody-mens-s25-li3jo-stone-green-heather | "Material: Lightweight polyester tech tee jersey w/ Silvadur, UPF50+, 110gsm" (retailer)
+- arcteryx-rho-lt-zip-neck-mens | gsm | 185 | https://www.gearx.com/products/arcteryx-rho-lt-zip-neck-mens-wp4fo-dark-jade | "Body Fabric: Torrent™ Jersey Knit (185 gsm) – 84% Polyester, 16% Elastane" (retailer)
+- arcteryx-rho-lt-hoody-mens | gsm | 185 | https://www.bobssportschalet.com/arcteryx/arcteryx-rho-lightweight-hoody-172525 | "Torrent™ - Jersey knit peached face with brushed back, 185gsm - 84% Polyester, 16% Elastane" (retailer; MEC lists 190 gsm and Evo names fabric 'Torrent 190')
+- arcteryx-skyline-ls-shirt-mens | gsm | 76 | https://www.neptunemountaineering.com/products/skyline-long-sleeve-shirt-mens-1 | "Body: Diem™, 60D recycled polyester plain weave, 76gsm - 100% Polyester" (retailer)
+- zpacks-mirage-merino-sun-hoody-mens | gsm | 135 | https://zpacks.com/products/the-mirage-merino-sun-hoody | "Our ultralight 3.98 oz/sqyd Mirage Merino Wool fabric is very breathable" (converted 3.98 oz/yd² x 33.906 = 134.9)
+- zpacks-mirage-merino-sun-hoody-womens | gsm | 135 | https://zpacks.com/products/womens-mirage-merino-sun-hoody | "Our ultralight 3.98 oz/sqyd Mirage Merino Wool fabric is very breathable" (converted 3.98 oz/yd² x 33.906 = 134.9)
+- zpacks-trail-cool-sun-hoody | gsm | 90 | https://zpacks.com/products/zpacks-trail-cool-sun-hoody | "Our ultralight 2.65 oz/sqyd Trail Cool Polyester fabric is designed to brea[the]" (converted 2.65 oz/yd² x 33.906 = 89.9)
+- zpacks-octa-fleece-thermal-bottoms | gsm | 80 | https://zpacks.com/products/octa-thermal-bottoms-long-underwear-leggings | "Our 2.35 oz/sqyd Octa® fleece offers exceptional warmth" (converted 2.35 oz/yd² x 33.906 = 79.7)
+- zpacks-octa-fleece-camp-pants | gsm | 80 | https://zpacks.com/products/zpacks-octa-fleece-camp-pants | "Our 2.35 oz/sqyd Octa® fleece offers exceptional warmth" (converted 2.35 oz/yd² x 33.906 = 79.7)
+- patagonia-capilene-cool-daily-hoody-womens | gsm | 125 | https://www.patagonia.com.au/products/womens-capilene-cool-daily-hoody-45316-fea | "Materials 3.7-oz 100% polyester (50% recycled) jersey with HeiQ® Mint odor control and a wicking finish" (Patagonia states fabric weight in oz/yd² (cf. its Capilene Thermal listing '3.8-oz (129-g)'); 3.7 x 33.906 = 125.5; Patagonia Australia, same style 45316)
+- patagonia-capilene-cool-daily-hoody-mens | gsm | 125 | https://www.patagonia.com.au/products/mens-capilene-cool-daily-hoody-45311-fea | "Materials 3.7-oz 100% polyester (50% recycled) jersey with HeiQ® Mint odor control and a wicking finish" (Patagonia states fabric weight in oz/yd² (cf. its Capilene Thermal listing '3.8-oz (129-g)'); 3.7 x 33.906 = 125.5; Patagonia Australia lists men's as style 45311 vs US 45310)
+- patagonia-capilene-cool-daily-shirt-mens | gsm | 125 | https://www.patagonia.com.au/products/mens-capilene-cool-daily-shirt-great-waves-45456-cygx | "Materials 3.7-oz 100% polyester (50% recycled) jersey with HeiQ® Mint odor control and a wicking finish" (Patagonia states fabric weight in oz/yd² (cf. its Capilene Thermal listing '3.8-oz (129-g)'); 3.7 x 33.906 = 125.5; Great Waves print matches the work-list retailer URL; solid style 45216 states the same 3.7-oz)
+- patagonia-long-sleeved-capilene-cool-sun-shirt-mens | gsm | 119 | https://www.patagonia.com.au/products/mens-long-sleeved-capilene-cool-sun-shirt-44790-aqbx | "Materials 3.5-oz 100% recycled polyester jersey with a wicking finish and 40+ UPF sun protection" (Patagonia states fabric weight in oz/yd² (cf. its Capilene Thermal listing '3.8-oz (129-g)'); 3.5 x 33.906 = 118.7)
+- patagonia-capilene-cool-sun-hoody-womens | gsm | 119 | https://www.patagonia.com.au/products/womens-capilene-cool-sun-hoody-44805-tbix | "Materials 3.5-oz 100% recycled polyester jersey with a wicking finish and 40+ UPF sun protection" (Patagonia states fabric weight in oz/yd² (cf. its Capilene Thermal listing '3.8-oz (129-g)'); 3.5 x 33.906 = 118.7; same style 44805)
+- patagonia-tropic-comfort-natural-upf-hoody-mens | gsm | 200 | https://www.patagonia.com.au/products/mens-tropic-comfort-natural-hoody-41930-crgy | "Materials 5.9-oz 96% modal sun/4% spandex jersey with 40+ UPF sun protection" (Patagonia states fabric weight in oz/yd² (cf. its Capilene Thermal listing '3.8-oz (129-g)'); 5.9 x 33.906 = 200.0; same style 41930)
+- patagonia-tropic-comfort-natural-upf-hoody-womens | gsm | 200 | https://www.patagonia.com.au/products/womens-tropic-comfort-natural-hoody-41935-crgy | "Materials 5.9-oz 96% modal sun/4% spandex jersey with 40+ UPF sun protection" (Patagonia states fabric weight in oz/yd² (cf. its Capilene Thermal listing '3.8-oz (129-g)'); 5.9 x 33.906 = 200.0; same style 41935)
+- patagonia-quandary-pants-mens | gsm | 149 | https://www.patagonia.com.au/products/mens-quandary-pants-regular-55183-fge | "Materials 4.4-oz 96% NetPlus® postconsumer recycled nylon made from recycled fishing nets to help reduce ocean plastic pollution/4% spandex plain weave" (Patagonia states fabric weight in oz/yd² (cf. its Capilene Thermal listing '3.8-oz (129-g)'); 4.4 x 33.906 = 149.2; same style 55183)
+- patagonia-quandary-shorts-10-mens | gsm | 149 | https://www.patagonia.com.au/products/mens-quandary-shorts-10-57828-fge | "Materials 4.4-oz 96% NetPlus® postconsumer recycled nylon made from recycled fishing nets to help reduce ocean plastic pollution/4% spandex plain weave" (Patagonia states fabric weight in oz/yd² (cf. its Capilene Thermal listing '3.8-oz (129-g)'); 4.4 x 33.906 = 149.2; same style 57828)
+- patagonia-quandary-pants-womens | gsm | 149 | https://www.patagonia.com.au/products/womens-quandary-pants-regular-55417-fge | "Materials 4.4-oz 96% NetPlus® postconsumer recycled nylon made from recycled fishing nets to help reduce ocean plastic pollution/4% spandex plain weave" (Patagonia states fabric weight in oz/yd² (cf. its Capilene Thermal listing '3.8-oz (129-g)'); 4.4 x 33.906 = 149.2; same style 55417)
+- patagonia-baggies-shorts-5-mens | gsm | 166 | https://www.patagonia.com.au/products/mens-baggies-shorts-5-57022-bob | "Materials Body: 4-ply, 4.9-oz NetPlus® 100% postconsumer recycled nylon faille" (Patagonia states fabric weight in oz/yd² (cf. its Capilene Thermal listing '3.8-oz (129-g)'); 4.9 x 33.906 = 166.1; body fabric, same style 57022)
+- patagonia-strider-pro-shorts-5-mens | gsm | 85 | https://www.patagonia.com.au/products/mens-strider-pro-shorts-5-24634-blk | "Materials Body: 2.5-oz 90% recycled polyester certified by OceanCycle and sourced from coastal communities at risk of plastic pollution/10% spandex stretch plain weave" (Patagonia states fabric weight in oz/yd² (cf. its Capilene Thermal listing '3.8-oz (129-g)'); 2.5 x 33.906 = 84.8; body fabric of current style 24634; older style 24633 used a 1.9-oz ripstop)
+- patagonia-capilene-thermal-weight-crewneck-womens | gsm | 129 | https://www.patagonia.com.au/products/womens-capilene-thermal-weight-crewneck-43650-blk | "Materials 3.8-oz (129-g) Polartec® Power Grid® 92% recycled polyester/8% spandex jersey" (same style 43650; gram figure stated)
+- arcteryx-rho-lt-bottom-mens | gsm | 185 | https://arcteryx.com.au/products/rho-lt-bottom-mens-x00001003701 | "Torrent™ - Jersey knit peached face with brushed back, 185gsm" (Arc'teryx Australia (official regional store))
+- arcteryx-gamma-pant-mens | gsm | 186 | https://arcteryx.com.au/products/gamma-pant-mens-x00001048101 | "Warp knit mesh, Fortius DW 2.0 - Woven Double Weave, 186gsm" (Arc'teryx Australia; older style X000009532 also states 186gsm)
+- arcteryx-gamma-pant-womens | gsm | 186 | https://arcteryx.com.au/products/gamma-pant-w-x00001003301 | "Fortius DW 2.0 - Woven Double Weave, 186gsm" (Arc'teryx Australia)
+- arcteryx-gamma-sl-pant-mens | gsm | 125 | https://arcteryx.com.au/products/gamma-sl-pant-m-x00000952502 | "Fortius™ DW 1.0 - Woven Double Weave, 125gsm" (Arc'teryx Australia)
+- arcteryx-cormac-crew-ss-mens | gsm | 110 | https://arcteryx.com.au/products/cormac-crew-neck-shirt-ss-mens-x00000971801 | "Lightweight polyester tech tee jersey w/ Silvadur, UPF50+, 110gsm" (Arc'teryx Australia; newer style X000010292 ('40d Recycled Polyester with Solotex Circular Knit Waffle, 110gsm') states the same weight)
+- kuhl-radikl-short-8-mens | gsm | 176 | https://www.kuhl.com/kuhl/mens/shorts/radikl-short/ | ""gsm":176,"osy":5.190729828410988,"materials":["68% Cotton","29% Nylon","3% Spandex"]" (kuhl.com product fabric spec (page data); GearX retailer listing for the 8" short also states '5.2 oz./sq. yd. | 176 GSM' for the main fabric, 295 GSM for the knit panels)
+- kuhl-renegade-short-10-mens | gsm | 170 | https://www.kuhl.com/kuhl/mens/shorts/renegade-short/ | ""shortDescription":"Durable, water-resistant, quick-dry short with 8 pockets" ... "gsm":170,"osy":5.013773129715159,"materials":["95% Nylon","5% Spandex"]" (kuhl.com product fabric spec (page data); page covers the Renegade Short style, not inseam-specific)
+- kuhl-renegade-pant-mens | gsm | 170 | https://www.kuhl.com/kuhl/mens/pants/renegade-pant/ | ""shortDescription":"Water-resistant performance pant with stretch" ... "gsm":170,"osy":5.013773129715159,"materials":["95% Nylon","5% Spandex"]" (kuhl.com product fabric spec (page data))
+- kuhl-renegade-recon-pant-mens | gsm | 175 | https://www.kuhl.com/kuhl/mens/pants/renegade-recon-pant/ | "STRETCH DURALUX™ PERFORMANCE FABRIC PFC-free DWR Lightweight | 175 GSM" (kuhl.com; a 170 gsm Duralux figure on the same page appears to belong to the Renegade Pant shown alongside)
+- patagonia-capilene-cool-daily-shirt-womens | gsm | 125 | https://www.patagonia.com.au/products/womens-capilene-cool-daily-shirt-45226-fea | "Materials 3.7-oz 100% polyester (50% recycled) jersey with HeiQ® Mint odor control and a wicking finish" (Patagonia states fabric weight in oz/yd² (cf. its Capilene Thermal listing '3.8-oz (129-g)'); 3.7 x 33.906 = 125.5)
+- patagonia-multi-trails-shorts-8-mens | gsm | 85 | https://www.patagonia.com.au/products/mens-multi-trails-shorts-8-57602-blk | "Materials Body: 2.5-oz 90% recycled polyester certified by OceanCycle and sourced from coastal communities at risk of plastic pollution/10% spandex stretch plain weave" (Patagonia states fabric weight in oz/yd² (cf. its Capilene Thermal listing '3.8-oz (129-g)'); 2.5 x 33.906 = 84.8; body fabric; see Flags re material)
+- smartwool-merino-boxer-brief-mens | gsm | 150 | https://www.prfo.com/products/smartwool-mens-merino-boxer-boxed-briefs | "S 88% Merino Wool, 12% Recycled Nylon Fit: Slim Fabric weight: 150 g/m2 ... Style: SW016998" (retailer; listing is the Boxed packaging (SW016998) of the same 88/12 Merino Boxer Brief, work-list URL is SW016997)
+
+## Not found
+
+- outdoor-research-echo-hoodie-mens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-echo-hoodie-womens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-echo-t-shirt-mens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-echo-long-sleeve-tee-mens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-astroman-air-sun-hoodie-mens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-activeice-spectrum-sun-hoodie-mens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-vigor-lt-hoodie-mens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-ferrosi-pant-mens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-ferrosi-pant-womens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-ferrosi-convertible-pant-mens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-ferrosi-joggers-mens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-ferrosi-short-7-mens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- patagonia-free-wall-pants-mens: not on Patagonia AU; patagonia.com blocked (maintenance/403); retailer page has no fabric weight
+- smartwool-intraknit-boxer-brief-mens: smartwool.com has no fabric weight; none found at retailers
+- smartwool-merino-bikini-womens: smartwool.com has no fabric weight; no retailer listing with g/m² found
+- outdoor-research-echo-boxer-briefs-mens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- alpine-fit-bushwhacking-leggings-womens: Garage Grown Gear lists garment weights only (the '90gsm' on that page is a different Sambob product)
+- montbell-zeo-line-light-weight-round-neck-shirt-mens: Montbell US page has an empty fabric-weight field (only garment weight)
+- montbell-climaair-light-long-sleeve-t-mens: Montbell US page has an empty fabric-weight field (only garment weight)
+- montbell-climaair-light-tights-mens: Montbell US page has an empty fabric-weight field (only garment weight)
+- montbell-cool-pants-mens: Montbell US page has an empty fabric-weight field (only garment weight)
+- montbell-light-o-d-pants-mens: Montbell US page has an empty fabric-weight field (only garment weight)
+- montbell-canyon-shorts-mens: Montbell US page has an empty fabric-weight field (only garment weight)
+- montbell-cross-runner-light-shorts-mens: Montbell US page only says "Fabric weight: Lightweight", no number
+- janji-7-multi-short-2-in-1-mens: janji.com lists composition and garment weight only
+- janji-5-multi-short-mens: janji.com lists composition and garment weight only
+- janji-7-afo-middle-short-ultra-mens: janji.com lists composition and garment weight only
+- janji-sunchaser-50-hooded-long-sleeve-mens: janji.com lists composition and garment weight only
+- janji-rover-merino-hoodie-mens: janji.com gives fibre micron (17.5μ) and garment weight only, no g/m²
+- janji-ttech-pant-mens: janji.com lists composition and garment weight only
+- janji-repeat-merino-tech-tee-mens: janji.com lists composition and garment weight only
+- janji-run-all-day-tee-mens: janji.com lists composition and garment weight only
+- janji-pinnacle-r-d-gossamer-tee-mens: janji.com lists composition and garment weight only
+- path-projects-graves-px-short: pathprojects.com gives no fabric weight for the Graves PX
+- saxx-quest-quick-dry-mesh-boxer-brief-mens: saxxunderwear.com publishes no fabric weight
+- saxx-volt-breathable-mesh-boxer-brief-mens: saxxunderwear.com publishes no fabric weight
+- saxx-droptemp-cooling-mesh-boxer-brief-mens: saxxunderwear.com publishes no fabric weight
+- patagonia-capilene-cool-ultra-hoody-womens: not on Patagonia AU; patagonia.com blocked; retailer page has no fabric weight
+- arcteryx-sima-hoody-mens: no gsm found (garment weight only); not on Arc'teryx AU
+- arcteryx-taema-hoody-womens: no gsm found for the Taema Hoody; 130 g/m² figure seen in search is for the Taema Thermal Hoody, a different product
+- outdoor-research-eclipse-sun-t-shirt-mens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-astroman-short-sleeve-sun-shirt-mens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-astroman-long-sleeve-sun-shirt-mens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-astroman-air-sun-hoodie-womens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-vigor-lt-hoodie-womens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-ferrosi-shorts-womens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- smartwool-intraknit-thermal-merino-base-layer-crew-mens: smartwool.com has no fabric weight; none found
+- smartwool-merino-sun-hoodie-mens: smartwool.com has no fabric weight; search snippet cites 150 g/m² on smartwool.eu but the page returned 403, so not seen
+- smartwool-merino-sun-hoodie-womens: same as men's: smartwool.eu reportedly says 150 g/m² but page 403, not verified
+- smartwool-active-ultralite-hoodie-womens: no fabric weight on retailer page or found by search
+- exofficio-give-n-go-sport-2-0-brief-mens: no fabric weight published
+- prana-stretch-zion-pant-ii-mens: a CampSaver listing reportedly says 172 gsm, but the page is bot-blocked, so not seen; prana.com blocked
+- prana-stretch-zion-short-mens: no fabric weight found; prana.com blocked
+- patagonia-essential-boxer-briefs-3-mens: not on Patagonia AU; Patagonia EU/US pages blocked to fetch
+- exofficio-give-n-go-2-0-boxer-brief-mens: work-list URL is the brand homepage; no fabric weight found
+- columbia-silver-ridge-utility-pant-mens: work-list URL is the brand homepage; no fabric weight found
+- columbia-silver-ridge-utility-long-sleeve-shirt-mens: work-list URL is the brand homepage; no fabric weight found
+- columbia-pfg-terminal-deflector-hoodie-mens: work-list URL is the brand homepage; no fabric weight found
+- rei-co-op-sahara-convertible-pants-mens: work-list URL is the REI homepage; rei.com blocks fetches
+- prana-brion-pant-ii-mens: prana.com blocked to fetch; no fabric weight found
+- outdoor-research-activeice-spectrum-sun-hoodie-womens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- montbell-cool-pants-womens: Montbell US page has an empty fabric-weight field (only garment weight)
+- montbell-od-light-pants-womens: Montbell US page has an empty fabric-weight field (only garment weight)
+- janji-sunchaser-50-hooded-long-sleeve-womens: janji.com lists composition and garment weight only
+- janji-ttech-pant-womens: janji.com lists composition and garment weight only
+- janji-rover-merino-hoodie-womens: janji.com lists composition and garment weight only
+- outdoor-research-ferrosi-convertible-pant-womens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- outdoor-research-astroman-full-zip-sun-hoodie-womens: no fabric weight on outdoorresearch.com (garment weight only); searches found none
+- xoskin-xounderwear-seamless-liner-shorts-mens: garment weight only on Garage Grown Gear
+- sambob-coastal-sun-hoodie: Garage Grown Gear text is truncated ("5. oz/sq yd"), so no usable number; composition on that page also sums past 100%
+- burgeon-outdoor-sunseeker-hoodie-mens: Burgeon names Polartec Delta but gives no fabric weight
+- burgeon-outdoor-sunseeker-hoodie-womens: Burgeon names Polartec Delta but gives no fabric weight
+- branwyn-essential-bralette: branwyn.com publishes no fabric weight (seamless knit)
+- branwyn-essential-racerback-sports-bra: branwyn.com publishes no fabric weight (seamless knit)
+- branwyn-essential-boyshort: branwyn.com publishes no fabric weight (seamless knit)
+- branwyn-essential-hipster: branwyn.com publishes no fabric weight (seamless knit)
+
+## Flags
+
+- patagonia-multi-trails-shorts-8-mens: specs.material is "recycled nylon", but Patagonia Australia (style 57602) lists the body as "2.5-oz 90% recycled polyester ... /10% spandex stretch plain weave".
+- patagonia-long-sleeved-capilene-cool-sun-shirt-mens: specs.upf is 50, but Patagonia Australia (style 44790) states "40+ UPF sun protection". Same for patagonia-capilene-cool-sun-hoody-womens ("UPF 50+" in specs.material; AU style 44805 says 40+). May be an AU labelling difference.

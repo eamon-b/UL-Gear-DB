@@ -1,0 +1,162 @@
+{
+ "updates": [
+  {
+   "id": "fire-maple-petrel-summit",
+   "set": {
+    "specs": {
+     "boil_time_min": 2,
+     "boil_volume_l": 0.5
+    }
+   }
+  },
+  {
+   "id": "primus-classic-trail",
+   "set": {
+    "specs": {
+     "boil_time_min": 4,
+     "boil_volume_l": 1
+    }
+   }
+  },
+  {
+   "id": "toaks-siphon-alcohol-stove",
+   "set": {
+    "specs": {
+     "boil_time_min": 5.5,
+     "boil_volume_l": 0.475
+    }
+   }
+  },
+  {
+   "id": "flat-cat-gear-bobcat-tilight-alcohol-stove",
+   "set": {
+    "specs": {
+     "boil_time_min": 7.5,
+     "boil_volume_l": 0.5
+    }
+   }
+  },
+  {
+   "id": "jetboil-mightymo",
+   "set": {
+    "specs": {
+     "boil_time_min": 3,
+     "boil_volume_l": 1
+    }
+   }
+  },
+  {
+   "id": "jetboil-micromo",
+   "set": {
+    "specs": {
+     "boil_time_min": 2.25,
+     "boil_volume_l": 0.5
+    }
+   }
+  },
+  {
+   "id": "jetboil-sumo",
+   "set": {
+    "specs": {
+     "boil_time_min": 4.25,
+     "boil_volume_l": 1
+    }
+   }
+  },
+  {
+   "id": "soto-windmaster-4flex",
+   "set": {
+    "specs": {
+     "boil_time_min": 2.45,
+     "boil_volume_l": 0.5
+    }
+   }
+  },
+  {
+   "id": "soto-amicus-igniter",
+   "set": {
+    "specs": {
+     "boil_time_min": 3.68,
+     "boil_volume_l": 0.5
+    }
+   }
+  },
+  {
+   "id": "brs-3000t",
+   "set": {
+    "specs": {
+     "boil_time_min": 3.13,
+     "boil_volume_l": 0.5
+    }
+   }
+  },
+  {
+   "id": "trangia-spirit-burner",
+   "set": {
+    "specs": {
+     "boil_time_min": 10,
+     "boil_volume_l": 1
+    }
+   }
+  },
+  {
+   "id": "msr-pocketrocket-original",
+   "set": {
+    "specs": {
+     "boil_time_min": 3.5,
+     "boil_volume_l": 1
+    }
+   }
+  },
+  {
+   "id": "snow-peak-gigapower-2-auto",
+   "set": {
+    "specs": {
+     "boil_time_min": 4.8,
+     "boil_volume_l": 1
+    }
+   }
+  },
+  {
+   "id": "snow-peak-bipod",
+   "set": {
+    "specs": {
+     "boil_time_min": 3.58,
+     "boil_volume_l": 1
+    }
+   }
+  },
+  {
+   "id": "sawyer-squeeze",
+   "set": {
+    "specs": {
+     "flow_rate_lpm": 1.7
+    }
+   }
+  },
+  {
+   "id": "lifestraw-peak-straw",
+   "set": {
+    "specs": {
+     "flow_rate_lpm": 2.5
+    }
+   }
+  },
+  {
+   "id": "lifestraw-personal",
+   "set": {
+    "specs": {
+     "flow_rate_lpm": 2.1
+    }
+   }
+  },
+  {
+   "id": "lifestraw-peak-gravity-8l",
+   "set": {
+    "specs": {
+     "flow_rate_lpm": 1.5
+    }
+   }
+  }
+ ]
+}

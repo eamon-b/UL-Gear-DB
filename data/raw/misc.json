@@ -28,14 +28,14 @@
     "weight_g": 175,
     "weight_basis": "manufacturer",
     "weight_note": null,
-    "price_usd": null,
+    "price_usd": 55.55,
     "specs": {
       "type": "telescoping pocket"
     },
     "url": "https://www.euroschirm.com/en/trekking-umbrellas/",
     "discontinued": false,
     "confidence": "high",
-    "notes": "EU price €49.90."
+    "notes": "EU price €49.90; price_usd converted at 1.1133 USD/EUR (ECB, 2026-10-28)."
   },
   {
     "id": "euroschirm-swing-handsfree",
@@ -1184,7 +1184,7 @@
     "weight_g": 82,
     "weight_basis": "manufacturer",
     "weight_note": "36 x 16.5 in, Garage Grown Gear-listed 2.9 oz / 82 g",
-    "price_usd": null,
+    "price_usd": 29.95,
     "specs": {
       "type": "towel",
       "material": "microfiber, 80% polyester / 20% nylon"
@@ -1192,7 +1192,7 @@
     "url": "https://www.garagegrowngear.com/products/personal-towel-by-packtowl",
     "discontinued": false,
     "confidence": "medium",
-    "notes": "GGG only stocks the Face size, so no price found"
+    "notes": null
   },
   {
     "id": "packtowl-luxe-towel-face",

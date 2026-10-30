@@ -1,0 +1,9 @@
+# Generated, or written by scripts with JSON.stringify: let them own the format
+data/
+public/data/
+dist/
+screenshots/
+package-lock.json
+tsconfig.tsbuildinfo
+# The README holds a generated coverage table that CI checks byte for byte
+*.md

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T10:21:00.246Z",
+  "generated_at": "2026-10-29T10:02:24.235Z",
   "files": [
     {
       "file": "backpack.json",
@@ -157,8 +157,8 @@
     },
     {
       "file": "water-storage.json",
-      "read": 64,
-      "kept": 64,
+      "read": 63,
+      "kept": 63,
       "dropped": 0,
       "error": null
     },
@@ -187,7 +187,7 @@
     "cookware": 105,
     "cook-accessory": 93,
     "water-treatment": 61,
-    "water-storage": 64,
+    "water-storage": 63,
     "rain-jacket": 101,
     "rain-pants": 67,
     "wind-layer": 57,
@@ -204,14 +204,14 @@
     "first-aid-hygiene": 85,
     "misc": 77
   },
-  "total": 3107,
+  "total": 3106,
   "dropped": [],
   "fixed": [],
   "duplicate_ids": [],
   "possible_duplicates": [],
   "used_fixtures": false,
   "aliases": {
-    "kept": 6,
+    "kept": 7,
     "ignored": []
   }
 }

@@ -29,7 +29,7 @@ const catById = new Map(categories.map((c) => [c.id, c]));
 // ---------- helpers ----------
 const isStr = (v) => typeof v === 'string';
 const clean = (v) => (isStr(v) ? v.replace(/\s+/g, ' ').trim() : v);
-const nonEmpty = (v) => (isStr(v) ? (clean(v) || null) : v == null ? null : String(v).trim() || null);
+const nonEmpty = (v) => (isStr(v) ? clean(v) || null : v == null ? null : String(v).trim() || null);
 const slugify = (s) =>
   String(s)
     .normalize('NFKD')
@@ -51,7 +51,8 @@ function toNumber(v) {
 
 function levenshtein(a, b) {
   if (a === b) return 0;
-  const m = a.length, n = b.length;
+  const m = a.length,
+    n = b.length;
   if (!m) return n;
   if (!n) return m;
   let prev = Array.from({ length: n + 1 }, (_, i) => i);
@@ -64,13 +65,20 @@ function levenshtein(a, b) {
   }
   return prev[n];
 }
-const norm = (s) => String(s).toLowerCase().replace(/\+/g, ' plus ').replace(/[^a-z0-9]+/g, ' ').trim();
+const norm = (s) =>
+  String(s)
+    .toLowerCase()
+    .replace(/\+/g, ' plus ')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
 function similarity(a, b) {
-  const x = norm(a), y = norm(b);
+  const x = norm(a),
+    y = norm(b);
   if (!x || !y) return 0;
   if (x === y) return 1;
   const lev = 1 - levenshtein(x, y) / Math.max(x.length, y.length);
-  const tx = new Set(x.split(' ')), ty = new Set(y.split(' '));
+  const tx = new Set(x.split(' ')),
+    ty = new Set(y.split(' '));
   let inter = 0;
   tx.forEach((t) => {
     if (ty.has(t) || ty.has(t.replace(/s$/, '')) || ty.has(t + 's')) inter++;
@@ -87,23 +95,38 @@ function matchSubcategory(raw, cat) {
   if (v) {
     const ci = subs.find((s) => s.toLowerCase() === v.toLowerCase());
     if (ci) return { value: ci, changed: true, how: 'case' };
-    let best = null, bestScore = 0;
+    let best = null,
+      bestScore = 0;
     for (const s of subs) {
       const sc = similarity(v, s);
-      if (sc > bestScore) { bestScore = sc; best = s; }
+      if (sc > bestScore) {
+        bestScore = sc;
+        best = s;
+      }
     }
     if (best && bestScore >= 0.6) return { value: best, changed: true, how: `closest (${bestScore.toFixed(2)})` };
   }
   if (subs.includes('other')) return { value: 'other', changed: true, how: 'other' };
   // No "other" bucket: fall back to the closest subcategory even when weak.
-  let best = subs[0], bestScore = -1;
-  if (v) for (const s of subs) { const sc = similarity(v, s); if (sc > bestScore) { bestScore = sc; best = s; } }
+  let best = subs[0],
+    bestScore = -1;
+  if (v)
+    for (const s of subs) {
+      const sc = similarity(v, s);
+      if (sc > bestScore) {
+        bestScore = sc;
+        best = s;
+      }
+    }
   return { value: best, changed: true, how: v ? `weak closest (${Math.max(0, bestScore).toFixed(2)})` : 'missing, defaulted' };
 }
 
 function cleanSpecs(specs, fixes) {
   if (specs == null) return {};
-  if (typeof specs !== 'object' || Array.isArray(specs)) { fixes.push('specs not an object, dropped'); return {}; }
+  if (typeof specs !== 'object' || Array.isArray(specs)) {
+    fixes.push('specs not an object, dropped');
+    return {};
+  }
   const out = {};
   for (const [k0, v0] of Object.entries(specs)) {
     const k = slugify(k0).replace(/-/g, '_');
@@ -116,7 +139,10 @@ function cleanSpecs(specs, fixes) {
       else if (/^(true|yes)$/i.test(v)) v = true;
       else if (/^(false|no)$/i.test(v)) v = false;
     } else if (Array.isArray(v)) {
-      v = v.map((x) => (isStr(x) ? clean(x) : x)).filter((x) => x !== '' && x != null).join(', ');
+      v = v
+        .map((x) => (isStr(x) ? clean(x) : x))
+        .filter((x) => x !== '' && x != null)
+        .join(', ');
       if (!v) continue;
     } else if (typeof v === 'object') {
       v = JSON.stringify(v);
@@ -128,7 +154,12 @@ function cleanSpecs(specs, fixes) {
 }
 
 // ---------- read files ----------
-const allFiles = fs.existsSync(RAW_DIR) ? fs.readdirSync(RAW_DIR).filter((f) => f.endsWith('.json')).sort() : [];
+const allFiles = fs.existsSync(RAW_DIR)
+  ? fs
+      .readdirSync(RAW_DIR)
+      .filter((f) => f.endsWith('.json'))
+      .sort()
+  : [];
 const realFiles = allFiles.filter((f) => !f.startsWith('_'));
 const fixtureFiles = allFiles.filter((f) => f.startsWith('_'));
 
@@ -159,7 +190,10 @@ function processFiles(files) {
       continue;
     }
     if (!Array.isArray(data)) data = Array.isArray(data?.items) ? data.items : null;
-    if (!data) { fileInfo.error = 'not an array'; continue; }
+    if (!data) {
+      fileInfo.error = 'not an array';
+      continue;
+    }
     const fileCat = file.replace(/^_/, '').replace(/\.json$/, '');
     data.forEach((raw, idx) => {
       fileInfo.read++;
@@ -175,9 +209,13 @@ function processFiles(files) {
       let category = nonEmpty(raw.category);
       if (!category || !catById.has(category)) {
         const slug = category ? slugify(category) : null;
-        if (slug && catById.has(slug)) { fixes.push(`category "${category}" -> "${slug}"`); category = slug; }
-        else if (catById.has(fileCat)) { fixes.push(`category "${category}" -> "${fileCat}" (from filename)`); category = fileCat; }
-        else return drop(`invalid category "${category}"`);
+        if (slug && catById.has(slug)) {
+          fixes.push(`category "${category}" -> "${slug}"`);
+          category = slug;
+        } else if (catById.has(fileCat)) {
+          fixes.push(`category "${category}" -> "${fileCat}" (from filename)`);
+          category = fileCat;
+        } else return drop(`invalid category "${category}"`);
       }
       const cat = catById.get(category);
 
@@ -190,7 +228,10 @@ function processFiles(files) {
       let w = toNumber(raw.weight_g);
       if (w == null && raw.weight_oz != null) {
         const oz = toNumber(raw.weight_oz);
-        if (oz != null) { w = oz * 28.3495; fixes.push('weight from weight_oz'); }
+        if (oz != null) {
+          w = oz * 28.3495;
+          fixes.push('weight from weight_oz');
+        }
       }
       if (w == null) return drop(`invalid weight_g ${JSON.stringify(raw.weight_g)}`);
       if (typeof raw.weight_g !== 'number' && raw.weight_oz == null) fixes.push('weight_g coerced from string');
@@ -202,8 +243,10 @@ function processFiles(files) {
       let price = null;
       if (raw.price_usd != null && raw.price_usd !== '') {
         price = toNumber(raw.price_usd);
-        if (price == null || price < 0) { fixes.push(`price_usd ${JSON.stringify(raw.price_usd)} -> null`); price = null; }
-        else if (typeof raw.price_usd !== 'number') fixes.push('price_usd coerced from string');
+        if (price == null || price < 0) {
+          fixes.push(`price_usd ${JSON.stringify(raw.price_usd)} -> null`);
+          price = null;
+        } else if (typeof raw.price_usd !== 'number') fixes.push('price_usd coerced from string');
         if (price != null) price = Math.round(price * 100) / 100;
       }
 
@@ -284,7 +327,10 @@ if (fs.existsSync(ALIASES_FILE)) {
     if (from.startsWith('_')) continue;
     if (seen.has(from)) report.aliases.ignored.push({ from, to, reason: 'old id is still a real item' });
     else if (!seen.has(to)) report.aliases.ignored.push({ from, to, reason: 'target id not found' });
-    else { aliases[from] = to; report.aliases.kept++; }
+    else {
+      aliases[from] = to;
+      report.aliases.kept++;
+    }
   }
 }
 items.sort((a, b) => a.category.localeCompare(b.category) || a.weight_g - b.weight_g);
@@ -323,19 +369,25 @@ const pad = (s, n) => String(s).padEnd(n);
 console.log(`\nUL Gear DB data build  (${path.relative(ROOT, RAW_DIR)})`);
 if (report.used_fixtures) console.log('  NOTE: no real data files with valid items; using _fixture files.');
 for (const f of report.files) {
-  console.log(`  ${pad(f.file, 30)} read ${pad(f.read, 5)} kept ${pad(f.kept, 5)} dropped ${f.dropped}${f.error ? `  ERROR: ${f.error}` : ''}`);
+  console.log(
+    `  ${pad(f.file, 30)} read ${pad(f.read, 5)} kept ${pad(f.kept, 5)} dropped ${f.dropped}${f.error ? `  ERROR: ${f.error}` : ''}`,
+  );
 }
 console.log('\n  Items per category:');
 for (const c of categories) if (report.counts[c.id]) console.log(`    ${pad(c.id, 22)} ${report.counts[c.id]}`);
 const empty = categories.filter((c) => !report.counts[c.id]).map((c) => c.id);
 if (empty.length) console.log(`    (empty: ${empty.join(', ')})`);
-console.log(`\n  Total: ${report.total}   fixed: ${report.fixed.length}   dropped: ${report.dropped.length}   duplicate ids: ${report.duplicate_ids.length}   possible dupes: ${report.possible_duplicates.length}`);
+console.log(
+  `\n  Total: ${report.total}   fixed: ${report.fixed.length}   dropped: ${report.dropped.length}   duplicate ids: ${report.duplicate_ids.length}   possible dupes: ${report.possible_duplicates.length}`,
+);
 for (const d of report.dropped.slice(0, 25)) console.log(`    DROP ${d.where} ${d.id ?? ''}: ${d.reason}`);
 if (report.dropped.length > 25) console.log(`    ... ${report.dropped.length - 25} more (see data/report.json)`);
 for (const d of report.duplicate_ids.slice(0, 25)) console.log(`    DUP  ${d.id} at ${d.where} -> ${d.renamed_to} (first at ${d.first})`);
 for (const d of report.possible_duplicates.slice(0, 10)) console.log(`    SAME? ${d.a}  ~  ${d.b}`);
 for (const d of report.aliases.ignored) console.log(`    ALIAS ignored ${d.from} -> ${d.to}: ${d.reason}`);
-console.log(`\n  Wrote ${path.relative(ROOT, OUT_FILE)} (${(fs.statSync(OUT_FILE).size / 1024).toFixed(1)} KB) and ${path.relative(ROOT, REPORT_FILE)}\n`);
+console.log(
+  `\n  Wrote ${path.relative(ROOT, OUT_FILE)} (${(fs.statSync(OUT_FILE).size / 1024).toFixed(1)} KB) and ${path.relative(ROOT, REPORT_FILE)}\n`,
+);
 
 // --strict (used in CI): fail on problems that would otherwise only show up in the report.
 if (process.argv.includes('--strict')) {

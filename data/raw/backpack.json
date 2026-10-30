@@ -2180,7 +2180,7 @@
     "weight_g": 408,
     "weight_basis": "manufacturer",
     "weight_note": "size M, starting weight",
-    "price_usd": null,
+    "price_usd": 199,
     "specs": {
       "volume_l": 30,
       "frame": "frameless",
@@ -2196,7 +2196,7 @@
     "url": "https://atompacks.co.uk/products/the-atom-re30-black",
     "discontinued": false,
     "confidence": "high",
-    "notes": "UK maker; sold in GBP (price_usd null). GBP 175"
+    "notes": "UK maker; USD price from the maker’s US storefront (atompacks.co.uk/?country=US); UK price GBP 175"
   },
   {
     "id": "atom-packs-atom-re40",
@@ -2208,7 +2208,7 @@
     "weight_g": 438,
     "weight_basis": "manufacturer",
     "weight_note": "size M, starting weight",
-    "price_usd": null,
+    "price_usd": 210,
     "specs": {
       "volume_l": 40,
       "frame": "frameless",
@@ -2224,7 +2224,7 @@
     "url": "https://atompacks.co.uk/products/the-atom-re40-black",
     "discontinued": false,
     "confidence": "high",
-    "notes": "UK maker; sold in GBP (price_usd null). GBP 185"
+    "notes": "UK maker; USD price from the maker’s US storefront (atompacks.co.uk/?country=US); UK price GBP 185"
   },
   {
     "id": "atom-packs-pulse-ep40",
@@ -2236,7 +2236,7 @@
     "weight_g": 650,
     "weight_basis": "manufacturer",
     "weight_note": "size M, carbon hoop frame + hipbelt",
-    "price_usd": null,
+    "price_usd": 295,
     "specs": {
       "volume_l": 40,
       "frame": "framesheet",
@@ -2252,7 +2252,7 @@
     "url": "https://atompacks.co.uk/products/the-pulse-ep40",
     "discontinued": false,
     "confidence": "high",
-    "notes": "UK maker; sold in GBP (price_usd null). GBP 260"
+    "notes": "UK maker; USD price from the maker’s US storefront (atompacks.co.uk/?country=US); UK price GBP 260"
   },
   {
     "id": "atom-packs-notch-ep50",
@@ -2264,7 +2264,7 @@
     "weight_g": 870,
     "weight_basis": "manufacturer",
     "weight_note": "size M, starting weight",
-    "price_usd": null,
+    "price_usd": 318,
     "specs": {
       "volume_l": 50,
       "frame": "internal",
@@ -2280,7 +2280,7 @@
     "url": "https://atompacks.co.uk/products/the-notch-ep50-mountain-green",
     "discontinued": false,
     "confidence": "high",
-    "notes": "UK maker; sold in GBP (price_usd null). GBP 280"
+    "notes": "UK maker; USD price from the maker’s US storefront (atompacks.co.uk/?country=US); UK price GBP 280"
   },
   {
     "id": "atom-packs-prospector-ep50",
@@ -2292,7 +2292,7 @@
     "weight_g": 910,
     "weight_basis": "manufacturer",
     "weight_note": "size M, starting weight",
-    "price_usd": null,
+    "price_usd": 329,
     "specs": {
       "volume_l": 50,
       "frame": "internal",
@@ -2308,7 +2308,7 @@
     "url": "https://atompacks.co.uk/products/the-prospector-ep50-black",
     "discontinued": false,
     "confidence": "high",
-    "notes": "UK maker; sold in GBP (price_usd null). GBP 290"
+    "notes": "UK maker; USD price from the maker’s US storefront (atompacks.co.uk/?country=US); UK price GBP 290"
   },
   {
     "id": "atom-packs-prospector-ep60",
@@ -2320,7 +2320,7 @@
     "weight_g": 965,
     "weight_basis": "manufacturer",
     "weight_note": "size M, starting weight",
-    "price_usd": null,
+    "price_usd": 352,
     "specs": {
       "volume_l": 60,
       "frame": "internal",
@@ -2336,7 +2336,7 @@
     "url": "https://atompacks.co.uk/products/the-prospector-ep60-us-navy-pre-order",
     "discontinued": false,
     "confidence": "high",
-    "notes": "UK maker; sold in GBP (price_usd null). GBP 310"
+    "notes": "UK maker; USD price from the maker’s US storefront (atompacks.co.uk/?country=US); UK price GBP 310"
   },
   {
     "id": "atom-packs-transition-ul35",
@@ -2348,7 +2348,7 @@
     "weight_g": 545,
     "weight_basis": "manufacturer",
     "weight_note": "size M, starting weight",
-    "price_usd": null,
+    "price_usd": 301,
     "specs": {
       "volume_l": 35,
       "frame": "framesheet",
@@ -2363,7 +2363,7 @@
     "url": "https://atompacks.co.uk/products/the-transition-ul35-black",
     "discontinued": false,
     "confidence": "high",
-    "notes": "UK maker; sold in GBP (price_usd null). GBP 265"
+    "notes": "UK maker; USD price from the maker’s US storefront (atompacks.co.uk/?country=US); UK price GBP 265"
   },
   {
     "id": "atom-packs-nanu-re25",
@@ -2375,7 +2375,7 @@
     "weight_g": 510,
     "weight_basis": "manufacturer",
     "weight_note": "total",
-    "price_usd": null,
+    "price_usd": 278,
     "specs": {
       "volume_l": 25,
       "frame": "framesheet",
@@ -2386,7 +2386,7 @@
     "url": "https://atompacks.co.uk/products/the-nanu-re25",
     "discontinued": false,
     "confidence": "high",
-    "notes": "UK maker; sold in GBP (price_usd null). GBP 245"
+    "notes": "UK maker; USD price from the maker’s US storefront (atompacks.co.uk/?country=US); UK price GBP 245"
   },
   {
     "id": "ula-circuit",
@@ -4564,7 +4564,7 @@
     "weight_g": 810,
     "weight_basis": "manufacturer",
     "weight_note": "size M with frame stays and hipbelt (579 g minimum)",
-    "price_usd": null,
+    "price_usd": 299,
     "specs": {
       "volume_l": 48,
       "frame": "internal",
@@ -4580,7 +4580,7 @@
     "url": "https://www.northernultralight.com/store/sundown",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Specs from northernultralight.com product data (load rating ~30-32 lb). Store prices only in CAD (base C$506) - no USD list price, left null. Checked 2026-10-23."
+    "notes": "Specs from northernultralight.com product data (load rating ~30-32 lb). Store prices only in CAD: base C$420 (C$506 is with the hipbelt-pocket bundle); price_usd converted at 1.4047 CAD/USD (ECB, 2026-10-28). Checked 2026-10-23."
   },
   {
     "id": "northern-ultralight-dreamline",
@@ -4592,7 +4592,7 @@
     "weight_g": 1314,
     "weight_basis": "manufacturer",
     "weight_note": "size M, standard",
-    "price_usd": null,
+    "price_usd": 453,
     "specs": {
       "frame": "internal",
       "hipbelt": true,
@@ -4608,7 +4608,7 @@
     "url": "https://www.northernultralight.com/store/dreamline",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Specs from northernultralight.com product data (44 L main + 6 L pockets; load under 50 lb). Store prices only in CAD (base C$722) - no USD list price, left null. Checked 2026-10-23."
+    "notes": "Specs from northernultralight.com product data (44 L main + 6 L pockets; load under 50 lb). Store prices only in CAD: base C$636 (C$722 is with the hipbelt-pocket bundle); price_usd converted at 1.4047 CAD/USD (ECB, 2026-10-28). Checked 2026-10-23."
   },
   {
     "id": "deuter-aircontact-ultra-50-5",
@@ -5690,16 +5690,16 @@
     "weight_g": 280,
     "weight_basis": "manufacturer",
     "weight_note": "UltraGrid version; Ecopak EPX200 version 340 g",
-    "price_usd": null,
+    "price_usd": 197.73,
     "specs": {
       "volume_l": 18,
       "frame": "frameless",
       "material": "UltraGrid recycled nylon grid"
     },
-    "url": "https://www.backpackinglight.com.au/products/liteway-urban-pro-pack-18l",
+    "url": "https://liteway.equipment/packs/urban/urban-pro-pack-18l",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-urban-pro-pack-18l), checked 2026-10-23. Sold in AUD only there; no USD price found."
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-urban-pro-pack-18l), checked 2026-10-23. USD price from Liteway’s current store (liteway.equipment, USD currency switch), checked 2026-10-29."
   },
   {
     "id": "liteway-urban-pro-pack-30l-ultragrid",
@@ -5711,17 +5711,17 @@
     "weight_g": 400,
     "weight_basis": "manufacturer",
     "weight_note": "UltraGrid version; Ecopak EPX200 version 455 g",
-    "price_usd": null,
+    "price_usd": 232.83,
     "specs": {
       "volume_l": 30,
       "frame": "frameless",
       "max_load_lb": 18,
       "material": "UltraGrid 210D recycled nylon grid"
     },
-    "url": "https://www.backpackinglight.com.au/products/liteway-urban-pro-pack-18l-copy",
+    "url": "https://liteway.equipment/packs/urban/urban-pro-pack-30l-xpac",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-urban-pro-pack-18l-copy), checked 2026-10-23. Sold in AUD only there; no USD price found."
+    "notes": "Liteway's own site (liteway.store) unreachable 2026-10-23; specs from manufacturer specification text on AU retailer listing (https://www.backpackinglight.com.au/products/liteway-urban-pro-pack-18l-copy), checked 2026-10-23. USD price from Liteway’s current store (liteway.equipment, USD currency switch), checked 2026-10-29."
   },
   {
     "id": "rei-co-op-flash-air-50",

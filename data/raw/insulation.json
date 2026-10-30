@@ -257,7 +257,7 @@
     "url": "https://www.outdoorresearch.com/products/mens-transcendent-down-hoodie-322081",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Fill power recalled (650), not checked"
+    "notes": "800+ fill power per outdoorresearch.com, checked 2026-10-29."
   },
   {
     "id": "outdoor-research-transcendent-down-jacket-mens",
@@ -3504,9 +3504,9 @@
       "hood": false
     },
     "url": "https://www.westernmountaineering.com/",
-    "discontinued": false,
+    "discontinued": true,
     "confidence": "low",
-    "notes": "Weight recalled (~10 oz); price not verified"
+    "notes": "Weight recalled (~10 oz). Western Mountaineering now sells only the Hooded Flash Jacket ($500)."
   },
   {
     "id": "cumulus-incredilite-jacket",
@@ -3561,7 +3561,7 @@
     "weight_g": 292,
     "weight_basis": "manufacturer",
     "weight_note": "Patagonia-listed 292 g (10.3 oz)",
-    "price_usd": null,
+    "price_usd": 289,
     "specs": {
       "fill": "down",
       "fill_power": 800,
@@ -3570,7 +3570,7 @@
     "url": "https://www.patagonia.com.au/products/womens-down-sweater-84684-blk",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Style 84684; USD price not captured (AU site)"
+    "notes": "Style 84684"
   },
   {
     "id": "patagonia-down-sweater-hoody-womens",
@@ -3582,7 +3582,7 @@
     "weight_g": 343,
     "weight_basis": "manufacturer",
     "weight_note": "Patagonia-listed 343 g (12.1 oz)",
-    "price_usd": null,
+    "price_usd": 345,
     "specs": {
       "fill": "down",
       "fill_power": 800,
@@ -3623,7 +3623,7 @@
     "weight_g": 309,
     "weight_basis": "manufacturer",
     "weight_note": "Patagonia-listed 309 g (10.9 oz)",
-    "price_usd": null,
+    "price_usd": 239,
     "specs": {
       "fill": "synthetic",
       "hood": false
@@ -3853,7 +3853,7 @@
     "weight_g": 180,
     "weight_basis": "manufacturer",
     "weight_note": "Montbell UK listed weight",
-    "price_usd": null,
+    "price_usd": 180,
     "specs": {
       "fill": "synthetic",
       "hood": true
@@ -3873,7 +3873,7 @@
     "weight_g": 159,
     "weight_basis": "manufacturer",
     "weight_note": "Montbell UK listed weight",
-    "price_usd": null,
+    "price_usd": 160,
     "specs": {
       "fill": "synthetic",
       "hood": false

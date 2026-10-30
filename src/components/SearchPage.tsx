@@ -21,14 +21,33 @@ export function SearchPage({ q }: { q: string }) {
       <div className="page-head">
         <h1>Search</h1>
         <input
-          className="search-in big" type="search" autoFocus placeholder="Search all gear: brand, model, type…" defaultValue={q}
+          className="search-in big"
+          type="search"
+          autoFocus
+          placeholder="Search all gear: brand, model, type…"
+          defaultValue={q}
           onChange={(e) => navigate(`/search?q=${encodeURIComponent(e.target.value)}`, true)}
         />
-        {q && <p className="muted">{results.length} results for “{q}”{cats.length > 1 && <> in {cats.map(([c, n]) => `${db.catById.get(c)?.name ?? c} (${n})`).join(', ')}</>}</p>}
+        {q && (
+          <p className="muted">
+            {results.length} results for “{q}”
+            {cats.length > 1 && <> in {cats.map(([c, n]) => `${db.catById.get(c)?.name ?? c} (${n})`).join(', ')}</>}
+          </p>
+        )}
       </div>
       {q && (
-        <GearTable items={sorted} sort={sort} setSort={setSort} unit={unit} specCols={[]} frontier={frontier}
-          valueOf={() => null} baseline={null} showCategory catById={db.catById} />
+        <GearTable
+          items={sorted}
+          sort={sort}
+          setSort={setSort}
+          unit={unit}
+          specCols={[]}
+          frontier={frontier}
+          valueOf={() => null}
+          baseline={null}
+          showCategory
+          catById={db.catById}
+        />
       )}
     </div>
   );

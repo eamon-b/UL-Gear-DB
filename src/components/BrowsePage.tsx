@@ -26,7 +26,8 @@ export function BrowsePage({ catId }: { catId?: string }) {
         <div className="page-head">
           <h1>Browse ultralight gear</h1>
           <p className="muted">
-            {db.items.length.toLocaleString()} items across {db.categories.filter((c) => c.count).length} categories. Pick a category to filter, sort, plot, and compare.
+            {db.items.length.toLocaleString()} items across {db.categories.filter((c) => c.count).length} categories. Pick a category to
+            filter, sort, plot, and compare.
           </p>
         </div>
         {groups.map((g) => (
@@ -35,7 +36,7 @@ export function BrowsePage({ catId }: { catId?: string }) {
             <div className="cat-cards">
               {g.cats.map((c) => {
                 const items = db.byCategory.get(c.id) ?? [];
-                const lightest = items.reduce<typeof items[number] | null>((a, b) => (!a || b.weight_g < a.weight_g ? b : a), null);
+                const lightest = items.reduce<(typeof items)[number] | null>((a, b) => (!a || b.weight_g < a.weight_g ? b : a), null);
                 return (
                   <a key={c.id} href={href(`/c/${c.id}`)} className={`cat-card ${c.count ? '' : 'empty'}`}>
                     <span className="cat-name">{c.name}</span>
@@ -57,7 +58,11 @@ export function BrowsePage({ catId }: { catId?: string }) {
         <select className="cat-select" value={cat.id} onChange={(e) => navigate(`/c/${e.target.value}`)} aria-label="Category">
           {groups.map((g) => (
             <optgroup key={g.group} label={g.group}>
-              {g.cats.map((c) => <option key={c.id} value={c.id}>{c.name} ({c.count})</option>)}
+              {g.cats.map((c) => (
+                <option key={c.id} value={c.id}>
+                  {c.name} ({c.count})
+                </option>
+              ))}
             </optgroup>
           ))}
         </select>
@@ -67,7 +72,8 @@ export function BrowsePage({ catId }: { catId?: string }) {
               <div className="cat-nav-group">{g.group}</div>
               {g.cats.map((c) => (
                 <a key={c.id} href={href(`/c/${c.id}`)} className={`${c.id === cat.id ? 'on' : ''} ${c.count ? '' : 'empty'}`}>
-                  <span>{c.name}</span><span className="muted">{c.count}</span>
+                  <span>{c.name}</span>
+                  <span className="muted">{c.count}</span>
                 </a>
               ))}
             </div>
@@ -75,7 +81,9 @@ export function BrowsePage({ catId }: { catId?: string }) {
         </nav>
       </aside>
       <div className="browse-main">
-        <h1 className="cat-title">{cat.name} <span className="muted">{cat.count} items</span></h1>
+        <h1 className="cat-title">
+          {cat.name} <span className="muted">{cat.count} items</span>
+        </h1>
         <BrowsePanel category={cat} />
       </div>
     </div>

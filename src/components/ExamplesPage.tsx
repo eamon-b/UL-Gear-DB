@@ -35,7 +35,9 @@ function loadExamples(): Promise<ExampleList[]> {
         return r.json();
       })
       .then((d) => d.lists as ExampleList[]);
-    cache.catch(() => { cache = null; });
+    cache.catch(() => {
+      cache = null;
+    });
   }
   return cache;
 }
@@ -51,7 +53,9 @@ export function ExamplesPage() {
   const [q, setQ] = useState('');
   const [sort, setSort] = useState<{ key: SortKey; desc: boolean }>({ key: 'base_g', desc: false });
   const [importing, setImporting] = useState<ExampleList | null>(null);
-  useEffect(() => { loadExamples().then(setLists, (e) => setErr(String(e))); }, []);
+  useEffect(() => {
+    loadExamples().then(setLists, (e) => setErr(String(e)));
+  }, []);
 
   const trails = useMemo(() => {
     const m = new Map<string, number>();
@@ -67,7 +71,9 @@ export function ExamplesPage() {
       return toks.every((t) => hay.includes(t));
     });
     const dir = sort.desc ? -1 : 1;
-    return out.sort((a, b) => ((a[sort.key] ?? -Infinity) > (b[sort.key] ?? -Infinity) ? dir : (a[sort.key] ?? -Infinity) < (b[sort.key] ?? -Infinity) ? -dir : 0));
+    return out.sort((a, b) =>
+      (a[sort.key] ?? -Infinity) > (b[sort.key] ?? -Infinity) ? dir : (a[sort.key] ?? -Infinity) < (b[sort.key] ?? -Infinity) ? -dir : 0,
+    );
   }, [lists, trail, q, sort]);
 
   const th = (key: SortKey, text: string) => {
@@ -89,21 +95,36 @@ export function ExamplesPage() {
       <div className="page-head">
         <h1>Example pack lists</h1>
         <p className="muted">
-          Real gear lists that hikers have published on LighterPack, with the article or thread each one came from.
-          Weights are recomputed from a snapshot of each list, so they can differ from the figures quoted in the source: lists get edited after they are posted,
-          and some authors don't mark worn items, which then count toward base weight. Import one to see how it matches the database, then use Alternatives or Lighten my pack on it.
+          Real gear lists that hikers have published on LighterPack, with the article or thread each one came from. Weights are recomputed
+          from a snapshot of each list, so they can differ from the figures quoted in the source: lists get edited after they are posted,
+          and some authors don't mark worn items, which then count toward base weight. Import one to see how it matches the database, then
+          use Alternatives or Lighten my pack on it.
         </p>
       </div>
-      {err && <p className="warn">Could not load example lists: {err}. Run <code>npm run data</code>.</p>}
+      {err && (
+        <p className="warn">
+          Could not load example lists: {err}. Run <code>npm run data</code>.
+        </p>
+      )}
       {!lists && !err && <div className="loading">Loading example lists…</div>}
       {lists && (
         <>
           <div className="toolbar">
-            <input type="search" placeholder="Filter by trail, author, season…" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Filter example lists" />
+            <input
+              type="search"
+              placeholder="Filter by trail, author, season…"
+              value={q}
+              onChange={(e) => setQ(e.target.value)}
+              aria-label="Filter example lists"
+            />
             <div className="row gap wrap">
-              <button type="button" className={`chip ${trail === '' ? 'on' : ''}`} onClick={() => setTrail('')}>All ({lists.length})</button>
+              <button type="button" className={`chip ${trail === '' ? 'on' : ''}`} onClick={() => setTrail('')}>
+                All ({lists.length})
+              </button>
               {trails.map(([t, n]) => (
-                <button key={t} type="button" className={`chip ${trail === t ? 'on' : ''}`} onClick={() => setTrail(trail === t ? '' : t)}>{t} ({n})</button>
+                <button key={t} type="button" className={`chip ${trail === t ? 'on' : ''}`} onClick={() => setTrail(trail === t ? '' : t)}>
+                  {t} ({n})
+                </button>
               ))}
             </div>
           </div>
@@ -126,10 +147,18 @@ export function ExamplesPage() {
                 {shown.map((l) => (
                   <tr key={l.id}>
                     <td>
-                      <a href={l.lighterpack_url} target="_blank" rel="noopener noreferrer" className="strong">{label(l)}</a>
+                      <a href={l.lighterpack_url} target="_blank" rel="noopener noreferrer" className="strong">
+                        {label(l)}
+                      </a>
                       <div className="muted small">
                         {l.author ? `${l.author} · ` : ''}
-                        {l.source_url ? <a href={l.source_url} target="_blank" rel="noopener noreferrer">{l.source_title || 'source'}</a> : l.source_title}
+                        {l.source_url ? (
+                          <a href={l.source_url} target="_blank" rel="noopener noreferrer">
+                            {l.source_title || 'source'}
+                          </a>
+                        ) : (
+                          l.source_title
+                        )}
                       </div>
                       {l.notes && <div className="muted small">{l.notes}</div>}
                     </td>
@@ -142,17 +171,32 @@ export function ExamplesPage() {
                     <td className="num">{fmtW(l.consumable_g, unit)}</td>
                     <td className="num">{fmtW(l.total_g, unit)}</td>
                     <td className="num">{l.items}</td>
-                    <td className="small muted">{l.categories.slice(0, 3).map((c) => `${c.name} ${fmtW(c.base_g, unit)}`).join(' · ')}</td>
-                    <td><button type="button" className="btn small" onClick={() => setImporting(l)}>Import</button></td>
+                    <td className="small muted">
+                      {l.categories
+                        .slice(0, 3)
+                        .map((c) => `${c.name} ${fmtW(c.base_g, unit)}`)
+                        .join(' · ')}
+                    </td>
+                    <td>
+                      <button type="button" className="btn small" onClick={() => setImporting(l)}>
+                        Import
+                      </button>
+                    </td>
                   </tr>
                 ))}
-                {!shown.length && <tr><td colSpan={9} className="muted center pad">No lists match.</td></tr>}
+                {!shown.length && (
+                  <tr>
+                    <td colSpan={9} className="muted center pad">
+                      No lists match.
+                    </td>
+                  </tr>
+                )}
               </tbody>
             </table>
           </div>
           <p className="muted small">
-            Lists belong to their authors and may have changed since the snapshot date. Add a list by putting its LighterPack id and source in
-            {' '}<code>data/examples/sources.json</code> and running <code>npm run fetch-examples</code>.
+            Lists belong to their authors and may have changed since the snapshot date. Add a list by putting its LighterPack id and source
+            in <code>data/examples/sources.json</code> and running <code>npm run fetch-examples</code>.
           </p>
         </>
       )}

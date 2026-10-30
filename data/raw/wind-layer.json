@@ -348,15 +348,15 @@
     "weight_g": 61,
     "weight_basis": "measured",
     "weight_note": "men's, reviewer-measured",
-    "price_usd": null,
+    "price_usd": 119,
     "specs": {
       "material": "ultralight nylon",
       "hood": true
     },
-    "url": "https://outdoorgearzine.com/en/best-lightweight-windshells/amp",
+    "url": "https://www.montbell.com/us/en/products/detail/1103285",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Japan ¥11,000; US price not verified."
+    "notes": "Montbell US model 1103285, listed as “EX Light Wind Hooded Jacket”; Japan ¥11,000."
   },
   {
     "id": "montbell-ex-light-wind-vest",
@@ -905,7 +905,7 @@
     "weight_g": 119,
     "weight_basis": "manufacturer",
     "weight_note": "Montbell US listed average weight",
-    "price_usd": null,
+    "price_usd": 76,
     "specs": {
       "material": "40D nylon taffeta, water-repellent",
       "hood": false
@@ -913,7 +913,7 @@
     "url": "https://www.montbell.com/us/en/products/detail/1103326",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Model #1103326. UK price GBP 75; USD price not captured"
+    "notes": "Model #1103326. UK price GBP 75."
   },
   {
     "id": "rab-borealis-vest-mens",

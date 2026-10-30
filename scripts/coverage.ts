@@ -40,9 +40,16 @@ for (const cat of db.categories) {
   const weight = pool.filter((it) => it.weight_g > 0).length;
   const m = metricsFor(cat.id, pool).find((x) => !x.auto) ?? null;
   const metric = m ? pool.filter((it) => m.get(it) != null).length : 0;
-  tot.items += pool.length; tot.price += price; tot.weight += weight;
-  if (m) { tot.mItems += pool.length; tot.metric += metric; }
-  rows.push(`| ${cat.name} | ${pool.length} | ${cell(price, pool.length)} | ${cell(weight, pool.length)} | ${m ? metricTitle(m) : '–'} | ${m ? cell(metric, pool.length) : '–'} | ${m ? (defaultMetric(cat.id, pool) ? 'on' : 'off') : '–'} |`);
+  tot.items += pool.length;
+  tot.price += price;
+  tot.weight += weight;
+  if (m) {
+    tot.mItems += pool.length;
+    tot.metric += metric;
+  }
+  rows.push(
+    `| ${cat.name} | ${pool.length} | ${cell(price, pool.length)} | ${cell(weight, pool.length)} | ${m ? metricTitle(m) : '–'} | ${m ? cell(metric, pool.length) : '–'} | ${m ? (defaultMetric(cat.id, pool) ? 'on' : 'off') : '–'} |`,
+  );
 }
 
 const table = [

@@ -64,32 +64,32 @@ How many items in each category have a price, a weight, and a value for the cate
 <!-- coverage:start -->
 | Category | Items | Price | Weight | 3rd metric | With metric | Default |
 |---|--:|--:|--:|---|--:|---|
-| Shelters | 380 | 329 (86%) | 380 (100%) | Capacity (person) | 380 (100%) | on |
-| Backpacks | 253 | 241 (95%) | 253 (100%) | Volume (L) | 253 (100%) | on |
-| Quilts & Sleeping Bags | 238 | 210 (88%) | 238 (100%) | Temp rating (°F) | 237 (99%) | on |
-| Sleeping Pads | 128 | 107 (83%) | 128 (100%) | R-value | 125 (97%) | on |
-| Pillows | 36 | 32 (88%) | 36 (100%) | – | – | – |
-| Stoves | 103 | 94 (91%) | 103 (100%) | Boil time (min) | **38 (36%)** | off |
-| Cookware | 105 | 94 (89%) | 105 (100%) | Capacity (ml) | 101 (96%) | on |
-| Cook Accessories | 93 | 83 (89%) | 93 (100%) | – | – | – |
-| Water Treatment | 61 | 51 (83%) | 61 (100%) | Flow rate (L/min) | **34 (55%)** | off |
-| Water Storage | 64 | 54 (84%) | 64 (100%) | Capacity (L) | 64 (100%) | on |
-| Rain Jackets | 101 | 98 (97%) | 101 (100%) | Waterproofing (mm) | **33 (32%)** | off |
-| Rain Pants | 67 | 64 (95%) | 67 (100%) | Waterproofing (mm) | **30 (44%)** | off |
-| Wind Layers | 57 | 52 (91%) | 57 (100%) | – | – | – |
-| Insulated Layers | 201 | 194 (96%) | 201 (100%) | Down fill (g) | **43 (21%)** | off |
-| Base Layers & Hiking Clothing | 193 | 192 (99%) | 193 (100%) | Fabric weight (gsm) | **79 (40%)** | off |
+| Shelters | 380 | 350 (92%) | 380 (100%) | Capacity (person) | 380 (100%) | on |
+| Backpacks | 253 | 253 (100%) | 253 (100%) | Volume (L) | 253 (100%) | on |
+| Quilts & Sleeping Bags | 238 | 211 (88%) | 238 (100%) | Temp rating (°F) | 237 (99%) | on |
+| Sleeping Pads | 128 | 117 (91%) | 128 (100%) | R-value | 127 (99%) | on |
+| Pillows | 36 | 34 (94%) | 36 (100%) | – | – | – |
+| Stoves | 103 | 97 (94%) | 103 (100%) | Boil time (min/L) | **52 (50%)** | off |
+| Cookware | 105 | 96 (91%) | 105 (100%) | Capacity (ml) | 101 (96%) | on |
+| Cook Accessories | 93 | 85 (91%) | 93 (100%) | – | – | – |
+| Water Treatment | 61 | 57 (93%) | 61 (100%) | Flow rate (L/min) | **38 (62%)** | off |
+| Water Storage | 63 | 55 (87%) | 63 (100%) | Capacity (L) | 63 (100%) | on |
+| Rain Jackets | 101 | 98 (97%) | 101 (100%) | Waterproofing (mm) | **44 (43%)** | off |
+| Rain Pants | 67 | 64 (95%) | 67 (100%) | Waterproofing (mm) | **35 (52%)** | off |
+| Wind Layers | 57 | 54 (94%) | 57 (100%) | – | – | – |
+| Insulated Layers | 201 | 199 (99%) | 201 (100%) | Down fill (g) | **43 (21%)** | off |
+| Base Layers & Hiking Clothing | 193 | 192 (99%) | 193 (100%) | Fabric weight (gsm) | **117 (60%)** | off |
 | Hats & Gloves | 132 | 132 (100%) | 132 (100%) | – | – | – |
 | Footwear | 270 | 270 (100%) | 270 (100%) | – | – | – |
 | Headlamps & Lights | 78 | 78 (100%) | 78 (100%) | Brightness (lm) | 78 (100%) | on |
 | Power Banks & Charging | 55 | 55 (100%) | 55 (100%) | Energy (Wh) | **34 (61%)** | off |
 | Satellite & Navigation | 32 | 32 (100%) | 32 (100%) | – | – | – |
-| Trekking Poles | 84 | 78 (92%) | 84 (100%) | Collapsed (in) | 82 (97%) | on |
-| Food Storage & Bear Protection | 53 | 51 (96%) | 53 (100%) | Volume (L) | 38 (71%) | on |
-| Stuff Sacks & Pack Liners | 161 | 156 (96%) | 161 (100%) | Volume (L) | **109 (67%)** | off |
+| Trekking Poles | 84 | 83 (98%) | 84 (100%) | Collapsed (in) | 83 (98%) | on |
+| Food Storage & Bear Protection | 53 | 53 (100%) | 53 (100%) | Volume (L) | 38 (71%) | on |
+| Stuff Sacks & Pack Liners | 161 | 159 (98%) | 161 (100%) | Volume (L) | **111 (68%)** | off |
 | First Aid, Hygiene & Tools | 85 | 84 (98%) | 85 (100%) | – | – | – |
-| Camp Comfort & Misc | 77 | 75 (97%) | 77 (100%) | – | – | – |
-| **All** | **3107** | **2906 (93%)** | **3107 (100%)** | | **1758 (75%)** | |
+| Camp Comfort & Misc | 77 | 77 (100%) | 77 (100%) | – | – | – |
+| **All** | **3106** | **2985 (96%)** | **3106 (100%)** | | **1834 (78%)** | |
 <!-- coverage:end -->
 
 `npm run coverage` regenerates the table. CI fails if it is out of date, so a PR that changes the data shows its effect on coverage in the README diff, and the table is also in each CI run's summary.

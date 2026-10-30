@@ -1,0 +1,202 @@
+{
+  "updates": [
+    {
+      "id": "katadyn-pocket",
+      "set": {
+        "price_usd": 429.95
+      }
+    },
+    {
+      "id": "katadyn-micropur-mp1-20",
+      "set": {
+        "price_usd": 12.95
+      }
+    },
+    {
+      "id": "steripen-ultralight",
+      "set": {
+        "price_usd": 109.95
+      }
+    },
+    {
+      "id": "steripen-ultra",
+      "set": {
+        "price_usd": 134.95
+      }
+    },
+    {
+      "id": "steripen-classic-3",
+      "set": {
+        "price_usd": 99.95
+      }
+    },
+    {
+      "id": "litesmith-cold-soaking-jar-medium",
+      "set": {
+        "price_usd": 4.25
+      }
+    },
+    {
+      "id": "litesmith-cold-soaking-jar-x-large",
+      "set": {
+        "price_usd": 5.95
+      }
+    },
+    {
+      "id": "mountain-laurel-designs-dcf-zip-pouch-large",
+      "set": {
+        "price_usd": 15
+      }
+    },
+    {
+      "id": "jetboil-micromo",
+      "set": {
+        "price_usd": 169.99
+      }
+    },
+    {
+      "id": "osprey-ultralight-raincover-medium",
+      "set": {
+        "price_usd": 42.5
+      }
+    },
+    {
+      "id": "granite-gear-event-sil-compression-drysack-13l",
+      "set": {
+        "price_usd": 39.95
+      }
+    },
+    {
+      "id": "frontiersman-bear-spray-9-2oz",
+      "set": {
+        "price_usd": 49.99
+      }
+    },
+    {
+      "id": "patagonia-down-sweater-womens",
+      "set": {
+        "price_usd": 289
+      }
+    },
+    {
+      "id": "patagonia-nano-puff-jacket-womens",
+      "set": {
+        "price_usd": 239
+      }
+    },
+    {
+      "id": "patagonia-down-sweater-hoody-womens",
+      "set": {
+        "price_usd": 345
+      }
+    },
+    {
+      "id": "montbell-ex-light-thermawrap-parka-womens",
+      "set": {
+        "price_usd": 180
+      }
+    },
+    {
+      "id": "montbell-ex-light-thermawrap-jacket-womens",
+      "set": {
+        "price_usd": 160
+      }
+    },
+    {
+      "id": "montbell-wind-blast-vest-mens",
+      "set": {
+        "price_usd": 76
+      }
+    },
+    {
+      "id": "montbell-ex-light-wind-parka-mens",
+      "set": {
+        "price_usd": 119
+      }
+    },
+    {
+      "id": "komperdell-carbon-pro-zero",
+      "set": {
+        "price_usd": 229.95
+      }
+    },
+    {
+      "id": "komperdell-carbon-evo-zero",
+      "set": {
+        "price_usd": 199.95
+      }
+    },
+    {
+      "id": "komperdell-fx-l-carbon-vario-approach",
+      "set": {
+        "price_usd": 249.95
+      }
+    },
+    {
+      "id": "komperdell-explorer-zero",
+      "set": {
+        "price_usd": 179.95
+      }
+    },
+    {
+      "id": "komperdell-carbon-ultra-zero",
+      "set": {
+        "price_usd": 299.95
+      }
+    },
+    {
+      "id": "potable-aqua-chlorine-dioxide-20",
+      "set": {
+        "price_usd": 13.99
+      }
+    },
+    {
+      "id": "garcia-backpackers-cache",
+      "set": {
+        "price_usd": 79
+      }
+    },
+    {
+      "id": "packtowl-personal-towel-hand",
+      "set": {
+        "price_usd": 29.95
+      }
+    },
+    {
+      "id": "olicamp-xts-pot",
+      "set": {
+        "price_usd": 34.99
+      }
+    },
+    {
+      "id": "evernew-water-carry-1500ml",
+      "set": {
+        "price_usd": 15.49
+      }
+    },
+    {
+      "id": "euroschirm-light-trek-ultra",
+      "set": {
+        "price_usd": 55.55
+      }
+    },
+    {
+      "id": "esbit-titanium-pot-750",
+      "set": {
+        "price_usd": 72.31
+      }
+    },
+    {
+      "id": "esbit-titanium-folding-stove",
+      "set": {
+        "price_usd": 22.21
+      }
+    },
+    {
+      "id": "esbit-brass-alcohol-burner",
+      "set": {
+        "price_usd": 18.87
+      }
+    }
+  ]
+}
