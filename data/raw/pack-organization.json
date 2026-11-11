@@ -3371,5 +3371,104 @@
     "discontinued": false,
     "confidence": "medium",
     "notes": "10 x 7 in. Price range $19.95-22.95 across sizes; per-size price inferred."
+  },
+  {
+    "id": "atom-packs-roo",
+    "category": "pack-organization",
+    "subcategory": "pouch/fanny pack",
+    "brand": "Atom Packs",
+    "model": "The Roo",
+    "variant": "Standard 1.5L",
+    "weight_g": 86,
+    "weight_basis": "manufacturer",
+    "weight_note": "Roo RE, Standard size (Large 2.5 L is 96 g)",
+    "price_usd": 49,
+    "specs": {
+      "volume_l": 1.5
+    },
+    "url": "https://atompacks.co.uk/products/the-roo-re-black",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Bum bag / fanny pack. USD price from the maker’s US storefront (?country=US); UK price GBP 42.50. Page notes other Roo editions weigh about 10 g more."
+  },
+  {
+    "id": "montbell-ul-mono-pouch-m",
+    "category": "pack-organization",
+    "subcategory": "pouch/fanny pack",
+    "brand": "Montbell",
+    "model": "U.L. MONO Pouch",
+    "variant": "M",
+    "weight_g": 30,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed weight (1.1 oz)",
+    "price_usd": 31,
+    "specs": {
+      "volume_l": 1.4,
+      "material": "30D siliconized Ballistic nylon ripstop"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/1123778",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #1123778. Small shoulder pouch, 22 x 19 x 4.5 cm. Size S (#1123777) is 23 g / 0.7 L."
+  },
+  {
+    "id": "litesmith-zipza-pouch-medium",
+    "category": "pack-organization",
+    "subcategory": "pouch/fanny pack",
+    "brand": "Litesmith",
+    "model": "Zipza Pouch",
+    "variant": "Medium",
+    "weight_g": 9,
+    "weight_basis": "manufacturer",
+    "weight_note": "0.33 oz (9.4 g)",
+    "price_usd": null,
+    "specs": {
+      "material": "1.43 oz DCF",
+      "waterproof": false
+    },
+    "url": "https://www.litesmith.com/zipza-pouches/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "8 x 6 x 1.5 in. Built to order."
+  },
+  {
+    "id": "zpacks-multi-pack",
+    "category": "pack-organization",
+    "subcategory": "pouch/fanny pack",
+    "brand": "Zpacks",
+    "model": "Multi-Pack",
+    "variant": null,
+    "weight_g": 86,
+    "weight_basis": "manufacturer",
+    "weight_note": "with all straps (pack alone 39 g)",
+    "price_usd": 74.95,
+    "specs": {
+      "material": "Ultra 100",
+      "waterproof": false
+    },
+    "url": "https://zpacks.com/products/multi-pack",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Wearable as chest pack, lid, fanny pack or satchel."
+  },
+  {
+    "id": "sea-to-summit-air-stream-pump-sack",
+    "category": "pack-organization",
+    "subcategory": "dry bag",
+    "brand": "Sea to Summit",
+    "model": "Air Stream Pump Sack",
+    "variant": null,
+    "weight_g": 48,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 49.95,
+    "specs": {
+      "volume_l": 20,
+      "waterproof": true
+    },
+    "url": "https://seatosummit.com/products/air-stream-dry-sack-pump",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Dry sack that doubles as a sleeping-mat pump."
   }
 ]

@@ -621,8 +621,8 @@
     "category": "trekking-poles",
     "subcategory": "adjustable",
     "brand": "Gossamer Gear",
-    "model": "LT5 Three Piece Carbon",
-    "variant": null,
+    "model": "LT5",
+    "variant": "Three Piece Carbon",
     "weight_g": 278,
     "weight_basis": "manufacturer",
     "weight_note": "per pair (139 g / 4.9 oz per pole, no baskets or boots); Shopify variant weight of 340 g is the shipping weight",
@@ -1841,5 +1841,49 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Price converted from GBP £115 at ~1.33 USD/GBP (no USD list price). Unique anatomical handle, no straps."
+  },
+  {
+    "id": "leki-makalu-cork-lite",
+    "category": "trekking-poles",
+    "subcategory": "adjustable",
+    "brand": "Leki",
+    "model": "Makalu Cork Lite",
+    "variant": "100-135 cm",
+    "weight_g": 500,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair, 250 g/pole (compact 90-125 cm version 238 g/pole)",
+    "price_usd": 159.95,
+    "specs": {
+      "material": "aluminum",
+      "adjustable": true,
+      "collapsed_length_in": 26.4,
+      "locking": "SpeedLock Plus lever"
+    },
+    "url": "https://lekiusa.com/products/makalu-cork-lite",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Cork grip, aluminum shafts; length 100-135 cm, pack size 67 cm."
+  },
+  {
+    "id": "leki-corklite",
+    "category": "trekking-poles",
+    "subcategory": "adjustable",
+    "brand": "Leki",
+    "model": "Corklite",
+    "variant": null,
+    "weight_g": 510,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair; Mountain Weekly review gives 9.0 oz / 255 g per pole, doubled",
+    "price_usd": 139,
+    "specs": {
+      "material": "aluminum",
+      "adjustable": true,
+      "collapsed_length_in": 26,
+      "locking": "SpeedLock 2 lever"
+    },
+    "url": "https://mtnweekly.com/reviews/splitboard-poles/leki-corklit-trekking-pole",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "Discontinued. OutdoorGearLab's review gives 19 oz (539 g) for the pair and a $140 list price."
   }
 ]

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-29T09:59:32.862Z",
-  "records": 3106,
-  "records_flagged": 151,
+  "generated_at": "2026-11-10T21:51:48.699Z",
+  "records": 3208,
+  "records_flagged": 158,
   "counts": {
-    "weight-outlier": 50,
+    "weight-outlier": 54,
     "per-pair": 2,
     "price-per-gram": 7,
     "near-duplicate": 11,
-    "shipping-weight": 30,
+    "shipping-weight": 33,
     "missing-url": 59
   },
   "thresholds": {
@@ -107,7 +107,7 @@
       "subcategory": "pouch/fanny pack",
       "weight_g": 8,
       "price_usd": 19.95,
-      "message": "weight 8 g is 1/9.6x the pouch/fanny pack median (77 g, n=19)",
+      "message": "weight 8 g is 1/9.6x the pouch/fanny pack median (77 g, n=23)",
       "details": {
         "median_g": 77,
         "ratio": 0.1
@@ -166,6 +166,23 @@
     },
     {
       "type": "weight-outlier",
+      "score": 62,
+      "id": "litesmith-zipza-pouch-medium",
+      "file": "pack-organization.json",
+      "index": 163,
+      "name": "Litesmith Zipza Pouch Medium",
+      "category": "pack-organization",
+      "subcategory": "pouch/fanny pack",
+      "weight_g": 9,
+      "price_usd": null,
+      "message": "weight 9 g is 1/8.6x the pouch/fanny pack median (77 g, n=23)",
+      "details": {
+        "median_g": 77,
+        "ratio": 0.12
+      }
+    },
+    {
+      "type": "weight-outlier",
       "score": 59,
       "id": "esbit-pocket-stove",
       "file": "stove.json",
@@ -192,7 +209,7 @@
       "subcategory": "pouch/fanny pack",
       "weight_g": 10,
       "price_usd": 15.9,
-      "message": "weight 10 g is 1/7.7x the pouch/fanny pack median (77 g, n=19)",
+      "message": "weight 10 g is 1/7.7x the pouch/fanny pack median (77 g, n=23)",
       "details": {
         "median_g": 77,
         "ratio": 0.13
@@ -209,7 +226,7 @@
       "subcategory": "headlamp",
       "weight_g": 11,
       "price_usd": 19.95,
-      "message": "weight 11 g is 1/7.8x the headlamp median (86 g, n=59)",
+      "message": "weight 11 g is 1/7.8x the headlamp median (86 g, n=62)",
       "details": {
         "median_g": 86,
         "ratio": 0.13
@@ -345,10 +362,27 @@
       "subcategory": "pouch/fanny pack",
       "weight_g": 12,
       "price_usd": 22.95,
-      "message": "weight 12 g is 1/6.4x the pouch/fanny pack median (77 g, n=19)",
+      "message": "weight 12 g is 1/6.4x the pouch/fanny pack median (77 g, n=23)",
       "details": {
         "median_g": 77,
         "ratio": 0.16
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 52,
+      "id": "salomon-soft-flask-xa-filter-490ml",
+      "file": "water-treatment.json",
+      "index": 61,
+      "name": "Salomon Soft Flask XA Filter 490ml 42mm",
+      "category": "water-treatment",
+      "subcategory": "bottle filter",
+      "weight_g": 52,
+      "price_usd": 60,
+      "message": "weight 52 g is 1/6.0x the bottle filter median (311 g, n=8)",
+      "details": {
+        "median_g": 311,
+        "ratio": 0.17
       }
     },
     {
@@ -447,10 +481,44 @@
       "subcategory": "dry bag",
       "weight_g": 255,
       "price_usd": 80,
-      "message": "weight 255 g is 5.5x the dry bag median (47 g, n=36)",
+      "message": "weight 255 g is 5.4x the dry bag median (47 g, n=37)",
       "details": {
         "median_g": 47,
-        "ratio": 5.48
+        "ratio": 5.43
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 48,
+      "id": "msr-lightning-ascent-snowshoes-22",
+      "file": "footwear.json",
+      "index": 281,
+      "name": "MSR Lightning Ascent Snowshoes 22 in",
+      "category": "footwear",
+      "subcategory": "traction",
+      "weight_g": 1870,
+      "price_usd": 399.95,
+      "message": "weight 1870 g is 5.3x the traction median (355 g, n=18)",
+      "details": {
+        "median_g": 355,
+        "ratio": 5.27
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 47,
+      "id": "msr-evo-ascent-snowshoes",
+      "file": "footwear.json",
+      "index": 280,
+      "name": "MSR Evo Ascent Snowshoes 22 in",
+      "category": "footwear",
+      "subcategory": "traction",
+      "weight_g": 1780,
+      "price_usd": 269.95,
+      "message": "weight 1780 g is 5.0x the traction median (355 g, n=18)",
+      "details": {
+        "median_g": 355,
+        "ratio": 5.01
       }
     },
     {
@@ -524,23 +592,6 @@
     {
       "type": "weight-outlier",
       "score": 46,
-      "id": "six-moon-designs-backpacking-dry-bag-50l",
-      "file": "pack-organization.json",
-      "index": 60,
-      "name": "Six Moon Designs Backpacking Dry Bag 50L",
-      "category": "pack-organization",
-      "subcategory": "dry bag",
-      "weight_g": 227,
-      "price_usd": 45,
-      "message": "weight 227 g is 4.9x the dry bag median (47 g, n=36)",
-      "details": {
-        "median_g": 47,
-        "ratio": 4.88
-      }
-    },
-    {
-      "type": "weight-outlier",
-      "score": 46,
       "id": "toaks-alcohol-cook-system-900",
       "file": "stove.json",
       "index": 58,
@@ -570,6 +621,23 @@
       "details": {
         "median_g": 227,
         "ratio": 0.21
+      }
+    },
+    {
+      "type": "weight-outlier",
+      "score": 45,
+      "id": "six-moon-designs-backpacking-dry-bag-50l",
+      "file": "pack-organization.json",
+      "index": 60,
+      "name": "Six Moon Designs Backpacking Dry Bag 50L",
+      "category": "pack-organization",
+      "subcategory": "dry bag",
+      "weight_g": 227,
+      "price_usd": 45,
+      "message": "weight 227 g is 4.8x the dry bag median (47 g, n=37)",
+      "details": {
+        "median_g": 47,
+        "ratio": 4.83
       }
     },
     {
@@ -753,7 +821,7 @@
       "subcategory": "knife/multitool",
       "weight_g": 8,
       "price_usd": 2.25,
-      "message": "weight 8 g is 1/4.3x the knife/multitool median (34 g, n=15)",
+      "message": "weight 8 g is 1/4.3x the knife/multitool median (34 g, n=18)",
       "details": {
         "median_g": 34,
         "ratio": 0.24
@@ -872,7 +940,7 @@
       "subcategory": "knife/multitool",
       "weight_g": 8,
       "price_usd": 24.95,
-      "message": "weight 8 g is 1/4.3x the knife/multitool median (34 g, n=15)",
+      "message": "weight 8 g is 1/4.3x the knife/multitool median (34 g, n=18)",
       "details": {
         "median_g": 34,
         "ratio": 0.24
@@ -1380,6 +1448,32 @@
       "message": "notes say the weight may be a packaged/shipping weight: \"Reg width (55\") / Reg length (72\"), 850FP, M10T fabric, boxed flat sewn footbox (lightest config) | Weight from UGQ BAND\""
     },
     {
+      "type": "shipping-weight",
+      "score": 35,
+      "id": "yama-mountain-gear-swiftline-1p-light",
+      "file": "shelter.json",
+      "index": 385,
+      "name": "Yama Mountain Gear 1P Swiftline Light, Medium",
+      "category": "shelter",
+      "subcategory": "trekking-pole tent",
+      "weight_g": 721,
+      "price_usd": null,
+      "message": "notes say the weight may be a packaged/shipping weight: \"packaged weight, medium (86 in) length, light inner option | Short/Long lengths are 695 g / 735 g. Price of the Light op\""
+    },
+    {
+      "type": "shipping-weight",
+      "score": 35,
+      "id": "yama-mountain-gear-swiftline-1p-standard",
+      "file": "shelter.json",
+      "index": 384,
+      "name": "Yama Mountain Gear 1P Swiftline Standard, Medium",
+      "category": "shelter",
+      "subcategory": "trekking-pole tent",
+      "weight_g": 790,
+      "price_usd": 375,
+      "message": "notes say the weight may be a packaged/shipping weight: \"packaged weight, medium (86 in) length; fly 368 g + rigging + standard inner | Short/Long lengths are 755 g / 806 g.\""
+    },
+    {
       "type": "per-pair",
       "score": 30,
       "id": "darn-tough-mountaineering-over-the-calf-heavyweight-mens",
@@ -1512,6 +1606,19 @@
     {
       "type": "shipping-weight",
       "score": 25,
+      "id": "nunatak-bears-ears-50",
+      "file": "backpack.json",
+      "index": 256,
+      "name": "Nunatak Bears Ears 50",
+      "category": "backpack",
+      "subcategory": "frameless",
+      "weight_g": 794,
+      "price_usd": 330,
+      "message": "794 g is exactly 1.75 lb and 1.9x the median: possibly a rounded shipping weight"
+    },
+    {
+      "type": "shipping-weight",
+      "score": 25,
       "id": "six-moon-designs-backpacking-dry-bag-50l",
       "file": "pack-organization.json",
       "index": 60,
@@ -1520,7 +1627,7 @@
       "subcategory": "dry bag",
       "weight_g": 227,
       "price_usd": 45,
-      "message": "227 g is exactly 0.5 lb and 4.9x the median: possibly a rounded shipping weight"
+      "message": "227 g is exactly 0.5 lb and 4.8x the median: possibly a rounded shipping weight"
     },
     {
       "type": "shipping-weight",

@@ -9049,5 +9049,134 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Price (USD store) and specs from bonfus.com, checked 2026-10-23."
+  },
+  {
+    "id": "mountain-laurel-designs-solomid-xl-innernet-silpoly",
+    "category": "shelter",
+    "subcategory": "bivy",
+    "brand": "Mountain Laurel Designs",
+    "model": "SoloMid XL InnerNet",
+    "variant": "SilPoly floor",
+    "weight_g": 311,
+    "weight_basis": "manufacturer",
+    "weight_note": "MLD-listed 11 oz | 311 g",
+    "price_usd": null,
+    "specs": {
+      "capacity": 1,
+      "material": "mesh, Pro SilPoly floor"
+    },
+    "url": "https://mountainlaureldesigns.com/product/mld-pyramid-innernets/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Mesh inner for the SoloMid XL, 90 x 32 x 46 in. Page gives only a price range ($180-395) across all InnerNet sizes."
+  },
+  {
+    "id": "mountain-laurel-designs-solomid-xl-innernet-dcf",
+    "category": "shelter",
+    "subcategory": "bivy",
+    "brand": "Mountain Laurel Designs",
+    "model": "SoloMid XL InnerNet",
+    "variant": "DCF floor",
+    "weight_g": 283,
+    "weight_basis": "manufacturer",
+    "weight_note": "MLD-listed 10 oz | 283 g",
+    "price_usd": null,
+    "specs": {
+      "capacity": 1,
+      "material": "mesh, 0.8 DCF floor"
+    },
+    "url": "https://mountainlaureldesigns.com/product/mld-pyramid-innernets/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Mesh inner for the SoloMid XL, 90 x 32 x 46 in. Page gives only a price range ($180-395) across all InnerNet sizes."
+  },
+  {
+    "id": "zpacks-hexamid-solo-tent-bathtub-floor",
+    "category": "shelter",
+    "subcategory": "trekking-pole tent",
+    "brand": "Zpacks",
+    "model": "Hexamid Solo Tent",
+    "variant": "with Cuben bathtub floor",
+    "weight_g": 437,
+    "weight_basis": "manufacturer",
+    "weight_note": "tarp w/ storm doors 164 g + bug screen 142 g + guylines, stuff sack + detachable bathtub floor 99 g; Zpacks total 15.4 oz (437 g), no stakes",
+    "price_usd": 475,
+    "specs": {
+      "capacity": 1,
+      "material": "DCF (.51 oz/sqyd Cuben Fiber)",
+      "freestanding": false
+    },
+    "url": "http://www.zpacks.com/shelter/hexamid.shtml",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "Original screen-floor Hexamid Solo (2009-c.2017). Weight and price from archived Zpacks page (Jan 2016). The tarp-only version was 5.8 oz (164 g), $299."
+  },
+  {
+    "id": "six-moon-designs-deschutes-plus",
+    "category": "shelter",
+    "subcategory": "tarp",
+    "brand": "Six Moon Designs",
+    "model": "Deschutes Plus",
+    "variant": null,
+    "weight_g": 450,
+    "weight_basis": "manufacturer",
+    "weight_note": "SMD headline weight (16 oz / 450 g)",
+    "price_usd": 220,
+    "specs": {
+      "capacity": 1,
+      "material": "20D silnylon",
+      "freestanding": false,
+      "shape": "enclosed tarp with no-see-um skirt"
+    },
+    "url": "https://www.sixmoondesigns.com/products/deschutes-plus",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "Deschutes tarp with perimeter no-see-um skirt. From archived SMD page (Dec 2021)."
+  },
+  {
+    "id": "yama-mountain-gear-swiftline-1p-standard",
+    "category": "shelter",
+    "subcategory": "trekking-pole tent",
+    "brand": "Yama Mountain Gear",
+    "model": "1P Swiftline",
+    "variant": "Standard, Medium",
+    "weight_g": 790,
+    "weight_basis": "manufacturer",
+    "weight_note": "packaged weight, medium (86 in) length; fly 368 g + rigging + standard inner",
+    "price_usd": 375,
+    "specs": {
+      "capacity": 1,
+      "doors": 1,
+      "walls": "double",
+      "freestanding": false,
+      "poles": "trekking"
+    },
+    "url": "https://yamamountaingear.com/products/1p-swiftline",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Short/Long lengths are 755 g / 806 g."
+  },
+  {
+    "id": "yama-mountain-gear-swiftline-1p-light",
+    "category": "shelter",
+    "subcategory": "trekking-pole tent",
+    "brand": "Yama Mountain Gear",
+    "model": "1P Swiftline",
+    "variant": "Light, Medium",
+    "weight_g": 721,
+    "weight_basis": "manufacturer",
+    "weight_note": "packaged weight, medium (86 in) length, light inner option",
+    "price_usd": null,
+    "specs": {
+      "capacity": 1,
+      "doors": 1,
+      "walls": "double",
+      "freestanding": false,
+      "poles": "trekking"
+    },
+    "url": "https://yamamountaingear.com/products/1p-swiftline",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Short/Long lengths are 695 g / 735 g. Price of the Light option not separately visible on the fetched page (base price $375)."
   }
 ]

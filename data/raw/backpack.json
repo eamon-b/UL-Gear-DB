@@ -739,7 +739,10 @@
     "url": "https://www.hyperlitemountaingear.com/products/windrider",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": null,
+    "aka": [
+      "Windrider 2400"
+    ]
   },
   {
     "id": "hmg-windrider-55",
@@ -768,7 +771,10 @@
     "url": "https://www.hyperlitemountaingear.com/products/windrider",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": null,
+    "aka": [
+      "Windrider 3400"
+    ]
   },
   {
     "id": "hmg-windrider-70",
@@ -797,7 +803,10 @@
     "url": "https://www.hyperlitemountaingear.com/products/windrider",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": null,
+    "aka": [
+      "Windrider 4400"
+    ]
   },
   {
     "id": "hmg-southwest-40",
@@ -826,7 +835,10 @@
     "url": "https://www.hyperlitemountaingear.com/products/southwest",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": null,
+    "aka": [
+      "Southwest 2400"
+    ]
   },
   {
     "id": "hmg-southwest-55",
@@ -855,7 +867,10 @@
     "url": "https://www.hyperlitemountaingear.com/products/southwest",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": null,
+    "aka": [
+      "Southwest 3400"
+    ]
   },
   {
     "id": "hmg-southwest-70",
@@ -884,7 +899,10 @@
     "url": "https://www.hyperlitemountaingear.com/products/southwest",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": null,
+    "aka": [
+      "Southwest 4400"
+    ]
   },
   {
     "id": "hmg-junction-40",
@@ -913,7 +931,10 @@
     "url": "https://www.hyperlitemountaingear.com/products/junction",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": null,
+    "aka": [
+      "Junction 2400"
+    ]
   },
   {
     "id": "hmg-junction-55",
@@ -942,7 +963,10 @@
     "url": "https://www.hyperlitemountaingear.com/products/junction",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": null,
+    "aka": [
+      "Junction 3400"
+    ]
   },
   {
     "id": "hmg-porter-40",
@@ -6411,5 +6435,121 @@
     "discontinued": false,
     "confidence": "medium",
     "notes": "12 L internal + ~3 L external. Running-vest strap version $290. Made to order (3-4 month lead time)."
+  },
+  {
+    "id": "atom-packs-prospector-40",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Atom Packs",
+    "model": "The Prospector",
+    "variant": "40L (Custom)",
+    "weight_g": 890,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M torso, starting weight",
+    "price_usd": null,
+    "specs": {
+      "volume_l": 40,
+      "frame": "internal",
+      "max_load_lb": 42,
+      "material": "Ecopak EPX200",
+      "hipbelt": true
+    },
+    "url": "https://atompacks.co.uk/products/the-prospector-custom",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Made-to-order (custom) Prospector in the 40L size: 35 L main body + 5 L side pockets, front pocket (4 L) not counted. UK price GBP 347 for the custom build; USD price not shown on the fetched page."
+  },
+  {
+    "id": "granite-gear-crown2-38",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Granite Gear",
+    "model": "Crown2 38",
+    "variant": null,
+    "weight_g": 950,
+    "weight_basis": "manufacturer",
+    "weight_note": "2 lb 1.5 oz per Mountain Weekly review; about 1.6 lb with frame sheet removed",
+    "price_usd": null,
+    "specs": {
+      "volume_l": 38,
+      "frame": "internal",
+      "max_load_lb": 35,
+      "material": "100D/210D Robic nylon"
+    },
+    "url": "https://mtnweekly.com/reviews/backpacks/granite-gear-crown2-38-backpack-review/",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "Discontinued by Granite Gear (per CampSaver listing, which gives 2.1 lb without lid). Removable lid and frame sheet."
+  },
+  {
+    "id": "zpacks-arc-haul-62l-gridstop",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Zpacks",
+    "model": "Arc Haul",
+    "variant": "62L Gridstop",
+    "weight_g": 660,
+    "weight_basis": "manufacturer",
+    "weight_note": "medium torso, medium belt (variants 638-668 g by torso/belt size)",
+    "price_usd": 299,
+    "specs": {
+      "volume_l": 62,
+      "frame": "internal",
+      "max_load_lb": 40,
+      "material": "4.85 oz/sqyd Dyneema Gridstop",
+      "hipbelt": true,
+      "torso_sizes": [
+        "short",
+        "medium",
+        "tall"
+      ]
+    },
+    "url": "https://zpacks.com/products/arc-haul-backpack",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "Pre-Ultra Arc Haul (c. 2016-2021), replaced by Arc Haul Ultra. Weight and last list price from archived Zpacks page (Dec 2019)."
+  },
+  {
+    "id": "nunatak-bears-ears-50",
+    "category": "backpack",
+    "subcategory": "frameless",
+    "brand": "Nunatak",
+    "model": "Bears Ears 50",
+    "variant": null,
+    "weight_g": 794,
+    "weight_basis": "manufacturer",
+    "weight_note": "approx. 28 oz as stated in Backpacking Light review",
+    "price_usd": 330,
+    "specs": {
+      "volume_l": 50,
+      "frame": "frameless",
+      "max_load_lb": 35,
+      "hipbelt": true
+    },
+    "url": "https://backpackinglight.com/bears-ears-50-review/",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Frameless pack built around an external bear-canister cradle. Weight/MSRP from 2021 BPL review; nunatakusa.com returned 503 when fetched."
+  },
+  {
+    "id": "six-moon-designs-fusion-65",
+    "category": "backpack",
+    "subcategory": "internal frame",
+    "brand": "Six Moon Designs",
+    "model": "Fusion 65",
+    "variant": null,
+    "weight_g": 1470,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 225,
+    "specs": {
+      "volume_l": 65,
+      "frame": "internal",
+      "hipbelt": true
+    },
+    "url": "https://www.sixmoondesigns.com/products/fusion-65",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "From archived SMD page (Nov 2020), then on closeout at $157.50 from $225."
   }
 ]

@@ -2171,5 +2171,25 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Model #2328337"
+  },
+  {
+    "id": "marmot-essence-jacket-mens",
+    "category": "rain-jacket",
+    "subcategory": "rain jacket",
+    "brand": "Marmot",
+    "model": "Essence Jacket",
+    "variant": "Men's",
+    "weight_g": 193,
+    "weight_basis": "manufacturer",
+    "weight_note": "6.8 oz per OutdoorGearLab review (size not stated)",
+    "price_usd": 200,
+    "specs": {
+      "material": "NanoPro 2.5-layer laminate, 15D nylon ripstop",
+      "pit_zips": false
+    },
+    "url": "https://www.outdoorgearlab.com/reviews/clothing-mens/rain-jacket-men/marmot-essence",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "Discontinued. Mesh-backed pit vents instead of zips. Weight varied by generation (other sources quote 5.7-6.3 oz)."
   }
 ]

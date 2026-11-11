@@ -4006,5 +4006,251 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "UPF 30+; maker page gives no weight, so GGG figure used"
+  },
+  {
+    "id": "exofficio-give-n-go-2-0-bikini-brief-womens",
+    "category": "base-layer",
+    "subcategory": "underwear",
+    "brand": "ExOfficio",
+    "model": "Give-N-Go 2.0 Bikini Brief",
+    "variant": "Women's",
+    "weight_g": 45,
+    "weight_basis": "manufacturer",
+    "weight_note": "retailer-listed product weight 1.59 oz (45.1 g), style 2241-6698, size not stated",
+    "price_usd": 20,
+    "specs": {
+      "gender": "women's"
+    },
+    "url": "https://ascentoutdoors.com/products/exofficio-womens-give-n-go-2-0-bikini-brief",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Other listings of this brief quote 1.23 oz (34.9 g) for another style number (seen in search results only, not fetched); hikers in the pack lists weigh theirs at about 30 g."
+  },
+  {
+    "id": "montbell-super-merino-wool-middle-weight-tights-mens",
+    "category": "base-layer",
+    "subcategory": "base bottom",
+    "brand": "Montbell",
+    "model": "SUPER MERINO WOOL Middle Weight Tights",
+    "variant": "Men's",
+    "weight_g": 160,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed weight",
+    "price_usd": 89,
+    "specs": {
+      "material": "85% merino wool, 15% polyester",
+      "gender": "men's"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/1107659",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #1107659"
+  },
+  {
+    "id": "montbell-super-merino-wool-middle-weight-high-neck-shirt-mens",
+    "category": "base-layer",
+    "subcategory": "base top",
+    "brand": "Montbell",
+    "model": "SUPER MERINO WOOL Middle Weight High Neck Shirt",
+    "variant": "Men's",
+    "weight_g": 209,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed weight",
+    "price_usd": 110,
+    "specs": {
+      "material": "85% merino wool, 15% polyester",
+      "gender": "men's"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2307103",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2307103. Zip-neck long sleeve base layer."
+  },
+  {
+    "id": "janji-3-afo-split-short-ultra-mens",
+    "category": "base-layer",
+    "subcategory": "hiking shorts",
+    "brand": "Janji",
+    "model": "3\" AFO Split Short Ultra",
+    "variant": "Men's",
+    "weight_g": 133,
+    "weight_basis": "manufacturer",
+    "weight_note": "men's M, Janji-listed 133 g / 4.7 oz",
+    "price_usd": 88,
+    "specs": {
+      "material": "88% recycled polyester, 12% elastane; brief liner",
+      "gender": "men's"
+    },
+    "url": "https://janji.com/products/ms-3-afo-split-short-ultra",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Current version of Janji's 3\" split short; lined, 4 pockets."
+  },
+  {
+    "id": "icebreaker-merino-150-anatomica-boxers-mens",
+    "category": "base-layer",
+    "subcategory": "underwear",
+    "brand": "Icebreaker",
+    "model": "Merino 150 Anatomica Boxers",
+    "variant": "Men's",
+    "weight_g": 70,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Icebreaker-listed 70 g / 2.47 oz",
+    "price_usd": 50,
+    "specs": {
+      "material": "83% merino wool, 12% nylon, 5% elastane",
+      "gsm": 150,
+      "gender": "men's"
+    },
+    "url": "https://na.icebreaker.com/en-us/products/men-merino-150-anatomica-boxers-ib1030290l1",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "icebreaker-merino-150-anatomica-briefs-mens",
+    "category": "base-layer",
+    "subcategory": "underwear",
+    "brand": "Icebreaker",
+    "model": "Merino 150 Anatomica Briefs",
+    "variant": "Men's",
+    "weight_g": 50,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Icebreaker-listed 50 g / 1.76 oz",
+    "price_usd": 45,
+    "specs": {
+      "material": "83% merino wool blend",
+      "gsm": 150,
+      "gender": "men's"
+    },
+    "url": "https://na.icebreaker.com/en-us/products/mens-merino-150-anatomica-briefs-ib103031580",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "icebreaker-merino-blend-125-cool-lite-sphere-long-sleeve-tee-mens",
+    "category": "base-layer",
+    "subcategory": "hiking shirt",
+    "brand": "Icebreaker",
+    "model": "Merino Blend 125 Cool-Lite Sphere Long Sleeve Tee",
+    "variant": "Men's",
+    "weight_g": 210,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Icebreaker-listed 210 g / 7.41 oz",
+    "price_usd": 100,
+    "specs": {
+      "material": "60% Tencel lyocell, 40% merino wool",
+      "gsm": 125,
+      "gender": "men's"
+    },
+    "url": "https://na.icebreaker.com/en-us/products/mens-merino-blend-125-cool-lite-sphere-long-sleeve-tee-ib0a56zla74",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Current Sphere long sleeve; earlier Sphere crewes were lighter (retailers quote 151-169 g)."
+  },
+  {
+    "id": "icebreaker-merino-150-tech-lite-short-sleeve-tee-mens",
+    "category": "base-layer",
+    "subcategory": "hiking shirt",
+    "brand": "Icebreaker",
+    "model": "Merino 150 Tech Lite Short Sleeve T-Shirt",
+    "variant": "Men's",
+    "weight_g": 146,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Icebreaker-listed 146 g / 5.16 oz",
+    "price_usd": 90,
+    "specs": {
+      "material": "100% merino wool",
+      "gsm": 150,
+      "gender": "men's"
+    },
+    "url": "https://na.icebreaker.com/en-us/products/merino-150-tech-lite-short-sleeve-t-shirt-ib0a56wl329",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "patagonia-capilene-thermal-weight-crew-mens",
+    "category": "base-layer",
+    "subcategory": "base top",
+    "brand": "Patagonia",
+    "model": "Capilene Thermal Weight Crew",
+    "variant": "Men's",
+    "weight_g": 159,
+    "weight_basis": "manufacturer",
+    "weight_note": "Patagonia \"Average Weight\" as listed by dealer Patagonia Bend",
+    "price_usd": 109,
+    "specs": {
+      "material": "Polartec Power Grid, 92% recycled polyester / 8% spandex",
+      "gsm": 153,
+      "gender": "men's"
+    },
+    "url": "https://www.patagoniabend.com/products/mens-capilene-thermal-weight-crew-43648",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "patagonia-capilene-thermal-weight-zip-neck-mens",
+    "category": "base-layer",
+    "subcategory": "base top",
+    "brand": "Patagonia",
+    "model": "Capilene Thermal Weight Zip-Neck",
+    "variant": "Men's",
+    "weight_g": 173,
+    "weight_basis": "manufacturer",
+    "weight_note": "Patagonia \"Average Weight\" as listed by dealer Patagonia Bend",
+    "price_usd": 119,
+    "specs": {
+      "material": "Polartec Power Grid, 92% recycled polyester / 8% spandex",
+      "gsm": 153,
+      "gender": "men's"
+    },
+    "url": "https://www.patagoniabend.com/products/mens-capilene-thermal-weight-zip-neck-43659",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "patagonia-capilene-thermal-weight-zip-neck-womens",
+    "category": "base-layer",
+    "subcategory": "base top",
+    "brand": "Patagonia",
+    "model": "Capilene Thermal Weight Zip-Neck",
+    "variant": "Women's",
+    "weight_g": 150,
+    "weight_basis": "manufacturer",
+    "weight_note": "Patagonia \"Average Weight\" as listed by dealer Patagonia Bend",
+    "price_usd": 119,
+    "specs": {
+      "material": "Polartec Power Grid, 92% recycled polyester / 8% spandex",
+      "gsm": 153,
+      "gender": "women's"
+    },
+    "url": "https://www.patagoniabend.com/products/womens-capilene-thermal-weight-zip-neck-43664",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "patagonia-long-sleeved-capilene-cool-daily-shirt-mens",
+    "category": "base-layer",
+    "subcategory": "hiking shirt",
+    "brand": "Patagonia",
+    "model": "Long-Sleeved Capilene Cool Daily Shirt",
+    "variant": "Men's",
+    "weight_g": 154,
+    "weight_basis": "manufacturer",
+    "weight_note": "Patagonia \"Average Weight\" as listed by dealer Patagonia Bend",
+    "price_usd": null,
+    "specs": {
+      "material": "3.7-oz 100% polyester (50% recycled) jersey",
+      "gender": "men's"
+    },
+    "url": "https://www.patagoniabend.com/products/mens-long-sleeved-capilene-cool-daily-shirt-45181",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "Only a marked-down sale price ($41.30) was visible on the fetched page, so list price left null."
   }
 ]

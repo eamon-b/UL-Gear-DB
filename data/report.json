@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-29T10:02:24.235Z",
+  "generated_at": "2026-11-10T21:52:53.104Z",
   "files": [
     {
       "file": "backpack.json",
-      "read": 253,
-      "kept": 253,
+      "read": 258,
+      "kept": 258,
       "dropped": 0,
       "error": null
     },
     {
       "file": "base-layer.json",
-      "read": 193,
-      "kept": 193,
+      "read": 205,
+      "kept": 205,
       "dropped": 0,
       "error": null
     },
     {
       "file": "communication.json",
-      "read": 32,
-      "kept": 32,
+      "read": 41,
+      "kept": 41,
       "dropped": 0,
       "error": null
     },
@@ -38,8 +38,8 @@
     },
     {
       "file": "first-aid-hygiene.json",
-      "read": 85,
-      "kept": 85,
+      "read": 88,
+      "kept": 88,
       "dropped": 0,
       "error": null
     },
@@ -52,43 +52,43 @@
     },
     {
       "file": "footwear.json",
-      "read": 270,
-      "kept": 270,
+      "read": 285,
+      "kept": 285,
       "dropped": 0,
       "error": null
     },
     {
       "file": "headwear-handwear.json",
-      "read": 132,
-      "kept": 132,
+      "read": 140,
+      "kept": 140,
       "dropped": 0,
       "error": null
     },
     {
       "file": "insulation.json",
-      "read": 201,
-      "kept": 201,
+      "read": 209,
+      "kept": 209,
       "dropped": 0,
       "error": null
     },
     {
       "file": "lighting.json",
-      "read": 78,
-      "kept": 78,
+      "read": 83,
+      "kept": 83,
       "dropped": 0,
       "error": null
     },
     {
       "file": "misc.json",
-      "read": 77,
-      "kept": 77,
+      "read": 89,
+      "kept": 89,
       "dropped": 0,
       "error": null
     },
     {
       "file": "pack-organization.json",
-      "read": 161,
-      "kept": 161,
+      "read": 166,
+      "kept": 166,
       "dropped": 0,
       "error": null
     },
@@ -108,8 +108,8 @@
     },
     {
       "file": "rain-jacket.json",
-      "read": 101,
-      "kept": 101,
+      "read": 102,
+      "kept": 102,
       "dropped": 0,
       "error": null
     },
@@ -122,8 +122,8 @@
     },
     {
       "file": "shelter.json",
-      "read": 380,
-      "kept": 380,
+      "read": 386,
+      "kept": 386,
       "dropped": 0,
       "error": null
     },
@@ -136,8 +136,8 @@
     },
     {
       "file": "sleeping-pad.json",
-      "read": 128,
-      "kept": 128,
+      "read": 136,
+      "kept": 136,
       "dropped": 0,
       "error": null
     },
@@ -150,8 +150,8 @@
     },
     {
       "file": "trekking-poles.json",
-      "read": 84,
-      "kept": 84,
+      "read": 86,
+      "kept": 86,
       "dropped": 0,
       "error": null
     },
@@ -164,47 +164,47 @@
     },
     {
       "file": "water-treatment.json",
-      "read": 61,
-      "kept": 61,
+      "read": 62,
+      "kept": 62,
       "dropped": 0,
       "error": null
     },
     {
       "file": "wind-layer.json",
-      "read": 57,
-      "kept": 57,
+      "read": 59,
+      "kept": 59,
       "dropped": 0,
       "error": null
     }
   ],
   "counts": {
-    "shelter": 380,
-    "backpack": 253,
+    "shelter": 386,
+    "backpack": 258,
     "sleep-insulation": 238,
-    "sleeping-pad": 128,
+    "sleeping-pad": 136,
     "pillow": 36,
     "stove": 103,
     "cookware": 105,
     "cook-accessory": 93,
-    "water-treatment": 61,
+    "water-treatment": 62,
     "water-storage": 63,
-    "rain-jacket": 101,
+    "rain-jacket": 102,
     "rain-pants": 67,
-    "wind-layer": 57,
-    "insulation": 201,
-    "base-layer": 193,
-    "headwear-handwear": 132,
-    "footwear": 270,
-    "lighting": 78,
+    "wind-layer": 59,
+    "insulation": 209,
+    "base-layer": 205,
+    "headwear-handwear": 140,
+    "footwear": 285,
+    "lighting": 83,
     "power": 55,
-    "communication": 32,
-    "trekking-poles": 84,
+    "communication": 41,
+    "trekking-poles": 86,
     "food-storage": 53,
-    "pack-organization": 161,
-    "first-aid-hygiene": 85,
-    "misc": 77
+    "pack-organization": 166,
+    "first-aid-hygiene": 88,
+    "misc": 89
   },
-  "total": 3106,
+  "total": 3208,
   "dropped": [],
   "fixed": [],
   "duplicate_ids": [],

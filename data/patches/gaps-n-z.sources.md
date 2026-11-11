@@ -1,0 +1,103 @@
+# Sources for gaps-n-z.json
+
+All pages fetched 2026-11-11. "archived" = Wayback Machine snapshot of the manufacturer's page.
+
+- zpacks-arc-haul-62l-gridstop | https://web.archive.org/web/20191201055354/https://zpacks.com/products/arc-haul-backpack (archived manufacturer page) | "Arc Haul 62L Backpack $299.00 ... Jet Black / Medium (20-23 inches) / Medium (30-45 inches): data-weight=23.3 oz / 660 g ... Volume: 62L"
+- zpacks-hexamid-solo-tent-bathtub-floor | https://web.archive.org/web/20160101215850/http://www.zpacks.com/shelter/hexamid.shtml (archived manufacturer page) | "The Total Weight for the tent including all of the above is 15.4 ounces (437 grams) ... Hexamid Solo Tent - ($475) Solo Cuben Bathtub Floor $475.00 USD"
+- zpacks-multi-pack | https://zpacks.com/products/multi-pack (manufacturer) | "Weight 3 oz / 86 g ... Total w/ all straps: 3.0 oz / 85 g; $74.95"
+- zpacks-z-line-slick-cord-2mm-50ft | https://zpacks.com/products/50-feet-2-0-mm-z-line-slick-cord (manufacturer) | "$14.95 USD ... 1.7 oz / 48 g ... Breaking Strength: over 200 lbs"
+- nemo-tensor-insulated-regular | https://web.archive.org/web/20230104111104/https://www.nemoequipment.com/products/tensor/ (archived manufacturer page) | "Insulated / Regular - $199.95 ... Minimum Weight 0 lb , 15.0 oz / 425 g ... R-Value 4.2"
+- nemo-tensor-insulated-regular-wide | https://web.archive.org/web/20230104111104/https://www.nemoequipment.com/products/tensor/ (archived manufacturer page) | "Insulated / Regular Wide - $219.95 ... Minimum Weight 1 lb , 3 oz / 540 g ... R-Value 4.2"
+- nemo-tensor-insulated-long-wide | https://web.archive.org/web/20230104111104/https://www.nemoequipment.com/products/tensor/ (archived manufacturer page) | "Insulated / Long Wide - $229.95 ... Minimum Weight 1 lb , 5 oz / 595 g ... R-Value 4.2"
+- opinel-no-07-stainless | https://www.opinel-usa.com/products/no-7-opinel-stainless-steel-blade (manufacturer) | "$21.00 ... Weight 1.4 oz"
+- victorinox-compact | https://www.victorinox.com/en-US/Compact/p/1.3405 (manufacturer) | "it still packs 15 functions ... $ 59.00 ... Weight: 2.3 oz"
+- victorinox-ambassador | https://www.knivesandtools.com/en/pt/-victorinox-ambassador-red.htm (retailer) | "Blade length: 4.8 cm Weight: 34 grams"
+- outdoor-research-flurry-sensor-glove-womens | https://www.outdoorresearch.com/products/womens-flurry-sensor-gloves-244888 (manufacturer) | "$50.00 ... Weight: 2.2 oz/ 62 g"
+- outdoor-research-flurry-sensor-glove-mens | https://www.outdoorresearch.com/products/mens-flurry-sensor-gloves-244887 (manufacturer) | "$50.00 ... Weight: 2.9 oz/ 82 g"
+- outdoor-research-activeice-sun-glove | https://www.outdoorresearch.com/products/activeice-sun-gloves-280128 (manufacturer) | "$35.00 ... Weight: 1.0 oz/ 28 g ... UPF 50+"
+- patagonia-capilene-thermal-weight-crew-mens | https://www.patagoniabend.com/products/mens-capilene-thermal-weight-crew-43648 (Patagonia dealer store / retailer) | "Sale price $109.00 ... Style No: 43648 Average Weight 159 g (5.6 oz) ... 4.5-oz (153-g) Polartec Power Grid"
+- patagonia-capilene-thermal-weight-zip-neck-mens | https://www.patagoniabend.com/products/mens-capilene-thermal-weight-zip-neck-43659 (Patagonia dealer store / retailer) | "Sale price $119.00 ... Style No: 43659 Average Weight 173 g (6.1 oz)"
+- patagonia-capilene-thermal-weight-zip-neck-womens | https://www.patagoniabend.com/products/womens-capilene-thermal-weight-zip-neck-43664 (Patagonia dealer store / retailer) | "Sale price $119.00 ... Style No: 43664 Average Weight 150 g (5.3 oz)"
+- patagonia-r1-air-zip-neck-mens | https://www.patagoniabend.com/products/mens-r1-air-zip-neck-40246 (Patagonia dealer store / retailer) | "Sale price $145.00 ... Style No: 40246 Average Weight 298 g (10.5 oz)"
+- patagonia-r1-air-zip-neck-womens | https://www.patagoniabend.com/products/womens-r1-air-zip-neck-40251 (Patagonia dealer store / retailer) | "Sale price $145.00 ... Style No: 40251 Average Weight 250 g (8.8 oz)"
+- patagonia-long-sleeved-capilene-cool-daily-shirt-mens | https://www.patagoniabend.com/products/mens-long-sleeved-capilene-cool-daily-shirt-45181 (Patagonia dealer store / retailer) | "Style No: 45181 Average Weight 154 g (5.4 oz)"
+- petzl-zipka | https://wildernesssupply.ca/headlamps/petzl/zipka-1 (retailer) | "Weight: 66 g including batteries ... Brightness: 300 lumens (ANSI/PLATO FL 1)"
+- nitecore-nu27 | https://flashlight.nitecore.com/product/nu27 (manufacturer; no price shown) | "600 Lumens ... Built-in 850mAh Li-ion Battery ... Max Runtime 57h ... Weight 56g (1.98 oz)(Bracket and Headband Included)"
+- nitecore-tip | https://web.archive.org/web/20191215160018/https://flashlight.nitecore.com/product/tip (archived manufacturer page; no price shown) | "360 lumens ... Weight 23.5 g / 0.82 oz"
+- nitecore-tube-v2 | https://flashlight.nitecore.com/product/tubev2 (manufacturer; no price shown) | "Max Output 55 Lumens ... Max Runtime 58h ... Weight 9.6g (0.34 oz)"
+- nunatak-bears-ears-50 | https://backpackinglight.com/bears-ears-50-review/ (review) | "The Nunatak Gear Bears Ears 50 Backpack (MSRP: $330, ~28 ounces / 794 g) ... 35 pound (16 kg) maximum weight capacity"
+- packtowl-nano-towel | https://www.altitude-sports.com/p/packtowl-nano-towel-pct-09270 (retailer) | "Weight (Metric): 25g ... Weight (Standard): 0.9oz"
+- rab-nucleus-pull-on-mens | https://www.altitude-sports.com/p/rab-nucleus-pullon-mens-rab-qfa-83 (retailer) | "Weight: 345g/12.2oz ... Thermic stretch mid-weight fleece with an oval-grid back"
+- salomon-xa-pro-3d-v8 | https://wildernesssupply.ca/hiking-shoes-1/salomon/men-s-xa-pro-3d-v8 (retailer) | "Salomon Men's XA Pro 3D v8 ... Weight: 340 g"
+- salomon-soft-flask-xa-filter-490ml | https://www.salomon.com/en-ca/product/soft-flask-xa-filter-490ml-16oz-42-lc10471 and https://www.salomon.com/en-us/product/soft-flask-xa-filter-490ml-16oz-42-lc10471 (manufacturer) | "Weight per unit 52 g (en-ca) / $60 ... Weight per unit 2 oz (en-us) ... removes bacteria and protozoa from approximately 1000 liters"
+- sawyer-cleaning-coupling | https://www.sawyer.com/product/cleaning-coupling-for-water-filtration (manufacturer; price not visible) | "Weight: 0.38 ounces"
+- sea-to-summit-lite-line-clothesline | https://seatosummit.com/products/lite-line-clothesline (manufacturer) | "$16.95 ... Packed Weight 1.0 oz | 29 g"
+- sea-to-summit-air-stream-pump-sack | https://seatosummit.com/products/air-stream-dry-sack-pump (manufacturer) | "$49.95 ... Packed Weight 1.7 oz | 48 g ... 20 litre volume"
+- sierra-designs-whitney-down-hoodie-mens | https://web.archive.org/web/20250115212524/https://sierradesigns.com/mens-whitney-down-hoodie/ (archived manufacturer page) | "$189.95 ... 800 Fill RDS DriDown ... Tech Specs - Size M ... Weight: 13.77 oz / 390 g"
+- six-moon-designs-deschutes-plus | https://web.archive.org/web/20211201221647/https://www.sixmoondesigns.com/products/deschutes-plus (archived manufacturer page) | "16 OZ – 450 G SOLO TARP – USES ONE 49” POLE ... Regular price $220.00"
+- six-moon-designs-fusion-65 | https://web.archive.org/web/20201112024114/https://www.sixmoondesigns.com/products/fusion-65 (archived manufacturer page) | "$157.50 $225.00 ... 52 oz - 1470 g Pack"
+- suunto-clipper-compass | https://www.suunto.com/en-us/Products/Compasses/Suunto-Clipper/Suunto-Clipper-LB-NH-Compass/ (manufacturer; weight is in the page's embedded product data, price loads dynamically and was not visible) | "ProductWeightGrams: 5, ProductWeightOunces: 0.18"
+- suunto-mc-2-nh-mirror-compass | https://www.suunto.com/en-us/Products/Compasses/Suunto-MC-2/Suunto-MC-2-NH-Mirror-Compass/ (manufacturer; weight is in the page's embedded product data, price loads dynamically and was not visible) | "ProductWeightGrams: 74, ProductWeightOunces: 2.61"
+- suunto-m-3-nh-compass | https://www.suunto.com/en-us/Products/Compasses/suunto-m-3/suunto-m-3-nh-compass/ (manufacturer; weight is in the page's embedded product data, price loads dynamically and was not visible) | "ProductWeightGrams: 46, ProductWeightOunces: 1.62"
+- suunto-core | https://www.suunto.com/en-us/Products/sports-watches/suunto-core/suunto-core-all-black/ (manufacturer; weight is in the page's embedded product data, price loads dynamically and was not visible) | "ProductWeightGrams: 64, ProductWeightOunces: 2.26"
+- suunto-9-baro | https://www.suunto.com/en-us/Products/sports-watches/suunto-9-baro/suunto-9-baro-black/ (manufacturer; weight is in the page's embedded product data, price loads dynamically and was not visible) | "ProductWeightGrams: 81, ProductWeightOunces: 2.86"
+- therm-a-rest-neoair-xlite-large | https://web.archive.org/web/20220119115058/https://www.thermarest.com/sleeping-pads/fast-and-light/neoair-xlite-sleeping-pad/neoair-xlite.html (archived manufacturer page) | "Small / Regular / Large / Regular Wide: R-Value 4.2 ... Weight (Standard) 8.3 oz, 12.5 oz, 1 lbs 1 oz, 1 lb ... Width 25 in, Length 77 in (Large)"
+- yama-mountain-gear-swiftline-1p-standard | https://yamamountaingear.com/products/1p-swiftline (manufacturer) | "$375.00 ... Packaged Weight Standard option / Light option ... Medium 86" | 218cm 790g 27.9 oz / 721g 25.4 oz"
+- yama-mountain-gear-swiftline-1p-light | https://yamamountaingear.com/products/1p-swiftline (manufacturer) | "Packaged Weight Standard option / Light option ... Medium 86" | 218cm 790g 27.9 oz / 721g 25.4 oz"
+
+## Already in the database under another name
+- "Zpacks Arc Haul UltraEPX" => zpacks-arc-haul-ultra-60l (same pack line; UltraEPX/Ultra fabric naming — volume not stated by the hiker, 60L is the closest weight match; treat as approximate)
+- "Zpacks Pocket Tarp w/ Doors" => zpacks-hexamid-pocket-tarp
+- "ZPacks Bear Bag Hang Kit" => zpacks-bear-bagging-kit-large
+- "Zpack Possum gloves" => zpacks-conductive-brushtail-possum-gloves
+- "Victorinox Classic penknife" => victorinox-classic-sd
+- "Opinel No.6 folding knife" => opinel-no-06-stainless
+- "Vargo big dig Ti" => vargo-dig-dig-tool
+- "Toaks 650 Ti Light" => toaks-light-650-pot
+- "Talenti Jar" / "Talenti of course" => talenti-gelato-jar
+- "Platypus 2L collapsable bag" => platypus-platy-2l
+- "Sea To Summit HeadNet" => sea-to-summit-mosquito-head-net
+- "Sea To Summit Nano (headnet)" => sea-to-summit-nano-mosquito-head-net
+- "Sea to Summit Ultra-Sil Compression Dry Sack 14L" => sea-to-summit-evac-ultralight-compression-dry-bag-13l (current name/size of the same product line; approximate)
+- "SmartWool Merino 250 Base Layer Top" => smartwool-classic-thermal-merino-base-layer-crew-mens (Merino 250 was renamed Classic Thermal; women's: smartwool-classic-thermal-merino-base-layer-crew-womens)
+- "SmartWool Merino 250 Patterned Base Layer Pants" => smartwool-classic-thermal-merino-base-layer-bottom-mens
+- "Smartwool 150 Long Sleeve" => smartwool-classic-all-season-merino-base-layer-long-sleeve-mens (Merino 150 was renamed Classic All-Season)
+- "Senchi Turbosheep" => senchi-designs-turbosheep-120-half-zip-pocket-hoodie (closest by weight, 198 g vs 204 g; hiker did not state the model)
+- "Rab Phantom pullover" => rab-phantom-pull-on-mens
+- "Thermarest X Lite womens" => therm-a-rest-neoair-xlite-womens
+- "Thermarest Uberlite air mat Small" => therm-a-rest-neoair-uberlite-small
+- "Snow Peak Mini Solo" / "Snow Peak Ti-Mini 750ml Pot w/ lid" => snow-peak-ti-mini-solo-combo-2 (hikers carry the pot only, so their weight is about half the combo's)
+- "Sawyer Picaridin" => sawyer-picaridin-insect-repellent-spray-20-3-oz
+- "NiteCore NB 10,000" => nitecore-nb10000-gen-2 (generation not stated)
+
+## Skipped
+- Zpacks "cuben" (Cuben Rain Jacket, Cuben pouch), "cuben fiber" food bag, "dynema stuff sack x3", "DCF stake sack", "Zip Bag 4x6": old/unnamed DCF sacks, too ambiguous to pin to one current product (current Phone Zip Pouch is a different stick-on design).
+- Zpacks Hexamid Solo-Plus: archived Hexamid page I fetched only gave Solo weights; did not find a Solo-Plus weight.
+- Zpacks groundcloth for Hexamid Solo: its 99 g floor weight is recorded in the weight_note of zpacks-hexamid-solo-tent-bathtub-floor rather than as a separate item.
+- Zpacks tooth brush kit: fetched Trailbrush page gives component weights only ("About .37 oz" carried), not clearly the same kit.
+- Outdoor Research Versaliner Sensor Glove: outdoorresearch.com lists "19.36 oz/ 549 g", an obvious site error; no trustworthy weight fetched.
+- Outdoor Research ActiveIce Sun Sleeves (57 g, $40 on outdoorresearch.com): verified, but no category/subcategory fits arm sleeves.
+- Outdoor Research Shuck mitts, Stargazer bivy, Foray (Paclite) rain pant, "3/4 length" sun gloves, "brimmed sunhat", "Trail Mix Gloves": discontinued/unspecific models; no page with a weight fetched (Trail Mix XT glove already exists).
+- Patagonia "capilene" (generic), "LW Capilene" underwear, Capilene Daily boxers, Capilene Cool Lightweight shirt, Crosstrek 1/4 zip, "UL hooded" down, Nine Trails shorts, "Multi" shorts, Sun Stretch shirt, Tropic Comfort, Visor: patagonia.com was returning a maintenance page; dealer catalog (Patagonia Bend) did not carry these, and several are too generic to identify.
+- Patagonia "Cool Sun-hoody": existing Capilene Cool Daily Hoody records are the likely match but the row is too vague to map.
+- Petzl Zipka 2 (older version): only the last Zipka version was verifiable.
+- Salomon Odyssey Pro, Nytro GTX / "montantes gtx" boots: discontinued, no spec page fetched.
+- Sawyer mesh bag, O-ring, syringe/flush kit, "cut off" bag scoop, bottle coupling tool: accessories/parts with no manufacturer weight on a fetched page (the cleaning coupling was added).
+- Sawyer Maxi-DEET / "Picardian" 119 g: consumables in unspecified sizes.
+- Sea to Summit Reactor Compact Plus liner: current Reactor page shows conflicting weights (10.4 oz packed vs 268 g) and the Compact Plus is an older model; also no liner subcategory.
+- Sea to Summit Spark SpII / SpIII (old naming) and "Spark 5F": archived product URL not found; current Spark records exist by temperature rating.
+- Sea to Summit collapsible cup (X-Cup), fleece-lined stuff sack, "Medium SilNylon Drybag", "air pillows", shampoo sheets: ambiguous or old models, consumable.
+- Senchi "OG" Alpha 60 hoodie: discontinued cottage run, no page.
+- Silva Expedition 4 / Type 4 compass: silva.se page fetched but shows no weight; UK retailers blocked (403) or showed no weight.
+- Six Moon Designs "Deshultes Plus" at 369 g: hiker's weight matches the plain Deschutes (already in DB as six-moon-designs-deschutes-tarp, 368 g); the Deschutes Plus was added anyway from the archived page.
+- Smartwool PhD Outdoor Light 1/4 / ankle socks, PhD running shorts, cuffed beanie: PhD line discontinued (became "Hike"); no weight page fetched for the mini height. Nearest current: smartwool-hike-light-cushion-ankle.
+- Snow Peak Hot Lips: product page 404, no weight fetched.
+- Suunto "button compass": unidentifiable model.
+- Teva flip flops, The North Face "wide brim" hat / Binary wind jacket, Nike DriFit shorts/hat, Uniqlo Airism boxers, REI silk/merino leggings, REI CoolMax liner sock, REI eTip gloves, REI 2 gal waterbag, Tilley merino toque, Voormi hat: generic or discontinued apparel with no identifiable model/spec page (rei.com blocks fetching, 403).
+- REI Minimalist GTX Mitts: discontinued; rei.com not fetchable and no archive snapshot found.
+- Rab Cirrus windshirt, Inferno, Pulse hoody: discontinued; no page with a weight fetched (rab.equipment archive 404).
+- Therm-a-Rest "Neo-Air" (436 g, version unknown) and pump sack: ambiguous / current pump-sack URL 404.
+- Scarpa Marmolada Pro: scarpa.com URL 404; hiker gave no weight either.
+- Vivobarefoot Primus Trail SG: vivobarefoot.com blocks fetching (403); only FG version in DB.
+- ULA Helix "potty trowel" ice axe: long discontinued, no source.
+- Nylofume + TAR valve adapter, Nitecore Tube "moded", NEMO Switchback cut for frame, Ziploc/Talenti/Smartwater cut-offs, "Wool-it" rows, OtterBox + phone, Nikon Coolpix (model unknown), New Balance/"Alpkit Balance Jacket" (mis-attributed brand): not identifiable single products / MYOG / repackaged.

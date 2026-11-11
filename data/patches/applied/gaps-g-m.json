@@ -1,0 +1,744 @@
+{
+ "additions": [
+  {
+   "id": "montbell-dynamo-wind-pants-mens",
+   "category": "wind-layer",
+   "subcategory": "wind pants",
+   "brand": "Montbell",
+   "model": "Dynamo Wind Pants",
+   "variant": "Men's",
+   "weight_g": 91,
+   "weight_basis": "manufacturer",
+   "weight_note": "Montbell US listed weight (3.2 oz)",
+   "price_usd": 78,
+   "specs": {
+    "material": "15D Ballistic Airlight nylon ripstop"
+   },
+   "url": "https://www.montbell.com/us/en/products/detail/2305179",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Model #2305179. Earlier 12-denier version (#2305123) was listed at 75 g / 2.6 oz."
+  },
+  {
+   "id": "montbell-dynamo-wind-pants-womens",
+   "category": "wind-layer",
+   "subcategory": "wind pants",
+   "brand": "Montbell",
+   "model": "Dynamo Wind Pants",
+   "variant": "Women's",
+   "weight_g": 85,
+   "weight_basis": "manufacturer",
+   "weight_note": "Montbell US listed weight",
+   "price_usd": 76,
+   "specs": {
+    "material": "15D Ballistic Airlight nylon ripstop"
+   },
+   "url": "https://www.montbell.com/us/en/products/detail/2305180",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Model #2305180"
+  },
+  {
+   "id": "montbell-trail-action-gloves-mens",
+   "category": "headwear-handwear",
+   "subcategory": "liner glove",
+   "brand": "Montbell",
+   "model": "Trail Action Gloves",
+   "variant": "Men's",
+   "weight_g": 38,
+   "weight_basis": "manufacturer",
+   "weight_note": "Montbell US listed weight (1.3 oz), pair",
+   "price_usd": 32,
+   "specs": {
+    "material": "Stretch CLIMAPLUS fleece (47% nylon, 36% polyester, 17% polyurethane)"
+   },
+   "url": "https://www.montbell.com/us/en/products/detail/1118269",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Model #1118269"
+  },
+  {
+   "id": "montbell-trail-action-gloves-womens",
+   "category": "headwear-handwear",
+   "subcategory": "liner glove",
+   "brand": "Montbell",
+   "model": "Trail Action Gloves",
+   "variant": "Women's",
+   "weight_g": 33,
+   "weight_basis": "manufacturer",
+   "weight_note": "Montbell US listed weight, pair",
+   "price_usd": 32,
+   "specs": {
+    "material": "Stretch CLIMAPLUS fleece (47% nylon, 36% polyester, 17% polyurethane)"
+   },
+   "url": "https://www.montbell.com/us/en/products/detail/1118270",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Model #1118270"
+  },
+  {
+   "id": "montbell-chameece-gloves-mens",
+   "category": "headwear-handwear",
+   "subcategory": "liner glove",
+   "brand": "Montbell",
+   "model": "CHAMEECE Gloves",
+   "variant": "Men's",
+   "weight_g": 26,
+   "weight_basis": "manufacturer",
+   "weight_note": "Montbell US listed weight, pair",
+   "price_usd": 23,
+   "specs": {
+    "material": "CHAMEECE microfleece (100% polyester)"
+   },
+   "url": "https://www.montbell.com/us/en/products/detail/1118478",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Model #1118478. Thin fleece liner glove; hikers also list it as the Chameece Inner Glove."
+  },
+  {
+   "id": "montbell-trekking-sunblock-umbrella-55",
+   "category": "misc",
+   "subcategory": "umbrella",
+   "brand": "Montbell",
+   "model": "Trekking Sunblock Umbrella 55",
+   "variant": null,
+   "weight_g": 200,
+   "weight_basis": "manufacturer",
+   "weight_note": "Montbell US listed weight (7.1 oz)",
+   "price_usd": 68,
+   "specs": {
+    "uv": true,
+    "material": "75D polyester canopy, silver coating",
+    "open_diameter_in": 38.6,
+    "folded_length_in": 9.8
+   },
+   "url": "https://www.montbell.com/us/en/products/detail/1128560",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Model #1128560. Folding sun/rain umbrella with reflective silver canopy."
+  },
+  {
+   "id": "montbell-ul-mono-pouch-m",
+   "category": "pack-organization",
+   "subcategory": "pouch/fanny pack",
+   "brand": "Montbell",
+   "model": "U.L. MONO Pouch",
+   "variant": "M",
+   "weight_g": 30,
+   "weight_basis": "manufacturer",
+   "weight_note": "Montbell US listed weight (1.1 oz)",
+   "price_usd": 31,
+   "specs": {
+    "volume_l": 1.4,
+    "material": "30D siliconized Ballistic nylon ripstop"
+   },
+   "url": "https://www.montbell.com/us/en/products/detail/1123778",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Model #1123778. Small shoulder pouch, 22 x 19 x 4.5 cm. Size S (#1123777) is 23 g / 0.7 L."
+  },
+  {
+   "id": "montbell-super-merino-wool-middle-weight-tights-mens",
+   "category": "base-layer",
+   "subcategory": "base bottom",
+   "brand": "Montbell",
+   "model": "SUPER MERINO WOOL Middle Weight Tights",
+   "variant": "Men's",
+   "weight_g": 160,
+   "weight_basis": "manufacturer",
+   "weight_note": "Montbell US listed weight",
+   "price_usd": 89,
+   "specs": {
+    "material": "85% merino wool, 15% polyester",
+    "gender": "men's"
+   },
+   "url": "https://www.montbell.com/us/en/products/detail/1107659",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Model #1107659"
+  },
+  {
+   "id": "montbell-super-merino-wool-middle-weight-high-neck-shirt-mens",
+   "category": "base-layer",
+   "subcategory": "base top",
+   "brand": "Montbell",
+   "model": "SUPER MERINO WOOL Middle Weight High Neck Shirt",
+   "variant": "Men's",
+   "weight_g": 209,
+   "weight_basis": "manufacturer",
+   "weight_note": "Montbell US listed weight",
+   "price_usd": 110,
+   "specs": {
+    "material": "85% merino wool, 15% polyester",
+    "gender": "men's"
+   },
+   "url": "https://www.montbell.com/us/en/products/detail/2307103",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Model #2307103. Zip-neck long sleeve base layer."
+  },
+  {
+   "id": "montbell-ex-light-down-jacket-mens",
+   "category": "insulation",
+   "subcategory": "down jacket",
+   "brand": "Montbell",
+   "model": "EX Light Down Jacket",
+   "variant": "Men's",
+   "weight_g": 159,
+   "weight_basis": "manufacturer",
+   "weight_note": "5.6 oz total per OutdoorGearLab review (size not stated)",
+   "price_usd": 199,
+   "specs": {
+    "fill": "down",
+    "fill_power": 900,
+    "fill_weight_g": 51,
+    "hood": false,
+    "material": "7D Ballistic Airlight nylon"
+   },
+   "url": "https://www.outdoorgearlab.com/reviews/clothing-mens/down-jacket-men/montbell-ex-light",
+   "discontinued": true,
+   "confidence": "medium",
+   "notes": "Older model; no current Montbell US page found (the EX Light Down Anorak is a separate record). Weight, 1.8 oz fill and $199 list price from the OutdoorGearLab review."
+  },
+  {
+   "id": "garmin-fenix-7",
+   "category": "communication",
+   "subcategory": "watch",
+   "brand": "Garmin",
+   "model": "fenix 7",
+   "variant": "47mm Standard Edition",
+   "weight_g": 79,
+   "weight_basis": "manufacturer",
+   "weight_note": "with silicone band; case only 56 g",
+   "price_usd": 649.99,
+   "specs": {
+    "two_way": false,
+    "subscription": false,
+    "battery_life": "up to 18 days smartwatch"
+   },
+   "url": "https://www.garmin.com/en-US/p/735520/pn/010-02540-00",
+   "discontinued": true,
+   "confidence": "high",
+   "notes": "Listed by Garmin under Previous Models. 47 x 47 x 14.5 mm. Sapphire Solar titanium version 73 g."
+  },
+  {
+   "id": "garmin-fenix-7s-pro-sapphire-solar",
+   "category": "communication",
+   "subcategory": "watch",
+   "brand": "Garmin",
+   "model": "fenix 7S Pro",
+   "variant": "42mm Sapphire Solar",
+   "weight_g": 58,
+   "weight_basis": "manufacturer",
+   "weight_note": "titanium version with band (case only 42 g); stainless steel version 65 g",
+   "price_usd": 899.99,
+   "specs": {
+    "two_way": false,
+    "subscription": false,
+    "battery_life": "up to 11 days smartwatch (14 with solar)"
+   },
+   "url": "https://www.garmin.com/en-US/p/735520/pn/010-02540-00",
+   "discontinued": true,
+   "confidence": "medium",
+   "notes": "Specs and price read from the fenix 7 series comparison data on Garmin's fenix 7 page (part no. 010-02776-10). 42 x 42 x 14.1 mm."
+  },
+  {
+   "id": "garmin-fenix-6x-pro",
+   "category": "communication",
+   "subcategory": "watch",
+   "brand": "Garmin",
+   "model": "fenix 6X Pro",
+   "variant": "51mm",
+   "weight_g": 93,
+   "weight_basis": "manufacturer",
+   "weight_note": "steel, case with silicone band (case only 66 g)",
+   "price_usd": 699.99,
+   "specs": {
+    "two_way": false,
+    "subscription": false,
+    "battery_life": "up to 21 days smartwatch"
+   },
+   "url": "https://www.garmin.com/en-US/p/641435",
+   "discontinued": true,
+   "confidence": "high",
+   "notes": "Marked Discontinued by Garmin. 51 x 51 x 14.9 mm. 6X Pro Solar titanium is 82 g."
+  },
+  {
+   "id": "garmin-fenix-5",
+   "category": "communication",
+   "subcategory": "watch",
+   "brand": "Garmin",
+   "model": "fenix 5",
+   "variant": "47mm",
+   "weight_g": 85,
+   "weight_basis": "manufacturer",
+   "weight_note": null,
+   "price_usd": 499.99,
+   "specs": {
+    "two_way": false,
+    "subscription": false,
+    "battery_life": "up to 2 weeks smartwatch"
+   },
+   "url": "https://www.garmin.com/en-US/p/552982",
+   "discontinued": true,
+   "confidence": "high",
+   "notes": "2017 model, superseded by fenix 6/7/8; Garmin's page still shows a $499.99 list price. 47 x 47 x 15.5 mm."
+  },
+  {
+   "id": "garmin-fenix-5s",
+   "category": "communication",
+   "subcategory": "watch",
+   "brand": "Garmin",
+   "model": "fenix 5S",
+   "variant": "42mm",
+   "weight_g": 67,
+   "weight_basis": "manufacturer",
+   "weight_note": null,
+   "price_usd": 599.99,
+   "specs": {
+    "two_way": false,
+    "subscription": false,
+    "battery_life": "up to 9 days smartwatch"
+   },
+   "url": "https://www.garmin.com/en-US/p/552237",
+   "discontinued": true,
+   "confidence": "high",
+   "notes": "2017 model, superseded by fenix 6S/7S/8; price is what Garmin's page shows for part no. 010-01685-16. 42 x 42 x 15 mm."
+  },
+  {
+   "id": "garmin-etrex-20x",
+   "category": "communication",
+   "subcategory": "GPS",
+   "brand": "Garmin",
+   "model": "eTrex 20x",
+   "variant": null,
+   "weight_g": 142,
+   "weight_basis": "manufacturer",
+   "weight_note": "5 oz (141.7 g) with 2 AA batteries",
+   "price_usd": 199.99,
+   "specs": {
+    "two_way": false,
+    "subscription": false,
+    "battery_life": "25 hours (2 AA)"
+   },
+   "url": "https://www.garmin.com/en-US/p/518046",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Successor to the eTrex 20 that hikers still list; Garmin's page does not mark it discontinued."
+  },
+  {
+   "id": "hyperlite-mountain-gear-essential-umbrella",
+   "category": "misc",
+   "subcategory": "umbrella",
+   "brand": "Hyperlite Mountain Gear",
+   "model": "Essential Umbrella",
+   "variant": null,
+   "weight_g": 193,
+   "weight_basis": "manufacturer",
+   "weight_note": "6.8 oz | 193 g per spec table",
+   "price_usd": 59,
+   "specs": {
+    "uv": true,
+    "material": "75D 190T pongee, silver coating, UPF 50+",
+    "open_diameter_in": 38,
+    "length_in": 24
+   },
+   "url": "https://www.hyperlitemountaingear.com/products/essential-backpacking-umbrella",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": null
+  },
+  {
+   "id": "msr-evo-ascent-snowshoes",
+   "category": "footwear",
+   "subcategory": "traction",
+   "brand": "MSR",
+   "model": "Evo Ascent Snowshoes",
+   "variant": "22 in",
+   "weight_g": 1780,
+   "weight_basis": "manufacturer",
+   "weight_note": "per pair (1.78 kg / 3 lb 15 oz)",
+   "price_usd": 269.95,
+   "specs": {
+    "length_in": 22,
+    "max_load_lb": 180
+   },
+   "url": "https://www.cascadedesigns.com/products/evo-ascent-snowshoes",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Load up to 250 lb with optional tails. msrgear.com now redirects to cascadedesigns.com."
+  },
+  {
+   "id": "msr-lightning-ascent-snowshoes-22",
+   "category": "footwear",
+   "subcategory": "traction",
+   "brand": "MSR",
+   "model": "Lightning Ascent Snowshoes",
+   "variant": "22 in",
+   "weight_g": 1870,
+   "weight_basis": "manufacturer",
+   "weight_note": "per pair (1.87 kg / 4 lb 2 oz)",
+   "price_usd": 399.95,
+   "specs": {
+    "length_in": 22,
+    "max_load_lb": 180
+   },
+   "url": "https://www.cascadedesigns.com/products/lightning-ascent-snowshoes",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "25 in: 1.95 kg, 30 in: 2.22 kg per pair."
+  },
+  {
+   "id": "janji-3-afo-split-short-ultra-mens",
+   "category": "base-layer",
+   "subcategory": "hiking shorts",
+   "brand": "Janji",
+   "model": "3\" AFO Split Short Ultra",
+   "variant": "Men's",
+   "weight_g": 133,
+   "weight_basis": "manufacturer",
+   "weight_note": "men's M, Janji-listed 133 g / 4.7 oz",
+   "price_usd": 88,
+   "specs": {
+    "material": "88% recycled polyester, 12% elastane; brief liner",
+    "gender": "men's"
+   },
+   "url": "https://janji.com/products/ms-3-afo-split-short-ultra",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Current version of Janji's 3\" split short; lined, 4 pockets."
+  },
+  {
+   "id": "montane-allez-micro-pull-on-mens",
+   "category": "insulation",
+   "subcategory": "fleece",
+   "brand": "Montane",
+   "model": "Allez Micro Pull-On",
+   "variant": "Men's",
+   "weight_g": 160,
+   "weight_basis": "manufacturer",
+   "weight_note": "retailer-listed 0.16 kg (Varuste.net); size not stated",
+   "price_usd": null,
+   "specs": {
+    "fill": "fleece",
+    "hood": false,
+    "material": "Polartec Power Grid"
+   },
+   "url": "https://varuste.net/en/p103271/montane-allez-micro-pull-on",
+   "discontinued": true,
+   "confidence": "medium",
+   "notes": "Quarter-zip grid fleece; absent from Montane's US catalog (Nov 2026). SportsShoes lists the men's pull-on at 147 g."
+  },
+  {
+   "id": "montane-allez-micro-hoodie-mens",
+   "category": "insulation",
+   "subcategory": "fleece",
+   "brand": "Montane",
+   "model": "Allez Micro Hoodie",
+   "variant": "Men's",
+   "weight_g": 175,
+   "weight_basis": "manufacturer",
+   "weight_note": "retailer-listed 0.175 kg (Varuste.net); size not stated",
+   "price_usd": null,
+   "specs": {
+    "fill": "fleece",
+    "hood": true,
+    "material": "Polartec Power Grid"
+   },
+   "url": "https://varuste.net/en/p103270/montane-allez-micro-hoodie",
+   "discontinued": true,
+   "confidence": "medium",
+   "notes": "Hooded grid fleece; absent from Montane's US catalog (Nov 2026)."
+  },
+  {
+   "id": "montane-trail-lite-gloves-mens",
+   "category": "headwear-handwear",
+   "subcategory": "liner glove",
+   "brand": "Montane",
+   "model": "Trail Lite Gloves",
+   "variant": "Men's",
+   "weight_g": 40,
+   "weight_basis": "manufacturer",
+   "weight_note": "Montane-listed 40 g, pair",
+   "price_usd": 40,
+   "specs": {
+    "material": "Chameleon LT softshell"
+   },
+   "url": "https://us.montane.com/products/montane-trail-lite-gloves",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Light softshell trail-running glove."
+  },
+  {
+   "id": "leki-makalu-cork-lite",
+   "category": "trekking-poles",
+   "subcategory": "adjustable",
+   "brand": "Leki",
+   "model": "Makalu Cork Lite",
+   "variant": "100-135 cm",
+   "weight_g": 500,
+   "weight_basis": "manufacturer",
+   "weight_note": "per pair, 250 g/pole (compact 90-125 cm version 238 g/pole)",
+   "price_usd": 159.95,
+   "specs": {
+    "material": "aluminum",
+    "adjustable": true,
+    "collapsed_length_in": 26.4,
+    "locking": "SpeedLock Plus lever"
+   },
+   "url": "https://lekiusa.com/products/makalu-cork-lite",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Cork grip, aluminum shafts; length 100-135 cm, pack size 67 cm."
+  },
+  {
+   "id": "leki-corklite",
+   "category": "trekking-poles",
+   "subcategory": "adjustable",
+   "brand": "Leki",
+   "model": "Corklite",
+   "variant": null,
+   "weight_g": 510,
+   "weight_basis": "manufacturer",
+   "weight_note": "per pair; Mountain Weekly review gives 9.0 oz / 255 g per pole, doubled",
+   "price_usd": 139,
+   "specs": {
+    "material": "aluminum",
+    "adjustable": true,
+    "collapsed_length_in": 26,
+    "locking": "SpeedLock 2 lever"
+   },
+   "url": "https://mtnweekly.com/reviews/splitboard-poles/leki-corklit-trekking-pole",
+   "discontinued": true,
+   "confidence": "medium",
+   "notes": "Discontinued. OutdoorGearLab's review gives 19 oz (539 g) for the pair and a $140 list price."
+  },
+  {
+   "id": "granite-gear-crown2-38",
+   "category": "backpack",
+   "subcategory": "internal frame",
+   "brand": "Granite Gear",
+   "model": "Crown2 38",
+   "variant": null,
+   "weight_g": 950,
+   "weight_basis": "manufacturer",
+   "weight_note": "2 lb 1.5 oz per Mountain Weekly review; about 1.6 lb with frame sheet removed",
+   "price_usd": null,
+   "specs": {
+    "volume_l": 38,
+    "frame": "internal",
+    "max_load_lb": 35,
+    "material": "100D/210D Robic nylon"
+   },
+   "url": "https://mtnweekly.com/reviews/backpacks/granite-gear-crown2-38-backpack-review/",
+   "discontinued": true,
+   "confidence": "medium",
+   "notes": "Discontinued by Granite Gear (per CampSaver listing, which gives 2.1 lb without lid). Removable lid and frame sheet."
+  },
+  {
+   "id": "hoka-speedgoat-5",
+   "category": "footwear",
+   "subcategory": "trail runner",
+   "brand": "HOKA",
+   "model": "Speedgoat 5",
+   "variant": null,
+   "weight_g": 584,
+   "weight_basis": "manufacturer",
+   "weight_note": "pair; Treeline Review-stated 10.3 oz per shoe (men's US 9) x2",
+   "price_usd": 155,
+   "specs": {
+    "drop_mm": 4,
+    "waterproof": false,
+    "gender": "men's"
+   },
+   "url": "https://treelinereview.com/gearreviews/hoka-speedgoat-5-review",
+   "discontinued": true,
+   "confidence": "medium",
+   "notes": "Older version still widely carried; superseded by Speedgoat 6/7. Treeline gives 8.5 oz per shoe for the women's version."
+  },
+  {
+   "id": "marmot-essence-jacket-mens",
+   "category": "rain-jacket",
+   "subcategory": "rain jacket",
+   "brand": "Marmot",
+   "model": "Essence Jacket",
+   "variant": "Men's",
+   "weight_g": 193,
+   "weight_basis": "manufacturer",
+   "weight_note": "6.8 oz per OutdoorGearLab review (size not stated)",
+   "price_usd": 200,
+   "specs": {
+    "material": "NanoPro 2.5-layer laminate, 15D nylon ripstop",
+    "pit_zips": false
+   },
+   "url": "https://www.outdoorgearlab.com/reviews/clothing-mens/rain-jacket-men/marmot-essence",
+   "discontinued": true,
+   "confidence": "medium",
+   "notes": "Discontinued. Mesh-backed pit vents instead of zips. Weight varied by generation (other sources quote 5.7-6.3 oz)."
+  },
+  {
+   "id": "litesmith-zipza-pouch-medium",
+   "category": "pack-organization",
+   "subcategory": "pouch/fanny pack",
+   "brand": "Litesmith",
+   "model": "Zipza Pouch",
+   "variant": "Medium",
+   "weight_g": 9,
+   "weight_basis": "manufacturer",
+   "weight_note": "0.33 oz (9.4 g)",
+   "price_usd": null,
+   "specs": {
+    "material": "1.43 oz DCF",
+    "waterproof": false
+   },
+   "url": "https://www.litesmith.com/zipza-pouches/",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "8 x 6 x 1.5 in. Built to order."
+  },
+  {
+   "id": "mountain-laurel-designs-solomid-xl-innernet-silpoly",
+   "category": "shelter",
+   "subcategory": "bivy",
+   "brand": "Mountain Laurel Designs",
+   "model": "SoloMid XL InnerNet",
+   "variant": "SilPoly floor",
+   "weight_g": 311,
+   "weight_basis": "manufacturer",
+   "weight_note": "MLD-listed 11 oz | 311 g",
+   "price_usd": null,
+   "specs": {
+    "capacity": 1,
+    "material": "mesh, Pro SilPoly floor"
+   },
+   "url": "https://mountainlaureldesigns.com/product/mld-pyramid-innernets/",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Mesh inner for the SoloMid XL, 90 x 32 x 46 in. Page gives only a price range ($180-395) across all InnerNet sizes."
+  },
+  {
+   "id": "mountain-laurel-designs-solomid-xl-innernet-dcf",
+   "category": "shelter",
+   "subcategory": "bivy",
+   "brand": "Mountain Laurel Designs",
+   "model": "SoloMid XL InnerNet",
+   "variant": "DCF floor",
+   "weight_g": 283,
+   "weight_basis": "manufacturer",
+   "weight_note": "MLD-listed 10 oz | 283 g",
+   "price_usd": null,
+   "specs": {
+    "capacity": 1,
+    "material": "mesh, 0.8 DCF floor"
+   },
+   "url": "https://mountainlaureldesigns.com/product/mld-pyramid-innernets/",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Mesh inner for the SoloMid XL, 90 x 32 x 46 in. Page gives only a price range ($180-395) across all InnerNet sizes."
+  },
+  {
+   "id": "icebreaker-merino-150-anatomica-boxers-mens",
+   "category": "base-layer",
+   "subcategory": "underwear",
+   "brand": "Icebreaker",
+   "model": "Merino 150 Anatomica Boxers",
+   "variant": "Men's",
+   "weight_g": 70,
+   "weight_basis": "manufacturer",
+   "weight_note": "size M, Icebreaker-listed 70 g / 2.47 oz",
+   "price_usd": 50,
+   "specs": {
+    "material": "83% merino wool, 12% nylon, 5% elastane",
+    "gsm": 150,
+    "gender": "men's"
+   },
+   "url": "https://na.icebreaker.com/en-us/products/men-merino-150-anatomica-boxers-ib1030290l1",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": null
+  },
+  {
+   "id": "icebreaker-merino-150-anatomica-briefs-mens",
+   "category": "base-layer",
+   "subcategory": "underwear",
+   "brand": "Icebreaker",
+   "model": "Merino 150 Anatomica Briefs",
+   "variant": "Men's",
+   "weight_g": 50,
+   "weight_basis": "manufacturer",
+   "weight_note": "size M, Icebreaker-listed 50 g / 1.76 oz",
+   "price_usd": 45,
+   "specs": {
+    "material": "83% merino wool blend",
+    "gsm": 150,
+    "gender": "men's"
+   },
+   "url": "https://na.icebreaker.com/en-us/products/mens-merino-150-anatomica-briefs-ib103031580",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": null
+  },
+  {
+   "id": "icebreaker-merino-blend-125-cool-lite-sphere-long-sleeve-tee-mens",
+   "category": "base-layer",
+   "subcategory": "hiking shirt",
+   "brand": "Icebreaker",
+   "model": "Merino Blend 125 Cool-Lite Sphere Long Sleeve Tee",
+   "variant": "Men's",
+   "weight_g": 210,
+   "weight_basis": "manufacturer",
+   "weight_note": "size M, Icebreaker-listed 210 g / 7.41 oz",
+   "price_usd": 100,
+   "specs": {
+    "material": "60% Tencel lyocell, 40% merino wool",
+    "gsm": 125,
+    "gender": "men's"
+   },
+   "url": "https://na.icebreaker.com/en-us/products/mens-merino-blend-125-cool-lite-sphere-long-sleeve-tee-ib0a56zla74",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": "Current Sphere long sleeve; earlier Sphere crewes were lighter (retailers quote 151-169 g)."
+  },
+  {
+   "id": "icebreaker-merino-150-tech-lite-short-sleeve-tee-mens",
+   "category": "base-layer",
+   "subcategory": "hiking shirt",
+   "brand": "Icebreaker",
+   "model": "Merino 150 Tech Lite Short Sleeve T-Shirt",
+   "variant": "Men's",
+   "weight_g": 146,
+   "weight_basis": "manufacturer",
+   "weight_note": "size M, Icebreaker-listed 146 g / 5.16 oz",
+   "price_usd": 90,
+   "specs": {
+    "material": "100% merino wool",
+    "gsm": 150,
+    "gender": "men's"
+   },
+   "url": "https://na.icebreaker.com/en-us/products/merino-150-tech-lite-short-sleeve-t-shirt-ib0a56wl329",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": null
+  },
+  {
+   "id": "icebreaker-merino-hike-plus-medium-crew-socks-mens",
+   "category": "footwear",
+   "subcategory": "sock",
+   "brand": "Icebreaker",
+   "model": "Merino Hike+ Medium Crew Socks",
+   "variant": "Men's",
+   "weight_g": 70,
+   "weight_basis": "manufacturer",
+   "weight_note": "size M, Icebreaker-listed 70 g / 2.47 oz (taken as per pair)",
+   "price_usd": 26,
+   "specs": {
+    "material": "56% merino wool, 42% nylon blend",
+    "gender": "men's"
+   },
+   "url": "https://na.icebreaker.com/en-us/products/mens-merino-hike-medium-crew-socks-ib0a578m0ou",
+   "discontinued": false,
+   "confidence": "high",
+   "notes": null
+  }
+ ]
+}

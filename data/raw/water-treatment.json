@@ -1345,5 +1345,26 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Inline hollow-fiber + activated-carbon filter for hydration reservoirs; also usable as a gravity filter."
+  },
+  {
+    "id": "salomon-soft-flask-xa-filter-490ml",
+    "category": "water-treatment",
+    "subcategory": "bottle filter",
+    "brand": "Salomon",
+    "model": "Soft Flask XA Filter",
+    "variant": "490ml 42mm",
+    "weight_g": 52,
+    "weight_basis": "manufacturer",
+    "weight_note": "flask + filter cap; Salomon lists 52 g (en-ca) / 2 oz (en-us)",
+    "price_usd": 60,
+    "specs": {
+      "removes_viruses": false,
+      "lifespan_l": 1000,
+      "thread": "42mm"
+    },
+    "url": "https://www.salomon.com/en-us/product/soft-flask-xa-filter-490ml-16oz-42-lc10471",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "XA filter cap also fits other 42 mm Salomon soft flasks."
   }
 ]

@@ -4223,5 +4223,176 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "POLARLOFT Featherless synthetic fill (130 g, size L), not down. Not on the US store; price converted from GBP 140 at 1 GBP = 1.3368 USD."
+  },
+  {
+    "id": "decathlon-simond-mt100-hooded-down-puffer-jacket-mens",
+    "category": "insulation",
+    "subcategory": "down jacket",
+    "brand": "Decathlon",
+    "model": "Simond MT100 Hooded Down Puffer Jacket",
+    "variant": "Men's",
+    "weight_g": 320,
+    "weight_basis": "manufacturer",
+    "weight_note": "size L (\"approximately 11.3 oz (320 g) in size L\")",
+    "price_usd": 119,
+    "specs": {
+      "fill": "down",
+      "fill_power": 800,
+      "fill_weight_g": 95,
+      "hood": true
+    },
+    "url": "https://www.decathlon.com/products/simond-mens-mt100-hooded-down-puffer-jacket-copy",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Decathlon house brand (Simond, previously Forclaz). Fill weight 95 g is for size L (M 89 g). List $119 (on sale $60 Nov 2026); page points to a newer replacement product."
+  },
+  {
+    "id": "montbell-ex-light-down-jacket-mens",
+    "category": "insulation",
+    "subcategory": "down jacket",
+    "brand": "Montbell",
+    "model": "EX Light Down Jacket",
+    "variant": "Men's",
+    "weight_g": 159,
+    "weight_basis": "manufacturer",
+    "weight_note": "5.6 oz total per OutdoorGearLab review (size not stated)",
+    "price_usd": 199,
+    "specs": {
+      "fill": "down",
+      "fill_power": 900,
+      "fill_weight_g": 51,
+      "hood": false,
+      "material": "7D Ballistic Airlight nylon"
+    },
+    "url": "https://www.outdoorgearlab.com/reviews/clothing-mens/down-jacket-men/montbell-ex-light",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "Older model; no current Montbell US page found (the EX Light Down Anorak is a separate record). Weight, 1.8 oz fill and $199 list price from the OutdoorGearLab review."
+  },
+  {
+    "id": "montane-allez-micro-pull-on-mens",
+    "category": "insulation",
+    "subcategory": "fleece",
+    "brand": "Montane",
+    "model": "Allez Micro Pull-On",
+    "variant": "Men's",
+    "weight_g": 160,
+    "weight_basis": "manufacturer",
+    "weight_note": "retailer-listed 0.16 kg (Varuste.net); size not stated",
+    "price_usd": null,
+    "specs": {
+      "fill": "fleece",
+      "hood": false,
+      "material": "Polartec Power Grid"
+    },
+    "url": "https://varuste.net/en/p103271/montane-allez-micro-pull-on",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "Quarter-zip grid fleece; absent from Montane's US catalog (Nov 2026). SportsShoes lists the men's pull-on at 147 g."
+  },
+  {
+    "id": "montane-allez-micro-hoodie-mens",
+    "category": "insulation",
+    "subcategory": "fleece",
+    "brand": "Montane",
+    "model": "Allez Micro Hoodie",
+    "variant": "Men's",
+    "weight_g": 175,
+    "weight_basis": "manufacturer",
+    "weight_note": "retailer-listed 0.175 kg (Varuste.net); size not stated",
+    "price_usd": null,
+    "specs": {
+      "fill": "fleece",
+      "hood": true,
+      "material": "Polartec Power Grid"
+    },
+    "url": "https://varuste.net/en/p103270/montane-allez-micro-hoodie",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "Hooded grid fleece; absent from Montane's US catalog (Nov 2026)."
+  },
+  {
+    "id": "patagonia-r1-air-zip-neck-mens",
+    "category": "insulation",
+    "subcategory": "fleece",
+    "brand": "Patagonia",
+    "model": "R1 Air Zip-Neck",
+    "variant": "Men's",
+    "weight_g": 298,
+    "weight_basis": "manufacturer",
+    "weight_note": "Patagonia \"Average Weight\" as listed by dealer Patagonia Bend",
+    "price_usd": 145,
+    "specs": {
+      "fill": "fleece",
+      "material": "5.7-oz 100% recycled polyester jacquard fleece",
+      "hood": false
+    },
+    "url": "https://www.patagoniabend.com/products/mens-r1-air-zip-neck-40246",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "patagonia-r1-air-zip-neck-womens",
+    "category": "insulation",
+    "subcategory": "fleece",
+    "brand": "Patagonia",
+    "model": "R1 Air Zip-Neck",
+    "variant": "Women's",
+    "weight_g": 250,
+    "weight_basis": "manufacturer",
+    "weight_note": "Patagonia \"Average Weight\" as listed by dealer Patagonia Bend",
+    "price_usd": 145,
+    "specs": {
+      "fill": "fleece",
+      "material": "5.7-oz 100% recycled polyester jacquard fleece",
+      "hood": false
+    },
+    "url": "https://www.patagoniabend.com/products/womens-r1-air-zip-neck-40251",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "rab-nucleus-pull-on-mens",
+    "category": "insulation",
+    "subcategory": "fleece",
+    "brand": "Rab",
+    "model": "Nucleus Pull-On",
+    "variant": "Men's",
+    "weight_g": 345,
+    "weight_basis": "manufacturer",
+    "weight_note": "retailer-listed 345 g / 12.2 oz (Altitude Sports), size not stated",
+    "price_usd": null,
+    "specs": {
+      "fill": "fleece",
+      "material": "Thermic stretch mid-weight grid fleece",
+      "hood": false
+    },
+    "url": "https://www.altitude-sports.com/p/rab-nucleus-pullon-mens-rab-qfa-83",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "Earlier Rab grid fleece; not in Rab's current line (successor: Nexus Pull-On). USD list price not seen."
+  },
+  {
+    "id": "sierra-designs-whitney-down-hoodie-mens",
+    "category": "insulation",
+    "subcategory": "down jacket",
+    "brand": "Sierra Designs",
+    "model": "Whitney Down Hoodie",
+    "variant": "Men's",
+    "weight_g": 390,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M",
+    "price_usd": 189.95,
+    "specs": {
+      "fill": "down",
+      "fill_power": 800,
+      "hood": true
+    },
+    "url": "https://sierradesigns.com/mens-whitney-down-hoodie/",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "800-fill DriDown. Product URL now 404s on sierradesigns.com, so marked discontinued; data from archived page (Jan 2025)."
   }
 ]

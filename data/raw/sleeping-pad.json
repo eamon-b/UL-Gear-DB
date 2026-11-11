@@ -2942,5 +2942,183 @@
     "discontinued": false,
     "confidence": "low",
     "notes": "Successor to Flash Insulated Air; specs recalled, rei.com blocked automated checks"
+  },
+  {
+    "id": "exped-ultra-3r-duo-m",
+    "category": "sleeping-pad",
+    "subcategory": "inflatable",
+    "brand": "Exped",
+    "model": "Ultra 3R Duo",
+    "variant": "M",
+    "weight_g": 810,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "r_value": 3.2,
+      "length_in": 72,
+      "width_in": 41.3,
+      "thickness_in": 2.8,
+      "shape": "rectangular"
+    },
+    "url": "https://www.exped.com/en/products/sleeping-mats/ultra-3r-duo",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Two-person pad, 183 x 105 x 7 cm. Exped page shows MSRP CHF 319 only; no USD price seen."
+  },
+  {
+    "id": "exped-ultra-3r-duo-lw",
+    "category": "sleeping-pad",
+    "subcategory": "inflatable",
+    "brand": "Exped",
+    "model": "Ultra 3R Duo",
+    "variant": "LW",
+    "weight_g": 1115,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "r_value": 3.2,
+      "length_in": 77.6,
+      "width_in": 51.2,
+      "thickness_in": 2.8,
+      "shape": "rectangular"
+    },
+    "url": "https://www.exped.com/en/products/sleeping-mats/ultra-3r-duo",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Two-person pad, 197 x 130 x 7 cm. No USD price seen on the Exped page."
+  },
+  {
+    "id": "exped-synmat-ul-winter-m",
+    "category": "sleeping-pad",
+    "subcategory": "inflatable",
+    "brand": "Exped",
+    "model": "SynMat UL Winter",
+    "variant": "M",
+    "weight_g": 585,
+    "weight_basis": "manufacturer",
+    "weight_note": "pad only; Schnozzel pumpbag 60 g and packsack 9 g extra (Ascent Outdoors spec list)",
+    "price_usd": 199,
+    "specs": {
+      "r_value": 5.2,
+      "length_in": 72,
+      "width_in": 20.5,
+      "thickness_in": 3.5,
+      "shape": "rectangular"
+    },
+    "url": "https://ascentoutdoors.com/products/exped-synmat-ul-winter",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "Older Exped naming (pre-\"Ultra\" line); 183 x 52 x 9 cm. Price is the retailer listing price."
+  },
+  {
+    "id": "exped-synmat-ul-m",
+    "category": "sleeping-pad",
+    "subcategory": "inflatable",
+    "brand": "Exped",
+    "model": "SynMat UL",
+    "variant": "M",
+    "weight_g": 475,
+    "weight_basis": "manufacturer",
+    "weight_note": "pad only; pumpbag 60 g and packsack 9 g extra (Wilderness Supply spec list)",
+    "price_usd": null,
+    "specs": {
+      "r_value": 2.9,
+      "length_in": 72,
+      "width_in": 20.5,
+      "thickness_in": 2.8,
+      "shape": "rectangular"
+    },
+    "url": "https://www.wildernesssupply.ca/sleeping-pads-2/exped/synmat-ul-m-sleeping-pad",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "Older Exped naming (earlier still \"SynMat UL 7\"); predecessor of the Ultra 3R. 183 x 52 x 7 cm. No USD price seen (Canadian retailer)."
+  },
+  {
+    "id": "nemo-tensor-insulated-regular",
+    "category": "sleeping-pad",
+    "subcategory": "inflatable",
+    "brand": "NEMO",
+    "model": "Tensor Insulated",
+    "variant": "Regular",
+    "weight_g": 425,
+    "weight_basis": "manufacturer",
+    "weight_note": "minimum (pad only) weight",
+    "price_usd": 199.95,
+    "specs": {
+      "r_value": 4.2,
+      "thickness_in": 3,
+      "shape": "rectangular"
+    },
+    "url": "https://www.nemoequipment.com/products/tensor",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "2022-2023 Tensor Ultralight Insulated (R 4.2), replaced by Tensor Trail / All-Season in 2024. From archived NEMO page (Jan 2023)."
+  },
+  {
+    "id": "nemo-tensor-insulated-regular-wide",
+    "category": "sleeping-pad",
+    "subcategory": "inflatable",
+    "brand": "NEMO",
+    "model": "Tensor Insulated",
+    "variant": "Regular Wide",
+    "weight_g": 540,
+    "weight_basis": "manufacturer",
+    "weight_note": "minimum (pad only) weight",
+    "price_usd": 219.95,
+    "specs": {
+      "r_value": 4.2,
+      "thickness_in": 3,
+      "shape": "rectangular"
+    },
+    "url": "https://www.nemoequipment.com/products/tensor",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "2022-2023 Tensor Ultralight Insulated (R 4.2), replaced by Tensor Trail / All-Season in 2024. From archived NEMO page (Jan 2023)."
+  },
+  {
+    "id": "nemo-tensor-insulated-long-wide",
+    "category": "sleeping-pad",
+    "subcategory": "inflatable",
+    "brand": "NEMO",
+    "model": "Tensor Insulated",
+    "variant": "Long Wide",
+    "weight_g": 595,
+    "weight_basis": "manufacturer",
+    "weight_note": "minimum (pad only) weight",
+    "price_usd": 229.95,
+    "specs": {
+      "r_value": 4.2,
+      "thickness_in": 3,
+      "shape": "rectangular"
+    },
+    "url": "https://www.nemoequipment.com/products/tensor",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "2022-2023 Tensor Ultralight Insulated (R 4.2), replaced by Tensor Trail / All-Season in 2024. From archived NEMO page (Jan 2023)."
+  },
+  {
+    "id": "therm-a-rest-neoair-xlite-large",
+    "category": "sleeping-pad",
+    "subcategory": "inflatable",
+    "brand": "Therm-a-Rest",
+    "model": "NeoAir XLite",
+    "variant": "Large",
+    "weight_g": 482,
+    "weight_basis": "manufacturer",
+    "weight_note": "Therm-a-Rest-listed 1 lb 1 oz (0.47 kg)",
+    "price_usd": null,
+    "specs": {
+      "r_value": 4.2,
+      "length_in": 77,
+      "width_in": 25,
+      "thickness_in": 2.5,
+      "shape": "mummy"
+    },
+    "url": "https://www.thermarest.com/sleeping-pads/fast-and-light/neoair-xlite-sleeping-pad/neoair-xlite.html",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "Previous-generation XLite with WingLock valve (pre-NXT). From archived Therm-a-Rest page (Jan 2022); per-size price not unambiguous on the page."
   }
 ]

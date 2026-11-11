@@ -5674,5 +5674,316 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Wide-fit (to 4E) sock made with Darn Tough"
+  },
+  {
+    "id": "altra-lone-peak-3-5",
+    "category": "footwear",
+    "subcategory": "trail runner",
+    "brand": "Altra",
+    "model": "Lone Peak 3.5",
+    "variant": null,
+    "weight_g": 578,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; Running Shoes Guru-listed 10.2 oz (289 g) single shoe x2 (size unspecified)",
+    "price_usd": 120,
+    "specs": {
+      "drop_mm": 0,
+      "stack_mm": 25,
+      "waterproof": false,
+      "gender": "men's"
+    },
+    "url": "https://www.runningshoesguru.com/2017/10/altra-lone-peak-3-5-review/",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "2017 model, long discontinued; backpackers.com review lists 10.4 oz (295 g) per shoe. Price is launch MSRP."
+  },
+  {
+    "id": "altra-lone-peak-3-0",
+    "category": "footwear",
+    "subcategory": "trail runner",
+    "brand": "Altra",
+    "model": "Lone Peak 3.0",
+    "variant": null,
+    "weight_g": 550,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; Running Shoes Guru-listed 9.7 oz (275 g) single shoe x2 (size unspecified)",
+    "price_usd": 120,
+    "specs": {
+      "drop_mm": 0,
+      "waterproof": false,
+      "gender": "men's"
+    },
+    "url": "https://www.runningshoesguru.com/2016/12/altra-lone-peak-3-0-review/",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "2016 model, long discontinued. Price is launch MSRP."
+  },
+  {
+    "id": "altra-lone-peak-2-5",
+    "category": "footwear",
+    "subcategory": "trail runner",
+    "brand": "Altra",
+    "model": "Lone Peak 2.5",
+    "variant": null,
+    "weight_g": 601,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; 10.6 oz single shoe (men's US 9) x2, per Andrew Skurka review spec list",
+    "price_usd": 120,
+    "specs": {
+      "drop_mm": 0,
+      "stack_mm": 25,
+      "waterproof": false,
+      "gender": "men's"
+    },
+    "url": "https://andrewskurka.com/altra-lone-peak-2-5-review-long-term/",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "2015-16 model, long discontinued. Price is launch MSRP."
+  },
+  {
+    "id": "altra-lone-peak-2-5-womens",
+    "category": "footwear",
+    "subcategory": "trail runner",
+    "brand": "Altra",
+    "model": "Lone Peak 2.5",
+    "variant": "Women's",
+    "weight_g": 522,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; 9.2 oz single shoe (women's US 7) x2, per Andrew Skurka review spec list",
+    "price_usd": 120,
+    "specs": {
+      "drop_mm": 0,
+      "stack_mm": 25,
+      "waterproof": false,
+      "gender": "women's"
+    },
+    "url": "https://andrewskurka.com/altra-lone-peak-2-5-review-long-term/",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "2015-16 model, long discontinued. Price is launch MSRP."
+  },
+  {
+    "id": "brooks-cascadia-13",
+    "category": "footwear",
+    "subcategory": "trail runner",
+    "brand": "Brooks",
+    "model": "Cascadia 13",
+    "variant": null,
+    "weight_g": 675,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; 11.9 oz (337 g) single shoe x2, Running Shoes Guru; Believe in the Run gives 11.9 oz / 341 g for men's size 9",
+    "price_usd": 130,
+    "specs": {
+      "drop_mm": 10,
+      "waterproof": false,
+      "gender": "men's"
+    },
+    "url": "https://www.runningshoesguru.com/2018/09/brooks-cascadia-13-review/",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "2018 model, long discontinued. Price is launch MSRP."
+  },
+  {
+    "id": "brooks-cascadia-11",
+    "category": "footwear",
+    "subcategory": "trail runner",
+    "brand": "Brooks",
+    "model": "Cascadia 11",
+    "variant": null,
+    "weight_g": 669,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; Running Shoes Guru-listed 11.8 oz (335 g) single shoe x2 (size unspecified)",
+    "price_usd": 120,
+    "specs": {
+      "drop_mm": 10,
+      "waterproof": false,
+      "gender": "men's"
+    },
+    "url": "https://www.runningshoesguru.com/2016/06/brooks-cascadia-11-review/",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "2016 model, long discontinued. Price is launch MSRP."
+  },
+  {
+    "id": "darn-tough-light-hiker-quarter-lightweight-cushion-mens",
+    "category": "footwear",
+    "subcategory": "sock",
+    "brand": "Darn Tough",
+    "model": "Light Hiker Quarter Lightweight Cushion",
+    "variant": "Men's",
+    "weight_g": 74,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair; size L product weight listed in darntough.com store data (M 73 g, XL 77 g) - may include packaging",
+    "price_usd": 22,
+    "specs": {
+      "material": "merino wool blend",
+      "gender": "men's"
+    },
+    "url": "https://darntough.com/products/mens-merino-wool-light-hiker-quarter-cushioned-lightweight-hiking-socks",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "darn-tough-light-hiker-quarter-lightweight-cushion-womens",
+    "category": "footwear",
+    "subcategory": "sock",
+    "brand": "Darn Tough",
+    "model": "Light Hiker Quarter Lightweight Cushion",
+    "variant": "Women's",
+    "weight_g": 67,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair; size M product weight listed in darntough.com store data (varies 67-71 g by colour; S 62-67 g, L 73-77 g) - may include packaging",
+    "price_usd": 22,
+    "specs": {
+      "material": "merino wool blend",
+      "gender": "women's"
+    },
+    "url": "https://darntough.com/products/womens-merino-wool-light-hiker-quarter-cushioned-lightweight-hiking-socks",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "darn-tough-hiker-quarter-midweight-cushion-womens",
+    "category": "footwear",
+    "subcategory": "sock",
+    "brand": "Darn Tough",
+    "model": "Hiker Quarter Midweight Cushion",
+    "variant": "Women's",
+    "weight_g": 81,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair; size M product weight listed in darntough.com store data (80-81 g by colour; S 78 g, L 85-86 g) - may include packaging",
+    "price_usd": 23,
+    "specs": {
+      "material": "merino wool blend",
+      "gender": "women's"
+    },
+    "url": "https://darntough.com/products/womens-merino-wool-hiker-quarter-cushioned-midweight-hiking-socks",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": null
+  },
+  {
+    "id": "brooks-cascadia-11-womens",
+    "category": "footwear",
+    "subcategory": "trail runner",
+    "brand": "Brooks",
+    "model": "Cascadia 11",
+    "variant": "Women's",
+    "weight_g": 572,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; Runnea-listed 286 g single shoe (women's, size unspecified) x2",
+    "price_usd": 120,
+    "specs": {
+      "drop_mm": 10,
+      "waterproof": false,
+      "gender": "women's"
+    },
+    "url": "https://www.runnea.co.uk/running-shoes/brooks/cascadia-11/1007184/",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "2016 model, long discontinued. Price is the launch MSRP shown in the Running Shoes Guru review of the Cascadia 11."
+  },
+  {
+    "id": "msr-evo-ascent-snowshoes",
+    "category": "footwear",
+    "subcategory": "traction",
+    "brand": "MSR",
+    "model": "Evo Ascent Snowshoes",
+    "variant": "22 in",
+    "weight_g": 1780,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair (1.78 kg / 3 lb 15 oz)",
+    "price_usd": 269.95,
+    "specs": {
+      "length_in": 22,
+      "max_load_lb": 180
+    },
+    "url": "https://www.cascadedesigns.com/products/evo-ascent-snowshoes",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Load up to 250 lb with optional tails. msrgear.com now redirects to cascadedesigns.com."
+  },
+  {
+    "id": "msr-lightning-ascent-snowshoes-22",
+    "category": "footwear",
+    "subcategory": "traction",
+    "brand": "MSR",
+    "model": "Lightning Ascent Snowshoes",
+    "variant": "22 in",
+    "weight_g": 1870,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair (1.87 kg / 4 lb 2 oz)",
+    "price_usd": 399.95,
+    "specs": {
+      "length_in": 22,
+      "max_load_lb": 180
+    },
+    "url": "https://www.cascadedesigns.com/products/lightning-ascent-snowshoes",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "25 in: 1.95 kg, 30 in: 2.22 kg per pair."
+  },
+  {
+    "id": "hoka-speedgoat-5",
+    "category": "footwear",
+    "subcategory": "trail runner",
+    "brand": "HOKA",
+    "model": "Speedgoat 5",
+    "variant": null,
+    "weight_g": 584,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; Treeline Review-stated 10.3 oz per shoe (men's US 9) x2",
+    "price_usd": 155,
+    "specs": {
+      "drop_mm": 4,
+      "waterproof": false,
+      "gender": "men's"
+    },
+    "url": "https://treelinereview.com/gearreviews/hoka-speedgoat-5-review",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "Older version still widely carried; superseded by Speedgoat 6/7. Treeline gives 8.5 oz per shoe for the women's version."
+  },
+  {
+    "id": "icebreaker-merino-hike-plus-medium-crew-socks-mens",
+    "category": "footwear",
+    "subcategory": "sock",
+    "brand": "Icebreaker",
+    "model": "Merino Hike+ Medium Crew Socks",
+    "variant": "Men's",
+    "weight_g": 70,
+    "weight_basis": "manufacturer",
+    "weight_note": "size M, Icebreaker-listed 70 g / 2.47 oz (taken as per pair)",
+    "price_usd": 26,
+    "specs": {
+      "material": "56% merino wool, 42% nylon blend",
+      "gender": "men's"
+    },
+    "url": "https://na.icebreaker.com/en-us/products/mens-merino-hike-medium-crew-socks-ib0a578m0ou",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "salomon-xa-pro-3d-v8",
+    "category": "footwear",
+    "subcategory": "trail runner",
+    "brand": "Salomon",
+    "model": "XA Pro 3D v8",
+    "variant": null,
+    "weight_g": 680,
+    "weight_basis": "manufacturer",
+    "weight_note": "pair; retailer-listed 340 g single shoe x2 (Wilderness Supply)",
+    "price_usd": null,
+    "specs": {
+      "waterproof": false,
+      "gender": "men's"
+    },
+    "url": "https://wildernesssupply.ca/hiking-shoes-1/salomon/men-s-xa-pro-3d-v8",
+    "discontinued": true,
+    "confidence": "low",
+    "notes": "Previous generation; replaced by XA Pro 3D v9."
   }
 ]

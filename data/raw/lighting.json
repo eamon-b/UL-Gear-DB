@@ -1714,5 +1714,112 @@
     "discontinued": false,
     "confidence": "low",
     "notes": "Inflatable solar lantern with USB power-out."
+  },
+  {
+    "id": "black-diamond-revolt",
+    "category": "lighting",
+    "subcategory": "headlamp",
+    "brand": "Black Diamond",
+    "model": "ReVolt",
+    "variant": null,
+    "weight_g": 102,
+    "weight_basis": "measured",
+    "weight_note": "OutdoorGearLab measured weight with batteries (3.6 oz)",
+    "price_usd": 65,
+    "specs": {
+      "lumens": 300,
+      "battery": "3x AAA, rechargeable or non-rechargeable",
+      "rechargeable": true
+    },
+    "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/headlamp/black-diamond-revolt",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "300-lumen generation as reviewed by OutdoorGearLab; later ReVolt 350 differs. No longer on blackdiamondequipment.com."
+  },
+  {
+    "id": "petzl-zipka",
+    "category": "lighting",
+    "subcategory": "headlamp",
+    "brand": "Petzl",
+    "model": "Zipka",
+    "variant": null,
+    "weight_g": 66,
+    "weight_basis": "manufacturer",
+    "weight_note": "including 3x AAA batteries; retailer-listed (Wilderness Supply)",
+    "price_usd": null,
+    "specs": {
+      "lumens": 300,
+      "battery": "3x AAA (Core compatible)",
+      "rechargeable": false
+    },
+    "url": "https://wildernesssupply.ca/headlamps/petzl/zipka-1",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "Retractable-cord headlamp; no longer on petzl.com. Last version 300 lm (the retailer page's intro text still says 200 lm, the earlier version)."
+  },
+  {
+    "id": "nitecore-nu27",
+    "category": "lighting",
+    "subcategory": "headlamp",
+    "brand": "Nitecore",
+    "model": "NU27",
+    "variant": null,
+    "weight_g": 56,
+    "weight_basis": "manufacturer",
+    "weight_note": "bracket and headband included",
+    "price_usd": null,
+    "specs": {
+      "lumens": 600,
+      "battery": "built-in 850 mAh Li-ion",
+      "runtime_hr": 57,
+      "rechargeable": true
+    },
+    "url": "https://flashlight.nitecore.com/product/nu27",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "nitecore-tip",
+    "category": "lighting",
+    "subcategory": "flashlight",
+    "brand": "Nitecore",
+    "model": "TIP",
+    "variant": null,
+    "weight_g": 24,
+    "weight_basis": "manufacturer",
+    "weight_note": "Nitecore-listed 23.5 g / 0.82 oz",
+    "price_usd": null,
+    "specs": {
+      "lumens": 360,
+      "battery": "built-in Li-ion",
+      "rechargeable": true
+    },
+    "url": "https://flashlight.nitecore.com/product/tip",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "Original TIP keychain light (superseded by TIP2 / TIP SE). From archived Nitecore page (Dec 2019)."
+  },
+  {
+    "id": "nitecore-tube-v2",
+    "category": "lighting",
+    "subcategory": "flashlight",
+    "brand": "Nitecore",
+    "model": "TUBE V2.0",
+    "variant": null,
+    "weight_g": 10,
+    "weight_basis": "manufacturer",
+    "weight_note": "Nitecore-listed 9.6 g (0.34 oz)",
+    "price_usd": null,
+    "specs": {
+      "lumens": 55,
+      "battery": "built-in Li-ion",
+      "runtime_hr": 58,
+      "rechargeable": true
+    },
+    "url": "https://flashlight.nitecore.com/product/tubev2",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Keychain light, often clipped to a cap brim as a minimalist headlamp."
   }
 ]
