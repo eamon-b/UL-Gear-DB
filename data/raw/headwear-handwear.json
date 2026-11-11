@@ -2340,5 +2340,159 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Water-resistant, not seam-sealed."
+  },
+  {
+    "id": "borah-gear-event-rain-mitts",
+    "category": "headwear-handwear",
+    "subcategory": "rain mitt",
+    "brand": "Borah Gear",
+    "model": "eVent Rain Mitts",
+    "variant": null,
+    "weight_g": 26,
+    "weight_basis": "manufacturer",
+    "weight_note": "per pair (0.9 oz)",
+    "price_usd": 29.5,
+    "specs": {
+      "waterproof": true,
+      "material": "3-layer eVent, reinforced palm"
+    },
+    "url": "https://borahgear.com/eventmitts.html",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "Maker page: \"discontinued for now\"."
+  },
+  {
+    "id": "montbell-trail-action-gloves-mens",
+    "category": "headwear-handwear",
+    "subcategory": "liner glove",
+    "brand": "Montbell",
+    "model": "Trail Action Gloves",
+    "variant": "Men's",
+    "weight_g": 38,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed weight (1.3 oz), pair",
+    "price_usd": 32,
+    "specs": {
+      "material": "Stretch CLIMAPLUS fleece (47% nylon, 36% polyester, 17% polyurethane)"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/1118269",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #1118269"
+  },
+  {
+    "id": "montbell-trail-action-gloves-womens",
+    "category": "headwear-handwear",
+    "subcategory": "liner glove",
+    "brand": "Montbell",
+    "model": "Trail Action Gloves",
+    "variant": "Women's",
+    "weight_g": 33,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed weight, pair",
+    "price_usd": 32,
+    "specs": {
+      "material": "Stretch CLIMAPLUS fleece (47% nylon, 36% polyester, 17% polyurethane)"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/1118270",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #1118270"
+  },
+  {
+    "id": "montbell-chameece-gloves-mens",
+    "category": "headwear-handwear",
+    "subcategory": "liner glove",
+    "brand": "Montbell",
+    "model": "CHAMEECE Gloves",
+    "variant": "Men's",
+    "weight_g": 26,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed weight, pair",
+    "price_usd": 23,
+    "specs": {
+      "material": "CHAMEECE microfleece (100% polyester)"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/1118478",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #1118478. Thin fleece liner glove; hikers also list it as the Chameece Inner Glove."
+  },
+  {
+    "id": "montane-trail-lite-gloves-mens",
+    "category": "headwear-handwear",
+    "subcategory": "liner glove",
+    "brand": "Montane",
+    "model": "Trail Lite Gloves",
+    "variant": "Men's",
+    "weight_g": 40,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montane-listed 40 g, pair",
+    "price_usd": 40,
+    "specs": {
+      "material": "Chameleon LT softshell"
+    },
+    "url": "https://us.montane.com/products/montane-trail-lite-gloves",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Light softshell trail-running glove."
+  },
+  {
+    "id": "outdoor-research-flurry-sensor-glove-womens",
+    "category": "headwear-handwear",
+    "subcategory": "liner glove",
+    "brand": "Outdoor Research",
+    "model": "Flurry Sensor Glove",
+    "variant": "Women's",
+    "weight_g": 62,
+    "weight_basis": "manufacturer",
+    "weight_note": "OR-listed 2.2 oz / 62 g",
+    "price_usd": 50,
+    "specs": {
+      "material": "Alpin-Wool Plus (43% wool, 38% polyester, 19% nylon fleece)"
+    },
+    "url": "https://www.outdoorresearch.com/products/womens-flurry-sensor-gloves-244888",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "outdoor-research-flurry-sensor-glove-mens",
+    "category": "headwear-handwear",
+    "subcategory": "liner glove",
+    "brand": "Outdoor Research",
+    "model": "Flurry Sensor Glove",
+    "variant": "Men's",
+    "weight_g": 82,
+    "weight_basis": "manufacturer",
+    "weight_note": "OR-listed 2.9 oz / 82 g",
+    "price_usd": 50,
+    "specs": {
+      "material": "Alpin-Wool Plus (43% wool, 38% polyester, 19% nylon fleece)"
+    },
+    "url": "https://www.outdoorresearch.com/products/mens-flurry-sensor-gloves-244887",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "outdoor-research-activeice-sun-glove",
+    "category": "headwear-handwear",
+    "subcategory": "liner glove",
+    "brand": "Outdoor Research",
+    "model": "ActiveIce Sun Glove",
+    "variant": null,
+    "weight_g": 28,
+    "weight_basis": "manufacturer",
+    "weight_note": "OR-listed 1.0 oz / 28 g",
+    "price_usd": 35,
+    "specs": {
+      "material": "94% polyester, 6% spandex stretch knit",
+      "upf": "50+"
+    },
+    "url": "https://www.outdoorresearch.com/products/activeice-sun-gloves-280128",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Fingerless sun glove."
   }
 ]

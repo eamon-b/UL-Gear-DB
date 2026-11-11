@@ -703,5 +703,193 @@
     "discontinued": true,
     "confidence": "medium",
     "notes": null
+  },
+  {
+    "id": "acr-resqlink-plus",
+    "category": "communication",
+    "subcategory": "PLB",
+    "brand": "ACR",
+    "model": "ResQLink+",
+    "variant": null,
+    "weight_g": 153,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": null,
+    "specs": {
+      "network": "COSPAS-SARSAT 406 MHz",
+      "two_way": false,
+      "subscription": false
+    },
+    "url": "https://www.acrartex.com/products/resqlink-plus-plb/",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "Legacy model PLB-375 (product no. 2881), buoyant; ACR page says \"This Product has been Upgraded\" (superseded by the ResQLink 400)."
+  },
+  {
+    "id": "garmin-fenix-7",
+    "category": "communication",
+    "subcategory": "watch",
+    "brand": "Garmin",
+    "model": "fenix 7",
+    "variant": "47mm Standard Edition",
+    "weight_g": 79,
+    "weight_basis": "manufacturer",
+    "weight_note": "with silicone band; case only 56 g",
+    "price_usd": 649.99,
+    "specs": {
+      "two_way": false,
+      "subscription": false,
+      "battery_life": "up to 18 days smartwatch"
+    },
+    "url": "https://www.garmin.com/en-US/p/735520/pn/010-02540-00",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "Listed by Garmin under Previous Models. 47 x 47 x 14.5 mm. Sapphire Solar titanium version 73 g."
+  },
+  {
+    "id": "garmin-fenix-7s-pro-sapphire-solar",
+    "category": "communication",
+    "subcategory": "watch",
+    "brand": "Garmin",
+    "model": "fenix 7S Pro",
+    "variant": "42mm Sapphire Solar",
+    "weight_g": 58,
+    "weight_basis": "manufacturer",
+    "weight_note": "titanium version with band (case only 42 g); stainless steel version 65 g",
+    "price_usd": 899.99,
+    "specs": {
+      "two_way": false,
+      "subscription": false,
+      "battery_life": "up to 11 days smartwatch (14 with solar)"
+    },
+    "url": "https://www.garmin.com/en-US/p/735520/pn/010-02540-00",
+    "discontinued": true,
+    "confidence": "medium",
+    "notes": "Specs and price read from the fenix 7 series comparison data on Garmin's fenix 7 page (part no. 010-02776-10). 42 x 42 x 14.1 mm."
+  },
+  {
+    "id": "garmin-fenix-6x-pro",
+    "category": "communication",
+    "subcategory": "watch",
+    "brand": "Garmin",
+    "model": "fenix 6X Pro",
+    "variant": "51mm",
+    "weight_g": 93,
+    "weight_basis": "manufacturer",
+    "weight_note": "steel, case with silicone band (case only 66 g)",
+    "price_usd": 699.99,
+    "specs": {
+      "two_way": false,
+      "subscription": false,
+      "battery_life": "up to 21 days smartwatch"
+    },
+    "url": "https://www.garmin.com/en-US/p/641435",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "Marked Discontinued by Garmin. 51 x 51 x 14.9 mm. 6X Pro Solar titanium is 82 g."
+  },
+  {
+    "id": "garmin-fenix-5",
+    "category": "communication",
+    "subcategory": "watch",
+    "brand": "Garmin",
+    "model": "fenix 5",
+    "variant": "47mm",
+    "weight_g": 85,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 499.99,
+    "specs": {
+      "two_way": false,
+      "subscription": false,
+      "battery_life": "up to 2 weeks smartwatch"
+    },
+    "url": "https://www.garmin.com/en-US/p/552982",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "2017 model, superseded by fenix 6/7/8; Garmin's page still shows a $499.99 list price. 47 x 47 x 15.5 mm."
+  },
+  {
+    "id": "garmin-fenix-5s",
+    "category": "communication",
+    "subcategory": "watch",
+    "brand": "Garmin",
+    "model": "fenix 5S",
+    "variant": "42mm",
+    "weight_g": 67,
+    "weight_basis": "manufacturer",
+    "weight_note": null,
+    "price_usd": 599.99,
+    "specs": {
+      "two_way": false,
+      "subscription": false,
+      "battery_life": "up to 9 days smartwatch"
+    },
+    "url": "https://www.garmin.com/en-US/p/552237",
+    "discontinued": true,
+    "confidence": "high",
+    "notes": "2017 model, superseded by fenix 6S/7S/8; price is what Garmin's page shows for part no. 010-01685-16. 42 x 42 x 15 mm."
+  },
+  {
+    "id": "garmin-etrex-20x",
+    "category": "communication",
+    "subcategory": "GPS",
+    "brand": "Garmin",
+    "model": "eTrex 20x",
+    "variant": null,
+    "weight_g": 142,
+    "weight_basis": "manufacturer",
+    "weight_note": "5 oz (141.7 g) with 2 AA batteries",
+    "price_usd": 199.99,
+    "specs": {
+      "two_way": false,
+      "subscription": false,
+      "battery_life": "25 hours (2 AA)"
+    },
+    "url": "https://www.garmin.com/en-US/p/518046",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Successor to the eTrex 20 that hikers still list; Garmin's page does not mark it discontinued."
+  },
+  {
+    "id": "suunto-core",
+    "category": "communication",
+    "subcategory": "watch",
+    "brand": "Suunto",
+    "model": "Core",
+    "variant": null,
+    "weight_g": 64,
+    "weight_basis": "manufacturer",
+    "weight_note": "Suunto-listed 64 g / 2.26 oz",
+    "price_usd": null,
+    "specs": {
+      "two_way": false,
+      "subscription": false
+    },
+    "url": "https://www.suunto.com/en-us/Products/sports-watches/suunto-core/suunto-core-all-black/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "ABC (altimeter/barometer/compass) watch without GPS; weight for the All Black model."
+  },
+  {
+    "id": "suunto-9-baro",
+    "category": "communication",
+    "subcategory": "watch",
+    "brand": "Suunto",
+    "model": "9 Baro",
+    "variant": null,
+    "weight_g": 81,
+    "weight_basis": "manufacturer",
+    "weight_note": "Suunto-listed 81 g / 2.86 oz",
+    "price_usd": null,
+    "specs": {
+      "network": "GPS",
+      "two_way": false,
+      "subscription": false
+    },
+    "url": "https://www.suunto.com/en-us/Products/sports-watches/suunto-9-baro/suunto-9-baro-black/",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Weight for the Black model."
   }
 ]

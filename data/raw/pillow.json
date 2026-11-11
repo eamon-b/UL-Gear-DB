@@ -415,7 +415,11 @@
     "url": "https://www.exped.com/en/products/pillows/ultra-pillow",
     "discontinued": false,
     "confidence": "high",
-    "notes": "Recalled spec; Exped page does not show weight in fetchable text."
+    "notes": "Recalled spec; Exped page does not show weight in fetchable text.",
+    "aka": [
+      "AirPillow UL",
+      "Air Pillow UL"
+    ]
   },
   {
     "id": "exped-ultra-pillow-l",

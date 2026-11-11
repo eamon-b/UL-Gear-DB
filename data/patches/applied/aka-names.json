@@ -1,0 +1,93 @@
+{
+ "updates": [
+  {
+   "id": "exped-ultra-pillow-m",
+   "set": {
+    "aka": [
+     "AirPillow UL",
+     "Air Pillow UL"
+    ]
+   }
+  },
+  {
+   "id": "anker-511-nano-20w",
+   "set": {
+    "aka": [
+     "PowerPort III Nano"
+    ]
+   }
+  },
+  {
+   "id": "evernew-ti-ultralight-pot-900",
+   "set": {
+    "aka": [
+     "ECA252"
+    ]
+   }
+  },
+  {
+   "id": "hmg-windrider-40",
+   "set": {
+    "aka": [
+     "Windrider 2400"
+    ]
+   }
+  },
+  {
+   "id": "hmg-windrider-55",
+   "set": {
+    "aka": [
+     "Windrider 3400"
+    ]
+   }
+  },
+  {
+   "id": "hmg-windrider-70",
+   "set": {
+    "aka": [
+     "Windrider 4400"
+    ]
+   }
+  },
+  {
+   "id": "hmg-southwest-40",
+   "set": {
+    "aka": [
+     "Southwest 2400"
+    ]
+   }
+  },
+  {
+   "id": "hmg-southwest-55",
+   "set": {
+    "aka": [
+     "Southwest 3400"
+    ]
+   }
+  },
+  {
+   "id": "hmg-southwest-70",
+   "set": {
+    "aka": [
+     "Southwest 4400"
+    ]
+   }
+  },
+  {
+   "id": "hmg-junction-40",
+   "set": {
+    "aka": [
+     "Junction 2400"
+    ]
+   }
+  },
+  {
+   "id": "hmg-junction-55",
+   "set": {
+    "aka": [
+     "Junction 3400"
+    ]
+   }
+  }
+ ]
+}

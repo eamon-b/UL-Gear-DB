@@ -1131,5 +1131,43 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Model #2303139"
+  },
+  {
+    "id": "montbell-dynamo-wind-pants-mens",
+    "category": "wind-layer",
+    "subcategory": "wind pants",
+    "brand": "Montbell",
+    "model": "Dynamo Wind Pants",
+    "variant": "Men's",
+    "weight_g": 91,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed weight (3.2 oz)",
+    "price_usd": 78,
+    "specs": {
+      "material": "15D Ballistic Airlight nylon ripstop"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2305179",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2305179. Earlier 12-denier version (#2305123) was listed at 75 g / 2.6 oz."
+  },
+  {
+    "id": "montbell-dynamo-wind-pants-womens",
+    "category": "wind-layer",
+    "subcategory": "wind pants",
+    "brand": "Montbell",
+    "model": "Dynamo Wind Pants",
+    "variant": "Women's",
+    "weight_g": 85,
+    "weight_basis": "manufacturer",
+    "weight_note": "Montbell US listed weight",
+    "price_usd": 76,
+    "specs": {
+      "material": "15D Ballistic Airlight nylon ripstop"
+    },
+    "url": "https://www.montbell.com/us/en/products/detail/2305180",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": "Model #2305180"
   }
 ]

@@ -1550,5 +1550,58 @@
     "discontinued": false,
     "confidence": "high",
     "notes": "Ultralight sewing awl with thread and 2 needles. Brand site showed a sale price (about 20% off) this session; list price used."
+  },
+  {
+    "id": "opinel-no-07-stainless",
+    "category": "first-aid-hygiene",
+    "subcategory": "knife/multitool",
+    "brand": "Opinel",
+    "model": "No.07",
+    "variant": "stainless",
+    "weight_g": 40,
+    "weight_basis": "manufacturer",
+    "weight_note": "Opinel USA-listed 1.4 oz",
+    "price_usd": 21,
+    "specs": {},
+    "url": "https://www.opinel-usa.com/products/no-7-opinel-stainless-steel-blade",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "victorinox-compact",
+    "category": "first-aid-hygiene",
+    "subcategory": "knife/multitool",
+    "brand": "Victorinox",
+    "model": "Compact",
+    "variant": null,
+    "weight_g": 65,
+    "weight_basis": "manufacturer",
+    "weight_note": "Victorinox-listed 2.3 oz",
+    "price_usd": 59,
+    "specs": {
+      "tools": 15
+    },
+    "url": "https://www.victorinox.com/en-US/Compact/p/1.3405",
+    "discontinued": false,
+    "confidence": "high",
+    "notes": null
+  },
+  {
+    "id": "victorinox-ambassador",
+    "category": "first-aid-hygiene",
+    "subcategory": "knife/multitool",
+    "brand": "Victorinox",
+    "model": "Ambassador",
+    "variant": null,
+    "weight_g": 34,
+    "weight_basis": "manufacturer",
+    "weight_note": "retailer-listed (Knivesandtools)",
+    "price_usd": null,
+    "specs": {},
+    "url": "https://www.knivesandtools.com/en/pt/-victorinox-ambassador-red.htm",
+    "discontinued": false,
+    "confidence": "medium",
+    "notes": "74 mm model; no longer listed on Victorinox US site."
   }
 ]

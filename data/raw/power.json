@@ -975,7 +975,10 @@
     "url": "https://www.anker.com/products/a2637-nano-20w-charger",
     "discontinued": false,
     "confidence": "high",
-    "notes": null
+    "notes": null,
+    "aka": [
+      "PowerPort III Nano"
+    ]
   },
   {
     "id": "anker-nano-ii-45w",
