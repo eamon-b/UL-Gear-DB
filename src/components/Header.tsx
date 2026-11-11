@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useStore, type Theme } from '../lib/store';
 import { href, navigate } from '../lib/router';
-import { searchItems } from '../lib/data';
+import { searchItems } from '../lib/search';
 import { fmtW, type Unit } from '../lib/units';
 import { fmtPrice } from '../lib/util';
 

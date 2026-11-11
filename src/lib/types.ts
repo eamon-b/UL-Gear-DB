@@ -25,9 +25,10 @@ export interface Item {
   discontinued: boolean;
   confidence: Confidence;
   notes: string | null;
+  /** other names for the same product (an older model name, a SKU) */
+  aka?: string[];
   /** derived */
   name: string;
-  search: string;
 }
 
 export interface DB {

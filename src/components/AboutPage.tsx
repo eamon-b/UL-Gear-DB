@@ -128,7 +128,8 @@ export function AboutPage() {
           <strong>$/oz saved</strong> versus your current item.
         </li>
         <li>
-          Press <kbd>/</kbd> to search everything. Lists import from and export to LighterPack CSV.
+          Press <kbd>/</kbd> to search everything: a brand or its nickname (“HMG”), a model, or a kind of gear (“puffy”, “bear can”). Lists
+          import from and export to LighterPack CSV.
         </li>
       </ul>
     </div>

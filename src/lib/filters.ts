@@ -1,4 +1,5 @@
 import type { Item, SpecValue } from './types';
+import { textFilter } from './search';
 
 export type SpecMeta =
   | { key: string; type: 'number'; min: number; max: number; count: number }
@@ -102,17 +103,14 @@ function specPass(v: SpecValue | undefined, sf: SpecFilter) {
 }
 
 export function applyFilters(items: Item[], f: Filters, ref?: Item | null): Item[] {
-  const toks = f.q.toLowerCase().split(/\s+/).filter(Boolean);
+  const text = textFilter(f.q);
   const specEntries = Object.entries(f.specs);
   const subs = f.subcats.length ? new Set(f.subcats) : null;
   const brands = f.brands.length ? new Set(f.brands) : null;
   const conf = f.confidence.length ? new Set(f.confidence) : null;
   return items.filter((it) => {
     if (ref && it.id === ref.id) return true; // keep reference visible
-    if (toks.length) {
-      const s = it.name.toLowerCase();
-      for (const t of toks) if (!s.includes(t)) return false;
-    }
+    if (text && !text(it)) return false;
     if (subs && !subs.has(it.subcategory)) return false;
     if (brands && !brands.has(it.brand)) return false;
     if (f.wMin != null && it.weight_g < f.wMin) return false;

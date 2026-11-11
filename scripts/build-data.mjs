@@ -280,6 +280,8 @@ function processFiles(files) {
         discontinued: raw.discontinued === true || raw.discontinued === 'true',
         confidence: CONFIDENCE.includes(conf) ? conf : 'low',
         notes: nonEmpty(raw.notes),
+        // other names the same product goes by (an older model name, a SKU): search and CSV import find it by these too
+        aka: Array.isArray(raw.aka) && raw.aka.map(nonEmpty).filter(Boolean).length ? raw.aka.map(nonEmpty).filter(Boolean) : null,
       };
       if (wb && !WEIGHT_BASIS.includes(wb)) fixes.push(`weight_basis "${wb}" -> manufacturer`);
       if (conf && !CONFIDENCE.includes(conf)) fixes.push(`confidence "${conf}" -> low`);

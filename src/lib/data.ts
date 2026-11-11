@@ -26,7 +26,6 @@ export function hydrate(raw: RawBundle): DB {
       ...r,
     } as Item;
     it.name = [it.brand, it.model, it.variant].filter(Boolean).join(' ');
-    it.search = (it.name + ' ' + it.subcategory + ' ' + it.category).toLowerCase();
     return it;
   });
   const byId = new Map(items.map((i) => [i.id, i]));
@@ -62,27 +61,4 @@ export function loadDB(): Promise<DB> {
       .then(hydrate);
   }
   return cache;
-}
-
-/** Tokenized search across name/subcategory/category. All tokens must match. */
-export function searchItems(items: Item[], q: string, limit = Infinity): Item[] {
-  const toks = q.toLowerCase().split(/\s+/).filter(Boolean);
-  if (!toks.length) return [];
-  const out: { it: Item; s: number }[] = [];
-  for (const it of items) {
-    let ok = true;
-    let s = 0;
-    for (const t of toks) {
-      const idx = it.search.indexOf(t);
-      if (idx < 0) {
-        ok = false;
-        break;
-      }
-      s += idx === 0 || it.search[idx - 1] === ' ' ? 2 : 1;
-      if (it.name.toLowerCase().includes(t)) s += 1;
-    }
-    if (ok) out.push({ it, s });
-  }
-  out.sort((a, b) => b.s - a.s || a.it.weight_g - b.it.weight_g);
-  return out.slice(0, limit).map((x) => x.it);
 }

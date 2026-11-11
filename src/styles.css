@@ -626,6 +626,12 @@ main {
   min-width: 200px;
   flex: 0 1 260px;
 }
+.search-cats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
 .search-in.big {
   width: 100%;
   max-width: 600px;

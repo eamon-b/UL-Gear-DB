@@ -107,6 +107,12 @@ export function ItemDrawer() {
                 <td className="muted">No specs recorded</td>
               </tr>
             )}
+            {it.aka?.length ? (
+              <tr>
+                <th>Also known as</th>
+                <td>{it.aka.join(', ')}</td>
+              </tr>
+            ) : null}
             <tr>
               <th>ID</th>
               <td>

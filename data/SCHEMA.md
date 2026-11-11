@@ -18,11 +18,16 @@ Each file in `data/raw/<category-id>.json` is a JSON array of items:
   "url": "https://zpacks.com/products/duplex-tent", // manufacturer product page when possible
   "discontinued": false,
   "confidence": "high",               // "high" = checked against a source this session; "medium" = recalled, believed current; "low" = uncertain
-  "notes": null
+  "notes": null,
+  "aka": ["Duplex Classic"]           // optional: other names for this same product (older model name, SKU, common nickname)
 }
 ```
 
 Weight conversions: 1 oz = 28.3495 g. Round to integer grams.
+`aka` is for the same product under another name, so search and the CSV import find it either way. A predecessor with a different weight is a different record (mark it `discontinued`), not an `aka`.
+
+Put what tells sizes or builds of one model apart in `variant`, not `model`: `"model": "LT5", "variant": "Three Piece Carbon"`.
+
 One entry per meaningfully different variant (e.g. quilt temperature ratings, pad sizes when weight differs a lot); don't explode every color.
 
 ## Recommended spec keys per category (use what applies; numbers as numbers)
