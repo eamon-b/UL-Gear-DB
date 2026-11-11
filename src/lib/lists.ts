@@ -2,6 +2,7 @@ import LZString from 'lz-string';
 import type { DB, Item, ListItem, PackList, CustomItem } from './types';
 import { safeUrl, uid } from './util';
 import { gPerDollar } from './filters';
+import { absUrl } from './router';
 
 export interface Resolved {
   li: ListItem;
@@ -169,9 +170,9 @@ export function decodeList(s: string): PackList | null {
   }
 }
 
+/** `/share#<data>`: the list lives in the fragment, so it never reaches a server and has no length limit. */
 export function shareUrl(l: PackList) {
-  const { origin, pathname, search } = window.location;
-  return `${origin}${pathname}${search}#/share/${encodeList(l)}`;
+  return absUrl(`/share#${encodeList(l)}`);
 }
 
 // ---------------- Lighten my pack ----------------
