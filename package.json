@@ -17,6 +17,7 @@
     "test": "npm run data && vitest run",
     "check-data": "node scripts/check-data.mjs",
     "coverage": "vite-node scripts/coverage.ts",
+    "gaps": "vite-node scripts/gaps.ts",
     "apply-patches": "node scripts/apply-patches.mjs",
     "fetch-examples": "node scripts/fetch-examples.mjs"
   },

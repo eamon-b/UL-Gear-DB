@@ -1,8 +1,11 @@
 import Papa from 'papaparse';
-import type { DB, Item, ListItem, PackList } from './types';
+import type { DB, ListItem, PackList } from './types';
 import { resolve } from './lists';
 import { fromUnit, toUnit, type Unit } from './units';
 import { safeUrl, uid } from './util';
+import { matchItem, MATCH_THRESHOLD, type Match } from './match';
+
+export { matchItem, MATCH_THRESHOLD, type Match };
 
 export const LP_COLUMNS = ['Item Name', 'Category', 'desc', 'qty', 'weight', 'unit', 'url', 'price', 'worn', 'consumable'];
 
@@ -104,125 +107,6 @@ export function exportLighterPackCSV(l: PackList, db: DB, unit: Unit): string {
   });
   return Papa.unparse({ fields: LP_COLUMNS, data });
 }
-
-// ---------------- fuzzy matching ----------------
-const STOP = new Set(['the', 'and', 'with', 'for', 'a', 'of', 'in', 'by', 'ul', 'ultralight', 'my', 'new', 'old', 'w', 'x']);
-
-function tokens(s: string): string[] {
-  return s
-    .toLowerCase()
-    .normalize('NFKD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/°/g, '')
-    .replace(/['’`]/g, '')
-    .replace(/(\d)([a-z])/g, '$1 $2') // "55l" -> "55 l", "lt5" stays split below
-    .replace(/([a-z])(\d)/g, '$1 $2')
-    .split(/[^a-z0-9.]+/)
-    .map((t) => t.replace(/^\.+|\.+$/g, ''))
-    .filter((t) => t && !STOP.has(t) && !/^[a-z]$/.test(t));
-}
-
-/** "Hyperlite Mountain Gear" -> "hmg" */
-function acronym(brand: string) {
-  const w = brand
-    .toLowerCase()
-    .split(/[^a-z0-9]+/)
-    .filter(Boolean);
-  return w.length >= 2 ? w.map((x) => x[0]).join('') : null;
-}
-
-interface Indexed {
-  it: Item;
-  brand: string[];
-  model: string[];
-  variant: string[];
-  joined: string;
-  acr: string | null;
-}
-
-const indexCache = new WeakMap<DB, { list: Indexed[]; byTok: Map<string, Indexed[]> }>();
-function getIndex(db: DB) {
-  let ix = indexCache.get(db);
-  if (!ix) {
-    const list: Indexed[] = db.items.map((it) => {
-      const brand = tokens(it.brand),
-        model = tokens(it.model),
-        variant = tokens(it.variant ?? '');
-      return { it, brand, model, variant, joined: [...brand, ...model].join(''), acr: acronym(it.brand) };
-    });
-    const byTok = new Map<string, Indexed[]>();
-    for (const e of list) {
-      for (const t of new Set([...e.brand, ...e.model])) {
-        const k = t.slice(0, 3);
-        if (!byTok.has(k)) byTok.set(k, []);
-        byTok.get(k)!.push(e);
-      }
-      if (e.acr) {
-        const k = e.acr.slice(0, 3);
-        if (!byTok.has(k)) byTok.set(k, []);
-        byTok.get(k)!.push(e);
-      }
-    }
-    ix = { list, byTok };
-    indexCache.set(db, ix);
-  }
-  return ix;
-}
-
-function tokScore(t: string, qs: string[], qJoined: string): number {
-  if (qs.includes(t)) return 1;
-  // plural / prefix tolerance ("xlite" vs "xlites", "neo" prefix of "neoair")
-  for (const q of qs) {
-    if (q.length >= 3 && t.length >= 3 && (q.startsWith(t) || t.startsWith(q))) return 0.75;
-  }
-  if (t.length >= 3 && qJoined.includes(t)) return 0.7; // "x-mid" vs "xmid"
-  return 0;
-}
-
-export interface Match {
-  item: Item;
-  score: number; // 0..1
-}
-
-/** Score an item name (+desc) against the DB. Brand + model token coverage, with a weight-proximity nudge. */
-export function matchItem(name: string, desc: string, weightG: number | null, db: DB, top = 6): Match[] {
-  const qs = tokens(`${name} ${desc}`);
-  const qName = tokens(name);
-  if (!qs.length) return [];
-  const qJoined = qs.join('');
-  const { byTok, list } = getIndex(db);
-  const cands = new Set<Indexed>();
-  for (const t of qs) for (const e of byTok.get(t.slice(0, 3)) ?? []) cands.add(e);
-  if (cands.size === 0 && list.length < 400) list.forEach((e) => cands.add(e));
-  const out: Match[] = [];
-  for (const e of cands) {
-    if (!e.model.length) continue;
-    let bCov = e.brand.length ? e.brand.reduce((s, t) => s + tokScore(t, qs, qJoined), 0) / e.brand.length : 0;
-    if (e.acr && qs.includes(e.acr)) bCov = 1;
-    const mCov = e.model.reduce((s, t) => s + tokScore(t, qs, qJoined), 0) / e.model.length;
-    if (mCov === 0) continue;
-    const firstModel = tokScore(e.model[0], qs, qJoined);
-    const vCov = e.variant.length ? e.variant.reduce((s, t) => s + tokScore(t, qs, qJoined), 0) / e.variant.length : 0;
-    // fraction of the user's name tokens explained by this item
-    const itemToks = [...e.brand, ...e.model, ...e.variant];
-    if (e.acr) itemToks.push(e.acr);
-    const explained = qName.length
-      ? qName.filter((q) => itemToks.some((t) => t === q || (q.length >= 3 && t.length >= 3 && (t.startsWith(q) || q.startsWith(t)))))
-          .length / qName.length
-      : 0;
-    let s = 0.35 * mCov + 0.25 * explained + 0.2 * bCov + 0.12 * firstModel + 0.08 * vCov;
-    if (e.joined.length >= 5 && qJoined.includes(e.joined)) s += 0.05;
-    if (weightG && weightG > 0) {
-      const ratio = Math.abs(e.it.weight_g - weightG) / Math.max(weightG, e.it.weight_g);
-      s += ratio < 0.05 ? 0.06 : ratio < 0.15 ? 0.03 : ratio > 0.6 ? -0.1 : 0;
-    }
-    out.push({ item: e.it, score: s });
-  }
-  out.sort((a, b) => b.score - a.score || a.item.name.length - b.item.name.length);
-  return out.slice(0, top).map((m) => ({ ...m, score: Math.max(0, Math.min(1, m.score)) }));
-}
-
-export const MATCH_THRESHOLD = 0.6;
 
 export interface ReviewRow {
   row: LPRow;

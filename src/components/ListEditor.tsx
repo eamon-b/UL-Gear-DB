@@ -4,7 +4,7 @@ import { resolve, totals, type Resolved } from '../lib/lists';
 import type { Item, ListItem, PackList } from '../lib/types';
 import { fmtW, fromUnit, toUnit, type Unit } from '../lib/units';
 import { fmtPrice, uid } from '../lib/util';
-import { searchItems } from '../lib/data';
+import { searchItems } from '../lib/search';
 import { Breakdown } from './Donut';
 import { EditNum, EditText } from './Editable';
 import { AlternativesPanel } from './AlternativesPanel';
