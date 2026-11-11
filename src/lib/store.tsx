@@ -26,6 +26,8 @@ interface Store {
   createList: (name?: string, items?: ListItem[]) => PackList;
   updateList: (id: string, fn: (l: PackList) => PackList) => void;
   deleteList: (id: string) => void;
+  /** Swap in a whole new set of lists (account sync). */
+  replaceLists: (lists: PackList[]) => void;
   addToList: (dbId: string, listId?: string) => void;
   toast: (msg: string) => void;
   openItem: (id: string | null) => void;
@@ -184,6 +186,10 @@ export function StoreProvider({ db, children }: { db: DB; children: ReactNode })
     });
   }, []);
 
+  const replaceLists = useCallback((lists: PackList[]) => {
+    setLs((s) => ({ lists, activeId: lists.some((l) => l.id === s.activeId) ? s.activeId : (lists[0]?.id ?? null) }));
+  }, []);
+
   const setActiveList = useCallback((id: string) => setLs((s) => ({ ...s, activeId: id })), []);
 
   const addToList = useCallback(
@@ -234,6 +240,7 @@ export function StoreProvider({ db, children }: { db: DB; children: ReactNode })
       createList,
       updateList,
       deleteList,
+      replaceLists,
       addToList,
       toast,
       openItem: setOpenItemId,
@@ -253,6 +260,7 @@ export function StoreProvider({ db, children }: { db: DB; children: ReactNode })
       createList,
       updateList,
       deleteList,
+      replaceLists,
       addToList,
       toast,
       openItemId,

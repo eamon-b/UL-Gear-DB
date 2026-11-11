@@ -1,0 +1,52 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "ul-gear-db",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-10",
+  "upload_source_maps": true,
+
+  // The site is the root `npm run build` output, served straight from the assets. The Worker
+  // runs for the API, for /l/<id> (share links with link-preview tags) and for the pages that
+  // only exist in the browser, which get the empty app shell. dist/index.html is the prerendered
+  // home page, so an SPA fallback to it would flash the wrong page; any other unknown path
+  // gets dist/404.html (the same shell) with a real 404 status.
+  "assets": {
+    "directory": "../dist",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    // dist/item/<id>.html is served at /item/<id>
+    "html_handling": "auto-trailing-slash",
+    "run_worker_first": ["/api/*", "/l/*", "/lists", "/lists/*", "/search", "/compare", "/share"],
+  },
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "ul-gear-db",
+      // PLACEHOLDER: replace with the id printed by `npx wrangler d1 create ul-gear-db`.
+      // Local dev and tests do not need a real id.
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations",
+    },
+  ],
+
+  // Magic-link sign-in. Uncomment after onboarding your domain to Cloudflare Email
+  // Sending, and set EMAIL_FROM below to an address on that domain (see README.md).
+  // "send_email": [{ "name": "EMAIL" }],
+
+  "vars": {
+    // e.g. "UL Gear DB <signin@example.com>" or "signin@example.com". Magic-link
+    // sign-in is offered only when this and the EMAIL binding are both set.
+    "EMAIL_FROM": "",
+  },
+  // Secrets (never put them here): GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET.
+  // `wrangler secret put GOOGLE_CLIENT_SECRET`. For local dev use .dev.vars.
+
+  "observability": {
+    "enabled": true,
+    // Magic-link tokens and OAuth codes travel in query strings: keep them out of logs.
+    "redact_query_string": true,
+    "logs": { "enabled": true, "head_sampling_rate": 1 },
+    "traces": { "enabled": true, "head_sampling_rate": 0.05 },
+  },
+}

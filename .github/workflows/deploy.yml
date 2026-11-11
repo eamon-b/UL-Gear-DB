@@ -24,10 +24,17 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      # `npm run build` runs scripts/build-data.mjs first (prebuild), then tsc + vite.
-      # The app uses a relative base ('./') and hash routing, so it works under /<repo>/ as-is.
+      - id: pages
+        uses: actions/configure-pages@v5
+      # `npm run build` runs scripts/build-data.mjs first (prebuild), then tsc, vite, and
+      # scripts/prerender.mjs (static HTML for every category and item, sitemap.xml, 404.html).
+      # Path URLs need an absolute base: a project site lives under /<repo>/ (with a custom
+      # domain at the root, set VITE_BASE to /). SITE_URL makes canonical links absolute and
+      # turns on the sitemap: the Pages URL, e.g. https://<user>.github.io/<repo>.
       - run: npm run build
-      - uses: actions/configure-pages@v5
+        env:
+          VITE_BASE: /${{ github.event.repository.name }}/
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

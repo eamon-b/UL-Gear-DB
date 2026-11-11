@@ -11,8 +11,8 @@ export function AboutPage() {
     <div className="page about">
       <h1>About UL Gear DB</h1>
       <p>
-        An open, static database of ultralight backpacking gear with tools to compare it and build pack lists. Everything runs in your
-        browser: there is no account and no server, and your lists stay in localStorage unless you share them.
+        An open, static database of ultralight backpacking gear with tools to compare it and build pack lists. The tools run in your browser
+        and need no account: your lists stay in this browser's localStorage unless you share one or sign in.
       </p>
       {db.sample && (
         <p className="warn">

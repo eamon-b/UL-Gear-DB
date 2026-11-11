@@ -1,0 +1,23 @@
+{
+  "name": "ul-gear-db-worker",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "types": "wrangler types --strict-vars=false",
+    "dev": "wrangler dev",
+    "pretest": "npm run types",
+    "test": "vitest run",
+    "pretypecheck": "npm run types",
+    "typecheck": "tsc --noEmit",
+    "deploy": "wrangler deploy",
+    "migrate:local": "wrangler d1 migrations apply DB --local",
+    "migrate:remote": "wrangler d1 migrations apply DB --remote"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-plugin": "^1.8.0",
+    "typescript": "~5.9.3",
+    "vitest": "^5.1.0",
+    "wrangler": "^4.160.1"
+  }
+}

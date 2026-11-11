@@ -1294,6 +1294,34 @@ table.kv th {
   border-bottom: 1px solid var(--line-2);
 }
 
+/* item page */
+.item-page {
+  max-width: 1100px;
+}
+.crumbs {
+  margin-bottom: 6px;
+}
+.item-page h1 .variant {
+  font-weight: 500;
+  color: var(--text-2);
+}
+.item-body {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  gap: 24px;
+  align-items: start;
+}
+.item-body h2 {
+  font-size: 15px;
+  margin: 16px 0 6px;
+}
+@media (max-width: 760px) {
+  .item-body {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+}
+
 /* modal */
 .modal-backdrop {
   position: fixed;
@@ -2057,4 +2085,105 @@ tr.is-custom td:first-child {
 table.gear td.num,
 table.list-table td.num {
   white-space: nowrap;
+}
+
+/* account */
+.account-btn {
+  white-space: nowrap;
+  max-width: 160px;
+}
+.account-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sync-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex: none;
+}
+.sync-dot.syncing {
+  animation: sync-pulse 1s ease-in-out infinite;
+}
+.sync-dot.offline,
+.sync-dot.off {
+  background: var(--text-2);
+}
+.sync-dot.error {
+  background: var(--warn-ink);
+}
+@keyframes sync-pulse {
+  50% {
+    opacity: 0.3;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sync-dot.syncing {
+    animation: none;
+  }
+}
+.modal.narrow {
+  width: min(480px, 100%);
+}
+.account-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.account-body p,
+.account-body h3,
+.account-body ul {
+  margin: 0;
+}
+.account-body h3 {
+  margin-top: 8px;
+}
+.account-why {
+  padding-left: 18px;
+}
+.account-form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.account-form input {
+  flex: 1;
+  min-width: 0;
+}
+.account-sent {
+  background: var(--accent-soft);
+  border-radius: var(--radius);
+  padding: 8px 10px;
+}
+.account-sync {
+  align-items: center;
+}
+.account-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.account-links li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.account-links a {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.share-wrap {
+  margin-bottom: 10px;
+}
+.share-wrap .share-box {
+  margin-bottom: 4px;
+}
+.share-wrap p {
+  margin: 0;
 }

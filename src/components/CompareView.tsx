@@ -4,7 +4,8 @@ import { boolBetter, specDirection } from '../lib/filters';
 import { fmtW } from '../lib/units';
 import { fmtPrice, humanizeKey } from '../lib/util';
 import { fmtSpec } from './GearTable';
-import { href } from '../lib/router';
+import { absUrl, href } from '../lib/router';
+import { ItemLink } from './ItemLink';
 import type { Item } from '../lib/types';
 import { activeMetric, fmtMetric, metricTitle, paretoFrontier3 } from '../lib/metric';
 import { paretoFrontier } from '../lib/filters';
@@ -19,7 +20,7 @@ type Row = {
 };
 
 export function CompareView({ idsParam }: { idsParam?: string | null }) {
-  const { db, compare, toggleCompare, clearCompare, unit, openItem, addToList } = useStore();
+  const { db, compare, toggleCompare, clearCompare, unit, addToList } = useStore();
   const ids = idsParam ? idsParam.split(',').filter((id) => db.byId.has(id)) : compare;
   const items = ids.map((id) => db.byId.get(id)!).filter(Boolean);
 
@@ -146,7 +147,7 @@ export function CompareView({ idsParam }: { idsParam?: string | null }) {
             type="button"
             className="btn"
             onClick={() => {
-              navigator.clipboard?.writeText(`${location.origin}${location.pathname}#/compare?ids=${shareIds}`);
+              navigator.clipboard?.writeText(absUrl(`/compare?ids=${shareIds}`));
             }}
           >
             Copy link
@@ -165,12 +166,12 @@ export function CompareView({ idsParam }: { idsParam?: string | null }) {
               <th />
               {items.map((it) => (
                 <th key={it.id}>
-                  <button type="button" className="item-link" onClick={() => openItem(it.id)}>
+                  <ItemLink id={it.id}>
                     <span className="brand">{it.brand}</span>
                     <br />
                     {it.model}
                     {it.variant && <span className="variant"> {it.variant}</span>}
-                  </button>
+                  </ItemLink>
                   <div className="cmp-actions">
                     {it.url && (
                       <a className="icon-btn" href={it.url} target="_blank" rel="noopener noreferrer" title="Source">

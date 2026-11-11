@@ -4,6 +4,7 @@ import { href, navigate } from '../lib/router';
 import { searchItems } from '../lib/search';
 import { fmtW, type Unit } from '../lib/units';
 import { fmtPrice } from '../lib/util';
+import { AccountButton } from './AccountMenu';
 
 export function Header({ section }: { section: string }) {
   const { unit, setUnit, theme, setTheme, lists } = useStore();
@@ -50,6 +51,7 @@ export function Header({ section }: { section: string }) {
       >
         <ThemeIcon t={theme} />
       </button>
+      <AccountButton />
     </header>
   );
 }
