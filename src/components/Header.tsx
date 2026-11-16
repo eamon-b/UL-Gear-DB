@@ -12,8 +12,16 @@ export function Header({ section }: { section: string }) {
   return (
     <header className="topbar">
       <a className="logo" href={href('/')}>
-        <svg viewBox="0 0 16 16" width="18" height="18" aria-hidden>
-          <path d="M1 14 6 4l3 5 2-3 4 8z" fill="currentColor" />
+        <svg viewBox="0 0 48 48" width="22" height="22" aria-hidden>
+          <path
+            d="M5 40 21 13l22 21-13 6zM21 13l9 27"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="4.5"
+            strokeLinejoin="round"
+            strokeLinecap="round"
+          />
+          <circle cx="39" cy="11" r="4" fill="currentColor" />
         </svg>
         <span>UL Gear DB</span>
       </a>
