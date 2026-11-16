@@ -11,7 +11,7 @@ export function Header({ section }: { section: string }) {
   const next: Record<Theme, Theme> = { auto: 'light', light: 'dark', dark: 'auto' };
   return (
     <header className="topbar">
-      <a className="logo" href={href('/')}>
+      <a className="logo" href={href('/')} aria-label="UL Gear DB">
         <svg viewBox="0 0 48 48" width="22" height="22" aria-hidden>
           <path
             d="M5 40 21 13l22 21-13 6zM21 13l9 27"
