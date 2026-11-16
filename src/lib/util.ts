@@ -1,4 +1,5 @@
-export const uid = () => Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4);
+// Always 12 characters of [a-z0-9]: the sync API only accepts list ids of 6 to 32.
+export const uid = () => Math.random().toString(36).slice(2, 10).padEnd(8, '0') + Date.now().toString(36).slice(-4);
 
 export function loadLS<T>(key: string, fallback: T): T {
   try {

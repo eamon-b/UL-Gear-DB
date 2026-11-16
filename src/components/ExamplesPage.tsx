@@ -27,6 +27,11 @@ export interface ExampleList {
 }
 
 let cache: Promise<ExampleList[]> | null = null;
+let prerendered: ExampleList[] | null = null;
+/** The prerender has no fetch: it hands the lists over so the static page shows them. */
+export function setPrerenderExamples(lists: ExampleList[]) {
+  prerendered = lists;
+}
 function loadExamples(): Promise<ExampleList[]> {
   if (!cache) {
     cache = fetch(`${import.meta.env.BASE_URL}data/examples.json`, { cache: 'no-cache' })
@@ -47,7 +52,7 @@ const label = (l: ExampleList) => l.title || `${l.trail ?? 'Gear'} list${l.autho
 
 export function ExamplesPage() {
   const { unit, createList, toast } = useStore();
-  const [lists, setLists] = useState<ExampleList[] | null>(null);
+  const [lists, setLists] = useState<ExampleList[] | null>(() => prerendered);
   const [err, setErr] = useState<string | null>(null);
   const [trail, setTrail] = useState('');
   const [q, setQ] = useState('');

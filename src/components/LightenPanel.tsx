@@ -4,6 +4,7 @@ import { lightenPlan, type Resolved } from '../lib/lists';
 import type { Item } from '../lib/types';
 import { fmtW, G_PER_OZ } from '../lib/units';
 import { fmtPrice, loadLS, saveLS } from '../lib/util';
+import { ItemLink } from './ItemLink';
 
 export function LightenPanel({
   rs,
@@ -14,7 +15,7 @@ export function LightenPanel({
   onApply: (s: { uid: string; item: Item }[]) => void;
   onClose: () => void;
 }) {
-  const { db, unit, openItem } = useStore();
+  const { db, unit } = useStore();
   const [budget, setBudget] = useState<number>(() => loadLS('ulgdb.budget', 500));
   const [sameSub, setSameSub] = useState(true);
   const [fullPrice, setFullPrice] = useState(true);
@@ -123,9 +124,7 @@ export function LightenPanel({
                   </div>
                 </td>
                 <td>
-                  <button type="button" className="item-link" onClick={() => openItem(p.cand.id)}>
-                    {p.cand.name}
-                  </button>
+                  <ItemLink id={p.cand.id}>{p.cand.name}</ItemLink>
                   <div className="muted small">
                     {fmtW(p.cand.weight_g, unit)} · {fmtPrice(p.cand.price_usd)}
                   </div>
@@ -169,9 +168,9 @@ export function LightenPanel({
               {rest.map((b) => (
                 <li key={b.r.li.uid}>
                   {b.r.name} →{' '}
-                  <button type="button" className="link" onClick={() => openItem(b.cand.id)}>
+                  <ItemLink id={b.cand.id} className="link">
                     {b.cand.name}
-                  </button>
+                  </ItemLink>
                   <span className="muted">
                     {' '}
                     −{fmtW(b.saved, unit)} for {fmtPrice(b.cost)} ({perOz(b.perGram)}

@@ -4,21 +4,24 @@ An interactive database of ultralight backpacking gear, with a comparison view a
 
 - **Browse and compare**: pick a category, then filter by brand, type, weight, price, confidence, and spec filters generated from the data (numeric ranges, yes/no toggles, multi-selects). Sort by any column, including **g/$** (grams saved per extra dollar versus the cheapest item in view). A weight-vs-price scatter plot highlights the **Pareto frontier** (nothing lighter for less).
 - **Third dimension**: most categories have a key spec besides weight and price (pack volume, quilt temp rating, pad R-value, shelter capacity, headlamp lumens, power bank Wh, puffy down fill, pot capacity, filter flow rate, stove boil time, and so on). Pick it with **Compare on**: the frontier becomes 3D (nothing lighter, cheaper *and* better on it), the scatter colors each dot by it, and you can switch the axes to it or to ratios like g per L and $ per lumen. Compare adds the metric, both ratios, and frontier membership. The choice is remembered per category. A metric is on by default only when at least 70% of the category's items have it (see [Coverage](#coverage)); sparser ones are still in the menu, with how many items have data. Items with no value for the metric keep their ★ if they are on the plain weight/price frontier. You can compare up to 6 items side by side, with the best value in each row highlighted.
+- **Item pages**: every item has its own page (`/item/<id>`) with its specs, what the weight includes, the source, and similar items nearest in weight. Clicking a name in a table opens a quick-look drawer instead; open it in a new tab, or use **Open page** in the drawer, for the full page.
 - **Global search** across every category (press `/`). It knows brand nicknames ("HMG", "thermarest", "S2S"), kinds of gear the names don't spell out ("puffy", "bear can", "headtorch"), words written split or glued ("x mid", "neo air"), text specs ("dcf tarp"), and fixes typos when nothing matches as typed. The filter box inside a category uses the same matching.
-- **Pack lists**: build multiple lists stored in localStorage. Add DB items or custom items, and set qty, worn, and consumable on each, editing inline. The list shows base, worn, consumable, pack, and skin-out totals, the cost, and a category donut.
+- **Pack lists**: build multiple lists stored in localStorage, with no account needed. Add DB items or custom items, and set qty, worn, and consumable on each, editing inline. The list shows base, worn, consumable, pack, and skin-out totals, the cost, and a category donut.
   - **Alternatives**: opens the full browse view for an item's category, scoped to the item's own type (tent vs tents, not tarps) with a one-click **All shelters** toggle, plus deltas (±g, ±$, $/oz saved), quick chips, and one-click **Swap**.
   - **Lighten my pack**: a greedy plan by $ per gram saved, within a budget you set. By default it only suggests like-for-like swaps: same type, and comparable key specs (quilt temperature rating, pad R-value, shelter capacity, pack/pot/bottle volume, power bank capacity, bear-approved storage).
-  - **Share via URL**: the whole list is compressed into the link with lz-string. The link opens a read-only view with "Copy to my lists".
+  - **Share via URL**: the whole list is compressed into the link with lz-string (`/share#…`: it sits after the `#`, so it never reaches a server and has no length limit). The link opens a read-only view with "Copy to my lists". Links made before path URLs (`#/share/…`) still work.
+  - **Short share links** (when the site runs with its backend): Share gives a short link (`/l/Ab3dEf9h`) that shows the list's name, base weight, item count and cost when posted in a chat or forum. Without an account it is a snapshot of the list as it is. If the server cannot be reached, Share falls back to the long link.
+  - **Accounts** (optional, when the site runs with its backend): sign in with Google or an emailed link, with no password. Lists then sync between your devices and are backed up, the lists already in the browser are added to the account, and a shared list keeps one live link that always shows the current version and can be switched off. Signing out leaves the lists in the browser. Everything else works the same signed out.
   - **LighterPack CSV import/export**: matches rows to DB items, with a review screen to confirm. A row is matched automatically only when it names the product ("Tent | TT Aeon Li", "Houdini"); a bare "Toothbrush", another brand's product, or another size or version of the same line stays a custom item with the closest matches offered.
-- **Example lists** (`#/examples`): 45 real gear lists that hikers have published on LighterPack (PCT, AT, CDT, Colorado Trail, Wind Rivers, SUL/XUL, winter, Europe, and more), with the article or forum thread each came from. Filter by trail, sort by weight, and import any of them through the CSV review.
-- Light and dark themes (follows the OS, with a toggle), g/oz/lb units, and a phone-friendly layout. The site is fully static.
+- **Example lists** (`/examples`): 45 real gear lists that hikers have published on LighterPack (PCT, AT, CDT, Colorado Trail, Wind Rivers, SUL/XUL, winter, Europe, and more), with the article or forum thread each came from. Filter by trail, sort by weight, and import any of them through the CSV review.
+- Light and dark themes (follows the OS, with a toggle), g/oz/lb units, and a phone-friendly layout. The site itself is static files: the home page, About, Examples, every category and every item are prerendered as HTML at build time, so search engines can index them.
 
 ## Development
 
 ```bash
 npm install
 npm run dev        # builds data, then starts Vite on http://localhost:5173
-npm run build      # builds data, type-checks, builds to dist/
+npm run build      # builds data, type-checks, builds to dist/, prerenders the pages
 npm run preview    # serves dist/ on http://localhost:4173
 npm run data       # only (re)build public/data/gear.json + data/report.json
 npm run check-data # data sanity report -> data/data-issues.json (add `-- --all` to print everything)
@@ -26,16 +29,23 @@ npm run coverage   # per-category price / weight / metric coverage -> the table 
 npm run gaps       # gear that real pack lists carry and the database lacks, most-carried first
 ```
 
-Smoke test (Playwright; needs a Chromium. Set `CHROMIUM_PATH` if it is not in `/opt/pw-browsers`):
+Smoke test (Playwright; needs a Chromium. Set `CHROMIUM_PATH` if it is not in `/opt/pw-browsers`). It runs against a production build, prerendered pages included:
 
 ```bash
 npm run build && npx vite preview --port 4173 &
 node scripts/smoke-test.mjs http://localhost:4173/
 ```
 
+To test the GitHub Pages layout (a subpath, and `404.html` as the fallback for routes that are not prerendered), `scripts/serve.mjs` serves `dist/` the way Pages does:
+
+```bash
+VITE_BASE=/UL-Gear-DB/ npm run build && node scripts/serve.mjs --port 4174 --base /UL-Gear-DB/ &
+node scripts/smoke-test.mjs http://localhost:4174/UL-Gear-DB/
+```
+
 Screenshots go to `screenshots/`.
 
-Unit tests (Vitest) cover the LighterPack CSV import pipeline (parsing, review, list items, totals, export round trips), search, and the row matcher. `tests/match.test.ts` holds rows as hikers really write them: ones that must match a given item and ones that must be left alone. They also run every example list through the import and check the result against the registry:
+Unit tests (Vitest) cover the LighterPack CSV import pipeline (parsing, review, list items, totals, export round trips), search, the row matcher, the router (base paths, old `#/` links), and the prerendered `<head>` (titles, canonicals, JSON-LD, escaping). `tests/match.test.ts` holds rows as hikers really write them: ones that must match a given item and ones that must be left alone. They also run every example list through the import and check the result against the registry:
 
 ```bash
 npm test           # builds data, then runs vitest
@@ -124,12 +134,29 @@ This is the quickest way to find gear worth adding: it starts from what people c
 
 Weights are manufacturer claims unless marked otherwise. Prices are USD list prices and go stale.
 
-## Deploy (GitHub Pages)
+## Deploy
 
-`.github/workflows/deploy.yml` builds and deploys on every push to `main`. In the repo settings, go to **Pages** and set **Source** to **GitHub Actions**.
+URLs are real paths (`/c/shelter`, `/item/<id>`, `/lists`), so the build needs to know where the site lives:
 
-The app uses `base: './'` and hash routing (`#/c/shelter`, `#/lists`, `#/share/…`), so it works under any subpath such as `https://<user>.github.io/<repo>/` with no configuration. To use absolute asset URLs instead, build with `VITE_BASE=/<repo>/ npm run build`.
+- `VITE_BASE`: the path the site is served under. Default `/` (a domain root); a GitHub Pages project site needs `/<repo>/`.
+- `SITE_URL`: the site's absolute URL, such as `https://example.com` or `https://<user>.github.io/<repo>`. With it, canonical links are absolute and the build writes `sitemap.xml` and a `robots.txt` that points to it. Without it, canonicals are root-relative and there is no sitemap.
+
+`scripts/prerender.mjs` runs after `vite build`. It renders the app's own components for `/`, `/about`, `/examples`, every category and every item into flat files (`dist/c/shelter.html`, `dist/item/<id>.html`), each with its own title, description, canonical link, Open Graph tags and, for items, schema.org `Product` data. GitHub Pages and Cloudflare both serve `foo.html` at `/foo`. The page shows its prerendered content until `gear.json` has loaded, then the app takes over. Routes that only exist in the browser (`/lists`, `/search`, `/compare`, `/share`) are marked `noindex` and load from `dist/404.html`, a copy of the empty app shell. Old ids from `data/aliases.json` are not prerendered: they load the app, which shows the item with a canonical link to its current id.
+
+### GitHub Pages
+
+`.github/workflows/deploy.yml` builds and deploys on every push to `main`, with `VITE_BASE=/<repo>/` and `SITE_URL` set to the Pages URL. In the repo settings, go to **Pages** and set **Source** to **GitHub Actions**. Crawlers only read `robots.txt` at a domain root, so for a project site submit `sitemap.xml` in Google Search Console.
+
+### Cloudflare (with the backend)
+
+`worker/` is a Cloudflare Worker that serves `dist/` at a domain root and adds what a static host cannot: short share links with link previews, accounts, and list sync, stored in a D1 database. The Worker runs only for `/api/*`, `/l/*` and the browser-only pages (which get the empty app shell with a 200 status); everything else is served straight from the static files, and an unknown path gets `dist/404.html` with a 404 status. Setup, configuration and what is stored are in [`worker/README.md`](worker/README.md).
+
+`.github/workflows/deploy-cloudflare.yml` deploys on every push to `main` once the `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` secrets exist, and skips itself until then, so the GitHub Pages deploy keeps working in the meantime.
+
+The app finds out at run time whether it has a backend (`GET /api/me`). The same build runs on both hosts: on a static host there is no sign-in button and Share gives the long link.
+
+To work on the two together, run `npm run dev` in `worker/` (port 8787) and `npm run dev` here; Vite proxies `/api` and `/l/` to the Worker. `scripts/smoke-account.mjs` drives share links, sign-in and sync between two browsers against the local Worker.
 
 ## Tech
 
-Vite, React 18, and TypeScript, with plain CSS (theme tokens on `:root`). The scatter plot and donut are hand-written SVG. Dependencies: `lz-string` (share links) and `papaparse` (CSV). There is no router library: a 40-line hash router lives in `src/lib/router.ts`. Search and the CSV import matcher share one text layer (`src/lib/text.ts`: normalisation, brand nicknames, the kinds-of-gear lexicon) and one index (`src/lib/gearIndex.ts`), with no search library.
+Vite, React 18, and TypeScript, with plain CSS (theme tokens on `:root`). The scatter plot and donut are hand-written SVG. Dependencies: `lz-string` (share links) and `papaparse` (CSV). There is no router library: a small History API router lives in `src/lib/router.ts` (one delegated click listener for internal links, base-path handling, and the rewrite of old `#/` links). Prerendering uses Vite's SSR build and `react-dom/server`, with no framework. List sync is last-write-wins per list (`src/lib/sync.ts`); localStorage stays the working copy, so the app works offline and signed out. The backend is a dependency-free Worker with D1. Search and the CSV import matcher share one text layer (`src/lib/text.ts`: normalisation, brand nicknames, the kinds-of-gear lexicon) and one index (`src/lib/gearIndex.ts`), with no search library.

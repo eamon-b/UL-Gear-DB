@@ -9,6 +9,7 @@ import { Breakdown } from './Donut';
 import { EditNum, EditText } from './Editable';
 import { AlternativesPanel } from './AlternativesPanel';
 import { LightenPanel } from './LightenPanel';
+import { ItemLink } from './ItemLink';
 
 interface Props {
   list: PackList;
@@ -175,7 +176,6 @@ function Row({
   move: (u: string, d: -1 | 1) => void;
   onAlt: () => void;
 }) {
-  const { openItem } = useStore();
   const li = r.li;
   const wDisp = round(toUnit(r.weight_g, unit), unit);
   const overridden = !!r.item && (li.weight_g != null || li.price_usd !== undefined);
@@ -200,9 +200,7 @@ function Row({
         <div className="name-line">
           <span className="name-main">
             {r.item ? (
-              <button type="button" className="item-link" onClick={() => openItem(r.item!.id)}>
-                {r.name}
-              </button>
+              <ItemLink id={r.item.id}>{r.name}</ItemLink>
             ) : readOnly ? (
               <span>{r.name}</span>
             ) : (

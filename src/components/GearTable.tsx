@@ -5,6 +5,7 @@ import { fmtDW, fmtW, G_PER_OZ, type Unit } from '../lib/units';
 import { fmtPrice, humanizeKey } from '../lib/util';
 import { useStore } from '../lib/store';
 import { fmtMetric, metricTitle, type Metric } from '../lib/metric';
+import { ItemLink } from './ItemLink';
 
 interface Props {
   items: Item[];
@@ -29,8 +30,9 @@ const DEFAULT_DIR: Record<string, 1 | -1> = { value: -1 };
 export const GearTable = memo(function GearTable(p: Props) {
   const { items, sort, setSort, unit, specCols, frontier, valueOf, metric, refItem, onSwap, showCategory, catById, selectedId, baseline } =
     p;
-  const { compare, toggleCompare, addToList, openItem } = useStore();
-  const pageSize = p.pageSize ?? 100;
+  const { compare, toggleCompare, addToList } = useStore();
+  // the prerendered category page lists every item, so each one is linked from it
+  const pageSize = p.pageSize ?? (typeof document === 'undefined' ? Infinity : 100);
   const [page, setPage] = useState(0);
   useEffect(() => setPage(0), [items]);
   useEffect(() => {
@@ -112,10 +114,10 @@ export const GearTable = memo(function GearTable(p: Props) {
                   />
                 </td>
                 <td className="c-name">
-                  <button type="button" className="item-link" onClick={() => openItem(it.id)}>
+                  <ItemLink id={it.id}>
                     <span className="brand">{it.brand}</span> {it.model}
                     {it.variant && <span className="variant"> {it.variant}</span>}
-                  </button>
+                  </ItemLink>
                   {frontier.has(it.id) && (
                     <span
                       className="badge front"

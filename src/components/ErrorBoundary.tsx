@@ -1,4 +1,5 @@
 import { Component, type ReactNode } from 'react';
+import { href } from '../lib/router';
 
 /** Keeps one broken page (bad share link, corrupt saved data) from blanking the whole app. */
 export class ErrorBoundary extends Component<{ children: ReactNode }, { error: Error | null }> {
@@ -19,14 +20,13 @@ export class ErrorBoundary extends Component<{ children: ReactNode }, { error: E
       <div className="page">
         <h1>Something went wrong</h1>
         <p className="warn">{error.message}</p>
-        {/* reload: a hash change alone can't reset a boundary above the router, or one already on #/ */}
+        {/* a full page load: client-side navigation can't reset a boundary above the router */}
         <p>
           <a
-            href="#/"
+            href={href('/')}
             onClick={(e) => {
               e.preventDefault();
-              window.location.hash = '#/';
-              window.location.reload();
+              window.location.assign(href('/'));
             }}
           >
             Back to browse

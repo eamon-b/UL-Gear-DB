@@ -1,0 +1,10 @@
+# Copy to .dev.vars (git-ignored) for `npm run dev`. Every line is optional.
+
+# Local sign-in without any provider: POST /api/auth/dev {"email": "..."}.
+# Only works for requests to localhost / 127.0.0.1, even if this leaks elsewhere.
+DEV_AUTH=1
+
+# Google sign-in. Add http://localhost:8787/api/auth/google/callback as an authorized
+# redirect URI on the OAuth client to try it locally.
+# GOOGLE_CLIENT_ID=
+# GOOGLE_CLIENT_SECRET=

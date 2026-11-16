@@ -1,5 +1,6 @@
 node_modules
 dist
+dist-ssr
 public/data/gear.json
 screenshots/*.tmp
 *.log
