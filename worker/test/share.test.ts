@@ -1,5 +1,7 @@
 import { env } from 'cloudflare:workers';
 import { describe, expect, it } from 'vitest';
+import { ANON_SHARE_TTL, cleanup } from '../src/auth';
+import { sha256Hex } from '../src/crypto';
 import { LIMITS } from '../src/ratelimit';
 import { Client, item, signIn, summary } from './helpers';
 
@@ -120,5 +122,68 @@ describe('GET /api/shares and DELETE /api/share/:id', () => {
     const r = await new Client().json('/api/shares');
     expect(r.status).toBe(401);
     expect(r.body.error.code).toBe('unauthorized');
+  });
+});
+
+describe('snapshots made without an account', () => {
+  const body = { name: 'anon', items: [item(1)], summary: summary() };
+  const budgetKey = async () => {
+    const { limit, windowSec } = LIMITS.shareAnonKb;
+    const win = Math.floor(Date.now() / (windowSec * 1000));
+    return { key: `${await sha256Hex('shareAnonKb:all')}:${win}`, limit, expires: (win + 1) * windowSec * 1000 };
+  };
+
+  it('share one daily budget by size; signed-in users are not held to it', async () => {
+    const { key, limit, expires } = await budgetKey();
+    const before = await env.DB.prepare('SELECT count FROM rate_limits WHERE key = ?1').bind(key).first<number>('count');
+    // a list of about 3 KB costs 3 or 4 of the budget, not 1
+    const big = { ...body, items: Array.from({ length: 40 }, (_, i) => item(i)) };
+    const kb = Math.ceil(new TextEncoder().encode(JSON.stringify(big.items)).byteLength / 1024);
+    expect(kb).toBeGreaterThan(1);
+    expect((await new Client().json('/api/share', { method: 'POST', body: big })).status).toBe(201);
+    const after = await env.DB.prepare('SELECT count FROM rate_limits WHERE key = ?1').bind(key).first<number>('count');
+    expect(after! - (before ?? 0)).toBe(kb);
+
+    try {
+      await env.DB.prepare('INSERT INTO rate_limits (key, count, expires) VALUES (?1, ?2, ?3) ON CONFLICT(key) DO UPDATE SET count = ?2')
+        .bind(key, limit, expires)
+        .run();
+      const r = await new Client().json('/api/share', { method: 'POST', body });
+      expect(r.status).toBe(429);
+      expect(r.body.error.code).toBe('rate_limited');
+      const c = new Client();
+      await signIn(c);
+      expect((await c.json('/api/share', { method: 'POST', body })).status).toBe(201);
+    } finally {
+      await env.DB.prepare('UPDATE rate_limits SET count = ?2 WHERE key = ?1').bind(key, after).run();
+    }
+  });
+
+  it('are removed when nobody has opened them for 180 days; opening one keeps it', async () => {
+    const make = async (c = new Client()) => (await c.json('/api/share', { method: 'POST', body })).body.id as string;
+    const owner = new Client();
+    await signIn(owner);
+    const [stale, visited, fresh, owned] = [await make(), await make(), await make(), await make(owner)];
+    const old = Date.now() - ANON_SHARE_TTL - 1000;
+    await env.DB.prepare('UPDATE shares SET created = ?1 WHERE id IN (?2, ?3, ?4)').bind(old, stale, visited, owned).run();
+    // opened 10 days ago
+    await env.DB.prepare('UPDATE shares SET seen = ?1 WHERE id = ?2')
+      .bind(Date.now() - 10 * 24 * 3600 * 1000, visited)
+      .run();
+
+    // opening it now is recorded (it had been more than a day), by the page as well as the API
+    expect((await new Client().fetch(`/l/${visited}`)).status).toBe(200);
+    const seen = await env.DB.prepare('SELECT seen FROM shares WHERE id = ?1').bind(visited).first<number>('seen');
+    expect(Date.now() - seen!).toBeLessThan(60_000);
+    expect((await new Client().json(`/api/share/${fresh}`)).status).toBe(200);
+    expect(await env.DB.prepare('SELECT seen FROM shares WHERE id = ?1').bind(fresh).first('seen')).toBeNull();
+    // one past its time is gone even before the cleanup runs
+    expect((await new Client().json(`/api/share/${stale}`)).status).toBe(404);
+
+    await cleanup(owner.env, Date.now());
+    const left = await env.DB.prepare('SELECT id FROM shares WHERE id IN (?1, ?2, ?3, ?4)')
+      .bind(stale, visited, fresh, owned)
+      .all<{ id: string }>();
+    expect(left.results.map((r) => r.id).sort()).toEqual([visited, fresh, owned].sort());
   });
 });

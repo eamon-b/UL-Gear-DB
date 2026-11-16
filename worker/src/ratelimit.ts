@@ -17,28 +17,30 @@ export const LIMITS = {
   emailAddress: { limit: 3, windowSec: 900 },
   /** list writes (PUT/DELETE/publish), per user: generous, sync can be chatty */
   listWrite: { limit: 1200, windowSec: 3600 },
+  /** KB of snapshot shares made without an account, all visitors together, per day */
+  shareAnonKb: { limit: 2048, windowSec: 86400 },
 } as const;
 
 export type Bucket = keyof typeof LIMITS;
 
-/** Counts one hit; returns false when the subject is over the limit for this window. */
-export async function hit(env: AppEnv, bucket: Bucket, subject: string, now: number): Promise<boolean> {
+/** Counts one hit (or `weight` of them); returns false when the subject is over the limit for this window. */
+export async function hit(env: AppEnv, bucket: Bucket, subject: string, now: number, weight = 1): Promise<boolean> {
   const { limit, windowSec } = LIMITS[bucket];
   const windowMs = windowSec * 1000;
   const win = Math.floor(now / windowMs);
   // hashed: the table never holds raw IPs or email addresses
   const key = `${await sha256Hex(`${bucket}:${subject}`)}:${win}`;
   const row = await env.DB.prepare(
-    `INSERT INTO rate_limits (key, count, expires) VALUES (?1, 1, ?2)
-     ON CONFLICT(key) DO UPDATE SET count = count + 1 RETURNING count`,
+    `INSERT INTO rate_limits (key, count, expires) VALUES (?1, ?3, ?2)
+     ON CONFLICT(key) DO UPDATE SET count = count + ?3 RETURNING count`,
   )
-    .bind(key, (win + 1) * windowMs)
+    .bind(key, (win + 1) * windowMs, weight)
     .first<{ count: number }>();
   return (row?.count ?? 0) <= limit;
 }
 
-export async function enforce(env: AppEnv, bucket: Bucket, subject: string, now: number): Promise<void> {
-  if (!(await hit(env, bucket, subject, now))) {
+export async function enforce(env: AppEnv, bucket: Bucket, subject: string, now: number, weight = 1): Promise<void> {
+  if (!(await hit(env, bucket, subject, now, weight))) {
     throw new HttpError(429, 'rate_limited', 'Too many requests. Try again later.');
   }
 }

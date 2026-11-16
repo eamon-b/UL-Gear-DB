@@ -1,5 +1,5 @@
 import type { ShareInfo, ShareLinkResponse, SharedList, SharesResponse, Summary } from '../../shared/api';
-import { getSession, requireSession } from './auth';
+import { ANON_SHARE_TTL, getSession, requireSession } from './auth';
 import { randomSlug } from './crypto';
 import type { AppEnv, Ctx } from './env';
 import { HttpError, clientIp, json, noContent, readJson } from './http';
@@ -15,11 +15,16 @@ const EMPTY_SUMMARY: Summary = { base_g: 0, total_g: 0, count: 0, cost: null };
 
 const parseSummary = (s: string | null): Summary => (s ? (JSON.parse(s) as Summary) : EMPTY_SUMMARY);
 
-/** Resolves a share id to its content: the snapshot, or the live list's current state. */
-export async function loadShare(env: AppEnv, id: string): Promise<SharedList | null> {
+const DAY = 24 * 3600 * 1000;
+
+/**
+ * Resolves a share id to its content: the snapshot, or the live list's current state.
+ * Opening an ownerless snapshot is noted (at most once a day), which is what keeps it from expiring.
+ */
+export async function loadShare(env: AppEnv, id: string, now: number): Promise<SharedList | null> {
   if (!SHARE_ID.test(id)) return null;
   const row = await env.DB.prepare(
-    `SELECT s.id, s.list_id, s.name, s.items, s.summary, s.updated,
+    `SELECT s.id, s.owner_id, s.list_id, s.name, s.items, s.summary, s.created, s.updated, s.seen,
             l.name AS l_name, l.items AS l_items, l.summary AS l_summary, l.updated AS l_updated, l.deleted AS l_deleted
      FROM shares s LEFT JOIN lists l ON s.list_id IS NOT NULL AND l.user_id = s.owner_id AND l.id = s.list_id
      WHERE s.id = ?1`,
@@ -27,11 +32,14 @@ export async function loadShare(env: AppEnv, id: string): Promise<SharedList | n
     .bind(id)
     .first<{
       id: string;
+      owner_id: string | null;
       list_id: string | null;
       name: string | null;
       items: string | null;
       summary: string | null;
+      created: number;
       updated: number;
+      seen: number | null;
       l_name: string | null;
       l_items: string | null;
       l_summary: string | null;
@@ -40,6 +48,12 @@ export async function loadShare(env: AppEnv, id: string): Promise<SharedList | n
     }>();
   if (!row) return null;
   if (row.list_id === null) {
+    if (row.owner_id === null) {
+      const last = row.seen ?? row.created;
+      // past its time but not yet cleaned up: gone all the same
+      if (last <= now - ANON_SHARE_TTL) return null;
+      if (last <= now - DAY) await env.DB.prepare('UPDATE shares SET seen = ?2 WHERE id = ?1').bind(id, now).run();
+    }
     return {
       id: row.id,
       name: row.name ?? '',
@@ -81,6 +95,13 @@ export async function createShare(c: Ctx): Promise<Response> {
   const { json: itemsJson } = v.items(b.items);
   const summary = v.summary(b.summary);
   const session = await getSession(c);
+  // Ownerless snapshots are the one thing here anyone can add to without limit of their own, so
+  // together they get a daily budget by size: with ANON_SHARE_TTL that bounds what they can ever
+  // take up in the database. Past it the site falls back to links that carry the list in the URL.
+  if (!session) {
+    const kb = Math.max(1, Math.ceil(new TextEncoder().encode(itemsJson).byteLength / 1024));
+    await enforce(c.env, 'shareAnonKb', 'all', c.now, kb);
+  }
   const id = await insertWithSlug(async (id) => {
     try {
       await c.env.DB.prepare(
@@ -100,7 +121,7 @@ export async function createShare(c: Ctx): Promise<Response> {
 }
 
 export async function getShare(c: Ctx): Promise<Response> {
-  const s = await loadShare(c.env, c.params.id);
+  const s = await loadShare(c.env, c.params.id, c.now);
   if (!s) throw new HttpError(404, 'not_found', 'No such share link');
   // Snapshots never change (only get deleted), so a short public cache is safe.
   return json(s, 200, { 'Cache-Control': s.live ? 'no-store' : 'public, max-age=60' });

@@ -86,6 +86,28 @@ describe('PUT /api/lists/:id', () => {
   });
 });
 
+describe('a page that believes it is another account (X-Account)', () => {
+  it('is refused, whatever it asks for, and changes nothing', async () => {
+    const c = await user();
+    const mine = { 'X-Account': c.userId };
+    const stale = { 'X-Account': 'someone-else' };
+    expect((await c.json('/api/lists/acc001', { method: 'PUT', body: listBody(), headers: mine })).status).toBe(200);
+    expect((await c.json('/api/lists', { headers: mine })).status).toBe(200);
+    for (const [method, path, body] of [
+      ['GET', '/api/lists', undefined],
+      ['PUT', '/api/lists/acc002', listBody()],
+      ['DELETE', `/api/lists/acc001?updated=${T + 5}`, undefined],
+      ['PUT', '/api/lists/acc001/publish', {}],
+      ['DELETE', '/api/lists/acc001/publish', undefined],
+    ] as const) {
+      const r = await c.json(path, { method, body, headers: stale });
+      expect(r.status).toBe(401);
+      expect(r.body.error.code).toBe('unauthorized');
+    }
+    expect((await c.json('/api/lists')).body.lists.map((l: { id: string }) => l.id)).toEqual(['acc001']);
+  });
+});
+
 describe('DELETE /api/lists/:id (tombstones)', () => {
   it('leaves a tombstone with no content that other devices see', async () => {
     const c = await user();

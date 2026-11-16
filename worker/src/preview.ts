@@ -97,7 +97,7 @@ export async function sharePage(c: Ctx): Promise<Response> {
   const shell = await fetchShell(c.env, c.url);
   if (!shell) return new Response('Site shell not found', { status: 500 });
   const id = c.params.id ?? '';
-  const list = id ? await loadShare(c.env, id) : null;
+  const list = id ? await loadShare(c.env, id, c.now) : null;
 
   const headers = new Headers(shell.headers);
   headers.delete('Content-Length');

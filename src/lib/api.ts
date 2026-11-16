@@ -25,13 +25,18 @@ export class ApiError extends Error {
 
 const BASE = `${import.meta.env.BASE_URL}api`;
 
-async function call<T>(method: string, path: string, body?: unknown): Promise<T> {
+/**
+ * `account`: the id of the user this page believes is signed in. The server refuses the request
+ * (401) when the session belongs to someone else, which happens when another tab signed in as a
+ * different user after this one loaded. Sent with everything that reads or writes an account's lists.
+ */
+async function call<T>(method: string, path: string, body?: unknown, account?: string): Promise<T> {
   let res: Response;
   try {
     res = await fetch(BASE + path, {
       method,
       credentials: 'same-origin',
-      headers: body === undefined ? undefined : { 'Content-Type': 'application/json' },
+      headers: { ...(body === undefined ? {} : { 'Content-Type': 'application/json' }), ...(account ? { 'X-Account': account } : {}) },
       body: body === undefined ? undefined : JSON.stringify(body),
     });
   } catch {
@@ -49,11 +54,15 @@ async function call<T>(method: string, path: string, body?: unknown): Promise<T>
 }
 
 export const api = {
-  /** Resolves to null when there is no backend, so callers can hide everything that needs one. Rejects when offline. */
+  /**
+   * Resolves to null when there is no backend (a static host answers with a page, not JSON), so
+   * callers can hide everything that needs one. Rejects when offline or when the backend fails:
+   * neither says anything about who is signed in.
+   */
   me: (): Promise<Me | null> =>
     call<Me>('GET', '/me').catch((e) => {
-      if (e instanceof ApiError && e.status === 0) throw e;
-      return null;
+      if (e instanceof ApiError && e.code === 'no_backend') return null;
+      throw e;
     }),
   logout: () => call<void>('POST', '/auth/logout', {}),
   deleteAccount: () => call<void>('DELETE', '/me'),
@@ -67,10 +76,16 @@ export const api = {
   shares: () => call<{ shares: ShareLink[] }>('GET', '/shares').then((r) => r.shares),
   deleteShare: (id: string) => call<void>('DELETE', `/share/${encodeURIComponent(id)}`),
 
-  lists: () => call<{ lists: RemoteList[] }>('GET', '/lists').then((r) => r.lists),
-  putList: (l: PackList, summary: Summary) =>
-    call<{ updated: number }>('PUT', `/lists/${l.id}`, { name: l.name, items: l.items, created: l.created, updated: l.updated, summary }),
-  deleteList: (id: string, updated: number) => call<void>('DELETE', `/lists/${id}?updated=${updated}`),
-  publish: (id: string) => call<{ id: string; url: string }>('PUT', `/lists/${id}/publish`, {}),
-  unpublish: (id: string) => call<void>('DELETE', `/lists/${id}/publish`),
+  // Each of these names the account it is meant for (see `call`).
+  lists: (account: string) => call<{ lists: RemoteList[] }>('GET', '/lists', undefined, account).then((r) => r.lists),
+  putList: (account: string, l: PackList, summary: Summary) =>
+    call<{ updated: number }>(
+      'PUT',
+      `/lists/${l.id}`,
+      { name: l.name, items: l.items, created: l.created, updated: l.updated, summary },
+      account,
+    ),
+  deleteList: (account: string, id: string, updated: number) => call<void>('DELETE', `/lists/${id}?updated=${updated}`, undefined, account),
+  publish: (account: string, id: string) => call<{ id: string; url: string }>('PUT', `/lists/${id}/publish`, {}, account),
+  unpublish: (account: string, id: string) => call<void>('DELETE', `/lists/${id}/publish`, undefined, account),
 };

@@ -42,6 +42,7 @@ Rate limits (`src/ratelimit.ts`) are fixed-window counters in D1:
 - 10 magic-link requests per IP per hour
 - 3 magic links per address per 15 minutes (extra requests still get `202` but send nothing)
 - 1200 list writes per user per hour
+- 2 MB of snapshot shares made without an account per day, all visitors together (the site then falls back to links that hold the list in the URL)
 
 The Workers Rate Limiting binding was not used, because it only supports 10 s and 60 s windows and its counts are approximate and per location.
 
@@ -75,7 +76,7 @@ The Workers Rate Limiting binding was not used, because it only supports 10 s an
 - **Share links:**
   - snapshots store a copy of name, items and summary
   - live links store only the list they point to
-  - anonymous snapshots have no owner
+  - anonymous snapshots have no owner, and are removed when nobody has opened them for 180 days
 - **Short-lived rows, removed after use or expiry:**
   - magic-link tokens: hashed together with a random value kept in a cookie of the browser that asked (the link signs in only that browser), with the address and return path, 15 min
   - OAuth state and PKCE verifier: 10 min

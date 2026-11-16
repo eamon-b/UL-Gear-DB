@@ -23,6 +23,7 @@ import * as v from './validate';
 const SESSION = 'session';
 const OAUTH = 'oauth';
 const EMAIL = 'email';
+const ACCOUNT_HEADER = 'X-Account';
 /** the shape of every token `randomToken` makes */
 const TOKEN = /^[A-Za-z0-9_-]{43}$/;
 const DAY = 24 * 3600 * 1000;
@@ -32,6 +33,11 @@ const DAY = 24 * 3600 * 1000;
  * hold the list. (If it signs in again, the list comes back as one only that device has.)
  */
 export const TOMBSTONE_TTL = 180 * DAY;
+/**
+ * A snapshot made without an account has no one who could delete it, so it is removed once nobody
+ * has opened it for this long. Opening the link keeps it (see loadShare).
+ */
+export const ANON_SHARE_TTL = 180 * DAY;
 export const SESSION_TTL = 90 * DAY;
 /** Sliding expiry: refresh at most once a day so most requests don't write. */
 const SESSION_REFRESH_AFTER = DAY;
@@ -88,6 +94,10 @@ export async function getSession(c: Ctx): Promise<Session | null> {
 export async function requireSession(c: Ctx): Promise<Session> {
   const s = await getSession(c);
   if (!s) throw new HttpError(401, 'unauthorized', 'Sign in first');
+  // The page says which account it believes it is working for. Another tab may have signed in as
+  // someone else since it loaded, and its lists must not land in that account.
+  const expected = c.request.headers.get(ACCOUNT_HEADER);
+  if (expected !== null && expected !== s.user.id) throw new HttpError(401, 'unauthorized', 'Signed in to a different account');
   return s;
 }
 
@@ -109,6 +119,8 @@ export async function cleanup(env: AppEnv, now: number): Promise<void> {
       env.DB.prepare('DELETE FROM email_tokens WHERE expires <= ?1').bind(now),
       env.DB.prepare('DELETE FROM oauth_states WHERE expires <= ?1').bind(now),
       env.DB.prepare('DELETE FROM rate_limits WHERE expires <= ?1').bind(now),
+      // snapshots nobody owns and nobody has opened for a long time (see ANON_SHARE_TTL)
+      env.DB.prepare('DELETE FROM shares WHERE owner_id IS NULL AND COALESCE(seen, created) <= ?1').bind(now - ANON_SHARE_TTL),
       // a tombstone's `created` is when the server recorded the deletion (see deleteList)
       env.DB.prepare('DELETE FROM lists WHERE deleted = 1 AND created <= ?1').bind(now - TOMBSTONE_TTL),
     ]);

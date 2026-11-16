@@ -145,6 +145,39 @@ describe('lists from another account', () => {
     expect(planSync([list('a', 10)], [], s).state.others).toEqual({});
   });
 
+  it('a list deleted while signed out is deleted from its account when that account is back', () => {
+    const now = 1_000_000;
+    // signed out with a deletion still unsent (z), then b deleted too
+    const out = noteDeleted(signedOutState(state({ synced: { a: 10, b: 20 }, tombstones: { z: now - 5 } }), undefined, now), 'b', now);
+    expect(out.others).toEqual({ a: 'u1' });
+    expect(out.gone).toEqual({ z: { owner: 'u1', at: now - 5 }, b: { owner: 'u1', at: now } });
+    // someone else in between changes nothing about them
+    const other = stateFor(out, 'u2', now);
+    expect(other.tombstones).toEqual({});
+    expect(planSync([list('a', 10)], [], other).state.gone).toEqual(out.gone);
+    const back = stateFor(other, 'u1', now);
+    expect(back.gone).toEqual({});
+    const p = planSync([list('a', 10)], [remote('a', 10), remote('b', 20), remote('z', 3)], back);
+    expect(p.lists.map((l) => l.id)).toEqual(['a']);
+    expect(p.pushDeletes.map((d) => d.id).sort()).toEqual(['b', 'z']);
+    // ...unless it waited longer than the server would remember a deletion
+    expect(stateFor(out, 'u1', now + 181 * 24 * 3600 * 1000).tombstones).toEqual({});
+  });
+
+  it('a list deleted after the session ran out is a tombstone like any other', () => {
+    expect(noteDeleted(state({ synced: { a: 10 } }), 'a', 99).tombstones).toEqual({ a: 99 });
+  });
+
+  it('removing the synced lists on sign-out, or a held list as someone else, deletes nothing from an account', () => {
+    const out = signedOutState(state({ synced: { a: 10, b: 20 } }), new Set(['fresh']));
+    expect(out.others).toEqual({});
+    expect(noteDeleted(noteDeleted(out, 'a'), 'b')).toBe(out);
+    const s = noteDeleted(stateFor(left, 'u2'), 'a', 50);
+    expect(s.others).toEqual({ b: 'u1' });
+    expect(s.gone).toEqual({});
+    expect(s.tombstones).toEqual({});
+  });
+
   it('the same account keeps its state', () => {
     const s = state({ synced: { a: 10 } });
     expect(stateFor(s, 'u1')).toBe(s);
@@ -174,6 +207,7 @@ describe('sync state', () => {
       tombstones: {},
       shares: { b: 'id' },
       others: {},
+      gone: {},
     });
   });
 });

@@ -158,7 +158,8 @@ export function AccountProvider({ children }: { children: ReactNode }) {
       setBackend(m != null);
       setMe(m);
     } catch {
-      // Offline: go by what the last visit knew, so a signed-in user is not shown as signed out.
+      // Offline, or the server is failing: go by what the last visit knew, so a signed-in user is
+      // not shown as signed out. (Who is signed in is still the server's call on every request.)
       setBackend(sanitizeMe(loadLS<unknown>(ME_KEY, null)) != null);
     }
   }, [setMe]);
@@ -190,7 +191,7 @@ export function AccountProvider({ children }: { children: ReactNode }) {
     try {
       const linksBefore = linkChanges.current;
       // Another device may run another version of the app: clean what it wrote like anything from storage.
-      const remote = (await api.lists()).flatMap((r): RemoteList[] => {
+      const remote = (await api.lists(u.id)).flatMap((r): RemoteList[] => {
         if (r.deleted) return [r];
         const [l] = sanitizeLists({ lists: [r] }).lists;
         return l ? [{ ...l, share_id: r.share_id }] : [];
@@ -229,7 +230,7 @@ export function AccountProvider({ children }: { children: ReactNode }) {
         // deleted since the plan was made: nothing to send (its tombstone, if the server knew it, is stored)
         if (!listsRef.current.some((x) => x.id === l.id)) continue;
         try {
-          await api.putList(l, summarize(l, db));
+          await api.putList(u.id, l, summarize(l, db));
         } catch (e) {
           if (!isRefusal(e)) throw e;
           // 409: the server has a newer copy; the sync that follows takes it
@@ -251,7 +252,7 @@ export function AccountProvider({ children }: { children: ReactNode }) {
       }
       for (const d of plan.pushDeletes) {
         try {
-          await api.deleteList(d.id, d.updated);
+          await api.deleteList(u.id, d.id, d.updated);
         } catch (e) {
           if (!isRefusal(e)) throw e;
           if (e.status === 409) again.current = true;
@@ -266,9 +267,11 @@ export function AccountProvider({ children }: { children: ReactNode }) {
       setStatus(failed ? 'error' : 'idle');
     } catch (e) {
       if (e instanceof ApiError && e.status === 401) {
-        // signed out elsewhere, or the session ran out: back to browser-only, lists untouched
+        // Signed out elsewhere, or the session ran out: back to browser-only, lists untouched.
+        // Or another tab signed in as someone else: asking again finds out, and syncs as them.
         again.current = false;
         setMe((m) => (m ? { ...m, user: null } : m));
+        void refresh();
         return;
       }
       const offline = e instanceof ApiError && e.status === 0;
@@ -283,7 +286,7 @@ export function AccountProvider({ children }: { children: ReactNode }) {
         void sync();
       }
     }
-  }, [db, replaceLists, setMe, toast]);
+  }, [db, replaceLists, setMe, toast, refresh]);
 
   // Signing in (or loading the page signed in) syncs straight away.
   useEffect(() => {
@@ -304,10 +307,12 @@ export function AccountProvider({ children }: { children: ReactNode }) {
     const ids = new Set(lists.map((l) => l.id));
     const gone = prevIds.current.filter((id) => !ids.has(id));
     prevIds.current = [...ids];
-    if (!userRef.current || !gone.length) return;
-    let s = loadState();
-    for (const id of gone) s = noteDeleted(s, id);
-    save(s);
+    if (!gone.length) return;
+    // Signed in or not: a list deleted while signed out is still deleted when its account is back.
+    const s = loadState();
+    let next = s;
+    for (const id of gone) next = noteDeleted(next, id);
+    if (next !== s) save(next);
   }, [lists]);
 
   // Edits go up a moment after the last one.
@@ -350,9 +355,12 @@ export function AccountProvider({ children }: { children: ReactNode }) {
         return;
       }
       const s = loadState();
-      if (removeLists) replaceLists(listsRef.current.filter((l) => !(l.id in s.synced)));
-      // The lists that stay remember their account, so the next person to sign in here does not get them.
-      save(signedOutState(s));
+      const keep = removeLists ? listsRef.current.filter((l) => !(l.id in s.synced)) : listsRef.current;
+      // The lists that stay remember their account, so the next person to sign in here does not get
+      // them. Saved before the lists change: the ones removed from this browser only are no longer
+      // in the state by then, so their going is not taken for a deletion.
+      save(signedOutState(s, new Set(keep.map((l) => l.id))));
+      if (removeLists) replaceLists(keep);
       setMe((m) => (m ? { ...m, user: null } : m));
       toast(removeLists ? 'Signed out. Synced lists were removed from this browser.' : 'Signed out. Your lists are still in this browser.');
     },
@@ -362,7 +370,8 @@ export function AccountProvider({ children }: { children: ReactNode }) {
   const deleteAccount = useCallback(async () => {
     await api.deleteAccount();
     // the account's own lists now belong to nobody; ones held for another account stay held
-    save(emptySyncState(null, loadState().others));
+    const s = loadState();
+    save(emptySyncState(null, s.others, s.gone));
     setMe((m) => (m ? { ...m, user: null } : m));
     toast('Account deleted. Your lists are still in this browser.');
   }, [toast]);
@@ -370,10 +379,11 @@ export function AccountProvider({ children }: { children: ReactNode }) {
   const publish = useCallback(
     async (listId: string) => {
       const l = listsRef.current.find((x) => x.id === listId);
-      if (!l) throw new Error('No such list');
+      const u = userRef.current;
+      if (!l || !u) throw new Error('No such list');
       // The server can only publish what it has, and at its latest.
-      if (loadState().synced[listId] !== l.updated || running.current) await api.putList(l, summarize(l, db));
-      const { id } = await api.publish(listId);
+      if (loadState().synced[listId] !== l.updated || running.current) await api.putList(u.id, l, summarize(l, db));
+      const { id } = await api.publish(u.id, listId);
       linkChanges.current++;
       // sharing a held list uploaded it: it is this account's now
       const s = adoptList(loadState(), listId);
@@ -384,7 +394,9 @@ export function AccountProvider({ children }: { children: ReactNode }) {
   );
 
   const unpublish = useCallback(async (listId: string) => {
-    await api.unpublish(listId);
+    const u = userRef.current;
+    if (!u) return;
+    await api.unpublish(u.id, listId);
     linkChanges.current++;
     const s = loadState();
     const { [listId]: _gone, ...rest } = s.shares;

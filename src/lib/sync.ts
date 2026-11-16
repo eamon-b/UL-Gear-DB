@@ -19,15 +19,23 @@ export interface SyncState {
   shares: Record<string, string>;
   /** list id -> id of the other account the list belongs to */
   others: Record<string, string>;
+  /** deletions made here of lists that belong to an account not signed in now, kept for when it is back */
+  gone: Record<string, Gone>;
 }
 
-export const emptySyncState = (userId: string | null = null, others: Record<string, string> = {}): SyncState => ({
-  userId,
-  synced: {},
-  tombstones: {},
-  shares: {},
-  others,
-});
+export interface Gone {
+  owner: string;
+  at: number;
+}
+
+/** How long a deletion waits for its account to come back: as long as the server keeps a tombstone. */
+export const GONE_TTL = 180 * 24 * 3600 * 1000;
+
+export const emptySyncState = (
+  userId: string | null = null,
+  others: Record<string, string> = {},
+  gone: Record<string, Gone> = {},
+): SyncState => ({ userId, synced: {}, tombstones: {}, shares: {}, others, gone });
 
 export function sanitizeSyncState(v: unknown): SyncState {
   const o = v && typeof v === 'object' && !Array.isArray(v) ? (v as Record<string, unknown>) : {};
@@ -49,6 +57,16 @@ export function sanitizeSyncState(v: unknown): SyncState {
     tombstones: nums(o.tombstones),
     shares: strs(o.shares),
     others: strs(o.others),
+    gone: Object.fromEntries(
+      Object.entries(o.gone && typeof o.gone === 'object' ? (o.gone as Record<string, unknown>) : {}).flatMap(
+        ([id, g]): [string, Gone][] => {
+          const x = g && typeof g === 'object' ? (g as Partial<Gone>) : {};
+          return typeof x.owner === 'string' && typeof x.at === 'number' && Number.isFinite(x.at)
+            ? [[id, { owner: x.owner, at: x.at }]]
+            : [];
+        },
+      ),
+    ),
   };
 }
 
@@ -82,7 +100,7 @@ export function planSync(local: PackList[], remote: RemoteList[], prev: SyncStat
   const out = new Map<string, PackList>();
   const push: PackList[] = [];
   const pushDeletes: SyncPlan['pushDeletes'] = [];
-  const state = emptySyncState(prev.userId, Object.fromEntries(Object.entries(prev.others).filter(([id]) => byId.has(id))));
+  const state = emptySyncState(prev.userId, Object.fromEntries(Object.entries(prev.others).filter(([id]) => byId.has(id))), prev.gone);
   let pulled = 0;
 
   for (const r of remote) {
@@ -151,19 +169,41 @@ function owners(s: SyncState): Record<string, string> {
   return others;
 }
 
+/** Every deletion `s` holds for an account, the unsent ones of `s.userId` included, less those that waited too long. */
+function deletions(s: SyncState, now: number): Record<string, Gone> {
+  const gone = { ...s.gone };
+  if (s.userId) for (const [id, at] of Object.entries(s.tombstones)) gone[id] = { owner: s.userId, at };
+  return Object.fromEntries(Object.entries(gone).filter(([, g]) => now - g.at < GONE_TTL));
+}
+
 /**
  * The state to start from when `userId` is signed in. Unchanged for the account already synced with.
  * For a different one, the lists the previous account synced are held back (see `SyncState.others`),
  * so signing in on a shared computer does not copy someone else's lists into this account. Lists
- * that belong to `userId` from an earlier visit are released again.
+ * that belong to `userId` from an earlier visit are released again, and the deletions made of its
+ * lists while it was away become tombstones to send.
  */
-export function stateFor(prev: SyncState, userId: string): SyncState {
+export function stateFor(prev: SyncState, userId: string, now = Date.now()): SyncState {
   if (prev.userId === userId) return prev;
-  return emptySyncState(userId, Object.fromEntries(Object.entries(owners(prev)).filter(([, owner]) => owner !== userId)));
+  const all = Object.entries(deletions(prev, now));
+  const s = emptySyncState(
+    userId,
+    Object.fromEntries(Object.entries(owners(prev)).filter(([, owner]) => owner !== userId)),
+    Object.fromEntries(all.filter(([, g]) => g.owner !== userId)),
+  );
+  for (const [id, g] of all) if (g.owner === userId) s.tombstones[id] = g.at;
+  return s;
 }
 
-/** The state after signing out with the lists kept: nothing is synced, and each list keeps its owner. */
-export const signedOutState = (prev: SyncState): SyncState => emptySyncState(null, owners(prev));
+/**
+ * The state after signing out: nothing is synced, each list that stays keeps its owner, and
+ * deletions not yet sent wait for the account to come back. `kept`: the ids of the lists that stay
+ * in this browser (all of them, unless the user chose to remove the synced ones).
+ */
+export function signedOutState(prev: SyncState, kept?: Set<string>, now = Date.now()): SyncState {
+  const others = Object.entries(owners(prev)).filter(([id]) => !kept || kept.has(id));
+  return emptySyncState(null, Object.fromEntries(others), deletions(prev, now));
+}
 
 /** The user chose to add another account's list to the one signed in. */
 export function adopt(s: SyncState, id: string): SyncState {
@@ -171,8 +211,17 @@ export function adopt(s: SyncState, id: string): SyncState {
   return { ...s, others };
 }
 
-/** Record a deletion made here. Lists that never reached the server need no tombstone. */
+/**
+ * Record a deletion made here. Lists that never reached a server need no tombstone. One deleted
+ * while signed out (with the lists kept) is remembered for its account. One held for another
+ * account while someone else is signed in only leaves this browser: that user does not get to
+ * delete it from an account that is not theirs.
+ */
 export function noteDeleted(s: SyncState, id: string, at = Date.now()): SyncState {
+  if (id in s.others) {
+    const { [id]: owner, ...others } = s.others;
+    return s.userId ? { ...s, others } : { ...s, others, gone: { ...s.gone, [id]: { owner, at } } };
+  }
   if (!(id in s.synced)) return s;
   const { [id]: _a, ...synced } = s.synced;
   const { [id]: _b, ...shares } = s.shares;
