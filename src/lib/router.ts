@@ -102,6 +102,60 @@ export function migrateLegacyHash(): boolean {
 export const isPlainClick = (e: { button: number; metaKey: boolean; ctrlKey: boolean; shiftKey: boolean; altKey: boolean }) =>
   e.button === 0 && !e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey;
 
+/** Is this URL path (with base) under the backend's `/api/`? */
+export const isApiPath = (pathname: string, base = BASE) => {
+  const p = stripBase(pathname, base);
+  return p === '/api' || p.startsWith('/api/');
+};
+
+const RETURN_KEY = 'ulgdb.return';
+const RETURN_TTL = 30 * 60 * 1000;
+
+/**
+ * Where to come back to after signing in, as an app path. The fragment (a `/share#<data>` list) is
+ * not part of it: it can be far longer than a server will carry through a redirect, so it waits in
+ * this browser (`rememberReturn`) and `restoreReturnHash` puts it back.
+ */
+export function returnPath(r: Route = currentRoute()): string {
+  const q = r.query.toString();
+  return r.pathname + (q ? `?${q}` : '');
+}
+
+/** Call when a sign-in starts: keeps the current fragment for `restoreReturnHash`. */
+export function rememberReturn(r: Route = currentRoute(), now = Date.now()): void {
+  const to = returnPath(r);
+  try {
+    if (r.hash) localStorage.setItem(RETURN_KEY, JSON.stringify({ to, hash: r.hash, at: now }));
+    else localStorage.removeItem(RETURN_KEY);
+  } catch {
+    // storage is unavailable: the page still comes back, without its fragment
+  }
+}
+
+/** The fragment `rememberReturn` kept for the app path `to`, if it is recent enough to be that sign-in. */
+export function returnHashFor(to: string, saved: unknown, now = Date.now()): string | null {
+  const o = saved && typeof saved === 'object' ? (saved as { to?: unknown; hash?: unknown; at?: unknown }) : {};
+  if (o.to !== to || typeof o.hash !== 'string' || !o.hash) return null;
+  if (typeof o.at !== 'number' || now - o.at > RETURN_TTL || now < o.at) return null;
+  return o.hash;
+}
+
+/** Back from signing in (startup): give the page the fragment it had. Returns true when it did. */
+export function restoreReturnHash(): boolean {
+  if (window.location.hash) return false;
+  try {
+    const raw = localStorage.getItem(RETURN_KEY);
+    if (raw == null) return false;
+    const hash = returnHashFor(returnPath(), JSON.parse(raw));
+    if (hash == null) return false;
+    localStorage.removeItem(RETURN_KEY);
+    history.replaceState(null, '', window.location.pathname + window.location.search + '#' + hash);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 /**
  * One delegated listener turns clicks on internal `<a href>` links into client-side navigation.
  * It goes on React's root container, after React's own listener: a handler that calls preventDefault
@@ -112,11 +166,14 @@ export function interceptLinks(el: HTMLElement | Document = document): () => voi
     if (e.defaultPrevented || !isPlainClick(e)) return;
     const a = (e.target as Element | null)?.closest?.('a[href]');
     if (!(a instanceof HTMLAnchorElement)) return;
-    if ((a.target && a.target !== '_self') || a.hasAttribute('download')) return;
+    // Any explicit target, `_self` included, asks for a real page load (the Google sign-in link).
+    if (a.hasAttribute('target') || a.hasAttribute('download')) return;
     const url = new URL(a.href, window.location.href);
     if (url.origin !== window.location.origin) return;
     const b = BASE.replace(/\/+$/, '');
     if (b && url.pathname !== b && !url.pathname.startsWith(b + '/')) return;
+    // the backend's URLs are never pages of the app
+    if (isApiPath(url.pathname)) return;
     // files (data/gear.json) and in-page anchors are left to the browser
     if (/\.\w+$/.test(url.pathname)) return;
     if (url.hash && url.pathname === window.location.pathname && url.search === window.location.search) return;

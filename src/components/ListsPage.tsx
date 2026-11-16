@@ -135,6 +135,15 @@ export function ListsPage({ listId }: { listId?: string }) {
         {account.user ? (
           <p className="muted small" data-testid="lists-where">
             {syncLine}. Signed in as {account.user.email}.
+            {list && account.held[list.id] && (
+              <>
+                {' '}
+                This list was synced with a different account, so it stays in this browser only.{' '}
+                <button type="button" className="link" onClick={() => account.adopt(list.id)} data-testid="adopt-list">
+                  Add it to this account
+                </button>
+              </>
+            )}
           </p>
         ) : (
           <p className="muted small" data-testid="lists-where">

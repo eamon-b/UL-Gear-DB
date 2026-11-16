@@ -105,16 +105,20 @@ export async function deleteList(c: Ctx): Promise<Response> {
   await enforce(c.env, 'listWrite', user.id, c.now);
 
   const existing = await loadRow(c.env, user.id, id);
-  if (existing && existing.updated > updated) throw conflict(existing);
-  // A tombstone keeps only the id and the deletion time.
+  // A list the server never had reached no other device, so there is nobody to tell: no row is
+  // made for it (or a client could fill the account with tombstones for ids it made up).
+  if (!existing) return noContent();
+  if (existing.updated > updated) throw conflict(existing);
+  // A tombstone keeps only the id and the deletion time. `created` becomes the time the server
+  // learned of the deletion (the client's `updated` can be much older): `cleanup` purges by it.
   const r = await c.env.DB.prepare(
-    `INSERT INTO lists (user_id, id, name, items, summary, created, updated, deleted)
-     VALUES (?1, ?2, '', '[]', NULL, ?3, ?3, 1)
-     ON CONFLICT(user_id, id) DO UPDATE SET name = '', items = '[]', summary = NULL, updated = excluded.updated, deleted = 1
-     WHERE lists.updated <= excluded.updated`,
+    `UPDATE lists SET name = '', items = '[]', summary = NULL, created = ?4, updated = ?3, deleted = 1
+     WHERE user_id = ?1 AND id = ?2 AND updated <= ?3 AND (deleted = 0 OR updated < ?3)`,
   )
-    .bind(user.id, id, updated)
+    .bind(user.id, id, updated, c.now)
     .run();
+  // (an equal-stamp repeat of a deletion changes nothing, and is not a conflict)
+  if (!r.meta.changes && existing.deleted && existing.updated === updated) return noContent();
   if (!r.meta.changes) {
     const now = await loadRow(c.env, user.id, id);
     if (now) throw conflict(now);

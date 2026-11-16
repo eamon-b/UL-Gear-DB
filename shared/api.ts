@@ -99,7 +99,10 @@ export interface SyncedList {
   /** id of the list's live share link, when published */
   share_id?: string;
 }
-/** A deleted list. `updated` is the deletion time. Name and items are not kept. */
+/**
+ * A deleted list. `updated` is the deletion time. Name and items are not kept. The server drops
+ * a tombstone 180 days after recording it, and keeps none for a list it never had.
+ */
 export interface ListTombstone {
   id: string;
   updated: number;

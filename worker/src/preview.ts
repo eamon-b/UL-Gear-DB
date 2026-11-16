@@ -1,5 +1,6 @@
 import type { SharedList, Summary } from '../../shared/api';
 import type { Ctx } from './env';
+import { escapeHtml } from './http';
 import { loadShare, shareUrl } from './shares';
 
 const usd = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
@@ -30,14 +31,12 @@ function previewTags(list: SharedList, url: string): Tag[] {
   ];
 }
 
-const escapeAttr = (s: string) => s.replace(/[&<>"']/g, (ch) => `&#${ch.charCodeAt(0)};`);
-
-const metaTag = (t: Tag) => `<meta ${t.attr}="${t.key}" content="${escapeAttr(t.value)}">`;
+const metaTag = (t: Tag) => `<meta ${t.attr}="${t.key}" content="${escapeHtml(t.value)}">`;
 
 /**
  * Sets each tag's `content` in place when the shell already has it, and appends the rest
  * before </head>. List names are untrusted: setInnerContent escapes text, and every meta
- * tag is written through escapeAttr.
+ * tag is written through escapeHtml.
  */
 function rewrite(res: Response, title: string | null, tags: Tag[]): Response {
   const pending = new Map(tags.map((t) => [`${t.attr}:${t.key.toLowerCase()}`, t]));
@@ -69,7 +68,7 @@ function rewrite(res: Response, title: string | null, tags: Tag[]): Response {
       element(el) {
         el.onEndTag((end) => {
           let html = '';
-          if (!sawTitle && title !== null) html += `<title>${escapeAttr(title)}</title>`;
+          if (!sawTitle && title !== null) html += `<title>${escapeHtml(title)}</title>`;
           for (const t of pending.values()) html += metaTag(t);
           if (html) end.before(html, { html: true });
         });

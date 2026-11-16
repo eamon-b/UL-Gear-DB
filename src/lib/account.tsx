@@ -2,7 +2,19 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import { api, ApiError, type Me, type Summary, type User } from './api';
 import { resolve, totals } from './lists';
 import { sanitizeLists, useStore } from './store';
-import { emptySyncState, hasUnsynced, noteDeleted, planSync, sanitizeSyncState, type RemoteList, type SyncState } from './sync';
+import {
+  adopt as adoptList,
+  emptySyncState,
+  hasUnsynced,
+  noteDeleted,
+  notePushed,
+  planSync,
+  sanitizeSyncState,
+  signedOutState,
+  stateFor,
+  type RemoteList,
+  type SyncState,
+} from './sync';
 import type { DB, PackList } from './types';
 import { loadLS, saveLS } from './util';
 
@@ -37,6 +49,10 @@ interface Account {
   /** Make a list's live link (uploads the list first if needed). Resolves to the link. */
   publish: (listId: string) => Promise<string>;
   unpublish: (listId: string) => Promise<void>;
+  /** list id -> the other account it was synced with: kept in this browser, not uploaded to this account */
+  held: Record<string, string>;
+  /** add a held list to the account signed in */
+  adopt: (listId: string) => void;
 }
 
 const inert: Account = {
@@ -58,6 +74,8 @@ const inert: Account = {
     throw new Error('no account');
   },
   unpublish: async () => {},
+  held: {},
+  adopt: () => {},
 };
 
 // The default value is what the build-time prerender gets: no provider, no account.
@@ -77,6 +95,21 @@ function sanitizeMe(v: unknown): Me | null {
   return { user, providers: o.providers.filter((p) => p === 'google' || p === 'email'), ...(o.dev ? { dev: true as const } : {}) };
 }
 const loadState = () => sanitizeSyncState(loadLS<unknown>(SYNC_KEY, null));
+const RETRY_MS = 60_000;
+
+/**
+ * Did the server answer "no" to this one request, as opposed to the sync as a whole being unable
+ * to go on? Offline, a server fault, a rate limit (429) and a lost session (401) are the latter:
+ * they are thrown on, and the list stays unsynced for the next attempt.
+ */
+const isRefusal = (e: unknown): e is ApiError =>
+  e instanceof ApiError && e.status >= 400 && e.status < 500 && e.status !== 401 && e.status !== 429;
+
+/** How many of these lists signing in would upload (the rest are held for another account). */
+export function countUploadable(lists: PackList[]): number {
+  const { others } = loadState();
+  return lists.filter((l) => !(l.id in others)).length;
+}
 
 export function summarize(l: PackList, db: DB): Summary {
   const t = totals(l.items.map((li) => resolve(li, db)));
@@ -103,6 +136,7 @@ export function AccountProvider({ children }: { children: ReactNode }) {
   const [problem, setProblem] = useState<string | null>(null);
   const [lastSync, setLastSync] = useState<number | null>(null);
   const [shares, setShares] = useState<Record<string, string>>({});
+  const [held, setHeld] = useState<Record<string, string>>({});
   const [signInOpen, setSignInOpen] = useState(false);
   const user = me?.user ?? null;
 
@@ -114,6 +148,9 @@ export function AccountProvider({ children }: { children: ReactNode }) {
   const refused = useRef(new Map<string, number>());
   const running = useRef(false);
   const again = useRef(false);
+  const retry = useRef<ReturnType<typeof setTimeout>>();
+  /** counts share links made or stopped here, so a sync can tell that its copy of the server's is older */
+  const linkChanges = useRef(0);
 
   const refresh = useCallback(async () => {
     try {
@@ -132,6 +169,12 @@ export function AccountProvider({ children }: { children: ReactNode }) {
   const save = (s: SyncState) => {
     saveLS(SYNC_KEY, s);
     setShares(s.shares);
+    setHeld(s.others);
+  };
+  /** Change the stored state in one synchronous step, and only while it is still this user's. */
+  const patch = (userId: string, fn: (s: SyncState) => SyncState) => {
+    const s = loadState();
+    if (s.userId === userId) save(fn(s));
   };
 
   const sync = useCallback(async () => {
@@ -142,76 +185,97 @@ export function AccountProvider({ children }: { children: ReactNode }) {
       return;
     }
     running.current = true;
+    clearTimeout(retry.current);
     setStatus('syncing');
     try {
-      let remote: RemoteList[];
-      try {
-        // Another device may run another version of the app: clean what it wrote like anything from storage.
-        remote = (await api.lists()).flatMap((r): RemoteList[] => {
-          if (r.deleted) return [r];
-          const [l] = sanitizeLists({ lists: [r] }).lists;
-          return l ? [{ ...l, share_id: r.share_id }] : [];
-        });
-      } catch (e) {
-        if (e instanceof ApiError && e.status === 401) {
-          // signed out elsewhere, or the session ran out: back to browser-only, lists untouched
-          setMe((m) => (m ? { ...m, user: null } : m));
-          return;
-        }
-        throw e;
-      }
+      const linksBefore = linkChanges.current;
+      // Another device may run another version of the app: clean what it wrote like anything from storage.
+      const remote = (await api.lists()).flatMap((r): RemoteList[] => {
+        if (r.deleted) return [r];
+        const [l] = sanitizeLists({ lists: [r] }).lists;
+        return l ? [{ ...l, share_id: r.share_id }] : [];
+      });
       // Read after the await, with nothing async before the write below, so an edit made while
       // the request was in flight is part of the merge instead of being overwritten by it.
       const prev = loadState();
-      const state0 = prev.userId === u.id ? prev : emptySyncState(u.id);
+      const state0 = stateFor(prev, u.id);
       const plan = planSync(listsRef.current, remote, state0);
       const state = plan.state;
+      // A link made or stopped while the request was in flight is not in `remote`: keep what
+      // was stored for it, and let the sync that follows read the server again.
+      if (linksBefore !== linkChanges.current && state0 === prev) {
+        state.shares = prev.shares;
+        again.current = true;
+      }
       // State first: the effect that turns disappearing lists into tombstones reads it.
       save(state);
       if (plan.pulled) replaceLists(plan.lists);
+      const held = Object.keys(state.others).length;
+      if (state0 !== prev && held) {
+        toast(
+          `${held === 1 ? 'A list' : `${held} lists`} from another account ${held === 1 ? 'stays' : 'stay'} in this browser and ${held === 1 ? 'was' : 'were'} not added to this account.`,
+        );
+      }
 
+      // From here on the stored state only changes through `patch`, one finished request at a time:
+      // a list counts as synced once the server has it, and whatever else was stored meanwhile
+      // (a deletion, a share link) is kept.
       let failed: string | null = null;
       for (const l of plan.push) {
         if (refused.current.get(l.id) === l.updated) {
-          delete state.synced[l.id];
           failed = 'A list could not be saved to your account';
           continue;
         }
+        // deleted since the plan was made: nothing to send (its tombstone, if the server knew it, is stored)
+        if (!listsRef.current.some((x) => x.id === l.id)) continue;
         try {
           await api.putList(l, summarize(l, db));
         } catch (e) {
-          delete state.synced[l.id];
-          if (!(e instanceof ApiError) || e.status === 0 || e.status >= 500) throw e;
+          if (!isRefusal(e)) throw e;
           // 409: the server has a newer copy; the sync that follows takes it
           if (e.status === 409) again.current = true;
           else {
             refused.current.set(l.id, l.updated);
             failed = `"${l.name}" could not be saved to your account: ${e.message}`;
           }
+          continue;
         }
+        patch(u.id, (s) =>
+          notePushed(
+            s,
+            l.id,
+            l.updated,
+            listsRef.current.some((x) => x.id === l.id),
+          ),
+        );
       }
       for (const d of plan.pushDeletes) {
         try {
           await api.deleteList(d.id, d.updated);
         } catch (e) {
-          if (!(e instanceof ApiError) || e.status === 0 || e.status >= 500) throw e;
+          if (!isRefusal(e)) throw e;
           if (e.status === 409) again.current = true;
         }
-        delete state.tombstones[d.id];
+        patch(u.id, (s) => {
+          const { [d.id]: _sent, ...tombstones } = s.tombstones;
+          return { ...s, tombstones };
+        });
       }
-      // Tombstones written while this ran are in storage, not in `state`: keep them.
-      const now = loadState();
-      if (now.userId === u.id)
-        for (const [id, at] of Object.entries(now.tombstones)) if (!(id in state.synced)) state.tombstones[id] ??= at;
-      for (const d of plan.pushDeletes) delete state.tombstones[d.id];
-      save(state);
       setLastSync(Date.now());
       setProblem(failed);
       setStatus(failed ? 'error' : 'idle');
     } catch (e) {
+      if (e instanceof ApiError && e.status === 401) {
+        // signed out elsewhere, or the session ran out: back to browser-only, lists untouched
+        again.current = false;
+        setMe((m) => (m ? { ...m, user: null } : m));
+        return;
+      }
       const offline = e instanceof ApiError && e.status === 0;
       setProblem(offline ? 'Offline: changes are saved in this browser and sync when you reconnect' : 'Sync failed. It will retry.');
       setStatus(offline ? 'offline' : 'error');
+      // Coming back online has its own trigger below; anything else (a server fault, a rate limit) is tried again.
+      if (!offline) retry.current = setTimeout(() => void sync(), RETRY_MS);
     } finally {
       running.current = false;
       if (again.current) {
@@ -219,17 +283,20 @@ export function AccountProvider({ children }: { children: ReactNode }) {
         void sync();
       }
     }
-  }, [db, replaceLists]);
+  }, [db, replaceLists, setMe, toast]);
 
   // Signing in (or loading the page signed in) syncs straight away.
   useEffect(() => {
     if (user) void sync();
     else {
+      clearTimeout(retry.current);
       setStatus('off');
       setProblem(null);
       setShares({});
+      setHeld({});
     }
   }, [user?.id, sync]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => () => clearTimeout(retry.current), []);
 
   // A synced list that disappears from this browser was deleted here: remember to tell the server.
   const prevIds = useRef<string[]>(lists.map((l) => l.id));
@@ -282,11 +349,10 @@ export function AccountProvider({ children }: { children: ReactNode }) {
         toast('Could not reach the server to sign out');
         return;
       }
-      if (removeLists) {
-        const s = loadState();
-        replaceLists(listsRef.current.filter((l) => !(l.id in s.synced)));
-      }
-      save(emptySyncState());
+      const s = loadState();
+      if (removeLists) replaceLists(listsRef.current.filter((l) => !(l.id in s.synced)));
+      // The lists that stay remember their account, so the next person to sign in here does not get them.
+      save(signedOutState(s));
       setMe((m) => (m ? { ...m, user: null } : m));
       toast(removeLists ? 'Signed out. Synced lists were removed from this browser.' : 'Signed out. Your lists are still in this browser.');
     },
@@ -295,7 +361,8 @@ export function AccountProvider({ children }: { children: ReactNode }) {
 
   const deleteAccount = useCallback(async () => {
     await api.deleteAccount();
-    save(emptySyncState());
+    // the account's own lists now belong to nobody; ones held for another account stay held
+    save(emptySyncState(null, loadState().others));
     setMe((m) => (m ? { ...m, user: null } : m));
     toast('Account deleted. Your lists are still in this browser.');
   }, [toast]);
@@ -307,7 +374,9 @@ export function AccountProvider({ children }: { children: ReactNode }) {
       // The server can only publish what it has, and at its latest.
       if (loadState().synced[listId] !== l.updated || running.current) await api.putList(l, summarize(l, db));
       const { id } = await api.publish(listId);
-      const s = loadState();
+      linkChanges.current++;
+      // sharing a held list uploaded it: it is this account's now
+      const s = adoptList(loadState(), listId);
       save({ ...s, synced: { ...s.synced, [listId]: l.updated }, shares: { ...s.shares, [listId]: id } });
       return shareLinkUrl(id);
     },
@@ -316,10 +385,19 @@ export function AccountProvider({ children }: { children: ReactNode }) {
 
   const unpublish = useCallback(async (listId: string) => {
     await api.unpublish(listId);
+    linkChanges.current++;
     const s = loadState();
     const { [listId]: _gone, ...rest } = s.shares;
     save({ ...s, shares: rest });
   }, []);
+
+  const adopt = useCallback(
+    (listId: string) => {
+      save(adoptList(loadState(), listId));
+      void sync();
+    },
+    [sync],
+  );
 
   const value = useMemo<Account>(
     () => ({
@@ -331,6 +409,7 @@ export function AccountProvider({ children }: { children: ReactNode }) {
       problem,
       lastSync,
       shares,
+      held,
       signInOpen,
       setSignInOpen,
       refresh,
@@ -339,8 +418,26 @@ export function AccountProvider({ children }: { children: ReactNode }) {
       deleteAccount,
       publish,
       unpublish,
+      adopt,
     }),
-    [backend, me, user, status, problem, lastSync, shares, signInOpen, refresh, sync, signOut, deleteAccount, publish, unpublish],
+    [
+      backend,
+      me,
+      user,
+      status,
+      problem,
+      lastSync,
+      shares,
+      held,
+      signInOpen,
+      refresh,
+      sync,
+      signOut,
+      deleteAccount,
+      publish,
+      unpublish,
+      adopt,
+    ],
   );
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

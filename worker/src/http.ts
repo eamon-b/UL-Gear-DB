@@ -37,13 +37,17 @@ export function redirect(location: string, headers?: HeadersInit): Response {
   return new Response(null, { status: 302, headers: h });
 }
 
+/** For text and attribute values in HTML this Worker writes (the sign-in email, link-preview tags). */
+export const escapeHtml = (s: string) => s.replace(/[&<>"']/g, (ch) => `&#${ch.charCodeAt(0)};`);
+
+export const isJsonType = (contentType: string | null) => /^application\/json\s*(;|$)/i.test(contentType ?? '');
+
 /** Largest body any endpoint accepts: a 200 KB list plus its name and summary. */
 const MAX_BODY = 256 * 1024;
 
 /** Reads a JSON body, refusing anything over MAX_BODY without buffering it. */
 export async function readJson(request: Request): Promise<unknown> {
-  const ct = request.headers.get('Content-Type') ?? '';
-  if (!/^application\/json\s*(;|$)/i.test(ct)) {
+  if (!isJsonType(request.headers.get('Content-Type'))) {
     throw new HttpError(415, 'unsupported_media_type', 'Send the body as Content-Type: application/json');
   }
   const declared = Number(request.headers.get('Content-Length') ?? 0);

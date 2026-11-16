@@ -1,5 +1,15 @@
 import { describe, expect, it } from 'vitest';
-import { href, isPlainClick, legacyHashTarget, parseLocation, parsePath, stripBase } from '../src/lib/router';
+import {
+  href,
+  isApiPath,
+  isPlainClick,
+  legacyHashTarget,
+  parseLocation,
+  parsePath,
+  returnHashFor,
+  returnPath,
+  stripBase,
+} from '../src/lib/router';
 
 const loc = (pathname: string, search = '', hash = '') => ({ pathname, search, hash });
 
@@ -97,5 +107,42 @@ describe('isPlainClick', () => {
     expect(isPlainClick({ ...e, ctrlKey: true })).toBe(false);
     expect(isPlainClick({ ...e, shiftKey: true })).toBe(false);
     expect(isPlainClick({ ...e, altKey: true })).toBe(false);
+  });
+});
+
+describe('isApiPath', () => {
+  it('knows the backend URLs from the pages of the app', () => {
+    expect(isApiPath('/api/auth/google/start', '/')).toBe(true);
+    expect(isApiPath('/api', '/')).toBe(true);
+    expect(isApiPath('/UL-Gear-DB/api/me', '/UL-Gear-DB/')).toBe(true);
+    expect(isApiPath('/apiary', '/')).toBe(false);
+    expect(isApiPath('/item/api', '/')).toBe(false);
+    expect(isApiPath('/', '/')).toBe(false);
+  });
+});
+
+describe('the return from signing in', () => {
+  it('goes back to the path and query; the fragment waits in the browser', () => {
+    expect(returnPath(parsePath('/share#abc'))).toBe('/share');
+    expect(returnPath(parsePath('/search?q=tent+stake#x'))).toBe('/search?q=tent+stake');
+    expect(returnPath(parsePath('/'))).toBe('/');
+  });
+
+  it('gives the fragment back only to the page it came from, and only for a while', () => {
+    const saved = { to: '/share', hash: 'abc', at: 1000 };
+    expect(returnHashFor('/share', saved, 2000)).toBe('abc');
+    expect(returnHashFor('/lists', saved, 2000)).toBeNull();
+    expect(returnHashFor('/share', saved, 1000 + 31 * 60 * 1000)).toBeNull();
+    expect(returnHashFor('/share', saved, 500)).toBeNull();
+    for (const bad of [
+      null,
+      'x',
+      {},
+      { to: '/share', hash: 5, at: 1000 },
+      { to: '/share', hash: '', at: 1000 },
+      { to: '/share', hash: 'a' },
+    ]) {
+      expect(returnHashFor('/share', bad, 2000)).toBeNull();
+    }
   });
 });

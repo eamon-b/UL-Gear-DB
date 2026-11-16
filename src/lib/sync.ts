@@ -7,7 +7,9 @@ export type RemoteList = (PackList & { deleted?: undefined; share_id?: string })
  * What this browser remembers about the account it last synced with.
  * `synced[id]` is the `updated` stamp at which the local and server copies of a list last agreed,
  * so a list whose `updated` differs has unsent edits. `tombstones[id]` is when a synced list was
- * deleted here, kept until the server has the deletion too.
+ * deleted here, kept until the server has the deletion too. `others[id]` is the other account a
+ * list in this browser was synced with: such a list stays here and is never uploaded to the
+ * account now signed in, unless the user asks for that (`adopt`).
  */
 export interface SyncState {
   userId: string | null;
@@ -15,9 +17,17 @@ export interface SyncState {
   tombstones: Record<string, number>;
   /** list id -> live share link id */
   shares: Record<string, string>;
+  /** list id -> id of the other account the list belongs to */
+  others: Record<string, string>;
 }
 
-export const emptySyncState = (userId: string | null = null): SyncState => ({ userId, synced: {}, tombstones: {}, shares: {} });
+export const emptySyncState = (userId: string | null = null, others: Record<string, string> = {}): SyncState => ({
+  userId,
+  synced: {},
+  tombstones: {},
+  shares: {},
+  others,
+});
 
 export function sanitizeSyncState(v: unknown): SyncState {
   const o = v && typeof v === 'object' && !Array.isArray(v) ? (v as Record<string, unknown>) : {};
@@ -38,6 +48,7 @@ export function sanitizeSyncState(v: unknown): SyncState {
     synced: nums(o.synced),
     tombstones: nums(o.tombstones),
     shares: strs(o.shares),
+    others: strs(o.others),
   };
 }
 
@@ -48,7 +59,10 @@ export interface SyncPlan {
   push: PackList[];
   /** deletions made here that the server has not seen */
   pushDeletes: { id: string; updated: number }[];
-  /** state to keep once every push has succeeded (pushes are assumed to succeed; see `afterPush`) */
+  /**
+   * What is true before anything is pushed: a list in `push` is recorded at the stamp the server
+   * holds (or not at all when the server has no copy), so it reads as unsynced until `notePushed`.
+   */
   state: SyncState;
   /** how many local lists were replaced, added or removed, for the status line */
   pulled: number;
@@ -68,7 +82,7 @@ export function planSync(local: PackList[], remote: RemoteList[], prev: SyncStat
   const out = new Map<string, PackList>();
   const push: PackList[] = [];
   const pushDeletes: SyncPlan['pushDeletes'] = [];
-  const state = emptySyncState(prev.userId);
+  const state = emptySyncState(prev.userId, Object.fromEntries(Object.entries(prev.others).filter(([id]) => byId.has(id))));
   let pulled = 0;
 
   for (const r of remote) {
@@ -80,7 +94,6 @@ export function planSync(local: PackList[], remote: RemoteList[], prev: SyncStat
       if (l && l.updated > r.updated) {
         out.set(l.id, l);
         push.push(l);
-        state.synced[l.id] = l.updated;
       } else if (l) pulled++;
       continue;
     }
@@ -88,9 +101,9 @@ export function planSync(local: PackList[], remote: RemoteList[], prev: SyncStat
     if (l) {
       if (l.updated > r.updated) push.push(l);
       else if (l.updated < r.updated) pulled++;
-      const keep = l.updated >= r.updated ? l : strip(r);
-      out.set(keep.id, keep);
-      state.synced[keep.id] = keep.updated;
+      out.set(l.id, l.updated >= r.updated ? l : strip(r));
+      // the server's stamp: a local copy that is newer stays unsynced until its push succeeds
+      state.synced[l.id] = r.updated;
     } else if (gone != null && gone >= r.updated) {
       // Deleted here after the server's last edit: the deletion stands.
       pushDeletes.push({ id: r.id, updated: gone });
@@ -106,8 +119,8 @@ export function planSync(local: PackList[], remote: RemoteList[], prev: SyncStat
   for (const l of local) {
     if (seen.has(l.id)) continue;
     out.set(l.id, l);
-    push.push(l);
-    state.synced[l.id] = l.updated;
+    // Another account's list (left here by "Sign out") is kept but not uploaded to this one.
+    if (!(l.id in state.others)) push.push(l);
   }
   // Keep the order the user sees: existing lists stay put, lists from other devices go last.
   const lists = [...local.filter((l) => out.has(l.id)).map((l) => out.get(l.id)!), ...[...out.values()].filter((l) => !byId.has(l.id))];
@@ -118,7 +131,44 @@ const strip = (r: PackList): PackList => ({ id: r.id, name: r.name, items: r.ite
 
 /** Does this browser hold anything the server has not been sent? */
 export function hasUnsynced(local: PackList[], s: SyncState): boolean {
-  return local.some((l) => s.synced[l.id] !== l.updated) || Object.keys(s.tombstones).length > 0;
+  return local.some((l) => !(l.id in s.others) && s.synced[l.id] !== l.updated) || Object.keys(s.tombstones).length > 0;
+}
+
+/**
+ * A push reached the server. `still` says whether the list is still in this browser: one deleted
+ * while the request was in flight is now on the server, which has to hear about the deletion next.
+ */
+export function notePushed(s: SyncState, id: string, updated: number, still: boolean, at = Date.now()): SyncState {
+  if (still) return { ...s, synced: { ...s.synced, [id]: updated } };
+  const { [id]: _a, ...synced } = s.synced;
+  return { ...s, synced, tombstones: { ...s.tombstones, [id]: s.tombstones[id] ?? at } };
+}
+
+/** Every list `s` ties to an account, by that account: those held already plus what `s.userId` synced. */
+function owners(s: SyncState): Record<string, string> {
+  const others = { ...s.others };
+  if (s.userId) for (const id of Object.keys(s.synced)) others[id] = s.userId;
+  return others;
+}
+
+/**
+ * The state to start from when `userId` is signed in. Unchanged for the account already synced with.
+ * For a different one, the lists the previous account synced are held back (see `SyncState.others`),
+ * so signing in on a shared computer does not copy someone else's lists into this account. Lists
+ * that belong to `userId` from an earlier visit are released again.
+ */
+export function stateFor(prev: SyncState, userId: string): SyncState {
+  if (prev.userId === userId) return prev;
+  return emptySyncState(userId, Object.fromEntries(Object.entries(owners(prev)).filter(([, owner]) => owner !== userId)));
+}
+
+/** The state after signing out with the lists kept: nothing is synced, and each list keeps its owner. */
+export const signedOutState = (prev: SyncState): SyncState => emptySyncState(null, owners(prev));
+
+/** The user chose to add another account's list to the one signed in. */
+export function adopt(s: SyncState, id: string): SyncState {
+  const { [id]: _a, ...others } = s.others;
+  return { ...s, others };
 }
 
 /** Record a deletion made here. Lists that never reached the server need no tombstone. */

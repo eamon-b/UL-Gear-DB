@@ -3,11 +3,13 @@ import { createRoot } from 'react-dom/client';
 import App from './App';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { loadDB } from './lib/data';
-import { currentRoute, migrateLegacyHash } from './lib/router';
+import { currentRoute, migrateLegacyHash, restoreReturnHash } from './lib/router';
 import './styles.css';
 
 // Old links (#/c/shelter, #/share/<data>) become path URLs before anything reads the location.
 const migrated = migrateLegacyHash();
+// Back from signing in on a `/share#<data>` page: the list in the fragment did not make the round trip.
+restoreReturnHash();
 
 const el = document.getElementById('root')!;
 // A prerendered page shows its content until the data has loaded. It only fits the URL it was made

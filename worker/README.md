@@ -71,13 +71,13 @@ The Workers Rate Limiting binding was not used, because it only supports 10 s an
   - display name from Google, if any
   - creation time
 - **Sessions:** the SHA-256 of the session token, the user id, and the expiry (90 days, sliding).
-- **Lists:** name, items, the client-computed summary (weights, count, cost), and created/updated times. A deleted list leaves a tombstone with only its id and deletion time, so other devices learn about the deletion.
+- **Lists:** name, items, the client-computed summary (weights, count, cost), and created/updated times. A deleted list leaves a tombstone with only its id and deletion time, so other devices learn about the deletion. Tombstones are removed 180 days after the server recorded them.
 - **Share links:**
   - snapshots store a copy of name, items and summary
   - live links store only the list they point to
   - anonymous snapshots have no owner
 - **Short-lived rows, removed after use or expiry:**
-  - magic-link tokens: hashed, with the address and return path, 15 min
+  - magic-link tokens: hashed together with a random value kept in a cookie of the browser that asked (the link signs in only that browser), with the address and return path, 15 min
   - OAuth state and PKCE verifier: 10 min
   - rate-limit counters: keyed by a hash of the IP or address
 

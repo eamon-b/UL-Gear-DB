@@ -1,5 +1,16 @@
 import { describe, expect, it } from 'vitest';
-import { emptySyncState, hasUnsynced, noteDeleted, planSync, sanitizeSyncState, type RemoteList } from '../src/lib/sync';
+import {
+  adopt,
+  emptySyncState,
+  hasUnsynced,
+  noteDeleted,
+  notePushed,
+  planSync,
+  sanitizeSyncState,
+  signedOutState,
+  stateFor,
+  type RemoteList,
+} from '../src/lib/sync';
 import type { PackList } from '../src/lib/types';
 
 const list = (id: string, updated: number, name = id): PackList => ({ id, name, items: [], created: 1, updated });
@@ -16,8 +27,39 @@ describe('planSync', () => {
     const p = planSync(local, [], emptySyncState('u1'));
     expect(p.lists).toEqual(local);
     expect(p.push.map((l) => l.id)).toEqual(['a', 'b']);
-    expect(p.state.synced).toEqual({ a: 10, b: 20 });
     expect(p.pulled).toBe(0);
+  });
+
+  it('counts a list as synced only once the server has it', () => {
+    // b is newer here, c is new here, d was deleted elsewhere and edited here since
+    const local = [list('a', 10), list('b', 30), list('c', 5), list('d', 60)];
+    const p = planSync(local, [remote('a', 10), remote('b', 20), dead('d', 50)], state());
+    expect(p.push.map((l) => l.id)).toEqual(['b', 'd', 'c']);
+    // before the pushes: b at the server's stamp, c and d not on the server at all
+    expect(p.state.synced).toEqual({ a: 10, b: 20 });
+    expect(hasUnsynced(local, p.state)).toBe(true);
+    let s = p.state;
+    for (const l of p.push) s = notePushed(s, l.id, l.updated, true);
+    expect(s.synced).toEqual({ a: 10, b: 30, c: 5, d: 60 });
+    expect(hasUnsynced(local, s)).toBe(false);
+  });
+
+  it('a list deleted while its push was in flight is deleted on the server next', () => {
+    const p = planSync([list('a', 30), list('new', 5)], [remote('a', 20)], state());
+    // "a" was known to the server: deleting it mid-push leaves a tombstone, which the push must not undo
+    let s = noteDeleted(p.state, 'a', 99);
+    s = notePushed(s, 'a', 30, false, 120);
+    expect(s.synced).toEqual({});
+    expect(s.tombstones).toEqual({ a: 99 });
+    // "new" was not: its deletion left nothing, but the push has put it on the server
+    s = notePushed(noteDeleted(s, 'new', 100), 'new', 5, false, 120);
+    expect(s.tombstones).toEqual({ a: 99, new: 120 });
+    const next = planSync([], [remote('a', 30), remote('new', 5)], s);
+    expect(next.lists).toEqual([]);
+    expect(next.pushDeletes).toEqual([
+      { id: 'a', updated: 99 },
+      { id: 'new', updated: 120 },
+    ]);
   });
 
   it('adds lists from another device after the local ones', () => {
@@ -31,7 +73,7 @@ describe('planSync', () => {
     const p = planSync([list('a', 10, 'old'), list('b', 30, 'mine')], [remote('a', 20, { name: 'theirs' }), remote('b', 20)], state());
     expect(p.lists.map((l) => l.name)).toEqual(['theirs', 'mine']);
     expect(p.push.map((l) => l.id)).toEqual(['b']);
-    expect(p.state.synced).toEqual({ a: 20, b: 30 });
+    expect(p.state.synced).toEqual({ a: 20, b: 20 });
   });
 
   it('removes a list deleted elsewhere, unless it was edited here afterwards', () => {
@@ -65,6 +107,50 @@ describe('planSync', () => {
   });
 });
 
+describe('lists from another account', () => {
+  const mine = [list('a', 10), list('b', 20), list('fresh', 5)];
+  // A synced a and b, then signed out and left them in the browser
+  const left = signedOutState(state({ synced: { a: 10, b: 20 }, shares: { a: 'x' }, tombstones: { z: 1 } }));
+
+  it('signing out keeps who the lists belong to and nothing else', () => {
+    expect(left).toEqual(emptySyncState(null, { a: 'u1', b: 'u1' }));
+  });
+
+  it('are not uploaded when someone else signs in', () => {
+    const s = stateFor(left, 'u2');
+    expect(s).toEqual(emptySyncState('u2', { a: 'u1', b: 'u1' }));
+    const p = planSync(mine, [], s);
+    expect(p.lists).toEqual(mine);
+    expect(p.push.map((l) => l.id)).toEqual(['fresh']);
+    expect(p.state.others).toEqual({ a: 'u1', b: 'u1' });
+    expect(hasUnsynced(mine, notePushed(p.state, 'fresh', 5, true))).toBe(false);
+  });
+
+  it('also when the first account was never signed out (its session ran out)', () => {
+    const s = stateFor(state({ synced: { a: 10 } }), 'u2');
+    expect(s.others).toEqual({ a: 'u1' });
+    expect(planSync(mine, [], s).push.map((l) => l.id)).toEqual(['b', 'fresh']);
+  });
+
+  it('go back to syncing when their own account returns', () => {
+    const back = stateFor(stateFor(left, 'u2'), 'u1');
+    expect(back).toEqual(emptySyncState('u1'));
+    expect(stateFor(left, 'u1')).toEqual(emptySyncState('u1'));
+  });
+
+  it('can be added to the new account on request, and are forgotten once gone', () => {
+    const s = adopt(stateFor(left, 'u2'), 'a');
+    expect(s.others).toEqual({ b: 'u1' });
+    expect(planSync(mine, [], s).push.map((l) => l.id)).toEqual(['a', 'fresh']);
+    expect(planSync([list('a', 10)], [], s).state.others).toEqual({});
+  });
+
+  it('the same account keeps its state', () => {
+    const s = state({ synced: { a: 10 } });
+    expect(stateFor(s, 'u1')).toBe(s);
+  });
+});
+
 describe('sync state', () => {
   it('knows when there is something to send', () => {
     const s = state({ synced: { a: 10 } });
@@ -87,6 +173,7 @@ describe('sync state', () => {
       synced: { b: 2 },
       tombstones: {},
       shares: { b: 'id' },
+      others: {},
     });
   });
 });

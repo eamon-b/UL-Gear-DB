@@ -170,6 +170,9 @@ const linkFrom = (send: ReturnType<typeof mailEnv>['send'], call = 0) => {
   return new URL(/https?:\/\/\S+/.exec(msg.text)![0]);
 };
 
+/** what email_tokens holds for a link asked for by browser `c` */
+const storedHash = (c: Client, link: URL) => sha256Hex(`${link.searchParams.get('token')}.${c.cookies.get('__Host-email')}`);
+
 describe('magic link', () => {
   it('emails a single-use link that signs in and redirects to the return path', async () => {
     const { env: e, send } = mailEnv();
@@ -188,40 +191,88 @@ describe('magic link', () => {
     const link = linkFrom(send);
     expect(link.pathname).toBe('/api/auth/email/verify');
 
-    // only the hash is stored
+    // only a hash is stored, and it covers the browser's cookie as well as the token
     const token = link.searchParams.get('token')!;
-    expect(await env.DB.prepare('SELECT 1 FROM email_tokens WHERE token_hash = ?1').bind(token).first()).toBeNull();
+    const start = cookieAttrs(c.setCookies[0]);
+    expect(start.name).toBe('__Host-email');
+    expect(start.value).toMatch(/^[A-Za-z0-9_-]{43}$/);
+    expect(start.attrs).toEqual(expect.arrayContaining(['httponly', 'secure', 'samesite=lax', 'path=/', 'max-age=900']));
+    for (const h of [token, await sha256Hex(token)]) {
+      expect(await env.DB.prepare('SELECT 1 FROM email_tokens WHERE token_hash = ?1').bind(h).first()).toBeNull();
+    }
     expect(
       await env.DB.prepare('SELECT 1 FROM email_tokens WHERE token_hash = ?1')
-        .bind(await sha256Hex(token))
+        .bind(await storedHash(c, link))
         .first(),
     ).not.toBeNull();
 
-    const browser = new Client(e);
-    const res = await browser.fetch(link.pathname + link.search);
+    const res = await c.fetch(link.pathname + link.search);
     expect(res.status).toBe(302);
     expect(res.headers.get('Location')).toBe('/lists?x=1#top');
-    const sc = cookieAttrs(res.headers.get('Set-Cookie')!);
-    expect(sc.name).toBe('__Host-session');
+    const sc = cookieAttrs(c.setCookies.find((s) => s.startsWith('__Host-session='))!);
     expect(sc.value).toMatch(/^[A-Za-z0-9_-]{43}$/);
     expect(sc.attrs).toEqual(expect.arrayContaining(['httponly', 'secure', 'samesite=lax', 'path=/', 'max-age=7776000']));
     expect(sc.attrs.some((a) => a.startsWith('domain'))).toBe(false);
-    expect((await browser.json('/api/me')).body.user.email).toBe(email.toLowerCase());
+    expect(c.cookies.has('__Host-email')).toBe(false);
+    expect((await c.json('/api/me')).body.user.email).toBe(email.toLowerCase());
 
-    // second use fails
-    const again = await new Client(e).fetch(link.pathname + link.search);
+    // second use fails, even from the browser that asked
+    const replay = new Client(e);
+    replay.cookies.set('__Host-email', start.value);
+    const again = await replay.fetch(link.pathname + link.search);
     expect(again.headers.get('Location')).toBe('/?auth_error=link_invalid');
     expect(again.headers.get('Set-Cookie')).toBeNull();
   });
 
+  it('works only in the browser that asked, and nothing else uses the link up', async () => {
+    const { env: e, send } = mailEnv();
+    const c = new Client(e);
+    await c.fetch('/api/auth/email/start', { method: 'POST', body: { email: freshEmail() } });
+    const link = linkFrom(send);
+    const url = link.pathname + link.search;
+
+    // a mail scanner or link preview: no cookie
+    const scanner = new Client(e);
+    for (const method of ['GET', 'HEAD']) {
+      const res = await scanner.fetch(url, { method });
+      expect(res.headers.get('Set-Cookie')).toBeNull();
+      expect(scanner.cookies.has('__Host-session')).toBe(false);
+    }
+    expect((await scanner.fetch(url)).headers.get('Location')).toBe('/?auth_error=link_invalid');
+    // someone sent the link, in a browser with a sign-in of their own under way
+    const victim = new Client(e);
+    await victim.fetch('/api/auth/email/start', { method: 'POST', body: { email: freshEmail() } });
+    expect((await victim.fetch(url)).headers.get('Location')).toBe('/?auth_error=link_invalid');
+    expect(victim.cookies.has('__Host-session')).toBe(false);
+    // HEAD never signs in, cookie or not
+    expect((await c.fetch(url, { method: 'HEAD' })).status).toBe(405);
+
+    // after all that the link still works where it was asked for
+    expect((await c.fetch(url)).headers.get('Location')).toBe('/');
+    expect(c.cookies.has('__Host-session')).toBe(true);
+  });
+
+  it('a second request from the same browser leaves the first link working', async () => {
+    const { env: e, send } = mailEnv();
+    const c = new Client(e);
+    const email = freshEmail();
+    await c.fetch('/api/auth/email/start', { method: 'POST', body: { email } });
+    await c.fetch('/api/auth/email/start', { method: 'POST', body: { email } });
+    const first = linkFrom(send, 0);
+    expect((await c.fetch(first.pathname + first.search)).headers.get('Location')).toBe('/');
+    expect(c.cookies.has('__Host-session')).toBe(true);
+  });
+
   it('expires after 15 minutes', async () => {
     const { env: e, send } = mailEnv();
-    await new Client(e).fetch('/api/auth/email/start', { method: 'POST', body: { email: freshEmail() } });
+    const c = new Client(e);
+    await c.fetch('/api/auth/email/start', { method: 'POST', body: { email: freshEmail() } });
     const link = linkFrom(send);
-    await env.DB.prepare('UPDATE email_tokens SET expires = ?2 WHERE token_hash = ?1')
-      .bind(await sha256Hex(link.searchParams.get('token')!), Date.now() - 1)
+    const r = await env.DB.prepare('UPDATE email_tokens SET expires = ?2 WHERE token_hash = ?1')
+      .bind(await storedHash(c, link), Date.now() - 1)
       .run();
-    const res = await new Client(e).fetch(link.pathname + link.search);
+    expect(r.meta.changes).toBe(1);
+    const res = await c.fetch(link.pathname + link.search);
     expect(res.headers.get('Location')).toBe('/?auth_error=link_invalid');
     expect(res.headers.get('Set-Cookie')).toBeNull();
   });
@@ -229,9 +280,10 @@ describe('magic link', () => {
   it('expiry is set 15 minutes out', async () => {
     const { env: e, send } = mailEnv();
     const before = Date.now();
-    await new Client(e).fetch('/api/auth/email/start', { method: 'POST', body: { email: freshEmail() } });
+    const c = new Client(e);
+    await c.fetch('/api/auth/email/start', { method: 'POST', body: { email: freshEmail() } });
     const row = await env.DB.prepare('SELECT expires FROM email_tokens WHERE token_hash = ?1')
-      .bind(await sha256Hex(linkFrom(send).searchParams.get('token')!))
+      .bind(await storedHash(c, linkFrom(send)))
       .first<{ expires: number }>();
     expect(row!.expires - before).toBeGreaterThanOrEqual(15 * 60 * 1000);
     expect(row!.expires - before).toBeLessThan(15 * 60 * 1000 + 5000);
@@ -241,9 +293,11 @@ describe('magic link', () => {
     'never redirects off-site (return=%s)',
     async (ret) => {
       const { env: e, send } = mailEnv();
-      await new Client(e).fetch('/api/auth/email/start', { method: 'POST', body: { email: freshEmail(), return: ret } });
+      const c = new Client(e);
+      await c.fetch('/api/auth/email/start', { method: 'POST', body: { email: freshEmail(), return: ret } });
       const link = linkFrom(send);
-      const loc = (await new Client(e).fetch(link.pathname + link.search)).headers.get('Location')!;
+      const loc = (await c.fetch(link.pathname + link.search)).headers.get('Location')!;
+      expect(c.cookies.has('__Host-session')).toBe(true);
       expect(loc.startsWith('/')).toBe(true);
       expect(loc.startsWith('//')).toBe(false);
       expect(new URL(loc, 'https://gear.example').origin).toBe('https://gear.example');
@@ -253,7 +307,9 @@ describe('magic link', () => {
   it('rejects garbage tokens', async () => {
     const { env: e } = mailEnv();
     for (const t of ['', 'abc', 'A'.repeat(43)]) {
-      const res = await new Client(e).fetch(`/api/auth/email/verify?token=${t}`);
+      const c = new Client(e);
+      c.cookies.set('__Host-email', 'B'.repeat(43));
+      const res = await c.fetch(`/api/auth/email/verify?token=${t}`);
       expect(res.headers.get('Location')).toBe('/?auth_error=link_invalid');
     }
   });
@@ -387,8 +443,8 @@ describe('Google sign-in', () => {
     await g.fetch(`/api/auth/google/callback?code=abc&state=${loc.searchParams.get('state')}`);
     const viaGoogle = (await g.json('/api/me')).body.user.id;
 
-    await new Client(e).fetch('/api/auth/email/start', { method: 'POST', body: { email } });
     const m = new Client(e);
+    await m.fetch('/api/auth/email/start', { method: 'POST', body: { email } });
     const link = linkFrom(send);
     await m.fetch(link.pathname + link.search);
     expect((await m.json('/api/me')).body.user.id).toBe(viaGoogle);

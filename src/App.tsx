@@ -30,7 +30,8 @@ const AUTH_ERRORS: Record<string, string> = {
   google_denied: 'Google sign-in was cancelled.',
   google_state: 'Google sign-in expired. Please try again.',
   google_failed: 'Google sign-in failed. Please try again.',
-  link_invalid: 'That sign-in link has expired or was already used. Ask for a new one.',
+  link_invalid:
+    'That sign-in link has expired, was already used, or was opened in a different browser from the one that asked for it. Ask for a new one.',
 };
 
 /** The browser side of the shell: follows the URL, handles link clicks, keeps the <head> current. */
@@ -42,7 +43,11 @@ function ClientShell() {
     const code = route.query.get('auth_error');
     if (!code) return;
     toast(AUTH_ERRORS[code] ?? 'Sign-in failed. Please try again.');
-    navigate(route.pathname, true);
+    // drop only the error code: the rest of the URL (other parameters, a fragment) stays
+    const rest = new URLSearchParams(route.query);
+    rest.delete('auth_error');
+    const q = rest.toString();
+    navigate(route.pathname + (q ? `?${q}` : '') + (route.hash ? `#${route.hash}` : ''), true);
   }, [route, toast]);
   useEffect(() => interceptLinks(document.getElementById('root') ?? document), []);
   // the prerendered markup (if any) is gone now: #root belongs to the app

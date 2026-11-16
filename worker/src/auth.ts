@@ -5,6 +5,7 @@ import {
   HttpError,
   clearCookie,
   clientIp,
+  escapeHtml,
   isLocalHost,
   json,
   noContent,
@@ -21,7 +22,16 @@ import * as v from './validate';
 
 const SESSION = 'session';
 const OAUTH = 'oauth';
+const EMAIL = 'email';
+/** the shape of every token `randomToken` makes */
+const TOKEN = /^[A-Za-z0-9_-]{43}$/;
 const DAY = 24 * 3600 * 1000;
+/**
+ * How long a deleted list's tombstone is kept. Twice the session lifetime: a device that has not
+ * synced for this long has been signed out for half of it, and is the only kind that could still
+ * hold the list. (If it signs in again, the list comes back as one only that device has.)
+ */
+export const TOMBSTONE_TTL = 180 * DAY;
 export const SESSION_TTL = 90 * DAY;
 /** Sliding expiry: refresh at most once a day so most requests don't write. */
 const SESSION_REFRESH_AFTER = DAY;
@@ -53,7 +63,7 @@ export interface Session {
 
 export async function getSession(c: Ctx): Promise<Session | null> {
   const token = parseCookies(c.request).get(cookieName(c.url, SESSION));
-  if (!token || !/^[A-Za-z0-9_-]{43}$/.test(token)) return null;
+  if (!token || !TOKEN.test(token)) return null;
   const tokenHash = await sha256Hex(token);
   const row = await c.env.DB.prepare(
     `SELECT s.expires, u.id, u.email, u.name FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token_hash = ?1`,
@@ -99,6 +109,8 @@ export async function cleanup(env: AppEnv, now: number): Promise<void> {
       env.DB.prepare('DELETE FROM email_tokens WHERE expires <= ?1').bind(now),
       env.DB.prepare('DELETE FROM oauth_states WHERE expires <= ?1').bind(now),
       env.DB.prepare('DELETE FROM rate_limits WHERE expires <= ?1').bind(now),
+      // a tombstone's `created` is when the server recorded the deletion (see deleteList)
+      env.DB.prepare('DELETE FROM lists WHERE deleted = 1 AND created <= ?1').bind(now - TOMBSTONE_TTL),
     ]);
   } catch (e) {
     console.error(JSON.stringify({ message: 'cleanup failed', error: e instanceof Error ? e.message : String(e) }));
@@ -166,11 +178,15 @@ export async function emailStart(c: Ctx): Promise<Response> {
   const email = v.email(b.email);
   const returnTo = safeReturnPath(b.return, c.url.origin);
   await enforce(c.env, 'emailIp', clientIp(c.request), c.now);
+  // The link only works in the browser that asked for it: it holds this value in a cookie, and
+  // the stored hash covers both. Kept across requests so an earlier link still works.
+  const held = parseCookies(c.request).get(cookieName(c.url, EMAIL)) ?? '';
+  const browser = TOKEN.test(held) ? held : randomToken();
   // Over the per-address limit: answer exactly as if a link had been sent.
   if (await hit(c.env, 'emailAddress', email, c.now)) {
     const token = randomToken();
     await c.env.DB.prepare('INSERT INTO email_tokens (token_hash, email, return_to, expires) VALUES (?1, ?2, ?3, ?4)')
-      .bind(await sha256Hex(token), email, returnTo, c.now + EMAIL_TOKEN_TTL)
+      .bind(await emailTokenHash(token, browser), email, returnTo, c.now + EMAIL_TOKEN_TTL)
       .run();
     const link = `${c.url.origin}/api/auth/email/verify?token=${token}`;
     const host = c.url.host;
@@ -179,9 +195,9 @@ export async function emailStart(c: Ctx): Promise<Response> {
         c.env,
         email,
         `Sign in to ${host}`,
-        `Open this link to sign in to ${host}:\n\n${link}\n\nIt works once and expires in 15 minutes. If you did not ask for it, ignore this email.`,
+        `Open this link to sign in to ${host}:\n\n${link}\n\nIt works once, in the browser you asked from, and expires in 15 minutes. If you did not ask for it, ignore this email.`,
         `<p>Open this link to sign in to ${escapeHtml(host)}:</p><p><a href="${escapeHtml(link)}">Sign in</a></p>` +
-          `<p>It works once and expires in 15 minutes. If you did not ask for it, ignore this email.</p>`,
+          `<p>It works once, in the browser you asked from, and expires in 15 minutes. If you did not ask for it, ignore this email.</p>`,
       );
     } catch (e) {
       // never log the address or the link
@@ -189,21 +205,35 @@ export async function emailStart(c: Ctx): Promise<Response> {
       console.error(JSON.stringify({ message: 'magic link send failed', code: typeof code === 'string' ? code : 'unknown' }));
     }
   }
-  return json({}, 202);
+  return json({}, 202, { 'Set-Cookie': setCookie(c.url, EMAIL, browser, EMAIL_TOKEN_TTL / 1000) });
 }
 
+/** What `email_tokens` stores for a link: both halves are needed to find the row. */
+const emailTokenHash = (token: string, browser: string) => sha256Hex(`${token}.${browser}`);
+
+/**
+ * The link from the email. It signs in only the browser that asked for it (the cookie set by
+ * `emailStart`). Anything else that fetches the URL, such as a mail scanner or a link preview,
+ * has no cookie, finds no row and leaves the token unused; and a link sent to someone else
+ * cannot sign their browser in to the sender's account.
+ */
 export async function emailVerify(c: Ctx): Promise<Response> {
+  // HEAD is routed like GET, but must never use up a link.
+  if (c.request.method !== 'GET') throw new HttpError(405, 'method_not_allowed', 'Method not allowed');
   const token = c.url.searchParams.get('token') ?? '';
+  const browser = parseCookies(c.request).get(cookieName(c.url, EMAIL)) ?? '';
   const fail = () => redirect(authErrorUrl('link_invalid'));
-  if (!/^[A-Za-z0-9_-]{43}$/.test(token)) return fail();
+  if (!TOKEN.test(token) || !TOKEN.test(browser)) return fail();
   // DELETE ... RETURNING makes the token single-use even under concurrent clicks.
   const row = await c.env.DB.prepare('DELETE FROM email_tokens WHERE token_hash = ?1 RETURNING email, return_to, expires')
-    .bind(await sha256Hex(token))
+    .bind(await emailTokenHash(token, browser))
     .first<{ email: string; return_to: string; expires: number }>();
   if (!row || row.expires <= c.now) return fail();
   const userId = await upsertUser(c.env, row.email, null, c.now);
-  const cookie = await createSession(c, userId);
-  return redirect(safeReturnPath(row.return_to, c.url.origin), { 'Set-Cookie': cookie });
+  const h = new Headers();
+  h.append('Set-Cookie', await createSession(c, userId));
+  h.append('Set-Cookie', clearCookie(c.url, EMAIL));
+  return redirect(safeReturnPath(row.return_to, c.url.origin), h);
 }
 
 // ---------------- Google ----------------
@@ -314,8 +344,4 @@ function timingSafeEqual(a: string, b: string): boolean {
   const y = enc.encode(b);
   if (x.byteLength !== y.byteLength) return false;
   return crypto.subtle.timingSafeEqual(x, y);
-}
-
-function escapeHtml(s: string): string {
-  return s.replace(/[&<>"']/g, (ch) => `&#${ch.charCodeAt(0)};`);
 }

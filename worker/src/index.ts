@@ -1,6 +1,6 @@
 import * as auth from './auth';
 import type { AppEnv, Ctx } from './env';
-import { HttpError, errorResponse, json } from './http';
+import { HttpError, errorResponse, isJsonType, json } from './http';
 import * as lists from './lists';
 import { fetchShell, sharePage } from './preview';
 import * as shares from './shares';
@@ -45,7 +45,7 @@ function checkCsrf(request: Request, url: URL): void {
   }
   if (host !== url.host) throw new HttpError(403, 'forbidden', 'Cross-origin request refused');
   const hasBody = request.headers.has('Transfer-Encoding') || Number(request.headers.get('Content-Length') ?? 0) > 0;
-  if (hasBody && !/^application\/json\s*(;|$)/i.test(request.headers.get('Content-Type') ?? '')) {
+  if (hasBody && !isJsonType(request.headers.get('Content-Type'))) {
     throw new HttpError(415, 'unsupported_media_type', 'Send the body as Content-Type: application/json');
   }
 }

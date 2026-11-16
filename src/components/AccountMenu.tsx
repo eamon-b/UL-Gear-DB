@@ -1,7 +1,7 @@
 import { useEffect, useState, type FormEvent } from 'react';
-import { shareLinkUrl, useAccount } from '../lib/account';
+import { countUploadable, shareLinkUrl, useAccount } from '../lib/account';
 import { api, ApiError, type ShareLink } from '../lib/api';
-import { currentRoute } from '../lib/router';
+import { rememberReturn, returnPath } from '../lib/router';
 import { useStore } from '../lib/store';
 
 /** "just now", "5 min ago", "3 h ago", or a date */
@@ -83,10 +83,9 @@ function SignInDialog({ onClose }: { onClose: () => void }) {
   const [sent, setSent] = useState(false);
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState<string | null>(null);
-  // come back to the page the user was on
-  const r = currentRoute();
-  const q = r.query.toString();
-  const ret = r.pathname + (q ? `?${q}` : '');
+  // come back to the page the user was on (its fragment is kept by `rememberReturn` when a sign-in starts)
+  const ret = returnPath();
+  const uploadable = countUploadable(lists);
   const has = (p: 'google' | 'email') => !!me?.providers.includes(p);
 
   const run = async (fn: () => Promise<void>) => {
@@ -103,6 +102,7 @@ function SignInDialog({ onClose }: { onClose: () => void }) {
   const sendLink = (e: FormEvent) => {
     e.preventDefault();
     void run(async () => {
+      rememberReturn();
       await api.emailStart(email.trim(), ret);
       setSent(true);
     });
@@ -125,20 +125,26 @@ function SignInDialog({ onClose }: { onClose: () => void }) {
         <li>A shared list keeps one short link that always shows the current version.</li>
       </ul>
       <p className="muted small">
-        {lists.length
-          ? `The ${lists.length === 1 ? 'list' : `${lists.length} lists`} in this browser will be added to your account.`
+        {uploadable
+          ? `The ${uploadable === 1 ? 'list' : `${uploadable} lists`} in this browser will be added to your account.`
           : 'Lists you make are saved to your account.'}{' '}
         Everything on the site works the same without signing in.
       </p>
       {sent ? (
         <p className="account-sent" role="status">
-          Check <strong>{email.trim()}</strong> for a sign-in link. It works once and expires in 15 minutes.
+          Check <strong>{email.trim()}</strong> for a sign-in link and open it in this browser. It works once and expires in 15 minutes.
         </p>
       ) : (
         <>
           {has('google') && (
-            // a real navigation: Google's page, then back to `ret`
-            <a className="btn primary wide" href={api.googleUrl(ret)} target="_self" data-testid="google-sign-in">
+            // a real navigation: Google's page, then back to `ret` (the explicit target keeps the app's router out of it)
+            <a
+              className="btn primary wide"
+              href={api.googleUrl(ret)}
+              target="_self"
+              onClick={() => rememberReturn()}
+              data-testid="google-sign-in"
+            >
               Continue with Google
             </a>
           )}

@@ -1,5 +1,6 @@
 import { env } from 'cloudflare:workers';
 import { describe, expect, it } from 'vitest';
+import { TOMBSTONE_TTL, cleanup } from '../src/auth';
 import { MAX_LISTS } from '../src/validate';
 import { Client, item, listBody, signIn } from './helpers';
 
@@ -122,10 +123,31 @@ describe('DELETE /api/lists/:id (tombstones)', () => {
     expect((await c.json('/api/lists')).body.lists).toEqual([expect.objectContaining({ id: 'rev001', name: 'back', updated: T + 101 })]);
   });
 
-  it('records a tombstone for a list the server never saw', async () => {
+  it('keeps no tombstone for a list the server never saw', async () => {
     const c = await user();
     expect((await c.fetch(`/api/lists/never1?updated=${T}`, { method: 'DELETE' })).status).toBe(204);
-    expect((await c.json('/api/lists')).body.lists).toEqual([{ id: 'never1', updated: T, deleted: true }]);
+    expect((await c.json('/api/lists')).body.lists).toEqual([]);
+  });
+
+  it('accepts a repeated deletion without moving the tombstone', async () => {
+    const c = await user();
+    await c.fetch('/api/lists/rep001', { method: 'PUT', body: listBody({ updated: T }) });
+    for (let i = 0; i < 2; i++) expect((await c.fetch(`/api/lists/rep001?updated=${T + 1}`, { method: 'DELETE' })).status).toBe(204);
+    expect((await c.json('/api/lists')).body.lists).toEqual([{ id: 'rep001', updated: T + 1, deleted: true }]);
+  });
+
+  it('purges tombstones the server has held for 180 days, on the next sign-in', async () => {
+    const c = await user();
+    for (const id of ['old001', 'new001', 'live01']) await c.fetch(`/api/lists/${id}`, { method: 'PUT', body: listBody({ updated: T }) });
+    // deletion times as old as the lists: it is the time the server heard of them that counts
+    await c.fetch(`/api/lists/old001?updated=${T + 1}`, { method: 'DELETE' });
+    await c.fetch(`/api/lists/new001?updated=${T + 1}`, { method: 'DELETE' });
+    await env.DB.prepare('UPDATE lists SET created = ?1 WHERE id = ?2')
+      .bind(Date.now() - TOMBSTONE_TTL - 1000, 'old001')
+      .run();
+    await cleanup(c.env, Date.now());
+    const ids = (await c.json('/api/lists')).body.lists.map((l: { id: string }) => l.id).sort();
+    expect(ids).toEqual(['live01', 'new001']);
   });
 });
 
